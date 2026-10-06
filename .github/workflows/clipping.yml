@@ -1,0 +1,40 @@
+name: Clipping
+
+on:
+  schedule:
+    - cron: "17 9 * * *"      # todo dia, 06h17 em Marabá (09h17 UTC)
+  workflow_dispatch:           # botão "Run workflow" para rodar na hora
+    inputs:
+      inicio:
+        description: "Data inicial (AAAA-MM-DD). Deixe vazio para só os últimos 3 dias."
+        required: false
+      fim:
+        description: "Data final (AAAA-MM-DD). Vazio = hoje."
+        required: false
+
+permissions:
+  contents: write
+
+jobs:
+  coletar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Coletar
+        run: |
+          if [ -n "${{ github.event.inputs.inicio }}" ]; then
+            python coletar.py --inicio "${{ github.event.inputs.inicio }}" ${{ github.event.inputs.fim && format('--fim "{0}"', github.event.inputs.fim) || '' }}
+          else
+            python coletar.py --dias 3
+          fi
+      - name: Salvar resultados
+        run: |
+          git config user.name "clipping-ascom"
+          git config user.email "actions@users.noreply.github.com"
+          git add dados
+          git diff --cached --quiet || git commit -m "Atualiza clipping"
+          git push
