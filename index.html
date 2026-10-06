@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Clipping ASCOM</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&display=swap">
+<style>
+:root{--bg:#eef0ef;--surface:#fff;--fg:#17251d;--muted:#586a5e;--line:#d7dcd8;--accent:#1d4ed8;--accent-ink:#163fb0;--accent-bg:#eaf0fd;--font:'Montserrat',Arial,Helvetica,sans-serif}
+@media (prefers-color-scheme:dark){:root{--bg:#10140f;--surface:#1a211a;--fg:#e9efea;--muted:#9db0a2;--line:#2c352c;--accent:#5b8bf0;--accent-ink:#8bb0f5;--accent-bg:#1b2436}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font:15px/1.55 var(--font);padding:32px 16px 56px}
+.wrap{max-width:1000px;margin:0 auto}
+h1{margin:0 0 6px;font-size:clamp(24px,5vw,32px);font-weight:800}
+.sub{margin:0 0 22px;color:var(--muted)}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin-bottom:18px}
+.stat{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:14px 16px}
+.stat b{display:block;font-size:26px;font-weight:800}
+.stat span{color:var(--muted);font-size:13px}
+.filters{display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:10px;margin-bottom:12px}
+@media(max-width:700px){.filters{grid-template-columns:1fr 1fr}.filters input{grid-column:1/-1}}
+input,select{font:inherit;font-size:14px;padding:10px 12px;border:1px solid var(--line);border-radius:10px;background:var(--surface);color:var(--fg);min-width:0;width:100%}
+.bar{display:flex;gap:10px;align-items:center;justify-content:space-between;flex-wrap:wrap;margin-bottom:12px;color:var(--muted);font-size:13px}
+.btn{font:700 13px var(--font);border-radius:10px;padding:9px 14px;border:1px solid var(--line);background:var(--surface);color:var(--fg);cursor:pointer;text-decoration:none}
+.btn.primary{background:var(--accent);border-color:var(--accent);color:#fff}
+.list{display:flex;flex-direction:column;gap:10px}
+.item{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:14px 16px}
+.item a{color:var(--fg);font-weight:700;text-decoration:none}
+.item a:hover{color:var(--accent-ink);text-decoration:underline}
+.meta{margin-top:4px;color:var(--muted);font-size:12.5px}
+.tag{display:inline-block;background:var(--accent-bg);color:var(--accent-ink);border-radius:999px;padding:1px 9px;font-size:11.5px;font-weight:600;margin-left:6px}
+.empty{padding:40px 16px;text-align:center;color:var(--muted);background:var(--surface);border:1px dashed var(--line);border-radius:14px}
+footer{margin-top:32px;text-align:center;color:var(--muted);font-size:12.5px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>Clipping ASCOM</h1>
+  <p class="sub">Matérias da imprensa que citam a Unifesspa, coletadas automaticamente.</p>
+
+  <div class="stats">
+    <div class="stat"><b id="sTotal">0</b><span>matérias no filtro</span></div>
+    <div class="stat"><b id="sVeic">0</b><span>veículos</span></div>
+    <div class="stat"><b id="sMes">-</b><span>mês com mais matérias</span></div>
+    <div class="stat"><b id="sAtual">-</b><span>matéria mais recente</span></div>
+  </div>
+
+  <div class="filters">
+    <input id="q" type="search" placeholder="Buscar por título ou veículo">
+    <select id="fMes"><option value="">Todos os meses</option></select>
+    <select id="fVeic"><option value="">Todos os veículos</option></select>
+    <select id="fTermo"><option value="">Todos os termos</option></select>
+  </div>
+
+  <div class="bar">
+    <span id="contagem"></span>
+    <span>
+      <button class="btn" id="copiar" type="button">Copiar lista</button>
+      <a class="btn primary" href="dados/clipping.csv" download>Baixar planilha (.csv)</a>
+    </span>
+  </div>
+
+  <div class="list" id="lista"></div>
+  <footer>Ferramenta desenvolvida pela ASCOM. Os links levam à matéria no site do veículo.</footer>
+</div>
+<script>
+(function(){
+  var MESES=['janeiro','fevereiro','março','abril','maio','junho','julho','agosto','setembro','outubro','novembro','dezembro'];
+  var dados=[], $=function(id){return document.getElementById(id);};
+  function fmt(d){ return d? d.split('-').reverse().join('/') : 's/d'; }
+  function mesDe(d){ return d? d.slice(0,7) : ''; }
+  function nomeMes(m){ var p=m.split('-'); return MESES[+p[1]-1]+' de '+p[0]; }
+  function esc(s){ return String(s).replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c];}); }
+  function unicos(f){ var o={}; dados.forEach(function(r){ var v=f(r); (Array.isArray(v)?v:[v]).forEach(function(x){ if(x) o[x]=1; }); }); return Object.keys(o); }
+  function preencher(sel, vals, rot){ vals.forEach(function(v){ var o=document.createElement('option'); o.value=v; o.textContent=rot?rot(v):v; sel.appendChild(o); }); }
+
+  function filtrados(){
+    var q=$('q').value.trim().toLowerCase(), m=$('fMes').value, v=$('fVeic').value, t=$('fTermo').value;
+    return dados.filter(function(r){
+      return (!q || (r.titulo+' '+r.veiculo).toLowerCase().indexOf(q)>=0) && (!m || mesDe(r.data)===m) && (!v || r.veiculo===v) && (!t || r.termos.indexOf(t)>=0);
+    });
+  }
+  function desenhar(){
+    var f=filtrados(), cont={}, veic={};
+    f.forEach(function(r){ cont[mesDe(r.data)]=(cont[mesDe(r.data)]||0)+1; veic[r.veiculo]=1; });
+    $('sTotal').textContent=f.length; $('sVeic').textContent=Object.keys(veic).length;
+    var top=Object.keys(cont).sort(function(a,b){return cont[b]-cont[a];})[0];
+    $('sMes').textContent=top? nomeMes(top).split(' ')[0] : '-';
+    $('contagem').textContent=f.length+(f.length===1?' matéria':' matérias');
+    $('lista').innerHTML = f.length ? f.map(function(r){
+      return '<div class="item"><a href="'+esc(r.link)+'" target="_blank" rel="noopener">'+esc(r.titulo)+'</a><div class="meta">'+esc(r.veiculo||'Veículo não informado')+' · '+fmt(r.data)+'<span class="tag">'+esc(r.termos.join(', '))+'</span></div></div>';
+    }).join('') : '<div class="empty">Nenhuma matéria encontrada com esses filtros.</div>';
+  }
+  $('copiar').addEventListener('click',function(){
+    var txt=filtrados().map(function(r){ return r.titulo+' ('+r.veiculo+', '+fmt(r.data)+')\n'+r.link; }).join('\n\n');
+    (navigator.clipboard? navigator.clipboard.writeText(txt) : Promise.reject()).then(function(){ $('copiar').textContent='Copiado'; setTimeout(function(){ $('copiar').textContent='Copiar lista'; },1500); },function(){ alert('Não foi possível copiar. Use a planilha (.csv).'); });
+  });
+  ['q','fMes','fVeic','fTermo'].forEach(function(id){ $(id).addEventListener('input',desenhar); });
+
+  fetch('dados/clipping.json',{cache:'no-cache'}).then(function(r){ if(!r.ok) throw 0; return r.json(); }).then(function(d){
+    dados=d;
+    preencher($('fMes'), unicos(function(r){return mesDe(r.data);}).sort().reverse(), nomeMes);
+    preencher($('fVeic'), unicos(function(r){return r.veiculo;}).sort(function(a,b){return a.localeCompare(b,'pt');}));
+    preencher($('fTermo'), unicos(function(r){return r.termos;}).sort());
+    var ult=dados.reduce(function(a,r){return r.data>a?r.data:a;},''); $('sAtual').textContent=ult? fmt(ult).slice(0,5) : '-';
+    desenhar();
+  }).catch(function(){ $('lista').innerHTML='<div class="empty">Ainda não há dados. Rode a coleta (aba Actions do repositório) e recarregue a página.</div>'; });
+})();
+</script>
+</body>
+</html>
