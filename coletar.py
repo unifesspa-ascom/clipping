@@ -21,6 +21,9 @@ TERMOS = [
     "Universidade Federal do Sul e Sudeste do Pará",
     "Francisco Ribeiro da Costa",
     "Lucélia Cardoso Cavalcante",
+    # Variações como a imprensa costuma citar (nome curto + cargo/universidade, para não trazer homônimos):
+    '"Francisco Ribeiro" reitor Unifesspa',
+    '"Lucélia Cavalcante" Unifesspa',
 ]
 # Veículos próprios da universidade: não entram no clipping (é o que a imprensa publica sobre ela).
 DOMINIOS_IGNORADOS = ["unifesspa.edu.br"]
@@ -46,7 +49,8 @@ def norm(s):
 
 def consulta(termo, ini, fim, baixar_fn=baixar):
     """Itens do feed para um termo entre ini (inclusive) e fim (exclusive)."""
-    q = f'"{termo}" after:{ini.isoformat()} before:{fim.isoformat()}'
+    base = termo if '"' in termo else f'"{termo}"'   # termo com aspas próprias é usado como foi escrito
+    q = f'{base} after:{ini.isoformat()} before:{fim.isoformat()}'
     url = "https://news.google.com/rss/search?" + urllib.parse.urlencode(
         {"q": q, "hl": "pt-BR", "gl": "BR", "ceid": "BR:pt-419"})
     raiz = ET.fromstring(baixar_fn(url))
@@ -92,6 +96,22 @@ def eh_proprio(item):
     return any(d in alvo for d in DOMINIOS_IGNORADOS)
 
 
+def lerdata(txt):
+    """Aceita dd/mm/aaaa (padrão brasileiro) ou aaaa-mm-dd."""
+    txt = txt.strip()
+    if re.fullmatch(r"\d{1,2}/\d{1,2}/\d{4}", txt):
+        d, m, a = map(int, txt.split("/"))
+        return date(a, m, d)
+    return date.fromisoformat(txt)
+
+
+def br(d):
+    """Data (objeto ou texto aaaa-mm-dd) em dd/mm/aaaa."""
+    if isinstance(d, str):
+        d = date.fromisoformat(d)
+    return d.strftime("%d/%m/%Y")
+
+
 def carregar():
     if JSON_PATH.exists():
         return json.loads(JSON_PATH.read_text(encoding="utf-8"))
@@ -106,7 +126,7 @@ def salvar(regs):
         w = csv.writer(f, delimiter=";")
         w.writerow(["Data", "Veículo", "Título", "Termos encontrados", "Link"])
         for r in regs:
-            w.writerow([r["data"], r["veiculo"], r["titulo"], ", ".join(r["termos"]), r["link"]])
+            w.writerow([br(r["data"]), r["veiculo"], r["titulo"], ", ".join(r["termos"]), r["link"]])
 
 
 def principal(argv=None, baixar_fn=baixar):
@@ -119,8 +139,8 @@ def principal(argv=None, baixar_fn=baixar):
     if a.dias:
         ini, fim = hoje - timedelta(days=a.dias), hoje
     else:
-        ini = date.fromisoformat(a.inicio) if a.inicio else date(hoje.year, 1, 1)
-        fim = date.fromisoformat(a.fim) if a.fim else hoje
+        ini = lerdata(a.inicio) if a.inicio else date(hoje.year, 1, 1)
+        fim = lerdata(a.fim) if a.fim else hoje
 
     regs = carregar()
     chave = {norm(r["titulo"]) + "|" + norm(r["veiculo"]): r for r in regs}
@@ -131,7 +151,7 @@ def principal(argv=None, baixar_fn=baixar):
                 itens = coletar_janela(termo, i, f, baixar_fn, avisos)
             except Exception as e:
                 falhas += 1
-                print(f"  falha em '{termo}' {i}: {e}", file=sys.stderr)
+                print(f"  falha em '{termo}' {br(i)}: {e}", file=sys.stderr)
                 continue
             for it in itens:
                 if eh_proprio(it) or not it["titulo"]:
@@ -144,7 +164,7 @@ def principal(argv=None, baixar_fn=baixar):
                 reg = {"data": it["data"], "veiculo": it["veiculo"], "titulo": it["titulo"],
                        "link": it["link"], "termos": [termo]}
                 chave[k] = reg; regs.append(reg); novos += 1
-            print(f"{termo[:28]:28} {i} a {f}: {len(itens)} itens", flush=True)
+            print(f"{termo[:28]:28} {br(i)} a {br(f)}: {len(itens)} itens", flush=True)
     salvar(regs)
     print(f"\nConcluído: {novos} matérias novas, {len(regs)} no total. Falhas: {falhas}.")
     for av in avisos:
