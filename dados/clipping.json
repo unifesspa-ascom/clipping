@@ -1,15 +1,32 @@
 [
  {
+  "data": "2026-10-08",
+  "veiculo": "Correio de Carajás",
+  "titulo": "Professor da Unifesspa é vencedor do “Prêmio Egresso Destaque” da Unicamp",
+  "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPaEVXb2hmbE5kNDBNOThNRkpvOFNzS0Q1OVU0b0ZlZV80b1ZSZkVGbWcyNWtIRW82ZTRIcC1OZ3A3MmRQNi1zVVRheTBfaUUxMC14cVlIcGJ4cmNmeG0tR2xHaXd5UDFfUUEzWkhWMk5wOVc0RU9hOUpsQ0NxTDVtQ01pQTFmbWlyMG5qalpXLWNnVHJ3d1lrUlRQSVVWczktVVJxUXJaZw?oc=5",
+  "termos": [
+   "Unifesspa",
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "dominio": "correiodecarajas.com.br",
+  "fontes": [
+   "Google",
+   "Correio de Carajás"
+  ]
+ },
+ {
   "data": "2026-10-07",
   "veiculo": "Portal Amazônia",
   "titulo": "Estudante defende TCC em formato de cordel e surpreende banca examinadora em universidade do Pará",
   "link": "https://portalamazonia.com/educacao/defesa-tcc-cordel-para/",
   "termos": [
-   "Universidade Federal do Sul e Sudeste do Pará"
+   "Universidade Federal do Sul e Sudeste do Pará",
+   "Unifesspa"
   ],
   "dominio": "portalamazonia.com",
   "fontes": [
-   "Bing"
+   "Bing",
+   "Google"
   ]
  },
  {
@@ -133,7 +150,8 @@
   ],
   "dominio": "portalamazonia.com",
   "fontes": [
-   "Bing"
+   "Bing",
+   "Google"
   ]
  },
  {
