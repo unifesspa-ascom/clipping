@@ -1,6 +1,21 @@
 [
  {
   "data": "2026-10-08",
+  "veiculo": "Portal Debate Carajás",
+  "titulo": "Reunião do PT termina em socos, cusparadas e vai parar na delegacia em Marabá e Belém",
+  "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOZGE0XzBVbXIxMi1teWx5OHNhOUgtTFptNGs1TnBiTGZXemVHVGlLWUhOLXIyeFQ5MGZsWmpkNkVyUXlnYkpxbTdreTVNUktoSjd4aU1JODlJM0NEVUtYdVZ5TzVveHV0NElQMVQtTmZROGxPV0x6cW1xQjlKT29OTGNiVktIMWFJaThlVEd0enZuNEtUbGhkN1hKZG40RG9fSHhueHdCQ0xHbVRsX0VFWmdnM24?oc=5",
+  "termos": [
+   "Unifesspa",
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "dominio": "debatecarajas.com.br",
+  "fontes": [
+   "Google",
+   "Portal Debate Carajás"
+  ]
+ },
+ {
+  "data": "2026-10-08",
   "veiculo": "Correio de Carajás",
   "titulo": "Professor da Unifesspa é vencedor do “Prêmio Egresso Destaque” da Unicamp",
   "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPaEVXb2hmbE5kNDBNOThNRkpvOFNzS0Q1OVU0b0ZlZV80b1ZSZkVGbWcyNWtIRW82ZTRIcC1OZ3A3MmRQNi1zVVRheTBfaUUxMC14cVlIcGJ4cmNmeG0tR2xHaXd5UDFfUUEzWkhWMk5wOVc0RU9hOUpsQ0NxTDVtQ01pQTFmbWlyMG5qalpXLWNnVHJ3d1lrUlRQSVVWczktVVJxUXJaZw?oc=5",
@@ -308,7 +323,8 @@
   ],
   "dominio": "noticias.uol.com.br",
   "fontes": [
-   "Bing"
+   "Bing",
+   "Google"
   ]
  },
  {
@@ -393,6 +409,19 @@
  },
  {
   "data": "2026-09-28",
+  "veiculo": "Portal Debate Carajás",
+  "titulo": "Pacheco defende representatividade política em Brasília e mais investimentos durante Debate Podcast em Marabá",
+  "link": "https://debatecarajas.com.br/pacheco-defende-representatividade-regional-e-investimentos-em-maraba-durante-entrevista/",
+  "termos": [
+   "Unifesspa"
+  ],
+  "dominio": "debatecarajas.com.br",
+  "fontes": [
+   "Portal Debate Carajás"
+  ]
+ },
+ {
+  "data": "2026-09-28",
   "veiculo": "Portal Debate",
   "titulo": "Carro é encontrado destruído após atingir muro no Campus II da Unifesspa, em Marabá",
   "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQZURKTjYtdnlpLWk2MXRldWt0QzhrVUVmMkxGbThxaU00eUxvTTRKVi1Ed2F2b1JFZjJNT29yTmpPU0pLRXhBN1NNUTZDLWc2VzVGU3Z4NFNMbk9KTUNQdGxDeDc2aFlySmtzR1ZPR1QzNEh3MkNBUEtVRmVzanRiTWpMUmlEc2lDb3FjdmxWZTVnUDRXTWdhS01lR2d1M1drODU4UWpHLWhLMnRGd3R2QnVB?oc=5",
@@ -402,7 +431,8 @@
   ],
   "dominio": "debatecarajas.com.br",
   "fontes": [
-   "Google"
+   "Google",
+   "Portal Debate Carajás"
   ]
  },
  {
@@ -417,6 +447,20 @@
   "dominio": "gazetacarajas.com",
   "fontes": [
    "Google"
+  ]
+ },
+ {
+  "data": "2026-09-28",
+  "veiculo": "Fato Regional",
+  "titulo": "Inscrições para mestrado da Unifesspa em tecnologias para mineração termina nesta quarta-feira",
+  "link": "https://fatoregional.com.br/inscricoes-para-mestrado-da-unifesspa-em-tecnologias-para-mineracao-termina-nesta-quarta-feira/?utm_source=rss&utm_medium=rss&utm_campaign=inscricoes-para-mestrado-da-unifesspa-em-tecnologias-para-mineracao-termina-nesta-quarta-feira",
+  "termos": [
+   "Unifesspa",
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "dominio": "fatoregional.com.br",
+  "fontes": [
+   "Fato Regional"
   ]
  },
  {
@@ -474,6 +518,20 @@
   ]
  },
  {
+  "data": "2026-09-26",
+  "veiculo": "Portal Debate Carajás",
+  "titulo": "Mestrado da Unifesspa em tecnologias para mineração recebe inscrições até quarta-feira (30)",
+  "link": "https://debatecarajas.com.br/mestrado-da-unifesspa-em-tecnologias-para-mineracao-recebe-inscricoes-ate-quarta-feira-30/",
+  "termos": [
+   "Unifesspa",
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "dominio": "debatecarajas.com.br",
+  "fontes": [
+   "Portal Debate Carajás"
+  ]
+ },
+ {
   "data": "2026-09-25",
   "veiculo": "guaranyjunior.com.br",
   "titulo": "Últimos dias: inscrição para Mestrado Profissional em Tecnologias Inovadoras na Mineração (PPGTIM) segue até 30 de setembro",
@@ -516,11 +574,13 @@
   "titulo": "Prefeitura de Marabá apresenta nova frota do transporte coletivo nesta sexta-feira (25)",
   "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOY25LRDNRMEJob0RGMmpUcEhod0g0eVBlTVp3TklKVHd3UnVfdl9xRFJObGhBcFd2RjhnYS0tN3FJUHN1aUJpWll1alE2Y0VMNGhDYWYzZ1lwZERZcS1kQm1SWjRjNlVPSW5BRjM4cE1FYnNfdU02VERibkRQekNyazZoeWFnTmlETUxDejJLOXRiYUdJcDctbkhhLTFYc2RtRUVLOUVUTmZnS2dKRnhtcnJsRWtRUQ?oc=5",
   "termos": [
-   "Universidade Federal do Sul e Sudeste do Pará"
+   "Universidade Federal do Sul e Sudeste do Pará",
+   "Unifesspa"
   ],
   "dominio": "debatecarajas.com.br",
   "fontes": [
-   "Google"
+   "Google",
+   "Portal Debate Carajás"
   ]
  },
  {
@@ -574,6 +634,19 @@
   "dominio": "zedudu.com.br",
   "fontes": [
    "Zé Dudu"
+  ]
+ },
+ {
+  "data": "2026-09-24",
+  "veiculo": "Portal Debate Carajás",
+  "titulo": "1º Seminário de História Negra de Marabá debate o direito à Memória, Cultura e Reparação no dia 1º de outubro",
+  "link": "https://debatecarajas.com.br/1o-seminario-de-historia-negra-de-maraba-debate-o-direito-a-memoria-cultura-e-reparacao-no-dia-1o-de-outubro/",
+  "termos": [
+   "Unifesspa"
+  ],
+  "dominio": "debatecarajas.com.br",
+  "fontes": [
+   "Portal Debate Carajás"
   ]
  },
  {
@@ -721,6 +794,19 @@
   ]
  },
  {
+  "data": "2026-09-17",
+  "veiculo": "Arquidiocese de São Sebastião do Rio de Janeiro",
+  "titulo": "Departamento de Teologia da PUC-Rio promove XVII Semana da Cultura Religiosa sobre a Magnifica Humanitas e a inteligência artificial – Arquidiocese de São Sebastião do Rio de Janeiro",
+  "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQVEZzR05xc1BFX1BmeTJpdzNmb3ZxRDdQMVNSV1JYcmkxVHVMZjhiTm9SSXNYeFFxZER1akhwUHczUDZCU0k1M3dWSG5KVmdVWVVlTS1kOFhVWmRwUHNLVHZrTG13Q3NhWW9lQWZJcEVjXzNCLU8ya1A4UFlyaDJmSWt1c25pNFpJN2I0c1ZoTDFWaXVMZ1JaellBQ2lRRDc4Q1hXcnR4Y3dNdmJleVBZREthSzVqVmtCZVRvRmJpR2ZMT01OaXNCV3htVmhTdEZ2Z1JBV2ZjZ19jUG50MzV3MFRHX0xaSzVWYkE?oc=5",
+  "termos": [
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "dominio": "arqrio.org.br",
+  "fontes": [
+   "Google"
+  ]
+ },
+ {
   "data": "2026-09-16",
   "veiculo": "mpf.mp.br",
   "titulo": "Universidade Federal do Pará acata recomendação do MPF e vai aderir à Rede Nacional de Direitos LGBTQIA+",
@@ -748,6 +834,34 @@
  },
  {
   "data": "2026-09-16",
+  "veiculo": "Zé Dudu",
+  "titulo": "Feira de Profissões reúne mais de 90 cursos gratuitos em Marabá",
+  "link": "https://www.zedudu.com.br/feira-de-profissoes-reune-mais-de-90-cursos-gratuitos-em-maraba/#utm_source=rss&utm_medium=rss&utm_campaign=feira-de-profissoes-reune-mais-de-90-cursos-gratuitos-em-maraba",
+  "termos": [
+   "Unifesspa",
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "dominio": "zedudu.com.br",
+  "fontes": [
+   "Zé Dudu"
+  ]
+ },
+ {
+  "data": "2026-09-16",
+  "veiculo": "Pebinha de Açúcar",
+  "titulo": "Feira de Profissões reúne mais de 90 cursos gratuitos em Marabá",
+  "link": "https://pebinhadeacucar.com.br/feira-de-profissoes-reune-mais-de-90-cursos-gratuitos-em-maraba/",
+  "termos": [
+   "Unifesspa",
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "dominio": "pebinhadeacucar.com.br",
+  "fontes": [
+   "Pebinha de Açúcar"
+  ]
+ },
+ {
+  "data": "2026-09-16",
   "veiculo": "O Liberal",
   "titulo": "Feira gratuita apresenta mais de 90 cursos e orientações a estudantes",
   "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxORnpndWgwTm5VQXpQc0RJRjlOWE9pQnpxZXVaWkFsOHBZTWZRU1A0UTVIb2N5aXhaWXh1d1BxSGU4OWZfMXRsaHpzY21QdFJNZ3UxSGtYc3czMW1EV3hiYURDbktxcEs0cWFMN2dvU3d5aXF5OHdTWWZzS1Y5WmhUMW9KTGg1VWpTQUFNTHhtWUc2WlNmUEtEZWwxUjJNZ3dZcHhpakY3Z0ZkYy1jUGc?oc=5",
@@ -756,7 +870,8 @@
   ],
   "dominio": "oliberal.com",
   "fontes": [
-   "Google"
+   "Google",
+   "Bing"
   ]
  },
  {
@@ -793,6 +908,19 @@
    "Unifesspa"
   ],
   "dominio": "guaranyjunior.com.br",
+  "fontes": [
+   "Google"
+  ]
+ },
+ {
+  "data": "2026-09-15",
+  "veiculo": "DOL",
+  "titulo": "De Marabá para o mundo: jovem leva coleção de moda a Londres",
+  "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOSFNudUZYVko1U01TaDBOVFhnWjJxR3ZLdVVzeVpSWnJkbkpUNFU4QjFGSGxuRDVfZkJvcHhiaEViZU5jdGFWN2FtcWRwRWFkUHhnZkViRVBJRVZfcUdSR0ZEUVpDWkdGU0IwcTFTZmd4WU1LLUViYjlqck1DRGE0OVpZbkRpcjluM2V5NzZGQ013b0VWR3pYN1lvOUtNWHB2VXfSAaoBQVVfeXFMT1doUzBkMU9aVjJOVjgtZmxMNWZTUXJZRFJUOGFoejVtNHdfZkVxSEQtTjJDSXRuLTRISVBlSDMzMnJ3alpsWDRqZFhIYWVUcF9ieDcxMEdaUU1Fc0hLUE5ma0o2NmR1YWg5WDl1MFBhbFJZQWRBTlRQZXFZM01rTVl3MVVqQmZpQkR5NVJPVkY1UFRyRE5JVGpLM0xucFo1WFFyRUhVQ0FES3c?oc=5",
+  "termos": [
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "dominio": "dol.com.br",
   "fontes": [
    "Google"
   ]
@@ -837,6 +965,20 @@
   "dominio": "correiodecarajas.com.br",
   "fontes": [
    "Correio de Carajás"
+  ]
+ },
+ {
+  "data": "2026-09-13",
+  "veiculo": "Portal Debate Carajás",
+  "titulo": "Feira de Profissões reúne mais de 90 opções de cursos gratuitos em Marabá",
+  "link": "https://debatecarajas.com.br/feira-de-profissoes-reune-mais-de-90-opcoes-de-cursos-gratuitos-em-maraba/",
+  "termos": [
+   "Unifesspa",
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "dominio": "debatecarajas.com.br",
+  "fontes": [
+   "Portal Debate Carajás"
   ]
  },
  {
@@ -922,7 +1064,8 @@
   ],
   "dominio": "debatecarajas.com.br",
   "fontes": [
-   "Google"
+   "Google",
+   "Portal Debate Carajás"
   ]
  },
  {
@@ -1032,7 +1175,8 @@
   ],
   "dominio": "correiodecarajas.com.br",
   "fontes": [
-   "Correio de Carajás"
+   "Correio de Carajás",
+   "Google"
   ]
  },
  {
@@ -1118,12 +1262,29 @@
   ]
  },
  {
+  "data": "2026-08-28",
+  "veiculo": "Gazeta da Semana",
+  "titulo": "Jovem paraense cria holding e projeta faturar R$ 50 milhões, até 2030",
+  "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNN3VBeTM4YVF0cnBNcDRONHQzWWtaWW9PcWpTWENybVo1NEYtOGxiYW9UaWkzejVFTFRXY2YyUXBoR0ZHM0JzczZueDhFTTBOWjRqTTZncG5tWE0xVHlQVzZmYmZhMV9PV3h5a1AzV1o1bldJRENRbjVhQTRycGtkQmJndFVGb1NpalN4aFRETHlzZlFqcDgwcENGSEprcUVkZ1VqM1JZaThmckFWWTdKcnBB?oc=5",
+  "termos": [
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "dominio": "gazetadasemana.com.br",
+  "fontes": [
+   "Google"
+  ]
+ },
+ {
   "data": "2026-08-26",
   "veiculo": "portaldozacarias.com.br",
   "titulo": "Finep destina quase R$ 150 milhões para fortalecer a infraestrutura de pesquisa na Amazônia Legal",
   "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOekFGSW5SeUhNWWpXb243Y0N3Wjg3V0c0RWFYWnBJTkRaWjl1eVNqVWF1bmd5N3BOWm14M3JFd21aVWxxM1MwaTdpME5aeUw3aWs4NGF0YTBTOExwWTl2d2xVMnpVTkNvWnJjb1pYeWxsNGM4Q1NHd2Rnak5NVjEyZEdDZ3hhNW85M1pNRGMycFo0NDZlYmFRLUIzQTdSWWNwTUl1NVNDNldiU1RZQUFZU3hfX1M1eHlEaV9IZWNJWWpmY0g0X3VYSzUyanY0dVhfOU5YRnQ4VmZQZWc?oc=5",
   "termos": [
    "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "dominio": "portaldozacarias.com.br",
+  "fontes": [
+   "Google"
   ]
  },
  {
@@ -1261,6 +1422,36 @@
  },
  {
   "data": "2026-08-21",
+  "veiculo": "O TEMPO",
+  "titulo": "Canaã dos Carajás e Unifesspa oficializam ajuste em convênio de cooperação",
+  "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQcHFsNVdEaDFvYjJOclUyeGxZSGJPMUhjRWVQWmgwODFYWmdNYk42d2JvNmkzWWZYUHFIeF9Dc0N6VWotNHluMDIwT2RLWmNCZW0tRjlsSFNhQmF3dWdZQVNQZHNkRy1pZEQtdjVOT3pxOW9ac2NFQUdCaDVxRWFjVThYREpfcEl6ZkJXYV94dFh3ZUtRdHBsdVpkdkh0Z0l0WkJYdGpzYUtLbzN5Y19uMVkwdEVaY1dtSVAw?oc=5",
+  "termos": [
+   "Unifesspa",
+   "Universidade Federal do Sul e Sudeste do Pará",
+   "Francisco Ribeiro da Costa"
+  ],
+  "dominio": "otempo.com.br",
+  "fontes": [
+   "Google"
+  ]
+ },
+ {
+  "data": "2026-08-21",
+  "veiculo": "O TEMPO",
+  "titulo": "Canaã dos Carajás e Unifesspa assinam aditivo para remanejamento de verbas em convênio",
+  "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOTks1MzBkcncxUjB0UkZlY3FhUkktczBoNXNvX0ZrdGk2eWpDaFdYZFY0Q0c1TkdnT0pjUlFNWTVXWWFLaDF4TG1CcExJZTR4RmNjaG9PeFI4dlAtVEVDa3phckhLbENVaXJNNmo2N2dnWVlTaUY1YnRyaXRpeG8tbkYyMGkwVFVXbVBFeDRxR29PMWM1VXNmeUFRMHVudjdORlBLUW41bE5lN3hlZkpDdjgzRlZjLXBZNThtNHZNZGhlRzdFb3ptaUtyVdIB0AFBVV95cUxNS25ON0t3cDdsdkF3RE0yNm9jeFJ1MHdNXy1XOGcyMUxvczB6WG1Fb2NHaUh6WWFkZmxWZDFvS2VJYTNNaW1OUHJ4d003RXRmVzRvVi1mM3ZHb29CU2d3MDNQTDV2ZDhwTzgyb3FrcmhUa1V3bXZydXNNUWEtLVhYUGlZVmV1MUlrdS1FOWY5S1VkbnMyai1oYzBwdlhFRnRGNHZ6TF94QXdpUkdTX0h5ajNnWHJ5T3dUdnBrQURIeUNic2labkVteTJ3R0xFWmZa?oc=5",
+  "termos": [
+   "Unifesspa",
+   "Universidade Federal do Sul e Sudeste do Pará",
+   "Francisco Ribeiro da Costa"
+  ],
+  "dominio": "otempo.com.br",
+  "fontes": [
+   "Google"
+  ]
+ },
+ {
+  "data": "2026-08-21",
   "veiculo": "Correio de Carajás",
   "titulo": "PDTSA oferece 14 vagas para mestrado na Unifesspa",
   "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOM0NnX1ZmTW9JcUlNODUteGtldUtqOVpUcGw3T1U5cV9NWnBMZXllRXRlNmUtMEg0OVF1NHduRUNmVGNfMDRuc3ZES1c3akRjWVRmdWpudkRRekt5czJsZ0xEU041Qk5NbVlPNFRJNlBGVWo3VmpETW1KS0lmUkljMGFLcTdIZ0tuZmc?oc=5",
@@ -1276,6 +1467,20 @@
  },
  {
   "data": "2026-08-20",
+  "veiculo": "Portal Debate Carajás",
+  "titulo": "Alfredo Costa e Maria do Carmo apresentam propostas durante entrevista no Debate Podcast",
+  "link": "https://debatecarajas.com.br/alfredo-costa-e-maria-do-carmo-apresentam-propostas-durante-entrevista-no-debate-podcast/",
+  "termos": [
+   "Unifesspa",
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "dominio": "debatecarajas.com.br",
+  "fontes": [
+   "Portal Debate Carajás"
+  ]
+ },
+ {
+  "data": "2026-08-20",
   "veiculo": "Correio de Carajás",
   "titulo": "PID da Unifesspa terá oficinas gratuitas sobre tecnologia em Marabá",
   "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPbFEzQmFRYkZXODlfWGJzRGJZTzBGelBMR3JqaEJSQVdSVkpzV2x1MGptZDR3VkI1Q1k0dVNYaVJ6VDk2TFhCbU42cllRMjJUaFF1c1hQSy1oVV9MaVB0d1QzM0dOSlJSdjBSaUt4Vy1JdXU0OFhwb0NkTk82Q2tRSXJ0alpoZlpaZmd4cGNrN3JuOHlXc2QzUlFvVmdpbkNUTWc?oc=5",
@@ -1287,6 +1492,19 @@
   "fontes": [
    "Google",
    "Correio de Carajás"
+  ]
+ },
+ {
+  "data": "2026-08-20",
+  "veiculo": "Blog do Hiroshi Bogéa",
+  "titulo": "Wandenkolk Gonçalves aposta na experiência para voltar à Alepa",
+  "link": "https://hiroshibogea.com.br/wandenkolk-goncalves-aposta-na-experiencia-para-voltar-a-alepa/",
+  "termos": [
+   "Unifesspa"
+  ],
+  "dominio": "hiroshibogea.com.br",
+  "fontes": [
+   "Blog do Hiroshi Bogéa"
   ]
  },
  {
@@ -1412,6 +1630,20 @@
   "fontes": [
    "Google",
    "Zé Dudu"
+  ]
+ },
+ {
+  "data": "2026-08-14",
+  "veiculo": "Portal Debate Carajás",
+  "titulo": "Seminário em Marabá debate impactos de grandes obras de infraestrutura sobre o rio Tocantins e territórios amazônicos",
+  "link": "https://debatecarajas.com.br/seminario-em-maraba-debate-impactos-de-grandes-obras-de-infraestrutura-sobre-o-rio-tocantins-e-territorios-amazonicos/",
+  "termos": [
+   "Unifesspa",
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "dominio": "debatecarajas.com.br",
+  "fontes": [
+   "Portal Debate Carajás"
   ]
  },
  {
@@ -1594,6 +1826,19 @@
  },
  {
   "data": "2026-08-05",
+  "veiculo": "Portal Debate Carajás",
+  "titulo": "Prefeitura de Marabá amplia iluminação de LED entre a Rotatória do KM-06 e o Cidade Jardim",
+  "link": "https://debatecarajas.com.br/prefeitura-de-maraba-amplia-iluminacao-de-led-entre-a-rotatoria-do-km-06-e-o-cidade-jardim/",
+  "termos": [
+   "Unifesspa"
+  ],
+  "dominio": "debatecarajas.com.br",
+  "fontes": [
+   "Portal Debate Carajás"
+  ]
+ },
+ {
+  "data": "2026-08-05",
   "veiculo": "Correio de Carajás",
   "titulo": "Projeto de lixo eletrônico da Unifesspa recebe doação",
   "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNdGtiQjgtYUlMalNPMTBuY3ZZMnZIV2xJdjhjdE5sTTI3Umk5RjVJVExwLVdUU3pUU2JNOHU1N2Yybi1UVU5QODFMcjlhZVlITnh1UC1QSnhUcmdTUi1zYnVfWFFrT0NUYVRNNUhOTGc3MWZZT2MyTDJNMGdTbDVOeFlXMWdBRF95S3Q1YTRGYw?oc=5",
@@ -1613,7 +1858,13 @@
   "titulo": "No Debate Podcast, \"Miguelito\" defende maior representatividade de Marabá no Congresso Nacional",
   "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNYWpxY00xbWxKMnZJQ2pvU0xFZFNoeF81b3hzVTIzNTEyQ3N4THM5SXVjUnpVa1BWQ3R3YWhrby01RnNxeW9jbUlYOGpNUEpmdXo4TUV4aTJaMHdKaFY5MjZLSTNCVC1zVlUyeUhxazJIdVBKRXNzR0dRQldaWTBra3R1S1dCV1ZFeXpkNkdnM2pueGp0R1FqZzdpVVljcDVGTjZRdUZ2WTBkOF91U1dmOGsyd3lXQksyRGJTZTdFTQ?oc=5",
   "termos": [
-   "Universidade Federal do Sul e Sudeste do Pará"
+   "Universidade Federal do Sul e Sudeste do Pará",
+   "Unifesspa"
+  ],
+  "dominio": "debatecarajas.com.br",
+  "fontes": [
+   "Google",
+   "Portal Debate Carajás"
   ]
  },
  {
@@ -1697,15 +1948,31 @@
  },
  {
   "data": "2026-07-30",
-  "veiculo": "Portal Debate",
-  "titulo": "Marabá perde a Professora Marlene Chavito, referência no ensino de Língua Portuguesa",
-  "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNQlVTczBaTk1LYnNsb2FJQVoxb3VBRnd4V3hEQVpTTm9aUm01ZngyTDg0alpObnV4Tm83dnQ2bTFheUZVeDBDZXpCWjc1eDRMSGVTRnRPMkljNkQxQjdhZC1hdWI0T0FuWEFXX1pqZ2VTVDc0bzRucXVjX3dZX0k0UUVESWZPQU1SZmgwcWJUTUV0V1dHbDUtRUkyNWI3Ym9zMUkwVzZWampfWjhGUTRJWVdINA?oc=5",
+  "veiculo": "Portal Debate Carajás",
+  "titulo": "MPF recomenda às universidades federais do Pará adesão à rede nacional de direitos LGBTQIA+",
+  "link": "https://debatecarajas.com.br/mpf-recomenda-as-universidades-federais-do-para-adesao-a-rede-nacional-de-direitos-lgbtqia/",
   "termos": [
+   "Unifesspa",
    "Universidade Federal do Sul e Sudeste do Pará"
   ],
   "dominio": "debatecarajas.com.br",
   "fontes": [
-   "Google"
+   "Portal Debate Carajás"
+  ]
+ },
+ {
+  "data": "2026-07-30",
+  "veiculo": "Portal Debate",
+  "titulo": "Marabá perde a Professora Marlene Chavito, referência no ensino de Língua Portuguesa",
+  "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNQlVTczBaTk1LYnNsb2FJQVoxb3VBRnd4V3hEQVpTTm9aUm01ZngyTDg0alpObnV4Tm83dnQ2bTFheUZVeDBDZXpCWjc1eDRMSGVTRnRPMkljNkQxQjdhZC1hdWI0T0FuWEFXX1pqZ2VTVDc0bzRucXVjX3dZX0k0UUVESWZPQU1SZmgwcWJUTUV0V1dHbDUtRUkyNWI3Ym9zMUkwVzZWampfWjhGUTRJWVdINA?oc=5",
+  "termos": [
+   "Universidade Federal do Sul e Sudeste do Pará",
+   "Unifesspa"
+  ],
+  "dominio": "debatecarajas.com.br",
+  "fontes": [
+   "Google",
+   "Portal Debate Carajás"
   ]
  },
  {
@@ -1777,6 +2044,20 @@
  },
  {
   "data": "2026-07-29",
+  "veiculo": "Portal Debate Carajás",
+  "titulo": "Motorista perde o controle e caminhão tomba na BR-230 em Marabá",
+  "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPM2VaOUJTSXBrQ3diQUY0OHQ0NldmU2pncFhHVGptOTR0THc1RDVnRnV0elZBMURMSVU3YnhvTF8yQjJqTDBSZGJUVDdSNWhMZTVRelJqMWM5eG1EbmJ5czByRGNqWkdGdFpQaTJQX0VQTnNaY3dua2dCd3pNbEZMQXBBQ1I3bHlOUFRPSzdndWhUWVpMamM4Vg?oc=5",
+  "termos": [
+   "Unifesspa"
+  ],
+  "dominio": "debatecarajas.com.br",
+  "fontes": [
+   "Google",
+   "Portal Debate Carajás"
+  ]
+ },
+ {
+  "data": "2026-07-29",
   "veiculo": "Correio de Carajás",
   "titulo": "Unifesspa recebe 5ª edição do Julho das Pretas para debater racismo",
   "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNWXZ0dUl2TXFQVklLdmhySk9RUzhYbUE4Mlh3VVlqMlFwSUJmX1RsdS1aYkxnNWp3SzhBdEprck9DNDY2bU5pdmdLYXgtN2FtMzJrbkQ1eW1EUk9faVpVNVJ6dks4NHhWMmVfSEpqaFd0aHpnZ25OSzA4T005VjdMZEpjbEJuZ1FOcVNpRWVUOEo4SVVWSS1XemNmbnNvajU1OVE?oc=5",
@@ -1843,6 +2124,19 @@
   "dominio": "correiodecarajas.com.br",
   "fontes": [
    "Correio de Carajás"
+  ]
+ },
+ {
+  "data": "2026-07-24",
+  "veiculo": "Senado Federal",
+  "titulo": "CMO analisa crédito de R$ 24,9 milhões para AGU e segurança da Amazônia",
+  "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPMDZjNUFqVnQtcm9Ld18yajNYeFBWVUhmeTRBVklyRkdxeElDMV8wWG5lU1l2SzNqc0E0LU5LME9taXF3YXliakdxLVB6blhEYTlVUXlnQU43ZjZNc0l5d2wxemJjeWUtTTFUUmEwaGRaUXQzU005aTRhdFhtWDNxWGotY2NfZFZidHVFS2hJV3lzSVpFQXJ0ckp6VGpieVcxSDZ1WFBlYjR2a0p4M0VxbXZYNS1xSEhNTy1oS05VcVMzTXJfcEE?oc=5",
+  "termos": [
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "dominio": "www12.senado.leg.br",
+  "fontes": [
+   "Google"
   ]
  },
  {
@@ -2066,6 +2360,20 @@
   ]
  },
  {
+  "data": "2026-07-03",
+  "veiculo": "Portal Debate Carajás",
+  "titulo": "Pesquisa inédita vai mapear renda e consumo das famílias de Marabá",
+  "link": "https://debatecarajas.com.br/pesquisa-inedita-vai-mapear-renda-e-consumo-das-familias-de-maraba/",
+  "termos": [
+   "Unifesspa",
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "dominio": "debatecarajas.com.br",
+  "fontes": [
+   "Portal Debate Carajás"
+  ]
+ },
+ {
   "data": "2026-07-02",
   "veiculo": "edestaquebrasilia.com.br",
   "titulo": "Parceria entre Fapespa e Unifesspa mapeia pela primeira vez renda e hábitos de consumo das famílias em Marabá",
@@ -2116,6 +2424,19 @@
    "Universidade Federal do Sul e Sudeste do Pará"
   ],
   "dominio": "terra.com.br",
+  "fontes": [
+   "Google"
+  ]
+ },
+ {
+  "data": "2026-07-01",
+  "veiculo": "Portal Amazônia",
+  "titulo": "Copaíba-amazônica tem potencial como alternativa natural para controle do carrapato bovino, aponta estudo",
+  "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5yY09VWFFpVGpjN0hBV2VtWlhBdUhQamZtQ1pNVTJUUjEwalZJNWZrTGFfb0RCU2FYeFZZR2xMU1NlNTdjMnpVd1hYRURrLUtwVURSdDdMQVhfOUx1aGh4SnpzRjVPNkRESEZQSQ?oc=5",
+  "termos": [
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "dominio": "portalamazonia.com",
   "fontes": [
    "Google"
   ]
@@ -2190,6 +2511,19 @@
   ]
  },
  {
+  "data": "2026-06-29",
+  "veiculo": "Pebinha de Açúcar",
+  "titulo": "Recursos da Vale são aplicados em infraestrutura e melhoria de serviços públicos no Pará",
+  "link": "https://pebinhadeacucar.com.br/recursos-da-vale-sao-aplicados-em-infraestrutura-e-melhoria-de-servicos-publicos-no-para/",
+  "termos": [
+   "Unifesspa"
+  ],
+  "dominio": "pebinhadeacucar.com.br",
+  "fontes": [
+   "Pebinha de Açúcar"
+  ]
+ },
+ {
   "data": "2026-06-27",
   "veiculo": "Correio de Carajás",
   "titulo": "Unifesspa terá de adotar ações  afirmativas para pessoas trans",
@@ -2230,6 +2564,35 @@
   "dominio": "zedudu.com.br",
   "fontes": [
    "Google"
+  ]
+ },
+ {
+  "data": "2026-06-26",
+  "veiculo": "Portal Debate Carajás",
+  "titulo": "Unifesspa anula prova de candidata e marca nova aplicação após identificar falha em processo seletivo",
+  "link": "https://debatecarajas.com.br/unifesspa-anula-prova-de-candidata-e-marca-nova-aplicacao-apos-identificar-falha-em-processo-seletivo/",
+  "termos": [
+   "Unifesspa",
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "dominio": "debatecarajas.com.br",
+  "fontes": [
+   "Portal Debate Carajás"
+  ]
+ },
+ {
+  "data": "2026-06-26",
+  "veiculo": "Pebinha de Açúcar",
+  "titulo": "MPF recomenda que Unifesspa adote ações afirmativas de ingresso e permanência para pessoas trans",
+  "link": "https://pebinhadeacucar.com.br/mpf-recomenda-que-unifesspa-adote-acoes-afirmativas-de-ingresso-e-permanencia-para-pessoas-trans/",
+  "termos": [
+   "Unifesspa",
+   "Universidade Federal do Sul e Sudeste do Pará",
+   "Francisco Ribeiro da Costa"
+  ],
+  "dominio": "pebinhadeacucar.com.br",
+  "fontes": [
+   "Pebinha de Açúcar"
   ]
  },
  {
@@ -2345,6 +2708,20 @@
   ]
  },
  {
+  "data": "2026-06-21",
+  "veiculo": "Blog do Hiroshi Bogéa",
+  "titulo": "13 anos de Unifesspa: a história pouco conhecida que ajudou a garantir o Campus Tauarizinho",
+  "link": "https://hiroshibogea.com.br/13-anos-de-unifesspa-a-historia-pouco-conhecida-que-ajudou-a-garantir-o-campus-tauarizinho/",
+  "termos": [
+   "Unifesspa",
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "dominio": "hiroshibogea.com.br",
+  "fontes": [
+   "Blog do Hiroshi Bogéa"
+  ]
+ },
+ {
   "data": "2026-06-19",
   "veiculo": "Sul 21",
   "titulo": "MEC credencia Campus Serra da UFRGS em Caxias do Sul",
@@ -2441,6 +2818,20 @@
   ]
  },
  {
+  "data": "2026-06-12",
+  "veiculo": "Portal Debate Carajás",
+  "titulo": "Unifesspa concede título de Doutora Honoris Causa à liderança indígena Mamãe Grande",
+  "link": "https://debatecarajas.com.br/unifesspa-concede-titulo-de-doutora-honoris-causa-a-lideranca-indigena-mamae-grande/",
+  "termos": [
+   "Unifesspa",
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "dominio": "debatecarajas.com.br",
+  "fontes": [
+   "Portal Debate Carajás"
+  ]
+ },
+ {
   "data": "2026-06-11",
   "veiculo": "The Conversation",
   "titulo": "Para proteger a Amazônia, Brasil precisa fortalecer suas universidades na Região Norte",
@@ -2454,6 +2845,20 @@
   "dominio": "theconversation.com",
   "fontes": [
    "Google"
+  ]
+ },
+ {
+  "data": "2026-06-11",
+  "veiculo": "Portal Debate Carajás",
+  "titulo": "Unifesspa leva a poética de Márcia Kambeba para o Ensino Médio em Marabá",
+  "link": "https://debatecarajas.com.br/unifesspa-leva-a-poetica-de-marcia-kambeba-para-o-ensino-medio-em-maraba/",
+  "termos": [
+   "Unifesspa",
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "dominio": "debatecarajas.com.br",
+  "fontes": [
+   "Portal Debate Carajás"
   ]
  },
  {
@@ -2636,6 +3041,20 @@
   ]
  },
  {
+  "data": "2026-05-27",
+  "veiculo": "Fato Regional",
+  "titulo": "Cacau movimenta bilhões no Pará e impulsiona avanço da bioeconomia no Sul do Estado, aponta estudo da Fapespa",
+  "link": "https://fatoregional.com.br/cacau-movimenta-bilhoes-no-para-e-impulsiona-avanco-da-bioeconomia-no-sul-do-estado-aponta-estudo-da-fapespa/?utm_source=rss&utm_medium=rss&utm_campaign=cacau-movimenta-bilhoes-no-para-e-impulsiona-avanco-da-bioeconomia-no-sul-do-estado-aponta-estudo-da-fapespa",
+  "termos": [
+   "Unifesspa",
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "dominio": "fatoregional.com.br",
+  "fontes": [
+   "Fato Regional"
+  ]
+ },
+ {
   "data": "2026-05-26",
   "veiculo": "Zé Dudu",
   "titulo": "Parauapebas lança projeto “Proteção Animal em Movimento” com serviços gratuitos para a população",
@@ -2660,6 +3079,19 @@
   "dominio": "parauapebas.pa.gov.br",
   "fontes": [
    "Google"
+  ]
+ },
+ {
+  "data": "2026-05-26",
+  "veiculo": "Portal Debate Carajás",
+  "titulo": "Vereadores de Marabá levam demandas prioritárias à governadora Hana",
+  "link": "https://debatecarajas.com.br/vereadores-de-maraba-levam-demandas-prioritarias-a-governadora-hana/",
+  "termos": [
+   "Unifesspa"
+  ],
+  "dominio": "debatecarajas.com.br",
+  "fontes": [
+   "Portal Debate Carajás"
   ]
  },
  {
@@ -2770,11 +3202,13 @@
   "titulo": "Festival indígena reunirá delegações de quatro estados no sudeste do Pará",
   "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOcVNxbzdkWlhMOS1qZjVwdXVENlpBcEdudHAyTFBxb1ZtSnhHU2RZY1RhREdLSjNiRzJLUFVRcmUxbUZIalVTTmt5TG1Jd193MWFValRpLS1ibl83dHljc3dvTFpCWVRTSFBidnNCVWg0cUJsVzBYdmNPRjlBclJfdm5OYVBMN0ppNUZPNUIwUmlqSzE1NTdxd0JqMDBtUGw0U09GVlJR?oc=5",
   "termos": [
-   "Universidade Federal do Sul e Sudeste do Pará"
+   "Universidade Federal do Sul e Sudeste do Pará",
+   "Unifesspa"
   ],
   "dominio": "debatecarajas.com.br",
   "fontes": [
-   "Google"
+   "Google",
+   "Portal Debate Carajás"
   ]
  },
  {
@@ -2832,7 +3266,8 @@
   ],
   "dominio": "debatecarajas.com.br",
   "fontes": [
-   "Google"
+   "Google",
+   "Portal Debate Carajás"
   ]
  },
  {
@@ -2875,6 +3310,20 @@
   "fontes": [
    "Google",
    "Correio de Carajás"
+  ]
+ },
+ {
+  "data": "2026-05-09",
+  "veiculo": "Gazeta Carajás",
+  "titulo": "Prefeitura de Canaã realiza aulões preparatórios para o Processo Seletivo 2026 da Unifesspa",
+  "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOSEtVR0NvbFp3a1AzTzR4ZUdYeldIbDhhYkFRZGRsOXdMWkhsQkVsUGlTLUx4ZkJpa2tQWG9sQldPTVdwdU9iYWJ1ZU5HSHlGMWRDN0g3TVZhVEJUVWFNX3pvbnA4MENEV242N040R1I5Z2tqZ055WjJubndsTEdCd09OMWkzRVhJSF95cThGbjVlbUVwVFlveEdQV2FxQWsxVXMtYUI0Q3JTbkRmSkYyY1ZmVmRGYV9UOG9YVHp1RjRiVDhnRm1ncg?oc=5",
+  "termos": [
+   "Unifesspa",
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "dominio": "gazetacarajas.com",
+  "fontes": [
+   "Google"
   ]
  },
  {
@@ -2921,6 +3370,19 @@
  {
   "data": "2026-05-07",
   "veiculo": "DOL",
+  "titulo": "Servidores da UFPA fecham portões durante Dia Nacional de Luta",
+  "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQS1NKV0lWTTdBWXVxRnNGbW9FUUJ4RDl4YVRyWktVcElWZl9GRU5Yb3BPVldyQ09HUDFLdzdBMU55V0s5bGpiYm9iRDU4VXRhWkl1cXJHdlZjd2t2eUt2WGh2N0hqZXN3dHF4X0U0RHozcXFPalhzNjlWSE5nd1FybnJ4QVR6WlFPT1VZRXNKU3NMcjZZT3NTOEktS0lNSjgzeVRYedIBrAFBVV95cUxNcGVfVThNSmR6SzlodXNlUjVLOW5zMHRmSFJ0VUZXWnpUVllteFpLZFFCN2ZuS2FMLUZHWjhfQmUtX2ZpV0Zveks1RkthVGNRX1JRY0tqUWV3MExGTTlBTXlZdVpfNXQwY3F6NlpibVRVTGI0Yk1Tc2lBdDg0ZlNKRGlKd2VVU2ZCb0FLREVKcmtXdTVTVVZQbkFTSThpeHVla3lzM3o1cHdsWDVN?oc=5",
+  "termos": [
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "dominio": "dol.com.br",
+  "fontes": [
+   "Google"
+  ]
+ },
+ {
+  "data": "2026-05-07",
+  "veiculo": "DOL",
   "titulo": "Conheça o \"Jesus Grego\" que a história tentou apagar",
   "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNcnVtOVZlV1VfUmsyR242WTdsaGxBdU1uWGxnRl9QRlFoNVRwTlZmR1hjWXB0ZmRlNTJMMEJ6dmIyRWwxdHBBMEJoa2RhVDlad3pDajg5OGh1OEFsdmdxLXZGOHp2YnFyTS12dEV1Wk05c2RiOHVNMFlteEJLVkNqVHZBY2F3WGh4TGs3bkpKUGRGZHJJdFQtdkFqV2FMbUnSAacBQVVfeXFMTVA2V0pOdlp2emRicmJZZXFCaE42bVRHVnY5ZXdhdTU4QmxYUmFJYl9oV3R0NmVwWUN5cHlXbHF4V0t5OHl2ZzdlTTExTGFUaEx5Ql9tQ0xXNTdmcHNBV2ZMYXU5UHM1WTJwLWZpTEFDWE1kU1B6Xy10SS1HdVVUMzI5M0wzZGs5dmVXLTY1Ymg2aFJXczZVSmlvSzMxRmwzU0l0dExUQVU?oc=5",
   "termos": [
@@ -2940,6 +3402,19 @@
    "Universidade Federal do Sul e Sudeste do Pará"
   ],
   "dominio": "bbc.com",
+  "fontes": [
+   "Google"
+  ]
+ },
+ {
+  "data": "2026-05-05",
+  "veiculo": "Universidade Federal do Cariri – UFCA",
+  "titulo": "4º Seminário Nacional de Ensino em Extensão Rural",
+  "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQZnJ2TzNtTzlDY2NuVURFclBMVVdoT0c2U3JsWC1mQ3dieVNnYTkycW1ld2xiYl91cS1UMm9ueWRBcWM2akx2V1A3NXJScDh5a2dTQWd6YldDX3g0TU1OTlVWRzZ0NktPX0h1ajhQOS1Db2ZVLVdkdmlIb0tpWXpzb3FybEdIV0gy?oc=5",
+  "termos": [
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "dominio": "ufca.edu.br",
   "fontes": [
    "Google"
   ]
@@ -3022,6 +3497,19 @@
   "dominio": "gazetacarajas.com",
   "fontes": [
    "Google"
+  ]
+ },
+ {
+  "data": "2026-04-24",
+  "veiculo": "Portal Debate Carajás",
+  "titulo": "Debate Podcast: Ilker Moraes destaca projetos, investimentos e ações da Câmara de Marabá",
+  "link": "https://debatecarajas.com.br/debate-podcast-ilker-moraes-destaca-projetos-investimentos-e-acoes-da-camara-de-maraba/",
+  "termos": [
+   "Unifesspa"
+  ],
+  "dominio": "debatecarajas.com.br",
+  "fontes": [
+   "Portal Debate Carajás"
   ]
  },
  {
@@ -3136,6 +3624,20 @@
  },
  {
   "data": "2026-04-21",
+  "veiculo": "Portal Debate Carajás",
+  "titulo": "Sete mil quelônios são devolvidos à natureza em comunidades do Lago de Tucuruí",
+  "link": "https://debatecarajas.com.br/sete-mil-quelonios-sao-devolvidos-a-natureza-em-comunidades-do-lago-de-tucurui/",
+  "termos": [
+   "Unifesspa",
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "dominio": "debatecarajas.com.br",
+  "fontes": [
+   "Portal Debate Carajás"
+  ]
+ },
+ {
+  "data": "2026-04-21",
   "veiculo": "Correio de Carajás",
   "titulo": "Os contos “A terceira margem do rio” e “Famigerado” como porta de entrada para a obra de João Guimarães Rosa",
   "link": "https://correiodecarajas.com.br/os-contos-a-terceira-margem-do-rio-e-famigerado-como-porta-de-entrada-para-a-obra-de-joao-guimaraes-rosa/",
@@ -3174,7 +3676,8 @@
   ],
   "dominio": "debatecarajas.com.br",
   "fontes": [
-   "Google"
+   "Google",
+   "Portal Debate Carajás"
   ]
  },
  {
@@ -3404,6 +3907,19 @@
  },
  {
   "data": "2026-04-13",
+  "veiculo": "Portal Debate Carajás",
+  "titulo": "Vale abre seleção com bolsas de até R$ 9,3 mil no Pará",
+  "link": "https://debatecarajas.com.br/vale-abre-selecao-com-bolsas-de-ate-r-93-mil-no-para/",
+  "termos": [
+   "Unifesspa"
+  ],
+  "dominio": "debatecarajas.com.br",
+  "fontes": [
+   "Portal Debate Carajás"
+  ]
+ },
+ {
+  "data": "2026-04-13",
   "veiculo": "Gazeta Carajás",
   "titulo": "Castanha-do-pará tem queda de preços com avanço da safra",
   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPM0lGM3pTbmFiZDROOUdDQWpWb0Nvc1hEOU1ucUE4US04NEVaSUhvMTJQVnRjQVhtdjJxdGZONmR1UzZTamZXSGFkakdqX3JlSjVidlluQ2g2bEJyZEE0ZDlCSmw1R1FlQjhuQ3U3QXJFdXpra0toa1BtUTRoRU02ZVR1RnZfcTl6QzRqQnJaVnhISWY3ZER0RjRn?oc=5",
@@ -3477,6 +3993,20 @@
   "dominio": "zedudu.com.br",
   "fontes": [
    "Zé Dudu"
+  ]
+ },
+ {
+  "data": "2026-04-05",
+  "veiculo": "Portal Debate Carajás",
+  "titulo": "Pesquisa da UFPA aplica inteligência artificial para detectar TEA em escolas públicas no Pará",
+  "link": "https://debatecarajas.com.br/pesquisa-da-ufpa-aplica-inteligencia-artificial-para-detectar-tea-em-escolas-publicas-no-para/",
+  "termos": [
+   "Unifesspa",
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "dominio": "debatecarajas.com.br",
+  "fontes": [
+   "Portal Debate Carajás"
   ]
  },
  {
@@ -3684,6 +4214,19 @@
   ]
  },
  {
+  "data": "2026-03-30",
+  "veiculo": "G1",
+  "titulo": "Inscrições abertas para Workshop internacional que vai discutir futuro da Amazônia em Santarém",
+  "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNeDBvbmpTWW8walotN05RSkkxSlVLS2l1Xy00a2RCUVdTTmdvRDRBZEV5aW0tV1dYOW41UktOMS1abUhaNHdTa2t3aVhQSzBZa3pRd3BPYXZEQmRaOElSWDE4T3RlclBMTHRKR0NQM2pBTTVjREM3a29HUEYyZFJOdjU0LXZrZGp4ekVabW9ZbVI1M2p3T0UwaG0wcnAzdkZxeURhcV82c0ZWOWhyYWwzMWYxTTlabXpmT19mWmVueHJ5Tlh6OENtcF9mTUJualk3NjJOZm9lWkZGZk9QeUdXVi1xejMweHBTeUFzQUVGR3rSAf8BQVVfeXFMUHd1dlZkNWV6OVlONGhDX2FrWnBEV2ltQkNhTWd1VnF2SmkwN0F3ZVZ1WHF1OGlIZTdKbzZvMXNRRHE2Zmh6cmZLLXVvb3N2M3pNdS1fSHUxLW42eUJuSE9INUpOV0FYOUJDVVVLdHRQQVhraWJfc2NaSUNPZkJfNllyS2hURi1RZ3FXbmxDRGM5d2RpWEpkc0FXU0s1RVl3SUFNdUpJRVFHdzVhamlfVTMwc3hOSWlhTXFoOGMtYkp5QzBIczViclAwWTJjdmNXdlNWZ2ZWeHlMNmhEbHhVV2p4azZ0LWtXaFVzcVphUklpT3JQNDFfR3c0WTdIcTZB?oc=5",
+  "termos": [
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "dominio": "g1.globo.com",
+  "fontes": [
+   "Google"
+  ]
+ },
+ {
   "data": "2026-03-29",
   "veiculo": "Jornal O Impacto",
   "titulo": "WORKSHOP INTERNACIONAL OFERECE VAGAS PARA DISCUTIR FUTURO DA AMAZÔNIA EM SANTARÉM",
@@ -3774,6 +4317,19 @@
    "Universidade Federal do Sul e Sudeste do Pará"
   ],
   "dominio": "ndmais.com.br",
+  "fontes": [
+   "Google"
+  ]
+ },
+ {
+  "data": "2026-03-17",
+  "veiculo": "Gazeta do Cerrado",
+  "titulo": "PT parabeniza nova superintendente da SPU no Tocantins; Conheça a trajetória de Laranna Prestes",
+  "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPYjJEeXZUc2xWYjJEUTFQY3hZLWo4UTdlcERIRkFkYndLbzNkU3VPYzZ0SDgyZ2ZvMkp4Yms5X1hlRmhGcGVZMFR5eDN5UWhTSHMteThjZmpEcFpfanJtZU9ud2VYc2tudld3Z25jWm5KOGZUOXA3S2hJeGdGRkpxZTkyeGxZMUI2aEpXY2MzUXJyYThKVDFqblE4aUtyaG1JLUpxRXhHamswaFR0WENDV2ZkRVlZY3JVaHVOR1ZVUVVCLUxRR3dLX012TFJJcHR4RUE?oc=5",
+  "termos": [
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "dominio": "gazetadocerrado.com.br",
   "fontes": [
    "Google"
   ]
@@ -3969,7 +4525,8 @@
   ],
   "dominio": "debatecarajas.com.br",
   "fontes": [
-   "Google"
+   "Google",
+   "Portal Debate Carajás"
   ]
  },
  {
@@ -4027,6 +4584,20 @@
   "dominio": "ne9.com.br",
   "fontes": [
    "Google"
+  ]
+ },
+ {
+  "data": "2026-03-02",
+  "veiculo": "Portal Debate Carajás",
+  "titulo": "Ministro da Educação oficializa curso de Medicina na Unifesspa em Marabá",
+  "link": "https://debatecarajas.com.br/ministro-da-educacao-oficializa-curso-de-medicina-na-unifesspa-em-maraba/",
+  "termos": [
+   "Unifesspa",
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "dominio": "debatecarajas.com.br",
+  "fontes": [
+   "Portal Debate Carajás"
   ]
  },
  {
@@ -4091,6 +4662,20 @@
   ]
  },
  {
+  "data": "2026-02-28",
+  "veiculo": "Blog do Hiroshi Bogéa",
+  "titulo": "Faculdade de Medicina: o jaleco e a geografia da esperança",
+  "link": "https://hiroshibogea.com.br/federal-de-medicina-o-jaleco-e-a-geografia-da-esperanca/",
+  "termos": [
+   "Unifesspa",
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "dominio": "hiroshibogea.com.br",
+  "fontes": [
+   "Blog do Hiroshi Bogéa"
+  ]
+ },
+ {
   "data": "2026-02-27",
   "veiculo": "O Liberal",
   "titulo": "Ministro da Educação é recebido com chuva e protesto de servidores na Unifesspa em Marabá",
@@ -4104,6 +4689,20 @@
   "dominio": "oliberal.com",
   "fontes": [
    "Google"
+  ]
+ },
+ {
+  "data": "2026-02-27",
+  "veiculo": "Fato Regional",
+  "titulo": "Ministro da Educação visita Unifesspa para inaugurar estruturas em Santana do Araguaia e autorizar curso de Medicina em Marabá",
+  "link": "https://fatoregional.com.br/ministro-da-educacao-visita-unifesspa-para-inaugurar-estruturas-em-santana-do-araguaia-e-autorizar-curso-de-medicina-em-maraba/?utm_source=rss&utm_medium=rss&utm_campaign=ministro-da-educacao-visita-unifesspa-para-inaugurar-estruturas-em-santana-do-araguaia-e-autorizar-curso-de-medicina-em-maraba",
+  "termos": [
+   "Unifesspa",
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "dominio": "fatoregional.com.br",
+  "fontes": [
+   "Fato Regional"
   ]
  },
  {
@@ -4206,6 +4805,19 @@
  },
  {
   "data": "2026-02-25",
+  "veiculo": "Esquerda Diário",
+  "titulo": "Educação Técnicos entram em greve nas federais, em cenário recorde de contingenciamento de verbas",
+  "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQczR0SjJqSTIwNy1sYjA0ZzhzWldDSkpKSENPQkxQeHlQNWlYRWxtd2w4N0lhdFQ3UTJ1YlVxRGN6WE5Jel84d1AyajBOUXE5Y3ViQUt4LXVjM3luVVpGSF9aZ1NZMi0xUE96bGxjempyU2tBOGFLdkgxbms4WElPYkdadVNfeHg0WjhwVHQxQzB5ZHVMWlRhbnVZMEhrcmZpOEUwZUVfZmhScFB3ZWRzU0xxWlgxbjBsSkJqWGZB?oc=5",
+  "termos": [
+   "Unifesspa"
+  ],
+  "dominio": "esquerdadiario.com.br",
+  "fontes": [
+   "Google"
+  ]
+ },
+ {
+  "data": "2026-02-25",
   "veiculo": "Bico 24 Horas",
   "titulo": "MARABÁ: Visita de ministro da Educação consolida curso de Medicina e expansão da Unifesspa",
   "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPY3IxX2phREJMZTJFZU8tdVhZS0lPSDBIbGNjbzRvSHJEdHo3WHBOTVNIY3NaOTh1TWZWR0VhcnlabWk0UEpzejg2Y2RIWThkZ1F5b0NOdnBMbHpmS3pPdmJWY1U5QUxyd2pVaS12MjhDeHRkTHVKN1Y1QWhHZnZEMURuREpnSFB0Y1RKZWM3T3VMR0Y2eE5wbzQ5TUFsUmRwU1RXOVB1QjZRV05xQk5GQlFQanQ3NndiTllvd1d2TQ?oc=5",
@@ -4216,6 +4828,20 @@
   "dominio": "bico24horas.com.br",
   "fontes": [
    "Google"
+  ]
+ },
+ {
+  "data": "2026-02-24",
+  "veiculo": "Zé Dudu",
+  "titulo": "Técnicos da UFPA, Ufopa e Unifesspa entram em greve por tempo indeterminado no Pará",
+  "link": "https://www.zedudu.com.br/tecnicos-da-ufpa-ufopa-e-unifesspa-entram-em-greve-por-tempo-indeterminado-no-para/#utm_source=rss&utm_medium=rss&utm_campaign=tecnicos-da-ufpa-ufopa-e-unifesspa-entram-em-greve-por-tempo-indeterminado-no-para",
+  "termos": [
+   "Unifesspa",
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "dominio": "zedudu.com.br",
+  "fontes": [
+   "Zé Dudu"
   ]
  },
  {
@@ -4304,7 +4930,8 @@
   ],
   "dominio": "debatecarajas.com.br",
   "fontes": [
-   "Google"
+   "Google",
+   "Portal Debate Carajás"
   ]
  },
  {
@@ -4459,6 +5086,34 @@
   ]
  },
  {
+  "data": "2026-02-06",
+  "veiculo": "Portal Debate Carajás",
+  "titulo": "O Debate Podcast conversou com aluno da Escola Liberdade que conseguiu cinco aprovações no Enem 2025",
+  "link": "https://debatecarajas.com.br/o-debate-podcast-conversou-com-aluno-da-escola-liberdade-que-conseguiu-cinco-aprovacoes-no-enem-2025/",
+  "termos": [
+   "Unifesspa",
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "dominio": "debatecarajas.com.br",
+  "fontes": [
+   "Portal Debate Carajás"
+  ]
+ },
+ {
+  "data": "2026-02-06",
+  "veiculo": "Fato Regional",
+  "titulo": "Sisu 2026 aprova quase 2,5 mil candidatos no Pará e preenche todas as vagas",
+  "link": "https://fatoregional.com.br/sisu-2026-aprova-quase-25-mil-candidatos-no-para-e-preenche-todas-as-vagas/?utm_source=rss&utm_medium=rss&utm_campaign=sisu-2026-aprova-quase-25-mil-candidatos-no-para-e-preenche-todas-as-vagas",
+  "termos": [
+   "Unifesspa",
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "dominio": "fatoregional.com.br",
+  "fontes": [
+   "Fato Regional"
+  ]
+ },
+ {
   "data": "2026-02-03",
   "veiculo": "cptnacional.org.br",
   "titulo": "Semana Nacional de Combate ao Trabalho Escravo é marcada por ações da CPT",
@@ -4509,6 +5164,20 @@
   "dominio": "correiodecarajas.com.br",
   "fontes": [
    "Correio de Carajás"
+  ]
+ },
+ {
+  "data": "2026-01-30",
+  "veiculo": "Portal Debate Carajás",
+  "titulo": "Unifesspa publica regras para alunos que estão há muito tempo no curso",
+  "link": "https://debatecarajas.com.br/unifesspa-publica-regras-para-alunos-que-estao-ha-muito-tempo-no-curso/",
+  "termos": [
+   "Unifesspa",
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "dominio": "debatecarajas.com.br",
+  "fontes": [
+   "Portal Debate Carajás"
   ]
  },
  {
@@ -4635,6 +5304,33 @@
   "dominio": "correiodecarajas.com.br",
   "fontes": [
    "Correio de Carajás"
+  ]
+ },
+ {
+  "data": "2026-01-26",
+  "veiculo": "Portal Debate Carajás",
+  "titulo": "Hospital Regional de Marabá realiza 1ª Semana de Saúde Mental para servidores e usuários",
+  "link": "https://debatecarajas.com.br/hospital-regional-de-maraba-realiza-1a-semana-de-saude-mental-para-servidores-e-usuarios/",
+  "termos": [
+   "Unifesspa",
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "dominio": "debatecarajas.com.br",
+  "fontes": [
+   "Portal Debate Carajás"
+  ]
+ },
+ {
+  "data": "2026-01-26",
+  "veiculo": "Blog do Hiroshi Bogéa",
+  "titulo": "Ribeirinhos do Tocantins formalizam plano de sobrevivência contra impactos da Hidrovia",
+  "link": "https://hiroshibogea.com.br/ribeirinhos-do-tocantins-formalizam-plano-de-sobrevivencia-contra-impactos-da-hidrovia/",
+  "termos": [
+   "Unifesspa"
+  ],
+  "dominio": "hiroshibogea.com.br",
+  "fontes": [
+   "Blog do Hiroshi Bogéa"
   ]
  },
  {
@@ -4879,6 +5575,20 @@
   ]
  },
  {
+  "data": "2026-01-15",
+  "veiculo": "Fato Regional",
+  "titulo": "Sisu 2026: Pará terá cerca de 2,5 mil vagas em universidades federais",
+  "link": "https://fatoregional.com.br/sisu-2026-para-tera-cerca-de-25-mil-vagas-em-universidades-federais/?utm_source=rss&utm_medium=rss&utm_campaign=sisu-2026-para-tera-cerca-de-25-mil-vagas-em-universidades-federais",
+  "termos": [
+   "Unifesspa",
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "dominio": "fatoregional.com.br",
+  "fontes": [
+   "Fato Regional"
+  ]
+ },
+ {
   "data": "2026-01-14",
   "veiculo": "cnnbrasil.com.br",
   "titulo": "Sisu 2026: MEC divulga número de vagas por estado; confira lista",
@@ -5020,6 +5730,21 @@
  },
  {
   "data": "2026-01-05",
+  "veiculo": "Portal Debate Carajás",
+  "titulo": "Sisu 2026: Unifesspa vai ofertar vagas em cinco cidades do Pará",
+  "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNUHJKX3JqWWkxazd4ZVpnS1BndnVaalBxX3FNSV85U256b2Jpc1F3ZHpBTGRyc0pzYW11SUJzNERrcm93a28xcUhKOXhKRjNGWUoyaUJQcklxTXhRUWVUam01X1VqclBpa2wyLS10NUxxM3Zud3pIaEt3ZzNKLXhla0o0T3p3ajhtaHBzalItTDlmQVRscGpV?oc=5",
+  "termos": [
+   "Unifesspa",
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "dominio": "debatecarajas.com.br",
+  "fontes": [
+   "Google",
+   "Portal Debate Carajás"
+  ]
+ },
+ {
+  "data": "2026-01-05",
   "veiculo": "G1",
   "titulo": "Sisu 2026: Pará tem 2.490 vagas; veja cursos ofertados pela Ufra e Unifesspa",
   "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPaWs0VS1WcFB4UkVNRGJPTkYyeGRhMF9fY2h3cXJjTGplaWg1dkwzNjNNYm55S3Z2MlVTNG9JZldHemlMOExsYTF5Tmp0dU9tcjdUTHppOTRMQjZtZ1pnYjlNN0JmV1gtNHVwLUYtMnlwMV9qX1BVdjVnQllWSVplazFVOXN4SFhhRGE1MWYwb3Z3VlNXQ2NWWU5fdUFYelRfeGFUTDFnNVFORUc2aWlRX3pGbUxRYjkybjlDOFVFTGhzRmlHM1HSAdQBQVVfeXFMUERJTFdTcHUwS0pTSWNDaGZSelZMdHJEdzdFcGh3Um9oWTJjcTI5QWJhVlNpV2M2ZDlvYlNjZTdTYkZELUFqWEZ3aDh1SDMtVHlDZzNVWmsta2otNmJLd1NWakp3N3F2eDEtZUJyQmdjSFFreHo2QW1yRm9KOUdLeWVSRlFhdlgwazhaWlM5NVRXdmZEYWtveDN0d2RlU2NqVmtrUGZyRXhhWUZhNWZyRlNhTllUY2Z3NF9CMzFxaVhOV2dlNm5GZ3h5M2dCM1NyM21RcHo?oc=5",
@@ -5028,6 +5753,19 @@
    "Universidade Federal do Sul e Sudeste do Pará"
   ],
   "dominio": "g1.globo.com",
+  "fontes": [
+   "Google"
+  ]
+ },
+ {
+  "data": "2026-01-05",
+  "veiculo": "DOL",
+  "titulo": "Pará abre 2.490 vagas universitárias pelo Sisu 2026",
+  "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQUnZRUmlDT0tMZkFqOVNzaG1Sel9aYUJPX0xLV0xfV3RZdTZZSjItRERJZmtHYmNjaTFjRHh6MXFSRUlzYkxGQjRFemZCSTJnUW4yNjd3R1JqOFN3N1hqWEIyS1F5RWZ1VEJwU011eTVfM2FUeXNQTkFCN2tndGN4c1JlSEFBc1JOSFpJTjl4M0VUX05w0gGcAUFVX3lxTE9nbFA5cVgwcTh2RlFJVTZaWDdKUjM2aXJJTndmWjdIRTBaTDNKclQyWHlFR2lpTlNCcU8yV2FZQVhIVWExWFZxd2RKVnBHdHlhSjlmejZRQ0dZVlRqYjZETEZHdXJWb0dpbVhIZ2RFWmRHV0gwb0NHb01oekZYTVRiajBsNnVfVTZ2VHREcjJMZzJFUlpDSGg1dmxIRg?oc=5",
+  "termos": [
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "dominio": "dol.com.br",
   "fontes": [
    "Google"
   ]
