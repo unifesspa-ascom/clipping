@@ -45,12 +45,23 @@ LOCAIS_WORDPRESS = {
     "https://correiodecarajas.com.br": "Correio de Carajás",
     "https://portalcanaa.com.br": "Portal Canaã",
     "https://portalpebao.com.br": "Portal Pebão",
+    "https://hiroshibogea.com.br": "Blog do Hiroshi Bogéa",
+    "https://debatecarajas.com.br": "Portal Debate Carajás",
+    "https://pebinhadeacucar.com.br": "Pebinha de Açúcar",
+    "https://fatoregional.com.br": "Fato Regional",
+    "https://portalamazonia.com": "Portal Amazônia",
 }
 # Veículos sem feed: busca no Google Notícias e no Bing restrita ao site (domínio -> nome).
 LOCAIS_SEM_FEED = {
     "gazetacarajas.com": "Gazeta Carajás",
     "dol.com.br": "DOL Carajás",
     "g1.globo.com/pa": "G1 Pará",
+    # Sites que não permitem leitura automática direta (robots.txt) ou sem feed: só pela busca do Google e do Bing.
+    "rondon-noticias.unifesspa.edu.br": "Rondon Notícias",
+    "sindtifes.org.br": "Sindtifes-PA",
+    "adunifesspa.org.br": "ADUNIFESSPA",
+    "blogdobranco.com": "Blog do Branco",
+    "carajasemfoco.com.br": "Carajás em Foco",
 }
 # Quando o domínio aparece em qualquer fonte, o veículo recebe sempre o mesmo nome.
 NOMES_POR_DOMINIO = {
@@ -59,9 +70,21 @@ NOMES_POR_DOMINIO = {
     "portalcanaa.com.br": "Portal Canaã",
     "portalpebao.com.br": "Portal Pebão",
     "gazetacarajas.com": "Gazeta Carajás",
+    "hiroshibogea.com.br": "Blog do Hiroshi Bogéa",
+    "debatecarajas.com.br": "Portal Debate Carajás",
+    "pebinhadeacucar.com.br": "Pebinha de Açúcar",
+    "fatoregional.com.br": "Fato Regional",
+    "portalamazonia.com": "Portal Amazônia",
+    "rondon-noticias.unifesspa.edu.br": "Rondon Notícias",
+    "sindtifes.org.br": "Sindtifes-PA",
+    "adunifesspa.org.br": "ADUNIFESSPA",
+    "blogdobranco.com": "Blog do Branco",
+    "carajasemfoco.com.br": "Carajás em Foco",
 }
 # Veículos próprios da universidade: não entram no clipping (é o que a imprensa publica sobre ela).
 DOMINIOS_IGNORADOS = ["unifesspa.edu.br"]
+# Exceções: veículos de dentro da universidade que a ASCOM quer acompanhar mesmo assim.
+DOMINIOS_PERMITIDOS = ["rondon-noticias.unifesspa.edu.br"]
 LIMITE_FEED = 100        # o Google devolve no máximo ~100 itens por consulta
 LIMITE_GDELT = 250       # máximo de artigos por consulta do GDELT
 PAUSA = 1.5              # segundos entre consultas, para não sobrecarregar o serviço
@@ -239,6 +262,8 @@ def consulta_wordpress(site, nome, termo, ini, baixar_fn=baixar):
 # ---- Utilidades -------------------------------------------------------------
 def eh_proprio(item):
     alvo = (item["dominio"] + " " + item["veiculo"]).lower()
+    if any(d in alvo for d in DOMINIOS_PERMITIDOS):
+        return False
     return any(d in alvo for d in DOMINIOS_IGNORADOS)
 
 
