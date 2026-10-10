@@ -1,11 +1,52 @@
 [
  {
+  "data": "2026-10-10",
+  "veiculo": "Gazeta Carajás",
+  "titulo": "Notícias em Canaã dos Carajás",
+  "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFB6VnNwLVNSZ2pzaS1naWt3djNHNWozZzFjMjViNkhvb1hzelNKTk1SSlZ0V1VmWU90amUyRFZrWnhXRG1EUm1UYllOemJscElmWFJUNjNqMzJHejN5b3FhRzl5cVNpWkl6dlI1dlhR?oc=5",
+  "termos": [
+   "Unifesspa"
+  ],
+  "dominio": "gazetacarajas.com",
+  "fontes": [
+   "Gazeta Carajás"
+  ]
+ },
+ {
+  "data": "2026-10-10",
+  "veiculo": "Correio do Povo",
+  "titulo": "Livros para presentear no Dia das Crianças: veja inspirações",
+  "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQcktlWWd2djA2amlMVmNYUlczTzl3Vk5VUDF2dFFlWTRBclRoMFdRTlN4cnJSX0Q5Y0ZIdlE2VVk4c3FyTEJvYzRwTGZtNjh6TnpYUXpVcFFPZDFaeDNCNUN2ZmR5ZXUyTGRSUHhwN2wycGFlbGoxUkpHbzA0R1dxcVN1SldLUGlHM2JveFlBUHZ1SDhLQzhrQms2ejFjTXlPZXJ6RXJaSDFwNHFIQlVIN1F3OS1zOVRKLWpqM0tTUEJFNGp0?oc=5",
+  "termos": [
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "dominio": "correiodopovo.com.br",
+  "fontes": [
+   "Google",
+   "Bing"
+  ]
+ },
+ {
   "data": "2026-10-09",
   "veiculo": "Carajás em Foco",
   "titulo": "Projeto reconhece saúde estética como área de atuação de seis profissões",
   "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQRmFpZ1U3XzlXWW12UjJmTVpCZld5MmJfZ3V6MjVBc3hSdXFabWJrT2hDN1J5UUNlbW9BX2s1M21rNG02cVhpVUN6LVpKSVNYcEdhZklmUnR1NjJwZHFsdGtyT09nMlZMX0R5alU2RnBaamhvZXF6WkNVNU5uMk9QTGFodTBLQXZVbkc3UHVza2Z3eU9lVkd2NnRtNnoxZzdQNzlubld3SWlMVm9MSWxpdmdVUFl6Zw?oc=5",
   "termos": [
    "Unifesspa"
+  ],
+  "dominio": "carajasemfoco.com.br",
+  "fontes": [
+   "Carajás em Foco"
+  ]
+ },
+ {
+  "data": "2026-10-09",
+  "veiculo": "Carajás em Foco",
+  "titulo": "Flávio Bolsonaro diz que vai manter Bolsa Família e Farmácia Popular",
+  "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOVzM5SzU0ZTdfbjhHaVdaNzgtWnZmaXBuLTRNMTB5ZUE3RXNId2FaMFJMZjdfSlViT0xzN3V3aGxUSnVvcS04RW94UjRlUlFZcTU0a2pXdW5ha051Ql92UzhiYW5Kc0dFSUtYN3gxaXNKUERPMGRkbXpMTU1CUTZwQm5qblhob21iZE1rQU1XR0NvZzYyR3JZZ1gybUtpM2JVY3d3NnZXWFA2cWFSZ0xmZw?oc=5",
+  "termos": [
+   "Unifesspa",
+   "Universidade Federal do Sul e Sudeste do Pará"
   ],
   "dominio": "carajasemfoco.com.br",
   "fontes": [
@@ -27,13 +68,42 @@
   ]
  },
  {
+  "data": "2026-10-09",
+  "veiculo": "Carajás em Foco",
+  "titulo": "Brasil não será governado por sócios do Banco Master, diz Lula em ato",
+  "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPTkhZeG1yYnZtTmNFMzlhc1pXNTNZTlZCdFUybkwzZUplZF82VFMwTGNweXJ0d1BEd0w5YVdhZnE1VVBHVFlFTzlDMWp3NXF3ZXk4ODdUYWtkMEd5dnhsZGplSXpyWmdCaWRXeUU3aV92WkV0eHdWLTh0X0NTVktPVlBtT3dUUkUtOVB2UWpVZWhFaVRuTUh2TUk4dlY3WHZpYWx6SmVKYWJLQWVDVnROMQ?oc=5",
+  "termos": [
+   "Unifesspa",
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "dominio": "carajasemfoco.com.br",
+  "fontes": [
+   "Carajás em Foco"
+  ]
+ },
+ {
+  "data": "2026-10-08",
+  "veiculo": "Xinguara Ativa",
+  "titulo": "Reunião do PT termina em socos, cusparadas e vai parar na delegacia em Marabá e Belém",
+  "link": "https://www.xinguaraativa.com.br/noticia/1036/reuniao-do-pt-termina-em-socos-cusparadas-e-vai-parar-na-delegacia-em-maraba-e-belem",
+  "termos": [
+   "Universidade Federal do Sul e Sudeste do Pará",
+   "Francisco Ribeiro da Costa"
+  ],
+  "dominio": "xinguaraativa.com.br",
+  "fontes": [
+   "Bing"
+  ]
+ },
+ {
   "data": "2026-10-08",
   "veiculo": "Portal Debate Carajás",
   "titulo": "Reunião do PT termina em socos, cusparadas e vai parar na delegacia em Marabá e Belém",
   "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOZGE0XzBVbXIxMi1teWx5OHNhOUgtTFptNGs1TnBiTGZXemVHVGlLWUhOLXIyeFQ5MGZsWmpkNkVyUXlnYkpxbTdreTVNUktoSjd4aU1JODlJM0NEVUtYdVZ5TzVveHV0NElQMVQtTmZROGxPV0x6cW1xQjlKT29OTGNiVktIMWFJaThlVEd0enZuNEtUbGhkN1hKZG40RG9fSHhueHdCQ0xHbVRsX0VFWmdnM24?oc=5",
   "termos": [
    "Unifesspa",
-   "Universidade Federal do Sul e Sudeste do Pará"
+   "Universidade Federal do Sul e Sudeste do Pará",
+   "Francisco Ribeiro da Costa"
   ],
   "dominio": "debatecarajas.com.br",
   "fontes": [
