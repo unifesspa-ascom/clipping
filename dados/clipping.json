@@ -411,41 +411,6 @@
  },
  {
   "data": "2026-10-06",
-  "veiculo": "g1",
-  "titulo": "Resultado das eleições 2026 em Xinguara (PA): como foi a votação nos locais de votação da 61ª Zona Eleitoral",
-  "link": "https://g1.globo.com/pa/para/eleicoes/2026/noticia/2026/10/06/resultado-das-eleicoes-2026-em-xinguara-pa-como-foi-a-votacao-nos-locais-de-votacao-da-61a-zona-eleitoral.ghtml",
-  "termos": [
-   "Unifesspa"
-  ],
-  "dominio": "g1.globo.com",
-  "fontes": [
-   "Bing",
-   "G1 Pará (Bing)"
-  ],
-  "verificada": true,
-  "mencoes": 2,
-  "resumo": "A 61ª zona eleitoral de Xinguara (PA) tem 22 locais de votação. O g1 publicou reportagens com a votação para presidente em cada um deles, no 1º turno das Eleições 2026, com os números de cada seção eleitoral. Os dados foram divulgados pelo...",
-  "descartada": true,
-  "motivo": "Menção apenas incidental (local de votação ou lista de agenda)."
- },
- {
-  "data": "2026-10-06",
-  "veiculo": "g1",
-  "titulo": "Eleições 2026 no Pará",
-  "link": "https://g1.globo.com/pa/para/eleicoes/2026/noticia/2026/10/06/resultado-das-eleicoes-2026-em-rondon-do-para-pa-votacao-para-presidente-no-unifesspa-universidade-federal-do-sul-e-sudeste-do-para-na-51a-zona-eleitoral.ghtml",
-  "termos": [
-   "Universidade Federal do Sul e Sudeste do Pará"
-  ],
-  "dominio": "g1.globo.com",
-  "fontes": [
-   "Bing"
-  ],
-  "verificada": true,
-  "mencoes": 6,
-  "resumo": "Unifesspa - Universidade Federal do Sul e Sudeste do Pará, 51ª zona eleitoral: resultado da votação em Rondon do Pará (PA) no 1º turno | G1 Pular para o conteúdo Pará Eleições 2026 no Pará Unifesspa - Universidade Federal do Sul e Sudeste..."
- },
- {
-  "data": "2026-10-06",
   "veiculo": "Hora Brasil",
   "titulo": "Terminam em 23/10 as inscrições para o mestrado profissional gratuito em Administração Pública – PROFIAP 2027",
   "link": "https://www.horabrasil.com.br/2026/10/06/terminam-em-23-10-as-inscricoes-para-o-mestrado-profissional-gratuito-em-administracao-publica-profiap-2027",
@@ -464,7 +429,26 @@
  },
  {
   "data": "2026-10-06",
-  "veiculo": "G1",
+  "veiculo": "G1 Pará",
+  "titulo": "Resultado das eleições 2026 em Xinguara (PA): como foi a votação nos locais de votação da 61ª Zona Eleitoral",
+  "link": "https://g1.globo.com/pa/para/eleicoes/2026/noticia/2026/10/06/resultado-das-eleicoes-2026-em-xinguara-pa-como-foi-a-votacao-nos-locais-de-votacao-da-61a-zona-eleitoral.ghtml",
+  "termos": [
+   "Unifesspa"
+  ],
+  "dominio": "g1.globo.com",
+  "fontes": [
+   "Bing",
+   "G1 Pará (Bing)"
+  ],
+  "verificada": true,
+  "mencoes": 2,
+  "resumo": "A 61ª zona eleitoral de Xinguara (PA) tem 22 locais de votação. O g1 publicou reportagens com a votação para presidente em cada um deles, no 1º turno das Eleições 2026, com os números de cada seção eleitoral. Os dados foram divulgados pelo...",
+  "descartada": true,
+  "motivo": "Menção apenas incidental (local de votação ou lista de agenda)."
+ },
+ {
+  "data": "2026-10-06",
+  "veiculo": "G1 Pará",
   "titulo": "Resultado das eleições 2026 em Rondon do Pará (PA): votação para presidente no Unifesspa - Universidade Federal do Sul e Sudeste do Pará, na 51ª zona eleitoral",
   "link": "https://g1.globo.com/pa/para/eleicoes/2026/noticia/2026/10/06/resultado-das-eleicoes-2026-em-rondon-do-para-pa-votacao-para-presidente-no-unifesspa-universidade-federal-do-sul-e-sudeste-do-para-na-51a-zona-eleitoral.ghtml",
   "termos": [
@@ -475,6 +459,22 @@
   "fontes": [
    "Google",
    "G1 Pará"
+  ],
+  "verificada": true,
+  "mencoes": 6,
+  "resumo": "Unifesspa - Universidade Federal do Sul e Sudeste do Pará, 51ª zona eleitoral: resultado da votação em Rondon do Pará (PA) no 1º turno | G1 Pular para o conteúdo Pará Eleições 2026 no Pará Unifesspa - Universidade Federal do Sul e Sudeste..."
+ },
+ {
+  "data": "2026-10-06",
+  "veiculo": "G1 Pará",
+  "titulo": "Eleições 2026 no Pará",
+  "link": "https://g1.globo.com/pa/para/eleicoes/2026/noticia/2026/10/06/resultado-das-eleicoes-2026-em-rondon-do-para-pa-votacao-para-presidente-no-unifesspa-universidade-federal-do-sul-e-sudeste-do-para-na-51a-zona-eleitoral.ghtml",
+  "termos": [
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "dominio": "g1.globo.com",
+  "fontes": [
+   "Bing"
   ],
   "verificada": true,
   "mencoes": 6,
@@ -711,19 +711,6 @@
  },
  {
   "data": "2026-09-30",
-  "veiculo": "pebsp.com",
-  "titulo": "MEC encerra inscrições para Mestrado Profissional – PROFBIO hoje",
-  "link": "https://www.pebsp.com/mec-encerra-inscricoes-para-mestrado-profissional-profbio-hoje",
-  "termos": [
-   "Universidade Federal do Sul e Sudeste do Pará"
-  ],
-  "verificada": true,
-  "mencoes": 2,
-  "dominio": "pebsp.com",
-  "resumo": "Facebook X Linkedin Tumblr Messenger Messenger WhatsApp Telegram Compartilhar via e-mail ❌ Inscrições encerradas Encerraram em 30/09/2026 As inscrições do Edital nº 1860/2026 do Mestrado Profissional em Ensino de Biologia em Rede Nacional..."
- },
- {
-  "data": "2026-09-30",
   "veiculo": "agresteportal.com.br",
   "titulo": "Educação: Primeira Mostra Científica mobiliza estudantes e professores da EMEF Maria Ilan Rodrigues Jadão",
   "link": "https://agresteportal.com.br/noticia/132917/educacao-primeira-mostra-cientifica-mobiliza-estudantes-e-professores-da-emef-maria-ilan-rodrigues-jadao",
@@ -785,7 +772,7 @@
  },
  {
   "data": "2026-09-30",
-  "veiculo": "REDE BRASIL DE TELEVISÃO",
+  "veiculo": "Rede Brasil de Televisão",
   "titulo": "Educação: Primeira Mostra Científica mobiliza estudantes e professores da EMEF Maria Ilan Rodrigues Jadão",
   "link": "https://rbtv.com.br/noticia/17474/educacao-primeira-mostra-cientifica-mobiliza-estudantes-e-professores-da-emef-maria-ilan-rodrigues-jadao",
   "termos": [
@@ -800,6 +787,19 @@
   "verificada": true,
   "mencoes": 8,
   "resumo": "Educação: Primeira Mostra Científica mobiliza estudantes e professores da EMEF Maria Ilan Rodrigues Jadão Quinta, 15 de Outubro de 2026 Últimas notícias Editorias Blogs & Colunas Vídeos Páginas Enquetes Classificados Fale conosco 19 °C 26..."
+ },
+ {
+  "data": "2026-09-30",
+  "veiculo": "PEBSP Portal de Educação",
+  "titulo": "MEC encerra inscrições para Mestrado Profissional – PROFBIO hoje",
+  "link": "https://www.pebsp.com/mec-encerra-inscricoes-para-mestrado-profissional-profbio-hoje",
+  "termos": [
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "verificada": true,
+  "mencoes": 2,
+  "dominio": "pebsp.com",
+  "resumo": "Facebook X Linkedin Tumblr Messenger Messenger WhatsApp Telegram Compartilhar via e-mail ❌ Inscrições encerradas Encerraram em 30/09/2026 As inscrições do Edital nº 1860/2026 do Mestrado Profissional em Ensino de Biologia em Rede Nacional..."
  },
  {
   "data": "2026-09-30",
@@ -851,7 +851,7 @@
  },
  {
   "data": "2026-09-28",
-  "veiculo": "Portal Debate",
+  "veiculo": "Portal Debate Carajás",
   "titulo": "Carro é encontrado destruído após atingir muro no Campus II da Unifesspa, em Marabá",
   "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQZURKTjYtdnlpLWk2MXRldWt0QzhrVUVmMkxGbThxaU00eUxvTTRKVi1Ed2F2b1JFZjJNT29yTmpPU0pLRXhBN1NNUTZDLWc2VzVGU3Z4NFNMbk9KTUNQdGxDeDc2aFlySmtzR1ZPR1QzNEh3MkNBUEtVRmVzanRiTWpMUmlEc2lDb3FjdmxWZTVnUDRXTWdhS01lR2d1M1drODU4UWpHLWhLMnRGd3R2QnVB?oc=5",
   "termos": [
@@ -935,7 +935,7 @@
  },
  {
   "data": "2026-09-28",
-  "veiculo": "DOL",
+  "veiculo": "DOL Carajás",
   "titulo": "Mestrado em Tecnologias na Mineração recebe inscrições até 30 de setembro",
   "link": "https://dol.com.br/noticias/cursos--empregos/963970/mestrado-em-tecnologias-na-mineracao-recebe-inscricoes-ate-30-de-setembro",
   "termos": [
@@ -1035,20 +1035,6 @@
  },
  {
   "data": "2026-09-25",
-  "veiculo": "guaranyjunior.com.br",
-  "titulo": "Últimos dias: inscrição para Mestrado Profissional em Tecnologias Inovadoras na Mineração (PPGTIM) segue até 30 de setembro",
-  "link": "https://www.guaranyjunior.com.br/2026/09/25/ultimos-dias-inscricao-para-mestrado-profissional-em-tecnologias-inovadoras-na-mineracao-ppgtim-segue-ate-30-de-setembro",
-  "termos": [
-   "Unifesspa",
-   "Universidade Federal do Sul e Sudeste do Pará"
-  ],
-  "verificada": true,
-  "mencoes": 5,
-  "dominio": "guaranyjunior.com.br",
-  "resumo": "X Foto: Divulgação Interessados em atuar com inovação e novas tecnologias aplicadas à mineração têm até 30 de setembro para se inscrever no processo seletivo do Mestrado Profissional em Tecnologias Inovadoras na Mineração (PPGTIM), da..."
- },
- {
-  "data": "2026-09-25",
   "veiculo": "Ufopa",
   "titulo": "Universidade Federal do Oeste do Pará",
   "link": "https://www.ufopa.edu.br/ufopa/comunica/noticias/ufopa-nomeia-12-novos-servidores-para-atuacao-em-santarem-e-nos-campi",
@@ -1072,6 +1058,20 @@
    "Unifesspa",
    "Universidade Federal do Sul e Sudeste do Pará"
   ],
+  "verificada": true,
+  "mencoes": 5,
+  "dominio": "guaranyjunior.com.br",
+  "resumo": "X Foto: Divulgação Interessados em atuar com inovação e novas tecnologias aplicadas à mineração têm até 30 de setembro para se inscrever no processo seletivo do Mestrado Profissional em Tecnologias Inovadoras na Mineração (PPGTIM), da..."
+ },
+ {
+  "data": "2026-09-25",
+  "veiculo": "Portal Guarany Júnior",
+  "titulo": "Últimos dias: inscrição para Mestrado Profissional em Tecnologias Inovadoras na Mineração (PPGTIM) segue até 30 de setembro",
+  "link": "https://www.guaranyjunior.com.br/2026/09/25/ultimos-dias-inscricao-para-mestrado-profissional-em-tecnologias-inovadoras-na-mineracao-ppgtim-segue-ate-30-de-setembro",
+  "termos": [
+   "Unifesspa",
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
   "dominio": "guaranyjunior.com.br",
   "fontes": [
    "Google"
@@ -1082,7 +1082,7 @@
  },
  {
   "data": "2026-09-25",
-  "veiculo": "Portal Debate",
+  "veiculo": "Portal Debate Carajás",
   "titulo": "Prefeitura de Marabá apresenta nova frota do transporte coletivo nesta sexta-feira (25)",
   "link": "https://debatecarajas.com.br/prefeitura-de-maraba-apresenta-nova-frota-do-transporte-coletivo-nesta-sexta-feira-25",
   "termos": [
@@ -1199,20 +1199,6 @@
  },
  {
   "data": "2026-09-22",
-  "veiculo": "pebsp.com",
-  "titulo": "MEC anuncia inscrições para o Mestrado em Educação Inclusiva – PROFEI",
-  "link": "https://www.pebsp.com/mec-anuncia-inscricoes-para-o-mestrado-em-educacao-inclusiva-profei",
-  "termos": [
-   "Unifesspa"
-  ],
-  "verificada": true,
-  "mencoes": 1,
-  "dominio": "pebsp.com",
-  "data_feed": "2026-09-21",
-  "resumo": "PROFEI abre 700 vagas no mestrado profissional em Educação Inclusiva para professores da rede pública; inscrições vão até 6 de outubro de 2026. Facebook X Linkedin Tumblr Messenger Messenger WhatsApp Telegram Compartilhar via e-mail ❌..."
- },
- {
-  "data": "2026-09-22",
   "veiculo": "Zé Dudu",
   "titulo": "Professora de Canaã dos Carajás recebe Menção Honrosa em torneio nacional de Português",
   "link": "https://www.zedudu.com.br/professora-de-canaa-dos-carajas-recebe-mencao-honrosa-em-torneio-nacional-de-portugues",
@@ -1230,7 +1216,21 @@
  },
  {
   "data": "2026-09-22",
-  "veiculo": "PEBSP - Portal de Educação",
+  "veiculo": "PEBSP Portal de Educação",
+  "titulo": "MEC anuncia inscrições para o Mestrado em Educação Inclusiva – PROFEI",
+  "link": "https://www.pebsp.com/mec-anuncia-inscricoes-para-o-mestrado-em-educacao-inclusiva-profei",
+  "termos": [
+   "Unifesspa"
+  ],
+  "verificada": true,
+  "mencoes": 1,
+  "dominio": "pebsp.com",
+  "data_feed": "2026-09-21",
+  "resumo": "PROFEI abre 700 vagas no mestrado profissional em Educação Inclusiva para professores da rede pública; inscrições vão até 6 de outubro de 2026. Facebook X Linkedin Tumblr Messenger Messenger WhatsApp Telegram Compartilhar via e-mail ❌..."
+ },
+ {
+  "data": "2026-09-22",
+  "veiculo": "PEBSP Portal de Educação",
   "titulo": "MEC anuncia inscrições para o Mestrado em Educação Inclusiva – PROFEI",
   "link": "https://www.pebsp.com/mec-anuncia-inscricoes-para-o-mestrado-em-educacao-inclusiva-profei",
   "termos": [
@@ -1316,23 +1316,6 @@
  },
  {
   "data": "2026-09-21",
-  "veiculo": "andifes.org.br",
-  "titulo": "Unifesspa ganha Polo da Rede EducaNorte e expande a oferta de Doutorado em Educação no Sul e Sudeste do Pará",
-  "link": "https://www.andifes.org.br/2026/09/21/unifesspa-ganha-polo-da-rede-educanorte-e-expande-a-oferta-de-doutorado-em-educacao-no-sul-e-sudeste-do-para",
-  "termos": [
-   "Unifesspa",
-   "Universidade Federal do Sul e Sudeste do Pará"
-  ],
-  "dominio": "andifes.org.br",
-  "fontes": [
-   "Google"
-  ],
-  "verificada": true,
-  "mencoes": 11,
-  "resumo": "chevron_left Postada em 21 setembro 2026 Unifesspa ganha Polo da Rede EducaNorte e expande a oferta de Doutorado em Educação no Sul e Sudeste do Pará Na manhã da última sexta-feira (04/09), a Universidade Federal do Sul e Sudeste do Pará..."
- },
- {
-  "data": "2026-09-21",
   "veiculo": "Vatican News",
   "titulo": "Departamento de Teologia da PUC-Rio reflete sobre IA e dignidade humana",
   "link": "https://www.vaticannews.va/pt/igreja/news/2026-09/departamento-teologia-puc-rio-reflete-ia-dignidade.html",
@@ -1346,6 +1329,23 @@
   "verificada": true,
   "mencoes": 1,
   "resumo": "PUC-Rio Igreja igreja católica inteligência artificial escola e universidade Brasil Departamento de Teologia da PUC-Rio reflete sobre IA e dignidade humana Inspirada na Encíclica Magnifica humanitas, do Papa Leão XIV, a XVII Semana da..."
+ },
+ {
+  "data": "2026-09-21",
+  "veiculo": "Andifes",
+  "titulo": "Unifesspa ganha Polo da Rede EducaNorte e expande a oferta de Doutorado em Educação no Sul e Sudeste do Pará",
+  "link": "https://www.andifes.org.br/2026/09/21/unifesspa-ganha-polo-da-rede-educanorte-e-expande-a-oferta-de-doutorado-em-educacao-no-sul-e-sudeste-do-para",
+  "termos": [
+   "Unifesspa",
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "dominio": "andifes.org.br",
+  "fontes": [
+   "Google"
+  ],
+  "verificada": true,
+  "mencoes": 11,
+  "resumo": "chevron_left Postada em 21 setembro 2026 Unifesspa ganha Polo da Rede EducaNorte e expande a oferta de Doutorado em Educação no Sul e Sudeste do Pará Na manhã da última sexta-feira (04/09), a Universidade Federal do Sul e Sudeste do Pará..."
  },
  {
   "data": "2026-09-18",
@@ -1431,22 +1431,6 @@
  },
  {
   "data": "2026-09-16",
-  "veiculo": "mpf.mp.br",
-  "titulo": "Universidade Federal do Pará acata recomendação do MPF e vai aderir à Rede Nacional de Direitos LGBTQIA+",
-  "link": "https://www.mpf.mp.br/o-mpf/unidades/pr-pa/noticias/universidade-federal-do-para-acata-recomendacao-do-mpf-e-vai-aderir-a-rede-nacional-de-direitos-lgbtqia",
-  "termos": [
-   "Universidade Federal do Sul e Sudeste do Pará"
-  ],
-  "dominio": "mpf.mp.br",
-  "fontes": [
-   "Google"
-  ],
-  "verificada": true,
-  "mencoes": 2,
-  "resumo": "Foto: Juan Moyano/Canva A Universidade Federal do Pará (UFPA) confirmou ao Ministério Público Federal (MPF) que vai aderir à Rede Nacional de Promoção, Proteção e Defesa das Pessoas LGBTQIA+. A decisão atende de forma integral a uma..."
- },
- {
-  "data": "2026-09-16",
   "veiculo": "Zé Dudu",
   "titulo": "Feira de Profissões reúne mais de 90 cursos gratuitos em Marabá",
   "link": "https://www.zedudu.com.br/feira-de-profissoes-reune-mais-de-90-cursos-gratuitos-em-maraba",
@@ -1498,6 +1482,22 @@
  },
  {
   "data": "2026-09-16",
+  "veiculo": "Ministério Público Federal",
+  "titulo": "Universidade Federal do Pará acata recomendação do MPF e vai aderir à Rede Nacional de Direitos LGBTQIA+",
+  "link": "https://www.mpf.mp.br/o-mpf/unidades/pr-pa/noticias/universidade-federal-do-para-acata-recomendacao-do-mpf-e-vai-aderir-a-rede-nacional-de-direitos-lgbtqia",
+  "termos": [
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "dominio": "mpf.mp.br",
+  "fontes": [
+   "Google"
+  ],
+  "verificada": true,
+  "mencoes": 2,
+  "resumo": "Foto: Juan Moyano/Canva A Universidade Federal do Pará (UFPA) confirmou ao Ministério Público Federal (MPF) que vai aderir à Rede Nacional de Promoção, Proteção e Defesa das Pessoas LGBTQIA+. A decisão atende de forma integral a uma..."
+ },
+ {
+  "data": "2026-09-16",
   "veiculo": "Diário do Pará",
   "titulo": "Marabá sedia Feira de Profissões com mais de 90 cursos gratuitos",
   "link": "https://diariodopara.com.br/concursos-e-empregos/maraba-recebe-feira-com-mais-de-90-cursos-gratuitos-nesta-quinta",
@@ -1533,7 +1533,7 @@
  },
  {
   "data": "2026-09-15",
-  "veiculo": "guaranyjunior.com.br",
+  "veiculo": "Portal Guarany Júnior",
   "titulo": "Feira gratuita ajuda estudantes a descobrir caminhos para o futuro em Marabá",
   "link": "https://www.guaranyjunior.com.br/2026/09/15/feira-gratuita-ajuda-estudantes-a-descobrir-caminhos-para-o-futuro-em-maraba",
   "termos": [
@@ -1580,7 +1580,7 @@
  },
  {
   "data": "2026-09-15",
-  "veiculo": "DOL",
+  "veiculo": "DOL Carajás",
   "titulo": "De Marabá para o mundo: jovem leva coleção de moda a Londres",
   "link": "https://dol.com.br/entretenimento/962782/de-maraba-para-o-mundo-jovem-leva-colecao-de-moda-a-londres",
   "termos": [
@@ -1769,7 +1769,7 @@
  },
  {
   "data": "2026-09-11",
-  "veiculo": "Portal Debate",
+  "veiculo": "Portal Debate Carajás",
   "titulo": "Duas motocicletas se envolvem em acidente em frente à Unifesspa, em Marabá",
   "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQZDYzb1Z3QnZ0VmRMSEZZVDQ2ZV9ZUEtjelRsOXlidXM0WTN0NW9RWXVveTBha18tNUVuX29XR19GbUczUk9va05sTG9OUzJhbEp2VmtZX1I0cElDVmRsdTc3M1BVQmNGc3JqN0Fid21SVGkycHpwbFRYOXh6U1NwX3B6Q1VUWUxreDBhOFQyalRVUkRvY2RjY2poZGpTR1dVTWRsZ0lR?oc=5",
   "termos": [
@@ -1805,7 +1805,7 @@
  },
  {
   "data": "2026-09-11",
-  "veiculo": "DOL",
+  "veiculo": "DOL Carajás",
   "titulo": "Feira de profissões gratuita oferece cursos e orientação em Marabá",
   "link": "https://dol.com.br/carajas/cidades/maraba/962544/feira-de-profissoes-gratuita-oferece-cursos-e-orientacao-em-maraba",
   "termos": [
@@ -1978,7 +1978,7 @@
  },
  {
   "data": "2026-09-06",
-  "veiculo": "G1",
+  "veiculo": "G1 Pará",
   "titulo": "Comunidades ribeirinhas no PA temem explosões para abrir hidrovia no Pedral do Lourenção; cientistas apontam riscos",
   "link": "https://g1.globo.com/pa/para/noticia/2026/09/06/comunidades-ribeirinhas-no-pa-temem-explosoes-para-abrir-hidrovia-no-pedral-do-lourencao-cientistas-apontam-riscos.ghtml",
   "termos": [
@@ -2048,7 +2048,7 @@
  },
  {
   "data": "2026-09-02",
-  "veiculo": "pebsp.com",
+  "veiculo": "PEBSP Portal de Educação",
   "titulo": "MEC abre inscrições para Mestrado Profissional em Biologia – PROFBIO em Rede Nacional",
   "link": "https://www.pebsp.com/mec-abre-inscricoes-para-mestrado-profissional-em-biologia-profbio-em-rede-nacional",
   "termos": [
@@ -2061,7 +2061,7 @@
  },
  {
   "data": "2026-09-02",
-  "veiculo": "PEBSP - Portal de Educação",
+  "veiculo": "PEBSP Portal de Educação",
   "titulo": "MEC abre inscrições para Mestrado Profissional em Biologia – PROFBIO em Rede Nacional",
   "link": "https://www.pebsp.com/mec-abre-inscricoes-para-mestrado-profissional-em-biologia-profbio-em-rede-nacional",
   "termos": [
@@ -2213,23 +2213,6 @@
  },
  {
   "data": "2026-08-25",
-  "veiculo": "cptnacional.org.br",
-  "titulo": "RENAP-PA reúne advocacia popular em Marabá",
-  "link": "https://cptnacional.org.br/2026/08/25/encontro-renap-para",
-  "termos": [
-   "Unifesspa",
-   "Universidade Federal do Sul e Sudeste do Pará"
-  ],
-  "dominio": "cptnacional.org.br",
-  "fontes": [
-   "Google"
-  ],
-  "verificada": true,
-  "mencoes": 3,
-  "resumo": "RENAP-PA reúne advocacia popular em Marabá - Comissão Pastoral da Terra - CPT Pular para o conteúdo Siga também: Pesquisar Carrinho R$ 0,00 0 DOE AGORA Menu RENAP-PA reúne advocacia popular em Marabá Encontro Estadual permite mapear..."
- },
- {
-  "data": "2026-08-25",
   "veiculo": "Zé Dudu",
   "titulo": "Da comunidade para a tela: jovens transformam vivências em cinema",
   "link": "https://www.zedudu.com.br/da-comunidade-para-a-tela-jovens-transformam-vivencias-em-cinema",
@@ -2279,6 +2262,23 @@
   "resumo": "📅 Publicado em 25/08/2026 08h21 Pensar em um diálogo entre duas obras tão distantes no tempo e no espaço – PEDRO PÁRAMO (1955) e A CABEÇA DO SANTO (2014) – é algo que me ocorreu nestes últimos dias. O que suscitou no coração desta leitora..."
  },
  {
+  "data": "2026-08-25",
+  "veiculo": "CPT Nacional",
+  "titulo": "RENAP-PA reúne advocacia popular em Marabá",
+  "link": "https://cptnacional.org.br/2026/08/25/encontro-renap-para",
+  "termos": [
+   "Unifesspa",
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "dominio": "cptnacional.org.br",
+  "fontes": [
+   "Google"
+  ],
+  "verificada": true,
+  "mencoes": 3,
+  "resumo": "RENAP-PA reúne advocacia popular em Marabá - Comissão Pastoral da Terra - CPT Pular para o conteúdo Siga também: Pesquisar Carrinho R$ 0,00 0 DOE AGORA Menu RENAP-PA reúne advocacia popular em Marabá Encontro Estadual permite mapear..."
+ },
+ {
   "data": "2026-08-24",
   "veiculo": "Correio de Carajás",
   "titulo": "Jornalistas do Correio são finalistas do Prêmio Sebrae de Jornalismo",
@@ -2293,22 +2293,6 @@
   "verificada": true,
   "mencoes": 1,
   "resumo": "📅 Publicado em 24/08/2026 18h07 ✏️ Atualizado em 25/08/2026 16h03 A força do jornalismo produzido no interior do Pará volta a ganhar destaque no Estado. Luciana Araújo e Kauã Fhillipe, jornalistas do Correio de Carajás, foram anunciados na..."
- },
- {
-  "data": "2026-08-22",
-  "veiculo": "horabrasil.com.br",
-  "titulo": "Mestrado gratuito oferece vagas para graduados de qualquer área",
-  "link": "https://www.horabrasil.com.br/2026/08/22/mestrado-gratuito-propriedade-intelectual-prorrogado",
-  "termos": [
-   "Universidade Federal do Sul e Sudeste do Pará"
-  ],
-  "dominio": "horabrasil.com.br",
-  "fontes": [
-   "Google"
-  ],
-  "verificada": true,
-  "mencoes": 2,
-  "resumo": "Educação Cursos Mestrado gratuito oferece vagas para graduados de qualquer área PROFNIT oferece formação presencial em 46 instituições; inscrições foram prorrogadas até 31 de agosto e primeira etapa será uma prova online. Por Natalia..."
  },
  {
   "data": "2026-08-22",
@@ -2329,6 +2313,22 @@
  },
  {
   "data": "2026-08-22",
+  "veiculo": "Hora Brasil",
+  "titulo": "Mestrado gratuito oferece vagas para graduados de qualquer área",
+  "link": "https://www.horabrasil.com.br/2026/08/22/mestrado-gratuito-propriedade-intelectual-prorrogado",
+  "termos": [
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "dominio": "horabrasil.com.br",
+  "fontes": [
+   "Google"
+  ],
+  "verificada": true,
+  "mencoes": 2,
+  "resumo": "Educação Cursos Mestrado gratuito oferece vagas para graduados de qualquer área PROFNIT oferece formação presencial em 46 instituições; inscrições foram prorrogadas até 31 de agosto e primeira etapa será uma prova online. Por Natalia..."
+ },
+ {
+  "data": "2026-08-22",
   "veiculo": "Data Center Dynamics",
   "titulo": "STEM Women Congress 2026 reúne mulheres do setor de tecnologia em São Paulo",
   "link": "https://www.datacenterdynamics.com/br/an%C3%A1lises/stem-women-congress-2026-re%C3%BAne-mulheres-do-setor-de-tecnologia-em-s%C3%A3o-paulo",
@@ -2342,22 +2342,6 @@
   "verificada": true,
   "mencoes": 2,
   "resumo": "STEM Women Congress 2026 reúne mulheres do setor de tecnologia em São Paulo Evento na FECAP reuniu painéis com lideranças, apresentou dados do STEM Women Annual Report e coroou os vencedores dos STEM Awards 2026 Agosto 22, 2026 Por Bruno..."
- },
- {
-  "data": "2026-08-21",
-  "veiculo": "mpf.mp.br",
-  "titulo": "Universidade Federal Rural da Amazônia acata recomendação do MPF e vai aderir à Política Nacional de Direitos LGBTQIA+",
-  "link": "https://www.mpf.mp.br/o-mpf/unidades/pr-pa/noticias/universidade-federal-rural-da-amazonia-acata-recomendacao-do-mpf-e-vai-aderir-a-politica-nacional-de-direitos-lgbtqia",
-  "termos": [
-   "Universidade Federal do Sul e Sudeste do Pará"
-  ],
-  "dominio": "mpf.mp.br",
-  "fontes": [
-   "Google"
-  ],
-  "verificada": true,
-  "mencoes": 2,
-  "resumo": "Imagem ilustrativa: Keitma/Adobe Stock A Universidade Federal Rural da Amazônia (Ufra) acatou integralmente uma recomendação do Ministério Público Federal (MPF) para avaliar a adesão à Rede Nacional de Promoção, Proteção e Defesa das..."
  },
  {
   "data": "2026-08-21",
@@ -2379,7 +2363,7 @@
  },
  {
   "data": "2026-08-21",
-  "veiculo": "PEBSP - Portal de Educação",
+  "veiculo": "PEBSP Portal de Educação",
   "titulo": "MEC reabre inscrições para Mestrado Profissional em Computação - PROFCOMP",
   "link": "https://www.pebsp.com/mec-reabre-inscricoes-para-mestrado-profissional-em-computacao-profcomp",
   "termos": [
@@ -2395,7 +2379,7 @@
  },
  {
   "data": "2026-08-21",
-  "veiculo": "O TEMPO",
+  "veiculo": "O Tempo",
   "titulo": "Canaã dos Carajás e Unifesspa oficializam ajuste em convênio de cooperação",
   "link": "https://www.otempo.com.br/politica/2026/8/21/canaa-dos-carajas-e-unifesspa-oficializam-ajuste-em-convenio-de-cooperacao",
   "termos": [
@@ -2413,7 +2397,7 @@
  },
  {
   "data": "2026-08-21",
-  "veiculo": "O TEMPO",
+  "veiculo": "O Tempo",
   "titulo": "Canaã dos Carajás e Unifesspa assinam aditivo para remanejamento de verbas em convênio",
   "link": "https://www.otempo.com.br/politica/2026/8/21/canaa-dos-carajas-e-unifesspa-assinam-aditivo-para-remanejamento-de-verbas-em-convenio",
   "termos": [
@@ -2428,6 +2412,22 @@
   "verificada": true,
   "mencoes": 7,
   "resumo": "Canaã dos Carajás e Unifesspa assinam aditivo para remanejamento de verbas em convênio Termo aditivo ao ajuste nº 1/2026 altera distribuição de recursos entre rubricas orçamentárias; Fundação de Apoio à Pesquisa atua como interveniente no..."
+ },
+ {
+  "data": "2026-08-21",
+  "veiculo": "Ministério Público Federal",
+  "titulo": "Universidade Federal Rural da Amazônia acata recomendação do MPF e vai aderir à Política Nacional de Direitos LGBTQIA+",
+  "link": "https://www.mpf.mp.br/o-mpf/unidades/pr-pa/noticias/universidade-federal-rural-da-amazonia-acata-recomendacao-do-mpf-e-vai-aderir-a-politica-nacional-de-direitos-lgbtqia",
+  "termos": [
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "dominio": "mpf.mp.br",
+  "fontes": [
+   "Google"
+  ],
+  "verificada": true,
+  "mencoes": 2,
+  "resumo": "Imagem ilustrativa: Keitma/Adobe Stock A Universidade Federal Rural da Amazônia (Ufra) acatou integralmente uma recomendação do Ministério Público Federal (MPF) para avaliar a adesão à Rede Nacional de Promoção, Proteção e Defesa das..."
  },
  {
   "data": "2026-08-21",
@@ -2536,7 +2536,7 @@
  },
  {
   "data": "2026-08-19",
-  "veiculo": "PEBSP - Portal de Educação",
+  "veiculo": "PEBSP Portal de Educação",
   "titulo": "PROFNIT: últimas horas para concorrer a 570 vagas de mestrado profissional do MEC em 47 instituições públicas",
   "link": "https://www.pebsp.com/profnit-mestrado-profissional-mec",
   "termos": [
@@ -2569,7 +2569,7 @@
  },
  {
   "data": "2026-08-18",
-  "veiculo": "horabrasil.com.br",
+  "veiculo": "Hora Brasil",
   "titulo": "Mestrado Profissional em Ensino de Biologia abre 572 vagas gratuitas",
   "link": "https://www.horabrasil.com.br/2026/08/18/mestrado-profissional-em-ensino-de-biologia-abre-572-vagas-gratuitas",
   "termos": [
@@ -2686,7 +2686,7 @@
  },
  {
   "data": "2026-08-14",
-  "veiculo": "ZÉ DUDU",
+  "veiculo": "Zé Dudu",
   "titulo": "Canaã: Casa da Cultura celebra volta às aulas com programação especial e incentiva novas inscrições em cursos gratuitos",
   "link": "https://www.zedudu.com.br/canaa-casa-da-cultura-celebra-volta-as-aulas-com-programacao-especial-e-incentiva-novas-inscricoes-em-cursos-gratuitos",
   "termos": [
@@ -2755,7 +2755,7 @@
  },
  {
   "data": "2026-08-13",
-  "veiculo": "PEBSP - Portal de Educação",
+  "veiculo": "PEBSP Portal de Educação",
   "titulo": "PROFBIO: MEC acaba de publicar mais um Edital de Mestrado Profissional com 572 vagas",
   "link": "https://www.pebsp.com/profbio-mec-acaba-de-publicar-mais-um-edital-de-mestrado-profissional-com-572-vagas",
   "termos": [
@@ -2839,7 +2839,7 @@
  },
  {
   "data": "2026-08-10",
-  "veiculo": "PEBSP - Portal de Educação",
+  "veiculo": "PEBSP Portal de Educação",
   "titulo": "Mestrado em Computação do MEC abre 340 vagas em 16 instituições – PROFCOMP",
   "link": "https://www.pebsp.com/mestrado-em-computacao-do-mec-abre-340-vagas-em-16-instituicoes-profcomp",
   "termos": [
@@ -2855,7 +2855,7 @@
  },
  {
   "data": "2026-08-10",
-  "veiculo": "DOL",
+  "veiculo": "DOL Carajás",
   "titulo": "Mestrado Profissional gratuito abre 340 vagas; veja como participar",
   "link": "https://dol.com.br/noticias/cursos--empregos/959395/mestrado-profissional-gratuito-abre-340-vagas-veja-como-participar",
   "termos": [
@@ -2889,7 +2889,7 @@
  },
  {
   "data": "2026-08-08",
-  "veiculo": "horabrasil.com.br",
+  "veiculo": "Hora Brasil",
   "titulo": "MEC abre quase 1000 vagas em mestrado para professores de Português",
   "link": "https://www.horabrasil.com.br/2026/08/08/mec-profletras-mestrado-professores",
   "termos": [
@@ -2958,7 +2958,7 @@
  },
  {
   "data": "2026-08-06",
-  "veiculo": "PEBSP - Portal de Educação",
+  "veiculo": "PEBSP Portal de Educação",
   "titulo": "MEC anuncia edital do ProfLetras com 919 vagas em universidades de todo o Brasil",
   "link": "https://www.pebsp.com/mec-anuncia-edital-do-profletras-com-919-vagas-em-universidades-de-todo-o-brasil",
   "termos": [
@@ -3026,7 +3026,7 @@
  },
  {
   "data": "2026-08-04",
-  "veiculo": "Portal Debate",
+  "veiculo": "Portal Debate Carajás",
   "titulo": "No Debate Podcast, \"Miguelito\" defende maior representatividade de Marabá no Congresso Nacional",
   "link": "https://debatecarajas.com.br/no-debate-podcast-miguelito-defende-maior-representatividade-de-maraba-no-congresso-nacional",
   "termos": [
@@ -3093,7 +3093,7 @@
  },
  {
   "data": "2026-07-31",
-  "veiculo": "DOL",
+  "veiculo": "DOL Carajás",
   "titulo": "MPF recomenda que Pará integre política para LGBTQIA+",
   "link": "https://dol.com.br/noticias/para/948515/mpf-recomenda-que-para-integre-politica-para-lgbtqia",
   "termos": [
@@ -3106,22 +3106,6 @@
   "verificada": true,
   "mencoes": 3,
   "resumo": "MPF recomenda ao Pará aderir à Política Nacional LGBTQIA+. | Foto/Magnific O Ministério Público Federal (MPF) recomendou ao Governo do Pará que formalize a adesão à Política Nacional dos Direitos das Pessoas LGBTQIA+, criada pelo..."
- },
- {
-  "data": "2026-07-30",
-  "veiculo": "mpf.mp.br",
-  "titulo": "MPF recomenda adesão do estado do Pará à Política Nacional dos Direitos das Pessoas LGBTQIA+",
-  "link": "https://www.mpf.mp.br/o-mpf/unidades/pr-pa/noticias/mpf-recomenda-adesao-do-estado-do-para-a-politica-nacional-dos-direitos-das-pessoas-lgbtqia",
-  "termos": [
-   "Universidade Federal do Sul e Sudeste do Pará"
-  ],
-  "dominio": "mpf.mp.br",
-  "fontes": [
-   "Google"
-  ],
-  "verificada": true,
-  "mencoes": 3,
-  "resumo": "Foto: Comunicação/MPF O Ministério Público Federal (MPF) recomendou ao governo do estado do Pará formalizar a adesão à Política Nacional dos Direitos das Pessoas LGBTQIA+, instituída pelo Ministério dos Direitos Humanos e da Cidadania..."
  },
  {
   "data": "2026-07-30",
@@ -3142,23 +3126,6 @@
  {
   "data": "2026-07-30",
   "veiculo": "Portal Debate Carajás",
-  "titulo": "MPF recomenda às universidades federais do Pará adesão à rede nacional de direitos LGBTQIA+",
-  "link": "https://debatecarajas.com.br/mpf-recomenda-as-universidades-federais-do-para-adesao-a-rede-nacional-de-direitos-lgbtqia",
-  "termos": [
-   "Unifesspa",
-   "Universidade Federal do Sul e Sudeste do Pará"
-  ],
-  "dominio": "debatecarajas.com.br",
-  "fontes": [
-   "Portal Debate Carajás"
-  ],
-  "verificada": true,
-  "mencoes": 5,
-  "resumo": "Papa Leão XIV nomeia Dom Paulo Andreolli como novo bispo de Ponta de Pedras Leia mais"
- },
- {
-  "data": "2026-07-30",
-  "veiculo": "Portal Debate",
   "titulo": "Marabá perde a Professora Marlene Chavito, referência no ensino de Língua Portuguesa",
   "link": "https://debatecarajas.com.br/maraba-perde-a-professora-marlene-chavito-referencia-no-ensino-de-lingua-portuguesa",
   "termos": [
@@ -3176,6 +3143,23 @@
  },
  {
   "data": "2026-07-30",
+  "veiculo": "Portal Debate Carajás",
+  "titulo": "MPF recomenda às universidades federais do Pará adesão à rede nacional de direitos LGBTQIA+",
+  "link": "https://debatecarajas.com.br/mpf-recomenda-as-universidades-federais-do-para-adesao-a-rede-nacional-de-direitos-lgbtqia",
+  "termos": [
+   "Unifesspa",
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "dominio": "debatecarajas.com.br",
+  "fontes": [
+   "Portal Debate Carajás"
+  ],
+  "verificada": true,
+  "mencoes": 5,
+  "resumo": "Papa Leão XIV nomeia Dom Paulo Andreolli como novo bispo de Ponta de Pedras Leia mais"
+ },
+ {
+  "data": "2026-07-30",
   "veiculo": "O Liberal",
   "titulo": "R70: 'Annyeonghaseyo', diz Janja ao arriscar falar coreano | Repórter 70 | O Liberal",
   "link": "https://www.oliberal.com/colunas/reporter70/r70-annyeonghaseyo-diz-janja-ao-arriscar-falar-coreano-1.1151398",
@@ -3190,6 +3174,22 @@
   "verificada": true,
   "mencoes": 3,
   "resumo": "REPÓRTER 70 Mais tradicional coluna do jornalismo paraense. Aborda temas do cotidiano com atenção especial à economia e aos bastidores da política do Pará e do Brasil. | Twitter: @reporter_70 REPÓRTER 70 R70: 'Annyeonghaseyo', diz Janja ao..."
+ },
+ {
+  "data": "2026-07-30",
+  "veiculo": "Ministério Público Federal",
+  "titulo": "MPF recomenda adesão do estado do Pará à Política Nacional dos Direitos das Pessoas LGBTQIA+",
+  "link": "https://www.mpf.mp.br/o-mpf/unidades/pr-pa/noticias/mpf-recomenda-adesao-do-estado-do-para-a-politica-nacional-dos-direitos-das-pessoas-lgbtqia",
+  "termos": [
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "dominio": "mpf.mp.br",
+  "fontes": [
+   "Google"
+  ],
+  "verificada": true,
+  "mencoes": 3,
+  "resumo": "Foto: Comunicação/MPF O Ministério Público Federal (MPF) recomendou ao governo do estado do Pará formalizar a adesão à Política Nacional dos Direitos das Pessoas LGBTQIA+, instituída pelo Ministério dos Direitos Humanos e da Cidadania..."
  },
  {
   "data": "2026-07-30",
@@ -3227,22 +3227,6 @@
  },
  {
   "data": "2026-07-29",
-  "veiculo": "mpf.mp.br",
-  "titulo": "MPF recomenda às universidades federais do Pará adesão à rede nacional de direitos LGBTQIA+",
-  "link": "https://www.mpf.mp.br/o-mpf/unidades/pr-pa/noticias/mpf-recomenda-as-universidades-federais-do-para-adesao-a-rede-nacional-de-direitos-lgbtqia",
-  "termos": [
-   "Universidade Federal do Sul e Sudeste do Pará"
-  ],
-  "dominio": "mpf.mp.br",
-  "fontes": [
-   "Google"
-  ],
-  "verificada": true,
-  "mencoes": 3,
-  "resumo": "Foto ilustrativa: Canva O Ministério Público Federal (MPF) recomendou às universidades federais do Pará que passem a aderir à Rede Nacional de Promoção, Proteção e Defesa das Pessoas LGBTQIA+. O documento foi enviado à Universidade Federal..."
- },
- {
-  "data": "2026-07-29",
   "veiculo": "Zé Dudu",
   "titulo": "V Julho das Pretas debate racismo e suas intersecções",
   "link": "https://www.zedudu.com.br/v-julho-das-pretas-debate-racismo-e-suas-interseccoes",
@@ -3276,6 +3260,22 @@
  },
  {
   "data": "2026-07-29",
+  "veiculo": "Ministério Público Federal",
+  "titulo": "MPF recomenda às universidades federais do Pará adesão à rede nacional de direitos LGBTQIA+",
+  "link": "https://www.mpf.mp.br/o-mpf/unidades/pr-pa/noticias/mpf-recomenda-as-universidades-federais-do-para-adesao-a-rede-nacional-de-direitos-lgbtqia",
+  "termos": [
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "dominio": "mpf.mp.br",
+  "fontes": [
+   "Google"
+  ],
+  "verificada": true,
+  "mencoes": 3,
+  "resumo": "Foto ilustrativa: Canva O Ministério Público Federal (MPF) recomendou às universidades federais do Pará que passem a aderir à Rede Nacional de Promoção, Proteção e Defesa das Pessoas LGBTQIA+. O documento foi enviado à Universidade Federal..."
+ },
+ {
+  "data": "2026-07-29",
   "veiculo": "Correio de Carajás",
   "titulo": "Unifesspa recebe 5ª edição do Julho das Pretas para debater racismo",
   "link": "https://correiodecarajas.com.br/unifesspa-recebe-5a-edicao-do-julho-das-pretas-para-debater-racismo",
@@ -3291,23 +3291,6 @@
   "verificada": true,
   "mencoes": 5,
   "resumo": "📅 Publicado em 29/07/2026 15h00 Em alusão ao Dia Internacional da Mulher Negra Latino-Americana e Caribenha e ao Dia Nacional de Tereza de Benguela, a Universidade Federal do Sul e Sudeste do Pará (Unifesspa) realizou, na última..."
- },
- {
-  "data": "2026-07-27",
-  "veiculo": "mpf.mp.br",
-  "titulo": "MPF realiza visita técnica em universidade para instalação de memorial de Gabriel Sales Pimenta, em Marabá (PA)",
-  "link": "https://www.mpf.mp.br/o-mpf/unidades/pr-pa/noticias/mpf-realiza-visita-tecnica-em-universidade-para-instalacao-de-memorial-de-gabriel-sales-pimenta-em-maraba-pa",
-  "termos": [
-   "Unifesspa",
-   "Universidade Federal do Sul e Sudeste do Pará"
-  ],
-  "dominio": "mpf.mp.br",
-  "fontes": [
-   "Google"
-  ],
-  "verificada": true,
-  "mencoes": 5,
-  "resumo": "Fotos: MPF Na última terça-feira (21), o Ministério Público Federal (MPF) realizou uma visita técnica à Universidade Federal do Sul e Sudeste do Pará (Unifesspa), em Marabá (PA). O objetivo da diligência foi conhecer e avaliar as condições..."
  },
  {
   "data": "2026-07-27",
@@ -3328,7 +3311,7 @@
  },
  {
   "data": "2026-07-27",
-  "veiculo": "ZÉ DUDU",
+  "veiculo": "Zé Dudu",
   "titulo": "MDB decide não entrar na corrida presidencial",
   "link": "https://www.zedudu.com.br/mdb-decide-nao-entrar-na-corrida-presidencial",
   "termos": [
@@ -3341,6 +3324,23 @@
   "verificada": true,
   "mencoes": 1,
   "resumo": "Chamonzinho é reeleito para a Assembleia Legislativa"
+ },
+ {
+  "data": "2026-07-27",
+  "veiculo": "Ministério Público Federal",
+  "titulo": "MPF realiza visita técnica em universidade para instalação de memorial de Gabriel Sales Pimenta, em Marabá (PA)",
+  "link": "https://www.mpf.mp.br/o-mpf/unidades/pr-pa/noticias/mpf-realiza-visita-tecnica-em-universidade-para-instalacao-de-memorial-de-gabriel-sales-pimenta-em-maraba-pa",
+  "termos": [
+   "Unifesspa",
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "dominio": "mpf.mp.br",
+  "fontes": [
+   "Google"
+  ],
+  "verificada": true,
+  "mencoes": 5,
+  "resumo": "Fotos: MPF Na última terça-feira (21), o Ministério Público Federal (MPF) realizou uma visita técnica à Universidade Federal do Sul e Sudeste do Pará (Unifesspa), em Marabá (PA). O objetivo da diligência foi conhecer e avaliar as condições..."
  },
  {
   "data": "2026-07-27",
@@ -3618,22 +3618,6 @@
  },
  {
   "data": "2026-07-13",
-  "veiculo": "horabrasil.com.br",
-  "titulo": "Inscrições abertas para o mestrado profissional gratuito ProfNIT 2027",
-  "link": "https://www.horabrasil.com.br/2026/07/13/inscricoes-abertas-para-o-mestrado-profissional-gratuito-profnit-2027",
-  "termos": [
-   "Unifesspa"
-  ],
-  "dominio": "horabrasil.com.br",
-  "fontes": [
-   "Google"
-  ],
-  "verificada": true,
-  "mencoes": 1,
-  "resumo": "Sudeste Centro-Oeste Educação Inscrições abertas para o mestrado profissional gratuito ProfNIT 2027 Por Milena Em 13 de julho de 2026 Compartilhar Estão abertas as inscrições para o Programa de Pós-Graduação Profissional em Propriedade..."
- },
- {
-  "data": "2026-07-13",
   "veiculo": "Zé Dudu",
   "titulo": "Parauapebas: Projeto de Contenção de Encosta da Escola Elisaldo Ribeiro é apresentado no bairro Liberdade",
   "link": "https://www.zedudu.com.br/projeto-de-contencao-de-encosta-da-escola-elisaldo-ribeiro-e-apresentado-no-bairro-liberdade",
@@ -3667,6 +3651,22 @@
   "mencoes": 0,
   "descartada": true,
   "motivo": "O texto da matéria não cita a Unifesspa."
+ },
+ {
+  "data": "2026-07-13",
+  "veiculo": "Hora Brasil",
+  "titulo": "Inscrições abertas para o mestrado profissional gratuito ProfNIT 2027",
+  "link": "https://www.horabrasil.com.br/2026/07/13/inscricoes-abertas-para-o-mestrado-profissional-gratuito-profnit-2027",
+  "termos": [
+   "Unifesspa"
+  ],
+  "dominio": "horabrasil.com.br",
+  "fontes": [
+   "Google"
+  ],
+  "verificada": true,
+  "mencoes": 1,
+  "resumo": "Sudeste Centro-Oeste Educação Inscrições abertas para o mestrado profissional gratuito ProfNIT 2027 Por Milena Em 13 de julho de 2026 Compartilhar Estão abertas as inscrições para o Programa de Pós-Graduação Profissional em Propriedade..."
  },
  {
   "data": "2026-07-10",
@@ -3826,7 +3826,7 @@
  },
  {
   "data": "2026-07-05",
-  "veiculo": "PEBSP - Portal de Educação",
+  "veiculo": "PEBSP Portal de Educação",
   "titulo": "MEC anuncia 570 vagas para Mestrado Profissional – PROFNIT",
   "link": "https://www.pebsp.com/mec-anuncia-570-vagas-para-mestrado-profissional-profnit",
   "termos": [
@@ -4113,6 +4113,22 @@
  {
   "data": "2026-06-26",
   "veiculo": "Zé Dudu",
+  "titulo": "Pará libera pagamentos do Cheque Pecuária a produtores de Marabá, Parauapebas e Eldorado do Carajás",
+  "link": "https://www.zedudu.com.br/para-libera-pagamentos-do-cheque-pecuaria-a-produtores-de-maraba-parauapebas-e-eldorado-do-carajas",
+  "termos": [
+   "Unifesspa"
+  ],
+  "dominio": "zedudu.com.br",
+  "fontes": [
+   "Google"
+  ],
+  "verificada": true,
+  "mencoes": 1,
+  "resumo": "SICAR+: plataforma agiliza Cadastro Ambiental Rural e libera Pagamento por Serviços Ambientais no Pará"
+ },
+ {
+  "data": "2026-06-26",
+  "veiculo": "Zé Dudu",
   "titulo": "MPF recomenda que Unifesspa adote ações afirmativas de ingresso e permanência para pessoas trans",
   "link": "https://www.zedudu.com.br/mpf-recomenda-que-unifesspa-adote-acoes-afirmativas-de-ingresso-e-permanencia-para-pessoas-trans/#utm_source=rss&utm_medium=rss&utm_campaign=mpf-recomenda-que-unifesspa-adote-acoes-afirmativas-de-ingresso-e-permanencia-para-pessoas-trans",
   "termos": [
@@ -4127,22 +4143,6 @@
   "verificada": true,
   "mencoes": 1,
   "resumo": "Medidas devem ser estabelecidas a partir de consulta prévia e democrática à comunidade acadêmica e à sociedade civil"
- },
- {
-  "data": "2026-06-26",
-  "veiculo": "ZÉ DUDU",
-  "titulo": "Pará libera pagamentos do Cheque Pecuária a produtores de Marabá, Parauapebas e Eldorado do Carajás",
-  "link": "https://www.zedudu.com.br/para-libera-pagamentos-do-cheque-pecuaria-a-produtores-de-maraba-parauapebas-e-eldorado-do-carajas",
-  "termos": [
-   "Unifesspa"
-  ],
-  "dominio": "zedudu.com.br",
-  "fontes": [
-   "Google"
-  ],
-  "verificada": true,
-  "mencoes": 1,
-  "resumo": "SICAR+: plataforma agiliza Cadastro Ambiental Rural e libera Pagamento por Serviços Ambientais no Pará"
  },
  {
   "data": "2026-06-26",
@@ -4198,7 +4198,7 @@
  },
  {
   "data": "2026-06-25",
-  "veiculo": "mpf.mp.br",
+  "veiculo": "Ministério Público Federal",
   "titulo": "MPF recomenda que Unifesspa adote ações afirmativas de ingresso e permanência para pessoas trans",
   "link": "https://www.mpf.mp.br/o-mpf/unidades/pr-pa/noticias/mpf-recomenda-que-unifesspa-adote-acoes-afirmativas-de-ingresso-e-permanencia-para-pessoas-trans",
   "termos": [
@@ -4234,7 +4234,7 @@
  },
  {
   "data": "2026-06-24",
-  "veiculo": "DOL",
+  "veiculo": "DOL Carajás",
   "titulo": "Aprovados revelam métodos de estudo, erros e dicas para conquistar a vaga",
   "link": "https://dol.com.br/concursos/945418/aprovados-revelam-metodos-de-estudo-erros-e-dicas-para-conquistar-a-vaga",
   "termos": [
@@ -4266,7 +4266,7 @@
  },
  {
   "data": "2026-06-23",
-  "veiculo": "DOL",
+  "veiculo": "DOL Carajás",
   "titulo": "Marabá sedia debate sobre impactos climáticos na Amazônia",
   "link": "https://dol.com.br/carajas/cidades/maraba/945369/maraba-sedia-debate-sobre-impactos-climaticos-na-amazonia",
   "termos": [
@@ -4610,7 +4610,7 @@
  },
  {
   "data": "2026-06-10",
-  "veiculo": "Universidade Federal do Cariri – UFCA",
+  "veiculo": "UFCA",
   "titulo": "CAPES Global.edu",
   "link": "https://www.ufca.edu.br/instituicao/administrativo/estrutura-organizacional/pro-reitorias/prpi/capes-global-edu",
   "termos": [
@@ -4644,7 +4644,7 @@
  },
  {
   "data": "2026-06-08",
-  "veiculo": "ZÉ DUDU",
+  "veiculo": "Zé Dudu",
   "titulo": "Obra inédita registra as últimas castanheiras da área urbana de Marabá",
   "link": "https://www.zedudu.com.br/obra-inedita-registra-as-ultimas-castanheiras-da-area-urbana-de-maraba",
   "termos": [
@@ -5035,7 +5035,7 @@
  },
  {
   "data": "2026-05-22",
-  "veiculo": "DOL",
+  "veiculo": "DOL Carajás",
   "titulo": "Bioeconomia movimenta R$ 13,5 bilhões por ano no Pará",
   "link": "https://dol.com.br/noticias/para/942415/bioeconomia-movimenta-r-135-bilhoes-por-ano-no-para",
   "termos": [
@@ -5147,7 +5147,7 @@
  },
  {
   "data": "2026-05-14",
-  "veiculo": "Portal Debate",
+  "veiculo": "Portal Debate Carajás",
   "titulo": "Festival indígena reunirá delegações de quatro estados no sudeste do Pará",
   "link": "https://debatecarajas.com.br/festival-indigena-reunira-delegacoes-de-quatro-estados-no-sudeste-do-para",
   "termos": [
@@ -5218,7 +5218,7 @@
  },
  {
   "data": "2026-05-12",
-  "veiculo": "Portal Debate",
+  "veiculo": "Portal Debate Carajás",
   "titulo": "Marabá sediará seminário regional da CUT sobre trabalho decente e transição justa",
   "link": "https://debatecarajas.com.br/maraba-sediara-seminario-regional-da-cut-sobre-trabalho-decente-e-transicao-justa",
   "termos": [
@@ -5338,7 +5338,7 @@
  },
  {
   "data": "2026-05-07",
-  "veiculo": "ZÉ DUDU",
+  "veiculo": "Zé Dudu",
   "titulo": "Servidores da UFPA fecham portões da universidade em Belém em protesto nacional",
   "link": "https://www.zedudu.com.br/servidores-da-ufpa-fecham-portoes-da-universidade-em-belem-em-protesto-nacional",
   "termos": [
@@ -5372,7 +5372,7 @@
  },
  {
   "data": "2026-05-07",
-  "veiculo": "DOL",
+  "veiculo": "DOL Carajás",
   "titulo": "Servidores da UFPA fecham portões durante Dia Nacional de Luta",
   "link": "https://dol.com.br/noticias/para/941027/servidores-da-ufpa-fecham-portoes-durante-dia-nacional-de-luta",
   "termos": [
@@ -5388,7 +5388,7 @@
  },
  {
   "data": "2026-05-07",
-  "veiculo": "DOL",
+  "veiculo": "DOL Carajás",
   "titulo": "Conheça o \"Jesus Grego\" que a história tentou apagar",
   "link": "https://dol.com.br/tuedoide/curiosidades/941097/conheca-o-jesus-grego-que-a-historia-tentou-apagar",
   "termos": [
@@ -5420,7 +5420,7 @@
  },
  {
   "data": "2026-05-05",
-  "veiculo": "Universidade Federal do Cariri – UFCA",
+  "veiculo": "UFCA",
   "titulo": "4º Seminário Nacional de Ensino em Extensão Rural",
   "link": "https://www.ufca.edu.br/evento/4o-seminario-nacional-de-ensino-em-extensao-rural",
   "termos": [
@@ -5773,25 +5773,6 @@
  },
  {
   "data": "2026-04-20",
-  "veiculo": "cptnacional.org.br",
-  "titulo": "Mulheres defensoras dos Direitos Humanos são homenageadas no VI Prêmio Frei Henri des Roziers; Agente histórica da CPT recebe título de Doutora Honoris Causa",
-  "link": "https://cptnacional.org.br/2026/04/20/premio-frei-henri-des-roziers",
-  "termos": [
-   "Unifesspa",
-   "Universidade Federal do Sul e Sudeste do Pará",
-   "Francisco Ribeiro da Costa",
-   "\"Francisco Ribeiro\" reitor Unifesspa"
-  ],
-  "dominio": "cptnacional.org.br",
-  "fontes": [
-   "Google"
-  ],
-  "verificada": true,
-  "mencoes": 6,
-  "resumo": "Mulheres defensoras dos Direitos Humanos são homenageadas no VI Prêmio Frei Henri des Roziers; Agente histórica da CPT recebe título de Doutora Honoris Causa - Comissão Pastoral da Terra - CPT Pular para o conteúdo Siga também: Pesquisar..."
- },
- {
-  "data": "2026-04-20",
   "veiculo": "Zé Dudu",
   "titulo": "Mulheres empreendem em bioeconomia e mudam de vida no Sudeste do Pará",
   "link": "https://www.zedudu.com.br/mulheres-empreendem-em-bioeconomia-e-mudam-de-vida-no-sudeste-do-para",
@@ -5827,8 +5808,27 @@
   "motivo": "O texto da matéria não cita a Unifesspa."
  },
  {
+  "data": "2026-04-20",
+  "veiculo": "CPT Nacional",
+  "titulo": "Mulheres defensoras dos Direitos Humanos são homenageadas no VI Prêmio Frei Henri des Roziers; Agente histórica da CPT recebe título de Doutora Honoris Causa",
+  "link": "https://cptnacional.org.br/2026/04/20/premio-frei-henri-des-roziers",
+  "termos": [
+   "Unifesspa",
+   "Universidade Federal do Sul e Sudeste do Pará",
+   "Francisco Ribeiro da Costa",
+   "\"Francisco Ribeiro\" reitor Unifesspa"
+  ],
+  "dominio": "cptnacional.org.br",
+  "fontes": [
+   "Google"
+  ],
+  "verificada": true,
+  "mencoes": 6,
+  "resumo": "Mulheres defensoras dos Direitos Humanos são homenageadas no VI Prêmio Frei Henri des Roziers; Agente histórica da CPT recebe título de Doutora Honoris Causa - Comissão Pastoral da Terra - CPT Pular para o conteúdo Siga também: Pesquisar..."
+ },
+ {
   "data": "2026-04-19",
-  "veiculo": "Portal Debate",
+  "veiculo": "Portal Debate Carajás",
   "titulo": "Ex-aluno da Unifesspa retorna como professor e assume no curso de Economia em Marabá",
   "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQRVpBbjFub0tFTFFYRHFldVpERmxNMVdMTE1kdlNKYS1COWEtd09VeUwxbldnN2RnUS1ab0toV1JkOTFxak4wb0FyVFhnaW94c0lEcXFMQ01uRVhCZ1RPZGd4WDlRSWRXbXVOalo4Unk0aGUxYmRrMUpvTXpiNGNvN2xZSnI2WVZYVFVrUHU1X3Iza3V4T1NseHVrOXpwXzNWa3VvQWZETQ?oc=5",
   "termos": [
@@ -6177,7 +6177,7 @@
  },
  {
   "data": "2026-04-14",
-  "veiculo": "DOL",
+  "veiculo": "DOL Carajás",
   "titulo": "Unifesspa abre seleção para professores com salário de até R$ 8,3 mil",
   "link": "https://dol.com.br/concursos/federais/939257/unifesspa-abre-selecao-para-professores-com-salario-de-ate-r-83-mil",
   "termos": [
@@ -6260,7 +6260,7 @@
  },
  {
   "data": "2026-04-13",
-  "veiculo": "G1",
+  "veiculo": "G1 Pará",
   "titulo": "Preço da castanha-do-pará cai na região do Baixo Amazonas em abril",
   "link": "https://g1.globo.com/pa/santarem-regiao/noticia/2026/04/13/preco-da-castanha-do-para-cai-na-regiao-do-baixo-amazonas-em-abril.ghtml",
   "termos": [
@@ -6531,7 +6531,7 @@
  },
  {
   "data": "2026-04-02",
-  "veiculo": "G1",
+  "veiculo": "G1 Pará",
   "titulo": "Tecer Mulher, de Marabá, vence Prêmio LED 2026 por inclusão digital de mulheres idosas",
   "link": "https://g1.globo.com/pa/para/noticia/2026/04/02/projeto-tecer-mulher-de-maraba-e-finalista-do-premio-led-2026-por-inclusao-digital-de-idosas.ghtml",
   "termos": [
@@ -6714,7 +6714,7 @@
  },
  {
   "data": "2026-03-30",
-  "veiculo": "G1",
+  "veiculo": "G1 Pará",
   "titulo": "Inscrições abertas para Workshop internacional que vai discutir futuro da Amazônia em Santarém",
   "link": "https://g1.globo.com/pa/santarem-regiao/noticia/2026/03/30/inscricoes-abertas-para-workshop-internacional-que-vai-discutir-futuro-da-amazonia-em-santarem.ghtml",
   "termos": [
@@ -6747,7 +6747,7 @@
  },
  {
   "data": "2026-03-27",
-  "veiculo": "andifes.org.br",
+  "veiculo": "Andifes",
   "titulo": "Andifes participa do I Fórum Nacional de Ações Afirmativas, em Brasília",
   "link": "https://www.andifes.org.br/2026/03/27/andifes-participa-do-i-forum-nacional-de-acoes-afirmativas-em-brasilia",
   "termos": [
@@ -7048,7 +7048,7 @@
  },
  {
   "data": "2026-03-09",
-  "veiculo": "andifes.org.br",
+  "veiculo": "Andifes",
   "titulo": "Andifes apoia campanha Banco Vermelho e incentiva adesão das universidades federais",
   "link": "https://www.andifes.org.br/2026/03/09/andifes-apoia-campanha-banco-vermelho-e-incentiva-adesao-das-universidades-federais",
   "termos": [
@@ -7099,7 +7099,7 @@
  },
  {
   "data": "2026-03-06",
-  "veiculo": "ZÉ DUDU",
+  "veiculo": "Zé Dudu",
   "titulo": "Família Oliveira celebra a formatura da engenheira elétrica Alana Oliveira",
   "link": "https://www.zedudu.com.br/familia-oliveira-celebra-a-formatura-da-engenheira-eletrica-alana-oliveira",
   "termos": [
@@ -7238,26 +7238,7 @@
  },
  {
   "data": "2026-03-03",
-  "veiculo": "andifes.org.br",
-  "titulo": "Unifesspa: Em visita histórica, ministro da Educação oficializa curso de Medicina, entrega instalações e anuncia novos investimentos",
-  "link": "https://www.andifes.org.br/2026/03/03/unifesspa-em-visita-historica-ministro-da-educacao-oficializa-curso-de-medicina-entrega-instalacoes-e-anuncia-novos-investimentos",
-  "termos": [
-   "Unifesspa",
-   "Universidade Federal do Sul e Sudeste do Pará",
-   "\"Francisco Ribeiro\" reitor Unifesspa",
-   "\"Lucélia Cavalcante\" Unifesspa"
-  ],
-  "dominio": "andifes.org.br",
-  "fontes": [
-   "Google"
-  ],
-  "verificada": true,
-  "mencoes": 12,
-  "resumo": "chevron_left Postada em 03 março 2026 Unifesspa: Em visita histórica, ministro da Educação oficializa curso de Medicina, entrega instalações e anuncia novos investimentos Camilo Santana assina a portaria que autoriza a criação do curso de..."
- },
- {
-  "data": "2026-03-03",
-  "veiculo": "Portal Debate",
+  "veiculo": "Portal Debate Carajás",
   "titulo": "Toni Cunha propõe “abrir as portas” do Hospital Regional por falta de leitos em Marabá",
   "link": "https://debatecarajas.com.br/toni-cunha-propoe-abrir-as-portas-do-hospital-regional-por-falta-de-leitos-em-maraba",
   "termos": [
@@ -7327,6 +7308,25 @@
   "verificada": true,
   "mencoes": 1,
   "resumo": "📅 Publicado em 03/03/2026 08h01 “O Morro dos Ventos Uivantes” (1847), de Emily Brontë, a história de amor impossível entre Catherine e Heathcliff, carregada de violência, vingança, humilhação e degradação humana, conforme prometido e..."
+ },
+ {
+  "data": "2026-03-03",
+  "veiculo": "Andifes",
+  "titulo": "Unifesspa: Em visita histórica, ministro da Educação oficializa curso de Medicina, entrega instalações e anuncia novos investimentos",
+  "link": "https://www.andifes.org.br/2026/03/03/unifesspa-em-visita-historica-ministro-da-educacao-oficializa-curso-de-medicina-entrega-instalacoes-e-anuncia-novos-investimentos",
+  "termos": [
+   "Unifesspa",
+   "Universidade Federal do Sul e Sudeste do Pará",
+   "\"Francisco Ribeiro\" reitor Unifesspa",
+   "\"Lucélia Cavalcante\" Unifesspa"
+  ],
+  "dominio": "andifes.org.br",
+  "fontes": [
+   "Google"
+  ],
+  "verificada": true,
+  "mencoes": 12,
+  "resumo": "chevron_left Postada em 03 março 2026 Unifesspa: Em visita histórica, ministro da Educação oficializa curso de Medicina, entrega instalações e anuncia novos investimentos Camilo Santana assina a portaria que autoriza a criação do curso de..."
  },
  {
   "data": "2026-03-02",
@@ -7579,22 +7579,6 @@
  },
  {
   "data": "2026-02-25",
-  "veiculo": "andifes.org.br",
-  "titulo": "Andifes debate fortalecimento das universidades novíssimas e supernovas",
-  "link": "https://www.andifes.org.br/2026/02/25/andifes-debate-fortalecimento-das-universidades-novissimas-e-supernovas",
-  "termos": [
-   "Unifesspa"
-  ],
-  "dominio": "andifes.org.br",
-  "fontes": [
-   "Google"
-  ],
-  "verificada": true,
-  "mencoes": 1,
-  "resumo": "chevron_left Postada em 25 fevereiro 2026 Andifes debate fortalecimento das universidades novíssimas e supernovas A Diretoria da Andifes realizou reunião, na tarde dessa terça-feira, com reitores e reitoras das universidades novíssimas e..."
- },
- {
-  "data": "2026-02-25",
   "veiculo": "Jornal A Notícia (AN10)",
   "titulo": "Governo do Estado entrega benefício do programa “Bora Estudar” em Redenção",
   "link": "https://www.an10.com.br/governo-do-estado-entrega-beneficio-do-programa-bora-estudar-em-redencao",
@@ -7673,6 +7657,22 @@
   "verificada": true,
   "mencoes": 11,
   "resumo": "A Universidade Federal do Sul e Sudeste do Pará (Unifesspa) se prepara para um capítulo decisivo em sua história com a visita oficial do Ministro da Educação, Camilo Santana, agendada para esta sexta-feira (27). O ponto alto da agenda,..."
+ },
+ {
+  "data": "2026-02-25",
+  "veiculo": "Andifes",
+  "titulo": "Andifes debate fortalecimento das universidades novíssimas e supernovas",
+  "link": "https://www.andifes.org.br/2026/02/25/andifes-debate-fortalecimento-das-universidades-novissimas-e-supernovas",
+  "termos": [
+   "Unifesspa"
+  ],
+  "dominio": "andifes.org.br",
+  "fontes": [
+   "Google"
+  ],
+  "verificada": true,
+  "mencoes": 1,
+  "resumo": "chevron_left Postada em 25 fevereiro 2026 Andifes debate fortalecimento das universidades novíssimas e supernovas A Diretoria da Andifes realizou reunião, na tarde dessa terça-feira, com reitores e reitoras das universidades novíssimas e..."
  },
  {
   "data": "2026-02-24",
@@ -7781,7 +7781,7 @@
  },
  {
   "data": "2026-02-22",
-  "veiculo": "Portal Debate",
+  "veiculo": "Portal Debate Carajás",
   "titulo": "Ministro da Educação confirma visita histórica à Unifesspa com anúncio do curso de Medicina",
   "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOb19hb0lBYWRWRkFTSTU2T0pKNkdYXzVoZmdhTDFVU0FhSUg3VzZzWU9oN0tWc1J4c1NTTDlFQklVOFNXY3NwaG5mSE9JTmNkMU9JdHBZTzJqbFRwTURYVmxHdkFoYVVhck9PdjhzM1B6dl9LamM0bTdfNVA3Q0hfOHFxUHFVT2RaeGM3MDI5dmxNeGtVNGNXX2NVbWtLaFBfa2RTbHFjY3otVG81dEQxeU9ROUlZY0VCWjBmbUh3?oc=5",
   "termos": [
@@ -8071,22 +8071,6 @@
  },
  {
   "data": "2026-02-03",
-  "veiculo": "cptnacional.org.br",
-  "titulo": "Semana Nacional de Combate ao Trabalho Escravo é marcada por ações da CPT",
-  "link": "https://cptnacional.org.br/2026/02/03/semana-nacional-de-combate-ao-trabalho-escravo-e-marcada-por-acoes-da-cpt",
-  "termos": [
-   "Universidade Federal do Sul e Sudeste do Pará"
-  ],
-  "dominio": "cptnacional.org.br",
-  "fontes": [
-   "Google"
-  ],
-  "verificada": true,
-  "mencoes": 3,
-  "resumo": "Semana Nacional de Combate ao Trabalho Escravo é marcada por ações da CPT - Comissão Pastoral da Terra - CPT Pular para o conteúdo Siga também: Pesquisar Carrinho R$ 0,00 0 DOE AGORA Menu Semana Nacional de Combate ao Trabalho Escravo é..."
- },
- {
-  "data": "2026-02-03",
   "veiculo": "Correio de Carajás",
   "titulo": "MACABÉA: a nordestina amarelada de A Hora da Estrela",
   "link": "https://correiodecarajas.com.br/macabea-a-nordestina-amarelada-de-a-hora-da-estrela",
@@ -8134,6 +8118,22 @@
   ],
   "verificada": true,
   "mencoes": 1
+ },
+ {
+  "data": "2026-02-03",
+  "veiculo": "CPT Nacional",
+  "titulo": "Semana Nacional de Combate ao Trabalho Escravo é marcada por ações da CPT",
+  "link": "https://cptnacional.org.br/2026/02/03/semana-nacional-de-combate-ao-trabalho-escravo-e-marcada-por-acoes-da-cpt",
+  "termos": [
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "dominio": "cptnacional.org.br",
+  "fontes": [
+   "Google"
+  ],
+  "verificada": true,
+  "mencoes": 3,
+  "resumo": "Semana Nacional de Combate ao Trabalho Escravo é marcada por ações da CPT - Comissão Pastoral da Terra - CPT Pular para o conteúdo Siga também: Pesquisar Carrinho R$ 0,00 0 DOE AGORA Menu Semana Nacional de Combate ao Trabalho Escravo é..."
  },
  {
   "data": "2026-02-02",
@@ -8205,7 +8205,7 @@
  },
  {
   "data": "2026-01-30",
-  "veiculo": "G1",
+  "veiculo": "G1 Pará",
   "titulo": "Listão do Sisu: veja os aprovados na Ufra e Unifesspa no Pará",
   "link": "https://g1.globo.com/pa/para/noticia/2026/01/30/listao-do-sisu-veja-os-aprovados-na-ufra-e-unifesspa-no-para.ghtml",
   "termos": [
@@ -8461,7 +8461,7 @@
  },
  {
   "data": "2026-01-22",
-  "veiculo": "REVISTA CENARIUM",
+  "veiculo": "Revista Cenarium",
   "titulo": "Após cortes, governo recompõe R$ 88,9 milhões para federais na Amazônia",
   "link": "https://revistacenarium.com.br/apos-cortes-governo-recompoe-r-889-milhoes-para-federais-na-amazonia",
   "termos": [
@@ -8490,22 +8490,6 @@
   "verificada": true,
   "mencoes": 2,
   "resumo": "dê um conteúdo benefício do assinante Você tem 7 acessos por dia para dar de presente. Qualquer pessoa que não é assinante poderá ler. benefício do assinante Assinantes podem liberar 7 acessos por dia para conteúdos da Folha. Já é..."
- },
- {
-  "data": "2026-01-21",
-  "veiculo": "cnnbrasil.com.br",
-  "titulo": "Saiba quais são as universidades com mais vagas em direito no Sisu 2026",
-  "link": "https://www.cnnbrasil.com.br/educacao/saiba-quais-sao-as-universidades-com-mais-vagas-em-direito-no-sisu-2026",
-  "termos": [
-   "Universidade Federal do Sul e Sudeste do Pará"
-  ],
-  "dominio": "cnnbrasil.com.br",
-  "fontes": [
-   "Google"
-  ],
-  "verificada": true,
-  "mencoes": 2,
-  "resumo": "O MEC (Ministério da Educação) anunciou a abertura de 7.388 cursos em 136 instituições públicas para a edição de 2026 do Sisu (Sistema de Seleção Unificada). O processo seletivo deste ano traz uma inovação importante: o sistema passará a..."
  },
  {
   "data": "2026-01-21",
@@ -8560,7 +8544,7 @@
  },
  {
   "data": "2026-01-21",
-  "veiculo": "DOL",
+  "veiculo": "DOL Carajás",
   "titulo": "Licitação do Restaurante Universitário da Unifesspa",
   "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNaERBWTl0TFFvanRnNHEyRkY0THJueXJpbHAwRzlaZnNCNEdKQXJtUnVlZUtReC1JYlpXTlJ2OGREZm9GOXVsVWYtWmhIcVNfMTZORjBfdlVoV2g0M25veDFTQzVoYnJrbGZaaXdhZWVsdk5zVHNLTEdrQklJSnNIanFQbHVFQUozY0hOLW5fR3BtT2JoQVJiT3J2RE83MnFPM1HSAaoBQVVfeXFMT2QxQjlDczZxZkRUcXZLS2FfUlF1U1dBaGl5ZktCRDFZTHVOcE1jT3pwT2NUQlVQOFU1VEkzd0RHbXBEVFZaRTBiOTVoQkMwa0I4WW9fUzFPSWNyNVczMkdxbXJwRUNuVFMzQ09pbDc2cURzYVE0V253c0Q2a2I1d2pTbEhLUG1YZUdRVkhfSzhjcEM4c2ZtUXRseEJmd216OXFSSmJ6Mkt6ZXc?oc=5",
   "termos": [
@@ -8607,6 +8591,22 @@
   "verificada": true,
   "mencoes": 3,
   "resumo": "📅 Publicado em 21/01/2026 11h20 Pesquisadoras de Universidades federais do Pará e do Sul e Sudeste do Pará e de outras instituições, autores no Dossiê “Direitos ‘sequestrados’ aos povos indígenas”, publicado no “Boletim de Ciências MPEG de..."
+ },
+ {
+  "data": "2026-01-21",
+  "veiculo": "CNN Brasil",
+  "titulo": "Saiba quais são as universidades com mais vagas em direito no Sisu 2026",
+  "link": "https://www.cnnbrasil.com.br/educacao/saiba-quais-sao-as-universidades-com-mais-vagas-em-direito-no-sisu-2026",
+  "termos": [
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "dominio": "cnnbrasil.com.br",
+  "fontes": [
+   "Google"
+  ],
+  "verificada": true,
+  "mencoes": 2,
+  "resumo": "O MEC (Ministério da Educação) anunciou a abertura de 7.388 cursos em 136 instituições públicas para a edição de 2026 do Sisu (Sistema de Seleção Unificada). O processo seletivo deste ano traz uma inovação importante: o sistema passará a..."
  },
  {
   "data": "2026-01-20",
@@ -8693,7 +8693,7 @@
  },
  {
   "data": "2026-01-19",
-  "veiculo": "REVISTA CENARIUM",
+  "veiculo": "Revista Cenarium",
   "titulo": "Sisu oferece 26,8 mil vagas para Estados da Amazônia",
   "link": "https://revistacenarium.com.br/sisu-oferece-268-mil-vagas-para-estados-da-amazonia",
   "termos": [
@@ -8727,7 +8727,7 @@
  },
  {
   "data": "2026-01-19",
-  "veiculo": "G1",
+  "veiculo": "G1 Pará",
   "titulo": "Inscrições para o Sisu 2026 terminam nesta sexta, 23; Pará tem 2,4 mil vagas na Ufra e Unifesspa",
   "link": "https://g1.globo.com/pa/para/noticia/2026/01/19/sisu-2026-abre-inscricoes-para-tem-mais-vagas-na-ufra-e-unifesspa.ghtml",
   "termos": [
@@ -8845,24 +8845,7 @@
  },
  {
   "data": "2026-01-13",
-  "veiculo": "cnnbrasil.com.br",
-  "titulo": "Sisu 2026: MEC divulga número de vagas por estado; confira lista",
-  "link": "https://www.cnnbrasil.com.br/educacao/sisu-2026-mec-divulga-numero-de-vagas-por-estado-confira-lista",
-  "termos": [
-   "Universidade Federal do Sul e Sudeste do Pará"
-  ],
-  "dominio": "cnnbrasil.com.br",
-  "fontes": [
-   "Google"
-  ],
-  "verificada": true,
-  "mencoes": 2,
-  "data_feed": "2026-01-14",
-  "resumo": "O MEC (Ministério da Educação) divulgou na segunda-feira (12) o número de vagas por estado para o Sisu (Sistema de Seleção Unificada) 2026, abrindo o período de inscrições para estudantes. No total, o MEC disponibilizará mais de 274 mil..."
- },
- {
-  "data": "2026-01-13",
-  "veiculo": "ZÉ DUDU",
+  "veiculo": "Zé Dudu",
   "titulo": "Unifesspa oficializa criação do Campus de Canaã dos Carajás",
   "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQYThQT3hIcEZpOVFRQThsQmZ3ZHZ2TEhvRlNCQWRYdl9UZXRSYU1vNjJVVEhSMUJQbXZEeU1qS0dIOVhTU1hJYU9Kdy1WbXdxXzMxRDhlUzZ5UFl0ZGhoMDE2MGRSSlJ4X1hDMzhPTG4zNkNjNGphZ3B1Q1dEZUJNYUNrVjU0aGRqcmRpS1Jfbw?oc=5",
   "termos": [
@@ -8910,6 +8893,23 @@
   ],
   "verificada": true,
   "mencoes": 7
+ },
+ {
+  "data": "2026-01-13",
+  "veiculo": "CNN Brasil",
+  "titulo": "Sisu 2026: MEC divulga número de vagas por estado; confira lista",
+  "link": "https://www.cnnbrasil.com.br/educacao/sisu-2026-mec-divulga-numero-de-vagas-por-estado-confira-lista",
+  "termos": [
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "dominio": "cnnbrasil.com.br",
+  "fontes": [
+   "Google"
+  ],
+  "verificada": true,
+  "mencoes": 2,
+  "data_feed": "2026-01-14",
+  "resumo": "O MEC (Ministério da Educação) divulgou na segunda-feira (12) o número de vagas por estado para o Sisu (Sistema de Seleção Unificada) 2026, abrindo o período de inscrições para estudantes. No total, o MEC disponibilizará mais de 274 mil..."
  },
  {
   "data": "2026-01-12",
@@ -8965,7 +8965,7 @@
  },
  {
   "data": "2026-01-08",
-  "veiculo": "ZÉ DUDU",
+  "veiculo": "Zé Dudu",
   "titulo": "Canaã dos Carajás faz história com a oficialização de seu primeiro Campus Universitário",
   "link": "https://www.zedudu.com.br/canaa-dos-carajas-faz-historia-com-a-oficializacao-de-seu-primeiro-campus-universitario",
   "termos": [
@@ -9088,7 +9088,7 @@
  },
  {
   "data": "2026-01-05",
-  "veiculo": "DOL",
+  "veiculo": "DOL Carajás",
   "titulo": "Pará abre 2.490 vagas universitárias pelo Sisu 2026",
   "link": "https://dol.com.br/noticias/para/931677/para-abre-2490-vagas-universitarias-pelo-sisu-2026",
   "termos": [
