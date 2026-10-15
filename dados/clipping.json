@@ -46,8 +46,9 @@
    "Google",
    "Bing"
   ],
-  "verificada": false,
-  "mencoes": 0
+  "verificada": true,
+  "mencoes": 3,
+  "resumo": "Pressionado por congressistas, governo Trump evita dizer se respeitará resultado da eleição no Brasil 15 de outubro de 2026"
  },
  {
   "data": "2026-10-14",
@@ -97,8 +98,11 @@
   "fontes": [
    "Bing"
   ],
-  "verificada": false,
-  "mencoes": 0
+  "verificada": true,
+  "mencoes": 0,
+  "resumo": "Vestibular UECE 2027.1: veja horários, local de prova e o que levar na 1ª fase",
+  "descartada": true,
+  "motivo": "O texto da matéria não cita a Unifesspa."
  },
  {
   "data": "2026-10-10",
@@ -113,8 +117,11 @@
   "fontes": [
    "Gazeta Carajás"
   ],
-  "verificada": false,
-  "mencoes": 0
+  "verificada": true,
+  "mencoes": 0,
+  "resumo": "Telegram Whatsapp Facebook Entrar",
+  "descartada": true,
+  "motivo": "O texto da matéria não cita a Unifesspa."
  },
  {
   "data": "2026-10-10",
@@ -231,8 +238,9 @@
    "Google",
    "Portal Debate Carajás"
   ],
-  "verificada": false,
-  "mencoes": 0
+  "verificada": true,
+  "mencoes": 10,
+  "resumo": "Operação policial termina com suspeito morto e três armas apreendidas no sudeste do Pará Leia mais"
  },
  {
   "data": "2026-10-08",
@@ -349,7 +357,9 @@
   ],
   "verificada": true,
   "mencoes": 2,
-  "resumo": "A 61ª zona eleitoral de Xinguara (PA) tem 22 locais de votação. O g1 publicou reportagens com a votação para presidente em cada um deles, no 1º turno das Eleições 2026, com os números de cada seção eleitoral. Os dados foram divulgados pelo..."
+  "resumo": "A 61ª zona eleitoral de Xinguara (PA) tem 22 locais de votação. O g1 publicou reportagens com a votação para presidente em cada um deles, no 1º turno das Eleições 2026, com os números de cada seção eleitoral. Os dados foram divulgados pelo...",
+  "descartada": true,
+  "motivo": "Menção apenas incidental (local de votação ou lista de agenda)."
  },
  {
   "data": "2026-10-06",
@@ -363,8 +373,9 @@
   "fontes": [
    "Bing"
   ],
-  "verificada": false,
-  "mencoes": 0
+  "verificada": true,
+  "mencoes": 6,
+  "resumo": "Unifesspa - Universidade Federal do Sul e Sudeste do Pará, 51ª zona eleitoral: resultado da votação em Rondon do Pará (PA) no 1º turno | G1 Pular para o conteúdo Pará Eleições 2026 no Pará Unifesspa - Universidade Federal do Sul e Sudeste..."
  },
  {
   "data": "2026-10-06",
@@ -388,7 +399,7 @@
   "data": "2026-10-06",
   "veiculo": "G1",
   "titulo": "Resultado das eleições 2026 em Rondon do Pará (PA): votação para presidente no Unifesspa - Universidade Federal do Sul e Sudeste do Pará, na 51ª zona eleitoral",
-  "link": "https://news.google.com/rss/articles/CBMiwwJBVV95cUxNc2p1bllmeXJrWVZMOVBlWlZUVGFpTzA1VXlnZ0RxMXptcWxlYzZjWDhMR0xVcW80VmdTeGUwVTlrQW1HdFNQeExTNXNsdVhBcXQ3b3dVb2I0TFJyT0VYbmlkZm9PZjdiUjIxRG5ydm5QeS1hODBwVEJrek5UcXlSZVN3YUV3MEpadlZvdnJKUFRrd05KcU05ZDRKV3lvVXoyU3BqYkFwalVuZkhYVXBnMEM3TFh0cy1hOVY3TThhYzJJaDdYU1hoOW9fcDBuSjVNOW0wX0RGYU05dl9jeFNHc1Z2LVlEWXUwb2lKaG9YZ0tveWF5RzJRUU90MExsLUxRRlE3dWNoTUR3bThiZTM0ZDg4V25LUUhiYllrUXQ3WV9GWEMwNElTbHc2SDJ5V29HU0pHaWttc2xMOUdMNDljWldic9IB0gJBVV95cUxNeEdpZDNHRjN6bW8wNzNPZ0dZLTZ2OG42NmtjaGZ0STFqb1pOUmgzc0xKN2Q3bm53emduLWdaSElLZWROWU5wMG9mUHhfY3JobHRDS0lwbTV6OUV3VGVxalJacHNvaEdheDVCM1g2NXlHYkMtNjVKNDVuRXVFeVhMNlJsS250d0Y5Tzg0M1VQb1pmc0xlRW03MkIzYnlxLTdFeDI5UGxXRWVtRkl1UFJtWjJhZ0txVUhvMDZ2NVpna1p1UDJFVjRsWlY2MnFQYzA2ZDAtYWxpbkt6dVpabzF6YXRqMTNuZHpGYnlJdGVBeXpmRE1CczlvUjRNT20wZ0ZyTVFWc1hobFk2YXBBTGtkRTBxUFRoSGdPbTR6N3c2UXEyOHFDWDF0dE5NMnhDTFlrV092Y2hGZ3plMkdCMFB1YzE3OXhNUnRaeWtzM1FkUWdzUQ?oc=5",
+  "link": "https://g1.globo.com/pa/para/eleicoes/2026/noticia/2026/10/06/resultado-das-eleicoes-2026-em-rondon-do-para-pa-votacao-para-presidente-no-unifesspa-universidade-federal-do-sul-e-sudeste-do-para-na-51a-zona-eleitoral.ghtml",
   "termos": [
    "Unifesspa",
    "Universidade Federal do Sul e Sudeste do Pará"
@@ -399,7 +410,8 @@
    "G1 Pará"
   ],
   "verificada": true,
-  "mencoes": 2
+  "mencoes": 6,
+  "resumo": "Unifesspa - Universidade Federal do Sul e Sudeste do Pará, 51ª zona eleitoral: resultado da votação em Rondon do Pará (PA) no 1º turno | G1 Pular para o conteúdo Pará Eleições 2026 no Pará Unifesspa - Universidade Federal do Sul e Sudeste..."
  },
  {
   "data": "2026-10-06",
@@ -419,7 +431,9 @@
   ],
   "verificada": true,
   "mencoes": 2,
-  "resumo": "A 51ª zona eleitoral de Rondon do Pará (PA) tem 21 locais de votação. O g1 publicou reportagens com a votação para presidente em cada um deles, no 1º turno das Eleições 2026, com os números de cada seção eleitoral. Os dados foram..."
+  "resumo": "A 51ª zona eleitoral de Rondon do Pará (PA) tem 21 locais de votação. O g1 publicou reportagens com a votação para presidente em cada um deles, no 1º turno das Eleições 2026, com os números de cada seção eleitoral. Os dados foram...",
+  "descartada": true,
+  "motivo": "Menção apenas incidental (local de votação ou lista de agenda)."
  },
  {
   "data": "2026-10-06",
@@ -605,8 +619,9 @@
   "fontes": [
    "Google"
   ],
-  "verificada": false,
-  "mencoes": 0
+  "verificada": true,
+  "mencoes": 1,
+  "resumo": "TRANSIÇÃO ENERGÉTICA Abren quer recuperação energética em plano do MMA"
  },
  {
   "data": "2026-09-30",
@@ -744,8 +759,9 @@
   "fontes": [
    "Portal Debate Carajás"
   ],
-  "verificada": false,
-  "mencoes": 0
+  "verificada": true,
+  "mencoes": 1,
+  "resumo": "Papa Leão XIV nomeia Dom Paulo Andreolli como novo bispo de Ponta de Pedras Leia mais"
  },
  {
   "data": "2026-09-28",
@@ -971,8 +987,9 @@
    "Google",
    "Portal Debate Carajás"
   ],
-  "verificada": false,
-  "mencoes": 0
+  "verificada": true,
+  "mencoes": 2,
+  "resumo": "Papa Leão XIV nomeia Dom Paulo Andreolli como novo bispo de Ponta de Pedras Leia mais"
  },
  {
   "data": "2026-09-25",
@@ -1019,8 +1036,9 @@
   "fontes": [
    "Zé Dudu"
   ],
-  "verificada": false,
-  "mencoes": 0
+  "verificada": true,
+  "mencoes": 4,
+  "resumo": "Perifa.Doc encerra ciclo de formação com quatro documentários produzidos em Belém e Marabá"
  },
  {
   "data": "2026-09-24",
@@ -1050,8 +1068,9 @@
   "fontes": [
    "Portal Debate Carajás"
   ],
-  "verificada": false,
-  "mencoes": 0
+  "verificada": true,
+  "mencoes": 4,
+  "resumo": "Papa Leão XIV nomeia Dom Paulo Andreolli como novo bispo de Ponta de Pedras Leia mais"
  },
  {
   "data": "2026-09-22",
@@ -1296,8 +1315,9 @@
   "fontes": [
    "Pebinha de Açúcar"
   ],
-  "verificada": false,
-  "mencoes": 0
+  "verificada": true,
+  "mencoes": 2,
+  "resumo": "desenvolvimento Canaã dos Carajás registra mais de 8 mil empresas criadas desde 2021"
  },
  {
   "data": "2026-09-16",
@@ -1460,8 +1480,9 @@
   "fontes": [
    "Portal Debate Carajás"
   ],
-  "verificada": false,
-  "mencoes": 0
+  "verificada": true,
+  "mencoes": 2,
+  "resumo": "Papa Leão XIV nomeia Dom Paulo Andreolli como novo bispo de Ponta de Pedras Leia mais"
  },
  {
   "data": "2026-09-12",
@@ -1476,24 +1497,9 @@
   "fontes": [
    "Portal Canaã"
   ],
-  "verificada": false,
-  "mencoes": 0
- },
- {
-  "data": "2026-09-12",
-  "veiculo": "DOL",
-  "titulo": "Feira de profissões gratuita oferece cursos e orientação em Marabá",
-  "link": "https://dol.com.br/carajas/cidades/maraba/962544/feira-de-profissoes-gratuita-oferece-cursos-e-orientacao-em-maraba",
-  "termos": [
-   "Unifesspa",
-   "Universidade Federal do Sul e Sudeste do Pará"
-  ],
-  "dominio": "dol.com.br",
-  "fontes": [
-   "Google"
-  ],
-  "verificada": false,
-  "mencoes": 0
+  "verificada": true,
+  "mencoes": 2,
+  "resumo": "Avisos, Publicações e Editais 12/10/2026 17:43"
  },
  {
   "data": "2026-09-12",
@@ -1564,6 +1570,24 @@
   ],
   "verificada": true,
   "mencoes": 1
+ },
+ {
+  "data": "2026-09-11",
+  "veiculo": "DOL",
+  "titulo": "Feira de profissões gratuita oferece cursos e orientação em Marabá",
+  "link": "https://dol.com.br/carajas/cidades/maraba/962544/feira-de-profissoes-gratuita-oferece-cursos-e-orientacao-em-maraba",
+  "termos": [
+   "Unifesspa",
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "dominio": "dol.com.br",
+  "fontes": [
+   "Google"
+  ],
+  "verificada": true,
+  "mencoes": 3,
+  "data_feed": "2026-09-12",
+  "resumo": "﻿ Feira de profissões gratuita oferece cursos e orientação em Marabá • DOL × Cadastre-se × Crie cadastro único para todos os produtos do DOL × Esqueci minha senha × Pesquisa DOL Edição do dia Leia a edição completa grátis 31° R$ Este site..."
  },
  {
   "data": "2026-09-09",
@@ -1660,8 +1684,9 @@
   "fontes": [
    "Google"
   ],
-  "verificada": false,
-  "mencoes": 0
+  "verificada": true,
+  "mencoes": 2,
+  "resumo": "Explosões para abrir hidrovia ameaçam comunidades ribeirinhas no PA | G1 Pular para o conteúdo Pará Comunidades ribeirinhas no PA temem explosões para abrir hidrovia no Pedral do Lourenção; cientistas apontam riscos Projeto do governo..."
  },
  {
   "data": "2026-09-04",
@@ -1877,8 +1902,9 @@
   "fontes": [
    "Google"
   ],
-  "verificada": false,
-  "mencoes": 0
+  "verificada": true,
+  "mencoes": 3,
+  "resumo": "RENAP-PA reúne advocacia popular em Marabá - Comissão Pastoral da Terra - CPT Pular para o conteúdo Siga também: Pesquisar Carrinho R$ 0,00 0 DOE AGORA Menu RENAP-PA reúne advocacia popular em Marabá Encontro Estadual permite mapear..."
  },
  {
   "data": "2026-08-25",
@@ -1941,8 +1967,9 @@
   "fontes": [
    "Zé Dudu"
   ],
-  "verificada": false,
-  "mencoes": 0
+  "verificada": true,
+  "mencoes": 2,
+  "resumo": "MPF recomenda a 30 municípios do Pará que centralizem recursos do Fundeb em conta única"
  },
  {
   "data": "2026-08-22",
@@ -2059,8 +2086,9 @@
   "fontes": [
    "Portal Debate Carajás"
   ],
-  "verificada": false,
-  "mencoes": 0
+  "verificada": true,
+  "mencoes": 2,
+  "resumo": "Operação policial termina com suspeito morto e três armas apreendidas no sudeste do Pará Leia mais"
  },
  {
   "data": "2026-08-20",
@@ -2243,8 +2271,9 @@
    "Google",
    "Zé Dudu"
   ],
-  "verificada": false,
-  "mencoes": 0
+  "verificada": true,
+  "mencoes": 2,
+  "resumo": "Música, ancestralidade e diversidade: Casa da Cultura realiza a 2ª edição do Festival Vale Carajás em Canaã dos Carajás"
  },
  {
   "data": "2026-08-14",
@@ -2259,8 +2288,9 @@
   "fontes": [
    "Portal Debate Carajás"
   ],
-  "verificada": false,
-  "mencoes": 0
+  "verificada": true,
+  "mencoes": 4,
+  "resumo": "Papa Leão XIV nomeia Dom Paulo Andreolli como novo bispo de Ponta de Pedras Leia mais"
  },
  {
   "data": "2026-08-14",
@@ -2292,8 +2322,9 @@
   "fontes": [
    "Google"
   ],
-  "verificada": false,
-  "mencoes": 0
+  "verificada": true,
+  "mencoes": 2,
+  "resumo": "Residência médica 2027: calendário reúne 74 provas previstas entre outubro e janeiro"
  },
  {
   "data": "2026-08-13",
@@ -2490,8 +2521,9 @@
   "fontes": [
    "Portal Debate Carajás"
   ],
-  "verificada": false,
-  "mencoes": 0
+  "verificada": true,
+  "mencoes": 1,
+  "resumo": "Papa Leão XIV nomeia Dom Paulo Andreolli como novo bispo de Ponta de Pedras Leia mais"
  },
  {
   "data": "2026-08-05",
@@ -2525,8 +2557,9 @@
    "Google",
    "Portal Debate Carajás"
   ],
-  "verificada": false,
-  "mencoes": 0
+  "verificada": true,
+  "mencoes": 2,
+  "resumo": "Papa Leão XIV nomeia Dom Paulo Andreolli como novo bispo de Ponta de Pedras Leia mais"
  },
  {
   "data": "2026-08-04",
@@ -2638,8 +2671,9 @@
   "fontes": [
    "Portal Debate Carajás"
   ],
-  "verificada": false,
-  "mencoes": 0
+  "verificada": true,
+  "mencoes": 5,
+  "resumo": "Papa Leão XIV nomeia Dom Paulo Andreolli como novo bispo de Ponta de Pedras Leia mais"
  },
  {
   "data": "2026-07-30",
@@ -2655,8 +2689,9 @@
    "Google",
    "Portal Debate Carajás"
   ],
-  "verificada": false,
-  "mencoes": 0
+  "verificada": true,
+  "mencoes": 2,
+  "resumo": "Operação policial termina com suspeito morto e três armas apreendidas no sudeste do Pará Leia mais"
  },
  {
   "data": "2026-07-30",
@@ -2753,8 +2788,9 @@
    "Google",
    "Portal Debate Carajás"
   ],
-  "verificada": false,
-  "mencoes": 0
+  "verificada": true,
+  "mencoes": 2,
+  "resumo": "Papa Leão XIV nomeia Dom Paulo Andreolli como novo bispo de Ponta de Pedras Leia mais"
  },
  {
   "data": "2026-07-29",
@@ -2819,8 +2855,9 @@
   "fontes": [
    "Google"
   ],
-  "verificada": false,
-  "mencoes": 0
+  "verificada": true,
+  "mencoes": 1,
+  "resumo": "Chamonzinho é reeleito para a Assembleia Legislativa"
  },
  {
   "data": "2026-07-27",
@@ -2851,8 +2888,9 @@
   "fontes": [
    "Google"
   ],
-  "verificada": false,
-  "mencoes": 0
+  "verificada": true,
+  "mencoes": 1,
+  "resumo": "Quer receber notificações do portal Senado Notícias?"
  },
  {
   "data": "2026-07-24",
@@ -2915,8 +2953,9 @@
   "fontes": [
    "Portal Canaã"
   ],
-  "verificada": false,
-  "mencoes": 0
+  "verificada": true,
+  "mencoes": 3,
+  "resumo": "12º Encontro de Integração dos ACS e ACE reúne categoria, familiares e amigos em Canaã dos Carajás 13/10/2026 13:48"
  },
  {
   "data": "2026-07-14",
@@ -3016,11 +3055,9 @@
   "fontes": [
    "Google"
   ],
-  "verificada": true,
+  "verificada": false,
   "mencoes": 0,
-  "resumo": "Foto: Moises do Nascimento Bonfim, SECOM/Unila Quando líderes universitários de 17 países se reuniram no 1º Fórum de Reitoras e Reitores da América Latina e do Caribe, em Foz do Iguaçu , no fim de junho de 2026, o objetivo não era apenas...",
-  "descartada": true,
-  "motivo": "O texto da matéria não cita a Unifesspa."
+  "resumo": "Foto: Moises do Nascimento Bonfim, SECOM/Unila Quando líderes universitários de 17 países se reuniram no 1º Fórum de Reitoras e Reitores da América Latina e do Caribe, em Foz do Iguaçu , no fim de junho de 2026, o objetivo não era apenas..."
  },
  {
   "data": "2026-07-07",
@@ -3086,10 +3123,8 @@
    "Zé Dudu"
   ],
   "verificada": true,
-  "mencoes": 0,
-  "resumo": "A gestão atual deste município tem.meu respeito. Os munícipes tem motivos fortes para se orgulharem: estar de Parabéns por acertadamente ter escolhido essa MULHER AGUERRIDA PARA O EXECUTIVO MUNICIPAL. À senhora Prefeita desejos de proteção...",
-  "descartada": true,
-  "motivo": "O texto da matéria não cita a Unifesspa."
+  "mencoes": 1,
+  "resumo": "A gestão atual deste município tem.meu respeito. Os munícipes tem motivos fortes para se orgulharem: estar de Parabéns por acertadamente ter escolhido essa MULHER AGUERRIDA PARA O EXECUTIVO MUNICIPAL. À senhora Prefeita desejos de proteção..."
  },
  {
   "data": "2026-07-05",
@@ -3136,8 +3171,9 @@
   "fontes": [
    "Portal Debate Carajás"
   ],
-  "verificada": false,
-  "mencoes": 0
+  "verificada": true,
+  "mencoes": 8,
+  "resumo": "Papa Leão XIV nomeia Dom Paulo Andreolli como novo bispo de Ponta de Pedras Leia mais"
  },
  {
   "data": "2026-07-02",
@@ -3183,8 +3219,9 @@
   "fontes": [
    "Zé Dudu"
   ],
-  "verificada": false,
-  "mencoes": 0
+  "verificada": true,
+  "mencoes": 11,
+  "resumo": "Pesquisa com participação do Pará transforma resíduo do babaçu em proteína para abrir nova frente de renda para comunidades amazônicas"
  },
  {
   "data": "2026-07-01",
@@ -3251,8 +3288,9 @@
   "fontes": [
    "Portal Canaã"
   ],
-  "verificada": false,
-  "mencoes": 0
+  "verificada": true,
+  "mencoes": 1,
+  "resumo": "Canaã recebe 30 novos policiais militares para reforçar a segurança do município 28/09/2026 16:09"
  },
  {
   "data": "2026-06-30",
@@ -3300,8 +3338,9 @@
   "fontes": [
    "Zé Dudu"
   ],
-  "verificada": false,
-  "mencoes": 0
+  "verificada": true,
+  "mencoes": 1,
+  "resumo": "Vale recebe novos vagões e se prepara para operar Trem de Passageiros diário entre o Maranhão e o Pará"
  },
  {
   "data": "2026-06-29",
@@ -3315,8 +3354,9 @@
   "fontes": [
    "Pebinha de Açúcar"
   ],
-  "verificada": false,
-  "mencoes": 0
+  "verificada": true,
+  "mencoes": 1,
+  "resumo": "desenvolvimento Canaã dos Carajás registra mais de 8 mil empresas criadas desde 2021"
  },
  {
   "data": "2026-06-27",
@@ -3365,8 +3405,9 @@
   "fontes": [
    "Google"
   ],
-  "verificada": false,
-  "mencoes": 0
+  "verificada": true,
+  "mencoes": 1,
+  "resumo": "SICAR+: plataforma agiliza Cadastro Ambiental Rural e libera Pagamento por Serviços Ambientais no Pará"
  },
  {
   "data": "2026-06-26",
@@ -3499,8 +3540,9 @@
   "fontes": [
    "Google"
   ],
-  "verificada": false,
-  "mencoes": 0
+  "verificada": true,
+  "mencoes": 4,
+  "resumo": "﻿ Marabá sedia debate sobre impactos climáticos na Amazônia • DOL × Cadastre-se × Crie cadastro único para todos os produtos do DOL × Esqueci minha senha × Pesquisa DOL Edição do dia Leia a edição completa grátis 31° R$ Este site usa..."
  },
  {
   "data": "2026-06-23",
@@ -3616,8 +3658,9 @@
   "fontes": [
    "Google"
   ],
-  "verificada": false,
-  "mencoes": 0
+  "verificada": true,
+  "mencoes": 6,
+  "resumo": "Relação de Vorcaro com o Metrópoles pode explicar a guerra suja contra o Itaú 15 de outubro de 2026"
  },
  {
   "data": "2026-06-16",
@@ -3665,8 +3708,9 @@
   "fontes": [
    "Google"
   ],
-  "verificada": false,
-  "mencoes": 0
+  "verificada": true,
+  "mencoes": 2,
+  "resumo": "Galáxia mais antiga e mais distante conhecida é encontra pelo Telescópio James Webb"
  },
  {
   "data": "2026-06-12",
@@ -3783,10 +3827,8 @@
    "Zé Dudu"
   ],
   "verificada": true,
-  "mencoes": 0,
-  "resumo": "Feliz iniciativa. Marabá está de parabéns, não pelo massacre das castanheiras, mas pela existência e pelas iniciativas de pessoas iguais às do competente jornalista Ulisses Pompeu. A obra, com certeza, é valiosíssima e vem enriquecer,...",
-  "descartada": true,
-  "motivo": "O texto da matéria não cita a Unifesspa."
+  "mencoes": 2,
+  "resumo": "Feliz iniciativa. Marabá está de parabéns, não pelo massacre das castanheiras, mas pela existência e pelas iniciativas de pessoas iguais às do competente jornalista Ulisses Pompeu. A obra, com certeza, é valiosíssima e vem enriquecer,..."
  },
  {
   "data": "2026-06-05",
@@ -3951,8 +3993,9 @@
   "fontes": [
    "Fato Regional"
   ],
-  "verificada": false,
-  "mencoes": 0
+  "verificada": true,
+  "mencoes": 2,
+  "resumo": "CFEM despenca em Parauapebas e município recebe, em outubro de 2026, menos da metade do valor registrado dois anos antes 15/10/2026"
  },
  {
   "data": "2026-05-26",
@@ -3967,8 +4010,9 @@
   "fontes": [
    "Zé Dudu"
   ],
-  "verificada": false,
-  "mencoes": 0
+  "verificada": true,
+  "mencoes": 2,
+  "resumo": "Proteção Animal em Movimento amplia cuidados gratuitos e fortalece a saúde dos pets em Parauapebas"
  },
  {
   "data": "2026-05-26",
@@ -3998,8 +4042,9 @@
   "fontes": [
    "Portal Debate Carajás"
   ],
-  "verificada": false,
-  "mencoes": 0
+  "verificada": true,
+  "mencoes": 2,
+  "resumo": "Papa Leão XIV nomeia Dom Paulo Andreolli como novo bispo de Ponta de Pedras Leia mais"
  },
  {
   "data": "2026-05-26",
@@ -4014,10 +4059,8 @@
    "Google"
   ],
   "verificada": true,
-  "mencoes": 0,
-  "resumo": "Criação de abelha sem ferrão contribui para produção sustentável de açaí Criação de abelha sem ferrão contribui para produção sustentável de açaí No Pará, curso reúne produtores de comunidades amazônicas para troca de experiências sobre...",
-  "descartada": true,
-  "motivo": "O texto da matéria não cita a Unifesspa."
+  "mencoes": 2,
+  "resumo": "Criação de abelha sem ferrão contribui para produção sustentável de açaí Criação de abelha sem ferrão contribui para produção sustentável de açaí No Pará, curso reúne produtores de comunidades amazônicas para troca de experiências sobre..."
  },
  {
   "data": "2026-05-26",
@@ -4144,8 +4187,9 @@
    "Google",
    "Portal Debate Carajás"
   ],
-  "verificada": false,
-  "mencoes": 0
+  "verificada": true,
+  "mencoes": 2,
+  "resumo": "Papa Leão XIV nomeia Dom Paulo Andreolli como novo bispo de Ponta de Pedras Leia mais"
  },
  {
   "data": "2026-05-14",
@@ -4214,8 +4258,9 @@
    "Google",
    "Portal Debate Carajás"
   ],
-  "verificada": false,
-  "mencoes": 0
+  "verificada": true,
+  "mencoes": 6,
+  "resumo": "Papa Leão XIV nomeia Dom Paulo Andreolli como novo bispo de Ponta de Pedras Leia mais"
  },
  {
   "data": "2026-05-12",
@@ -4314,8 +4359,9 @@
    "Google",
    "Zé Dudu"
   ],
-  "verificada": false,
-  "mencoes": 0
+  "verificada": true,
+  "mencoes": 2,
+  "resumo": "UFPA inaugura novo polo em Goianésia do Pará para expandir ensino superior e técnico no interior"
  },
  {
   "data": "2026-05-07",
@@ -4508,8 +4554,9 @@
   "fontes": [
    "Portal Debate Carajás"
   ],
-  "verificada": false,
-  "mencoes": 0
+  "verificada": true,
+  "mencoes": 1,
+  "resumo": "Papa Leão XIV nomeia Dom Paulo Andreolli como novo bispo de Ponta de Pedras Leia mais"
  },
  {
   "data": "2026-04-24",
@@ -4524,8 +4571,9 @@
   "fontes": [
    "Portal Canaã"
   ],
-  "verificada": false,
-  "mencoes": 0
+  "verificada": true,
+  "mencoes": 3,
+  "resumo": "12º Encontro de Integração dos ACS e ACE reúne categoria, familiares e amigos em Canaã dos Carajás 13/10/2026 13:48"
  },
  {
   "data": "2026-04-24",
@@ -4558,8 +4606,9 @@
   "fontes": [
    "Portal Canaã"
   ],
-  "verificada": false,
-  "mencoes": 0
+  "verificada": true,
+  "mencoes": 3,
+  "resumo": "Avisos, Publicações e Editais 12/10/2026 17:43"
  },
  {
   "data": "2026-04-23",
@@ -4590,10 +4639,8 @@
    "Google"
   ],
   "verificada": true,
-  "mencoes": 0,
-  "resumo": "\b\u0000\u0000\u0000\u0000\u0000\u0000\u0003ì½Yo Éµ0ølÿPõµE¡\u0019Y±äJ´©ÔRdQm©5DTfTU¶r©ÎÌâ\"w\u0003 0o\u0003 0ð\u0005>_?\u0018÷\u0002\u0006\u0006ðÌË}¼ü'þ%\u0013\u0011¹U\u0015%vl»Ûl¡\u0019û\u0013'Nlg¹sãÞÑóß=½fUìÜ_lº=Wøî³\u0001 \u0013QÛÃÃ#QÄbÈC7b N\u0017Pæ{1\u000e \\o°sg&E´s'@áL\u0014\u0007²Ú ,ª ö\u0007C\u0013Tn\u000fby E\u0019G\"8øn!Ê8!á.>ÊJ¤XX,\u0012øç%v=...",
-  "descartada": true,
-  "motivo": "O texto da matéria não cita a Unifesspa."
+  "mencoes": 1,
+  "resumo": "\b\u0000\u0000\u0000\u0000\u0000\u0000\u0003ì½Yo Éµ0ølÿPõµE¡\u0019Y±äJ´©ÔRdQm©5DTfTU¶r©ÎÌâ\"w\u0003 0o\u0003 0ð\u0005>_?\u0018÷\u0002\u0006\u0006ðÌË}¼ü'þ%\u0013\u0011¹U\u0015%vl»Ûl¡\u0019û\u0013'Nlg¹sãÞÑóß=½fUìÜ_lº=Wøî³\u0001 \u0013QÛÃÃ#QÄbÈC7b N\u0017Pæ{1\u000e \\o°sg&E´s'@áL\u0014\u0007²Ú ,ª ö\u0007C\u0013Tn\u000fby E\u0019G\"8øn!Ê8!á.>ÊJ¤XX,\u0012øç%v=..."
  },
  {
   "data": "2026-04-23",
@@ -4608,10 +4655,8 @@
    "Google"
   ],
   "verificada": true,
-  "mencoes": 0,
-  "resumo": "1 de 1 Universidade Federal do Maranhão (UFMA) em São Luís — Foto: Divulgação/Eline Luz/ImprensaANDES-SN Universidade Federal do Maranhão (UFMA) em São Luís — Foto: Divulgação/Eline Luz/ImprensaANDES-SN Servidores técnico-administrativos...",
-  "descartada": true,
-  "motivo": "O texto da matéria não cita a Unifesspa."
+  "mencoes": 2,
+  "resumo": "1 de 1 Universidade Federal do Maranhão (UFMA) em São Luís — Foto: Divulgação/Eline Luz/ImprensaANDES-SN Universidade Federal do Maranhão (UFMA) em São Luís — Foto: Divulgação/Eline Luz/ImprensaANDES-SN Servidores técnico-administrativos..."
  },
  {
   "data": "2026-04-23",
@@ -4642,8 +4687,9 @@
   "fontes": [
    "Portal Canaã"
   ],
-  "verificada": false,
-  "mencoes": 0
+  "verificada": true,
+  "mencoes": 2,
+  "resumo": "12º Encontro de Integração dos ACS e ACE reúne categoria, familiares e amigos em Canaã dos Carajás 13/10/2026 13:48"
  },
  {
   "data": "2026-04-21",
@@ -4658,8 +4704,9 @@
   "fontes": [
    "Portal Debate Carajás"
   ],
-  "verificada": false,
-  "mencoes": 0
+  "verificada": true,
+  "mencoes": 3,
+  "resumo": "Papa Leão XIV nomeia Dom Paulo Andreolli como novo bispo de Ponta de Pedras Leia mais"
  },
  {
   "data": "2026-04-21",
@@ -4692,8 +4739,9 @@
   "fontes": [
    "Google"
   ],
-  "verificada": false,
-  "mencoes": 0
+  "verificada": true,
+  "mencoes": 6,
+  "resumo": "Mulheres defensoras dos Direitos Humanos são homenageadas no VI Prêmio Frei Henri des Roziers; Agente histórica da CPT recebe título de Doutora Honoris Causa - Comissão Pastoral da Terra - CPT Pular para o conteúdo Siga também: Pesquisar..."
  },
  {
   "data": "2026-04-19",
@@ -4741,8 +4789,9 @@
   "fontes": [
    "Zé Dudu"
   ],
-  "verificada": false,
-  "mencoes": 0
+  "verificada": true,
+  "mencoes": 2,
+  "resumo": "Marabá: Vale e Prefeitura assinam termos para doação de R$ 102 milhões destinados a investimentos socioambientais"
  },
  {
   "data": "2026-04-17",
@@ -4912,8 +4961,9 @@
   "fontes": [
    "Zé Dudu"
   ],
-  "verificada": false,
-  "mencoes": 0
+  "verificada": true,
+  "mencoes": 6,
+  "resumo": "IBGE abre 14 vagas para Marabá em processo seletivo"
  },
  {
   "data": "2026-04-14",
@@ -4994,8 +5044,9 @@
   "fontes": [
    "Portal Debate Carajás"
   ],
-  "verificada": false,
-  "mencoes": 0
+  "verificada": true,
+  "mencoes": 1,
+  "resumo": "Ensino e Pós-Graduação"
  },
  {
   "data": "2026-04-13",
@@ -5026,10 +5077,8 @@
    "Google"
   ],
   "verificada": true,
-  "mencoes": 0,
-  "resumo": "1 de 1 A castanha-do-pará é uma das principais atividades para o sustento de centenas de famílias da região do Baixo Amazonas — Foto: Divulgação A castanha-do-pará é uma das principais atividades para o sustento de centenas de famílias da...",
-  "descartada": true,
-  "motivo": "O texto da matéria não cita a Unifesspa."
+  "mencoes": 2,
+  "resumo": "1 de 1 A castanha-do-pará é uma das principais atividades para o sustento de centenas de famílias da região do Baixo Amazonas — Foto: Divulgação A castanha-do-pará é uma das principais atividades para o sustento de centenas de famílias da..."
  },
  {
   "data": "2026-04-09",
@@ -5089,8 +5138,9 @@
   "fontes": [
    "Zé Dudu"
   ],
-  "verificada": false,
-  "mencoes": 0
+  "verificada": true,
+  "mencoes": 1,
+  "resumo": "Canaã participa de Encontro Estadual de Agentes de Desenvolvimento"
  },
  {
   "data": "2026-04-05",
@@ -5105,8 +5155,9 @@
   "fontes": [
    "Portal Debate Carajás"
   ],
-  "verificada": false,
-  "mencoes": 0
+  "verificada": true,
+  "mencoes": 2,
+  "resumo": "Operação policial termina com suspeito morto e três armas apreendidas no sudeste do Pará Leia mais"
  },
  {
   "data": "2026-04-05",
@@ -5204,8 +5255,9 @@
   "fontes": [
    "Google"
   ],
-  "verificada": false,
-  "mencoes": 0
+  "verificada": true,
+  "mencoes": 4,
+  "resumo": "Tecer Mulher: Projeto de Marabá é finalista do Prêmio LED 2026 | G1 Pular para o conteúdo Pará Tecer Mulher, de Marabá, vence Prêmio LED 2026 por inclusão digital de mulheres idosas Iniciativa da UNIFESSPA capacita mulheres acima de 60..."
  },
  {
   "data": "2026-04-02",
@@ -5253,8 +5305,9 @@
   "fontes": [
    "Google"
   ],
-  "verificada": false,
-  "mencoes": 0
+  "verificada": true,
+  "mencoes": 1,
+  "resumo": "Eliana apresenta Especial LED Globo e celebra poder da educação | Gshow Pular para o conteúdo Menu TV Entrar com Conta Globo Tem palco gshow no GloboPop. Acompanhe tudo! Baixe agora! Apresentadora do Especial LED, Eliana relembra faculdade..."
  },
  {
   "data": "2026-04-01",
@@ -5285,10 +5338,8 @@
    "Google"
   ],
   "verificada": true,
-  "mencoes": 0,
-  "resumo": "1 de 2 Beatriz Vitória da Silva, do quilombo do Brejo de Dentro, no sertão de Pernambuco, vence 'Prêmio LED Globo 2026' — Foto: Daniela Toviansky/Divulgação Beatriz Vitória da Silva, do quilombo do Brejo de Dentro, no sertão de Pernambuco,...",
-  "descartada": true,
-  "motivo": "O texto da matéria não cita a Unifesspa."
+  "mencoes": 1,
+  "resumo": "1 de 2 Beatriz Vitória da Silva, do quilombo do Brejo de Dentro, no sertão de Pernambuco, vence 'Prêmio LED Globo 2026' — Foto: Daniela Toviansky/Divulgação Beatriz Vitória da Silva, do quilombo do Brejo de Dentro, no sertão de Pernambuco,..."
  },
  {
   "data": "2026-04-01",
@@ -5370,10 +5421,8 @@
    "Google"
   ],
   "verificada": true,
-  "mencoes": 0,
-  "resumo": "1 de 1 Floresta amazônica — Foto: Dado Galdieri Floresta amazônica — Foto: Dado Galdieri Estão abertas as inscrições para o Workshop ARISE – Towards a Resilient Amazon (Rumo a uma Amazônia Resiliente), que será realizado de 13 a 15 de...",
-  "descartada": true,
-  "motivo": "O texto da matéria não cita a Unifesspa."
+  "mencoes": 2,
+  "resumo": "1 de 1 Floresta amazônica — Foto: Dado Galdieri Floresta amazônica — Foto: Dado Galdieri Estão abertas as inscrições para o Workshop ARISE – Towards a Resilient Amazon (Rumo a uma Amazônia Resiliente), que será realizado de 13 a 15 de..."
  },
  {
   "data": "2026-03-29",
@@ -5488,10 +5537,8 @@
    "Google"
   ],
   "verificada": true,
-  "mencoes": 0,
-  "resumo": "Siga o ND Mais no Google E veja as notícias do Brasil e de SC com destaque nas suas buscas. Adicionar Fósseis de dinossauro colossal ‘pescoçudo’ de 120 milhões de anos são encontrados no Brasil Fóssil foi encontrado durante obra no...",
-  "descartada": true,
-  "motivo": "O texto da matéria não cita a Unifesspa."
+  "mencoes": 1,
+  "resumo": "Siga o ND Mais no Google E veja as notícias do Brasil e de SC com destaque nas suas buscas. Adicionar Fósseis de dinossauro colossal ‘pescoçudo’ de 120 milhões de anos são encontrados no Brasil Fóssil foi encontrado durante obra no..."
  },
  {
   "data": "2026-03-17",
@@ -5705,8 +5752,9 @@
   "fontes": [
    "Portal Canaã"
   ],
-  "verificada": false,
-  "mencoes": 0
+  "verificada": true,
+  "mencoes": 3,
+  "resumo": "12º Encontro de Integração dos ACS e ACE reúne categoria, familiares e amigos em Canaã dos Carajás 13/10/2026 13:48"
  },
  {
   "data": "2026-03-03",
@@ -5742,8 +5790,9 @@
    "Google",
    "Portal Debate Carajás"
   ],
-  "verificada": false,
-  "mencoes": 0
+  "verificada": true,
+  "mencoes": 4,
+  "resumo": "Papa Leão XIV nomeia Dom Paulo Andreolli como novo bispo de Ponta de Pedras Leia mais"
  },
  {
   "data": "2026-03-03",
@@ -5902,12 +5951,10 @@
   "termos": [
    "Universidade Federal do Sul e Sudeste do Pará"
   ],
-  "verificada": true,
+  "verificada": false,
   "mencoes": 0,
   "dominio": "diariodocentrodomundo.com.br",
-  "resumo": "Os ossos da nova espécie de dinossauro encontrados em obra no Maranhão Os ossos da nova espécie de dinossauro encontrados em obra no Maranhão Apoie o DCM ÚLTIMAS POLÍTICA BRASIL MUNDO MÍDIA COMPORTAMENTO CULTURA ECONOMIA ESPORTE Especiais...",
-  "descartada": true,
-  "motivo": "O texto da matéria não cita a Unifesspa."
+  "resumo": "Os ossos da nova espécie de dinossauro encontrados em obra no Maranhão Os ossos da nova espécie de dinossauro encontrados em obra no Maranhão Apoie o DCM ÚLTIMAS POLÍTICA BRASIL MUNDO MÍDIA COMPORTAMENTO CULTURA ECONOMIA ESPORTE Especiais..."
  },
  {
   "data": "2026-02-28",
@@ -6259,8 +6306,9 @@
   "fontes": [
    "Google"
   ],
-  "verificada": false,
-  "mencoes": 0
+  "verificada": true,
+  "mencoes": 2,
+  "resumo": "Rejeição a Flávio Bolsonaro chega a 44% e fica próxima dos 46% de Lula, aponta o Datafolha 15 de outubro de 2026"
  },
  {
   "data": "2026-02-17",
@@ -6425,8 +6473,9 @@
   "fontes": [
    "Portal Debate Carajás"
   ],
-  "verificada": false,
-  "mencoes": 0
+  "verificada": true,
+  "mencoes": 2,
+  "resumo": "Papa Leão XIV nomeia Dom Paulo Andreolli como novo bispo de Ponta de Pedras Leia mais"
  },
  {
   "data": "2026-02-06",
@@ -6441,8 +6490,9 @@
   "fontes": [
    "Fato Regional"
   ],
-  "verificada": false,
-  "mencoes": 0
+  "verificada": true,
+  "mencoes": 2,
+  "resumo": "CFEM despenca em Parauapebas e município recebe, em outubro de 2026, menos da metade do valor registrado dois anos antes 15/10/2026"
  },
  {
   "data": "2026-02-03",
@@ -6456,8 +6506,9 @@
   "fontes": [
    "Google"
   ],
-  "verificada": false,
-  "mencoes": 0
+  "verificada": true,
+  "mencoes": 3,
+  "resumo": "Semana Nacional de Combate ao Trabalho Escravo é marcada por ações da CPT - Comissão Pastoral da Terra - CPT Pular para o conteúdo Siga também: Pesquisar Carrinho R$ 0,00 0 DOE AGORA Menu Semana Nacional de Combate ao Trabalho Escravo é..."
  },
  {
   "data": "2026-02-03",
@@ -6640,11 +6691,9 @@
   "fontes": [
    "Google"
   ],
-  "verificada": true,
+  "verificada": false,
   "mencoes": 0,
-  "resumo": "O Campus da Universidade Federal do Pará (UFPA): um dos maiores produtores de conhecimento sobre a Amazônia do mundo está entre as instituições científicas da região que sofrem com a distribuição desigual de verbas para pesquisa, que...",
-  "descartada": true,
-  "motivo": "O texto da matéria não cita a Unifesspa."
+  "resumo": "O Campus da Universidade Federal do Pará (UFPA): um dos maiores produtores de conhecimento sobre a Amazônia do mundo está entre as instituições científicas da região que sofrem com a distribuição desigual de verbas para pesquisa, que..."
  },
  {
   "data": "2026-01-27",
@@ -6692,8 +6741,9 @@
   "fontes": [
    "Portal Debate Carajás"
   ],
-  "verificada": false,
-  "mencoes": 0
+  "verificada": true,
+  "mencoes": 2,
+  "resumo": "Papa Leão XIV nomeia Dom Paulo Andreolli como novo bispo de Ponta de Pedras Leia mais"
  },
  {
   "data": "2026-01-26",
@@ -6771,8 +6821,9 @@
   "fontes": [
    "Google"
   ],
-  "verificada": false,
-  "mencoes": 0
+  "verificada": true,
+  "mencoes": 2,
+  "resumo": "O MEC (Ministério da Educação) anunciou a abertura de 7.388 cursos em 136 instituições públicas para a edição de 2026 do Sisu (Sistema de Seleção Unificada). O processo seletivo deste ano traz uma inovação importante: o sistema passará a..."
  },
  {
   "data": "2026-01-21",
@@ -6916,10 +6967,8 @@
    "Google"
   ],
   "verificada": true,
-  "mencoes": 0,
-  "resumo": "Enem e Vestibulares Fuvest 2027 divulga resultado de recurso sobre atendimento específico nesta quinta-feira (15) João Marcondes | 14/10/26 O resultado dos recursos relacionados aos pedidos de atendimento específico da Fuvest 2027 será...",
-  "descartada": true,
-  "motivo": "O texto da matéria não cita a Unifesspa."
+  "mencoes": 2,
+  "resumo": "Enem e Vestibulares Fuvest 2027 divulga resultado de recurso sobre atendimento específico nesta quinta-feira (15) João Marcondes | 14/10/26 O resultado dos recursos relacionados aos pedidos de atendimento específico da Fuvest 2027 será..."
  },
  {
   "data": "2026-01-19",
@@ -7017,8 +7066,9 @@
   "fontes": [
    "Fato Regional"
   ],
-  "verificada": false,
-  "mencoes": 0
+  "verificada": true,
+  "mencoes": 2,
+  "resumo": "CFEM despenca em Parauapebas e município recebe, em outubro de 2026, menos da metade do valor registrado dois anos antes 15/10/2026"
  },
  {
   "data": "2026-01-14",
@@ -7135,8 +7185,9 @@
   "fontes": [
    "Portal Canaã"
   ],
-  "verificada": false,
-  "mencoes": 0
+  "verificada": true,
+  "mencoes": 2,
+  "resumo": "12º Encontro de Integração dos ACS e ACE reúne categoria, familiares e amigos em Canaã dos Carajás 13/10/2026 13:48"
  },
  {
   "data": "2026-01-08",
@@ -7152,8 +7203,9 @@
    "Google",
    "Zé Dudu"
   ],
-  "verificada": false,
-  "mencoes": 0
+  "verificada": true,
+  "mencoes": 12,
+  "resumo": "Governo publica lei que cria Universidade Federal Indígena"
  },
  {
   "data": "2026-01-08",
