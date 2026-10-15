@@ -11,6 +11,10 @@ on:
       fim:
         description: "Data final (AAAA-MM-DD). Vazio = hoje."
         required: false
+      reverificar:
+        description: "Marque (true) para reler o texto das matérias já salvas e descartar as que não citam a Unifesspa. Não coleta nada novo."
+        required: false
+        default: "false"
 
 permissions:
   contents: write
@@ -26,7 +30,9 @@ jobs:
           python-version: "3.12"
       - name: Coletar
         run: |
-          if [ -n "${{ github.event.inputs.inicio }}" ]; then
+          if [ "${{ github.event.inputs.reverificar }}" = "true" ]; then
+            python coletar.py --reverificar
+          elif [ -n "${{ github.event.inputs.inicio }}" ]; then
             python coletar.py --inicio "${{ github.event.inputs.inicio }}" ${{ github.event.inputs.fim && format('--fim "{0}"', github.event.inputs.fim) || '' }}
           else
             python coletar.py --dias 3
