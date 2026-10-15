@@ -6,7 +6,7 @@ on:
   workflow_dispatch:           # botão "Run workflow" para rodar na hora
     inputs:
       inicio:
-        description: "Data inicial (AAAA-MM-DD). Deixe vazio para só os últimos 3 dias."
+        description: "Data inicial (AAAA-MM-DD). Deixe vazio para só os últimos 7 dias."
         required: false
       fim:
         description: "Data final (AAAA-MM-DD). Vazio = hoje."
@@ -19,6 +19,10 @@ on:
 permissions:
   contents: write
 
+concurrency:          # evita duas coletas ao mesmo tempo mexendo no mesmo arquivo
+  group: clipping
+  cancel-in-progress: false
+
 jobs:
   coletar:
     runs-on: ubuntu-latest
@@ -28,6 +32,8 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+      - name: Testar
+        run: python teste_coletar.py
       - name: Coletar
         run: |
           if [ "${{ github.event.inputs.reverificar }}" = "true" ]; then
@@ -35,7 +41,7 @@ jobs:
           elif [ -n "${{ github.event.inputs.inicio }}" ]; then
             python coletar.py --inicio "${{ github.event.inputs.inicio }}" ${{ github.event.inputs.fim && format('--fim "{0}"', github.event.inputs.fim) || '' }}
           else
-            python coletar.py --dias 3
+            python coletar.py --dias 7
           fi
       - name: Salvar resultados
         run: |
