@@ -15,10 +15,11 @@ HOJE = date.today().isoformat()
 ENCHE = "Este é o corpo da matéria com texto suficiente para a verificação levar a sério. " * 8
 
 
-def pagina(corpo, data=None):
+def pagina(corpo, data=None, titulo="Matéria de teste do clipping"):
     meta = f'<meta property="article:published_time" content="{data}T10:00:00-03:00">' if data else ""
     return (f"<html><head>{meta}</head><body><nav>Unifesspa menu</nav>"
-            f"<article>{corpo} {ENCHE}</article><footer>Unifesspa rodapé</footer></body></html>")
+            f"<article><h1>{titulo}</h1>{corpo} {ENCHE}</article>"
+            f"<footer>Unifesspa rodapé</footer></body></html>")
 
 
 class Base(unittest.TestCase):
@@ -87,17 +88,38 @@ class TestLeitura(Base):
 
     def test_le_a_materia_uma_vez_so(self):
         self.paginas["veiculo.com/a"] = pagina("A Unifesspa abriu vagas.", "2026-02-01")
-        r1 = c.ler_artigo("https://veiculo.com/a", self.baixar)
-        r2 = c.ler_artigo("https://veiculo.com/a", self.baixar)
+        r1 = c.ler_artigo("https://veiculo.com/a", "Matéria de teste do clipping", self.baixar)
+        r2 = c.ler_artigo("https://veiculo.com/a", "Matéria de teste do clipping", self.baixar)
         self.assertEqual(r1, r2)
         self.assertEqual(len(self.baixados), 1, "a segunda leitura tem de vir do cache")
         self.assertEqual(r1["m"], 1)
         self.assertEqual(r1["pub"], "2026-02-01")
-        self.assertTrue(r1["ini"].startswith("A Unifesspa abriu vagas"))
+        self.assertIn("A Unifesspa abriu vagas", r1["ini"])
+
+    def test_mencao_so_no_menu_nao_conta_mas_nao_descarta(self):
+        self.paginas["v.com/menu"] = ("<html><body><header>Portal Unifesspa Notícias</header>"
+                                      "<article><h1>Chuva alaga avenida</h1>A chuva alagou a avenida. "
+                                      + ENCHE + "</article></body></html>")
+        r = c.ler_artigo("https://v.com/menu", "Chuva alaga avenida", self.baixar)
+        self.assertTrue(r["ok"])
+        self.assertEqual(r["m"], 0)
+        self.assertTrue(r["margem"])
+        reg = materia("Chuva alaga avenida", "https://v.com/menu")
+        c.aplicar_verificacao(reg, self.baixar)
+        self.assertNotIn("descartada", reg, "citação só no cabeçalho não autoriza descartar")
+        self.assertFalse(reg["verificada"])
+
+    def test_pagina_compactada_e_descompactada(self):
+        import gzip as g
+        self.paginas["v.com/gz"] = g.compress(pagina("A Unifesspa assinou o convênio.",
+                                                     titulo="Convênio assinado").encode("utf-8"))
+        r = c.ler_artigo("https://v.com/gz", "Convênio assinado", lambda u: self.baixar(u))
+        self.assertTrue(r["ok"])
+        self.assertEqual(r["m"], 1)
 
     def test_pagina_curta_nao_conclui_nada(self):
         self.paginas["veiculo.com/b"] = "<html>aceite os cookies</html>"
-        self.assertFalse(c.ler_artigo("https://veiculo.com/b", self.baixar)["ok"])
+        self.assertFalse(c.ler_artigo("https://veiculo.com/b", "Qualquer", self.baixar)["ok"])
 
 
 def materia(titulo, link, data=HOJE):
@@ -107,13 +129,13 @@ def materia(titulo, link, data=HOJE):
 
 class TestVerificacao(Base):
     def test_cita_no_texto_fica(self):
-        self.paginas["v.com/a"] = pagina("A Unifesspa abriu vagas.")
+        self.paginas["v.com/a"] = pagina("A Unifesspa abriu vagas.", titulo="Novidade em Marabá")
         r = c.aplicar_verificacao(materia("Novidade em Marabá", "https://v.com/a"), self.baixar)
         self.assertNotIn("descartada", r)
         self.assertTrue(r["verificada"])
 
     def test_nao_cita_e_descartada(self):
-        self.paginas["v.com/b"] = pagina("Vestibular Unifesp 2027 abre inscrições.")
+        self.paginas["v.com/b"] = pagina("Vestibular Unifesp 2027 abre inscrições.", titulo="Vestibular Unifesp 2027")
         r = c.aplicar_verificacao(materia("Vestibular Unifesp 2027", "https://v.com/b"), self.baixar)
         self.assertTrue(r["descartada"])
         self.assertIn("não cita", r["motivo"])
@@ -124,21 +146,21 @@ class TestVerificacao(Base):
         self.assertFalse(r["verificada"])
 
     def test_local_de_votacao_e_descartado(self):
-        self.paginas["v.com/c"] = pagina("Seção na Universidade Federal do Sul e Sudeste do Pará, 51ª zona.")
+        self.paginas["v.com/c"] = pagina("Seção na Universidade Federal do Sul e Sudeste do Pará, 51ª zona.", titulo="Resultado das eleições 2026 em Rondon do Pará")
         r = c.aplicar_verificacao(
             materia("Resultado das eleições 2026 em Rondon do Pará", "https://v.com/c"), self.baixar)
         self.assertTrue(r["descartada"])
         self.assertIn("incidental", r["motivo"])
 
     def test_restaura_quando_passa_a_citar(self):
-        self.paginas["v.com/d"] = pagina("A Unifesspa anunciou o resultado.")
+        self.paginas["v.com/d"] = pagina("A Unifesspa anunciou o resultado.", titulo="Notícia")
         reg = materia("Notícia", "https://v.com/d")
         reg["descartada"] = True
         reg["motivo"] = "O texto da matéria não cita a Unifesspa."
         self.assertNotIn("descartada", c.aplicar_verificacao(reg, self.baixar))
 
     def test_nomeia_veiculo_quando_so_havia_o_dominio(self):
-        self.paginas["v.com/e"] = pagina("A Unifesspa participou do evento.")
+        self.paginas["v.com/e"] = pagina("A Unifesspa participou do evento.", titulo="Notícia")
         reg = materia("Notícia", "https://v.com/e")
         reg["veiculo"] = "v.com"
         reg["dominio"] = "v.com"
@@ -152,7 +174,7 @@ class TestVerificacao(Base):
     def test_guarda_link_real_data_e_resumo(self):
         bruto = b"\x08\x13\x22\x20https://correiodecarajas.com.br/x\xd2\x01\x00"
         id_ = base64.urlsafe_b64encode(bruto).decode().rstrip("=")
-        self.paginas["correiodecarajas.com.br/x"] = pagina("A Unifesspa inaugurou o prédio.", "2026-04-02")
+        self.paginas["correiodecarajas.com.br/x"] = pagina("A Unifesspa inaugurou o prédio.", "2026-04-02", "Prédio novo")
         reg = materia("Prédio novo", f"https://news.google.com/rss/articles/{id_}", data="2026-04-09")
         c.aplicar_verificacao(reg, self.baixar)
         self.assertEqual(reg["link"], "https://correiodecarajas.com.br/x")
@@ -285,8 +307,8 @@ class TestArquivo(Base):
 
 class TestRotina(Base):
     def test_reverificacao_limpa_o_que_ja_estava_salvo(self):
-        self.paginas["v.com/a"] = pagina("A Unifesspa divulgou o edital.")
-        self.paginas["v.com/b"] = pagina("Vestibular Unifesp 2027.")
+        self.paginas["v.com/a"] = pagina("A Unifesspa divulgou o edital.", titulo="Edital")
+        self.paginas["v.com/b"] = pagina("Vestibular Unifesp 2027.", titulo="Vestibular Unifesp")
         c.JSON_PATH.write_text(json.dumps([materia("Edital", "https://v.com/a"),
                                            materia("Vestibular Unifesp", "https://v.com/b")]),
                                encoding="utf-8")
@@ -295,6 +317,22 @@ class TestRotina(Base):
         self.assertTrue(salvos["Vestibular Unifesp"]["descartada"])
         self.assertNotIn("descartada", salvos["Edital"])
         self.assertTrue(c.CACHE_PATH.exists(), "o cache evita reler tudo na próxima vez")
+
+    def test_reverificacao_revisa_descartadas_e_listas_eleitorais(self):
+        self.paginas["v.com/a"] = pagina("Agora a Unifesspa aparece no texto.", titulo="Voltou")
+        self.paginas["v.com/c"] = pagina("Seção na Universidade Federal do Sul e Sudeste do Pará, 51ª zona.",
+                                         titulo="Resultado das eleições 2026 em Xinguara")
+        antiga = materia("Voltou", "https://v.com/a")
+        antiga.update({"verificada": True, "descartada": True,
+                       "motivo": "O texto da matéria não cita a Unifesspa."})
+        eleicao = materia("Resultado das eleições 2026 em Xinguara", "https://v.com/c")
+        eleicao.update({"verificada": True, "mencoes": 2})
+        c.JSON_PATH.write_text(json.dumps([antiga, eleicao]), encoding="utf-8")
+        self.assertEqual(c.principal(["--reverificar"], self.baixar), 0)
+        salvos = {r["titulo"]: r for r in json.loads(c.JSON_PATH.read_text(encoding="utf-8"))}
+        self.assertNotIn("descartada", salvos["Voltou"], "descarte antigo é revisto quando a leitura melhora")
+        self.assertTrue(salvos["Resultado das eleições 2026 em Xinguara"]["descartada"],
+                        "lista de locais de votação sai, mesmo citando a universidade mais de uma vez")
 
     def test_coleta_diaria_de_ponta_a_ponta(self):
         termos = c.TERMOS
@@ -310,8 +348,8 @@ class TestRotina(Base):
                   <pubDate>{date.today().strftime('%a, %d %b %Y')} 12:00:00 GMT</pubDate>
                   <source url="https://blog.com">Blog do Vestibular</source></item>
                 </channel></rss>"""
-            self.paginas["correiodecarajas.com.br/novo"] = pagina("A Unifesspa lançou o curso.")
-            self.paginas["blog.com/unifesp"] = pagina("A Unifesp, de São Paulo, abriu inscrições.")
+            self.paginas["correiodecarajas.com.br/novo"] = pagina("A Unifesspa lançou o curso.", titulo="Unifesspa lança curso")
+            self.paginas["blog.com/unifesp"] = pagina("A Unifesp, de São Paulo, abriu inscrições.", titulo="Vestibular Unifesp 2027")
             self.assertEqual(c.principal(["--dias", "1", "--fontes", "google"], self.baixar), 0)
         finally:
             c.TERMOS = termos

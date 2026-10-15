@@ -24,7 +24,7 @@ Uso:
 Os resultados ficam em dados/clipping.json e dados/clipping.csv. Rodar de novo
 acrescenta o que for novo e não duplica o que já existe.
 """
-import argparse, base64, csv, html, json, os, re, sys, time, unicodedata, urllib.error, urllib.parse, urllib.request
+import argparse, base64, csv, gzip, html, json, os, re, sys, time, unicodedata, urllib.error, urllib.parse, urllib.request
 import xml.etree.ElementTree as ET
 from datetime import date, datetime, timedelta
 from email.utils import parsedate_to_datetime
@@ -144,6 +144,7 @@ DIAS_BING = 30           # janela que o Bing Notícias consegue consultar
 MAX_PAGINAS_FEED = 2       # páginas do feed geral de cada veículo local
 LIMITE_LEITURA_EXTRA = 25  # matérias lidas por consulta de feed/sitemap para decidir se citam a universidade
 LIMITE_CACHE = 6000        # endereços guardados no cache de leitura
+CACHE_VERSAO = 2           # mudou o jeito de ler a página: o que foi lido pela regra antiga é lido de novo
 FONTES = ["google", "bing", "gdelt", "locais", "sites", "feeds", "sitemaps", "alertas"]
 # Verificação do texto: a busca (principalmente a do Google, que aceita variações como "Unifesp") traz
 # matérias que não falam da universidade. Antes de entrar no clipping, o texto da matéria é lido e
@@ -173,9 +174,19 @@ UA = "Mozilla/5.0 (compatible; ClippingASCOM/1.0)"
 
 
 def baixar(url):
-    req = urllib.request.Request(url, headers={"User-Agent": UA})
+    req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept-Encoding": "identity"})
     with urllib.request.urlopen(req, timeout=30) as r:
-        return r.read()
+        return descompactar(r.read())
+
+def descompactar(dados):
+    """Alguns servidores mandam a página compactada mesmo sem ser pedido (foi o caso do Metrópoles).
+    Sem desfazer isso, o texto vira lixo binário e a verificação decide no escuro."""
+    if dados[:2] == b"\x1f\x8b":
+        try:
+            return gzip.decompress(dados)
+        except Exception:
+            return dados
+    return dados
 
 
 def norm(s):
@@ -520,14 +531,34 @@ def endereco_google(link, baixar_fn=baixar):
     except Exception:
         return ""
 
-def texto_do_html(pag):
-    """Texto principal de uma página, sem menus, rodapé e scripts, legível (com acento)."""
-    pag = re.sub(r"(?is)<(script|style|noscript|svg|nav|header|footer|aside|form)\b.*?</\1>", " ", pag)
-    pag = re.sub(r"(?is)<!--.*?-->", " ", pag)
-    m = re.search(r"(?is)<article\b.*?</article>", pag) or re.search(r"(?is)<main\b.*?</main>", pag)
+def _sem_enfeite(pag, estrito):
+    """Tira scripts e navegação. No modo estrito tira também cabeçalho e barra lateral, onde ficam
+    menus e caixas de "veja também"; no modo largo eles ficam, porque é lá que às vezes está a citação."""
+    tags = "script|style|noscript|svg|nav|footer|form" + ("|header|aside" if estrito else "")
+    pag = re.sub(r"(?is)<(" + tags + r")\b.*?</\1>", " ", pag)
+    return re.sub(r"(?is)<!--.*?-->", " ", pag)
+
+def texto_do_html(pag, estrito=True):
+    """Texto da página inteira, fora os enfeites. É nele que se procura a menção: a universidade
+    costuma aparecer em lista ou tabela, que ficam fora de <article>."""
+    return re.sub(r"\s+", " ", html.unescape(re.sub(r"(?s)<[^>]+>", " ", _sem_enfeite(pag, estrito)))).strip()
+
+def texto_principal(pag):
+    """Só o corpo da matéria, para servir de resumo."""
+    corpo = _sem_enfeite(pag, True)
+    m = re.search(r"(?is)<article\b.*?</article>", corpo) or re.search(r"(?is)<main\b.*?</main>", corpo)
     if m:
-        pag = m.group(0)
-    return re.sub(r"\s+", " ", html.unescape(re.sub(r"(?s)<[^>]+>", " ", pag))).strip()
+        corpo = m.group(0)
+    return re.sub(r"\s+", " ", html.unescape(re.sub(r"(?s)<[^>]+>", " ", corpo))).strip()
+
+def leu_de_verdade(titulo, texto):
+    """A página lida é mesmo a matéria? Se o próprio título não aparece no texto, o que veio foi aviso
+    de assinatura, página de erro ou lixo, e aí não dá para afirmar que a matéria não cita a universidade."""
+    palavras = [p for p in norm(titulo).split() if len(p) > 3]
+    if not palavras:
+        return True
+    achadas = sum(1 for p in palavras if p in texto)
+    return achadas >= max(2, int(len(palavras) * 0.6))
 
 def data_do_html(pag):
     """Data que a própria matéria declara (aaaa-mm-dd), ou '' se não houver.
@@ -549,28 +580,33 @@ def data_do_html(pag):
                 return achada.isoformat()
     return ""
 
-def ler_artigo(link, baixar_fn=baixar):
+def ler_artigo(link, titulo="", baixar_fn=baixar):
     """Lê a matéria (uma vez só) e devolve o endereço real, o nº de menções, a data e o começo do texto."""
-    if link in CACHE_TEXTOS:
-        return CACHE_TEXTOS[link]
+    guardado = CACHE_TEXTOS.get(link)
+    if guardado and guardado.get("v") == CACHE_VERSAO:
+        return guardado
     final = link
     if "news.google.com" in dominio_de(link):
         final = endereco_google(link, baixar_fn) or ""
-    r = {"final": limpar_url(final), "m": 0, "pub": "", "ini": "", "ok": False}
+    r = {"final": limpar_url(final), "m": 0, "pub": "", "ini": "", "ok": False, "v": CACHE_VERSAO}
     if final:
         try:
-            bruto = baixar_fn(final)
+            bruto = descompactar(baixar_fn(final))
             try:
                 pag = bruto.decode("utf-8")
             except UnicodeDecodeError:
                 pag = bruto.decode("latin-1")
         except Exception:
             pag = ""
-        texto = texto_do_html(pag) if pag else ""
-        # Página vazia, bloqueio ou aviso de cookies: não dá para concluir nada.
-        if len(texto) >= 300:
-            r = {"final": limpar_url(final), "m": len(PADRAO_MENCAO.findall(norm(texto))),
-                 "pub": data_do_html(pag), "ini": limpar_resumo(texto), "ok": True}
+        corpo = norm(texto_do_html(pag, True)) if pag else ""
+        todo = norm(texto_do_html(pag, False)) if pag else ""
+        n = len(PADRAO_MENCAO.findall(corpo))
+        # Página vazia, bloqueio, muro de assinatura ou lixo compactado: não dá para concluir nada.
+        # Com menção achada, a leitura serviu, mesmo que o resto da página tenha vindo capado.
+        if len(todo) >= 300 and (n or leu_de_verdade(titulo, todo)):
+            r = {"final": limpar_url(final), "m": n, "pub": data_do_html(pag),
+                 "ini": limpar_resumo(texto_principal(pag) or texto_do_html(pag, False)), "ok": True,
+                 "margem": bool(not n and PADRAO_MENCAO.search(todo)), "v": CACHE_VERSAO}
     CACHE_TEXTOS[link] = r
     return r
 
@@ -587,7 +623,7 @@ def filtrar_mencao(itens, baixar_fn=baixar, limite=LIMITE_LEITURA_EXTRA):
                 continue
             lidas += 1
             time.sleep(PAUSA_VERIFICACAO if baixar_fn is baixar else 0)
-        r = ler_artigo(it["link"], baixar_fn)
+        r = ler_artigo(it["link"], it["titulo"], baixar_fn)
         if r["ok"] and r["m"]:
             fica.append(it)
     return fica
@@ -596,13 +632,15 @@ def verificar(it, baixar_fn=baixar):
     """Confere se a matéria cita a Unifesspa. Devolve (situação, leitura):
     'sim', 'nao' (leu o texto e não achou) ou '?' (não foi possível ler a matéria)."""
     n_titulo = len(PADRAO_MENCAO.findall(norm(it["titulo"])))
-    r = ler_artigo(it["link"], baixar_fn)
+    r = ler_artigo(it["link"], it["titulo"], baixar_fn)
     if n_titulo and not r["ok"]:
-        return "sim", {"final": "", "m": n_titulo, "pub": "", "ini": "", "ok": False}
+        return "sim", {"final": "", "m": n_titulo, "pub": "", "ini": "", "ok": False, "v": CACHE_VERSAO}
     if not r["ok"]:
         return "?", r
     if r["m"] or n_titulo:
         return "sim", r
+    if r.get("margem"):   # aparece só no menu ou no "veja também": não conta, mas não descarta
+        return "?", r
     return "nao", r
 
 def aplicar_verificacao(reg, baixar_fn=baixar):
@@ -629,7 +667,7 @@ def aplicar_verificacao(reg, baixar_fn=baixar):
     if situacao == "nao":
         reg["descartada"] = True
         reg["motivo"] = "O texto da matéria não cita a Unifesspa."
-    elif situacao == "sim" and r["m"] <= 1 and PADRAO_INCIDENTAL.search(norm(reg["titulo"])) \
+    elif situacao == "sim" and PADRAO_INCIDENTAL.search(norm(reg["titulo"])) \
             and not PADRAO_MENCAO.search(norm(reg["titulo"])):
         reg["descartada"] = True
         reg["motivo"] = "Menção apenas incidental (local de votação ou lista de agenda)."
@@ -829,7 +867,10 @@ def principal(argv=None, baixar_fn=baixar):
     regs = carregar()
     carregar_cache()
     if a.reverificar:
-        pendentes = [r for r in regs if "verificada" not in r or not r["verificada"]]
+        # Entram as que não puderam ser lidas, as descartadas (um descarte merece revisão sempre que a
+        # leitura melhora) e as de título de lista eleitoral, cuja regra mudou.
+        pendentes = [r for r in regs if not r.get("verificada") or r.get("descartada")
+                     or PADRAO_INCIDENTAL.search(norm(r["titulo"]))]
         antes = sum(1 for r in regs if r.get("descartada"))
         for k, r in enumerate(pendentes, 1):
             aplicar_verificacao(r, baixar_fn)
@@ -839,8 +880,8 @@ def principal(argv=None, baixar_fn=baixar):
         salvar(regs); salvar_cache()
         depois = sum(1 for r in regs if r.get("descartada"))
         nao_lidas = sum(1 for r in pendentes if not r["verificada"])
-        print(f"Reverificação: {len(pendentes)} matérias lidas, {depois - antes} novas descartadas, "
-              f"{nao_lidas} não puderam ser lidas (mantidas). Total: {len(regs)}.")
+        print(f"Reverificação: {len(pendentes)} matérias revistas, saldo de {depois - antes} descartadas "
+              f"({depois} no total), {nao_lidas} não puderam ser lidas (mantidas). Clipping: {len(regs)}.")
         return 0
     indice = Indice(regs)
     novos, avisos, falhas, total_consultas, descartadas = 0, [], 0, 0, 0
