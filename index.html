@@ -161,6 +161,7 @@ footer.pg{margin-top:28px;text-align:center;color:var(--muted);font-size:12.5px}
     <label for="periodo">Período</label>
     <select id="periodo"></select>
     <span id="custom" style="display:none;gap:8px;align-items:center"><input type="text" id="cIni" inputmode="numeric" placeholder="dd/mm/aaaa" maxlength="10" style="width:125px"> até <input type="text" id="cFim" inputmode="numeric" placeholder="dd/mm/aaaa" maxlength="10" style="width:125px"></span>
+    <span id="ultimaColeta" class="meta" style="margin-left:auto;margin-bottom:0"></span>
   </div>
 
   <div id="viewPainel">
@@ -446,7 +447,7 @@ function relatorio(){
 /* ---------- exportações ---------- */
 function baixar(nome,conteudo,tipo){ var b=new Blob([conteudo],{type:tipo}), a=document.createElement('a'); a.href=URL.createObjectURL(b); a.download=nome; document.body.appendChild(a); a.click(); setTimeout(function(){URL.revokeObjectURL(a.href);a.remove();},500); }
 function csv(its){
-  var l=[['Data','Veículo','Título','Tom','Assunto','Alcance','Origem','Link']].concat(its.map(function(r){return [fmt(r.data),r.veiculo,r.titulo,r.tom==='Pendente'?'A classificar':r.tom,r.assunto||'',r.alcance||'',r.origem||'',r.link||''];}));
+  var l=[['Data','Veículo','Título','Tom','Assunto','Alcance','Origem','Resumo','Link']].concat(its.map(function(r){return [fmt(r.data),r.veiculo,r.titulo,r.tom==='Pendente'?'A classificar':r.tom,r.assunto||'',r.alcance||'',r.origem||'',r.resumo||'',r.link||''];}));
   baixar('clipping-ascom.csv','﻿'+l.map(function(x){return x.map(function(c){return '"'+String(c==null?'':c).replace(/"/g,'""')+'"';}).join(';');}).join('\r\n'),'text/csv;charset=utf-8');
 }
 $('btnCsv').onclick=function(){csv(filtrar());};
@@ -509,8 +510,16 @@ function get(url){ return fetch(url,{cache:'no-cache'}).then(function(r){ if(!r.
 Promise.all([
   get('dados/clipping.json').catch(function(){return null;}),
   get('dados/revisoes.json').catch(function(){return null;}),
-  get('dados/veiculos.json').catch(function(){return null;})
+  get('dados/veiculos.json').catch(function(){return null;}),
+  get('dados/ultima_coleta.json').catch(function(){return null;})
 ]).then(function(r){
+  if(r[3]&&r[3].quando){
+    var q=String(r[3].quando), dia=fmt(q.slice(0,10)), hora=q.slice(11,16);
+    var txt='Última coleta: '+dia+(hora?' às '+hora:'');
+    if(typeof r[3].novas==='number') txt+=' · '+r[3].novas+(r[3].novas===1?' matéria nova':' matérias novas');
+    if(r[3].falhas) txt+=' · '+r[3].falhas+' consulta(s) com falha';
+    $('ultimaColeta').textContent=txt;
+  }
   if(r[1]){ repoRev={over:r[1].over||{},manuais:r[1].manuais||[],veiculos:r[1].veiculos||{}}; }
   if(r[2]){ repoVeic=r[2]; }
   if(r[0]){ base=r[0]; }

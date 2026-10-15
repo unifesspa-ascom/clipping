@@ -117,6 +117,14 @@ NOMES_POR_DOMINIO = {
     "diariodopara.com.br": "Diário do Pará",
     "dol.com.br": "DOL Carajás",
 }
+# Alertas do Google entregues em feed RSS. Criados na conta natalia.travassos@unifesspa.edu.br,
+# em google.com/alerts, com "Enviar para: Feed RSS" e "Quantos: Ver todos". Para acrescentar um termo,
+# crie o alerta lá e cole aqui o endereço do feed (o ícone de RSS ao lado do alerta).
+ALERTAS_RSS = {
+    "https://www.google.com/alerts/feeds/00735056655681025845/16891666913238257414": "Unifesspa",
+    "https://www.google.com/alerts/feeds/00735056655681025845/13212456898336066722":
+        "Universidade Federal do Sul e Sudeste do Pará",
+}
 # Sitemap de notícias (lista o que o site publicou nas últimas 48h, com título e data).
 # Serve para veículos sem feed, que só apareciam pela busca do Google.
 SITEMAPS_NOTICIAS = {
@@ -136,7 +144,7 @@ DIAS_BING = 30           # janela que o Bing Notícias consegue consultar
 MAX_PAGINAS_FEED = 2       # páginas do feed geral de cada veículo local
 LIMITE_LEITURA_EXTRA = 25  # matérias lidas por consulta de feed/sitemap para decidir se citam a universidade
 LIMITE_CACHE = 6000        # endereços guardados no cache de leitura
-FONTES = ["google", "bing", "gdelt", "locais", "sites", "feeds", "sitemaps"]
+FONTES = ["google", "bing", "gdelt", "locais", "sites", "feeds", "sitemaps", "alertas"]
 # Verificação do texto: a busca (principalmente a do Google, que aceita variações como "Unifesp") traz
 # matérias que não falam da universidade. Antes de entrar no clipping, o texto da matéria é lido e
 # conferido. O que não cita a Unifesspa fica marcado como "descartada" (não some: dá para ver e restaurar
@@ -147,6 +155,11 @@ PAUSA_VERIFICACAO = 1.0
 PADRAO_MENCAO = re.compile(
     r"\bunifesspa\b|universidade federal do sul e sudeste do para|\bfrancisco ribeiro da costa\b"
     r"|\blucelia cardoso cavalcante\b|\blucelia cavalcante\b")
+# Endereços que não são matéria: páginas de tag, de categoria, de autor e listas paginadas, que os
+# alertas do Google às vezes devolvem ("Arquivos IEEE", "Página: 6940").
+PADRAO_NAO_MATERIA = re.compile(
+    r"/(tag|tags|categoria|category|autor|author|page|pagina|arquivo|arquivos|busca|search|feed)(/|$)"
+    r"|[?&]s=", re.I)
 # Títulos de matérias que só listam locais de votação etc.: a Unifesspa aparece apenas como endereço.
 PADRAO_INCIDENTAL = re.compile(
     r"zona eleitoral|locais? de votacao|resultado das eleicoes|apuracao|boca de urna|"
@@ -415,6 +428,38 @@ def consulta_sitemap_news(endereco, nome, baixar_fn=baixar):
     return filtrar_mencao(itens, baixar_fn)
 
 
+# ---- Fonte 8: alertas do Google (entrega em feed RSS) -----------------------
+NS_ATOM = "{http://www.w3.org/2005/Atom}"
+
+def eh_materia(link):
+    """Falso para página de tag, de categoria, de autor e lista paginada, que não são matéria."""
+    try:
+        caminho = urllib.parse.urlsplit(link)
+    except Exception:
+        return True
+    return not PADRAO_NAO_MATERIA.search(caminho.path + "?" + caminho.query)
+
+
+def consulta_alerta(endereco, termo, baixar_fn=baixar):
+    """Matérias de um alerta do Google. O alerta já entrega o endereço real do veículo, a data e um
+    trecho do texto, e alcança veículos que ninguém mapeou aqui."""
+    raiz = ET.fromstring(baixar_fn(endereco))
+    itens = []
+    for e in raiz.iter(NS_ATOM + "entry"):
+        marcado = e.findtext(NS_ATOM + "title") or ""
+        titulo = re.sub(r"(?s)<[^>]+>", "", html.unescape(marcado)).strip()
+        alvo = e.find(NS_ATOM + "link")
+        bruto = alvo.get("href") if alvo is not None else ""
+        try:   # o alerta embrulha o endereço real em 'url='
+            link = urllib.parse.parse_qs(urllib.parse.urlsplit(bruto).query).get("url", [""])[0]
+        except Exception:
+            link = ""
+        data = (e.findtext(NS_ATOM + "published") or "")[:10]
+        if titulo and link and eh_materia(link):
+            itens.append(_item(titulo, "", link, data, link, e.findtext(NS_ATOM + "content") or ""))
+    return itens
+
+
 # ---- Verificação do texto da matéria ----------------------------------------
 # Cada matéria é lida uma única vez; o resultado fica guardado em dados/cache_textos.json,
 # para que rodar de novo não custe nada.
@@ -626,11 +671,12 @@ def salvar(regs):
     JSON_PATH.write_text(json.dumps(regs, ensure_ascii=False, indent=1), encoding="utf-8")
     with open(CSV_PATH, "w", newline="", encoding="utf-8-sig") as f:   # utf-8-sig: abre certo no Excel
         w = csv.writer(f, delimiter=";")
-        w.writerow(["Data", "Veículo", "Título", "Termos encontrados", "Link"])
+        w.writerow(["Data", "Veículo", "Título", "Termos encontrados", "Resumo", "Link"])
         for r in regs:
             if r.get("descartada"):
                 continue
-            w.writerow([br(r["data"]), r["veiculo"], r["titulo"], ", ".join(r["termos"]), r["link"]])
+            w.writerow([br(r["data"]), r["veiculo"], r["titulo"], ", ".join(r["termos"]),
+                        r.get("resumo", ""), r["link"]])
 
 
 class Indice:
@@ -723,6 +769,11 @@ def tarefas_extras(fontes, ini, fim, hoje):
             yield (nome + " (feed)", "últimas publicadas",
                    lambda baixar_fn, avisos, site=site, nome=nome: consulta_feed(site, nome, ini, baixar_fn),
                    nome, "Feed do veículo")
+    if "alertas" in fontes:
+        for endereco, termo in ALERTAS_RSS.items():
+            yield ("Alerta do Google", termo[:40],
+                   lambda baixar_fn, avisos, e=endereco, termo=termo: consulta_alerta(e, termo, baixar_fn),
+                   None, termo)
     if "sitemaps" in fontes:
         for endereco, nome in SITEMAPS_NOTICIAS.items():
             yield (nome + " (sitemap)", "últimas 48 horas",
@@ -810,7 +861,7 @@ def principal(argv=None, baixar_fn=baixar):
             if not (ini.isoformat() <= it["data"] <= fim.isoformat()):
                 continue
             it = padronizar(it, nome)
-            if eh_proprio(it):
+            if eh_proprio(it) or not eh_materia(it["link"]):
                 continue
             existente = indice.achar(it)
             if existente:

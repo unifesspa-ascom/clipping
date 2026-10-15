@@ -216,6 +216,32 @@ class TestFontes(Base):
         self.assertEqual(len(guardados), 3)
         self.assertEqual(len(self.baixados), 3)
 
+    def test_alerta_do_google(self):
+        self.paginas["alerts/feeds"] = """<?xml version="1.0" encoding="utf-8"?>
+            <feed xmlns="http://www.w3.org/2005/Atom">
+            <entry><title type="html">Ramo estudantil na &lt;b&gt;Unifesspa&lt;/b&gt; - Correio</title>
+              <link href="https://www.google.com/url?rct=j&amp;url=https://correiodecarajas.com.br/ramo&amp;ct=ga"/>
+              <published>2026-10-15T09:00:00Z</published>
+              <content type="html">O ramo do IEEE na &lt;b&gt;Unifesspa&lt;/b&gt; come&#231;ou.</content></entry>
+            <entry><title type="html">Arquivos IEEE - Correio</title>
+              <link href="https://www.google.com/url?rct=j&amp;url=https://correiodecarajas.com.br/tag/ieee&amp;ct=ga"/>
+              <published>2026-10-15T09:00:00Z</published><content type="html">x</content></entry>
+            <entry><title type="html">Sem endereço</title>
+              <link href="https://www.google.com/url?rct=j&amp;ct=ga"/>
+              <published>2026-10-15T09:00:00Z</published><content type="html">y</content></entry>
+            </feed>"""
+        itens = c.consulta_alerta("https://www.google.com/alerts/feeds/1/2", "Unifesspa", self.baixar)
+        self.assertEqual(len(itens), 1, "página de tag e entrada sem endereço ficam de fora")
+        self.assertEqual(itens[0]["titulo"], "Ramo estudantil na Unifesspa - Correio")
+        self.assertEqual(itens[0]["link"], "https://correiodecarajas.com.br/ramo")
+        self.assertEqual(itens[0]["data"], "2026-10-15")
+        self.assertEqual(itens[0]["resumo"], "O ramo do IEEE na Unifesspa começou.")
+
+    def test_lista_paginada_nao_e_materia(self):
+        self.assertFalse(c.eh_materia("https://v.com/page/6940"))
+        self.assertFalse(c.eh_materia("https://v.com/?s=unifesspa"))
+        self.assertTrue(c.eh_materia("https://v.com/noticia-sobre-a-unifesspa"))
+
     def test_sitemap_de_noticias(self):
         self.paginas["sitemap-news.xml"] = """<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
             xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
@@ -247,6 +273,14 @@ class TestArquivo(Base):
         planilha = c.CSV_PATH.read_text(encoding="utf-8-sig")
         self.assertIn("Fica", planilha)
         self.assertNotIn("Sai", planilha)
+
+    def test_planilha_tem_coluna_de_resumo(self):
+        reg = materia("Com resumo", "https://v.com/a")
+        reg["resumo"] = "Primeiras linhas da matéria."
+        c.salvar([reg])
+        planilha = c.CSV_PATH.read_text(encoding="utf-8-sig")
+        self.assertIn("Resumo", planilha.splitlines()[0])
+        self.assertIn("Primeiras linhas da matéria.", planilha)
 
 
 class TestRotina(Base):
