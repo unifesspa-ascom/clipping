@@ -17,7 +17,7 @@ Uso:
 Os resultados ficam em dados/clipping.json e dados/clipping.csv. Rodar de novo
 acrescenta o que for novo e não duplica o que já existe.
 """
-import argparse, csv, json, re, sys, time, unicodedata, urllib.error, urllib.parse, urllib.request
+import argparse, base64, csv, html, json, re, sys, time, unicodedata, urllib.error, urllib.parse, urllib.request
 import xml.etree.ElementTree as ET
 from datetime import date, datetime, timedelta
 from email.utils import parsedate_to_datetime
@@ -93,6 +93,20 @@ MAX_PAGINAS_WP = 40      # páginas de 10 itens por termo e veículo local
 DIAS_GDELT = 90          # janela que o GDELT consegue consultar
 DIAS_BING = 30           # janela que o Bing Notícias consegue consultar
 FONTES = ["google", "bing", "gdelt", "locais", "sites"]
+# Verificação do texto: a busca (principalmente a do Google, que aceita variações como "Unifesp") traz
+# matérias que não falam da universidade. Antes de entrar no clipping, o texto da matéria é lido e
+# conferido. O que não cita a Unifesspa fica marcado como "descartada" (não some: dá para ver e restaurar
+# na página, marcando "Mostrar matérias descartadas").
+VERIFICAR_TEXTO = True
+PAUSA_VERIFICACAO = 1.0
+# Aparece no texto da matéria (comparado sem acento e sem maiúsculas).
+PADRAO_MENCAO = re.compile(
+    r"\bunifesspa\b|universidade federal do sul e sudeste do para|\bfrancisco ribeiro da costa\b"
+    r"|\blucelia cardoso cavalcante\b|\blucelia cavalcante\b")
+# Títulos de matérias que só listam locais de votação etc.: a Unifesspa aparece apenas como endereço.
+PADRAO_INCIDENTAL = re.compile(
+    r"zona eleitoral|locais? de votacao|resultado das eleicoes|apuracao|boca de urna|"
+    r"confira a agenda dos presidenciaveis")
 # ----------------------------------------------------------------------------
 
 PASTA = Path(__file__).parent / "dados"
@@ -259,6 +273,89 @@ def consulta_wordpress(site, nome, termo, ini, baixar_fn=baixar):
     return itens
 
 
+# ---- Verificação do texto da matéria ----------------------------------------
+def endereco_google(link, baixar_fn=baixar):
+    """Endereço real de uma matéria cujo link é do Google Notícias (que só redireciona pelo navegador).
+    Devolve '' se não conseguir."""
+    try:
+        id_ = urllib.parse.urlparse(link).path.rstrip("/").split("/")[-1]
+        bruto = base64.urlsafe_b64decode(id_ + "=" * (-len(id_) % 4))
+        # Formato antigo: o endereço vem escrito dentro do próprio código.
+        m = re.search(rb"https?://[\x21-\x7e]+", bruto)
+        if m and b"AU_yqL" not in bruto:
+            return m.group(0).decode("ascii", "ignore")
+        # Formato novo: pergunta ao próprio Google (mesma chamada que o navegador faz).
+        pag = baixar_fn(f"https://news.google.com/rss/articles/{id_}").decode("utf-8", "ignore")
+        ts = re.search(r'data-n-a-ts="(\d+)"', pag)
+        sg = re.search(r'data-n-a-sg="([^"]+)"', pag)
+        if not (ts and sg):
+            return ""
+        carga = ["Fbv4je", json.dumps(
+            ["garturlreq", [["X", "X", ["X", "X"], None, None, 1, 1, "BR:pt-419", None, 1, None, None, None,
+                             None, None, 0, 1], "X", "X", 1, [1, 1, 1], 1, 1, None, 0, 0, None, 0],
+             id_, int(ts.group(1)), sg.group(1)]), None, "generic"]
+        corpo = urllib.parse.urlencode({"f.req": json.dumps([[carga]])}).encode()
+        req = urllib.request.Request(
+            "https://news.google.com/_/DotsSplashUi/data/batchexecute", data=corpo,
+            headers={"User-Agent": UA, "Content-Type": "application/x-www-form-urlencoded;charset=UTF-8"})
+        with urllib.request.urlopen(req, timeout=30) as r:
+            resp = r.read().decode("utf-8", "ignore")
+        bloco = json.loads(resp.split("\n\n", 1)[1])
+        return json.loads(bloco[0][2])[1]
+    except Exception:
+        return ""
+
+def texto_da_pagina(url, baixar_fn=baixar):
+    """Texto principal de uma página (sem menus, rodapé, scripts), já sem acento e em minúsculas."""
+    bruto = baixar_fn(url)
+    try:
+        pag = bruto.decode("utf-8")
+    except UnicodeDecodeError:
+        pag = bruto.decode("latin-1")
+    pag = re.sub(r"(?is)<(script|style|noscript|svg|nav|header|footer|aside|form)\b.*?</\1>", " ", pag)
+    pag = re.sub(r"(?is)<!--.*?-->", " ", pag)
+    m = re.search(r"(?is)<article\b.*?</article>", pag) or re.search(r"(?is)<main\b.*?</main>", pag)
+    if m:
+        pag = m.group(0)
+    return norm(html.unescape(re.sub(r"(?s)<[^>]+>", " ", pag)))
+
+def verificar(it, baixar_fn=baixar):
+    """Confere se a matéria cita a Unifesspa. Devolve (situação, nº de citações):
+    'sim', 'nao' (leu o texto e não achou) ou '?' (não foi possível ler a matéria)."""
+    n_titulo = len(PADRAO_MENCAO.findall(norm(it["titulo"])))
+    if n_titulo:
+        return "sim", n_titulo
+    link = it["link"]
+    if "news.google.com" in dominio_de(link):
+        link = endereco_google(link, baixar_fn)
+    if not link:
+        return "?", 0
+    try:
+        texto = texto_da_pagina(link, baixar_fn)
+    except Exception:
+        return "?", 0
+    if len(texto) < 300:  # página vazia, bloqueio ou aviso de cookies: não dá para concluir
+        return "?", 0
+    n = len(PADRAO_MENCAO.findall(texto))
+    return ("sim" if n else "nao"), n
+
+def aplicar_verificacao(reg, baixar_fn=baixar):
+    """Grava no registro o resultado da verificação. Só descarta quando leu a matéria e a Unifesspa não aparece,
+    ou quando o título indica lista de locais de votação e a universidade aparece só uma vez."""
+    situacao, n = verificar(reg, baixar_fn)
+    reg["verificada"] = situacao != "?"
+    reg["mencoes"] = n
+    if reg.pop("motivo", None):  # resultado de uma verificação anterior: refaz do zero
+        reg.pop("descartada", None)
+    if situacao == "nao":
+        reg["descartada"] = True
+        reg["motivo"] = "O texto da matéria não cita a Unifesspa."
+    elif situacao == "sim" and n <= 1 and PADRAO_INCIDENTAL.search(norm(reg["titulo"])) \
+            and not PADRAO_MENCAO.search(norm(reg["titulo"])):
+        reg["descartada"] = True
+        reg["motivo"] = "Menção apenas incidental (local de votação ou lista de agenda)."
+    return reg
+
 # ---- Utilidades -------------------------------------------------------------
 def eh_proprio(item):
     alvo = (item["dominio"] + " " + item["veiculo"]).lower()
@@ -297,6 +394,8 @@ def salvar(regs):
         w = csv.writer(f, delimiter=";")
         w.writerow(["Data", "Veículo", "Título", "Termos encontrados", "Link"])
         for r in regs:
+            if r.get("descartada"):
+                continue
             w.writerow([br(r["data"]), r["veiculo"], r["titulo"], ", ".join(r["termos"]), r["link"]])
 
 
@@ -384,6 +483,9 @@ def principal(argv=None, baixar_fn=baixar):
     ap = argparse.ArgumentParser()
     ap.add_argument("--inicio"); ap.add_argument("--fim")
     ap.add_argument("--dias", type=int, help="coleta só os últimos N dias")
+    ap.add_argument("--reverificar", action="store_true",
+                    help="não coleta nada novo: lê de novo o texto das matérias já salvas e descarta as que não citam a Unifesspa")
+    ap.add_argument("--sem-verificacao", action="store_true", help="não lê o texto das matérias (como antes)")
     ap.add_argument("--janela", type=int, default=7, help="tamanho da janela em dias (padrão 7)")
     ap.add_argument("--fontes", default=",".join(FONTES),
                     help="fontes separadas por vírgula: " + ", ".join(FONTES) + " (padrão: todas)")
@@ -400,8 +502,22 @@ def principal(argv=None, baixar_fn=baixar):
         fim = lerdata(a.fim) if a.fim else hoje
 
     regs = carregar()
+    if a.reverificar:
+        pendentes = [r for r in regs if "verificada" not in r or not r["verificada"]]
+        antes = sum(1 for r in regs if r.get("descartada"))
+        for k, r in enumerate(pendentes, 1):
+            aplicar_verificacao(r, baixar_fn)
+            time.sleep(PAUSA_VERIFICACAO if baixar_fn is baixar else 0)
+            if k % 25 == 0:
+                print(f"  {k}/{len(pendentes)} verificadas", flush=True)
+        salvar(regs)
+        depois = sum(1 for r in regs if r.get("descartada"))
+        nao_lidas = sum(1 for r in pendentes if not r["verificada"])
+        print(f"Reverificação: {len(pendentes)} matérias lidas, {depois - antes} novas descartadas, "
+              f"{nao_lidas} não puderam ser lidas (mantidas). Total: {len(regs)}.")
+        return 0
     indice = Indice(regs)
-    novos, avisos, falhas, total_consultas = 0, [], 0, 0
+    novos, avisos, falhas, total_consultas, descartadas = 0, [], 0, 0, 0
     por_fonte = {}
     for fonte, desc, fn, nome, termo in tarefas(fontes, ini, fim, a.janela, hoje):
         total_consultas += 1
@@ -433,11 +549,17 @@ def principal(argv=None, baixar_fn=baixar):
             reg = {"data": it["data"], "veiculo": it["veiculo"], "titulo": it["titulo"],
                    "link": it["link"], "termos": [termo],
                    "dominio": it["dominio"], "fontes": [fonte]}
+            if VERIFICAR_TEXTO and not a.sem_verificacao:
+                aplicar_verificacao(reg, baixar_fn)
+                time.sleep(PAUSA_VERIFICACAO if baixar_fn is baixar else 0)
+                if reg.get("descartada"):
+                    descartadas += 1
             indice.add(reg); regs.append(reg); novos += 1; achou += 1
         por_fonte[fonte] = por_fonte.get(fonte, 0) + achou
         print(f"{fonte:18} {desc[:60]:60} {len(itens):4} itens, {achou} novos", flush=True)
     salvar(regs)
     print("\nNovas matérias por fonte:", ", ".join(f"{k} {v}" for k, v in por_fonte.items()) or "nenhuma")
+    print(f"Descartadas pela verificação do texto: {descartadas}")
     print(f"Concluído: {novos} matérias novas, {len(regs)} no total. Consultas: {total_consultas}. Falhas: {falhas}.")
     for av in avisos:
         print("Aviso:", av)
