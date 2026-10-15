@@ -116,6 +116,32 @@ NOMES_POR_DOMINIO = {
     "rbtv.com.br": "Rede Brasil de Televisão",
     "diariodopara.com.br": "Diário do Pará",
     "dol.com.br": "DOL Carajás",
+    "g1.globo.com": "G1",
+    "valor.globo.com": "Valor Econômico",
+    "folha.uol.com.br": "Folha de S.Paulo",
+    "uol.com.br": "UOL Notícias",
+    "cnnbrasil.com.br": "CNN Brasil",
+    "otempo.com.br": "O Tempo",
+    "bbc.com": "BBC",
+    "brasil247.com": "Brasil 247",
+    "theconversation.com": "The Conversation",
+    "esquerdadiario.com.br": "Esquerda Diário",
+    "revistacenarium.com.br": "Revista Cenarium",
+    "tribunadosertao.com.br": "Tribuna do Sertão",
+    "correiodopovo.com.br": "Correio do Povo",
+    "gazetadigital.com.br": "Gazeta Digital",
+    "infoeducacao.com.br": "InfoEducação",
+    "ver-o-fato.com.br": "Ver-o-Fato",
+    "belem.com.br": "Belém.com.br",
+    "horabrasil.com.br": "Hora Brasil",
+    "guaranyjunior.com.br": "Portal Guarany Júnior",
+    "pebsp.com": "PEBSP Portal de Educação",
+    "mpf.mp.br": "Ministério Público Federal",
+    "andifes.org.br": "Andifes",
+    "cptnacional.org.br": "CPT Nacional",
+    "ufopa.edu.br": "Ufopa",
+    "ufca.edu.br": "UFCA",
+    "parauapebas.pa.gov.br": "Prefeitura de Parauapebas",
 }
 # Alertas do Google entregues em feed RSS. Criados na conta natalia.travassos@unifesspa.edu.br,
 # em google.com/alerts, com "Enviar para: Feed RSS" e "Quantos: Ver todos". Para acrescentar um termo,
@@ -124,6 +150,11 @@ ALERTAS_RSS = {
     "https://www.google.com/alerts/feeds/00735056655681025845/16891666913238257414": "Unifesspa",
     "https://www.google.com/alerts/feeds/00735056655681025845/13212456898336066722":
         "Universidade Federal do Sul e Sudeste do Pará",
+}
+# Nome por domínio e começo do caminho, para quando o mesmo site tem editoria com nome próprio.
+# A regra do caminho é testada antes da regra do domínio.
+NOMES_POR_CAMINHO = {
+    "g1.globo.com/pa": "G1 Pará",
 }
 # Sitemap de notícias (lista o que o site publicou nas últimas 48h, com título e data).
 # Serve para veículos sem feed, que só apareciam pela busca do Google.
@@ -180,7 +211,7 @@ PADRAO_INCIDENTAL = re.compile(
 PASTA = Path(__file__).parent / "dados"
 JSON_PATH, CSV_PATH = PASTA / "clipping.json", PASTA / "clipping.csv"
 CACHE_PATH, RESUMO_PATH = PASTA / "cache_textos.json", PASTA / "ultima_coleta.json"
-VEICULOS_PATH = PASTA / "veiculos_sem_nome.json"
+VEICULOS_PATH, REVISOES_PATH = PASTA / "veiculos_sem_nome.json", PASTA / "revisoes.json"
 UA = "Mozilla/5.0 (compatible; ClippingASCOM/1.0)"
 
 
@@ -756,18 +787,76 @@ class Indice:
                 or self.por_data.get(t + "|" + it["data"]))
 
 
+def nome_por_endereco(link, dominio=""):
+    """Nome do veículo pelo domínio e, quando faz diferença, pelo começo do caminho (G1 Pará contra o
+    G1 nacional). Devolve '' quando o domínio não está mapeado."""
+    dom = (dominio or dominio_de(link) or "").lower()
+    if not dom:
+        return ""
+    caminho = ""
+    try:
+        partes = urllib.parse.urlsplit(link)
+        if "news.google.com" not in partes.netloc:   # link ainda não resolvido: só o domínio serve
+            caminho = partes.path
+    except Exception:
+        caminho = ""
+    for chave, nome in NOMES_POR_CAMINHO.items():
+        d, _, prefixo = chave.partition("/")
+        if (dom == d or dom.endswith("." + d)) and caminho.startswith("/" + prefixo):
+            return nome
+    for d, nome in NOMES_POR_DOMINIO.items():
+        if dom == d or dom.endswith("." + d):
+            return nome
+    return ""
+
+
 def padronizar(it, nome_forcado=None):
     """Dá ao veículo o mesmo nome em todas as fontes."""
     if nome_forcado:
         it["veiculo"] = nome_forcado
     else:
-        for dom, nome in NOMES_POR_DOMINIO.items():
-            if it["dominio"] == dom or it["dominio"].endswith("." + dom):
-                it["veiculo"] = nome
-                break
+        achado = nome_por_endereco(it.get("link", ""), it["dominio"])
+        if achado:
+            it["veiculo"] = achado
     if not it["veiculo"]:
         it["veiculo"] = it["dominio"] or "Sem identificação"
     return it
+
+
+def id_da_pagina(titulo, veiculo):
+    """O mesmo identificador que a página calcula para cada matéria (título e veículo). É por isso que
+    renomear um veículo exige levar junto as revisões já feitas."""
+    h = 5381
+    for ch in (titulo or "") + "|" + (veiculo or ""):
+        h = (h * 33 + ord(ch)) & 0xFFFFFFFF
+    letras, n, saida = "0123456789abcdefghijklmnopqrstuvwxyz", h, ""
+    while n:
+        saida = letras[n % 36] + saida
+        n //= 36
+    return "a" + (saida or "0")
+
+
+def renomear_veiculos(regs, revisoes=None):
+    """Põe todo mundo com o mesmo nome de veículo e leva junto as revisões (tom, assunto, alcance),
+    que a página guarda por título e veículo. Devolve o que mudou, para conferência."""
+    mudancas, de_para = {}, {}
+    for r in regs:
+        novo = nome_por_endereco(r.get("link", ""), r.get("dominio", ""))
+        antigo = r.get("veiculo", "")
+        if not novo or novo == antigo:
+            continue
+        mudancas[(antigo, novo)] = mudancas.get((antigo, novo), 0) + 1
+        de_para[id_da_pagina(r.get("titulo", ""), antigo)] = id_da_pagina(r.get("titulo", ""), novo)
+        if antigo:
+            de_para.setdefault("veiculo:" + antigo, novo)
+        r["veiculo"] = novo
+    if revisoes is not None:
+        over = revisoes.get("over") or {}
+        revisoes["over"] = {de_para.get(k, k): v for k, v in over.items()}
+        veics = revisoes.get("veiculos") or {}
+        if veics:
+            revisoes["veiculos"] = {de_para.get("veiculo:" + k, k): v for k, v in veics.items()}
+    return sorted(([a, b, n] for (a, b), n in mudancas.items()), key=lambda x: -x[2])
 
 
 def tarefas(fontes, ini, fim, janela, hoje):
@@ -886,6 +975,8 @@ def principal(argv=None, baixar_fn=baixar):
     ap.add_argument("--dias", type=int, help="coleta só os últimos N dias")
     ap.add_argument("--reverificar", action="store_true",
                     help="não coleta nada novo: lê de novo o texto das matérias já salvas e descarta as que não citam a Unifesspa")
+    ap.add_argument("--renomear", action="store_true",
+                    help="não coleta nada: põe todo veículo com o mesmo nome e leva junto as revisões já feitas")
     ap.add_argument("--sem-verificacao", action="store_true", help="não lê o texto das matérias (como antes)")
     ap.add_argument("--janela", type=int, default=7, help="tamanho da janela em dias (padrão 7)")
     ap.add_argument("--fontes", default=",".join(FONTES),
@@ -904,6 +995,25 @@ def principal(argv=None, baixar_fn=baixar):
 
     regs = carregar()
     carregar_cache()
+    if a.renomear:
+        revisoes = None
+        if REVISOES_PATH.exists():
+            try:
+                revisoes = json.loads(REVISOES_PATH.read_text(encoding="utf-8"))
+            except Exception:
+                revisoes = None
+        mudancas = renomear_veiculos(regs, revisoes)
+        salvar(regs)
+        PASTA.mkdir(exist_ok=True)
+        if revisoes is not None:
+            REVISOES_PATH.write_text(json.dumps(revisoes, ensure_ascii=False, indent=1), encoding="utf-8")
+        VEICULOS_PATH.write_text(json.dumps(veiculos_sem_nome(regs), ensure_ascii=False, indent=1),
+                                 encoding="utf-8")
+        for antigo, novo, n in mudancas:
+            print(f"  {n:4} matéria(s): {antigo or '(sem nome)'} -> {novo}")
+        print(f"Renomeação: {sum(m[2] for m in mudancas)} matéria(s) em {len(mudancas)} troca(s) de nome. "
+              f"Revisões: {'migradas' if revisoes is not None else 'não há arquivo a migrar'}.")
+        return 0
     if a.reverificar:
         # Entram as que não puderam ser lidas, as descartadas (um descarte merece revisão sempre que a
         # leitura melhora) e as de título de lista eleitoral, cuja regra mudou.

@@ -32,6 +32,7 @@ class Base(unittest.TestCase):
         c.CACHE_PATH = c.PASTA / "cache_textos.json"
         c.RESUMO_PATH = c.PASTA / "ultima_coleta.json"
         c.VEICULOS_PATH = c.PASTA / "veiculos_sem_nome.json"
+        c.REVISOES_PATH = c.PASTA / "revisoes.json"
         c.CACHE_TEXTOS = {}
         self.baixados = []
         self.paginas = {}
@@ -302,6 +303,55 @@ class TestTermos(Base):
         achados = c.veiculos_sem_nome(regs + [fora])
         self.assertEqual([(x["dominio"], x["materias"]) for x in achados], [("novoportal.com.br", 2)])
         self.assertEqual(achados[0]["nomes"], ["novoportal.com.br"])
+
+
+class TestNomes(Base):
+    def test_g1_do_para_e_separado_do_nacional(self):
+        self.assertEqual(c.nome_por_endereco("https://g1.globo.com/pa/para/noticia/x"), "G1 Pará")
+        self.assertEqual(c.nome_por_endereco("https://g1.globo.com/pa/santarem-regiao/noticia/x"), "G1 Pará")
+        self.assertEqual(c.nome_por_endereco("https://g1.globo.com/educacao/noticia/y"), "G1")
+        self.assertEqual(c.nome_por_endereco("https://g1.globo.com/pe/pernambuco/noticia/z"), "G1")
+
+    def test_link_do_google_ainda_nao_resolvido_fica_com_o_nome_do_dominio(self):
+        self.assertEqual(c.nome_por_endereco("https://news.google.com/rss/articles/ABC", "g1.globo.com"), "G1")
+
+    def test_dominio_desconhecido_nao_ganha_nome(self):
+        self.assertEqual(c.nome_por_endereco("https://sitequalquer.com.br/x"), "")
+
+    def test_identificador_igual_ao_da_pagina(self):
+        # Mesmo cálculo do javascript da página (djb2 em base 36), conferido contra ele.
+        self.assertEqual(c.id_da_pagina("Matéria X", "G1"), "a92j654")
+        self.assertEqual(c.id_da_pagina("Unifesspa lança curso", "Correio de Carajás"), "a16felrj")
+
+    def test_renomear_leva_as_revisoes_junto(self):
+        regs = [materia("Eleição em Rondon", "https://g1.globo.com/pa/para/noticia/1"),
+                materia("Nota nacional", "https://g1.globo.com/educacao/noticia/2"),
+                materia("Coluna", "https://www.zedudu.com.br/post/3")]
+        regs[0]["veiculo"] = "g1"; regs[0]["dominio"] = "g1.globo.com"
+        regs[1]["veiculo"] = "G1"; regs[1]["dominio"] = "g1.globo.com"
+        regs[2]["veiculo"] = "ZÉ DUDU"; regs[2]["dominio"] = "zedudu.com.br"
+        revisoes = {"over": {c.id_da_pagina("Eleição em Rondon", "g1"): {"tom": "Neutro"}},
+                    "veiculos": {"g1": "Nacional"}, "manuais": []}
+        mudancas = c.renomear_veiculos(regs, revisoes)
+        self.assertEqual([r["veiculo"] for r in regs], ["G1 Pará", "G1", "Zé Dudu"])
+        self.assertIn(c.id_da_pagina("Eleição em Rondon", "G1 Pará"), revisoes["over"],
+                      "o tom classificado tem de acompanhar o novo nome")
+        self.assertEqual(revisoes["over"][c.id_da_pagina("Eleição em Rondon", "G1 Pará")]["tom"], "Neutro")
+        self.assertEqual(revisoes["veiculos"], {"G1 Pará": "Nacional"})
+        self.assertEqual(sum(m[2] for m in mudancas), 2)
+
+    def test_renomear_de_ponta_a_ponta(self):
+        reg = materia("Coluna", "https://www.zedudu.com.br/post/3")
+        reg["veiculo"] = "ZÉ DUDU"; reg["dominio"] = "zedudu.com.br"
+        c.JSON_PATH.write_text(json.dumps([reg]), encoding="utf-8")
+        c.REVISOES_PATH.write_text(json.dumps(
+            {"over": {c.id_da_pagina("Coluna", "ZÉ DUDU"): {"tom": "Positivo"}}, "veiculos": {}, "manuais": []}),
+            encoding="utf-8")
+        self.assertEqual(c.principal(["--renomear"], self.baixar), 0)
+        self.assertEqual(json.loads(c.JSON_PATH.read_text(encoding="utf-8"))[0]["veiculo"], "Zé Dudu")
+        rev = json.loads(c.REVISOES_PATH.read_text(encoding="utf-8"))
+        self.assertIn(c.id_da_pagina("Coluna", "Zé Dudu"), rev["over"])
+        self.assertEqual(len(self.baixados), 0, "renomear não acessa a internet")
 
 
 class TestArquivo(Base):
