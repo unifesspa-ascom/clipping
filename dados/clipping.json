@@ -1,6 +1,71 @@
 [
  {
   "data": "2026-10-15",
+  "veiculo": "srinter.ufscar.br",
+  "titulo": "SRInter-UFSCar promove, em 27/08, primeiro workshop sobre gestão de relações ...",
+  "link": "https://www.srinter.ufscar.br/pt-br/news/srinter-ufscar-promove-serie-de-workshops-sobre-gestao-de-relacoes-internacionais-para-universidades-da-rede-sinapse-2013-capes-global",
+  "termos": [
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "resumo": "... Universidade Federal do Sul e Sudeste do Pará (Unifesspa) e UFSCar — apresentarão uma visão panorâmica de suas estruturas organizacionais, das ...",
+  "dominio": "srinter.ufscar.br",
+  "fontes": [
+   "Alerta do Google"
+  ],
+  "verificada": true,
+  "mencoes": 2
+ },
+ {
+  "data": "2026-10-15",
+  "veiculo": "reeleito.com.br",
+  "titulo": "Prefeito em Rondon do Pará (PA) 2020: votos por bairro e local · Reeleito",
+  "link": "https://reeleito.com.br/pa/rondon-do-para/2020/prefeito",
+  "termos": [
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "resumo": "42,1%. Unifesspa - Universidade Federal do Sul e Sudeste do Pará Centro, 287, 42,0%. Percentual sobre quem votou no local. Ranking completo. 5 ...",
+  "dominio": "reeleito.com.br",
+  "fontes": [
+   "Alerta do Google"
+  ],
+  "verificada": true,
+  "mencoes": 2
+ },
+ {
+  "data": "2026-10-15",
+  "veiculo": "portalpara24horas.com.br",
+  "titulo": "Ramo estudantil do IEEE na Unifesspa impulsiona inovação e conexões globais em tecnologia",
+  "link": "https://portalpara24horas.com.br/unifesspa-ieee-tecnologia-inovacao",
+  "termos": [
+   "Unifesspa",
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "resumo": "Estudantes da Unifesspa criam ramo estudantil do IEEE para promover desenvolvimento técnico-científico, inovação e conexão global em tecnologia.",
+  "dominio": "portalpara24horas.com.br",
+  "fontes": [
+   "Alerta do Google"
+  ],
+  "verificada": true,
+  "mencoes": 12
+ },
+ {
+  "data": "2026-10-15",
+  "veiculo": "instagram.com",
+  "titulo": "GBC | Representantes das equipes técnicas dos projetos Sertão Vivo e Parceiros da Mata ...",
+  "link": "https://www.instagram.com/p/Defsziij2JT",
+  "termos": [
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "resumo": "O projeto é uma parceria entre a Fundação Guamá (FG) e a Universidade Federal do Sul e Sudeste do Pará (Unifesspa), e conta com o apoio do Banco ...",
+  "dominio": "instagram.com",
+  "fontes": [
+   "Alerta do Google"
+  ],
+  "verificada": false,
+  "mencoes": 0
+ },
+ {
+  "data": "2026-10-15",
   "veiculo": "Correio de Carajás",
   "titulo": "Ensinar é semear mudanças e transformar destinos",
   "link": "https://correiodecarajas.com.br/ensinar-e-semear-mudancas-e-transformar-destinos",
@@ -9,7 +74,8 @@
   ],
   "dominio": "correiodecarajas.com.br",
   "fontes": [
-   "Correio de Carajás"
+   "Correio de Carajás",
+   "Alerta do Google"
   ],
   "verificada": true,
   "mencoes": 1,
@@ -336,7 +402,8 @@
   ],
   "dominio": "portalamazonia.com",
   "fontes": [
-   "Google"
+   "Google",
+   "Portal Amazônia"
   ],
   "verificada": true,
   "mencoes": 11,
@@ -453,6 +520,24 @@
  },
  {
   "data": "2026-10-05",
+  "veiculo": "Portal Debate Carajás",
+  "titulo": "Veja os 20 estados onde o governador foi eleito no 1º turno",
+  "link": "https://debatecarajas.com.br/veja-os-20-estados-onde-o-governador-foi-eleito-no-1o-turno",
+  "termos": [
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "resumo": "A eleição para governador foi encerrada no primeiro turno, neste domingo, em 20 estados. Os vencedores conseguiram alcançar mais da metade (50% mais um) dos votos válidos, sem considerar os brancos e nulos, e foram eleitos. Do total de...",
+  "dominio": "debatecarajas.com.br",
+  "fontes": [
+   "Portal Debate Carajás"
+  ],
+  "verificada": true,
+  "mencoes": 0,
+  "descartada": true,
+  "motivo": "O texto da matéria não cita a Unifesspa."
+ },
+ {
+  "data": "2026-10-05",
   "veiculo": "Portal Amazônia",
   "titulo": "Projeto promove restauração de 200 hectares de florestas no sudeste do Pará",
   "link": "https://portalamazonia.com/para/projeto-restauracao-floresta-para",
@@ -463,7 +548,8 @@
   "dominio": "portalamazonia.com",
   "fontes": [
    "Bing",
-   "Google"
+   "Google",
+   "Portal Amazônia"
   ],
   "verificada": true,
   "mencoes": 11,
@@ -778,7 +864,8 @@
    "Portal Debate Carajás"
   ],
   "verificada": true,
-  "mencoes": 1
+  "mencoes": 1,
+  "resumo": "MARABÁ (PA) — Um carro foi encontrado bastante danificado na manhã desta segunda-feira (28/9), nas proximidades do muro do Campus II da Universidade Federal do Sul e Sudeste do Pará (Unifesspa), na Folha 17, em Marabá, no sudeste do Pará...."
  },
  {
   "data": "2026-09-28",
@@ -825,7 +912,8 @@
    "Fato Regional"
   ],
   "verificada": true,
-  "mencoes": 1
+  "mencoes": 1,
+  "resumo": "Programa oferece 16 vagas em Marabá; curso é gratuito e presencial."
  },
  {
   "data": "2026-09-28",
@@ -924,7 +1012,26 @@
    "Portal Debate Carajás"
   ],
   "verificada": true,
-  "mencoes": 1
+  "mencoes": 1,
+  "resumo": "Quem busca formação na área de tecnologia aplicada à mineração pode se inscrever no processo seletivo do Mestrado Profissional em Tecnologias Inovadoras na Mineração (PPGTIM), da Universidade Federal do Sul e Sudeste do Pará (Unifesspa),..."
+ },
+ {
+  "data": "2026-09-26",
+  "veiculo": "Portal Canaã",
+  "titulo": "Quem é Eugenio Gadelha, candidato a representar Canaã, Parauapebas e região na Alepa?",
+  "link": "https://portalcanaa.com.br/para/quem-e-eugenio-gadelha-candidato-a-representar-canaa-parauapebas-e-regiao-na-alepa",
+  "termos": [
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "resumo": "Engenheiro e ex-funcionário da mineradora Vale, Eugenio Gadelha (MDB) chega à disputa por uma vaga na Assembleia Legislativa do Pará (Alepa) com uma trajetória construída em obras de grande porte e experiência recente na gestão pública...",
+  "dominio": "portalcanaa.com.br",
+  "fontes": [
+   "Portal Canaã"
+  ],
+  "verificada": true,
+  "mencoes": 0,
+  "descartada": true,
+  "motivo": "O texto da matéria não cita a Unifesspa."
  },
  {
   "data": "2026-09-25",
@@ -1073,6 +1180,24 @@
   "resumo": "Papa Leão XIV nomeia Dom Paulo Andreolli como novo bispo de Ponta de Pedras Leia mais"
  },
  {
+  "data": "2026-09-23",
+  "veiculo": "Portal Debate Carajás",
+  "titulo": "Eleições 2026: veja quem são os candidatos a governador, senador e deputados pelo Pará",
+  "link": "https://debatecarajas.com.br/eleicoes-2026-veja-quem-sao-os-candidatos-a-governador-senador-e-deputados-pelo-para",
+  "termos": [
+   "Lucélia Cardoso Cavalcante"
+  ],
+  "resumo": "Mais de 6,2 milhões de eleitores do Pará devem ir às urnas no dia 4 de outubro de 2026, um domingo, para votar nas eleições gerais. O pleito definirá os representantes do estado para os próximos quatro anos e também renovará parte da...",
+  "dominio": "debatecarajas.com.br",
+  "fontes": [
+   "Portal Debate Carajás"
+  ],
+  "verificada": true,
+  "mencoes": 0,
+  "descartada": true,
+  "motivo": "O texto da matéria não cita a Unifesspa."
+ },
+ {
   "data": "2026-09-22",
   "veiculo": "pebsp.com",
   "titulo": "MEC anuncia inscrições para o Mestrado em Educação Inclusiva – PROFEI",
@@ -1173,6 +1298,23 @@
   "resumo": "Por: Patrick Carvalho 📅 Publicado em 22/09/2026 17h00 ✏️ Atualizado em 21/09/2026 16h06 Entre seminários sobre poesia medieval e estudos do cancioneiro geral, Gilson Penalva acompanha uma turma de Letras da Universidade Federal do Sul e..."
  },
  {
+  "data": "2026-09-22",
+  "veiculo": "Carajás O Jornal",
+  "titulo": "Professora da rede municipal recebe menção honrosa em 1º Torneio de Professores de Português",
+  "link": "https://carajasojornal.com.br/professora-da-rede-municipal-recebe-mencao-honrosa-em-1o-torneio-de-professores-de-portugues",
+  "termos": [
+   "Unifesspa",
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "resumo": "A professora de língua portuguesa, Sâmia Sousa, da Escola Municipal Benedita Torres, recebeu Menção Honrosa no 1º Torneio de Professores de Português (TPP) 2026, iniciativa que reuniu professores de todo o Brasil. “A sala de aula sempre...",
+  "dominio": "carajasojornal.com.br",
+  "fontes": [
+   "Carajás O Jornal"
+  ],
+  "verificada": true,
+  "mencoes": 2
+ },
+ {
   "data": "2026-09-21",
   "veiculo": "andifes.org.br",
   "titulo": "Unifesspa ganha Polo da Rede EducaNorte e expande a oferta de Doutorado em Educação no Sul e Sudeste do Pará",
@@ -1204,6 +1346,24 @@
   "verificada": true,
   "mencoes": 1,
   "resumo": "PUC-Rio Igreja igreja católica inteligência artificial escola e universidade Brasil Departamento de Teologia da PUC-Rio reflete sobre IA e dignidade humana Inspirada na Encíclica Magnifica humanitas, do Papa Leão XIV, a XVII Semana da..."
+ },
+ {
+  "data": "2026-09-18",
+  "veiculo": "Pebinha de Açúcar",
+  "titulo": "Prefeitura contrata obra de R$ 3,7 milhões em talude ao lado de escola no Liberdade II",
+  "link": "https://pebinhadeacucar.com.br/prefeitura-contrata-obra-de-r-37-milhoes-em-talude-ao-lado-de-escola-no-liberdade-ii",
+  "termos": [
+   "Francisco Ribeiro da Costa"
+  ],
+  "resumo": "Área próxima à Escola Elisaldo Ribeiro é considerada de risco e já provocou interdição da unidade; obra será executada pelo PROSAP com recursos do Novo PAC A Prefeitura de Parauapebas, por meio do PROSAP, contratou por R$ 3.700.000,73 a...",
+  "dominio": "pebinhadeacucar.com.br",
+  "fontes": [
+   "Pebinha de Açúcar"
+  ],
+  "verificada": true,
+  "mencoes": 0,
+  "descartada": true,
+  "motivo": "O texto da matéria não cita a Unifesspa."
  },
  {
   "data": "2026-09-17",
@@ -1402,6 +1562,24 @@
  },
  {
   "data": "2026-09-15",
+  "veiculo": "Portal Amazônia",
+  "titulo": "De Piracicaba à Amazônia: instituto especializado da USP é berço de estudos dos rios voadores",
+  "link": "https://portalamazonia.com/meio-ambiente/piracicaba-amazonia-rios-voadores",
+  "termos": [
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "resumo": "Seguindo os passos dos átomos, um grupo de pesquisadores pioneiros do interior do Estado de São Paulo acompanhou a dança das águas que vivem na Floresta Amazônica, impactando a ciência e o movimento ambientalista em todo o mundo.",
+  "dominio": "portalamazonia.com",
+  "fontes": [
+   "Portal Amazônia"
+  ],
+  "verificada": true,
+  "mencoes": 0,
+  "descartada": true,
+  "motivo": "O texto da matéria não cita a Unifesspa."
+ },
+ {
+  "data": "2026-09-15",
   "veiculo": "DOL",
   "titulo": "De Marabá para o mundo: jovem leva coleção de moda a Londres",
   "link": "https://dol.com.br/entretenimento/962782/de-maraba-para-o-mundo-jovem-leva-colecao-de-moda-a-londres",
@@ -1431,6 +1609,24 @@
   "verificada": true,
   "mencoes": 1,
   "resumo": "📅 Publicado em 15/09/2026 08h26 ✏️ Atualizado em 15/09/2026 14h25 Conforme prometido, a coluna de hoje dá continuidade à listinha de obras fundamentais para a estante literária de todo leitor. Cinco obras irão se juntar aos romances..."
+ },
+ {
+  "data": "2026-09-14",
+  "veiculo": "Portal Amazônia",
+  "titulo": "Serra do Aracá: expedição científica coleta dezenas de espécies possivelmente novas na Amazônia",
+  "link": "https://portalamazonia.com/meio-ambiente/serra-do-araca-expedicao-especies",
+  "termos": [
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "resumo": "Equipe de 16 pesquisadores passou 19 dias investigando a biodiversidade de ecossistemas de altitude no norte do Amazonas, na Serra do Aracá. Análises de saúde ambiental também faz parte da expedição.",
+  "dominio": "portalamazonia.com",
+  "fontes": [
+   "Portal Amazônia"
+  ],
+  "verificada": true,
+  "mencoes": 0,
+  "descartada": true,
+  "motivo": "O texto da matéria não cita a Unifesspa."
  },
  {
   "data": "2026-09-14",
@@ -1555,6 +1751,23 @@
   "resumo": "📅 Publicado em 12/09/2026 11h57 ✏️ Atualizado em 12/09/2026 16h23 A construção de estratégias para uma cidade antirracista foi o centro das discussões do 1º Seminário de Equidade Racial, realizado na manhã desta sexta-feira (11), pela..."
  },
  {
+  "data": "2026-09-12",
+  "veiculo": "Carajás O Jornal",
+  "titulo": "Canaã avança para receber a UFRA e projeta implantação do curso de Medicina",
+  "link": "https://carajasojornal.com.br/canaa-avanca-para-receber-a-ufra-e-projeta-implantacao-do-curso-de-medicina",
+  "termos": [
+   "Unifesspa",
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "resumo": "Visitas técnicas e investimentos em infraestrutura marcam etapa decisiva para a chegada da universidade ao município, com oferta inicial de dois cursos de graduação a partir de 2027 A implantação do campus da Universidade Federal Rural da...",
+  "dominio": "carajasojornal.com.br",
+  "fontes": [
+   "Carajás O Jornal"
+  ],
+  "verificada": true,
+  "mencoes": 2
+ },
+ {
   "data": "2026-09-11",
   "veiculo": "Portal Debate",
   "titulo": "Duas motocicletas se envolvem em acidente em frente à Unifesspa, em Marabá",
@@ -1569,7 +1782,26 @@
    "Portal Debate Carajás"
   ],
   "verificada": true,
-  "mencoes": 1
+  "mencoes": 1,
+  "resumo": "MARABÁ (PA) — Duas motocicletas se envolveram em um acidente de trânsito na manhã desta sexta-feira (11/9), na Avenida VP-8, Folha 28, núcleo Nova Marabá, em frente ao Campus I da Universidade Federal do Sul e Sudeste do Pará (Unifesspa)...."
+ },
+ {
+  "data": "2026-09-11",
+  "veiculo": "Portal Amazônia",
+  "titulo": "Seis novas espécies de moscas são descritas na Amazônia brasileira",
+  "link": "https://portalamazonia.com/meio-ambiente/novas-especies-moscas-amazonia",
+  "termos": [
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "resumo": "As novas espécies de moscas são do gênero Dexosarcophaga. Duas foram nomeadas em homenagem a pesquisadores do Museu Goeldi e todas já estavam em coleções científicas há pelo menos dez anos.",
+  "dominio": "portalamazonia.com",
+  "fontes": [
+   "Portal Amazônia"
+  ],
+  "verificada": true,
+  "mencoes": 0,
+  "descartada": true,
+  "motivo": "O texto da matéria não cita a Unifesspa."
  },
  {
   "data": "2026-09-11",
@@ -1588,6 +1820,24 @@
   "mencoes": 3,
   "data_feed": "2026-09-12",
   "resumo": "﻿ Feira de profissões gratuita oferece cursos e orientação em Marabá • DOL × Cadastre-se × Crie cadastro único para todos os produtos do DOL × Esqueci minha senha × Pesquisa DOL Edição do dia Leia a edição completa grátis 31° R$ Este site..."
+ },
+ {
+  "data": "2026-09-09",
+  "veiculo": "Zé Dudu",
+  "titulo": "Empresário Reinaldo Zucatelli recebe título da Câmara Municipal de Marabá no Dia do Administrador",
+  "link": "https://www.zedudu.com.br/empresario-reinaldo-zucatelli-recebe-titulo-da-camara-municipal-de-maraba-no-dia-do-administrador",
+  "termos": [
+   "Francisco Ribeiro da Costa"
+  ],
+  "resumo": "Sessão solene em alusão à data reuniu autoridades e profissionais de destaque; o presidente do Grupo Zucatelli, esteve entre os grandes homenageados da noite por seu impacto na economia local",
+  "dominio": "zedudu.com.br",
+  "fontes": [
+   "Zé Dudu"
+  ],
+  "verificada": true,
+  "mencoes": 0,
+  "descartada": true,
+  "motivo": "O texto da matéria não cita a Unifesspa."
  },
  {
   "data": "2026-09-09",
@@ -1659,6 +1909,24 @@
  {
   "data": "2026-09-08",
   "veiculo": "Correio de Carajás",
+  "titulo": "Câmara de Marabá homenageia 18 administradores por contribuição ao município",
+  "link": "https://correiodecarajas.com.br/camara-de-maraba-homenageia-18-administradores-por-contribuicao-ao-municipio",
+  "termos": [
+   "Francisco Ribeiro da Costa"
+  ],
+  "resumo": "Reconhecer profissionais que atuam diretamente na organização e no desenvolvimento do município foi o principal objetivo da sessão solene realizada nesta terça-feira (8), no plenário da Câmara Municipal de Marabá, em alusão ao Dia do...",
+  "dominio": "correiodecarajas.com.br",
+  "fontes": [
+   "Correio de Carajás"
+  ],
+  "verificada": true,
+  "mencoes": 0,
+  "descartada": true,
+  "motivo": "O texto da matéria não cita a Unifesspa."
+ },
+ {
+  "data": "2026-09-08",
+  "veiculo": "Correio de Carajás",
   "titulo": "5 obras fundamentais por suas temáticas (parte 2)",
   "link": "https://correiodecarajas.com.br/5-obras-fundamentais-por-suas-tematicas-parte-2",
   "termos": [
@@ -1671,6 +1939,42 @@
   "verificada": true,
   "mencoes": 1,
   "resumo": "📅 Publicado em 08/09/2026 08h15 ✏️ Atualizado em 09/09/2026 09h57 Conforme prometido, a coluna de hoje dá continuidade à listinha de obras fundamentais para a estante literária de todo leitor. Cinco obras irão se juntar aos romances..."
+ },
+ {
+  "data": "2026-09-07",
+  "veiculo": "Zé Dudu",
+  "titulo": "Planeta está entrando em águas desconhecidas, diz secretário da ONU sobre El Niño",
+  "link": "https://www.zedudu.com.br/planeta-esta-entrando-em-aguas-desconhecidas-diz-secretario-da-onu-sobre-el-nino",
+  "termos": [
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "resumo": "Novo boletim da Organização Meteorológica Mundial alerta para intensificação do fenômeno e para o elevado risco de eventos extremos nos próximos meses",
+  "dominio": "zedudu.com.br",
+  "fontes": [
+   "Zé Dudu"
+  ],
+  "verificada": true,
+  "mencoes": 0,
+  "descartada": true,
+  "motivo": "O texto da matéria não cita a Unifesspa."
+ },
+ {
+  "data": "2026-09-07",
+  "veiculo": "Portal Debate Carajás",
+  "titulo": "Desfile de 7 de Setembro reúne escolas e forças de segurança em Marabá",
+  "link": "https://debatecarajas.com.br/desfile-de-7-de-setembro-reune-escolas-e-forcas-de-seguranca-em-maraba",
+  "termos": [
+   "Francisco Ribeiro da Costa"
+  ],
+  "resumo": "MARABÁ, SUDESTE DO PARÁ – O desfile alusivo à Independência do Brasil foi realizado na manhã desta segunda-feira (7), na Marabá Pioneira. Neste ano, a programação teve como tema “Inovação, Equidade e Saberes Conectados: Caminhos para a...",
+  "dominio": "debatecarajas.com.br",
+  "fontes": [
+   "Portal Debate Carajás"
+  ],
+  "verificada": true,
+  "mencoes": 0,
+  "descartada": true,
+  "motivo": "O texto da matéria não cita a Unifesspa."
  },
  {
   "data": "2026-09-06",
@@ -1687,6 +1991,24 @@
   "verificada": true,
   "mencoes": 2,
   "resumo": "Explosões para abrir hidrovia ameaçam comunidades ribeirinhas no PA | G1 Pular para o conteúdo Pará Comunidades ribeirinhas no PA temem explosões para abrir hidrovia no Pedral do Lourenção; cientistas apontam riscos Projeto do governo..."
+ },
+ {
+  "data": "2026-09-04",
+  "veiculo": "Portal Amazônia",
+  "titulo": "O dilema de Belo Monte: mudanças climáticas tendem a agravar conflito por água do rio Xingu",
+  "link": "https://portalamazonia.com/meio-ambiente/belo-monte-conflito-agua-xingu",
+  "termos": [
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "resumo": "Comunidades indígenas e ribeirinhas relatam sofrimento com escassez hídrica gerada pelas barragens da usina hidrelétrica na região de Altamira, no Pará. Empresa responsável pela operação nega gravidade e diz que impactos estão dentro do...",
+  "dominio": "portalamazonia.com",
+  "fontes": [
+   "Portal Amazônia"
+  ],
+  "verificada": true,
+  "mencoes": 0,
+  "descartada": true,
+  "motivo": "O texto da matéria não cita a Unifesspa."
  },
  {
   "data": "2026-09-04",
@@ -1908,6 +2230,40 @@
  },
  {
   "data": "2026-08-25",
+  "veiculo": "Zé Dudu",
+  "titulo": "Da comunidade para a tela: jovens transformam vivências em cinema",
+  "link": "https://www.zedudu.com.br/da-comunidade-para-a-tela-jovens-transformam-vivencias-em-cinema",
+  "termos": [
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "resumo": "Patrocinado pela Vale, projeto Cultura na Praça leva oficinas gratuitas a comunidades do Pará e Maranhão e mostra que a sétima arte fortalece identidades e abre caminhos para novas profissões",
+  "dominio": "zedudu.com.br",
+  "fontes": [
+   "Zé Dudu"
+  ],
+  "verificada": true,
+  "mencoes": 0,
+  "descartada": true,
+  "motivo": "O texto da matéria não cita a Unifesspa."
+ },
+ {
+  "data": "2026-08-25",
+  "veiculo": "Portal Infopebas",
+  "titulo": "Jornalistas do Correio de Carajás brilham no Prêmio Sebrae, ampliando reconhecimento do interior paraense",
+  "link": "https://www.infopebas.com/regiao/jornalistas-do-correio-de-carajas-brilham-no-premio-sebrae-ampliando-reconhecimento-do-interior-paraense",
+  "termos": [
+   "Unifesspa"
+  ],
+  "resumo": "O jornalismo de qualidade produzido no interior do Pará alcança novamente um patamar de destaque. Luciana Araújo e Kauã Fhillipe, talentosos jornalistas do Correio de Carajás, foram anunciados nesta segunda-feira (24) como finalistas da...",
+  "dominio": "infopebas.com",
+  "fontes": [
+   "Portal Infopebas"
+  ],
+  "verificada": true,
+  "mencoes": 1
+ },
+ {
+  "data": "2026-08-25",
   "veiculo": "Correio de Carajás",
   "titulo": "Um diálogo entre as obras a Cabeça Do Santo, de Socorro Acioli, E Pedro Páramo, de Juan Rulfo",
   "link": "https://correiodecarajas.com.br/um-dialogo-entre-as-obras-a-cabeca-do-santo-de-socorro-acioli-e-pedro-paramo-de-juan-rulfo",
@@ -2002,6 +2358,24 @@
   "verificada": true,
   "mencoes": 2,
   "resumo": "Imagem ilustrativa: Keitma/Adobe Stock A Universidade Federal Rural da Amazônia (Ufra) acatou integralmente uma recomendação do Ministério Público Federal (MPF) para avaliar a adesão à Rede Nacional de Promoção, Proteção e Defesa das..."
+ },
+ {
+  "data": "2026-08-21",
+  "veiculo": "Portal Debate Carajás",
+  "titulo": "Acusado de matar conselheiro do Paysandu é condenado a 16 anos e seis meses de prisão",
+  "link": "https://debatecarajas.com.br/acusado-de-matar-conselheiro-do-paysandu-e-condenado-a-16-anos-e-seis-meses-de-prisao",
+  "termos": [
+   "Francisco Ribeiro da Costa"
+  ],
+  "resumo": "A condenação de Neilson Carneiro da Silva, sentenciado nesta quinta-feira (20), a 16 anos e seis meses de prisão pelo assassinato do conselheiro do Paysandu Sérgio Francisco da Costa Júnior, o “Kblo”, expõe uma trama que, segundo a...",
+  "dominio": "debatecarajas.com.br",
+  "fontes": [
+   "Portal Debate Carajás"
+  ],
+  "verificada": true,
+  "mencoes": 0,
+  "descartada": true,
+  "motivo": "O texto da matéria não cita a Unifesspa."
  },
  {
   "data": "2026-08-21",
@@ -2125,6 +2499,42 @@
   "resumo": "Wandenkolk Gonçalves aposta na experiência para voltar à Alepa Candidato do Republicanos destaca trajetória na gestão pública, defesa do setor produtivo e propostas para o desenvolvimento regional Com uma longa trajetória na vida pública,..."
  },
  {
+  "data": "2026-08-20",
+  "veiculo": "Blog do Hiroshi Bogéa",
+  "titulo": "Missionária Rebeca Spires: -“Não somos donos de nada; somos filhos e filhas da Terra”",
+  "link": "https://hiroshibogea.com.br/missionaria-rebeca-spires-nao-somos-donos-de-nada-somos-filhos-e-filhas-da-terra",
+  "termos": [
+   "Francisco Ribeiro da Costa"
+  ],
+  "resumo": "Trajetória da missionária Rebeca Spires que que se dedica há 40 anos aos povos originários da Amazônia Paulo Roberto Ferreira – Ela deixou o seu país de origem no período em que boa parte da população protestava contra a Guerra no Vietnã....",
+  "dominio": "hiroshibogea.com.br",
+  "fontes": [
+   "Blog do Hiroshi Bogéa"
+  ],
+  "verificada": true,
+  "mencoes": 0,
+  "descartada": true,
+  "motivo": "O texto da matéria não cita a Unifesspa."
+ },
+ {
+  "data": "2026-08-19",
+  "veiculo": "Zé Dudu",
+  "titulo": "CARAJÁS 2035: Vale projeta 5,3 milhões de empregos e Canaã se prepara para novo boom da mineração",
+  "link": "https://www.zedudu.com.br/carajas-2035-vale-projeta-53-milhoes-de-empregos-e-canaa-se-prepara-para-novo-boom-da-mineracao",
+  "termos": [
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "resumo": "Plano apresentado pela Vale prevê produção mineral brasileira de até R$ 535 bilhões por ano e arrecadação de R$ 1,3 trilhão até 2035. No coração da Província Mineral de Carajás, Canaã poderá ser uma das grandes beneficiadas pela nova onda...",
+  "dominio": "zedudu.com.br",
+  "fontes": [
+   "Zé Dudu"
+  ],
+  "verificada": true,
+  "mencoes": 0,
+  "descartada": true,
+  "motivo": "O texto da matéria não cita a Unifesspa."
+ },
+ {
   "data": "2026-08-19",
   "veiculo": "PEBSP - Portal de Educação",
   "titulo": "PROFNIT: últimas horas para concorrer a 570 vagas de mestrado profissional do MEC em 47 instituições públicas",
@@ -2189,6 +2599,23 @@
   "verificada": true,
   "mencoes": 1,
   "resumo": "📅 Publicado em 18/08/2026 07h56 “Vim a Comala porque me disseram que aqui vivia meu pai, um tal de Pedro Páramo.” É um dos começos mais emblemáticos da literatura. O narrador, pela biologia, se aproxima ao dizer “meu pai”; mas,..."
+ },
+ {
+  "data": "2026-08-18",
+  "veiculo": "Carajás O Jornal",
+  "titulo": "Trajetória Consolidada: Junior Vaz Celebra Formação em Artes Visuais e duas Décadas Dedicados à Cultura de Carajás",
+  "link": "https://carajasojornal.com.br/trajetoria-consolidada-junior-vaz-celebra-formacao-em-artes-visuais-e-39-anos-dedicados-a-cultura-de-carajas",
+  "termos": [
+   "Unifesspa",
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "resumo": "Em agosto de conquistas, o artista, escritor e líder cultural encerra ciclo acadêmico na UNIFESSPA e reforça seu engajamento com a memória e as políticas públicas da Amazônia. O mês de agosto de 2026 consagrou-se como um divisor de águas...",
+  "dominio": "carajasojornal.com.br",
+  "fontes": [
+   "Carajás O Jornal"
+  ],
+  "verificada": true,
+  "mencoes": 4
  },
  {
   "data": "2026-08-17",
@@ -2345,6 +2772,24 @@
  {
   "data": "2026-08-12",
   "veiculo": "Correio de Carajás",
+  "titulo": "Ondas de calor ainda são negligenciadas no Brasil, diz pesquisadora",
+  "link": "https://correiodecarajas.com.br/ondas-de-calor-ainda-sao-negligenciadas-no-brasil-diz-pesquisadora",
+  "termos": [
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "resumo": "As ondas de calor ainda são um desastre “completamente negligenciado” no Brasil e podem se tornar mais frequentes e intensas com a chegada de um novo El Niño. O alerta é da professora do Departamento de Meteorologia da Universidade Federal...",
+  "dominio": "correiodecarajas.com.br",
+  "fontes": [
+   "Correio de Carajás"
+  ],
+  "verificada": true,
+  "mencoes": 0,
+  "descartada": true,
+  "motivo": "O texto da matéria não cita a Unifesspa."
+ },
+ {
+  "data": "2026-08-12",
+  "veiculo": "Correio de Carajás",
   "titulo": "Em Marabá, gerações de mulheres ajudam a mudar o rosto da advocacia",
   "link": "https://correiodecarajas.com.br/em-maraba-geracoes-de-mulheres-ajudam-a-mudar-o-rosto-da-advocacia",
   "termos": [
@@ -2425,6 +2870,24 @@
   "resumo": "Os interessados em se candidatar às vagas precisam ter diploma de ensino superior em Licenciatura em qualquer área, reconhecido pelo Ministério da Educação (MEC), além de ser docente efetivo (do quadro permanente de servidores, inclusive..."
  },
  {
+  "data": "2026-08-10",
+  "veiculo": "Correio de Carajás",
+  "titulo": "Correio tem jornalista selecionada para congresso internacional em SP",
+  "link": "https://correiodecarajas.com.br/correio-tem-jornalista-selecionada-para-congresso-internacional-em-sp",
+  "termos": [
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "resumo": "Luciana Araújo, jornalista do Correio de Carajás, é uma das 30 bolsistas do Jeduca 2026. Ela representará Marabá no congresso em São Paulo. Orgulho para o Pará!",
+  "dominio": "correiodecarajas.com.br",
+  "fontes": [
+   "Correio de Carajás"
+  ],
+  "verificada": true,
+  "mencoes": 0,
+  "descartada": true,
+  "motivo": "O texto da matéria não cita a Unifesspa."
+ },
+ {
   "data": "2026-08-08",
   "veiculo": "horabrasil.com.br",
   "titulo": "MEC abre quase 1000 vagas em mestrado para professores de Português",
@@ -2474,6 +2937,24 @@
   "verificada": true,
   "mencoes": 2,
   "resumo": "Homero existiu? O mistério por trás do autor de 'A Odisseia' Crédito, Domínio Público Legenda da foto, Odisseu e Polifemo, de Arnold Böcklin, obra de 1896 Article Information Author, Edison Veiga Role, De Bled (Eslovênia) para a BBC News..."
+ },
+ {
+  "data": "2026-08-06",
+  "veiculo": "Portal Amazônia",
+  "titulo": "Livro de pesquisadora do Mato Grosso chega à semifinal do Jabuti Acadêmico",
+  "link": "https://portalamazonia.com/educacao/livro-ufmt-jabuti-academico",
+  "termos": [
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "resumo": "Livro aborda a vida invisível que existe na água.",
+  "dominio": "portalamazonia.com",
+  "fontes": [
+   "Portal Amazônia"
+  ],
+  "verificada": true,
+  "mencoes": 0,
+  "descartada": true,
+  "motivo": "O texto da matéria não cita a Unifesspa."
  },
  {
   "data": "2026-08-06",
@@ -2717,7 +3198,8 @@
   "link": "https://correiodecarajas.com.br/reporter-correio-696",
   "termos": [
    "Unifesspa",
-   "Universidade Federal do Sul e Sudeste do Pará"
+   "Universidade Federal do Sul e Sudeste do Pará",
+   "Francisco Ribeiro da Costa"
   ],
   "dominio": "correiodecarajas.com.br",
   "fontes": [
@@ -2841,7 +3323,8 @@
    "Zé Dudu"
   ],
   "verificada": true,
-  "mencoes": 1
+  "mencoes": 1,
+  "resumo": "Defensor de trabalhadores rurais foi assassinado em 1982. Homenagem foi determinada como parte da condenação internacional contra a União"
  },
  {
   "data": "2026-07-27",
@@ -2909,6 +3392,24 @@
  },
  {
   "data": "2026-07-23",
+  "veiculo": "Portal Pebão",
+  "titulo": "Braz apresenta balanço de mandato com ações em áreas estratégicas de Parauapebas e região",
+  "link": "https://portalpebao.com.br/braz-apresenta-balanco-de-mandato-com-acoes-em-areas-estrategicas-de-parauapebas-e-regiao",
+  "termos": [
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "resumo": "Eleito deputado estadual em 2022 com 65.495 votos, Ivanaldo Braz (PSD) chega à reta final do primeiro mandato apresentando um balanço das ações desenvolvidas em Parauapebas e em municípios do…",
+  "dominio": "portalpebao.com.br",
+  "fontes": [
+   "Portal Pebão"
+  ],
+  "verificada": true,
+  "mencoes": 0,
+  "descartada": true,
+  "motivo": "O texto da matéria não cita a Unifesspa."
+ },
+ {
+  "data": "2026-07-23",
   "veiculo": "Portal Canaã",
   "titulo": "Unifesspa anuncia resultado final do processo seletivo 2026 de Canaã",
   "link": "https://portalcanaa.com.br/canaa-dos-carajas/unifesspa-anuncia-resultado-final-do-processo-seletivo-2026/",
@@ -2921,7 +3422,43 @@
    "Portal Canaã"
   ],
   "verificada": true,
-  "mencoes": 1
+  "mencoes": 1,
+  "resumo": "Foi divulgado nesta terça-feira (21), o resultado final do Processo Seletivo 2026 destinado à seleção de candidatos para os Cursos de graduação em Direto, Engenharia Elétrica, Engenharia Mecânica e Engenharia Civil oferecidos pela..."
+ },
+ {
+  "data": "2026-07-23",
+  "veiculo": "Carajás O Jornal",
+  "titulo": "Unifesspa anuncia resultado final do processo seletivo 2026",
+  "link": "https://carajasojornal.com.br/unifesspa-anuncia-resultado-final-do-processo-seletivo-2026",
+  "termos": [
+   "Unifesspa",
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "resumo": "Foi divulgado nesta terça-feira (21), o resultado final do Processo Seletivo 2026 destinado à seleção de candidatos para os Cursos de graduação em Direto, Engenharia Elétrica, Engenharia Mecânica e Engenharia Civil oferecidos pela...",
+  "dominio": "carajasojornal.com.br",
+  "fontes": [
+   "Carajás O Jornal"
+  ],
+  "verificada": true,
+  "mencoes": 5
+ },
+ {
+  "data": "2026-07-21",
+  "veiculo": "Fato Regional",
+  "titulo": "Justiça Federal endurece combate ao ouro ilegal e determina medidas para rastrear produção e impedir fraudes na comercialização do minério no Sul e Sudeste do Pará",
+  "link": "https://fatoregional.com.br/justica-federal-endurece-combate-ao-ouro-ilegal-e-determina-medidas-para-rastrear-producao-e-impedir-fraudes-na-comercializacao-do-minerio-no-sul-do-para",
+  "termos": [
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "resumo": "Decisão atendeu ação do Ministério Público Federal e obriga União, Agência Nacional de Mineração e Banco Central a reforçarem a fiscalização, revisar permissões de lavra, implantar sistemas de rastreabilidade e ampliar o controle sobre a...",
+  "dominio": "fatoregional.com.br",
+  "fontes": [
+   "Fato Regional"
+  ],
+  "verificada": true,
+  "mencoes": 0,
+  "descartada": true,
+  "motivo": "O texto da matéria não cita a Unifesspa."
  },
  {
   "data": "2026-07-20",
@@ -2939,6 +3476,60 @@
   "mencoes": 2,
   "data_feed": "2026-07-21",
   "resumo": "Leia Também: Justiça Justiça determina manifestação de empresas e poder público sobre Vila Cajueiro Cidades Ato unificado neste domingo contra a extrema direita quer atravessar a Terceira Ponte Socioeconômicas Silêncio: a Assembleia..."
+ },
+ {
+  "data": "2026-07-18",
+  "veiculo": "Portal Amazônia",
+  "titulo": "Zoonoses no Brasil se concentram em áreas vulneráveis e atingem mais indígenas, negros e pardos, aponta estudo",
+  "link": "https://portalamazonia.com/saude/zoonoses-brasil-areas-vulneraveis",
+  "termos": [
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "resumo": "Embora a mortalidade por zoonoses tenha diminuído entre 2007 e 2023, o número de casos aumentou em diversas regiões, como no Norte, e permaneceu estável em outras.",
+  "dominio": "portalamazonia.com",
+  "fontes": [
+   "Portal Amazônia"
+  ],
+  "verificada": true,
+  "mencoes": 0,
+  "descartada": true,
+  "motivo": "O texto da matéria não cita a Unifesspa."
+ },
+ {
+  "data": "2026-07-16",
+  "veiculo": "Jornal A Notícia (AN10)",
+  "titulo": "Trajetória, articulação e força política colocam Dirceu Ten Caten entre os principais nomes para compor chapa majoritária no Pará",
+  "link": "https://www.an10.com.br/trajetoria-articulacao-e-forca-politica-colocam-dirceu-ten-caten-entre-os-principais-nomes-para-compor-chapa-majoritaria-no-para",
+  "termos": [
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "resumo": "BELÉM – A corrida eleitoral de 2026 começa a ganhar contornos mais definidos no Pará, e, nos bastidores da política estadual, um nome tem surgido com frequência nas discussões sobre a composição da chapa governista: o deputado estadual...",
+  "dominio": "an10.com.br",
+  "fontes": [
+   "Jornal A Notícia (AN10)"
+  ],
+  "verificada": true,
+  "mencoes": 0,
+  "descartada": true,
+  "motivo": "O texto da matéria não cita a Unifesspa."
+ },
+ {
+  "data": "2026-07-15",
+  "veiculo": "Carajás O Jornal",
+  "titulo": "Trajetória, articulação e força política colocam Dirceu Ten Caten entre os principais nomes para compor chapa majoritária no Pará",
+  "link": "https://carajasojornal.com.br/trajetoria-articulacao-e-forca-politica-colocam-dirceu-ten-caten-entre-os-principais-nomes-para-compor-chapa-majoritaria-no-para",
+  "termos": [
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "resumo": "Experiência legislativa, capilaridade no interior e articulação conduzida pelo senador Beto Faro fortalecem o deputado estadual no debate sobre a sucessão estadual ao lado da governadora Hana Ghassan. BELÉM – A corrida eleitoral de 2026...",
+  "dominio": "carajasojornal.com.br",
+  "fontes": [
+   "Carajás O Jornal"
+  ],
+  "verificada": true,
+  "mencoes": 0,
+  "descartada": true,
+  "motivo": "O texto da matéria não cita a Unifesspa."
  },
  {
   "data": "2026-07-14",
@@ -2991,6 +3582,41 @@
   "resumo": "📅 Publicado em 14/07/2026 08h04 Fortuitamente, semana passada, organizando minhas estantes de livros, abri o clássico A Metamorfose, de Franz Kafka, livro que li pela primeira vez em 2003 e reli quase vinte anos depois, em 2021. Uma..."
  },
  {
+  "data": "2026-07-14",
+  "veiculo": "Carajás O Jornal",
+  "titulo": "Projeto de Contenção de Encosta da Escola Elisaldo Ribeiro é apresentado no bairro Liberdade",
+  "link": "https://carajasojornal.com.br/projeto-de-contencao-de-encosta-da-escola-elisaldo-ribeiro-e-apresentado-no-bairro-liberdade",
+  "termos": [
+   "Francisco Ribeiro da Costa"
+  ],
+  "resumo": "A obra, que visa eliminar os riscos de deslizamentos, impactará diretamente 41 famílias que vivem no entorno do morro Com o objetivo de proporcionar mais segurança aos moradores do bairro Liberdade, principalmente aos que vivem nas...",
+  "dominio": "carajasojornal.com.br",
+  "fontes": [
+   "Carajás O Jornal"
+  ],
+  "verificada": true,
+  "mencoes": 0,
+  "descartada": true,
+  "motivo": "O texto da matéria não cita a Unifesspa."
+ },
+ {
+  "data": "2026-07-14",
+  "veiculo": "Carajás O Jornal",
+  "titulo": "Prefeitura divulga resultado final preliminar do Processo Seletivo 2026 para cursos da Unifesspa",
+  "link": "https://carajasojornal.com.br/prefeitura-divulga-resultado-final-preliminar-do-processo-seletivo-2026-para-cursos-da-unifesspa",
+  "termos": [
+   "Unifesspa",
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "resumo": "Candidatos já podem consultar a lista preliminar de aprovados, com notas e classificação por curso A Prefeitura de Canaã dos Carajás informa que foi divulgado o Resultado Final Preliminar do Processo Seletivo 2026 para os cursos de...",
+  "dominio": "carajasojornal.com.br",
+  "fontes": [
+   "Carajás O Jornal"
+  ],
+  "verificada": true,
+  "mencoes": 5
+ },
+ {
   "data": "2026-07-13",
   "veiculo": "horabrasil.com.br",
   "titulo": "Inscrições abertas para o mestrado profissional gratuito ProfNIT 2027",
@@ -3005,6 +3631,60 @@
   "verificada": true,
   "mencoes": 1,
   "resumo": "Sudeste Centro-Oeste Educação Inscrições abertas para o mestrado profissional gratuito ProfNIT 2027 Por Milena Em 13 de julho de 2026 Compartilhar Estão abertas as inscrições para o Programa de Pós-Graduação Profissional em Propriedade..."
+ },
+ {
+  "data": "2026-07-13",
+  "veiculo": "Zé Dudu",
+  "titulo": "Parauapebas: Projeto de Contenção de Encosta da Escola Elisaldo Ribeiro é apresentado no bairro Liberdade",
+  "link": "https://www.zedudu.com.br/projeto-de-contencao-de-encosta-da-escola-elisaldo-ribeiro-e-apresentado-no-bairro-liberdade",
+  "termos": [
+   "Francisco Ribeiro da Costa"
+  ],
+  "resumo": "A obra, que visa eliminar os riscos de deslizamentos, impactará diretamente 41 famílias que vivem no entorno do morro",
+  "dominio": "zedudu.com.br",
+  "fontes": [
+   "Zé Dudu"
+  ],
+  "verificada": true,
+  "mencoes": 0,
+  "descartada": true,
+  "motivo": "O texto da matéria não cita a Unifesspa."
+ },
+ {
+  "data": "2026-07-13",
+  "veiculo": "Portal Debate Carajás",
+  "titulo": "Nove em cada dez cidades brasileiras já enfrentaram desastres climáticos",
+  "link": "https://debatecarajas.com.br/nove-em-cada-dez-cidades-brasileiras-ja-enfrentaram-desastres-climaticos",
+  "termos": [
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "resumo": "Cada vez mais frequentes e severos, os eventos climáticos extremos, como secas e inundações, têm causado impactos ambientais, econômicos e sociais significativos no Brasil, demandando políticas públicas específicas. Com o objetivo de...",
+  "dominio": "debatecarajas.com.br",
+  "fontes": [
+   "Portal Debate Carajás"
+  ],
+  "verificada": true,
+  "mencoes": 0,
+  "descartada": true,
+  "motivo": "O texto da matéria não cita a Unifesspa."
+ },
+ {
+  "data": "2026-07-10",
+  "veiculo": "Portal Amazônia",
+  "titulo": "Professor critica PL que busca abrir mercado de voos na Amazônia para mais empresas de fora do que da região",
+  "link": "https://portalamazonia.com/politica/professor-pl-voos-na-amazonia",
+  "termos": [
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "resumo": "Professor Augusto Rocha foi um dos que contribuíram ao debate no programa ‘Entrevistas’, do Amazon Sat, sobre voos na Amazônia.",
+  "dominio": "portalamazonia.com",
+  "fontes": [
+   "Portal Amazônia"
+  ],
+  "verificada": true,
+  "mencoes": 0,
+  "descartada": true,
+  "motivo": "O texto da matéria não cita a Unifesspa."
  },
  {
   "data": "2026-07-10",
@@ -3076,6 +3756,24 @@
   "verificada": true,
   "mencoes": 2,
   "resumo": "Por: Luciana Araújo 📅 Publicado em 07/07/2026 11h00 ✏️ Atualizado em 09/07/2026 08h29 Em um mundo cada vez mais dominado pelo excesso de telas e conteúdos rápidos, práticas manuais tem sido cada vez mais requisitadas por quem quer sair do..."
+ },
+ {
+  "data": "2026-07-06",
+  "veiculo": "Portal Debate Carajás",
+  "titulo": "Ipasemar convoca aposentados e pensionistas para recadastramento anual obrigatório em Marabá",
+  "link": "https://debatecarajas.com.br/ipasemar-convoca-aposentados-e-pensionistas-para-recadastramento-anual-obrigatorio-em-maraba",
+  "termos": [
+   "Francisco Ribeiro da Costa"
+  ],
+  "resumo": "O Instituto de Previdência Social dos Servidores Públicos do Município de Marabá – IPASEMAR notifica os servidores aposentados e pensionistas, constantes na relação abaixo, que até a presente data não realizaram o Recadastramento anual...",
+  "dominio": "debatecarajas.com.br",
+  "fontes": [
+   "Portal Debate Carajás"
+  ],
+  "verificada": true,
+  "mencoes": 0,
+  "descartada": true,
+  "motivo": "O texto da matéria não cita a Unifesspa."
  },
  {
   "data": "2026-07-06",
@@ -3156,7 +3854,8 @@
    "Zé Dudu"
   ],
   "verificada": true,
-  "mencoes": 1
+  "mencoes": 1,
+  "resumo": "Com metodologia inspirada no IBGE, a inédita Pesquisa de Orçamento Familiar (POF-Marabá) alcança a marca de mil domicílios visitados e vai subsidiar a criação de políticas públicas para a região"
  },
  {
   "data": "2026-07-03",
@@ -3190,6 +3889,24 @@
   ],
   "verificada": true,
   "mencoes": 1
+ },
+ {
+  "data": "2026-07-02",
+  "veiculo": "Portal Amazônia",
+  "titulo": "Entenda a rota migratória de Roraima que cubanos usam para sair da Guiana e entrar no Brasil",
+  "link": "https://portalamazonia.com/amazonia/rota-cubanos-brasil-guiana-rr",
+  "termos": [
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "resumo": "Travessia que passa por Roraima é utilizada por cubanos numa rota marcada por fome, abandono e desinformação na tentativa de chegar ao território brasileiro.",
+  "dominio": "portalamazonia.com",
+  "fontes": [
+   "Portal Amazônia"
+  ],
+  "verificada": true,
+  "mencoes": 0,
+  "descartada": true,
+  "motivo": "O texto da matéria não cita a Unifesspa."
  },
  {
   "data": "2026-07-02",
@@ -3275,6 +3992,23 @@
   "verificada": true,
   "mencoes": 5,
   "resumo": "📅 Publicado em 01/07/2026 08h05 ✏️ Atualizado em 01/07/2026 08h14 O Laboratório de Contas Regionais da Amazônia (Lacam) da Universidade Federal do Sul e Sudeste do Pará (Unifesspa), em parceria com a Fundação Amazônia de Amparo a Estudos e..."
+ },
+ {
+  "data": "2026-06-30",
+  "veiculo": "Portal Infopebas",
+  "titulo": "Servidor da Unifesspa é preso por agressão doméstica em Rondon do Pará",
+  "link": "https://www.infopebas.com/destaque/servidor-da-unifesspa-e-preso-por-agressao-domestica-em-rondon-do-para",
+  "termos": [
+   "Unifesspa",
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "resumo": "Enquanto a nação celebrava a vitória da seleção brasileira, uma realidade sombria e alarmante se desenhava em Rondon do Pará. Na noite da última segunda-feira, um servidor público foi detido em flagrante após agredir violentamente sua...",
+  "dominio": "infopebas.com",
+  "fontes": [
+   "Portal Infopebas"
+  ],
+  "verificada": true,
+  "mencoes": 4
  },
  {
   "data": "2026-06-30",
@@ -3391,7 +4125,8 @@
    "Zé Dudu"
   ],
   "verificada": true,
-  "mencoes": 1
+  "mencoes": 1,
+  "resumo": "Medidas devem ser estabelecidas a partir de consulta prévia e democrática à comunidade acadêmica e à sociedade civil"
  },
  {
   "data": "2026-06-26",
@@ -3423,7 +4158,8 @@
    "Portal Debate Carajás"
   ],
   "verificada": true,
-  "mencoes": 1
+  "mencoes": 1,
+  "resumo": "A Universidade Federal do Sul e Sudeste do Pará (Unifesspa) identificou uma falha operacional durante a aplicação das provas de um processo seletivo regido pelo Edital nº 21/2026. Segundo a instituição, um erro humano resultou na entrega..."
  },
  {
   "data": "2026-06-26",
@@ -3440,7 +4176,8 @@
    "Pebinha de Açúcar"
   ],
   "verificada": true,
-  "mencoes": 1
+  "mencoes": 1,
+  "resumo": "Medidas devem ser estabelecidas a partir de consulta prévia e democrática à comunidade acadêmica e à sociedade civil O Ministério Público Federal (MPF) recomendou à Universidade Federal do Sul e Sudeste do Pará (Unifesspa) que elabore um..."
  },
  {
   "data": "2026-06-26",
@@ -3596,6 +4333,24 @@
   "resumo": "13 anos de Unifesspa: a história pouco conhecida que ajudou a garantir o Campus Tauarizinho Hiroshi Bogéa – Quando a Universidade Federal do Sul e Sudeste do Pará (Unifesspa) celebra seus 13 anos de existência, uma das instituições mais..."
  },
  {
+  "data": "2026-06-20",
+  "veiculo": "Portal Amazônia",
+  "titulo": "Para proteger a Amazônia, Brasil precisa fortalecer suas universidades na Região Norte, defendem pesquisadores",
+  "link": "https://portalamazonia.com/educacao/brasil-universidades-regiao-norte",
+  "termos": [
+   "Unifesspa",
+   "Universidade Federal do Sul e Sudeste do Pará",
+   "Francisco Ribeiro da Costa"
+  ],
+  "resumo": "Como o Brasil pretende liderar a agenda climática global sem fortalecer as Universidades que produzem conhecimento sobre a Amazônia? Pesquisadores refletem sobre a questão.",
+  "dominio": "portalamazonia.com",
+  "fontes": [
+   "Portal Amazônia"
+  ],
+  "verificada": true,
+  "mencoes": 9
+ },
+ {
   "data": "2026-06-19",
   "veiculo": "Sul 21",
   "titulo": "MEC credencia Campus Serra da UFRGS em Caxias do Sul",
@@ -3713,6 +4468,61 @@
   "resumo": "Galáxia mais antiga e mais distante conhecida é encontra pelo Telescópio James Webb"
  },
  {
+  "data": "2026-06-13",
+  "veiculo": "Zé Dudu",
+  "titulo": "Jornalista de Canaã inscreve reportagem na mais importante premiação de Direitos Humanos do Brasil",
+  "link": "https://www.zedudu.com.br/jornalista-de-canaa-inscreve-reportagem-na-mais-importante-premiacao-de-direitos-humanos-do-brasil",
+  "termos": [
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "resumo": "Texto conta história do agricultor e ambientalista Seu Bené, da região do Baixo Tocantins, e revela denúncias envolvendo conflitos fundiários, suposta exploração ilegal de madeira e disputas judiciais relacionadas à área preservada",
+  "dominio": "zedudu.com.br",
+  "fontes": [
+   "Zé Dudu"
+  ],
+  "verificada": true,
+  "mencoes": 0,
+  "descartada": true,
+  "motivo": "O texto da matéria não cita a Unifesspa."
+ },
+ {
+  "data": "2026-06-13",
+  "veiculo": "Portal Debate Carajás",
+  "titulo": "Terra treme novamente em Tucuruí e cidade registra terceiro abalo consecutivo",
+  "link": "https://debatecarajas.com.br/terra-treme-novamente-em-tucurui-e-cidade-registra-terceiro-abalo-consecutivo",
+  "termos": [
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "resumo": "A sequência de tremores de terra que vem sendo registrada em Tucuruí, no sudeste do Pará, ganhou um novo capítulo na madrugada deste sábado (13). Por volta de 1h23 (horário de Brasília), um novo abalo sísmico foi sentido por moradores da...",
+  "dominio": "debatecarajas.com.br",
+  "fontes": [
+   "Portal Debate Carajás"
+  ],
+  "verificada": true,
+  "mencoes": 0,
+  "descartada": true,
+  "motivo": "O texto da matéria não cita a Unifesspa."
+ },
+ {
+  "data": "2026-06-12",
+  "veiculo": "Zé Dudu",
+  "titulo": "Justiça do Trabalho condena Volkswagen a pagar R$ 2 milhões por trabalho escravo em fazenda no Pará",
+  "link": "https://www.zedudu.com.br/justica-do-trabalho-condena-volkswagen-a-pagar-r-2-milhoes-por-trabalho-escravo-em-fazenda-no-para",
+  "termos": [
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "resumo": "Sentença da Vara do Trabalho de Redenção reconhece violação de direitos humanos na Fazenda Vale do Rio Cristalino e afasta a prescrição de fatos ocorridos nos anos 1980",
+  "dominio": "zedudu.com.br",
+  "fontes": [
+   "Zé Dudu"
+  ],
+  "verificada": true,
+  "mencoes": 0,
+  "data_feed": "2026-06-11",
+  "descartada": true,
+  "motivo": "O texto da matéria não cita a Unifesspa."
+ },
+ {
   "data": "2026-06-12",
   "veiculo": "Portal Debate Carajás",
   "titulo": "Unifesspa concede título de Doutora Honoris Causa à liderança indígena Mamãe Grande",
@@ -3726,7 +4536,8 @@
    "Portal Debate Carajás"
   ],
   "verificada": true,
-  "mencoes": 1
+  "mencoes": 1,
+  "resumo": "Em uma solenidade realizada na Terra Indígena Mãe Maria, a Universidade Federal do Sul e Sudeste do Pará (Unifesspa) concedeu o título de Doutora Honoris Causa à liderança indígena Ronore Ronjokraktare Kanprere Pahinti. A homenagem..."
  },
  {
   "data": "2026-06-11",
@@ -3761,7 +4572,8 @@
    "Portal Debate Carajás"
   ],
   "verificada": true,
-  "mencoes": 1
+  "mencoes": 1,
+  "resumo": "MARABÁ, SUDESTE DO PARÁ – Na noite desta quarta-feira (10), o cansaço típico de quem estuda no período noturno deu lugar à poesia, ao pertencimento e à ancestralidade na Escola Gaspar Vianna Anexo I, que fica na Folha 33, em Marabá,..."
  },
  {
   "data": "2026-06-11",
@@ -3813,6 +4625,24 @@
   "resumo": "Apresentação Rede Ciência Rede Clima Rede Sinapse O Programa Redes para Internacionalização Institucional – CAPES-Global.Edu com a finalidade de fomentar a criação de redes de cooperação entre instituições nacionais com estágios de..."
  },
  {
+  "data": "2026-06-09",
+  "veiculo": "Portal Amazônia",
+  "titulo": "Sociedade lusa em Manaus: lazer e laços comunitários",
+  "link": "https://portalamazonia.com/historias-da-amazonia/sociedade-lusa-em-manaus-lazer-e-lacos-comunitarios",
+  "termos": [
+   "Francisco Ribeiro da Costa"
+  ],
+  "resumo": "O principal fator que levou à construção do Luso Sporting Club foi a vontade de onze jovens portugueses em jogar futebol em Manaus.",
+  "dominio": "portalamazonia.com",
+  "fontes": [
+   "Portal Amazônia"
+  ],
+  "verificada": true,
+  "mencoes": 0,
+  "descartada": true,
+  "motivo": "O texto da matéria não cita a Unifesspa."
+ },
+ {
   "data": "2026-06-08",
   "veiculo": "ZÉ DUDU",
   "titulo": "Obra inédita registra as últimas castanheiras da área urbana de Marabá",
@@ -3861,6 +4691,24 @@
   "verificada": true,
   "mencoes": 1,
   "resumo": "Por: Luciana Araújo 📅 Publicado em 05/06/2026 12h45 ✏️ Atualizado em 06/06/2026 10h15 As castanheiras que resistem em meio ao concreto, aos loteamentos, condomínios e ao crescimento urbano de Marabá ganharam um registro inédito. O livro..."
+ },
+ {
+  "data": "2026-06-04",
+  "veiculo": "Portal Amazônia",
+  "titulo": "‘Entrevistas’ debate custos do transporte aéreo na Amazônia; assista",
+  "link": "https://portalamazonia.com/politica/entrevistas-transporte-aereo-amazonia",
+  "termos": [
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "resumo": "Comandado pelo jornalista Welliton Lopes, o programa Entrevistas recebeu convidados para debater projetos e perspectivas do setor aéreo na região.",
+  "dominio": "portalamazonia.com",
+  "fontes": [
+   "Portal Amazônia"
+  ],
+  "verificada": true,
+  "mencoes": 0,
+  "descartada": true,
+  "motivo": "O texto da matéria não cita a Unifesspa."
  },
  {
   "data": "2026-06-03",
@@ -3940,11 +4788,29 @@
   ],
   "dominio": "portalamazonia.com",
   "fontes": [
-   "Google"
+   "Google",
+   "Portal Amazônia"
   ],
   "verificada": true,
   "mencoes": 13,
   "resumo": "Cultura Pará Casa Azul: antigo centro de repressão no Pará ganha projeto de espaço de memória No marco dos 62 anos do golpe de 1964, seminário em Marabá reafirma a memória como direito, denuncia o apagamento histórico e projeta a..."
+ },
+ {
+  "data": "2026-05-30",
+  "veiculo": "Portal Amazônia",
+  "titulo": "Equipamento inédito de monitoramento climático na Amazônia fortalece pesquisa ambiental",
+  "link": "https://portalamazonia.com/amazonia/equipamento-ambiental-amazonia",
+  "termos": [
+   "Unifesspa",
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "resumo": "Nova tecnologia instalada no IGE da Unifesspa amplia a produção de dados ambientais na região e reforça o compromisso institucional com a pesquisa, a inovação e o desenvolvimento sustentável.",
+  "dominio": "portalamazonia.com",
+  "fontes": [
+   "Portal Amazônia"
+  ],
+  "verificada": true,
+  "mencoes": 15
  },
  {
   "data": "2026-05-29",
@@ -3964,6 +4830,25 @@
  },
  {
   "data": "2026-05-28",
+  "veiculo": "Pebinha de Açúcar",
+  "titulo": "Keniston Braga consolida força política no sul e sudeste do Pará com até R$ 80 milhões em investimentos",
+  "link": "https://pebinhadeacucar.com.br/keniston-braga-consolida-forca-politica-no-sul-e-sudeste-do-para-com-ate-r-80-milhoes-em-investimentos",
+  "termos": [
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "resumo": "Levantamento aponta que recursos ligados à atuação do deputado federal Keniston Braga já podem alcançar até R$ 80 milhões em obras, saúde, infraestrutura e projetos estruturantes na região A atuação do deputado federal Keniston Braga...",
+  "dominio": "pebinhadeacucar.com.br",
+  "fontes": [
+   "Pebinha de Açúcar"
+  ],
+  "verificada": true,
+  "mencoes": 0,
+  "data_feed": "2026-05-27",
+  "descartada": true,
+  "motivo": "O texto da matéria não cita a Unifesspa."
+ },
+ {
+  "data": "2026-05-28",
   "veiculo": "Correio de Carajás",
   "titulo": "Cerca de 70 pesquisas serão apresentadas em Mostra Científica da Unifesspa",
   "link": "https://correiodecarajas.com.br/cerca-de-70-pesquisas-serao-apresentadas-em-mostra-cientifica-da-unifesspa",
@@ -3979,6 +4864,24 @@
   "verificada": true,
   "mencoes": 4,
   "resumo": "Por: Kauã Fhillipe 📅 Publicado em 28/05/2026 12h50 ✏️ Atualizado em 29/05/2026 17h40 Marabá recebe nesta sexta-feira (29) a III Mostra Científica do Sul e Sudeste do Pará (Mocisspa), evento que reúne estudantes, professores e pesquisadores..."
+ },
+ {
+  "data": "2026-05-27",
+  "veiculo": "Pebinha de Açúcar",
+  "titulo": "Após anos de medo, moradores do Bairro Liberdade recebem esperança com obra de contenção",
+  "link": "https://pebinhadeacucar.com.br/apos-anos-de-medo-moradores-do-bairro-liberdade-recebem-esperanca-com-obra-de-contencao",
+  "termos": [
+   "Francisco Ribeiro da Costa"
+  ],
+  "resumo": "Obra será executada pelo Novo PAC, em parceria com a Prefeitura de Parauapebas, para reduzir riscos de deslizamentos e garantir mais segurança às famílias da área A Prefeitura de Parauapebas deu mais um importante passo para o início das...",
+  "dominio": "pebinhadeacucar.com.br",
+  "fontes": [
+   "Pebinha de Açúcar"
+  ],
+  "verificada": true,
+  "mencoes": 0,
+  "descartada": true,
+  "motivo": "O texto da matéria não cita a Unifesspa."
  },
  {
   "data": "2026-05-27",
@@ -4029,6 +4932,24 @@
   "verificada": true,
   "mencoes": 2,
   "resumo": "Projeto inédito da Prefeitura de Parauapebas oferecerá serviços gratuitos, ações educativas e atendimento voltado ao bem-estar animal, fortalecendo a saúde pública e a guarda responsável no município. A Prefeitura de Parauapebas, por meio..."
+ },
+ {
+  "data": "2026-05-26",
+  "veiculo": "Portal Infopebas",
+  "titulo": "Prefeitura realiza mobilização social para início de obra de contenção de encosta no Liberdade",
+  "link": "https://www.infopebas.com/destaque/prefeitura-realiza-mobilizacao-social-para-inicio-de-obra-de-contencao-de-encosta-no-liberdade",
+  "termos": [
+   "Francisco Ribeiro da Costa"
+  ],
+  "resumo": "A Prefeitura de Parauapebas deu mais um passo importante para o início das obras de contenção de encosta na área da Escola Municipal de Ensino Fundamental Elisaldo Ribeiro de Farias, no bairro Liberdade. As intervenções serão executadas...",
+  "dominio": "infopebas.com",
+  "fontes": [
+   "Portal Infopebas"
+  ],
+  "verificada": true,
+  "mencoes": 0,
+  "descartada": true,
+  "motivo": "O texto da matéria não cita a Unifesspa."
  },
  {
   "data": "2026-05-26",
@@ -4095,6 +5016,24 @@
   "resumo": "📅 Publicado em 26/05/2026 08h14 Quando o assunto é censura, consta na história da literatura mundial um caso reconhecidíssimo: MADAME BOVARY, de Gustave Flaubert, romance que abordou o adultério feminino e escandalizou a sociedade francesa..."
  },
  {
+  "data": "2026-05-24",
+  "veiculo": "Portal Amazônia",
+  "titulo": "Mais de 1,8 mil km² de áreas para refúgio de aves ameaçadas foram desmatadas na Amazônia brasileira",
+  "link": "https://portalamazonia.com/meio-ambiente/desmatamento-areas-aves-amazonia",
+  "termos": [
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "resumo": "Sem proteção legal, as Áreas Importantes para a Conservação das Aves perderam quase 2 mil quilômetros quadrados de florestas na região amazônica em dois anos.",
+  "dominio": "portalamazonia.com",
+  "fontes": [
+   "Portal Amazônia"
+  ],
+  "verificada": true,
+  "mencoes": 0,
+  "descartada": true,
+  "motivo": "O texto da matéria não cita a Unifesspa."
+ },
+ {
   "data": "2026-05-22",
   "veiculo": "DOL",
   "titulo": "Bioeconomia movimenta R$ 13,5 bilhões por ano no Pará",
@@ -4111,6 +5050,23 @@
   "resumo": "Cacau movimenta quase R$ 2 bilhões por ano no Pará | Pedro Guerreiro/Ag.Pará A floresta, os rios e os saberes tradicionais já movimentam bilhões de reais por ano no Pará e colocam a bioeconomia amazônica no centro das discussões sobre..."
  },
  {
+  "data": "2026-05-22",
+  "veiculo": "Carajás O Jornal",
+  "titulo": "Bioeconomia da sociobiodiversidade movimenta mais de R$ 13 bilhões por ano no Pará, aponta estudo inédito",
+  "link": "https://carajasojornal.com.br/bioeconomia-da-sociobiodiversidade-movimenta-mais-de-r-13-bilhoes-por-ano-no-para-aponta-estudo-inedito",
+  "termos": [
+   "Unifesspa",
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "resumo": "Relatório preliminar coordenado pela Fapespa revela o peso de cadeias como açaí, mandioca e cacau, e indica que um aumento do retorno financeiro para o Estado pode ser destravado com avanços contra a informalidade e gargalos na...",
+  "dominio": "carajasojornal.com.br",
+  "fontes": [
+   "Carajás O Jornal"
+  ],
+  "verificada": true,
+  "mencoes": 2
+ },
+ {
   "data": "2026-05-19",
   "veiculo": "Correio de Carajás",
   "titulo": "A adultização em Lolita, de Vladimir Nabokov",
@@ -4125,6 +5081,22 @@
   "verificada": true,
   "mencoes": 1,
   "resumo": "📅 Publicado em 19/05/2026 07h59 “Lolita, luz da minha vida, fogo da minha carne. Minha alma, meu pecado. Lo.li.ta: a ponta da língua toca em três pontos consecutivos do palato para encostar, aos três, nos dentes. Lo.Li.Ta.” Este trecho..."
+ },
+ {
+  "data": "2026-05-18",
+  "veiculo": "Carajás O Jornal",
+  "titulo": "Aulões investem na preparação de candidatos para ingresso no ensino superior",
+  "link": "https://carajasojornal.com.br/auloes-investem-na-preparacao-de-candidatos-para-ingresso-no-ensino-superior",
+  "termos": [
+   "Unifesspa"
+  ],
+  "resumo": "Projeto reúne mais de 260 inscritos em Canaã dos Carajás e fortalece o acesso gratuito à preparação para o vestibular da Unifesspa Em meio aos desafios da preparação para o vestibular, o projeto Aulões Preparatórios amplia oportunidades...",
+  "dominio": "carajasojornal.com.br",
+  "fontes": [
+   "Carajás O Jornal"
+  ],
+  "verificada": true,
+  "mencoes": 5
  },
  {
   "data": "2026-05-17",
@@ -4315,6 +5287,24 @@
  },
  {
   "data": "2026-05-09",
+  "veiculo": "Portal Debate Carajás",
+  "titulo": "Mulheres negras do Norte e Nordeste são as mais afetadas pela fome",
+  "link": "https://debatecarajas.com.br/mulheres-negras-do-norte-e-nordeste-sao-as-mais-afetadas-pela-fome",
+  "termos": [
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "resumo": "Lares chefiados por mulheres negras das regiões Norte e Nordeste são os mais afetados pela insegurança alimentar grave. Os dados constam do estudo As faces da desigualdade: raça, sexo e alimentação no Brasil (2017-2023), autoria de Veruska...",
+  "dominio": "debatecarajas.com.br",
+  "fontes": [
+   "Portal Debate Carajás"
+  ],
+  "verificada": true,
+  "mencoes": 0,
+  "descartada": true,
+  "motivo": "O texto da matéria não cita a Unifesspa."
+ },
+ {
+  "data": "2026-05-09",
   "veiculo": "Gazeta Carajás",
   "titulo": "Prefeitura de Canaã realiza aulões preparatórios para o Processo Seletivo 2026 da Unifesspa",
   "link": "https://www.gazetacarajas.com/noticia/prefeitura-de-canaa-realiza-auloes-preparatorios-para-o-processo-seletivo-2026-da-unifesspa",
@@ -4377,7 +5367,8 @@
    "Portal Canaã"
   ],
   "verificada": true,
-  "mencoes": 1
+  "mencoes": 1,
+  "resumo": "A Prefeitura de Canaã dos Carajás vai oferecer aulões preparatórios gratuitos para os candidatos inscritos no vestibular 2026 da Universidade Federal do Sul e Sudeste do Pará (Unifesspa). A iniciativa é voltada para quem vai disputar vagas..."
  },
  {
   "data": "2026-05-07",
@@ -4473,7 +5464,44 @@
    "Zé Dudu"
   ],
   "verificada": true,
-  "mencoes": 1
+  "mencoes": 1,
+  "resumo": "A Ação “Cidadania Trans em Movimento” será realizada no dia 16 de maio, em alusão ao Dia Internacional de Combate à LGBTIfobia"
+ },
+ {
+  "data": "2026-04-28",
+  "veiculo": "Portal Amazônia",
+  "titulo": "Portal Amazônia responde: qual o correto, Ilha de Marajó ou Ilha do Marajó?",
+  "link": "https://portalamazonia.com/cultura/ilha-de-marajo-ou-ilha-do-marajo",
+  "termos": [
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "resumo": "Especialista em língua portuguesa explica qual a forma gramaticalmente correta para denominar a ilha paraense.",
+  "dominio": "portalamazonia.com",
+  "fontes": [
+   "Portal Amazônia"
+  ],
+  "verificada": true,
+  "mencoes": 0,
+  "descartada": true,
+  "motivo": "O texto da matéria não cita a Unifesspa."
+ },
+ {
+  "data": "2026-04-28",
+  "veiculo": "Portal Amazônia",
+  "titulo": "Com carreira dedicada à Amazônia, pesquisadora do Inpa vence Prêmio Almirante Álvaro Alberto 2026",
+  "link": "https://portalamazonia.com/educacao/pesquisadora-inpa-vence-premio",
+  "termos": [
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "resumo": "A bióloga Maria Teresa Fernandez Piedade trabalha há quase 50 anos na Amazônia, desenvolvendo pesquisas com foco na influência do pulso de inundação na biota e interações.",
+  "dominio": "portalamazonia.com",
+  "fontes": [
+   "Portal Amazônia"
+  ],
+  "verificada": true,
+  "mencoes": 0,
+  "descartada": true,
+  "motivo": "O texto da matéria não cita a Unifesspa."
  },
  {
   "data": "2026-04-28",
@@ -4624,7 +5652,8 @@
    "Portal Canaã"
   ],
   "verificada": true,
-  "mencoes": 1
+  "mencoes": 1,
+  "resumo": "Começou nesta quarta-feira (23) o período de inscrições para o Processo Seletivo 2026 da Universidade Federal do Sul e Sudeste do Pará (Unifesspa), destinado exclusivamente ao polo de Canaã dos Carajás. A iniciativa, fruto de uma parceria..."
  },
  {
   "data": "2026-04-23",
@@ -4673,6 +5702,24 @@
   "verificada": true,
   "mencoes": 1,
   "resumo": "Por: Luciana Araújo 📅 Publicado em 23/04/2026 16h36 ✏️ Atualizado em 24/04/2026 13h39 Na noite desta sexta-feira (24), às 19h, a Galeria de Arte Vitória Barros abre as portas para mais uma edição da mostra fotográfica ‘Ver-a-Cidade’,..."
+ },
+ {
+  "data": "2026-04-23",
+  "veiculo": "Carajás O Jornal",
+  "titulo": "Encontro regional de astronomia será realizado em Canaã dos Carajás",
+  "link": "https://carajasojornal.com.br/encontro-regional-de-astronomia-sera-realizado-em-canaa-dos-carajas",
+  "termos": [
+   "Unifesspa",
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "resumo": "Entre os dias 23 e 25 de abril, o município de Canaã dos Carajás receberá o Encontro Regional de Ensino de Astronomia (EREA), que será realizado no campus da Universidade Federal do Sul e Sudeste do Pará (Unifesspa). O evento tem como...",
+  "dominio": "carajasojornal.com.br",
+  "fontes": [
+   "Carajás O Jornal"
+  ],
+  "verificada": true,
+  "mencoes": 2,
+  "data_feed": "2026-04-22"
  },
  {
   "data": "2026-04-22",
@@ -4744,6 +5791,42 @@
   "resumo": "Mulheres defensoras dos Direitos Humanos são homenageadas no VI Prêmio Frei Henri des Roziers; Agente histórica da CPT recebe título de Doutora Honoris Causa - Comissão Pastoral da Terra - CPT Pular para o conteúdo Siga também: Pesquisar..."
  },
  {
+  "data": "2026-04-20",
+  "veiculo": "Zé Dudu",
+  "titulo": "Mulheres empreendem em bioeconomia e mudam de vida no Sudeste do Pará",
+  "link": "https://www.zedudu.com.br/mulheres-empreendem-em-bioeconomia-e-mudam-de-vida-no-sudeste-do-para",
+  "termos": [
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "resumo": "Produção de mel, de cerâmica e de biojoia garantem autonomia",
+  "dominio": "zedudu.com.br",
+  "fontes": [
+   "Zé Dudu"
+  ],
+  "verificada": true,
+  "mencoes": 0,
+  "descartada": true,
+  "motivo": "O texto da matéria não cita a Unifesspa."
+ },
+ {
+  "data": "2026-04-20",
+  "veiculo": "Portal Debate Carajás",
+  "titulo": "Mulheres empreendem em bioeconomia e mudam de vida em Parauapebas",
+  "link": "https://debatecarajas.com.br/mulheres-empreendem-em-bioeconomia-e-mudam-de-vida-em-parauapebas",
+  "termos": [
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "resumo": "Em Paraupebas, no sudeste do Pará, a força criativa de mulheres tem transformado vidas. Seja com a produção de mel, cerâmica ou de biojoias feitas com sementes, essas mulheres mostram que é possível liderar negócios aliando a realização...",
+  "dominio": "debatecarajas.com.br",
+  "fontes": [
+   "Portal Debate Carajás"
+  ],
+  "verificada": true,
+  "mencoes": 0,
+  "descartada": true,
+  "motivo": "O texto da matéria não cita a Unifesspa."
+ },
+ {
   "data": "2026-04-19",
   "veiculo": "Portal Debate",
   "titulo": "Ex-aluno da Unifesspa retorna como professor e assume no curso de Economia em Marabá",
@@ -4758,7 +5841,26 @@
    "Portal Debate Carajás"
   ],
   "verificada": true,
-  "mencoes": 1
+  "mencoes": 1,
+  "resumo": "O professor doutor Vitor Marinho, egresso da Universidade Federal do Sul e Sudeste do Pará (Unifesspa), assume como docente da Faculdade de Ciências Econômicas (FACE) e retorna ao curso de Economia e ao nosso Laboratório de Contas..."
+ },
+ {
+  "data": "2026-04-18",
+  "veiculo": "Portal Amazônia",
+  "titulo": "“Comer peixe significa ter uma vida melhor”, afirma o ministro da Pesca e Aquicultura",
+  "link": "https://portalamazonia.com/saude/consumo-de-mais-pescado",
+  "termos": [
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "resumo": "Titular da Pesca e Aquicultura, Edipo Araujo ressaltou em programa de rádio que o Brasil está muito abaixo da média mundial de consumo de pescado.",
+  "dominio": "portalamazonia.com",
+  "fontes": [
+   "Portal Amazônia"
+  ],
+  "verificada": true,
+  "mencoes": 0,
+  "descartada": true,
+  "motivo": "O texto da matéria não cita a Unifesspa."
  },
  {
   "data": "2026-04-18",
@@ -4776,6 +5878,24 @@
   "verificada": true,
   "mencoes": 2,
   "resumo": "📅 Publicado em 18/04/2026 08h28 ✏️ Atualizado em 18/04/2026 10h02 O professor doutor Vitor Marinho, egresso da Universidade Federal do Sul e Sudeste do Pará (Unifesspa), assume como docente da Faculdade de Ciências Econômicas (FACE) e..."
+ },
+ {
+  "data": "2026-04-18",
+  "veiculo": "Correio de Carajás",
+  "titulo": "Conferência destaca potencial do turismo em São Geraldo",
+  "link": "https://correiodecarajas.com.br/conferencia-destaca-potencial-do-turismo-em-sao-geraldo",
+  "termos": [
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "resumo": "São Geraldo do Araguaia realizou sua 1ª Conferência de Turismo, com apoio da Setur. O foco foi em estratégias sustentáveis para o Plano Municipal de Turismo e o desenvolvimento local.",
+  "dominio": "correiodecarajas.com.br",
+  "fontes": [
+   "Correio de Carajás"
+  ],
+  "verificada": true,
+  "mencoes": 0,
+  "descartada": true,
+  "motivo": "O texto da matéria não cita a Unifesspa."
  },
  {
   "data": "2026-04-17",
@@ -4799,11 +5919,13 @@
   "titulo": "Preço da castanha-da-Amazônia cai na região do Baixo Amazonas, no Pará, em abril",
   "link": "https://portalamazonia.com/economia/preco-castanha-cai-abril-pa",
   "termos": [
-   "Universidade Federal do Sul e Sudeste do Pará"
+   "Universidade Federal do Sul e Sudeste do Pará",
+   "Unifesspa"
   ],
   "dominio": "portalamazonia.com",
   "fontes": [
-   "Google"
+   "Google",
+   "Portal Amazônia"
   ],
   "verificada": true,
   "mencoes": 2,
@@ -4859,7 +5981,8 @@
    "Portal Canaã"
   ],
   "verificada": true,
-  "mencoes": 1
+  "mencoes": 1,
+  "resumo": "A Universidade Federal do Sul e Sudeste do Pará (Unifesspa) abriu processo seletivo para oferta de cursos de graduação em Canaã dos Carajás, em parceria com a administração municipal, ampliando a presença do ensino superior público na..."
  },
  {
   "data": "2026-04-16",
@@ -4913,6 +6036,41 @@
   "resumo": "📅 Publicado em 16/04/2026 16h00 O professor doutor Vitor Marinho, egresso da Universidade Federal do Sul e Sudeste do Pará (Unifesspa), assume como docente da Faculdade de Ciências Econômicas (FACE) e retorna ao curso de Economia e ao..."
  },
  {
+  "data": "2026-04-16",
+  "veiculo": "Carajás O Jornal",
+  "titulo": "Prefeitura de Canaã e Unifesspa abrem inscrições para novos cursos de graduação",
+  "link": "https://carajasojornal.com.br/prefeitura-de-canaa-e-unifesspa-abrem-inscricoes-para-novos-cursos-de-graduacao",
+  "termos": [
+   "Unifesspa",
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "resumo": "A Prefeitura de Canaã dos Carajás, em parceria com a Universidade Federal do Sul e Sudeste do Pará (Unifesspa), anunciou a abertura das inscrições para o Processo Seletivo 2026 (PS 2026). A seleção oferece vagas para os cursos de graduação...",
+  "dominio": "carajasojornal.com.br",
+  "fontes": [
+   "Carajás O Jornal"
+  ],
+  "verificada": true,
+  "mencoes": 7
+ },
+ {
+  "data": "2026-04-15",
+  "veiculo": "Portal Infopebas",
+  "titulo": "Parauapebas consolida liderança regional em turismo sustentável no sudeste do Pará",
+  "link": "https://www.infopebas.com/cidade/parauapebas-consolida-lideranca-regional-em-turismo-sustentavel-no-sudeste-do-para",
+  "termos": [
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "resumo": "Parauapebas reafirmou sua posição de destaque no cenário turístico paraense ao participar ativamente da 1ª Conferência Municipal de Turismo de São Geraldo do Araguaia. O encontro, realizado entre os dias 13 e 15 de abril, no sudeste do...",
+  "dominio": "infopebas.com",
+  "fontes": [
+   "Portal Infopebas"
+  ],
+  "verificada": true,
+  "mencoes": 0,
+  "descartada": true,
+  "motivo": "O texto da matéria não cita a Unifesspa."
+ },
+ {
   "data": "2026-04-15",
   "veiculo": "Correio de Carajás",
   "titulo": "Jovem marabaense transforma a vivência trans em manifesto visual",
@@ -4947,6 +6105,24 @@
   "verificada": true,
   "mencoes": 3,
   "resumo": "Por: Ana Mangas 📅 Publicado em 15/04/2026 14h31 ✏️ Atualizado em 16/04/2026 15h10 Pela primeira vez fora da região metropolitana de Belém, o IBGE (Instituto Brasileiro de Geografia e Estatística) reuniu pesquisadores, estudantes e..."
+ },
+ {
+  "data": "2026-04-15",
+  "veiculo": "Carajás O Jornal",
+  "titulo": "Parauapebas reforça protagonismo regional durante Conferência de Turismo em São Geraldo do Araguaia",
+  "link": "https://carajasojornal.com.br/parauapebas-reforca-protagonismo-regional-durante-conferencia-de-turismo-em-sao-geraldo-do-araguaia",
+  "termos": [
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "resumo": "A Prefeitura de Parauapebas, por meio da Secretaria Municipal de Turismo (Semtur), participou da 1ª Conferência Municipal de Turismo de São Geraldo do Araguaia, realizada entre os dias 13 e 15 de abril, no sudeste do Pará. O evento reuniu...",
+  "dominio": "carajasojornal.com.br",
+  "fontes": [
+   "Carajás O Jornal"
+  ],
+  "verificada": true,
+  "mencoes": 0,
+  "descartada": true,
+  "motivo": "O texto da matéria não cita a Unifesspa."
  },
  {
   "data": "2026-04-14",
@@ -5019,6 +6195,24 @@
  {
   "data": "2026-04-14",
   "veiculo": "Correio de Carajás",
+  "titulo": "Pré-natal integral é menor entre indígenas e mulheres com pouco estudo",
+  "link": "https://correiodecarajas.com.br/pre-natal-integral-e-menor-entre-indigenas-e-mulheres-com-pouco-estudo",
+  "termos": [
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "resumo": "Nova pesquisa do ICEH/UFPel e Umane detalha como gestantes indígenas, com baixa escolaridade e da Região Norte enfrentam barreiras no acesso ao pré-natal no Brasil.",
+  "dominio": "correiodecarajas.com.br",
+  "fontes": [
+   "Correio de Carajás"
+  ],
+  "verificada": true,
+  "mencoes": 0,
+  "descartada": true,
+  "motivo": "O texto da matéria não cita a Unifesspa."
+ },
+ {
+  "data": "2026-04-14",
+  "veiculo": "Correio de Carajás",
   "titulo": "A famigerada ressaca literária",
   "link": "https://correiodecarajas.com.br/a-famigerada-ressaca-literaria",
   "termos": [
@@ -5081,6 +6275,24 @@
   "resumo": "1 de 1 A castanha-do-pará é uma das principais atividades para o sustento de centenas de famílias da região do Baixo Amazonas — Foto: Divulgação A castanha-do-pará é uma das principais atividades para o sustento de centenas de famílias da..."
  },
  {
+  "data": "2026-04-12",
+  "veiculo": "Portal Amazônia",
+  "titulo": "Ministério dos Povos Indígenas promove agenda interministerial de escuta para indígenas LGBTQIA+",
+  "link": "https://portalamazonia.com/cidadania/ministerio-interministerial-lgbt",
+  "termos": [
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "resumo": "Encontro, promovido peloi ministério dos Povos Indígenas, na CGU com lideranças e órgãos federais é uma das últimas etapas antes do lançamento da Estratégia Nacional, prevista para maio de 2026.",
+  "dominio": "portalamazonia.com",
+  "fontes": [
+   "Portal Amazônia"
+  ],
+  "verificada": true,
+  "mencoes": 0,
+  "descartada": true,
+  "motivo": "O texto da matéria não cita a Unifesspa."
+ },
+ {
   "data": "2026-04-09",
   "veiculo": "Ufopa",
   "titulo": "Preço da castanha-do-pará cai na região do Baixo Amazonas em abril",
@@ -5116,6 +6328,24 @@
  },
  {
   "data": "2026-04-07",
+  "veiculo": "Portal Amazônia",
+  "titulo": "Estudo do Mato Grosso aponta melhorias na produção de carne bovina",
+  "link": "https://portalamazonia.com/mato-grosso/estudo-ufmt-carne-bovina",
+  "termos": [
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "resumo": "Estudo destaca riscos microbiológicos e reforça cadeia de frio.",
+  "dominio": "portalamazonia.com",
+  "fontes": [
+   "Portal Amazônia"
+  ],
+  "verificada": true,
+  "mencoes": 0,
+  "descartada": true,
+  "motivo": "O texto da matéria não cita a Unifesspa."
+ },
+ {
+  "data": "2026-04-07",
   "veiculo": "DOL",
   "titulo": "Unifesspa abre processo seletivo para professores substitutos",
   "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPSUxfTWt6WC1vNHBCcVZuaXRxeTFHMjJpOHF5U0U0YUpfYlhxVEUyT3g0WXhHdFlkUWtick5RU1lhSnl2SVQwcFNsOVNuVzRvWjlKVVZJQ0cxc2dfb0JJcmxzMkg1b2N3ODVNLUd6cTlmTUNDVlJDcHZMQ3ZyMENzS0VYaUJ6LU9xdG1wUjhzLWRMdW1aeFNQWHJhZ0pSbTR4NnExUmQ3SXg0NEo4dWY00gG3AUFVX3lxTE9fUDZKUm0yYWxoWGo3alplcEpWSlZKOUZFVUZ2VE55M2MtckMzeVFhdGx0OHVhcmtvTUZPU3J6M1lrVjhPMzZMSDdiZTE3TXBRMWhpT1V6R1VOTEpqVDFPaG5XOU9nY2s4M1hNenNSZUxJaHdLWFBDMDV2djdlNXNQMnh0ZUVYYjRmUmJ4WUZmbDduV0xNakkwV0ZoMVVSSE1Cc090aUdpLWVxUl9KWHNKdl9GaHFJQQ?oc=5",
@@ -5125,6 +6355,24 @@
   ],
   "verificada": true,
   "mencoes": 1
+ },
+ {
+  "data": "2026-04-07",
+  "veiculo": "Correio de Carajás",
+  "titulo": "Seminário em Marabá mobiliza 21 municípios no combate à tuberculose",
+  "link": "https://correiodecarajas.com.br/seminario-em-maraba-mobiliza-21-municipios-no-combate-a-tuberculose",
+  "termos": [
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "resumo": "Marabá sedia o 1º Seminário Alusivo ao Dia Mundial da Luta Contra a Tuberculose, reunindo 21 municípios do Pará para debater prevenção e tratamento.",
+  "dominio": "correiodecarajas.com.br",
+  "fontes": [
+   "Correio de Carajás"
+  ],
+  "verificada": true,
+  "mencoes": 0,
+  "descartada": true,
+  "motivo": "O texto da matéria não cita a Unifesspa."
  },
  {
   "data": "2026-04-06",
@@ -5161,15 +6409,35 @@
  },
  {
   "data": "2026-04-05",
+  "veiculo": "Portal Debate Carajás",
+  "titulo": "Pará tem 30% dos municípios em risco fiscal e ambiental",
+  "link": "https://debatecarajas.com.br/para-tem-30-dos-municipios-em-risco-fiscal-e-ambiental",
+  "termos": [
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "resumo": "Um levantamento inédito do Observatório do Clima revelou que 30% dos municípios do Pará estão em situação de risco fiscal e ambiental, o que coloca essas regiões em uma posição crítica frente aos desafios de adaptação às mudanças...",
+  "dominio": "debatecarajas.com.br",
+  "fontes": [
+   "Portal Debate Carajás"
+  ],
+  "verificada": true,
+  "mencoes": 0,
+  "descartada": true,
+  "motivo": "O texto da matéria não cita a Unifesspa."
+ },
+ {
+  "data": "2026-04-05",
   "veiculo": "Portal Amazônia",
   "titulo": "Bactérias beneficiam cultivo de pimenta-do-reino no Pará",
   "link": "https://portalamazonia.com/para/bacteria-cultivo-pimenta-do-reino",
   "termos": [
-   "Universidade Federal do Sul e Sudeste do Pará"
+   "Universidade Federal do Sul e Sudeste do Pará",
+   "Unifesspa"
   ],
   "dominio": "portalamazonia.com",
   "fontes": [
-   "Google"
+   "Google",
+   "Portal Amazônia"
   ],
   "verificada": true,
   "mencoes": 2,
@@ -5242,6 +6510,24 @@
   "verificada": true,
   "mencoes": 2,
   "resumo": "Uepa oferta vagas para Mestrado Profissional em Educação Escolar Indígena - ZÉ DUDU Ir para o conteúdo Página inicial | educação | Uepa oferta vagas para Mestrado Profissional em Educação Escolar Indígena Uepa oferta vagas para Mestrado..."
+ },
+ {
+  "data": "2026-04-02",
+  "veiculo": "Zé Dudu",
+  "titulo": "Canaã: Eugênio Gadelha deixa a Semob, filia-se ao MDB e surge como nome forte para a Alepa",
+  "link": "https://www.zedudu.com.br/canaa-eugenio-gadelha-deixa-a-semob-filia-se-ao-mdb-e-surge-como-nome-forte-para-a-alepa",
+  "termos": [
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "resumo": "Ex-presidente municipal do União Brasil oficializou filiação ao MDB nesta quarta (1º)",
+  "dominio": "zedudu.com.br",
+  "fontes": [
+   "Zé Dudu"
+  ],
+  "verificada": true,
+  "mencoes": 0,
+  "descartada": true,
+  "motivo": "O texto da matéria não cita a Unifesspa."
  },
  {
   "data": "2026-04-02",
@@ -5410,6 +6696,24 @@
  },
  {
   "data": "2026-03-30",
+  "veiculo": "Portal Debate Carajás",
+  "titulo": "Melhores do Ano 2026: veja quem são os vencedores do prêmio da Globo",
+  "link": "https://debatecarajas.com.br/melhores-do-ano-2026-veja-quem-sao-os-vencedores-do-premio-da-globo",
+  "termos": [
+   "Francisco Ribeiro da Costa"
+  ],
+  "resumo": "O prêmio Melhores do Ano de 2026 divulgou neste domingo, 29, os ganhadores referentes ao ano de 2025, em votação organizada pelo Domingão Com Huck, da Globo. Além da divulgação dos vencedores, houve apresentação musical por parte de Marina...",
+  "dominio": "debatecarajas.com.br",
+  "fontes": [
+   "Portal Debate Carajás"
+  ],
+  "verificada": true,
+  "mencoes": 0,
+  "descartada": true,
+  "motivo": "O texto da matéria não cita a Unifesspa."
+ },
+ {
+  "data": "2026-03-30",
   "veiculo": "G1",
   "titulo": "Inscrições abertas para Workshop internacional que vai discutir futuro da Amazônia em Santarém",
   "link": "https://g1.globo.com/pa/santarem-regiao/noticia/2026/03/30/inscricoes-abertas-para-workshop-internacional-que-vai-discutir-futuro-da-amazonia-em-santarem.ghtml",
@@ -5460,6 +6764,24 @@
  {
   "data": "2026-03-26",
   "veiculo": "Correio de Carajás",
+  "titulo": "Projeto Rondon: prefeituras do sudeste do Pará firmam termo de cooperação",
+  "link": "https://correiodecarajas.com.br/projeto-rondon-prefeituras-do-sudeste-do-para-firmam-termo-de-cooperacao",
+  "termos": [
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "resumo": "Uma solenidade na tarde desta quinta-feira (26) no quartel do 52º Batalhão de Infantaria de Selva, em Marabá, marcou a formalização dos Acordos de Adesão à Operação Carimbó, 100ª edição do Projeto Rondon. Prefeitos ou seus representantes,...",
+  "dominio": "correiodecarajas.com.br",
+  "fontes": [
+   "Correio de Carajás"
+  ],
+  "verificada": true,
+  "mencoes": 0,
+  "descartada": true,
+  "motivo": "O texto da matéria não cita a Unifesspa."
+ },
+ {
+  "data": "2026-03-26",
+  "veiculo": "Correio de Carajás",
   "titulo": "Obra do marabaense Airton Souza conecta Norte e Sul e amplia debates",
   "link": "https://correiodecarajas.com.br/obra-do-marabaense-airton-souza-conecta-norte-e-sul-e-amplia-debates",
   "termos": [
@@ -5490,6 +6812,42 @@
   "verificada": true,
   "mencoes": 1,
   "resumo": "📅 Publicado em 24/03/2026 08h06 “Olhe para você. Você é preta, é pobre, é feia. Você é mulher! Você num é nada.” Começo a coluna de hoje citando um trecho de um dos mais viscerais romances de temática feminina, escrito pela norte-americana..."
+ },
+ {
+  "data": "2026-03-23",
+  "veiculo": "Portal Amazônia",
+  "titulo": "Ciência na Amazônia: apesar do potencial imenso, desigualdade de recursos persiste",
+  "link": "https://portalamazonia.com/educacao/ciencia-amazonia-desigualdade",
+  "termos": [
+   "Unifesspa",
+   "Universidade Federal do Sul e Sudeste do Pará",
+   "Francisco Ribeiro da Costa"
+  ],
+  "resumo": "UFPA é uma das maiores produtoras de conhecimento sobre a Amazônia do mundo e está entre as instituições científicas da região que sofrem com a distribuição desigual de verbas. Foto: Divulgação/UFPA A Amazônia ocupa um lugar paradoxal na...",
+  "dominio": "portalamazonia.com",
+  "fontes": [
+   "Portal Amazônia"
+  ],
+  "verificada": true,
+  "mencoes": 3
+ },
+ {
+  "data": "2026-03-21",
+  "veiculo": "Portal Amazônia",
+  "titulo": "Fórum realiza romaria no Dia Mundial da Água com barqueata até o Encontro das Águas",
+  "link": "https://portalamazonia.com/meio-ambiente/forum-agua-barqueata-am",
+  "termos": [
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "resumo": "O evento celebra o Dia Mundial da Água e marca a luta dos povos das cidades e da floresta pelo acesso à água e pela preservação dos recursos hídricos da Amazônia.",
+  "dominio": "portalamazonia.com",
+  "fontes": [
+   "Portal Amazônia"
+  ],
+  "verificada": true,
+  "mencoes": 0,
+  "descartada": true,
+  "motivo": "O texto da matéria não cita a Unifesspa."
  },
  {
   "data": "2026-03-20",
@@ -5591,6 +6949,23 @@
  },
  {
   "data": "2026-03-16",
+  "veiculo": "Carajás O Jornal",
+  "titulo": "Junior Vaz é homenageado pelos 25 anos de trabalho na cultura; artes visuais e literatura no Brasil",
+  "link": "https://carajasojornal.com.br/junior-vaz-e-homenageado-pelos-25-anos-de-trabalho-na-cultura-artes-visuais-e-literatura-no-brasil",
+  "termos": [
+   "Unifesspa",
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "resumo": "Marabá (PA) – A noite do dia 14 de março de 2026 foi marcada por reconhecimento e celebração da cultura amazônica durante a cerimônia do Troféu Cine Gavião Dourado – Selva y Montañas, realizada na Universidade Federal do Sul e Sudeste do...",
+  "dominio": "carajasojornal.com.br",
+  "fontes": [
+   "Carajás O Jornal"
+  ],
+  "verificada": true,
+  "mencoes": 2
+ },
+ {
+  "data": "2026-03-16",
   "veiculo": "Atitude Tocantins",
   "titulo": "Laranna Prestes assume SPU no Tocantins no lugar de Edy César e reforça presença do projeto político de Lula no estado",
   "link": "https://atitudeto.com.br/politica/laranna-prestes-assume-spu-no-tocantins-no-lugar-de-edy-cesar-e-reforca-presenca-do-projeto-politico-de-lula-no-estado",
@@ -5656,6 +7031,22 @@
   "resumo": "Uma formação rochosa de cerca de 40 quilômetros no rio Tocantins , conhecida como Pedral do Lourenço, é um novo embate socioambiental na Amazônia. Comunidades ribeirinhas, pescadores artesanais e movimentos sociais protestam, nesta..."
  },
  {
+  "data": "2026-03-10",
+  "veiculo": "Portal Amazônia",
+  "titulo": "Pesquisadores no Maranhão descrevem novo dinossauro brasileiro",
+  "link": "https://portalamazonia.com/meio-ambiente/dinossauro-brasileiro-maranhao",
+  "termos": [
+   "Unifesspa"
+  ],
+  "resumo": "De acordo com o estudo publicado, o dinossauro era um saurópode (pescoçudo) de médio a grande porte, com comprimento estimado em cerca de 20 metros.",
+  "dominio": "portalamazonia.com",
+  "fontes": [
+   "Portal Amazônia"
+  ],
+  "verificada": true,
+  "mencoes": 2
+ },
+ {
   "data": "2026-03-09",
   "veiculo": "andifes.org.br",
   "titulo": "Andifes apoia campanha Banco Vermelho e incentiva adesão das universidades federais",
@@ -5677,7 +7068,8 @@
   "titulo": "Projeto Quelônios de Marabá solta 3 mil tartarugas e tracajás no Rio Tocantins",
   "link": "https://correiodecarajas.com.br/projeto-quelonios-solta-3-mil-tartarugas-e-tracajas-no-rio-tocantins",
   "termos": [
-   "Unifesspa"
+   "Unifesspa",
+   "Universidade Federal do Sul e Sudeste do Pará"
   ],
   "dominio": "correiodecarajas.com.br",
   "fontes": [
@@ -5725,6 +7117,24 @@
  },
  {
   "data": "2026-03-05",
+  "veiculo": "Zé Dudu",
+  "titulo": "Casa da Cultura de Canaã dos Carajás promove oficina sobre posicionamento de marcas nas redes sociais",
+  "link": "https://www.zedudu.com.br/casa-da-cultura-de-canaa-dos-carajas-promove-oficina-sobre-posicionamento-de-marcas-nas-redes-sociais",
+  "termos": [
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "resumo": "Formação com o publicitário Petterson Farias aborda estratégias práticas para fortalecer presença digital e gerar resultados nas redes sociais",
+  "dominio": "zedudu.com.br",
+  "fontes": [
+   "Zé Dudu"
+  ],
+  "verificada": true,
+  "mencoes": 0,
+  "descartada": true,
+  "motivo": "O texto da matéria não cita a Unifesspa."
+ },
+ {
+  "data": "2026-03-05",
   "veiculo": "Universidade Federal do Maranhão",
   "titulo": "Pesquisador da UFMA integra equipe que descreve novo dinossauro brasileiro — Universidade Federal do Maranhão",
   "link": "https://portalpadrao.ufma.br/site/noticias/pesquisador-da-ufma-integra-equipe-que-descreve-novo-dinossauro-brasileiro",
@@ -5738,6 +7148,59 @@
   "verificada": true,
   "mencoes": 2,
   "resumo": "Notícias Pesquisador da UFMA integra equipe que descreve novo dinossauro brasileiro Tweet publicado : 05/03/2026 10h27 , última modificação : 05/03/2026 11h59 Achados de fósseis encontrados na cidade de Davinópolis indicam nova espécie de..."
+ },
+ {
+  "data": "2026-03-05",
+  "veiculo": "Portal Infopebas",
+  "titulo": "Câmara de Parauapebas aprova homenageadas para a 1ª edição da Comenda Bel Mesquita",
+  "link": "https://www.infopebas.com/destaque/camara-de-parauapebas-aprova-homenageadas-para-a-1a-edicao-da-comenda-bel-mesquita",
+  "termos": [
+   "Francisco Ribeiro da Costa"
+  ],
+  "resumo": "Em uma sessão extraordinária realizada nesta terça-feira (3), a Câmara Municipal de Parauapebas deu um passo histórico para o reconhecimento do protagonismo feminino no município. Os vereadores e vereadoras aprovaram os Projetos de Decreto...",
+  "dominio": "infopebas.com",
+  "fontes": [
+   "Portal Infopebas"
+  ],
+  "verificada": true,
+  "mencoes": 0,
+  "descartada": true,
+  "motivo": "O texto da matéria não cita a Unifesspa."
+ },
+ {
+  "data": "2026-03-05",
+  "veiculo": "Carajás O Jornal",
+  "titulo": "Unifesspa divulga homologação das inscrições para Programação de Pós-graduação em Letras",
+  "link": "https://carajasojornal.com.br/unifesspa-divulga-homologacao-das-inscricoes-para-programacao-de-pos-graduacao-em-letras",
+  "termos": [
+   "Unifesspa",
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "resumo": "A Universidade Federal do Sul e Sudeste do Pará (Unifesspa) e a Diretoria de Ensino Superior de Canaã dos Carajás divulgam a lista oficial de inscrições homologadas e não-homologadas para o Programa de Pós-Graduação em Letras (POSLET). Os...",
+  "dominio": "carajasojornal.com.br",
+  "fontes": [
+   "Carajás O Jornal"
+  ],
+  "verificada": true,
+  "mencoes": 6
+ },
+ {
+  "data": "2026-03-05",
+  "veiculo": "Carajás O Jornal",
+  "titulo": "Câmara de Parauapebas aprova homenageadas para a 1ª edição da Comenda Bel Mesquita",
+  "link": "https://carajasojornal.com.br/camara-de-parauapebas-aprova-homenageadas-para-a-1a-edicao-da-comenda-bel-mesquita",
+  "termos": [
+   "Francisco Ribeiro da Costa"
+  ],
+  "resumo": "Em uma sessão extraordinária realizada nesta terça-feira (3), a Câmara Municipal de Parauapebas deu um passo histórico para o reconhecimento do protagonismo feminino no município. Os vereadores e vereadoras aprovaram os Projetos de Decreto...",
+  "dominio": "carajasojornal.com.br",
+  "fontes": [
+   "Carajás O Jornal"
+  ],
+  "verificada": true,
+  "mencoes": 0,
+  "descartada": true,
+  "motivo": "O texto da matéria não cita a Unifesspa."
  },
  {
   "data": "2026-03-04",
@@ -5755,6 +7218,23 @@
   "verificada": true,
   "mencoes": 3,
   "resumo": "12º Encontro de Integração dos ACS e ACE reúne categoria, familiares e amigos em Canaã dos Carajás 13/10/2026 13:48"
+ },
+ {
+  "data": "2026-03-04",
+  "veiculo": "Carajás O Jornal",
+  "titulo": "Canaã dos Carajás apresenta ao Ministro da Educação projeto estratégico que consolida novo ciclo de desenvolvimento",
+  "link": "https://carajasojornal.com.br/canaa-dos-carajas-apresenta-ao-ministro-da-educacao-projeto-estrategico-que-consolida-novo-ciclo-de-desenvolvimento",
+  "termos": [
+   "Unifesspa",
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "resumo": "Na última sexta-feira (27), durante agenda oficial do ministro da Educação, Camilo Santana, em Marabá, a prefeita de Canaã dos Carajás, Josemira Gadelha, apresentou oficialmente propostas estratégicas para o fortalecimento da educação no...",
+  "dominio": "carajasojornal.com.br",
+  "fontes": [
+   "Carajás O Jornal"
+  ],
+  "verificada": true,
+  "mencoes": 2
  },
  {
   "data": "2026-03-03",
@@ -5783,7 +7263,8 @@
   "termos": [
    "Unifesspa",
    "Universidade Federal do Sul e Sudeste do Pará",
-   "\"Francisco Ribeiro\" reitor Unifesspa"
+   "\"Francisco Ribeiro\" reitor Unifesspa",
+   "Francisco Ribeiro da Costa"
   ],
   "dominio": "debatecarajas.com.br",
   "fontes": [
@@ -5877,7 +7358,8 @@
    "Portal Debate Carajás"
   ],
   "verificada": true,
-  "mencoes": 1
+  "mencoes": 1,
+  "resumo": "MARABÁ, SUDESTE DO PARÁ – Pela primeira vez desde a sua criação, a Universidade Federal do Sul e Sudeste do Pará (Unifesspa) recebeu, na última sexta-feira (27/02), em Marabá, a visita oficial de um ministro da Educação. A agenda histórica..."
  },
  {
   "data": "2026-03-02",
@@ -6006,7 +7488,8 @@
    "Fato Regional"
   ],
   "verificada": true,
-  "mencoes": 1
+  "mencoes": 1,
+  "resumo": "A agenda do ministro Camilo Santana também prevê a inauguração das obras nos campi de Marabá (Unidades II e III) e assinatura da ordem de serviço da obra remanescente do Restaurante Universitário do Campus Marabá (Unidade II). Para a..."
  },
  {
   "data": "2026-02-27",
@@ -6112,6 +7595,23 @@
  },
  {
   "data": "2026-02-25",
+  "veiculo": "Jornal A Notícia (AN10)",
+  "titulo": "Governo do Estado entrega benefício do programa “Bora Estudar” em Redenção",
+  "link": "https://www.an10.com.br/governo-do-estado-entrega-beneficio-do-programa-bora-estudar-em-redencao",
+  "termos": [
+   "Unifesspa",
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "resumo": "O governo do Estado entregou, nesta quarta-feira (25), mais 130 benefícios do programa “Bora Estudar” a estudantes do município de Redenção, no Sul do Pará. A solenidade ocorreu no Sindicato Rural da cidade, com a presença do governador...",
+  "dominio": "an10.com.br",
+  "fontes": [
+   "Jornal A Notícia (AN10)"
+  ],
+  "verificada": true,
+  "mencoes": 2
+ },
+ {
+  "data": "2026-02-25",
   "veiculo": "Esquerda Diário",
   "titulo": "Técnicos entram em greve nas federais, em cenário recorde de contingenciamento de verbas",
   "link": "https://www.esquerdadiario.com.br/Tecnicos-entram-em-greve-nas-federais-em-cenario-recorde-de-contingenciamento-de-verbas",
@@ -6139,6 +7639,23 @@
   ],
   "verificada": false,
   "mencoes": 0
+ },
+ {
+  "data": "2026-02-25",
+  "veiculo": "Carajás O Jornal",
+  "titulo": "Governo do Estado entrega benefício do programa “Bora Estudar” em Redenção",
+  "link": "https://carajasojornal.com.br/governo-do-estado-entrega-beneficio-do-programa-bora-estudar-em-redencao",
+  "termos": [
+   "Unifesspa",
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "resumo": "O investimento de R$ 1,3 milhão garante o auxílio para melhoria habitacional e incentiva o alto desempenho escolar de alunos do Sul do Estado O governo do Estado entregou, nesta quarta-feira (25), mais 130 benefícios do programa “Bora...",
+  "dominio": "carajasojornal.com.br",
+  "fontes": [
+   "Carajás O Jornal"
+  ],
+  "verificada": true,
+  "mencoes": 2
  },
  {
   "data": "2026-02-25",
@@ -6171,7 +7688,8 @@
    "Zé Dudu"
   ],
   "verificada": true,
-  "mencoes": 1
+  "mencoes": 1,
+  "resumo": "Servidores param em Belém, Marabá e Santarém. Restaurante Universitário da UFPA suspende atendimento e afeta estudantes"
  },
  {
   "data": "2026-02-24",
@@ -6220,7 +7738,8 @@
    "Zé Dudu"
   ],
   "verificada": true,
-  "mencoes": 1
+  "mencoes": 1,
+  "resumo": "Aula Magna será ministrada por Amilton Sinatora, diretor científico do Instituto Tecnológico Vale Mineração"
  },
  {
   "data": "2026-02-23",
@@ -6248,7 +7767,8 @@
   "termos": [
    "\"Francisco Ribeiro\" reitor Unifesspa",
    "Unifesspa",
-   "Universidade Federal do Sul e Sudeste do Pará"
+   "Universidade Federal do Sul e Sudeste do Pará",
+   "Francisco Ribeiro da Costa"
   ],
   "dominio": "correiodecarajas.com.br",
   "fontes": [
@@ -6276,7 +7796,8 @@
    "Portal Debate Carajás"
   ],
   "verificada": true,
-  "mencoes": 1
+  "mencoes": 1,
+  "resumo": "A Universidade Federal do Sul e Sudeste do Pará (UNIFESSPA) receberá, no próximo dia 27 de fevereiro de 2026, a partir das 14h30, a visita oficial do ministro da Educação, Camilo Santana, em uma agenda considerada histórica para a..."
  },
  {
   "data": "2026-02-20",
@@ -6344,6 +7865,24 @@
   "resumo": "GREVE Técnicos-administrativos da UFPA, Unifesspa e Ufopa aprovam greve a partir do dia 23 Servidores aguardam resultado final das assembleias gerais em todo o Brasil Vito Gemaque 16 de fevereiro de 2026 às 19:34 Servidores da UFPA..."
  },
  {
+  "data": "2026-02-13",
+  "veiculo": "Portal Amazônia",
+  "titulo": "Planta ameaçada de extinção no Pará modifica taxas de crescimento em resposta a condições climáticas",
+  "link": "https://portalamazonia.com/meio-ambiente/planta-ameacada-extincao-para",
+  "termos": [
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "resumo": "Estudo de pesquisadores do Instituto Tecnológico Vale, UFRJ e outras instituições acompanhou populações naturais da flor-de-Carajás por dois anos na Floresta Nacional de Carajás no Pará.",
+  "dominio": "portalamazonia.com",
+  "fontes": [
+   "Portal Amazônia"
+  ],
+  "verificada": true,
+  "mencoes": 0,
+  "descartada": true,
+  "motivo": "O texto da matéria não cita a Unifesspa."
+ },
+ {
   "data": "2026-02-12",
   "veiculo": "TAPAJÓS DE FATO",
   "titulo": "Estudo aponta risco elevado à saúde de ribeirinhos por consumo de peixes contaminados no oeste do Pará",
@@ -6357,6 +7896,24 @@
   ],
   "verificada": false,
   "mencoes": 0
+ },
+ {
+  "data": "2026-02-12",
+  "veiculo": "Portal Debate Carajás",
+  "titulo": "Marabá terá vaga no Mais Médicos Especialistas para reforçar atendimento no SUS",
+  "link": "https://debatecarajas.com.br/maraba-tera-vaga-no-mais-medicos-especialistas-para-reforcar-atendimento-no-sus",
+  "termos": [
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "resumo": "MARABÁ (PA) — O Ministério da Saúde está com inscrições abertas para o segundo ciclo do programa Mais Médicos Especialistas, iniciativa vinculada ao Agora Tem Especialistas, que busca ampliar o acesso da população ao atendimento...",
+  "dominio": "debatecarajas.com.br",
+  "fontes": [
+   "Portal Debate Carajás"
+  ],
+  "verificada": true,
+  "mencoes": 0,
+  "descartada": true,
+  "motivo": "O texto da matéria não cita a Unifesspa."
  },
  {
   "data": "2026-02-12",
@@ -6374,6 +7931,24 @@
   "verificada": true,
   "mencoes": 3,
   "resumo": "📅 Publicado em 12/02/2026 16h39 ✏️ Atualizado em 12/02/2026 17h03 Estão abertas, até o dia 30 de março, as inscrições para a III edição da Mostra Científica do Sul e Sudeste do Pará (Mocisspa), evento que se consolida como um dos..."
+ },
+ {
+  "data": "2026-02-11",
+  "veiculo": "Portal Amazônia",
+  "titulo": "Documentário revela protagonismo feminino na expedição Roncador-Xingu",
+  "link": "https://portalamazonia.com/cultura/documentario-feminino-xingu",
+  "termos": [
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "resumo": "O documentário de Alda Vanique ganha relevância histórica até então pouco retratada num contexto marcado por profundas transformações sociais, políticas e territoriais.",
+  "dominio": "portalamazonia.com",
+  "fontes": [
+   "Portal Amazônia"
+  ],
+  "verificada": true,
+  "mencoes": 0,
+  "descartada": true,
+  "motivo": "O texto da matéria não cita a Unifesspa."
  },
  {
   "data": "2026-02-11",
@@ -6527,6 +8102,40 @@
   "resumo": "📅 Publicado em 03/02/2026 08h09 Há algum tempo estou me preparando para falar dela. Por ser quem é, já apareceu algumas vezes nesta coluna, ora apenas citada ora teve seu parco repertório linguístico analisado. Mas ela, em sua inteireza,..."
  },
  {
+  "data": "2026-02-03",
+  "veiculo": "Carajás O Jornal",
+  "titulo": "ECA Digital: relatório vai basear regras sobre verificação de idade na internet",
+  "link": "https://carajasojornal.com.br/eca-digital-relatorio-vai-basear-regras-sobre-verificacao-de-idade-na-internet",
+  "termos": [
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "resumo": "O Ministério da Justiça e Segurança Pública (MJSP), por meio da Secretaria Nacional de Direitos Digitais (SEDIGI), publica o relatório Mecanismos de Aferição de Idade: análise das contribuições à consulta pública e subsídios para...",
+  "dominio": "carajasojornal.com.br",
+  "fontes": [
+   "Carajás O Jornal"
+  ],
+  "verificada": true,
+  "mencoes": 0,
+  "descartada": true,
+  "motivo": "O texto da matéria não cita a Unifesspa."
+ },
+ {
+  "data": "2026-02-03",
+  "veiculo": "Carajás O Jornal",
+  "titulo": "Canaã dos Carajás anuncia reordenamento da gestão do Ensino Superior",
+  "link": "https://carajasojornal.com.br/canaa-dos-carajas-anuncia-reordenamento-da-gestao-do-ensino-superior",
+  "termos": [
+   "Unifesspa"
+  ],
+  "resumo": "Agora vinculada à Secretaria de Planejamento, educação profissional e superior torna-se política estratégica A Prefeitura de Canaã dos Carajás oficializou, em coletiva de imprensa realizada nesta segunda-feira (2), a criação da Diretoria...",
+  "dominio": "carajasojornal.com.br",
+  "fontes": [
+   "Carajás O Jornal"
+  ],
+  "verificada": true,
+  "mencoes": 1
+ },
+ {
   "data": "2026-02-02",
   "veiculo": "O Liberal",
   "titulo": "Habilitação na UFPA e outras federais: veja os prazos, documentos e como garantir sua vaga | Belém | O Liberal",
@@ -6573,7 +8182,26 @@
    "Portal Debate Carajás"
   ],
   "verificada": true,
-  "mencoes": 1
+  "mencoes": 1,
+  "resumo": "A Universidade Federal do Sul e Sudeste do Pará (Unifesspa), por meio da Pró-Reitoria de Ensino de Graduação (Proeg) e do Centro de Registro e Controle Acadêmico (CRCA), publicou a Instrução Normativa nº 01/2026, que estabelece as..."
+ },
+ {
+  "data": "2026-01-30",
+  "veiculo": "Portal Debate Carajás",
+  "titulo": "Marabá: Aluno da Escola Liberdade é aprovado em Medicina na UEPA e Mecatrônica na USP",
+  "link": "https://debatecarajas.com.br/aluno-de-escola-publica-de-maraba-conquista-1o-lugar-em-medicina-na-uepa",
+  "termos": [
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "resumo": "MARABÁ (PA) — O aluno da Escola Estadual Liberdade, Fábio Gabriel dos Santos Dias, conquistou o primeiro lugar em Medicina na Universidade do Estado do Pará (UEPA), dentro de sua faixa de cota, e se destacou ao alcançar uma série de...",
+  "dominio": "debatecarajas.com.br",
+  "fontes": [
+   "Portal Debate Carajás"
+  ],
+  "verificada": true,
+  "mencoes": 0,
+  "descartada": true,
+  "motivo": "O texto da matéria não cita a Unifesspa."
  },
  {
   "data": "2026-01-30",
@@ -6591,6 +8219,24 @@
   "verificada": true,
   "mencoes": 11,
   "resumo": "Duas universidades federais no Pará divulgaram os aprovados no Sistema de Seleção Unificada ( Sisu ) 2026. A Universidade Federal Rural da Amazônia ( Ufra ) e a Universidade Federal do Sul e Sudeste do Pará (Unifesspa) juntas ofertaram..."
+ },
+ {
+  "data": "2026-01-30",
+  "veiculo": "Carajás O Jornal",
+  "titulo": "Sisu: 99% das vagas são preenchidas na chamada regular",
+  "link": "https://carajasojornal.com.br/sisu-99-das-vagas-sao-preenchidas-na-chamada-regular",
+  "termos": [
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "resumo": "Processo seletivo teve 271,7 mil candidatos aprovados, entre 1,8 milhão de inscritos. Número representa um aumento de 39% em relação a 2025. Resultados estão disponíveis no Portal Acesso Único O processo seletivo do Sistema de Seleção...",
+  "dominio": "carajasojornal.com.br",
+  "fontes": [
+   "Carajás O Jornal"
+  ],
+  "verificada": true,
+  "mencoes": 0,
+  "descartada": true,
+  "motivo": "O texto da matéria não cita a Unifesspa."
  },
  {
   "data": "2026-01-29",
@@ -6696,6 +8342,24 @@
   "resumo": "O Campus da Universidade Federal do Pará (UFPA): um dos maiores produtores de conhecimento sobre a Amazônia do mundo está entre as instituições científicas da região que sofrem com a distribuição desigual de verbas para pesquisa, que..."
  },
  {
+  "data": "2026-01-28",
+  "veiculo": "Carajás O Jornal",
+  "titulo": "Por sobrevivência, Povo Indígena Xikrin denuncia contaminação dos rios e exige reparação Sociambiental urgente por impactos da mineração na Amazônia 🚨",
+  "link": "https://carajasojornal.com.br/99888-2",
+  "termos": [
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "resumo": "PARAUAPEBAS/CARAJÁS/PARÁ/BRASIL/AMAZÔNIA – Enquanto grandes arenas diplomáticas discutem transição energética e metas climáticas, o Povo Indígena Xikrin do Kateté afirma que sua sobrevivência está em jogo às margens dos rios Cateté e...",
+  "dominio": "carajasojornal.com.br",
+  "fontes": [
+   "Carajás O Jornal"
+  ],
+  "verificada": true,
+  "mencoes": 0,
+  "descartada": true,
+  "motivo": "O texto da matéria não cita a Unifesspa."
+ },
+ {
   "data": "2026-01-27",
   "veiculo": "Zé Dudu",
   "titulo": "Hospital Regional de Marabá realiza 1ª Semana de Saúde Mental para servidores e usuários",
@@ -6744,6 +8408,24 @@
   "verificada": true,
   "mencoes": 2,
   "resumo": "Papa Leão XIV nomeia Dom Paulo Andreolli como novo bispo de Ponta de Pedras Leia mais"
+ },
+ {
+  "data": "2026-01-26",
+  "veiculo": "Correio de Carajás",
+  "titulo": "Alunos comem menos ultraprocessados em capitais com venda regulada",
+  "link": "https://correiodecarajas.com.br/alunos-comem-menos-ultraprocessados-em-capitais-com-venda-regulada",
+  "termos": [
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "resumo": "A presença de refrigerantes, salgadinhos e doces no ambiente escolar vai além de um hábito cotidiano. Dados de um novo estudo mostram que o que é vendido nas escolas pode influenciar diretamente a alimentação dos adolescentes. Pelo menos é...",
+  "dominio": "correiodecarajas.com.br",
+  "fontes": [
+   "Correio de Carajás"
+  ],
+  "verificada": true,
+  "mencoes": 0,
+  "descartada": true,
+  "motivo": "O texto da matéria não cita a Unifesspa."
  },
  {
   "data": "2026-01-26",
@@ -6839,7 +8521,8 @@
    "Portal Canaã"
   ],
   "verificada": true,
-  "mencoes": 1
+  "mencoes": 1,
+  "resumo": "A Universidade Federal do Sul e Sudeste do Pará (Unifesspa) está com inscrições abertas para dois programas de pós-graduação stricto sensu, com turmas previstas para o ano de 2026, no Campus de Canaã dos Carajás. Os processos seletivos..."
  },
  {
   "data": "2026-01-21",
@@ -6847,11 +8530,13 @@
   "titulo": "Povos indígenas no Pará recebem dossiê sobre direitos sequestrados",
   "link": "https://portalamazonia.com/para/indigenas-dossie-direitos-para",
   "termos": [
-   "Unifesspa"
+   "Unifesspa",
+   "Universidade Federal do Sul e Sudeste do Pará"
   ],
   "dominio": "portalamazonia.com",
   "fontes": [
-   "Google"
+   "Google",
+   "Portal Amazônia"
   ],
   "verificada": true,
   "mencoes": 6,
@@ -6912,7 +8597,8 @@
   "titulo": "Povos indígenas recebem dossiê sobre direitos sequestrados",
   "link": "https://correiodecarajas.com.br/povos-indigenas-recebem-dossie-sobre-direitos-sequestrados",
   "termos": [
-   "Unifesspa"
+   "Unifesspa",
+   "Universidade Federal do Sul e Sudeste do Pará"
   ],
   "dominio": "correiodecarajas.com.br",
   "fontes": [
@@ -6921,6 +8607,24 @@
   "verificada": true,
   "mencoes": 3,
   "resumo": "📅 Publicado em 21/01/2026 11h20 Pesquisadoras de Universidades federais do Pará e do Sul e Sudeste do Pará e de outras instituições, autores no Dossiê “Direitos ‘sequestrados’ aos povos indígenas”, publicado no “Boletim de Ciências MPEG de..."
+ },
+ {
+  "data": "2026-01-20",
+  "veiculo": "Portal Debate Carajás",
+  "titulo": "Curso de Medicina da UEPA Marabá é o único da Região Norte com nota máxima no Enamed",
+  "link": "https://debatecarajas.com.br/uepa-maraba-e-a-unica-da-regiao-norte-a-alcancar-nota-maxima-no-enamed",
+  "termos": [
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "resumo": "MARABÁ (PA) — O curso de Medicina da Universidade do Estado do Pará (UEPA), no campus de Marabá, alcançou um destaque inédito ao obter nota 5, conceito máximo, na primeira edição do Exame Nacional de Avaliação da Formação Médica (Enamed)....",
+  "dominio": "debatecarajas.com.br",
+  "fontes": [
+   "Portal Debate Carajás"
+  ],
+  "verificada": true,
+  "mencoes": 0,
+  "descartada": true,
+  "motivo": "O texto da matéria não cita a Unifesspa."
  },
  {
   "data": "2026-01-20",
@@ -6955,6 +8659,23 @@
   "resumo": "📅 Publicado em 20/01/2026 08h19 Trago hoje uma polêmica do mundo dos leitores: a releitura. E já anuncio, eu sou do clube que relê. Todos os anos eu releio alguma obra que gosto muito. Eu sou a leitora que não apenas relê, mas também..."
  },
  {
+  "data": "2026-01-20",
+  "veiculo": "Carajás O Jornal",
+  "titulo": "Reunião define estratégias para funcionamento do campus da Unifesspa em Canaã dos Carajás",
+  "link": "https://carajasojornal.com.br/reuniao-define-estrategias-para-funcionamento-do-campus-da-unifesspa-em-canaa-dos-carajas",
+  "termos": [
+   "Unifesspa",
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "resumo": "Foto: Carol de Andrade Durante o encontro, foram apresentados os programas de pós-graduação stricto sensu da universidade Foi realizada nesta segunda-feira (19) uma reunião entre a Prefeitura de Canaã dos Carajás e a equipe da Universidade...",
+  "dominio": "carajasojornal.com.br",
+  "fontes": [
+   "Carajás O Jornal"
+  ],
+  "verificada": true,
+  "mencoes": 10
+ },
+ {
   "data": "2026-01-19",
   "veiculo": "querobolsa.com.br",
   "titulo": "Sisu 2026: veja as instituições com mais vagas",
@@ -6985,6 +8706,24 @@
   "verificada": true,
   "mencoes": 3,
   "resumo": "Sisu oferece 26,8 mil vagas para Estados da Amazônia p]:tw-leading-[1.6] md:[&>p]:tw-leading-[1.65] hover:tw-prose-a:tw-text-brand-secondary tw-prose-a:tw-text-brand-primary tw-prose-a:tw-font-bold tw-prose-a:tw-no-underline..."
+ },
+ {
+  "data": "2026-01-19",
+  "veiculo": "Portal Amazônia",
+  "titulo": "Por que o Pará registra tantos abalos sísmicos, mesmo longe das zonas de encontro de placas tectônicas?",
+  "link": "https://portalamazonia.com/meio-ambiente/abalos-sismicos-registrados-no-para",
+  "termos": [
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "resumo": "O estado do Pará tem registrado, com relativa frequência, abalos sísmicos que chamam a atenção da população e despertam curiosidade científica.",
+  "dominio": "portalamazonia.com",
+  "fontes": [
+   "Portal Amazônia"
+  ],
+  "verificada": true,
+  "mencoes": 0,
+  "descartada": true,
+  "motivo": "O texto da matéria não cita a Unifesspa."
  },
  {
   "data": "2026-01-19",
@@ -7054,6 +8793,23 @@
   "resumo": "CALOUROS Listão das universidades: veja o cronograma dos resultados das instituições públicas do Pará Nas próximas semanas, instituições devem anunciar as primeiras chamadas, dando sequência às etapas de matrícula dos candidatos Gabriel..."
  },
  {
+  "data": "2026-01-16",
+  "veiculo": "Carajás O Jornal",
+  "titulo": "Unifesspa publica edital para concessão do Restaurante Universitário da Unidade III, em Marabá",
+  "link": "https://carajasojornal.com.br/unifesspa-publica-edital-para-concessao-do-restaurante-universitario-da-unidade-iii-em-maraba",
+  "termos": [
+   "Unifesspa",
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "resumo": "Licitação busca a contratação de empresa especializada para o fornecimento de refeições no Restaurante Universitário da instituição. A Universidade Federal do Sul e Sudeste do Pará (Unifesspa) publicou o Edital do Pregão Eletrônico nº...",
+  "dominio": "carajasojornal.com.br",
+  "fontes": [
+   "Carajás O Jornal"
+  ],
+  "verificada": true,
+  "mencoes": 5
+ },
+ {
   "data": "2026-01-15",
   "veiculo": "Fato Regional",
   "titulo": "Sisu 2026: Pará terá cerca de 2,5 mil vagas em universidades federais",
@@ -7119,7 +8875,8 @@
    "Zé Dudu"
   ],
   "verificada": true,
-  "mencoes": 1
+  "mencoes": 1,
+  "resumo": "O planejamento acadêmico para o início do ano de 2026 prevê a abertura de novas turmas Engenharia Civil, Engenharia Elétrica, Engenharia Mecânica, Engenharia Ambiental e de Minas e Direito"
  },
  {
   "data": "2026-01-13",
@@ -7136,6 +8893,23 @@
   "verificada": true,
   "mencoes": 1,
   "resumo": "📅 Publicado em 13/01/2026 08h04 Enfim chegou a nossa primeira coluna do ano de 2026! Terminamos o ano de 2025 falando que ler também é hábito! Hoje, para reforçar a importância deste hábito, trago duas obras da literatura brasileira: VIDAS..."
+ },
+ {
+  "data": "2026-01-13",
+  "veiculo": "Carajás O Jornal",
+  "titulo": "Para ficar na história: Canaã dos Carajás recebe primeiro Campus Universitário",
+  "link": "https://carajasojornal.com.br/para-ficar-na-historia-canaa-dos-carajas-recebe-primeiro-campus-universitario",
+  "termos": [
+   "Unifesspa",
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "resumo": "Oficialização da unidade garante oferta de novos cursos, concursos e projetos de pesquisa e extensão no município A educação superior em Canaã dos Carajás avança a passos largos. Foi oficializada a criação do Campus da Universidade Federal...",
+  "dominio": "carajasojornal.com.br",
+  "fontes": [
+   "Carajás O Jornal"
+  ],
+  "verificada": true,
+  "mencoes": 7
  },
  {
   "data": "2026-01-12",
@@ -7221,7 +8995,26 @@
    "Portal Canaã"
   ],
   "verificada": true,
-  "mencoes": 1
+  "mencoes": 1,
+  "resumo": "Canaã dos Carajás dá mais um passo decisivo rumo à consolidação como cidade universitária. A Universidade Federal do Sul e Sudeste do Pará (Unifesspa) aprovou, em caráter ad referendum do Conselho Universitário (Consun), a criação do..."
+ },
+ {
+  "data": "2026-01-08",
+  "veiculo": "Fato Regional",
+  "titulo": "Parauapebas concentra três dos cinco maiores tremores de terra registrados no Brasil em 2025",
+  "link": "https://fatoregional.com.br/parauapebas-concentra-tres-dos-cinco-maiores-tremores-de-terra-registrados-no-brasil-em-2025",
+  "termos": [
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "resumo": "O Pará se destaca. Dados da Rede Sismográfica Brasileira apontam o município paraense como um dos principais focos de atividade sísmica intraplaca no país ao longo do ano.",
+  "dominio": "fatoregional.com.br",
+  "fontes": [
+   "Fato Regional"
+  ],
+  "verificada": true,
+  "mencoes": 0,
+  "descartada": true,
+  "motivo": "O texto da matéria não cita a Unifesspa."
  },
  {
   "data": "2026-01-07",
@@ -7242,6 +9035,24 @@
   "resumo": "📅 Publicado em 07/01/2026 15h45 A Universidade Federal do Sul e Sudeste do Pará (Unifesspa) aprovou, ad referendum do Conselho Universitário (Consun), a criação do Campus Universitário de Canaã dos Carajás. A medida consta na Portaria nº..."
  },
  {
+  "data": "2026-01-06",
+  "veiculo": "Correio de Carajás",
+  "titulo": "Brasileiros publicam maior estudo já feito sobre sequelas do zika",
+  "link": "https://correiodecarajas.com.br/brasileiros-publicam-maior-estudo-ja-feito-sobre-sequelas-do-zika",
+  "termos": [
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "resumo": "Pesquisadores de diferentes estados e instituições brasileiras publicaram, no fim do ano passado, o maior estudo do mundo sobre os principais efeitos do vírus Zika na infância. Com dados de 12 centros de pesquisa do país, o Consórcio...",
+  "dominio": "correiodecarajas.com.br",
+  "fontes": [
+   "Correio de Carajás"
+  ],
+  "verificada": true,
+  "mencoes": 0,
+  "descartada": true,
+  "motivo": "O texto da matéria não cita a Unifesspa."
+ },
+ {
   "data": "2026-01-05",
   "veiculo": "Portal Debate Carajás",
   "titulo": "Sisu 2026: Unifesspa vai ofertar vagas em cinco cidades do Pará",
@@ -7256,7 +9067,8 @@
    "Portal Debate Carajás"
   ],
   "verificada": true,
-  "mencoes": 1
+  "mencoes": 1,
+  "resumo": "O Pará terá 2.490 vagas disponíveis no ensino superior por meio do Sistema de Seleção Unificada (Sisu) 2026, processo que utiliza as notas do Exame Nacional do Ensino Médio (Enem) para ingresso em instituições públicas. As inscrições..."
  },
  {
   "data": "2026-01-05",
@@ -7326,6 +9138,25 @@
   "resumo": "📅 Publicado em 05/01/2026 13h50 ✏️ Atualizado em 05/01/2026 13h55 O Pará tem 2.490 vagas disponíveis para o ensino superior a partir do Sistema de Seleção Unificada (Sisu) 2026 — processo seletivo que toma como base a nota dos candidatos..."
  },
  {
+  "data": "2026-01-04",
+  "veiculo": "Correio de Carajás",
+  "titulo": "Preso com 47 tabletes de drogas é suspeito de dar apoio à fuga de 9 detentos em Parauapebas",
+  "link": "https://correiodecarajas.com.br/preso-com-47-tabletes-de-drogas-e-suspeito-de-dar-apoio-a-fuga-de-9-detentos-em-parauapebas",
+  "termos": [
+   "Francisco Ribeiro da Costa"
+  ],
+  "resumo": "O suspeito conhecido pelo apelido de “Articulador” foi preso na sexta-feira (2), no Assentamento Terra e Liberdade, em Parauapebas, após a apreensão de 47 tabletes de drogas. Ele é apontado como responsável por dar apoio logístico à fuga...",
+  "dominio": "correiodecarajas.com.br",
+  "fontes": [
+   "Correio de Carajás"
+  ],
+  "verificada": true,
+  "mencoes": 0,
+  "data_feed": "2026-01-03",
+  "descartada": true,
+  "motivo": "O texto da matéria não cita a Unifesspa."
+ },
+ {
   "data": "2026-01-03",
   "veiculo": "O Liberal",
   "titulo": "Universidades federais do Pará terão corte de mais de R$ 25 milhões no orçamento de 2026",
@@ -7341,5 +9172,59 @@
   "verificada": true,
   "mencoes": 7,
   "resumo": "IMPACTO Universidades federais do Pará terão corte de mais de R$ 25 milhões no orçamento de 2026 Após aprovação da LOA 2026 pelo Governo Federal, UFPA, Ufra, Unifesspa e Ufopa terão redução de recursos que deve afetar contratos,..."
+ },
+ {
+  "data": "2026-01-01",
+  "veiculo": "Portal Pebão",
+  "titulo": "Nove detentos fogem do Presídio de Parauapebas durante a madrugada",
+  "link": "https://portalpebao.com.br/nove-detentos-fogem-do-presidio-de-parauapebas-durante-a-madrugada",
+  "termos": [
+   "Francisco Ribeiro da Costa"
+  ],
+  "resumo": "Nove detentos fugiram do Presídio de Parauapebas, no sudeste do Pará, na madrugada desta quarta-feira, 01 de janeiro de 2026. A ocorrência foi registrada por volta das 2h, totalizando nove…",
+  "dominio": "portalpebao.com.br",
+  "fontes": [
+   "Portal Pebão"
+  ],
+  "verificada": true,
+  "mencoes": 0,
+  "descartada": true,
+  "motivo": "O texto da matéria não cita a Unifesspa."
+ },
+ {
+  "data": "2026-01-01",
+  "veiculo": "Portal Debate Carajás",
+  "titulo": "Nove detentos fogem do Presídio de Parauapebas",
+  "link": "https://debatecarajas.com.br/nove-detentos-fogem-do-presidio-de-parauapebas",
+  "termos": [
+   "Francisco Ribeiro da Costa"
+  ],
+  "resumo": "Nove detentos fugiram do Presídio de Parauapebas, no sudeste do Pará, na madrugada desta quarta-feira (01/01). A ocorrência foi registrada por volta das 2h, totalizando nove presos foragidos, todos já condenados pela Justiça. De acordo com...",
+  "dominio": "debatecarajas.com.br",
+  "fontes": [
+   "Portal Debate Carajás"
+  ],
+  "verificada": true,
+  "mencoes": 0,
+  "descartada": true,
+  "motivo": "O texto da matéria não cita a Unifesspa."
+ },
+ {
+  "data": "2026-01-01",
+  "veiculo": "Correio de Carajás",
+  "titulo": "Nove detentos escapam do presídio de Parauapebas na madrugada",
+  "link": "https://correiodecarajas.com.br/nove-detentos-escapam-do-presidio-de-parauapebas-na-madrugada",
+  "termos": [
+   "Francisco Ribeiro da Costa"
+  ],
+  "resumo": "Nove presos condenados fugiram da Unidade de Custódia e Reinserção (UCR) de Parauapebas na madrugada desta quarta-feira (1º). A fuga aconteceu por volta das 2 horas. Os foragidos são Antônio Francisco da Silva Sousa, Cledison Silva dos...",
+  "dominio": "correiodecarajas.com.br",
+  "fontes": [
+   "Correio de Carajás"
+  ],
+  "verificada": true,
+  "mencoes": 0,
+  "descartada": true,
+  "motivo": "O texto da matéria não cita a Unifesspa."
  }
 ]

@@ -1,0 +1,26 @@
+{
+ "quando": "2026-10-15T22:35:05",
+ "novas": 104,
+ "descartadas": 76,
+ "total": 544,
+ "consultas": 62,
+ "falhas": 1,
+ "por_fonte": {
+  "Zé Dudu": 10,
+  "Correio de Carajás": 11,
+  "Portal Canaã": 1,
+  "Portal Pebão": 2,
+  "Blog do Hiroshi Bogéa": 1,
+  "Portal Debate Carajás": 15,
+  "Pebinha de Açúcar": 3,
+  "Fato Regional": 2,
+  "Portal Amazônia": 24,
+  "Carajás O Jornal": 24,
+  "Portal Infopebas": 5,
+  "Portal Chocopeba": 0,
+  "Jornal A Notícia (AN10)": 2,
+  "Sudeste Paraense": 0,
+  "Canaã Notícias": 0,
+  "Alerta do Google": 4
+ }
+}
