@@ -2,22 +2,29 @@
 """Coletor de clipping da Unifesspa (várias fontes, sem chave de acesso e sem custo).
 
 Fontes:
-  google  Google Notícias (busca por termo, em janelas de dias)
-  bing    Bing Notícias (só devolve o último mês; serve para a rotina diária)
-  gdelt   GDELT (base aberta de notícias; cobre cerca de 90 dias)
-  locais  Busca no próprio site de veículos locais que usam WordPress (todo o período)
-  sites   Google Notícias restrito a sites sem feed (DOL Carajás, Gazeta Carajás, G1 Pará)
+  google    Google Notícias (busca por termo, em janelas de dias)
+  bing      Bing Notícias (só devolve o último mês; serve para a rotina diária)
+  gdelt     GDELT (base aberta de notícias; cobre cerca de 90 dias)
+  locais    Busca no próprio site dos veículos locais (API do WordPress, ou o feed da pesquisa)
+  sites     Google Notícias restrito a sites sem feed (DOL Carajás, Gazeta Carajás, G1 Pará)
+  feeds     Feed geral dos veículos locais: tudo o que publicaram, filtrado aqui dentro
+  sitemaps  Sitemap de notícias (últimas 48h) de veículos que não têm feed
+
+Toda matéria nova é lida antes de entrar no clipping: a que não cita a universidade fica marcada
+como descartada (não some, dá para ver e restaurar na página). A leitura também serve para guardar
+o endereço real da matéria, a data que o site declara e o começo do texto.
 
 Uso:
   python coletar.py --inicio 2026-01-01 --fim 2026-10-05      # histórico por período
-  python coletar.py --dias 3                                  # rotina diária (últimos 3 dias)
-  python coletar.py --inicio 2026-09-01 --fim 2026-09-30      # teste de um mês
+  python coletar.py --dias 7                                  # rotina diária
+  python coletar.py --reverificar                             # relê o que já está salvo, sem coletar
   python coletar.py --dias 30 --fontes bing,gdelt             # só algumas fontes
+  python teste_coletar.py                                     # testes (não acessam a internet)
 
 Os resultados ficam em dados/clipping.json e dados/clipping.csv. Rodar de novo
 acrescenta o que for novo e não duplica o que já existe.
 """
-import argparse, base64, csv, html, json, re, sys, time, unicodedata, urllib.error, urllib.parse, urllib.request
+import argparse, base64, csv, html, json, os, re, sys, time, unicodedata, urllib.error, urllib.parse, urllib.request
 import xml.etree.ElementTree as ET
 from datetime import date, datetime, timedelta
 from email.utils import parsedate_to_datetime
@@ -50,6 +57,12 @@ LOCAIS_WORDPRESS = {
     "https://pebinhadeacucar.com.br": "Pebinha de Açúcar",
     "https://fatoregional.com.br": "Fato Regional",
     "https://portalamazonia.com": "Portal Amazônia",
+    "https://www.carajasojornal.com.br": "Carajás O Jornal",
+    "https://www.infopebas.com": "Portal Infopebas",
+    "https://chocopeba.com.br": "Portal Chocopeba",
+    "http://www.an10.com.br": "Jornal A Notícia (AN10)",
+    "https://sudesteparaense.com": "Sudeste Paraense",
+    "https://www.canaanoticias.com.br": "Canaã Notícias",
 }
 # Veículos sem feed: busca no Google Notícias e no Bing restrita ao site (domínio -> nome).
 LOCAIS_SEM_FEED = {
@@ -62,6 +75,14 @@ LOCAIS_SEM_FEED = {
     "adunifesspa.org.br": "ADUNIFESSPA",
     "blogdobranco.com": "Blog do Branco",
     "carajasemfoco.com.br": "Carajás em Foco",
+    "xinguaraativa.com.br": "Xinguara Ativa",
+    "plantaocanaa.com.br": "Plantão Canaã",
+    "romanews.com.br": "Roma News",
+    "agenciapara.com.br": "Agência Pará",
+    "oliberal.com": "O Liberal",
+    "estadodoparaonline.com": "Estado do Pará Online",
+    "rbtv.com.br": "Rede Brasil de Televisão",
+    "diariodopara.com.br": "Diário do Pará",
 }
 # Quando o domínio aparece em qualquer fonte, o veículo recebe sempre o mesmo nome.
 NOMES_POR_DOMINIO = {
@@ -80,6 +101,26 @@ NOMES_POR_DOMINIO = {
     "adunifesspa.org.br": "ADUNIFESSPA",
     "blogdobranco.com": "Blog do Branco",
     "carajasemfoco.com.br": "Carajás em Foco",
+    "carajasojornal.com.br": "Carajás O Jornal",
+    "infopebas.com": "Portal Infopebas",
+    "chocopeba.com.br": "Portal Chocopeba",
+    "an10.com.br": "Jornal A Notícia (AN10)",
+    "sudesteparaense.com": "Sudeste Paraense",
+    "canaanoticias.com.br": "Canaã Notícias",
+    "xinguaraativa.com.br": "Xinguara Ativa",
+    "plantaocanaa.com.br": "Plantão Canaã",
+    "romanews.com.br": "Roma News",
+    "agenciapara.com.br": "Agência Pará",
+    "oliberal.com": "O Liberal",
+    "estadodoparaonline.com": "Estado do Pará Online",
+    "rbtv.com.br": "Rede Brasil de Televisão",
+    "diariodopara.com.br": "Diário do Pará",
+    "dol.com.br": "DOL Carajás",
+}
+# Sitemap de notícias (lista o que o site publicou nas últimas 48h, com título e data).
+# Serve para veículos sem feed, que só apareciam pela busca do Google.
+SITEMAPS_NOTICIAS = {
+    "https://www.gazetacarajas.com/sitemap-news.xml": "Gazeta Carajás",
 }
 # Veículos próprios da universidade: não entram no clipping (é o que a imprensa publica sobre ela).
 DOMINIOS_IGNORADOS = ["unifesspa.edu.br"]
@@ -92,7 +133,10 @@ PAUSA_GDELT = 6          # o GDELT pede no mínimo 5 segundos entre consultas
 MAX_PAGINAS_WP = 40      # páginas de 10 itens por termo e veículo local
 DIAS_GDELT = 90          # janela que o GDELT consegue consultar
 DIAS_BING = 30           # janela que o Bing Notícias consegue consultar
-FONTES = ["google", "bing", "gdelt", "locais", "sites"]
+MAX_PAGINAS_FEED = 2       # páginas do feed geral de cada veículo local
+LIMITE_LEITURA_EXTRA = 25  # matérias lidas por consulta de feed/sitemap para decidir se citam a universidade
+LIMITE_CACHE = 6000        # endereços guardados no cache de leitura
+FONTES = ["google", "bing", "gdelt", "locais", "sites", "feeds", "sitemaps"]
 # Verificação do texto: a busca (principalmente a do Google, que aceita variações como "Unifesp") traz
 # matérias que não falam da universidade. Antes de entrar no clipping, o texto da matéria é lido e
 # conferido. O que não cita a Unifesspa fica marcado como "descartada" (não some: dá para ver e restaurar
@@ -111,6 +155,7 @@ PADRAO_INCIDENTAL = re.compile(
 
 PASTA = Path(__file__).parent / "dados"
 JSON_PATH, CSV_PATH = PASTA / "clipping.json", PASTA / "clipping.csv"
+CACHE_PATH, RESUMO_PATH = PASTA / "cache_textos.json", PASTA / "ultima_coleta.json"
 UA = "Mozilla/5.0 (compatible; ClippingASCOM/1.0)"
 
 
@@ -141,10 +186,19 @@ def data_rfc(txt):
         return ""
 
 
-def _item(titulo, veiculo, dominio, data, link):
+def _item(titulo, veiculo, dominio, data, link, resumo=""):
     dom = dominio_de(dominio) if dominio else ""
     return {"titulo": (titulo or "").strip(), "veiculo": (veiculo or "").strip(),
-            "dominio": dom, "data": data, "link": (link or "").strip()}
+            "dominio": dom, "data": data, "link": (link or "").strip(),
+            "resumo": limpar_resumo(resumo)}
+
+def limpar_resumo(txt, limite=240):
+    """Primeiras linhas da matéria, sem marcação, para a jornalista classificar o tom sem abrir o link."""
+    txt = html.unescape(re.sub(r"(?s)<[^>]+>", " ", txt or ""))
+    txt = re.sub(r"\s+", " ", txt).strip()
+    if len(txt) > limite:
+        txt = txt[:limite].rsplit(" ", 1)[0] + "..."
+    return txt
 
 
 # ---- Fonte 1: Google Notícias ----------------------------------------------
@@ -206,7 +260,7 @@ def consulta_bing(termo, intervalo, baixar_fn=baixar, site=None):
             if ch.tag.split("}")[-1] == "Source":
                 veiculo = (ch.text or "").strip()
         itens.append(_item((it.findtext("title") or "").strip(), veiculo, real,
-                           data_rfc(it.findtext("pubDate")), real))
+                           data_rfc(it.findtext("pubDate")), real, it.findtext("description") or ""))
     return itens
 
 
@@ -250,7 +304,7 @@ def consulta_wordpress(site, nome, termo, ini, baixar_fn=baixar):
     """Resultados da busca do próprio site (feed da pesquisa do WordPress), do mais novo para o mais antigo,
     até chegar a ini. A busca do site já filtra pelo termo."""
     base = termo if '"' in termo else f'"{termo}"'
-    itens = []
+    itens, vistos = [], set()
     for pag in range(1, MAX_PAGINAS_WP + 1):
         url = f"{site}/?" + urllib.parse.urlencode({"s": base, "feed": "rss2", "paged": pag})
         try:
@@ -262,9 +316,12 @@ def consulta_wordpress(site, nome, termo, ini, baixar_fn=baixar):
         pagina = []
         for it in raiz.iter("item"):
             pagina.append(_item((it.findtext("title") or "").strip(), nome, it.findtext("link"),
-                                data_rfc(it.findtext("pubDate")), it.findtext("link")))
-        if not pagina:
+                                data_rfc(it.findtext("pubDate")), it.findtext("link"),
+                                it.findtext("description") or ""))
+        pagina = [x for x in pagina if x["link"] not in vistos]
+        if not pagina:   # fim dos resultados, ou site que ignora a paginação e repete a página
             break
+        vistos.update(x["link"] for x in pagina)
         itens += pagina
         datas = [x["data"] for x in pagina if x["data"]]
         if datas and min(datas) < ini.isoformat():
@@ -273,7 +330,120 @@ def consulta_wordpress(site, nome, termo, ini, baixar_fn=baixar):
     return itens
 
 
+# ---- Fonte 4b: API de busca do WordPress ------------------------------------
+def consulta_wp_rest(site, nome, termo, ini, baixar_fn=baixar):
+    """Busca pela API do WordPress (/wp-json), mais confiável que o feed da pesquisa e já paginada.
+    Devolve [] quando o site não tem a API aberta, e aí vale a busca antiga."""
+    base = termo.strip('"')
+    itens, vistos = [], set()
+    for pag in range(1, MAX_PAGINAS_WP + 1):
+        url = f"{site}/wp-json/wp/v2/posts?" + urllib.parse.urlencode(
+            {"search": base, "per_page": 20, "page": pag, "orderby": "date",
+             "_fields": "link,title,date,excerpt"})
+        try:
+            dados = json.loads(baixar_fn(url).decode("utf-8", "ignore"))
+        except Exception:
+            break
+        if not isinstance(dados, list) or not dados:
+            break
+        antes = len(itens)
+        for a in dados:
+            titulo = html.unescape(re.sub(r"(?s)<[^>]+>", " ", (a.get("title") or {}).get("rendered", "")))
+            if a.get("link") in vistos:
+                continue
+            vistos.add(a.get("link"))
+            itens.append(_item(titulo.strip(), nome, a.get("link"), (a.get("date") or "")[:10],
+                               a.get("link"), (a.get("excerpt") or {}).get("rendered", "")))
+        if len(itens) == antes:   # página repetida
+            break
+        datas = [x["data"] for x in itens if x["data"]]
+        if datas and min(datas) < ini.isoformat():
+            break
+        time.sleep(PAUSA if baixar_fn is baixar else 0)
+    return itens
+
+
+def consulta_local(site, nome, termo, ini, baixar_fn=baixar):
+    """Busca no próprio veículo: tenta a API do WordPress e, se não houver, o feed da pesquisa."""
+    itens = consulta_wp_rest(site, nome, termo, ini, baixar_fn)
+    return itens if itens else consulta_wordpress(site, nome, termo, ini, baixar_fn)
+
+
+# ---- Fonte 6: feed geral dos veículos locais --------------------------------
+def consulta_feed(site, nome, ini, baixar_fn=baixar):
+    """Tudo o que o veículo publicou recentemente (feed geral), filtrado aqui dentro. Não depende da
+    busca do site nem de o Google ter indexado a matéria."""
+    itens, vistos = [], set()
+    for pag in range(1, MAX_PAGINAS_FEED + 1):
+        url = f"{site}/feed/" + (f"?paged={pag}" if pag > 1 else "")
+        try:
+            raiz = ET.fromstring(baixar_fn(url))
+        except Exception:
+            break
+        pagina = [_item((it.findtext("title") or "").strip(), nome, it.findtext("link"),
+                        data_rfc(it.findtext("pubDate")), it.findtext("link"),
+                        it.findtext("description") or "")
+                  for it in raiz.iter("item")]
+        pagina = [x for x in pagina if x["link"] not in vistos]
+        if not pagina:
+            break
+        vistos.update(x["link"] for x in pagina)
+        itens += pagina
+        if [x["data"] for x in pagina if x["data"]] and min(x["data"] for x in pagina if x["data"]) < ini.isoformat():
+            break
+        time.sleep(PAUSA if baixar_fn is baixar else 0)
+    recentes = [x for x in itens if x["data"] >= ini.isoformat()]
+    return filtrar_mencao(recentes, baixar_fn)
+
+
+# ---- Fonte 7: sitemap de notícias -------------------------------------------
+NS_MAPA = "{http://www.sitemaps.org/schemas/sitemap/0.9}"
+NS_NOTICIA = "{http://www.google.com/schemas/sitemap-news/0.9}"
+
+def consulta_sitemap_news(endereco, nome, baixar_fn=baixar):
+    """Matérias das últimas 48h declaradas pelo próprio site no sitemap de notícias, com título e data.
+    É o caminho para veículos sem feed, que hoje só aparecem se o Google indexar."""
+    raiz = ET.fromstring(baixar_fn(endereco))
+    itens = []
+    for u in raiz.iter(NS_MAPA + "url"):
+        link = (u.findtext(NS_MAPA + "loc") or "").strip()
+        noticia = u.find(NS_NOTICIA + "news")
+        titulo = (noticia.findtext(NS_NOTICIA + "title") or "").strip() if noticia is not None else ""
+        data = (noticia.findtext(NS_NOTICIA + "publication_date") or "")[:10] if noticia is not None else ""
+        if link and titulo:
+            itens.append(_item(titulo, nome, link, data, link))
+    return filtrar_mencao(itens, baixar_fn)
+
+
 # ---- Verificação do texto da matéria ----------------------------------------
+# Cada matéria é lida uma única vez; o resultado fica guardado em dados/cache_textos.json,
+# para que rodar de novo não custe nada.
+CACHE_TEXTOS = {}
+
+def carregar_cache():
+    global CACHE_TEXTOS
+    try:
+        CACHE_TEXTOS = json.loads(CACHE_PATH.read_text(encoding="utf-8")) if CACHE_PATH.exists() else {}
+    except Exception:
+        CACHE_TEXTOS = {}
+    return CACHE_TEXTOS
+
+def salvar_cache():
+    PASTA.mkdir(exist_ok=True)
+    itens = list(CACHE_TEXTOS.items())[-LIMITE_CACHE:]
+    CACHE_PATH.write_text(json.dumps(dict(itens), ensure_ascii=False), encoding="utf-8")
+
+def limpar_url(url):
+    """Endereço sem rastreadores e sem barra no fim, para comparar duas versões do mesmo link."""
+    try:
+        p = urllib.parse.urlsplit(url)
+    except Exception:
+        return url or ""
+    q = [(k, v) for k, v in urllib.parse.parse_qsl(p.query)
+         if not k.lower().startswith(("utm_", "fbclid", "gclid", "amp"))]
+    caminho = p.path.rstrip("/") or "/"
+    return urllib.parse.urlunsplit((p.scheme, p.netloc.lower(), caminho, urllib.parse.urlencode(q), ""))
+
 def endereco_google(link, baixar_fn=baixar):
     """Endereço real de uma matéria cujo link é do Google Notícias (que só redireciona pelo navegador).
     Devolve '' se não conseguir."""
@@ -305,52 +475,116 @@ def endereco_google(link, baixar_fn=baixar):
     except Exception:
         return ""
 
-def texto_da_pagina(url, baixar_fn=baixar):
-    """Texto principal de uma página (sem menus, rodapé, scripts), já sem acento e em minúsculas."""
-    bruto = baixar_fn(url)
-    try:
-        pag = bruto.decode("utf-8")
-    except UnicodeDecodeError:
-        pag = bruto.decode("latin-1")
+def texto_do_html(pag):
+    """Texto principal de uma página, sem menus, rodapé e scripts, legível (com acento)."""
     pag = re.sub(r"(?is)<(script|style|noscript|svg|nav|header|footer|aside|form)\b.*?</\1>", " ", pag)
     pag = re.sub(r"(?is)<!--.*?-->", " ", pag)
     m = re.search(r"(?is)<article\b.*?</article>", pag) or re.search(r"(?is)<main\b.*?</main>", pag)
     if m:
         pag = m.group(0)
-    return norm(html.unescape(re.sub(r"(?s)<[^>]+>", " ", pag)))
+    return re.sub(r"\s+", " ", html.unescape(re.sub(r"(?s)<[^>]+>", " ", pag))).strip()
+
+def data_do_html(pag):
+    """Data que a própria matéria declara (aaaa-mm-dd), ou '' se não houver.
+    O GDELT grava a data em que viu a matéria, não a da publicação; esta corrige."""
+    for padrao in (r'article:published_time"[^>]*content="([^"]+)"',
+                   r'content="([^"]+)"[^>]*property="article:published_time"',
+                   r'"datePublished"\s*:\s*"([^"]+)"',
+                   r'<time[^>]+datetime="([^"]+)"'):
+        m = re.search(padrao, pag, re.I)
+        if not m:
+            continue
+        d = re.match(r"(\d{4})-(\d{2})-(\d{2})", m.group(1).strip())
+        if d:
+            try:
+                achada = date.fromisoformat(d.group(0))
+            except ValueError:
+                continue
+            if date(2000, 1, 1) <= achada <= date.today() + timedelta(days=1):
+                return achada.isoformat()
+    return ""
+
+def ler_artigo(link, baixar_fn=baixar):
+    """Lê a matéria (uma vez só) e devolve o endereço real, o nº de menções, a data e o começo do texto."""
+    if link in CACHE_TEXTOS:
+        return CACHE_TEXTOS[link]
+    final = link
+    if "news.google.com" in dominio_de(link):
+        final = endereco_google(link, baixar_fn) or ""
+    r = {"final": limpar_url(final), "m": 0, "pub": "", "ini": "", "ok": False}
+    if final:
+        try:
+            bruto = baixar_fn(final)
+            try:
+                pag = bruto.decode("utf-8")
+            except UnicodeDecodeError:
+                pag = bruto.decode("latin-1")
+        except Exception:
+            pag = ""
+        texto = texto_do_html(pag) if pag else ""
+        # Página vazia, bloqueio ou aviso de cookies: não dá para concluir nada.
+        if len(texto) >= 300:
+            r = {"final": limpar_url(final), "m": len(PADRAO_MENCAO.findall(norm(texto))),
+                 "pub": data_do_html(pag), "ini": limpar_resumo(texto), "ok": True}
+    CACHE_TEXTOS[link] = r
+    return r
+
+def filtrar_mencao(itens, baixar_fn=baixar, limite=LIMITE_LEITURA_EXTRA):
+    """Fica só com as matérias que citam a universidade. Decide pelo título e pelo resumo; quando esses
+    não bastam, lê o texto (até `limite` leituras novas por consulta; as já lidas antes não contam)."""
+    fica, lidas = [], 0
+    for it in itens:
+        if PADRAO_MENCAO.search(norm(it["titulo"] + " " + it.get("resumo", ""))):
+            fica.append(it)
+            continue
+        if it["link"] not in CACHE_TEXTOS:
+            if lidas >= limite:
+                continue
+            lidas += 1
+            time.sleep(PAUSA_VERIFICACAO if baixar_fn is baixar else 0)
+        r = ler_artigo(it["link"], baixar_fn)
+        if r["ok"] and r["m"]:
+            fica.append(it)
+    return fica
 
 def verificar(it, baixar_fn=baixar):
-    """Confere se a matéria cita a Unifesspa. Devolve (situação, nº de citações):
+    """Confere se a matéria cita a Unifesspa. Devolve (situação, leitura):
     'sim', 'nao' (leu o texto e não achou) ou '?' (não foi possível ler a matéria)."""
     n_titulo = len(PADRAO_MENCAO.findall(norm(it["titulo"])))
-    if n_titulo:
-        return "sim", n_titulo
-    link = it["link"]
-    if "news.google.com" in dominio_de(link):
-        link = endereco_google(link, baixar_fn)
-    if not link:
-        return "?", 0
-    try:
-        texto = texto_da_pagina(link, baixar_fn)
-    except Exception:
-        return "?", 0
-    if len(texto) < 300:  # página vazia, bloqueio ou aviso de cookies: não dá para concluir
-        return "?", 0
-    n = len(PADRAO_MENCAO.findall(texto))
-    return ("sim" if n else "nao"), n
+    r = ler_artigo(it["link"], baixar_fn)
+    if n_titulo and not r["ok"]:
+        return "sim", {"final": "", "m": n_titulo, "pub": "", "ini": "", "ok": False}
+    if not r["ok"]:
+        return "?", r
+    if r["m"] or n_titulo:
+        return "sim", r
+    return "nao", r
 
 def aplicar_verificacao(reg, baixar_fn=baixar):
-    """Grava no registro o resultado da verificação. Só descarta quando leu a matéria e a Unifesspa não aparece,
-    ou quando o título indica lista de locais de votação e a universidade aparece só uma vez."""
-    situacao, n = verificar(reg, baixar_fn)
+    """Confere a matéria e aproveita a leitura para guardar o endereço real (no lugar do redirecionamento
+    do Google), a data que o site declara e o começo do texto. Só descarta quando leu a matéria e a
+    universidade não aparece, ou quando é menção de passagem em lista de locais de votação e agenda."""
+    situacao, r = verificar(reg, baixar_fn)
     reg["verificada"] = situacao != "?"
-    reg["mencoes"] = n
+    reg["mencoes"] = r["m"]
+    if r.get("final") and "news.google.com" not in r["final"]:
+        reg["link"] = r["final"]
+        reg["dominio"] = dominio_de(r["final"])
+        # O nome do veículo só é trocado quando não havia um de verdade: a página identifica cada
+        # matéria por título e veículo, e trocar o nome perderia o tom já classificado pela jornalista.
+        if not reg.get("veiculo") or reg["veiculo"] in ("Sem identificação", reg["dominio"]):
+            padronizar(reg)
+    if r.get("pub") and r["pub"] != reg.get("data"):
+        reg["data_feed"] = reg.get("data")
+        reg["data"] = r["pub"]
+    if r.get("ini") and not reg.get("resumo"):
+        reg["resumo"] = r["ini"]
     if reg.pop("motivo", None):  # resultado de uma verificação anterior: refaz do zero
         reg.pop("descartada", None)
     if situacao == "nao":
         reg["descartada"] = True
         reg["motivo"] = "O texto da matéria não cita a Unifesspa."
-    elif situacao == "sim" and n <= 1 and PADRAO_INCIDENTAL.search(norm(reg["titulo"])) \
+    elif situacao == "sim" and r["m"] <= 1 and PADRAO_INCIDENTAL.search(norm(reg["titulo"])) \
             and not PADRAO_MENCAO.search(norm(reg["titulo"])):
         reg["descartada"] = True
         reg["motivo"] = "Menção apenas incidental (local de votação ou lista de agenda)."
@@ -405,12 +639,14 @@ class Indice:
     domínio. Registros antigos (sem domínio) também casam por título e data."""
 
     def __init__(self, regs):
-        self.por_veic, self.por_dom, self.por_data = {}, {}, {}
+        self.por_veic, self.por_dom, self.por_data, self.por_url = {}, {}, {}, {}
         for r in regs:
             self.add(r)
 
     def add(self, r):
         t = norm(r["titulo"])
+        if r.get("link"):
+            self.por_url[limpar_url(r["link"])] = r
         self.por_veic[t + "|" + norm(r["veiculo"])] = r
         if r.get("dominio"):
             self.por_dom[t + "|" + r["dominio"]] = r
@@ -419,7 +655,8 @@ class Indice:
 
     def achar(self, it):
         t = norm(it["titulo"])
-        return (self.por_veic.get(t + "|" + norm(it["veiculo"]))
+        return (self.por_url.get(limpar_url(it["link"])) if it.get("link") else None) \
+            or (self.por_veic.get(t + "|" + norm(it["veiculo"]))
                 or (self.por_dom.get(t + "|" + it["dominio"]) if it["dominio"] else None)
                 or self.por_data.get(t + "|" + it["data"]))
 
@@ -466,7 +703,7 @@ def tarefas(fontes, ini, fim, janela, hoje):
         for site, nome in LOCAIS_WORDPRESS.items():
             for termo in TERMOS_BASE:
                 yield (nome, termo[:40],
-                       lambda baixar_fn, avisos, site=site, nome=nome, termo=termo: consulta_wordpress(site, nome, termo, ini, baixar_fn), nome, termo)
+                       lambda baixar_fn, avisos, site=site, nome=nome, termo=termo: consulta_local(site, nome, termo, ini, baixar_fn), nome, termo)
     if "sites" in fontes:
         for site, nome in LOCAIS_SEM_FEED.items():
             for termo in TERMOS_SITES:
@@ -477,6 +714,43 @@ def tarefas(fontes, ini, fim, janela, hoje):
                     iv = 8 if (hoje - ini_bing).days <= 7 else 9
                     yield (nome + " (Bing)", termo[:40],
                            lambda baixar_fn, avisos, termo=termo, site=site, iv=iv: consulta_bing(termo, iv, baixar_fn, site), nome, termo)
+
+
+def tarefas_extras(fontes, ini, fim, hoje):
+    """Fontes que não dependem de busca: o feed geral de cada veículo e o sitemap de notícias."""
+    if "feeds" in fontes:
+        for site, nome in LOCAIS_WORDPRESS.items():
+            yield (nome + " (feed)", "últimas publicadas",
+                   lambda baixar_fn, avisos, site=site, nome=nome: consulta_feed(site, nome, ini, baixar_fn),
+                   nome, "Feed do veículo")
+    if "sitemaps" in fontes:
+        for endereco, nome in SITEMAPS_NOTICIAS.items():
+            yield (nome + " (sitemap)", "últimas 48 horas",
+                   lambda baixar_fn, avisos, e=endereco, nome=nome: consulta_sitemap_news(e, nome, baixar_fn),
+                   nome, "Sitemap de notícias")
+
+
+def registrar_resumo(numeros):
+    """Guarda os números da coleta e, no GitHub, escreve o mesmo resumo na página do Actions,
+    para dar para ver num relance se a coleta funcionou."""
+    PASTA.mkdir(exist_ok=True)
+    RESUMO_PATH.write_text(json.dumps(numeros, ensure_ascii=False, indent=1), encoding="utf-8")
+    caminho = os.environ.get("GITHUB_STEP_SUMMARY")
+    if not caminho:
+        return
+    linhas = [f"### Clipping de {br(numeros['quando'][:10])}", "",
+              f"- Matérias novas: **{numeros['novas']}**",
+              f"- Descartadas pela verificação do texto: {numeros['descartadas']}",
+              f"- Total no clipping: {numeros['total']}",
+              f"- Consultas: {numeros['consultas']}, falhas: {numeros['falhas']}", ""]
+    if numeros.get("por_fonte"):
+        linhas += ["| Fonte | Novas |", "| --- | --- |"]
+        linhas += [f"| {k} | {v} |" for k, v in sorted(numeros["por_fonte"].items(), key=lambda x: -x[1]) if v]
+    try:
+        with open(caminho, "a", encoding="utf-8") as f:
+            f.write("\n".join(linhas) + "\n")
+    except Exception:
+        pass
 
 
 def principal(argv=None, baixar_fn=baixar):
@@ -502,6 +776,7 @@ def principal(argv=None, baixar_fn=baixar):
         fim = lerdata(a.fim) if a.fim else hoje
 
     regs = carregar()
+    carregar_cache()
     if a.reverificar:
         pendentes = [r for r in regs if "verificada" not in r or not r["verificada"]]
         antes = sum(1 for r in regs if r.get("descartada"))
@@ -510,7 +785,7 @@ def principal(argv=None, baixar_fn=baixar):
             time.sleep(PAUSA_VERIFICACAO if baixar_fn is baixar else 0)
             if k % 25 == 0:
                 print(f"  {k}/{len(pendentes)} verificadas", flush=True)
-        salvar(regs)
+        salvar(regs); salvar_cache()
         depois = sum(1 for r in regs if r.get("descartada"))
         nao_lidas = sum(1 for r in pendentes if not r["verificada"])
         print(f"Reverificação: {len(pendentes)} matérias lidas, {depois - antes} novas descartadas, "
@@ -519,7 +794,8 @@ def principal(argv=None, baixar_fn=baixar):
     indice = Indice(regs)
     novos, avisos, falhas, total_consultas, descartadas = 0, [], 0, 0, 0
     por_fonte = {}
-    for fonte, desc, fn, nome, termo in tarefas(fontes, ini, fim, a.janela, hoje):
+    todas_tarefas = list(tarefas(fontes, ini, fim, a.janela, hoje)) + list(tarefas_extras(fontes, ini, fim, hoje))
+    for fonte, desc, fn, nome, termo in todas_tarefas:
         total_consultas += 1
         try:
             itens = fn(baixar_fn, avisos)
@@ -545,9 +821,11 @@ def principal(argv=None, baixar_fn=baixar):
                     fs.append(fonte)
                 if termo not in existente["termos"]:
                     existente["termos"].append(termo)
+                if it.get("resumo") and not existente.get("resumo"):
+                    existente["resumo"] = it["resumo"]
                 continue
             reg = {"data": it["data"], "veiculo": it["veiculo"], "titulo": it["titulo"],
-                   "link": it["link"], "termos": [termo],
+                   "link": it["link"], "termos": [termo], "resumo": it.get("resumo", ""),
                    "dominio": it["dominio"], "fontes": [fonte]}
             if VERIFICAR_TEXTO and not a.sem_verificacao:
                 aplicar_verificacao(reg, baixar_fn)
@@ -557,13 +835,21 @@ def principal(argv=None, baixar_fn=baixar):
             indice.add(reg); regs.append(reg); novos += 1; achou += 1
         por_fonte[fonte] = por_fonte.get(fonte, 0) + achou
         print(f"{fonte:18} {desc[:60]:60} {len(itens):4} itens, {achou} novos", flush=True)
-    salvar(regs)
+    salvar(regs); salvar_cache()
+    registrar_resumo({"quando": datetime.now().isoformat(timespec="seconds"), "novas": novos,
+                      "descartadas": descartadas, "total": len(regs), "consultas": total_consultas,
+                      "falhas": falhas, "por_fonte": por_fonte})
     print("\nNovas matérias por fonte:", ", ".join(f"{k} {v}" for k, v in por_fonte.items()) or "nenhuma")
     print(f"Descartadas pela verificação do texto: {descartadas}")
     print(f"Concluído: {novos} matérias novas, {len(regs)} no total. Consultas: {total_consultas}. Falhas: {falhas}.")
     for av in avisos:
         print("Aviso:", av)
-    return 1 if falhas and not regs else 0
+    # Falhar de verdade quando a maior parte das consultas der erro: sinal verde com coleta quebrada
+    # é pior que vermelho, porque ninguém percebe.
+    if falhas and (not regs or falhas >= max(1, total_consultas // 2)):
+        print("Erro: metade ou mais das consultas falhou.", file=sys.stderr)
+        return 1
+    return 0
 
 
 if __name__ == "__main__":
