@@ -116,6 +116,34 @@ dialog::backdrop{background:rgba(10,20,15,.55)}
 .negitem{padding:8px 0;border-top:1px solid var(--line);font-size:13px}
 .negitem:first-of-type{border-top:0}
 .printonly{display:none}
+.badge.naover{background:var(--neu-bg);color:var(--muted);font-weight:700}
+.atrasada{color:var(--neg);font-weight:700}
+.rep table{width:100%;max-width:780px;border-collapse:collapse;font-size:12.5px;margin-top:4px}
+.rep table.larga{max-width:none}
+.rep th,.rep td{padding:7px 8px;border-bottom:1px solid var(--line);text-align:left}
+.rep th{font-size:11.5px;text-transform:uppercase;letter-spacing:.03em;color:var(--muted);font-weight:700}
+.rep td.n,.rep th.n{text-align:right;font-variant-numeric:tabular-nums}
+.rep tfoot td{font-weight:800;border-top:2px solid var(--line);border-bottom:0}
+.rep .pos{color:var(--pos);font-weight:700}.rep .neg{color:var(--neg);font-weight:700}
+.rep .destaque{padding:10px 0;border-top:1px solid var(--line)}
+.rep .destaque:first-of-type{border-top:0}
+.rep .destaque h4{margin:3px 0 4px;font-size:14px;font-weight:700;line-height:1.35}
+.rep .destaque h4 a{color:inherit;text-decoration:none}
+.rep .destaque h4 a:hover{text-decoration:underline}
+.rep .capa{display:flex;justify-content:space-between;align-items:flex-start;gap:16px;flex-wrap:wrap}
+.lote{display:grid;gap:10px}
+.lote .cab{display:flex;gap:8px;align-items:center;flex-wrap:wrap;font-size:12.5px;color:var(--muted)}
+.lote h4{margin:0;font-size:17px;font-weight:700;line-height:1.35}
+.lote h4 a{color:inherit}
+.lote .res{background:var(--bg);border-radius:12px;padding:12px 14px;font-size:13.5px;line-height:1.6}
+.lote .prog{height:6px;background:var(--line);border-radius:99px;overflow:hidden}
+.lote .prog i{display:block;height:100%;background:var(--accent)}
+.lotebtn{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}
+.lotebtn button{border:1px solid var(--line);border-radius:12px;padding:12px 8px;font:800 14px var(--font);cursor:pointer;background:var(--surface)}
+.lotebtn button small{display:block;font-size:11px;font-weight:600;color:var(--muted);margin-top:2px}
+.lotebtn button.p{background:var(--pos-bg);color:var(--pos);border-color:transparent}
+.lotebtn button.n{background:var(--neu-bg);color:var(--neu);border-color:transparent}
+.lotebtn button.g{background:var(--neg-bg);color:var(--neg);border-color:transparent}
 .panel{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:14px 16px;margin-bottom:18px}
 .panel h3{margin:0 0 2px;font-size:14px;font-weight:800}
 .panel .meta{margin-bottom:10px}
@@ -178,6 +206,7 @@ footer.pg{margin-top:28px;text-align:center;color:var(--muted);font-size:12.5px}
         <div class="f"><label for="fOrigem">Origem</label><select id="fOrigem"></select></div>
         <label class="check"><input type="checkbox" id="fDesc"> Mostrar matérias descartadas</label>
         <div class="count" id="contagem"></div>
+        <button class="btn small" id="btnLote" type="button">Classificar em lote</button>
         <button class="btn small" id="btnCsv" type="button">Baixar planilha (.csv)</button>
       </aside>
       <section>
@@ -220,6 +249,12 @@ footer.pg{margin-top:28px;text-align:center;color:var(--muted);font-size:12.5px}
     <button class="btn" id="bolLimpar" type="button">Limpar seleção</button>
     <button class="btn primary" id="bolCopiar" type="button">Copiar para e-mail</button>
   </div>
+</dialog>
+
+<dialog id="dlgLote">
+  <div class="dh"><h3>Classificar em lote</h3><button class="btn small" data-close type="button">Fechar</button></div>
+  <div class="db" id="loteBody"></div>
+  <div class="df" id="loteFoot"></div>
 </dialog>
 
 <script>
@@ -366,13 +401,16 @@ function kpis(){
 function selOpts(lista,atual,vazio){ return '<option value="">'+vazio+'</option>'+lista.map(function(a){return '<option'+(a===atual?' selected':'')+'>'+a+'</option>';}).join(''); }
 function lista(){
   var its=filtrar(); $('contagem').textContent=its.length+(its.length===1?' matéria':' matérias');
+  var pend=its.filter(function(r){return !r.descartada&&r.tom==='Pendente';}).length;
+  $('btnLote').textContent=pend?'Classificar em lote ('+pend+')':'Classificar em lote';
+  $('btnLote').disabled=!pend;
   if(!its.length){ $('lista').innerHTML='<div class="empty">Nenhuma matéria encontrada neste período com esses filtros.</div>'; return; }
   $('lista').innerHTML=its.map(function(r){
     var link=safeUrl(r.link), tit=link?'<a href="'+esc(link)+'" target="_blank" rel="noopener">'+esc(r.titulo)+'</a>':esc(r.titulo), on=selBol.indexOf(r.id)>=0, open=editing[r.id];
     var chips=(r.assunto?'<span class="chip">'+esc(r.assunto)+'</span>':'')+(r.origem?'<span class="chip">'+esc(r.origem)+'</span>':'');
     return '<article class="item'+(on?' sel':'')+(r.descartada?' off':'')+'" data-id="'+r.id+'">'+
       '<div class="row1"><span class="chip veic">'+esc(r.veiculo||'Veículo não informado')+'</span><span>'+fmt(r.data)+'</span>'+(r.alcance?'<span>· '+esc(r.alcance)+'</span>':'<span>· alcance não definido</span>')+
-      '<span class="sp"></span><span class="badge t-'+r.tom+'">'+(r.tom==='Pendente'?'A classificar':r.tom)+(r.revisado?' ✓':'')+'</span></div>'+
+      '<span class="sp"></span>'+(r.verificada===false&&!r.manual?'<span class="badge naover" title="A página do veículo não pôde ser lida, então não deu para confirmar que o texto cita a Unifesspa.">texto não conferido</span>':'')+'<span class="badge t-'+r.tom+'">'+(r.tom==='Pendente'?'A classificar':r.tom)+(r.revisado?' ✓':'')+'</span></div>'+
       '<h3>'+tit+'</h3>'+
       '<div class="meta">'+(r.manual?'Cadastro manual':'Encontrada por: '+esc((r.termos||[]).join(', ')))+(r.descartada?' · <b>descartada</b>':'')+'</div>'+
       (chips?'<div style="margin-top:6px;display:flex;gap:6px;flex-wrap:wrap">'+chips+'</div>':'')+
@@ -403,6 +441,59 @@ $('lista').addEventListener('change',function(e){
   atualizar();
 });
 
+/* ---------- classificação em lote ---------- */
+var fila=[], filaPos=0, feitos=0, desfazer=[];
+function pendentesNaTela(){ return filtrar().filter(function(r){return !r.descartada&&r.tom==='Pendente';}); }
+function abrirLote(){
+  fila=pendentesNaTela(); filaPos=0; feitos=0; desfazer=[];
+  pintarLote(); if(!$('dlgLote').open) $('dlgLote').showModal();
+}
+function pintarLote(){
+  var total=fila.length;
+  if(filaPos>=total){
+    $('loteBody').innerHTML='<div class="empty">'+(feitos?feitos+' matéria'+(feitos===1?'':'s')+' classificada'+(feitos===1?'':'s')+'. Fim da fila.':'Não há matérias a classificar com os filtros e o período atuais.')+'</div>';
+    $('loteFoot').innerHTML='<button class="btn primary" type="button" data-lote="fim">Concluir</button>';
+    return;
+  }
+  var r=fila[filaPos], link=safeUrl(r.link);
+  $('loteBody').innerHTML='<div class="lote">'+
+    '<div class="prog"><i style="width:'+pct(filaPos,total)+'%"></i></div>'+
+    '<div class="cab"><span class="chip veic">'+esc(r.veiculo||'Veículo não informado')+'</span><span>'+fmt(r.data)+'</span>'+(r.alcance?'<span>· '+esc(r.alcance)+'</span>':'')+'<span class="sp"></span><span>'+(filaPos+1)+' de '+total+'</span></div>'+
+    '<h4>'+(link?'<a href="'+esc(link)+'" target="_blank" rel="noopener">'+esc(r.titulo)+'</a>':esc(r.titulo))+'</h4>'+
+    '<div class="res">'+(r.resumo?esc(r.resumo):'<span class="meta">Sem resumo guardado para esta matéria. Abra o link para ler.</span>')+'</div>'+
+    '<div class="lotebtn">'+
+      '<button type="button" class="p" data-lote="Positivo">Positiva<small>tecla 1</small></button>'+
+      '<button type="button" class="n" data-lote="Neutro">Neutra<small>tecla 2</small></button>'+
+      '<button type="button" class="g" data-lote="Negativo">Negativa<small>tecla 3</small></button>'+
+    '</div>'+
+    '<div class="meta">Atalhos: 1, 2 e 3 classificam, barra de espaço pula, Z desfaz, Esc sai.</div>'+
+  '</div>';
+  $('loteFoot').innerHTML='<button class="btn" type="button" data-lote="desfazer"'+(desfazer.length?'':' disabled')+'>Desfazer (Z)</button>'+
+    '<button class="btn" type="button" data-lote="pular">Pular</button>'+
+    '<button class="btn primary" type="button" data-lote="fim">Concluir</button>';
+}
+function loteAcao(a){
+  if(a==='fim'){ $('dlgLote').close(); return; }
+  if(a==='pular'){ if(filaPos<fila.length){filaPos++;pintarLote();} return; }
+  if(a==='desfazer'){ var u=desfazer.pop(); if(u){ setOver(u.id,{tom:u.tom||'',revisado:!!u.tom}); filaPos=u.pos; feitos=Math.max(0,feitos-1); } pintarLote(); return; }
+  if(TONS.indexOf(a)<0) return;
+  var r=fila[filaPos]; if(!r) return;
+  desfazer.push({id:r.id,pos:filaPos,tom:r.tom==='Pendente'?'':r.tom});
+  setOver(r.id,{tom:a,revisado:true}); feitos++; filaPos++; pintarLote();
+}
+$('dlgLote').addEventListener('click',function(e){ var b=e.target.closest('[data-lote]'); if(b&&!b.disabled) loteAcao(b.getAttribute('data-lote')); });
+$('dlgLote').addEventListener('keydown',function(e){
+  if(e.key==='1') loteAcao('Positivo');
+  else if(e.key==='2') loteAcao('Neutro');
+  else if(e.key==='3') loteAcao('Negativo');
+  else if(e.key===' '||e.key==='ArrowRight'){ e.preventDefault(); loteAcao('pular'); }
+  else if(e.key==='z'||e.key==='Z') loteAcao('desfazer');
+  else return;
+  e.stopPropagation();
+});
+$('dlgLote').addEventListener('close',function(){ atualizar(); });
+$('btnLote').onclick=abrirLote;
+
 /* ---------- relatório ---------- */
 function barras(pares,total,cor){ return pares.map(function(p){return '<div class="bar"><span class="lab" title="'+esc(p[0])+'">'+esc(p[0])+'</span><span class="tr"><i style="width:'+pct(p[1],total)+'%;background:'+(cor||'var(--accent)')+'"></i></span><span class="val">'+p[1]+' · '+pct1(p[1],total)+'</span></div>';}).join('')||'<div class="meta">Sem dados.</div>'; }
 function evolucao(its){
@@ -425,21 +516,115 @@ function painelEvo(){
   var tit={dia:'por dia',semana:'por semana',mes:'por mês','':''}[ev.modo];
   $('evoPanel').innerHTML='<h3>Evolução das matérias '+tit+'</h3><div class="meta">'+(ev.max?'Maior movimento: '+ev.max+' matéria'+(ev.max===1?'':'s')+' em um '+({dia:'dia',semana:'período de 7 dias',mes:'mês'}[ev.modo])+'. ':'')+'Cores: verde positivas, cinza neutras, vermelho negativas, claro a classificar.</div>'+ev.html;
 }
+function mesesEntre(ini,fim){
+  var out=[], y=+ini.slice(0,4), m=+ini.slice(5,7), yf=+fim.slice(0,4), mf=+fim.slice(5,7);
+  while((y<yf||(y===yf&&m<=mf))&&out.length<24){ out.push(y+'-'+pad(m)); m++; if(m>12){m=1;y++;} }
+  return out;
+}
+function mesAnoAnterior(m){ return (+m.slice(0,4)-1)+'-'+m.slice(5,7); }
+function variacao(a,b){
+  if(!b) return a?'<span class="meta">sem base</span>':'<span class="meta">—</span>';
+  var v=Math.round((a-b)/b*100);
+  return '<span class="'+(v>0?'pos':v<0?'neg':'')+'">'+(v>0?'+':'')+v+'%</span>';
+}
+function noMes(its,m){ return its.filter(function(r){return (r.data||'').slice(0,7)===m;}).length; }
+function tabelaMeses(todasAtivas,f){
+  var ms=mesesEntre(f.ini==='0000-00-00'?(todasAtivas.length?todasAtivas.map(function(r){return r.data;}).sort()[0]:'2026-01'):f.ini,
+                    f.fim==='9999-99-99'?new Date().toISOString().slice(0,10):f.fim);
+  if(!ms.length) return '<div class="meta">Sem meses no período.</div>';
+  var tot=0, totAnt=0;
+  var linhas=ms.map(function(m){
+    var a=noMes(todasAtivas,m), b=noMes(todasAtivas,mesAnoAnterior(m));
+    tot+=a; totAnt+=b;
+    return '<tr><td>'+nomeMes(m)+'</td><td class="n">'+a+'</td><td class="n">'+b+'</td><td class="n">'+variacao(a,b)+'</td></tr>';
+  }).join('');
+  return '<table><thead><tr><th>Mês</th><th class="n">Inserções</th><th class="n">Mesmo mês do ano anterior</th><th class="n">Variação</th></tr></thead>'+
+    '<tbody>'+linhas+'</tbody><tfoot><tr><td>Total</td><td class="n">'+tot+'</td><td class="n">'+totAnt+'</td><td class="n">'+variacao(tot,totAnt)+'</td></tr></tfoot></table>'+
+    (totAnt?'':'<p class="meta" style="margin:8px 0 0">O ano anterior ainda não tem matérias nesta base, então a comparação fica vazia até a primeira virada de ano.</p>');
+}
+function tabelaVeiculos(its,t){
+  var ord=ordenar(contar(its,'veiculo')), top=ord.slice(0,15), resto=ord.slice(15);
+  if(!ord.length) return '<div class="meta">Sem matérias no período.</div>';
+  var linhas=top.map(function(p,i){
+    var doVeic=its.filter(function(r){return (r.veiculo||'(não informado)')===p[0];}), tons=porTom(doVeic);
+    return '<tr><td class="n">'+(i+1)+'</td><td>'+esc(p[0])+'</td><td>'+esc(veicAlcance(p[0])||'não definido')+'</td>'+
+      '<td class="n">'+p[1]+'</td><td class="n">'+pct1(p[1],t)+'</td>'+
+      '<td class="n"><span class="pos">'+tons.Positivo+'</span> · '+tons.Neutro+' · <span class="neg">'+tons.Negativo+'</span></td></tr>';
+  }).join('');
+  var somaResto=resto.reduce(function(a,p){return a+p[1];},0);
+  return '<table class="larga"><thead><tr><th class="n">#</th><th>Veículo</th><th>Alcance</th><th class="n">Inserções</th><th class="n">Participação</th><th class="n">Pos · Neu · Neg</th></tr></thead><tbody>'+linhas+
+    (resto.length?'<tr><td></td><td>Demais '+resto.length+' veículos</td><td></td><td class="n">'+somaResto+'</td><td class="n">'+pct1(somaResto,t)+'</td><td></td></tr>':'')+
+    '</tbody></table>';
+}
+function blocoAlcance(its,t){
+  var c=contar(its,'alcance');
+  var ordem=['Local','Regional','Estadual','Nacional','(não informado)'];
+  var pares=ordem.filter(function(a){return c[a];}).map(function(a){return [a,c[a]];});
+  var fora=(c['Estadual']||0)+(c['Nacional']||0), dentro=(c['Local']||0)+(c['Regional']||0), semA=c['(não informado)']||0;
+  var h=barras(pares,t);
+  h+='<div class="repbig" style="margin-top:12px"><div><b>'+dentro+'</b><span>na região ('+pct1(dentro,t)+')</span></div>'+
+     '<div><b>'+fora+'</b><span>fora da região, em veículos estaduais e nacionais ('+pct1(fora,t)+')</span></div></div>';
+  if(semA) h+='<p class="meta" style="margin:10px 0 0">'+semA+' matéria(s) ainda sem alcance definido. Defina pelo painel, em Detalhes, e o número passa a valer para todas as matérias do veículo.</p>';
+  return h;
+}
+function blocoDestaques(its){
+  var peso={Nacional:3,Estadual:2,Regional:1,Local:0};
+  var cand=its.filter(function(r){return r.tom!=='Negativo';}).map(function(r){
+    return {r:r,s:(r.tom==='Positivo'?3:0)+(peso[r.alcance]||0)};
+  }).sort(function(a,b){ return b.s-a.s||(a.r.data<b.r.data?1:-1); });
+  var sel=cand.filter(function(x){return x.s>0;}).slice(0,8);
+  if(!sel.length) sel=cand.slice(0,5);
+  if(!sel.length) return '<div class="meta">Sem matérias no período.</div>';
+  return sel.map(function(x){
+    var r=x.r, l=safeUrl(r.link);
+    return '<div class="destaque"><div class="meta"><b>'+esc(r.veiculo||'Veículo não informado')+'</b> · '+fmt(r.data)+
+      (r.alcance?' · '+esc(r.alcance):'')+(r.tom==='Positivo'?' · <span class="pos">positiva</span>':'')+'</div>'+
+      '<h4>'+(l?'<a href="'+esc(l)+'" target="_blank" rel="noopener">'+esc(r.titulo)+'</a>':esc(r.titulo))+'</h4>'+
+      (r.resumo?'<div class="meta">'+esc(r.resumo)+'</div>':'')+'</div>';
+  }).join('');
+}
 function relatorio(){
-  var f=faixa(periodoKey), all=todas(), pend=noPeriodo(all,f).filter(function(r){return r.descartada;}).length, its=ativas(noPeriodo(all,f)), t=its.length, tons=porTom(its), cl=tons.Positivo+tons.Neutro+tons.Negativo;
-  var h='<section><h2>Relatório de imprensa</h2><p>'+esc(f.nome)+'. Gerado em '+fmt(new Date().toISOString().slice(0,10))+'.</p>';
+  var f=faixa(periodoKey), all=todas(), ativasTodas=ativas(all);
+  var pend=noPeriodo(all,f).filter(function(r){return r.descartada;}).length;
+  var its=ativas(noPeriodo(all,f)), t=its.length, tons=porTom(its), cl=tons.Positivo+tons.Neutro+tons.Negativo;
+  var naoConf=its.filter(function(r){return r.verificada===false&&!r.manual;}).length;
+
+  var h='<section><div class="capa"><div><h2>Indicadores Assessoria de Imprensa</h2>'+
+    '<p>'+esc(f.nome)+'. Gerado em '+fmt(new Date().toISOString().slice(0,10))+'.</p></div>'+
+    '<div class="printonly meta" style="text-align:right">Universidade Federal do Sul e Sudeste do Pará<br>Assessoria de Comunicação</div></div>';
   h+='<div class="noprint" style="margin-bottom:12px"><button class="btn primary" id="btnPrint" type="button">Imprimir ou salvar em PDF</button> <button class="btn" id="btnCsv2" type="button">Baixar planilha (.csv)</button></div>';
-  if(tons.Pendente) h+='<div class="notice" style="display:flex"><span><b>'+tons.Pendente+' matéria'+(tons.Pendente>1?'s':'')+' ainda sem classificação.</b> Os percentuais abaixo consideram apenas as '+cl+' classificadas.</span></div>';
-  h+='<div class="repbig"><div><b>'+t+'</b><span>inserções na mídia</span></div><div><b style="color:var(--pos)">'+tons.Positivo+'</b><span>positivas ('+pct1(tons.Positivo,cl)+')</span></div><div><b style="color:var(--neu)">'+tons.Neutro+'</b><span>neutras ('+pct1(tons.Neutro,cl)+')</span></div><div><b style="color:var(--neg)">'+tons.Negativo+'</b><span>negativas ('+pct1(tons.Negativo,cl)+')</span></div></div>';
+  if(tons.Pendente) h+='<div class="notice" style="display:flex"><span><b>'+tons.Pendente+' matéria'+(tons.Pendente>1?'s':'')+' ainda sem classificação.</b> Os percentuais de tom consideram apenas as '+cl+' classificadas.</span></div>';
+  h+='<div class="repbig"><div><b>'+t+'</b><span>inserções na mídia</span></div>'+
+     '<div><b style="color:var(--pos)">'+tons.Positivo+'</b><span>positivas ('+pct1(tons.Positivo,cl)+')</span></div>'+
+     '<div><b style="color:var(--neu)">'+tons.Neutro+'</b><span>neutras ('+pct1(tons.Neutro,cl)+')</span></div>'+
+     '<div><b style="color:var(--neg)">'+tons.Negativo+'</b><span>negativas ('+pct1(tons.Negativo,cl)+')</span></div></div>';
   if(f.prev){ var pn=ativas(noPeriodo(all,f.prev)).length; h+='<p style="margin:12px 0 0;font-size:13px">'+(pn?'Período anterior: <b>'+pn+'</b> inserções ('+(t>=pn?'+':'')+Math.round((t-pn)/pn*100)+'%).':'Não há dados do período anterior nesta base.')+'</p>'; }
-  h+='<p style="margin:10px 0 0;font-size:12.5px;color:var(--muted)">Índice de publicação positiva: positivas sobre o total de matérias classificadas ('+pct1(tons.Positivo,cl)+'). As neutras são apresentadas separadamente.</p></section>';
+  h+='</section>';
+
+  h+='<section><h2>Tom da cobertura</h2><p>As neutras são contadas à parte e não entram no índice de publicação positiva.</p>'+
+    stackHtml(tons,t)+
+    '<div class="repbig" style="margin-top:12px"><div><b>'+pct1(tons.Positivo,cl)+'</b><span>índice de publicação positiva (positivas sobre as classificadas)</span></div>'+
+    '<div><b>'+pct1(tons.Neutro,cl)+'</b><span>neutras, apresentadas em separado</span></div>'+
+    '<div><b>'+pct1(tons.Negativo,cl)+'</b><span>negativas</span></div></div></section>';
+
+  h+='<section><h2>Inserções por mês</h2><p>Comparação com o mesmo mês do ano anterior.</p>'+tabelaMeses(ativasTodas,f)+'</section>';
 
   var ev=evolucao(its); h+='<section><h2>Evolução '+({dia:'por dia',semana:'por semana',mes:'por mês','':''}[ev.modo])+'</h2><p>Inserções ao longo do período, divididas por tom (verde positivas, cinza neutras, vermelho negativas, claro a classificar).</p>'+ev.html+'</section>';
-  h+='<div class="twocol"><section><h2>Alcance</h2><p>Onde a universidade foi citada.</p>'+barras(ordenar(contar(its,'alcance')),t)+'</section><section><h2>Assuntos</h2><p>Temas das matérias.</p>'+barras(ordenar(contar(its,'assunto')),t)+'</section></div>';
-  h+='<div class="twocol"><section><h2>Veículos que mais citam</h2><p>Dez primeiros.</p>'+barras(ordenar(contar(its,'veiculo')).slice(0,10),t)+'</section><section><h2>Origem da pauta</h2><p>Divulgação da ASCOM e matérias espontâneas.</p>'+barras(ordenar(contar(its,'origem')),t)+'</section></div>';
+
+  h+='<section><h2>Alcance</h2><p>Onde a universidade foi citada.</p>'+blocoAlcance(its,t)+'</section>';
+  h+='<section><h2>Ranking de veículos</h2><p>Quem mais citou a universidade no período.</p>'+tabelaVeiculos(its,t)+'</section>';
+  h+='<div class="twocol"><section><h2>Assuntos</h2><p>Temas das matérias.</p>'+barras(ordenar(contar(its,'assunto')),t)+'</section><section><h2>Origem da pauta</h2><p>Divulgação da ASCOM e matérias espontâneas.</p>'+barras(ordenar(contar(its,'origem')),t)+'</section></div>';
+
+  h+='<section><h2>Destaques do período</h2><p>Matérias positivas e de maior alcance.</p>'+blocoDestaques(its)+'</section>';
+
   var neg=its.filter(function(r){return r.tom==='Negativo';}).sort(function(a,b){return a.data<b.data?1:-1;});
   h+='<section><h2>Matérias negativas ('+neg.length+')</h2><p>Para análise e registro do contexto.</p>'+(neg.length?neg.map(function(r){var l=safeUrl(r.link);return '<div class="negitem"><b>'+esc(r.veiculo)+'</b> · '+fmt(r.data)+'<br>'+(l?'<a href="'+esc(l)+'" target="_blank" rel="noopener">'+esc(r.titulo)+'</a>':esc(r.titulo))+'</div>';}).join(''):'<div class="meta">Nenhuma matéria negativa classificada neste período.</div>')+'</section>';
-  if(pend) h+='<p class="meta noprint">'+pend+' matéria(s) descartada(s) neste período não entram nos números.</p>';
+
+  h+='<section><h2>Como estes números foram apurados</h2><p>Para quem lê o relatório sem acompanhar a coleta.</p>'+
+    '<p style="font-size:12.5px;margin:0 0 6px">As matérias são coletadas todos os dias em buscadores, nos sites dos veículos da região, em alertas e em bases abertas de notícias. Cada matéria nova é aberta e lida antes de entrar: o que não cita a universidade fica de fora da contagem.</p>'+
+    '<p style="font-size:12.5px;margin:0">'+(pend?pend+' matéria(s) descartada(s) neste período não entram nos números. ':'')+
+    (naoConf?naoConf+' matéria(s) não puderam ser lidas automaticamente, porque o site bloqueia leitura ou exige assinatura, e estão marcadas no painel como texto não conferido.':'Todas as matérias do período tiveram o texto conferido.')+'</p></section>';
+
   $('viewRelatorio').innerHTML=h;
   $('btnPrint').onclick=function(){window.print();}; $('btnCsv2').onclick=function(){csv(its);};
 }
@@ -515,10 +700,13 @@ Promise.all([
 ]).then(function(r){
   if(r[3]&&r[3].quando){
     var q=String(r[3].quando), dia=fmt(q.slice(0,10)), hora=q.slice(11,16);
+    var dias=Math.floor((new Date().setHours(0,0,0,0)-new Date(q.slice(0,10)+'T00:00:00').getTime())/864e5);
     var txt='Última coleta: '+dia+(hora?' às '+hora:'');
     if(typeof r[3].novas==='number') txt+=' · '+r[3].novas+(r[3].novas===1?' matéria nova':' matérias novas');
     if(r[3].falhas) txt+=' · '+r[3].falhas+' consulta(s) com falha';
+    if(dias>2) txt+=' · coleta atrasada há '+dias+' dias';
     $('ultimaColeta').textContent=txt;
+    $('ultimaColeta').className=dias>2?'meta atrasada':'meta';
   }
   if(r[1]){ repoRev={over:r[1].over||{},manuais:r[1].manuais||[],veiculos:r[1].veiculos||{}}; }
   if(r[2]){ repoVeic=r[2]; }

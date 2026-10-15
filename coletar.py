@@ -153,9 +153,19 @@ FONTES = ["google", "bing", "gdelt", "locais", "sites", "feeds", "sitemaps", "al
 VERIFICAR_TEXTO = True
 PAUSA_VERIFICACAO = 1.0
 # Aparece no texto da matéria (comparado sem acento e sem maiúsculas).
-PADRAO_MENCAO = re.compile(
-    r"\bunifesspa\b|universidade federal do sul e sudeste do para|\bfrancisco ribeiro da costa\b"
-    r"|\blucelia cardoso cavalcante\b|\blucelia cavalcante\b")
+PADRAO_UNIVERSIDADE = re.compile(r"\bunifesspa\b|universidade federal do sul e sudeste do para")
+# Nomes de dirigentes só valem quando a universidade também aparece: sozinho, um nome pega homônimo
+# (há outros Francisco Ribeiro da Costa pelo Brasil) e a matéria entraria sem ser da Unifesspa.
+PADRAO_DIRIGENTES = re.compile(
+    r"\bfrancisco ribeiro da costa\b|\blucelia cardoso cavalcante\b|\blucelia cavalcante\b")
+
+def mencoes(texto):
+    """Quantas vezes a universidade é citada. Nome de dirigente conta junto, nunca sozinho."""
+    n = len(PADRAO_UNIVERSIDADE.findall(texto))
+    return n + len(PADRAO_DIRIGENTES.findall(texto)) if n else 0
+
+def cita(texto):
+    return mencoes(texto) > 0
 # Endereços que não são matéria: páginas de tag, de categoria, de autor e listas paginadas, que os
 # alertas do Google às vezes devolvem ("Arquivos IEEE", "Página: 6940").
 PADRAO_NAO_MATERIA = re.compile(
@@ -170,6 +180,7 @@ PADRAO_INCIDENTAL = re.compile(
 PASTA = Path(__file__).parent / "dados"
 JSON_PATH, CSV_PATH = PASTA / "clipping.json", PASTA / "clipping.csv"
 CACHE_PATH, RESUMO_PATH = PASTA / "cache_textos.json", PASTA / "ultima_coleta.json"
+VEICULOS_PATH = PASTA / "veiculos_sem_nome.json"
 UA = "Mozilla/5.0 (compatible; ClippingASCOM/1.0)"
 
 
@@ -600,13 +611,13 @@ def ler_artigo(link, titulo="", baixar_fn=baixar):
             pag = ""
         corpo = norm(texto_do_html(pag, True)) if pag else ""
         todo = norm(texto_do_html(pag, False)) if pag else ""
-        n = len(PADRAO_MENCAO.findall(corpo))
+        n = mencoes(corpo)
         # Página vazia, bloqueio, muro de assinatura ou lixo compactado: não dá para concluir nada.
         # Com menção achada, a leitura serviu, mesmo que o resto da página tenha vindo capado.
         if len(todo) >= 300 and (n or leu_de_verdade(titulo, todo)):
             r = {"final": limpar_url(final), "m": n, "pub": data_do_html(pag),
                  "ini": limpar_resumo(texto_principal(pag) or texto_do_html(pag, False)), "ok": True,
-                 "margem": bool(not n and PADRAO_MENCAO.search(todo)), "v": CACHE_VERSAO}
+                 "margem": bool(not n and cita(todo)), "v": CACHE_VERSAO}
     CACHE_TEXTOS[link] = r
     return r
 
@@ -615,7 +626,7 @@ def filtrar_mencao(itens, baixar_fn=baixar, limite=LIMITE_LEITURA_EXTRA):
     não bastam, lê o texto (até `limite` leituras novas por consulta; as já lidas antes não contam)."""
     fica, lidas = [], 0
     for it in itens:
-        if PADRAO_MENCAO.search(norm(it["titulo"] + " " + it.get("resumo", ""))):
+        if cita(norm(it["titulo"] + " " + it.get("resumo", ""))):
             fica.append(it)
             continue
         if it["link"] not in CACHE_TEXTOS:
@@ -631,7 +642,7 @@ def filtrar_mencao(itens, baixar_fn=baixar, limite=LIMITE_LEITURA_EXTRA):
 def verificar(it, baixar_fn=baixar):
     """Confere se a matéria cita a Unifesspa. Devolve (situação, leitura):
     'sim', 'nao' (leu o texto e não achou) ou '?' (não foi possível ler a matéria)."""
-    n_titulo = len(PADRAO_MENCAO.findall(norm(it["titulo"])))
+    n_titulo = mencoes(norm(it["titulo"]))
     r = ler_artigo(it["link"], it["titulo"], baixar_fn)
     if n_titulo and not r["ok"]:
         return "sim", {"final": "", "m": n_titulo, "pub": "", "ini": "", "ok": False, "v": CACHE_VERSAO}
@@ -668,7 +679,7 @@ def aplicar_verificacao(reg, baixar_fn=baixar):
         reg["descartada"] = True
         reg["motivo"] = "O texto da matéria não cita a Unifesspa."
     elif situacao == "sim" and PADRAO_INCIDENTAL.search(norm(reg["titulo"])) \
-            and not PADRAO_MENCAO.search(norm(reg["titulo"])):
+            and not cita(norm(reg["titulo"])):
         reg["descartada"] = True
         reg["motivo"] = "Menção apenas incidental (local de votação ou lista de agenda)."
     return reg
@@ -819,11 +830,33 @@ def tarefas_extras(fontes, ini, fim, hoje):
                    nome, "Sitemap de notícias")
 
 
+def veiculos_sem_nome(regs):
+    """Domínios que já apareceram no clipping e ainda não têm nome próprio na lista acima. Serve para
+    batizar os veículos a partir do que realmente aparece, em vez de adivinhar site por site."""
+    conhecidos = set(NOMES_POR_DOMINIO)
+    achados = {}
+    for r in regs:
+        if r.get("descartada"):
+            continue
+        dom = r.get("dominio") or dominio_de(r.get("link", ""))
+        if not dom or any(dom == d or dom.endswith("." + d) for d in conhecidos):
+            continue
+        d = achados.setdefault(dom, {"dominio": dom, "materias": 0, "nomes": [], "exemplo": ""})
+        d["materias"] += 1
+        if r.get("veiculo") and r["veiculo"] not in d["nomes"]:
+            d["nomes"].append(r["veiculo"])
+        if not d["exemplo"]:
+            d["exemplo"] = r.get("titulo", "")[:80]
+    return sorted(achados.values(), key=lambda x: -x["materias"])
+
+
 def registrar_resumo(numeros):
     """Guarda os números da coleta e, no GitHub, escreve o mesmo resumo na página do Actions,
     para dar para ver num relance se a coleta funcionou."""
     PASTA.mkdir(exist_ok=True)
     RESUMO_PATH.write_text(json.dumps(numeros, ensure_ascii=False, indent=1), encoding="utf-8")
+    sem_nome = numeros.pop("sem_nome", [])
+    VEICULOS_PATH.write_text(json.dumps(sem_nome, ensure_ascii=False, indent=1), encoding="utf-8")
     caminho = os.environ.get("GITHUB_STEP_SUMMARY")
     if not caminho:
         return
@@ -832,6 +865,11 @@ def registrar_resumo(numeros):
               f"- Descartadas pela verificação do texto: {numeros['descartadas']}",
               f"- Total no clipping: {numeros['total']}",
               f"- Consultas: {numeros['consultas']}, falhas: {numeros['falhas']}", ""]
+    if sem_nome:
+        linhas += ["", f"**{len(sem_nome)} veículo(s) ainda sem nome próprio.** Os dez mais frequentes:", "",
+                   "| Domínio | Matérias | Como aparece hoje |", "| --- | --- | --- |"]
+        linhas += [f"| {v['dominio']} | {v['materias']} | {', '.join(v['nomes'][:2])} |" for v in sem_nome[:10]]
+        linhas += [""]
     if numeros.get("por_fonte"):
         linhas += ["| Fonte | Novas |", "| --- | --- |"]
         linhas += [f"| {k} | {v} |" for k, v in sorted(numeros["por_fonte"].items(), key=lambda x: -x[1]) if v]
@@ -878,6 +916,9 @@ def principal(argv=None, baixar_fn=baixar):
             if k % 25 == 0:
                 print(f"  {k}/{len(pendentes)} verificadas", flush=True)
         salvar(regs); salvar_cache()
+        PASTA.mkdir(exist_ok=True)
+        VEICULOS_PATH.write_text(json.dumps(veiculos_sem_nome(regs), ensure_ascii=False, indent=1),
+                                 encoding="utf-8")
         depois = sum(1 for r in regs if r.get("descartada"))
         nao_lidas = sum(1 for r in pendentes if not r["verificada"])
         print(f"Reverificação: {len(pendentes)} matérias revistas, saldo de {depois - antes} descartadas "
@@ -930,7 +971,7 @@ def principal(argv=None, baixar_fn=baixar):
     salvar(regs); salvar_cache()
     registrar_resumo({"quando": datetime.now().isoformat(timespec="seconds"), "novas": novos,
                       "descartadas": descartadas, "total": len(regs), "consultas": total_consultas,
-                      "falhas": falhas, "por_fonte": por_fonte})
+                      "falhas": falhas, "por_fonte": por_fonte, "sem_nome": veiculos_sem_nome(regs)})
     print("\nNovas matérias por fonte:", ", ".join(f"{k} {v}" for k, v in por_fonte.items()) or "nenhuma")
     print(f"Descartadas pela verificação do texto: {descartadas}")
     print(f"Concluído: {novos} matérias novas, {len(regs)} no total. Consultas: {total_consultas}. Falhas: {falhas}.")

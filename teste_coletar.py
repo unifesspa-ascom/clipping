@@ -31,6 +31,7 @@ class Base(unittest.TestCase):
         c.CSV_PATH = c.PASTA / "clipping.csv"
         c.CACHE_PATH = c.PASTA / "cache_textos.json"
         c.RESUMO_PATH = c.PASTA / "ultima_coleta.json"
+        c.VEICULOS_PATH = c.PASTA / "veiculos_sem_nome.json"
         c.CACHE_TEXTOS = {}
         self.baixados = []
         self.paginas = {}
@@ -276,6 +277,31 @@ class TestFontes(Base):
         itens = c.consulta_sitemap_news("https://g.com/sitemap-news.xml", "Gazeta Carajás", self.baixar)
         self.assertEqual([x["titulo"] for x in itens], ["Unifesspa firma parceria"])
         self.assertEqual(itens[0]["data"], "2026-10-14")
+
+
+class TestTermos(Base):
+    def test_nome_de_dirigente_sozinho_nao_conta(self):
+        self.assertEqual(c.mencoes(c.norm("O professor Francisco Ribeiro da Costa, de outra cidade")), 0)
+
+    def test_nome_de_dirigente_com_a_universidade_conta(self):
+        self.assertEqual(c.mencoes(c.norm("O reitor Francisco Ribeiro da Costa, da Unifesspa, assinou")), 2)
+
+    def test_homonimo_do_reitor_e_descartado(self):
+        self.paginas["v.com/hom"] = pagina("Francisco Ribeiro da Costa, vereador em outro estado, votou.",
+                                           titulo="Vereador vota projeto")
+        r = c.aplicar_verificacao(materia("Vereador vota projeto", "https://v.com/hom"), self.baixar)
+        self.assertTrue(r["descartada"])
+
+    def test_lista_veiculos_sem_nome(self):
+        regs = [materia("A", "https://novoportal.com.br/1"), materia("B", "https://novoportal.com.br/2"),
+                materia("C", "https://correiodecarajas.com.br/3")]
+        for r in regs:
+            r["veiculo"] = "novoportal.com.br" if "novoportal" in r["link"] else "Correio de Carajás"
+        fora = materia("D", "https://outro.com/4")
+        fora["descartada"] = True
+        achados = c.veiculos_sem_nome(regs + [fora])
+        self.assertEqual([(x["dominio"], x["materias"]) for x in achados], [("novoportal.com.br", 2)])
+        self.assertEqual(achados[0]["nomes"], ["novoportal.com.br"])
 
 
 class TestArquivo(Base):
