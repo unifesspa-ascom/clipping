@@ -1,26 +1,591 @@
 {
- "quando": "2026-10-15T22:35:05",
- "novas": 104,
- "descartadas": 76,
- "total": 544,
- "consultas": 62,
- "falhas": 1,
+ "quando": "2026-10-16T14:10:09",
+ "novas": 6,
+ "descartadas": 0,
+ "total": 550,
+ "consultas": 162,
+ "falhas": 3,
  "por_fonte": {
-  "Zé Dudu": 10,
-  "Correio de Carajás": 11,
-  "Portal Canaã": 1,
-  "Portal Pebão": 2,
-  "Blog do Hiroshi Bogéa": 1,
-  "Portal Debate Carajás": 15,
-  "Pebinha de Açúcar": 3,
-  "Fato Regional": 2,
-  "Portal Amazônia": 24,
-  "Carajás O Jornal": 24,
-  "Portal Infopebas": 5,
+  "Google": 0,
+  "Bing": 0,
+  "GDELT": 0,
+  "Zé Dudu": 0,
+  "Correio de Carajás": 0,
+  "Portal Canaã": 0,
+  "Portal Pebão": 0,
+  "Blog do Hiroshi Bogéa": 0,
+  "Portal Debate Carajás": 0,
+  "Pebinha de Açúcar": 0,
+  "Fato Regional": 0,
+  "Portal Amazônia": 0,
+  "Carajás O Jornal": 0,
+  "Portal Infopebas": 0,
   "Portal Chocopeba": 0,
-  "Jornal A Notícia (AN10)": 2,
+  "Jornal A Notícia (AN10)": 0,
   "Sudeste Paraense": 0,
   "Canaã Notícias": 0,
-  "Alerta do Google": 4
- }
+  "Gazeta Carajás": 0,
+  "Gazeta Carajás (Bing)": 0,
+  "DOL Carajás": 0,
+  "DOL Carajás (Bing)": 0,
+  "G1 Pará": 0,
+  "G1 Pará (Bing)": 0,
+  "Rondon Notícias": 0,
+  "Rondon Notícias (Bing)": 0,
+  "Sindtifes-PA": 0,
+  "Sindtifes-PA (Bing)": 0,
+  "ADUNIFESSPA": 0,
+  "ADUNIFESSPA (Bing)": 0,
+  "Blog do Branco": 0,
+  "Blog do Branco (Bing)": 0,
+  "Carajás em Foco": 5,
+  "Carajás em Foco (Bing)": 0,
+  "Xinguara Ativa": 0,
+  "Xinguara Ativa (Bing)": 0,
+  "Plantão Canaã": 0,
+  "Plantão Canaã (Bing)": 0,
+  "Roma News": 0,
+  "Roma News (Bing)": 0,
+  "Agência Pará": 0,
+  "Agência Pará (Bing)": 0,
+  "O Liberal": 0,
+  "O Liberal (Bing)": 0,
+  "Estado do Pará Online": 0,
+  "Estado do Pará Online (Bing)": 0,
+  "Rede Brasil de Televisão": 0,
+  "Rede Brasil de Televisão (Bing)": 0,
+  "Diário do Pará": 0,
+  "Diário do Pará (Bing)": 0,
+  "Zé Dudu (feed)": 0,
+  "Correio de Carajás (feed)": 0,
+  "Portal Canaã (feed)": 0,
+  "Portal Pebão (feed)": 0,
+  "Blog do Hiroshi Bogéa (feed)": 0,
+  "Portal Debate Carajás (feed)": 0,
+  "Pebinha de Açúcar (feed)": 0,
+  "Fato Regional (feed)": 0,
+  "Portal Amazônia (feed)": 0,
+  "Carajás O Jornal (feed)": 0,
+  "Portal Infopebas (feed)": 0,
+  "Portal Chocopeba (feed)": 0,
+  "Jornal A Notícia (AN10) (feed)": 0,
+  "Sudeste Paraense (feed)": 0,
+  "Canaã Notícias (feed)": 0,
+  "Alerta do Google": 1,
+  "Gazeta Carajás (sitemap)": 0
+ },
+ "sem_nome": [
+  {
+   "dominio": "instagram.com",
+   "materias": 2,
+   "nomes": [
+    "instagram.com"
+   ],
+   "exemplo": "GBC | Representantes das equipes técnicas dos projetos Sertão Vivo e Parceiros d"
+  },
+  {
+   "dominio": "srinter.ufscar.br",
+   "materias": 1,
+   "nomes": [
+    "srinter.ufscar.br"
+   ],
+   "exemplo": "SRInter-UFSCar promove, em 27/08, primeiro workshop sobre gestão de relações ..."
+  },
+  {
+   "dominio": "reeleito.com.br",
+   "materias": 1,
+   "nomes": [
+    "reeleito.com.br"
+   ],
+   "exemplo": "Prefeito em Rondon do Pará (PA) 2020: votos por bairro e local · Reeleito"
+  },
+  {
+   "dominio": "portalpara24horas.com.br",
+   "materias": 1,
+   "nomes": [
+    "portalpara24horas.com.br"
+   ],
+   "exemplo": "Ramo estudantil do IEEE na Unifesspa impulsiona inovação e conexões globais em t"
+  },
+  {
+   "dominio": "viva.com.br",
+   "materias": 1,
+   "nomes": [
+    "viva.com.br"
+   ],
+   "exemplo": "Da periferia ao sertão: conheça 5 projetos que integram a velhice no Brasil"
+  },
+  {
+   "dominio": "meiofiltrante.com.br",
+   "materias": 1,
+   "nomes": [
+    "Revista Meio Filtrante"
+   ],
+   "exemplo": "Cinco pesquisas recebem R$ 2,5 milhões para transformar dados climáticos em deci"
+  },
+  {
+   "dominio": "brasilenergia.com.br",
+   "materias": 1,
+   "nomes": [
+    "Editora Brasil Energia"
+   ],
+   "exemplo": "Cinco projetos recebem apoio de até R$ 2,5 milhões para clima"
+  },
+  {
+   "dominio": "agresteportal.com.br",
+   "materias": 1,
+   "nomes": [
+    "agresteportal.com.br"
+   ],
+   "exemplo": "Educação: Primeira Mostra Científica mobiliza estudantes e professores da EMEF M"
+  },
+  {
+   "dominio": "msn.com",
+   "materias": 1,
+   "nomes": [
+    "Jetss on MSN"
+   ],
+   "exemplo": "ICS investe R$ 2,5 milhões em cinco universidades para pesquisas sobre economia "
+  },
+  {
+   "dominio": "vaticannews.va",
+   "materias": 1,
+   "nomes": [
+    "Vatican News"
+   ],
+   "exemplo": "Departamento de Teologia da PUC-Rio reflete sobre IA e dignidade humana"
+  },
+  {
+   "dominio": "arqrio.org.br",
+   "materias": 1,
+   "nomes": [
+    "Arquidiocese de São Sebastião do Rio de Janeiro"
+   ],
+   "exemplo": "Departamento de Teologia da PUC-Rio promove XVII Semana da Cultura Religiosa sob"
+  },
+  {
+   "dominio": "gazetadasemana.com.br",
+   "materias": 1,
+   "nomes": [
+    "Gazeta da Semana"
+   ],
+   "exemplo": "Jovem paraense cria holding e projeta faturar R$ 50 milhões, até 2030"
+  },
+  {
+   "dominio": "portaldozacarias.com.br",
+   "materias": 1,
+   "nomes": [
+    "portaldozacarias.com.br"
+   ],
+   "exemplo": "Finep destina quase R$ 150 milhões para fortalecer a infraestrutura de pesquisa "
+  },
+  {
+   "dominio": "gentedeopiniao.com.br",
+   "materias": 1,
+   "nomes": [
+    "Gente de Opinião"
+   ],
+   "exemplo": "Finep destina quase R$ 150 milhões para fortalecer a infraestrutura de pesquisa "
+  },
+  {
+   "dominio": "datacenterdynamics.com",
+   "materias": 1,
+   "nomes": [
+    "Data Center Dynamics"
+   ],
+   "exemplo": "STEM Women Congress 2026 reúne mulheres do setor de tecnologia em São Paulo"
+  },
+  {
+   "dominio": "conexaoto.com.br",
+   "materias": 1,
+   "nomes": [
+    "Conexão Tocantins"
+   ],
+   "exemplo": "Finep destina quase R$ 150 milhões para fortalecer a infraestrutura de pesquisa "
+  },
+  {
+   "dominio": "vestibulandoweb.com.br",
+   "materias": 1,
+   "nomes": [
+    "vestibulandoweb.com.br"
+   ],
+   "exemplo": "Mestrado gratuito PROFBIO 2027 reúne 572 vagas em universidades públicas do país"
+  },
+  {
+   "dominio": "blogdovestibular.com",
+   "materias": 1,
+   "nomes": [
+    "Blog do Vestibular"
+   ],
+   "exemplo": "PROFBIO 2027 oferece 572 vagas em mestrado gratuito para professores de Biologia"
+  },
+  {
+   "dominio": "porvir.org",
+   "materias": 1,
+   "nomes": [
+    "PORVIR"
+   ],
+   "exemplo": "Mestrado em Ensino de Computação oferece 340 vagas em 16 instituições públicas"
+  },
+  {
+   "dominio": "ihu.unisinos.br",
+   "materias": 1,
+   "nomes": [
+    "Instituto Humanitas Unisinos - IHU"
+   ],
+   "exemplo": "Massacre de Eldorado do Carajás: as perguntas que ficaram na Curva do S"
+  },
+  {
+   "dominio": "reporterbrasil.org.br",
+   "materias": 1,
+   "nomes": [
+    "Repórter Brasil"
+   ],
+   "exemplo": "Massacre de Eldorado do Carajás: as perguntas que ficaram na Curva do S"
+  },
+  {
+   "dominio": "cartacapital.com.br",
+   "materias": 1,
+   "nomes": [
+    "CartaCapital"
+   ],
+   "exemplo": "Pela Curva do S"
+  },
+  {
+   "dominio": "www12.senado.leg.br",
+   "materias": 1,
+   "nomes": [
+    "Senado Federal"
+   ],
+   "exemplo": "CMO analisa crédito de R$ 24,9 milhões para AGU e segurança da Amazônia"
+  },
+  {
+   "dominio": "bahiajornal.com.br",
+   "materias": 1,
+   "nomes": [
+    ":: Bahia Jornal ::"
+   ],
+   "exemplo": "CMO analisa crédito de R$ 24,9 milhões para AGU e segurança da Amazônia"
+  },
+  {
+   "dominio": "seculodiario.com.br",
+   "materias": 1,
+   "nomes": [
+    "seculodiario.com.br"
+   ],
+   "exemplo": "Conselho da Ufes aprova criação de cotas trans na Ufes a partir do Sisu de 2027"
+  },
+  {
+   "dominio": "edestaquebrasilia.com.br",
+   "materias": 1,
+   "nomes": [
+    "edestaquebrasilia.com.br"
+   ],
+   "exemplo": "Parceria entre Fapespa e Unifesspa mapeia pela primeira vez renda e hábitos de c"
+  },
+  {
+   "dominio": "nexojornal.com.br",
+   "materias": 1,
+   "nomes": [
+    "Nexo Jornal"
+   ],
+   "exemplo": "Onde a segurança alimentar preocupa mais na Amazônia"
+  },
+  {
+   "dominio": "terra.com.br",
+   "materias": 1,
+   "nomes": [
+    "Terra"
+   ],
+   "exemplo": "MEC autoriza cursos de Inteligência Artificial e Ciência de Dados em federais"
+  },
+  {
+   "dominio": "cfn.org.br",
+   "materias": 1,
+   "nomes": [
+    "CFN - Conselho Federal de Nutrição"
+   ],
+   "exemplo": "CFN promove 3º webinário da série sobre mudança do clima e seus impactos na alim"
+  },
+  {
+   "dominio": "sul21.com.br",
+   "materias": 1,
+   "nomes": [
+    "Sul 21"
+   ],
+   "exemplo": "MEC credencia Campus Serra da UFRGS em Caxias do Sul"
+  },
+  {
+   "dominio": "opiniaoempauta.com.br",
+   "materias": 1,
+   "nomes": [
+    "Opinião em Pauta"
+   ],
+   "exemplo": "Brasília ganha exposição sobre Transamazônica e Cuiabá-Santarém"
+  },
+  {
+   "dominio": "ufrn.br",
+   "materias": 1,
+   "nomes": [
+    "Portal da UFRN"
+   ],
+   "exemplo": "Programa Tô no Clima estreia na Rádio Universitária"
+  },
+  {
+   "dominio": "amazonasatual.com.br",
+   "materias": 1,
+   "nomes": [
+    "amazonas atual"
+   ],
+   "exemplo": "Prova que avalia futuros professores escancara desigualdade regional"
+  },
+  {
+   "dominio": "ifpa.edu.br",
+   "materias": 1,
+   "nomes": [
+    "IFPA"
+   ],
+   "exemplo": "IFPA realiza seu VI Encontro de Internacionalização com foco em trajetórias e de"
+  },
+  {
+   "dominio": "ipam.org.br",
+   "materias": 1,
+   "nomes": [
+    "IPAM Amazônia"
+   ],
+   "exemplo": "Santarém recebe encontro sobre cadeia de valor do cumaru"
+  },
+  {
+   "dominio": "camara.leg.br",
+   "materias": 1,
+   "nomes": [
+    "Portal da Câmara dos Deputados"
+   ],
+   "exemplo": "Projeto libera recursos no Orçamento para direitos humanos, educação e segurança"
+  },
+  {
+   "dominio": "ac24horas.com",
+   "materias": 1,
+   "nomes": [
+    "ac24horas"
+   ],
+   "exemplo": "Servidores da UFPA bloqueiam acessos ao campus em Belém durante mobilização naci"
+  },
+  {
+   "dominio": "metropoles.com",
+   "materias": 1,
+   "nomes": [
+    "Metrópoles"
+   ],
+   "exemplo": "Greve de servidores atinge ao menos 51 universidades federais"
+  },
+  {
+   "dominio": "folha.qconcursos.com",
+   "materias": 1,
+   "nomes": [
+    "Qconcursos Folha Dirigida"
+   ],
+   "exemplo": "Unifesspa PA abre processo seletivo com 34 vagas para professores"
+  },
+  {
+   "dominio": "pciconcursos.com.br",
+   "materias": 1,
+   "nomes": [
+    "PCI Concursos"
+   ],
+   "exemplo": "Unifesspa - PA abre seleção com vagas para professores substitutos"
+  },
+  {
+   "dominio": "news.google.com",
+   "materias": 1,
+   "nomes": [
+    "DOL"
+   ],
+   "exemplo": "Unifesspa abre processo seletivo para professores substitutos"
+  },
+  {
+   "dominio": "concursonews.com",
+   "materias": 1,
+   "nomes": [
+    "Concurso News"
+   ],
+   "exemplo": "UEPA abre seleção para mestrado em Educação Escolar Indígena com 20 vagas e insc"
+  },
+  {
+   "dominio": "gshow.globo.com",
+   "materias": 1,
+   "nomes": [
+    "Gshow"
+   ],
+   "exemplo": "Apresentadora do Especial LED, Eliana relembra faculdade de Psicologia e fala da"
+  },
+  {
+   "dominio": "redeglobo.globo.com",
+   "materias": 1,
+   "nomes": [
+    "Globo"
+   ],
+   "exemplo": "Eliana comanda o ‘Especial LED Globo’ nesta quarta-feira, 1º"
+  },
+  {
+   "dominio": "oimpacto.com.br",
+   "materias": 1,
+   "nomes": [
+    "Jornal O Impacto"
+   ],
+   "exemplo": "WORKSHOP INTERNACIONAL OFERECE VAGAS PARA DISCUTIR FUTURO DA AMAZÔNIA EM SANTARÉ"
+  },
+  {
+   "dominio": "tribunadoplanalto.com.br",
+   "materias": 1,
+   "nomes": [
+    "Tribuna do Planalto"
+   ],
+   "exemplo": "Novo dinossauro pescoçudo é encontrado no Maranhão"
+  },
+  {
+   "dominio": "agencia.fapesp.br",
+   "materias": 1,
+   "nomes": [
+    "Agência FAPESP"
+   ],
+   "exemplo": "Novo dinossauro pescoçudo encontrado no Maranhão era parente próximo de espécie "
+  },
+  {
+   "dominio": "ndmais.com.br",
+   "materias": 1,
+   "nomes": [
+    "ndmais.com.br"
+   ],
+   "exemplo": "Fósseis de dinossauro colossal 'pescoçudo' de 120 milhões de anos é encontrado n"
+  },
+  {
+   "dominio": "gazetadocerrado.com.br",
+   "materias": 1,
+   "nomes": [
+    "Gazeta do Cerrado"
+   ],
+   "exemplo": "PT parabeniza nova superintendente da SPU no Tocantins; Conheça a trajetória de "
+  },
+  {
+   "dominio": "atitudeto.com.br",
+   "materias": 1,
+   "nomes": [
+    "Atitude Tocantins"
+   ],
+   "exemplo": "Laranna Prestes assume SPU no Tocantins no lugar de Edy César e reforça presença"
+  },
+  {
+   "dominio": "umsoplaneta.globo.com",
+   "materias": 1,
+   "nomes": [
+    "Um só Planeta"
+   ],
+   "exemplo": "Pedral do Lourenço: manifestação bloqueia Transamazônica no Pará contra explosõe"
+  },
+  {
+   "dominio": "portalpadrao.ufma.br",
+   "materias": 1,
+   "nomes": [
+    "Universidade Federal do Maranhão"
+   ],
+   "exemplo": "Pesquisador da UFMA integra equipe que descreve novo dinossauro brasileiro — Uni"
+  },
+  {
+   "dominio": "ne9.com.br",
+   "materias": 1,
+   "nomes": [
+    "Portal NE9"
+   ],
+   "exemplo": "Nova espécie de dinossauro é descoberta no Maranhão"
+  },
+  {
+   "dominio": "diarinho.net",
+   "materias": 1,
+   "nomes": [
+    "DIARINHO"
+   ],
+   "exemplo": "Nova espécie de dinossauro de 20 metros é descoberta no Brasil"
+  },
+  {
+   "dominio": "atarde.com.br",
+   "materias": 1,
+   "nomes": [
+    "A TARDE"
+   ],
+   "exemplo": "Ossos encontrados em obra de ferrovia são de dinossauro pescoçudo"
+  },
+  {
+   "dominio": "tnh1.com.br",
+   "materias": 1,
+   "nomes": [
+    "TNH1"
+   ],
+   "exemplo": "Ossos encontrados em obra de ferrovia no Maranhão são de dinossauro pescoçudo"
+  },
+  {
+   "dominio": "diariodocentrodomundo.com.br",
+   "materias": 1,
+   "nomes": [
+    "Diário do Centro do Mundo"
+   ],
+   "exemplo": "Os ossos da nova espécie de dinossauro encontrados em obra no Maranhão"
+  },
+  {
+   "dominio": "consed.org.br",
+   "materias": 1,
+   "nomes": [
+    "Consed"
+   ],
+   "exemplo": "Educação do Pará entrega benefício do programa \"Bora Estudar\" em Redenção"
+  },
+  {
+   "dominio": "bico24horas.com.br",
+   "materias": 1,
+   "nomes": [
+    "Bico 24 Horas"
+   ],
+   "exemplo": "MARABÁ: Visita de ministro da Educação consolida curso de Medicina e expansão da"
+  },
+  {
+   "dominio": "oglobo.globo.com",
+   "materias": 1,
+   "nomes": [
+    "O GLOBO"
+   ],
+   "exemplo": "Naufrágio no Amazonas gera alerta sobre segurança fluvial na Região Norte; país "
+  },
+  {
+   "dominio": "tapajosdefato.com.br",
+   "materias": 1,
+   "nomes": [
+    "TAPAJÓS DE FATO"
+   ],
+   "exemplo": "Estudo aponta risco elevado à saúde de ribeirinhos por consumo de peixes contami"
+  },
+  {
+   "dominio": "fiibrasil.com",
+   "materias": 1,
+   "nomes": [
+    "FiiBrasil"
+   ],
+   "exemplo": "Lista de Aprovados Sisu 2026 na UNIFESSPA: Resultado da Chamada Regular"
+  },
+  {
+   "dominio": "jornalopcao.com.br",
+   "materias": 1,
+   "nomes": [
+    "Jornal Opção"
+   ],
+   "exemplo": "A luta dos estudantes trans para concluir a graduação na UFG"
+  },
+  {
+   "dominio": "querobolsa.com.br",
+   "materias": 1,
+   "nomes": [
+    "querobolsa.com.br"
+   ],
+   "exemplo": "Sisu 2026: veja as instituições com mais vagas"
+  }
+ ]
 }

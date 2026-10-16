@@ -1,5 +1,13 @@
 [
  {
+  "dominio": "instagram.com",
+  "materias": 2,
+  "nomes": [
+   "instagram.com"
+  ],
+  "exemplo": "GBC | Representantes das equipes técnicas dos projetos Sertão Vivo e Parceiros d"
+ },
+ {
   "dominio": "srinter.ufscar.br",
   "materias": 1,
   "nomes": [
@@ -22,14 +30,6 @@
    "portalpara24horas.com.br"
   ],
   "exemplo": "Ramo estudantil do IEEE na Unifesspa impulsiona inovação e conexões globais em t"
- },
- {
-  "dominio": "instagram.com",
-  "materias": 1,
-  "nomes": [
-   "instagram.com"
-  ],
-  "exemplo": "GBC | Representantes das equipes técnicas dos projetos Sertão Vivo e Parceiros d"
  },
  {
   "dominio": "viva.com.br",
