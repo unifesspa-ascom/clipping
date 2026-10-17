@@ -1,11 +1,27 @@
 [
  {
   "dominio": "instagram.com",
-  "materias": 2,
+  "materias": 4,
   "nomes": [
    "instagram.com"
   ],
-  "exemplo": "GBC | Representantes das equipes técnicas dos projetos Sertão Vivo e Parceiros d"
+  "exemplo": "Photo by Inti Calderon (@inticalderon) · October 16, 2026 - Instagram"
+ },
+ {
+  "dominio": "revistaamazonia.com.br",
+  "materias": 2,
+  "nomes": [
+   "revistaamazonia.com.br"
+  ],
+  "exemplo": "Pacífico e Atlântico avisam calor extremo na Amazônia até sete meses antes"
+ },
+ {
+  "dominio": "facebook.com",
+  "materias": 1,
+  "nomes": [
+   "facebook.com"
+  ],
+  "exemplo": "cis.unifesspa.edu.br Salve este post e compartilhe com os colegas do seu setor ."
  },
  {
   "dominio": "srinter.ufscar.br",
