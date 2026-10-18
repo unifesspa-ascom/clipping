@@ -1,5 +1,69 @@
 [
  {
+  "data": "2026-10-17",
+  "veiculo": "instagram.com",
+  "titulo": "Harbi Amjad Nabih Othman é médico formado pela Universidade do Estado do Pará (UEPA ...",
+  "link": "https://www.instagram.com/p/DemumMsiSdD",
+  "termos": [
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "resumo": "Medicina na Universidade Federal do Sul e Sudeste do Pará (Unifesspa), coordenador do Internato de Clínica Médica da Afya Marabá e membro titular ...",
+  "dominio": "instagram.com",
+  "fontes": [
+   "Alerta do Google"
+  ],
+  "verificada": false,
+  "mencoes": 0
+ },
+ {
+  "data": "2026-10-17",
+  "veiculo": "educa.fcc.org.br",
+  "titulo": "Agradecimentos - Educ@",
+  "link": "https://educa.fcc.org.br/scielo.php?script=sci_arttext&pid=S0104-40362023000100601",
+  "termos": [
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "resumo": "Rafael Gumiero ( Universidade Federal do Sul e Sudeste do Pará - UNIFESSPA, Marabá, PA, Brasil),. http://orcid.org/0000-0002-6193-8698. http://lattes ...",
+  "dominio": "educa.fcc.org.br",
+  "fontes": [
+   "Alerta do Google"
+  ],
+  "verificada": true,
+  "mencoes": 2
+ },
+ {
+  "data": "2026-10-17",
+  "veiculo": "O Tempo",
+  "titulo": "Nota de corte Unifesspa 2026: todos os cursos | O TEMPO",
+  "link": "https://www.otempo.com.br/educacao/estudantes/nota-de-corte/unifesspa",
+  "termos": [
+   "Unifesspa"
+  ],
+  "resumo": "A Unifesspa tem nota 4 no MEC e 35 cursos no Sisu 2026. Veja a nota de corte de Engenharia Civil, Direito, Psicologia e de todos, com cotas.",
+  "dominio": "otempo.com.br",
+  "fontes": [
+   "Alerta do Google"
+  ],
+  "verificada": true,
+  "mencoes": 17
+ },
+ {
+  "data": "2026-10-16",
+  "veiculo": "valorinternational",
+  "titulo": "Climate crisis leaves Amazon farmers needing wells and cisterns",
+  "link": "https://valorinternational.globo.com/environment/news/2026/10/16/climate-crisis-leaves-amazon-farmers-needing-wells-and-cisterns.ghtml",
+  "termos": [
+   "Unifesspa"
+  ],
+  "resumo": "A federal university professor in Marabá says public policy is lagging as changing rainfall patterns threaten family farming ...",
+  "dominio": "valorinternational.globo.com",
+  "fontes": [
+   "Bing"
+  ],
+  "verificada": true,
+  "mencoes": 2
+ },
+ {
   "data": "2026-10-16",
   "veiculo": "revistaamazonia.com.br",
   "titulo": "Pacífico e Atlântico avisam calor extremo na Amazônia até sete meses antes",
@@ -10,7 +74,8 @@
   "resumo": "Um estudo publicado em dezembro de 2025 no Journal of Sustainability, com pesquisadores da UFPA, da Universidade Federal do Sul e Sudeste do Pará ...",
   "dominio": "revistaamazonia.com.br",
   "fontes": [
-   "Alerta do Google"
+   "Alerta do Google",
+   "Google"
   ],
   "verificada": true,
   "mencoes": 2
@@ -26,7 +91,8 @@
   "resumo": "Pesquisadores da Universidade Federal do Pará (UFPA), da Universidade Federal do Sul e Sudeste do Pará (Unifesspa) e da Bioversity International ...",
   "dominio": "revistaamazonia.com.br",
   "fontes": [
-   "Alerta do Google"
+   "Alerta do Google",
+   "Google"
   ],
   "verificada": true,
   "mencoes": 2
@@ -78,6 +144,22 @@
   ],
   "verificada": true,
   "mencoes": 5
+ },
+ {
+  "data": "2026-10-16",
+  "veiculo": "O Tempo",
+  "titulo": "A UENP tem nota 4 no MEC",
+  "link": "https://www.otempo.com.br/educacao/estudantes/nota-de-corte/uenp",
+  "termos": [
+   "Unifesspa"
+  ],
+  "resumo": "A UENP tem nota 4 no MEC e 21 cursos no Sisu 2026. Veja a nota de corte de Direito, Enfermagem, Odontologia, Medicina Veterinária e de todos, com cotas.",
+  "dominio": "otempo.com.br",
+  "fontes": [
+   "Bing"
+  ],
+  "verificada": true,
+  "mencoes": 1
  },
  {
   "data": "2026-10-15",
@@ -192,6 +274,38 @@
   "verificada": true,
   "mencoes": 1,
   "resumo": "📅 Publicado em 15/10/2026 07h56 ✏️ Atualizado em 15/10/2026 16h35 O que significa ser professor? Essa questão me acompanhou por toda a minha carreira docente, a partir dos dois primeiros exemplos que tive: primeiro minha mãe, que era dura..."
+ },
+ {
+  "data": "2026-10-15",
+  "veiculo": "Carajás em Foco",
+  "titulo": "Veja o nome dos presos na “Operação VIPS” em Marabá",
+  "link": "https://carajasemfoco.com.br/noticia/10407/veja-o-nome-dos-presos-na-loperacao-vipsr-em-maraba",
+  "termos": [
+   "Unifesspa"
+  ],
+  "resumo": "",
+  "dominio": "carajasemfoco.com.br",
+  "fontes": [
+   "Carajás em Foco"
+  ],
+  "verificada": false,
+  "mencoes": 0
+ },
+ {
+  "data": "2026-10-15",
+  "veiculo": "Carajás em Foco",
+  "titulo": "Prefeitura de Marabá reforça chamado para vacinação contra Meningite, Rotavírus, HPV, Sarampo, Caxumba e Rubéola",
+  "link": "https://carajasemfoco.com.br/noticia/10408/prefeitura-de-maraba-reforca-chamado-para-vacinacao-contra-meningite-rotavirus-hpv-sarampo-caxumba-e-rubeola",
+  "termos": [
+   "Unifesspa"
+  ],
+  "resumo": "",
+  "dominio": "carajasemfoco.com.br",
+  "fontes": [
+   "Carajás em Foco"
+  ],
+  "verificada": false,
+  "mencoes": 0
  },
  {
   "data": "2026-10-15",
@@ -9402,5 +9516,22 @@
   "mencoes": 0,
   "descartada": true,
   "motivo": "O texto da matéria não cita a Unifesspa."
+ },
+ {
+  "data": "2019-01-23",
+  "veiculo": "jaderbarbalho.com.br",
+  "titulo": "NOTÍCIAS - Jader Barbalho",
+  "link": "https://jaderbarbalho.com.br/noticias?query-154-page=25",
+  "termos": [
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "resumo": "O senador Jader Barbalho (MDB) recebeu do reitor da Universidade Federal do Sul e Sudeste do Pará (Unifesspa), solicitação de apoio para que obras ...",
+  "dominio": "jaderbarbalho.com.br",
+  "fontes": [
+   "Alerta do Google"
+  ],
+  "verificada": true,
+  "mencoes": 3,
+  "data_feed": "2026-10-17"
  }
 ]

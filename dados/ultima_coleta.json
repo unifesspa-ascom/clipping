@@ -1,12 +1,13 @@
 {
- "quando": "2026-10-17T13:12:32",
- "novas": 5,
+ "quando": "2026-10-18T13:24:57",
+ "novas": 8,
  "descartadas": 0,
- "total": 555,
+ "total": 563,
  "consultas": 162,
- "falhas": 60,
+ "falhas": 12,
  "por_fonte": {
-  "Bing": 0,
+  "Google": 0,
+  "Bing": 2,
   "GDELT": 0,
   "Zé Dudu": 0,
   "Correio de Carajás": 0,
@@ -23,19 +24,37 @@
   "Jornal A Notícia (AN10)": 0,
   "Sudeste Paraense": 0,
   "Canaã Notícias": 0,
+  "Gazeta Carajás": 0,
   "Gazeta Carajás (Bing)": 0,
+  "DOL Carajás": 0,
   "DOL Carajás (Bing)": 0,
+  "G1 Pará": 0,
   "G1 Pará (Bing)": 0,
+  "Rondon Notícias": 0,
   "Rondon Notícias (Bing)": 0,
+  "Sindtifes-PA": 0,
   "Sindtifes-PA (Bing)": 0,
+  "ADUNIFESSPA": 0,
   "ADUNIFESSPA (Bing)": 0,
+  "Blog do Branco": 0,
+  "Blog do Branco (Bing)": 0,
+  "Carajás em Foco": 2,
   "Carajás em Foco (Bing)": 0,
+  "Xinguara Ativa": 0,
   "Xinguara Ativa (Bing)": 0,
+  "Plantão Canaã": 0,
   "Plantão Canaã (Bing)": 0,
+  "Roma News": 0,
   "Roma News (Bing)": 0,
+  "Agência Pará": 0,
   "Agência Pará (Bing)": 0,
+  "O Liberal": 0,
+  "O Liberal (Bing)": 0,
+  "Estado do Pará Online": 0,
   "Estado do Pará Online (Bing)": 0,
+  "Rede Brasil de Televisão": 0,
   "Rede Brasil de Televisão (Bing)": 0,
+  "Diário do Pará": 0,
   "Diário do Pará (Bing)": 0,
   "Zé Dudu (feed)": 0,
   "Correio de Carajás (feed)": 0,
@@ -52,17 +71,17 @@
   "Jornal A Notícia (AN10) (feed)": 0,
   "Sudeste Paraense (feed)": 0,
   "Canaã Notícias (feed)": 0,
-  "Alerta do Google": 5,
+  "Alerta do Google": 4,
   "Gazeta Carajás (sitemap)": 0
  },
  "sem_nome": [
   {
    "dominio": "instagram.com",
-   "materias": 4,
+   "materias": 5,
    "nomes": [
     "instagram.com"
    ],
-   "exemplo": "Photo by Inti Calderon (@inticalderon) · October 16, 2026 - Instagram"
+   "exemplo": "Harbi Amjad Nabih Othman é médico formado pela Universidade do Estado do Pará (U"
   },
   {
    "dominio": "revistaamazonia.com.br",
@@ -71,6 +90,22 @@
     "revistaamazonia.com.br"
    ],
    "exemplo": "Pacífico e Atlântico avisam calor extremo na Amazônia até sete meses antes"
+  },
+  {
+   "dominio": "educa.fcc.org.br",
+   "materias": 1,
+   "nomes": [
+    "educa.fcc.org.br"
+   ],
+   "exemplo": "Agradecimentos - Educ@"
+  },
+  {
+   "dominio": "valorinternational.globo.com",
+   "materias": 1,
+   "nomes": [
+    "valorinternational"
+   ],
+   "exemplo": "Climate crisis leaves Amazon farmers needing wells and cisterns"
   },
   {
    "dominio": "facebook.com",
@@ -583,6 +618,14 @@
     "querobolsa.com.br"
    ],
    "exemplo": "Sisu 2026: veja as instituições com mais vagas"
+  },
+  {
+   "dominio": "jaderbarbalho.com.br",
+   "materias": 1,
+   "nomes": [
+    "jaderbarbalho.com.br"
+   ],
+   "exemplo": "NOTÍCIAS - Jader Barbalho"
   }
  ]
 }

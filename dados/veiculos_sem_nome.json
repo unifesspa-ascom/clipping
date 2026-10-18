@@ -1,11 +1,11 @@
 [
  {
   "dominio": "instagram.com",
-  "materias": 4,
+  "materias": 5,
   "nomes": [
    "instagram.com"
   ],
-  "exemplo": "Photo by Inti Calderon (@inticalderon) · October 16, 2026 - Instagram"
+  "exemplo": "Harbi Amjad Nabih Othman é médico formado pela Universidade do Estado do Pará (U"
  },
  {
   "dominio": "revistaamazonia.com.br",
@@ -14,6 +14,22 @@
    "revistaamazonia.com.br"
   ],
   "exemplo": "Pacífico e Atlântico avisam calor extremo na Amazônia até sete meses antes"
+ },
+ {
+  "dominio": "educa.fcc.org.br",
+  "materias": 1,
+  "nomes": [
+   "educa.fcc.org.br"
+  ],
+  "exemplo": "Agradecimentos - Educ@"
+ },
+ {
+  "dominio": "valorinternational.globo.com",
+  "materias": 1,
+  "nomes": [
+   "valorinternational"
+  ],
+  "exemplo": "Climate crisis leaves Amazon farmers needing wells and cisterns"
  },
  {
   "dominio": "facebook.com",
@@ -526,5 +542,13 @@
    "querobolsa.com.br"
   ],
   "exemplo": "Sisu 2026: veja as instituições com mais vagas"
+ },
+ {
+  "dominio": "jaderbarbalho.com.br",
+  "materias": 1,
+  "nomes": [
+   "jaderbarbalho.com.br"
+  ],
+  "exemplo": "NOTÍCIAS - Jader Barbalho"
  }
 ]
