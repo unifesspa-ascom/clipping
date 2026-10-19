@@ -1,13 +1,13 @@
 {
- "quando": "2026-10-18T13:24:57",
+ "quando": "2026-10-19T16:38:40",
  "novas": 8,
  "descartadas": 0,
- "total": 563,
+ "total": 571,
  "consultas": 162,
- "falhas": 12,
+ "falhas": 4,
  "por_fonte": {
-  "Google": 0,
-  "Bing": 2,
+  "Google": 3,
+  "Bing": 1,
   "GDELT": 0,
   "Zé Dudu": 0,
   "Correio de Carajás": 0,
@@ -24,7 +24,7 @@
   "Jornal A Notícia (AN10)": 0,
   "Sudeste Paraense": 0,
   "Canaã Notícias": 0,
-  "Gazeta Carajás": 0,
+  "Gazeta Carajás": 1,
   "Gazeta Carajás (Bing)": 0,
   "DOL Carajás": 0,
   "DOL Carajás (Bing)": 0,
@@ -38,7 +38,7 @@
   "ADUNIFESSPA (Bing)": 0,
   "Blog do Branco": 0,
   "Blog do Branco (Bing)": 0,
-  "Carajás em Foco": 2,
+  "Carajás em Foco": 1,
   "Carajás em Foco (Bing)": 0,
   "Xinguara Ativa": 0,
   "Xinguara Ativa (Bing)": 0,
@@ -71,25 +71,42 @@
   "Jornal A Notícia (AN10) (feed)": 0,
   "Sudeste Paraense (feed)": 0,
   "Canaã Notícias (feed)": 0,
-  "Alerta do Google": 4,
+  "Alerta do Google": 2,
   "Gazeta Carajás (sitemap)": 0
  },
  "sem_nome": [
   {
    "dominio": "instagram.com",
-   "materias": 5,
+   "materias": 6,
    "nomes": [
     "instagram.com"
    ],
-   "exemplo": "Harbi Amjad Nabih Othman é médico formado pela Universidade do Estado do Pará (U"
+   "exemplo": "A implantação de cursos e de um polo da Universidade Federal Rural da Amazônia ("
   },
   {
    "dominio": "revistaamazonia.com.br",
-   "materias": 2,
+   "materias": 3,
    "nomes": [
+    "Revista Amazônia",
     "revistaamazonia.com.br"
    ],
-   "exemplo": "Pacífico e Atlântico avisam calor extremo na Amazônia até sete meses antes"
+   "exemplo": "Operários abriam terreno para uma ferrovia no Maranhão e acharam ossos gigantes:"
+  },
+  {
+   "dominio": "portalgurupi.com.br",
+   "materias": 1,
+   "nomes": [
+    "Portal & TV Gurupi"
+   ],
+   "exemplo": "Flávio Bolsonaro Realiza Carreata Em Marabá Antes Do 2º Turno Das Eleições"
+  },
+  {
+   "dominio": "resmedica.com.br",
+   "materias": 1,
+   "nomes": [
+    "resmedica.com.br"
+   ],
+   "exemplo": "Brasil ganhou mais de 1200 novas vagas de medicina em 2026 - Resmedica"
   },
   {
    "dominio": "educa.fcc.org.br",

@@ -1,19 +1,36 @@
 [
  {
   "dominio": "instagram.com",
-  "materias": 5,
+  "materias": 6,
   "nomes": [
    "instagram.com"
   ],
-  "exemplo": "Harbi Amjad Nabih Othman é médico formado pela Universidade do Estado do Pará (U"
+  "exemplo": "A implantação de cursos e de um polo da Universidade Federal Rural da Amazônia ("
  },
  {
   "dominio": "revistaamazonia.com.br",
-  "materias": 2,
+  "materias": 3,
   "nomes": [
+   "Revista Amazônia",
    "revistaamazonia.com.br"
   ],
-  "exemplo": "Pacífico e Atlântico avisam calor extremo na Amazônia até sete meses antes"
+  "exemplo": "Operários abriam terreno para uma ferrovia no Maranhão e acharam ossos gigantes:"
+ },
+ {
+  "dominio": "portalgurupi.com.br",
+  "materias": 1,
+  "nomes": [
+   "Portal & TV Gurupi"
+  ],
+  "exemplo": "Flávio Bolsonaro Realiza Carreata Em Marabá Antes Do 2º Turno Das Eleições"
+ },
+ {
+  "dominio": "resmedica.com.br",
+  "materias": 1,
+  "nomes": [
+   "resmedica.com.br"
+  ],
+  "exemplo": "Brasil ganhou mais de 1200 novas vagas de medicina em 2026 - Resmedica"
  },
  {
   "dominio": "educa.fcc.org.br",
