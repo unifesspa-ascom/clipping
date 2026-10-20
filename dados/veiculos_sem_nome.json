@@ -1,13 +1,5 @@
 [
  {
-  "dominio": "instagram.com",
-  "materias": 6,
-  "nomes": [
-   "instagram.com"
-  ],
-  "exemplo": "A implantação de cursos e de um polo da Universidade Federal Rural da Amazônia ("
- },
- {
   "dominio": "revistaamazonia.com.br",
   "materias": 3,
   "nomes": [
@@ -15,14 +7,6 @@
    "revistaamazonia.com.br"
   ],
   "exemplo": "Operários abriam terreno para uma ferrovia no Maranhão e acharam ossos gigantes:"
- },
- {
-  "dominio": "youtube.com",
-  "materias": 1,
-  "nomes": [
-   "youtube.com"
-  ],
-  "exemplo": "Ramo Estudantil IEEE Unifesspa - YouTube"
  },
  {
   "dominio": "gtercoa.ufc.br",
@@ -71,14 +55,6 @@
    "valorinternational"
   ],
   "exemplo": "Climate crisis leaves Amazon farmers needing wells and cisterns"
- },
- {
-  "dominio": "facebook.com",
-  "materias": 1,
-  "nomes": [
-   "facebook.com"
-  ],
-  "exemplo": "cis.unifesspa.edu.br Salve este post e compartilhe com os colegas do seu setor ."
  },
  {
   "dominio": "srinter.ufscar.br",
@@ -137,14 +113,6 @@
   "exemplo": "Educação: Primeira Mostra Científica mobiliza estudantes e professores da EMEF M"
  },
  {
-  "dominio": "msn.com",
-  "materias": 1,
-  "nomes": [
-   "Jetss on MSN"
-  ],
-  "exemplo": "ICS investe R$ 2,5 milhões em cinco universidades para pesquisas sobre economia "
- },
- {
   "dominio": "vaticannews.va",
   "materias": 1,
   "nomes": [
@@ -159,14 +127,6 @@
    "Arquidiocese de São Sebastião do Rio de Janeiro"
   ],
   "exemplo": "Departamento de Teologia da PUC-Rio promove XVII Semana da Cultura Religiosa sob"
- },
- {
-  "dominio": "gazetadasemana.com.br",
-  "materias": 1,
-  "nomes": [
-   "Gazeta da Semana"
-  ],
-  "exemplo": "Jovem paraense cria holding e projeta faturar R$ 50 milhões, até 2030"
  },
  {
   "dominio": "portaldozacarias.com.br",
@@ -257,14 +217,6 @@
   "exemplo": "CMO analisa crédito de R$ 24,9 milhões para AGU e segurança da Amazônia"
  },
  {
-  "dominio": "bahiajornal.com.br",
-  "materias": 1,
-  "nomes": [
-   ":: Bahia Jornal ::"
-  ],
-  "exemplo": "CMO analisa crédito de R$ 24,9 milhões para AGU e segurança da Amazônia"
- },
- {
   "dominio": "seculodiario.com.br",
   "materias": 1,
   "nomes": [
@@ -279,14 +231,6 @@
    "edestaquebrasilia.com.br"
   ],
   "exemplo": "Parceria entre Fapespa e Unifesspa mapeia pela primeira vez renda e hábitos de c"
- },
- {
-  "dominio": "nexojornal.com.br",
-  "materias": 1,
-  "nomes": [
-   "Nexo Jornal"
-  ],
-  "exemplo": "Onde a segurança alimentar preocupa mais na Amazônia"
  },
  {
   "dominio": "terra.com.br",
@@ -319,14 +263,6 @@
    "Opinião em Pauta"
   ],
   "exemplo": "Brasília ganha exposição sobre Transamazônica e Cuiabá-Santarém"
- },
- {
-  "dominio": "ufrn.br",
-  "materias": 1,
-  "nomes": [
-   "Portal da UFRN"
-  ],
-  "exemplo": "Programa Tô no Clima estreia na Rádio Universitária"
  },
  {
   "dominio": "amazonasatual.com.br",
@@ -551,14 +487,6 @@
    "O GLOBO"
   ],
   "exemplo": "Naufrágio no Amazonas gera alerta sobre segurança fluvial na Região Norte; país "
- },
- {
-  "dominio": "tapajosdefato.com.br",
-  "materias": 1,
-  "nomes": [
-   "TAPAJÓS DE FATO"
-  ],
-  "exemplo": "Estudo aponta risco elevado à saúde de ribeirinhos por consumo de peixes contami"
  },
  {
   "dominio": "fiibrasil.com",

@@ -68,8 +68,8 @@
   "fontes": [
    "Alerta do Google"
   ],
-  "verificada": false,
-  "mencoes": 0
+  "verificada": true,
+  "mencoes": 2
  },
  {
   "data": "2026-10-19",
@@ -159,10 +159,8 @@
   "fontes": [
    "Gazeta Carajás"
   ],
-  "verificada": true,
-  "mencoes": 0,
-  "descartada": true,
-  "motivo": "Não foi possível ler a matéria, e nem o título nem o resumo (o que a busca já trouxe) citam a Unifesspa."
+  "verificada": false,
+  "mencoes": 0
  },
  {
   "data": "2026-10-19",
@@ -197,8 +195,8 @@
    "Carajás em Foco",
    "Alerta do Google"
   ],
-  "verificada": false,
-  "mencoes": 0
+  "verificada": true,
+  "mencoes": 2
  },
  {
   "data": "2026-10-18",
@@ -784,10 +782,8 @@
   "fontes": [
    "Gazeta Carajás"
   ],
-  "verificada": true,
-  "mencoes": 0,
-  "descartada": true,
-  "motivo": "Não foi possível ler a matéria, e nem o título nem o resumo (o que a busca já trouxe) citam a Unifesspa."
+  "verificada": false,
+  "mencoes": 0
  },
  {
   "data": "2026-10-10",
@@ -4374,11 +4370,9 @@
   "fontes": [
    "Google"
   ],
-  "verificada": true,
+  "verificada": false,
   "mencoes": 0,
-  "resumo": "Foto: Moises do Nascimento Bonfim, SECOM/Unila Quando líderes universitários de 17 países se reuniram no 1º Fórum de Reitoras e Reitores da América Latina e do Caribe, em Foz do Iguaçu , no fim de junho de 2026, o objetivo não era apenas...",
-  "descartada": true,
-  "motivo": "Não foi possível ler a matéria, e nem o título nem o resumo (o que a busca já trouxe) citam a Unifesspa."
+  "resumo": "Foto: Moises do Nascimento Bonfim, SECOM/Unila Quando líderes universitários de 17 países se reuniram no 1º Fórum de Reitoras e Reitores da América Latina e do Caribe, em Foz do Iguaçu , no fim de junho de 2026, o objetivo não era apenas..."
  },
  {
   "data": "2026-07-07",
@@ -8078,12 +8072,10 @@
   "termos": [
    "Universidade Federal do Sul e Sudeste do Pará"
   ],
-  "verificada": true,
+  "verificada": false,
   "mencoes": 0,
   "dominio": "diariodocentrodomundo.com.br",
-  "resumo": "Os ossos da nova espécie de dinossauro encontrados em obra no Maranhão Os ossos da nova espécie de dinossauro encontrados em obra no Maranhão Apoie o DCM ÚLTIMAS POLÍTICA BRASIL MUNDO MÍDIA COMPORTAMENTO CULTURA ECONOMIA ESPORTE Especiais...",
-  "descartada": true,
-  "motivo": "Não foi possível ler a matéria, e nem o título nem o resumo (o que a busca já trouxe) citam a Unifesspa."
+  "resumo": "Os ossos da nova espécie de dinossauro encontrados em obra no Maranhão Os ossos da nova espécie de dinossauro encontrados em obra no Maranhão Apoie o DCM ÚLTIMAS POLÍTICA BRASIL MUNDO MÍDIA COMPORTAMENTO CULTURA ECONOMIA ESPORTE Especiais..."
  },
  {
   "data": "2026-02-28",
@@ -8990,11 +8982,9 @@
   "fontes": [
    "Google"
   ],
-  "verificada": true,
+  "verificada": false,
   "mencoes": 0,
-  "resumo": "O Campus da Universidade Federal do Pará (UFPA): um dos maiores produtores de conhecimento sobre a Amazônia do mundo está entre as instituições científicas da região que sofrem com a distribuição desigual de verbas para pesquisa, que...",
-  "descartada": true,
-  "motivo": "Não foi possível ler a matéria, e nem o título nem o resumo (o que a busca já trouxe) citam a Unifesspa."
+  "resumo": "O Campus da Universidade Federal do Pará (UFPA): um dos maiores produtores de conhecimento sobre a Amazônia do mundo está entre as instituições científicas da região que sofrem com a distribuição desigual de verbas para pesquisa, que..."
  },
  {
   "data": "2026-01-28",
