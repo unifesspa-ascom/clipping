@@ -17,6 +17,30 @@
   "exemplo": "Operários abriam terreno para uma ferrovia no Maranhão e acharam ossos gigantes:"
  },
  {
+  "dominio": "youtube.com",
+  "materias": 1,
+  "nomes": [
+   "youtube.com"
+  ],
+  "exemplo": "Ramo Estudantil IEEE Unifesspa - YouTube"
+ },
+ {
+  "dominio": "gtercoa.ufc.br",
+  "materias": 1,
+  "nomes": [
+   "gtercoa.ufc.br"
+  ],
+  "exemplo": "G-TERCOA/UFC DESTACA PARTICIPAÇÃO DE PESQUISADORES NO 7º ENCONTRO ..."
+ },
+ {
+  "dominio": "news.folhadoprogresso.com.br",
+  "materias": 1,
+  "nomes": [
+   "Jornal Folha do Progresso"
+  ],
+  "exemplo": "Unicamp reconhece professor paraense como egresso de destaque"
+ },
+ {
   "dominio": "portalgurupi.com.br",
   "materias": 1,
   "nomes": [
@@ -559,6 +583,22 @@
    "querobolsa.com.br"
   ],
   "exemplo": "Sisu 2026: veja as instituições com mais vagas"
+ },
+ {
+  "dominio": "aprovinciadopara.com.br",
+  "materias": 1,
+  "nomes": [
+   "A Província do Pará"
+  ],
+  "exemplo": "Tese de professor paraense é premiada na Unicamp"
+ },
+ {
+  "dominio": "unifap.br",
+  "materias": 1,
+  "nomes": [
+   "unifap.br"
+  ],
+  "exemplo": "Inscrições abertas para doutorado em educação na Amazônia - UNIFAP"
  },
  {
   "dominio": "jaderbarbalho.com.br",

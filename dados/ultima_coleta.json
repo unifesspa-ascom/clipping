@@ -1,16 +1,15 @@
 {
- "quando": "2026-10-19T16:38:40",
- "novas": 8,
- "descartadas": 0,
- "total": 571,
+ "quando": "2026-10-20T14:28:42",
+ "novas": 11,
+ "descartadas": 2,
+ "total": 582,
  "consultas": 162,
- "falhas": 4,
+ "falhas": 5,
  "por_fonte": {
-  "Google": 3,
-  "Bing": 1,
-  "GDELT": 0,
-  "Zé Dudu": 0,
-  "Correio de Carajás": 0,
+  "Google": 4,
+  "Bing": 0,
+  "Zé Dudu": 1,
+  "Correio de Carajás": 2,
   "Portal Canaã": 0,
   "Portal Pebão": 0,
   "Blog do Hiroshi Bogéa": 0,
@@ -38,7 +37,7 @@
   "ADUNIFESSPA (Bing)": 0,
   "Blog do Branco": 0,
   "Blog do Branco (Bing)": 0,
-  "Carajás em Foco": 1,
+  "Carajás em Foco": 0,
   "Carajás em Foco (Bing)": 0,
   "Xinguara Ativa": 0,
   "Xinguara Ativa (Bing)": 0,
@@ -71,7 +70,7 @@
   "Jornal A Notícia (AN10) (feed)": 0,
   "Sudeste Paraense (feed)": 0,
   "Canaã Notícias (feed)": 0,
-  "Alerta do Google": 2,
+  "Alerta do Google": 3,
   "Gazeta Carajás (sitemap)": 0
  },
  "sem_nome": [
@@ -91,6 +90,30 @@
     "revistaamazonia.com.br"
    ],
    "exemplo": "Operários abriam terreno para uma ferrovia no Maranhão e acharam ossos gigantes:"
+  },
+  {
+   "dominio": "youtube.com",
+   "materias": 1,
+   "nomes": [
+    "youtube.com"
+   ],
+   "exemplo": "Ramo Estudantil IEEE Unifesspa - YouTube"
+  },
+  {
+   "dominio": "gtercoa.ufc.br",
+   "materias": 1,
+   "nomes": [
+    "gtercoa.ufc.br"
+   ],
+   "exemplo": "G-TERCOA/UFC DESTACA PARTICIPAÇÃO DE PESQUISADORES NO 7º ENCONTRO ..."
+  },
+  {
+   "dominio": "news.folhadoprogresso.com.br",
+   "materias": 1,
+   "nomes": [
+    "Jornal Folha do Progresso"
+   ],
+   "exemplo": "Unicamp reconhece professor paraense como egresso de destaque"
   },
   {
    "dominio": "portalgurupi.com.br",
@@ -635,6 +658,22 @@
     "querobolsa.com.br"
    ],
    "exemplo": "Sisu 2026: veja as instituições com mais vagas"
+  },
+  {
+   "dominio": "aprovinciadopara.com.br",
+   "materias": 1,
+   "nomes": [
+    "A Província do Pará"
+   ],
+   "exemplo": "Tese de professor paraense é premiada na Unicamp"
+  },
+  {
+   "dominio": "unifap.br",
+   "materias": 1,
+   "nomes": [
+    "unifap.br"
+   ],
+   "exemplo": "Inscrições abertas para doutorado em educação na Amazônia - UNIFAP"
   },
   {
    "dominio": "jaderbarbalho.com.br",

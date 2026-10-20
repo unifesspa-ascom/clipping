@@ -1,5 +1,93 @@
 [
  {
+  "data": "2026-10-20",
+  "veiculo": "O Liberal",
+  "titulo": "R70: 'Não pode passar impune', diz Fred Bruno sobre tiros em balada",
+  "link": "https://www.oliberal.com/colunas/reporter70/r70-nao-pode-passar-impune-diz-fred-bruno-sobre-tiros-em-balada-1.1184549",
+  "termos": [
+   "Universidade Federal do Sul e Sudeste do Pará",
+   "Unifesspa"
+  ],
+  "resumo": "REPÓRTER 70 Mais tradicional coluna do jornalismo paraense. Aborda temas do cotidiano com atenção especial à economia e aos bastidores da política do Pará e do Brasil. | Twitter: @reporter_70 REPÓRTER 70 R70: 'Não pode passar impune', diz...",
+  "dominio": "oliberal.com",
+  "fontes": [
+   "Google",
+   "Bing",
+   "O Liberal",
+   "O Liberal (Bing)"
+  ],
+  "verificada": true,
+  "mencoes": 3
+ },
+ {
+  "data": "2026-10-20",
+  "veiculo": "Correio de Carajás",
+  "titulo": "O culto à beleza no romance O retrato de Dorian Gray, de Oscar Wilde",
+  "link": "https://correiodecarajas.com.br/o-culto-a-beleza-no-romance-o-retrato-de-dorian-gray-de-oscar-wilde",
+  "termos": [
+   "Unifesspa",
+   "Feed do veículo"
+  ],
+  "resumo": "A coluna de hoje é em homenagem a OSCAR WILDE, escritor aniversariante do mês. Há 172 anos, no dia 16 de outubro de 1854, nascia em Dublin, na Irlanda, o escritor que, com um único romance, garantiu seu lugar no cânone literário: O RETRATO...",
+  "dominio": "correiodecarajas.com.br",
+  "fontes": [
+   "Correio de Carajás",
+   "Correio de Carajás (feed)"
+  ],
+  "verificada": true,
+  "mencoes": 1
+ },
+ {
+  "data": "2026-10-19",
+  "veiculo": "youtube.com",
+  "titulo": "Ramo Estudantil IEEE Unifesspa - YouTube",
+  "link": "https://www.youtube.com/channel/UCmkCheISUL8X9ZWLVc9gW_Q",
+  "termos": [
+   "Unifesspa"
+  ],
+  "resumo": "Ramo Estudantil IEEE Unifesspa . Home. Shorts. Library. Ramo Estudantil IEEE Unifesspa . @RamoEstudantilIEEEUnifesspa. 2 subscribers•1 video.",
+  "dominio": "youtube.com",
+  "fontes": [
+   "Alerta do Google"
+  ],
+  "verificada": true,
+  "mencoes": 1
+ },
+ {
+  "data": "2026-10-19",
+  "veiculo": "gtercoa.ufc.br",
+  "titulo": "G-TERCOA/UFC DESTACA PARTICIPAÇÃO DE PESQUISADORES NO 7º ENCONTRO ...",
+  "link": "https://gtercoa.ufc.br/pt/g-tercoa-ufc-destaca-participacao-de-pesquisadores-no-7o-encontro-paraense-de-etnomatematica",
+  "termos": [
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "resumo": "Sávio Bicho, da Universidade Federal do Sul e Sudeste do Pará (Unifesspa). A atividade ampliou as discussões sobre as contribuições da ...",
+  "dominio": "gtercoa.ufc.br",
+  "fontes": [
+   "Alerta do Google"
+  ],
+  "verificada": false,
+  "mencoes": 0
+ },
+ {
+  "data": "2026-10-19",
+  "veiculo": "Zé Dudu",
+  "titulo": "Marabá: Cine Negro promove mostra gratuita no Teatro Municipal Eduardo Abdelnor",
+  "link": "https://www.zedudu.com.br/maraba-cine-negro-promove-mostra-gratuita-no-teatro-municipal-eduardo-abdelnor",
+  "termos": [
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "resumo": "Integrando a programação do 16º Festival da Consciência Negra, o evento exibe produções impactantes sobre memória e território no sudeste paraense. É a Amazônia Negra nas telas",
+  "dominio": "zedudu.com.br",
+  "fontes": [
+   "Zé Dudu"
+  ],
+  "verificada": true,
+  "mencoes": 0,
+  "descartada": true,
+  "motivo": "O texto da matéria não cita a Unifesspa."
+ },
+ {
   "data": "2026-10-19",
   "veiculo": "Revista Amazônia",
   "titulo": "Operários abriam terreno para uma ferrovia no Maranhão e acharam ossos gigantes: eram de uma espécie nova de dinossauro de 20 metros, parente de um gigante da Espanha",
@@ -11,10 +99,84 @@
   "resumo": "Reconstrução do Amazonsaurus, outro saurópode do Cretáceo Inferior do Maranhão. Ilustração: Levi Martinez-Reza, via Wikimedia Commons, licença CC BY-SA 3.0. WhatsApp X Bluesky Em abril de 2021, durante a terraplenagem para um terminal...",
   "dominio": "revistaamazonia.com.br",
   "fontes": [
-   "Google"
+   "Google",
+   "Alerta do Google"
   ],
   "verificada": true,
   "mencoes": 4
+ },
+ {
+  "data": "2026-10-19",
+  "veiculo": "O Liberal",
+  "titulo": "Candidato Flávio Bolsonaro faz carreata em Marabá, no sudeste do Pará",
+  "link": "https://www.oliberal.com/para/candidato-flavio-bolsonaro-faz-carreata-em-maraba-no-sudeste-do-para-1.1183930",
+  "termos": [
+   "Universidade Federal do Sul e Sudeste do Pará",
+   "Unifesspa"
+  ],
+  "resumo": "PARÁ Candidato Flávio Bolsonaro faz carreata em Marabá, no sudeste do Pará A partir das 9h desta segunda (19), o candidato cumprirá programação intensa nesse pólo do Pará em plena semana que culminará com a votação do 2º turno das eleições...",
+  "dominio": "oliberal.com",
+  "fontes": [
+   "Google",
+   "Bing",
+   "O Liberal",
+   "O Liberal (Bing)",
+   "Alerta do Google"
+  ],
+  "verificada": true,
+  "mencoes": 2
+ },
+ {
+  "data": "2026-10-19",
+  "veiculo": "Jornal Folha do Progresso",
+  "titulo": "Unicamp reconhece professor paraense como egresso de destaque",
+  "link": "https://news.folhadoprogresso.com.br/unicamp-reconhece-professor-paraense-como-egresso-de-destaque",
+  "termos": [
+   "Unifesspa",
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "resumo": "O professor e pesquisador Abílio Pachêco de Souza, da Universidade Federal do Sul e Sudeste do Pará (Unifesspa) | Foto: Repordução Compartilhe DOWNLOAD EM PDF IMPRIMIR PUBLICAÇÃO O professor e pesquisador Abílio Pachêco de Souza, da...",
+  "dominio": "news.folhadoprogresso.com.br",
+  "fontes": [
+   "Google",
+   "Alerta do Google"
+  ],
+  "verificada": true,
+  "mencoes": 8
+ },
+ {
+  "data": "2026-10-19",
+  "veiculo": "Gazeta Carajás",
+  "titulo": "Notícias em Educação",
+  "link": "https://www.gazetacarajas.com/noticias/educacao/p/11",
+  "termos": [
+   "Unifesspa"
+  ],
+  "resumo": "Telegram Whatsapp Facebook Entrar",
+  "dominio": "gazetacarajas.com",
+  "fontes": [
+   "Gazeta Carajás"
+  ],
+  "verificada": false,
+  "mencoes": 0
+ },
+ {
+  "data": "2026-10-19",
+  "veiculo": "Correio de Carajás",
+  "titulo": "Cine Negro exibe filmes gratuitos em Marabá durante o Festival da Consciência Negra",
+  "link": "https://correiodecarajas.com.br/cine-negro-exibe-filmes-gratuitos-em-maraba-durante-o-festival-da-consciencia-negra",
+  "termos": [
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "resumo": "O cinema como espaço de encontro, afirmação da identidade e retomada histórica. Na próxima quarta-feira (21), às 19 horas, o Teatro Municipal Eduardo Abdelnor abre suas portas para o público na sessão especial do Cine Negro, proposta...",
+  "dominio": "correiodecarajas.com.br",
+  "fontes": [
+   "Correio de Carajás"
+  ],
+  "verificada": true,
+  "mencoes": 0,
+  "descartada": true,
+  "motivo": "O texto da matéria não cita a Unifesspa."
  },
  {
   "data": "2026-10-19",
@@ -25,10 +187,11 @@
    "Unifesspa",
    "Universidade Federal do Sul e Sudeste do Pará"
   ],
-  "resumo": "",
+  "resumo": "Belém (19.10.2026) – O professor e pesquisador Abilio Pachêco de Souza, da Universidade Federal do Sul e Sudeste do Pará (Unifesspa), acaba de ser ...",
   "dominio": "carajasemfoco.com.br",
   "fontes": [
-   "Carajás em Foco"
+   "Carajás em Foco",
+   "Alerta do Google"
   ],
   "verificada": false,
   "mencoes": 0
@@ -9648,6 +9811,41 @@
   "mencoes": 0,
   "descartada": true,
   "motivo": "O texto da matéria não cita a Unifesspa."
+ },
+ {
+  "data": "2025-05-31",
+  "veiculo": "A Província do Pará",
+  "titulo": "Tese de professor paraense é premiada na Unicamp",
+  "link": "https://aprovinciadopara.com.br/tese-de-professor-paraense-e-premiada-na-unicamp",
+  "termos": [
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "resumo": "principal - A Província do Pará Facebook Instagram Linkedin TikTok Twitter Youtube ECONOMIA EDUCAÇÃO ENTRETENIMENTO ESPORTE PARÁ POLÍTICA SAÚDE MAIS POLÍCIA SEGURANÇA MUNDO CÍRIO terça-feira, outubro 20, 2026 Desde 1876 Facebook Instagram...",
+  "dominio": "aprovinciadopara.com.br",
+  "fontes": [
+   "Google",
+   "Alerta do Google"
+  ],
+  "verificada": true,
+  "mencoes": 2,
+  "data_feed": "2026-10-19"
+ },
+ {
+  "data": "2024-05-14",
+  "veiculo": "unifap.br",
+  "titulo": "Inscrições abertas para doutorado em educação na Amazônia - UNIFAP",
+  "link": "https://www.unifap.br/inscricoes-abertas-para-doutorado-em-educacao-na-amazonia",
+  "termos": [
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "resumo": "... Universidade Federal do Sul e Sudeste do Pará (Unifesspa). O PGEDA promove estudos sobre a educação na Amazônia, buscando compreender as relações ...",
+  "dominio": "unifap.br",
+  "fontes": [
+   "Alerta do Google"
+  ],
+  "verificada": true,
+  "mencoes": 2,
+  "data_feed": "2026-10-19"
  },
  {
   "data": "2019-01-23",
