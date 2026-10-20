@@ -217,6 +217,25 @@ PADRAO_NAO_MATERIA = re.compile(
 PADRAO_INCIDENTAL = re.compile(
     r"zona eleitoral|locais? de votacao|resultado das eleicoes|apuracao|boca de urna|"
     r"confira a agenda dos presidenciaveis")
+# Credencial de quem assina o texto (não quem é notícia): aparece sobretudo no fim de colunas e
+# artigos assinados, dizendo a formação de quem escreveu, sem relação com o assunto da matéria
+# (ex.: "... bacharela em Direito pela Unifesspa e leitora voraz"). "Professor(a)" fica de fora de
+# propósito: normalmente é cobertura de verdade sobre alguém ("o professor Fulano, da Unifesspa,
+# foi premiado..."), não uma bio de quem assina.
+PADRAO_BIO_AUTOR = re.compile(
+    r"\b(?:formad\w*|graduad\w*|graduand\w*|bacharel\w*|mestr[ae]\w*|doutor[ae]\w*|discente\w*|"
+    r"alun[ao]\w*)(?:\s+\w+){0,4}?\s+(?:pela|da|na|do)\s+unifesspa\b")
+
+def mencao_so_na_bio(texto):
+    """Verdadeiro quando toda menção à universidade está numa credencial de quem assina o texto
+    (geralmente nos últimos parágrafos) e não sobraria menção nenhuma fora dela."""
+    achados = list(PADRAO_BIO_AUTOR.finditer(texto))
+    if not achados or not cita(texto):
+        return False
+    corte = len(texto) * 0.6  # a bio costuma ficar nos últimos 40% do texto
+    if any(a.start() < corte for a in achados):
+        return False
+    return not cita(PADRAO_BIO_AUTOR.sub(" ", texto))
 # ----------------------------------------------------------------------------
 
 PASTA = Path(__file__).parent / "dados"
@@ -604,6 +623,24 @@ def texto_principal(pag):
         corpo = m.group(0)
     return re.sub(r"\s+", " ", html.unescape(re.sub(r"(?s)<[^>]+>", " ", corpo))).strip()
 
+# Procura a própria menção (não a versão sem acento usada em mencoes()), para recortar o resumo em
+# volta dela.
+PADRAO_TRECHO = re.compile(
+    r"unifesspa|sul\s+e\s+sudeste\s+do\s+par[áa]|francisco\s+ribeiro\s+da\s+costa|"
+    r"luc[eé]lia\s+(?:cardoso\s+)?cavalcante", re.I)
+
+def trecho_da_mencao(texto, janela=140):
+    """Recorte do texto em volta da primeira menção à universidade. Boletins e colunas que reúnem
+    vários assuntos numa só página (ex.: "Em Poucas Linhas") têm, no começo do texto, um assunto
+    qualquer; sem isso, o resumo mostrava sempre esse começo, mesmo quando a Unifesspa só aparece
+    bem mais adiante."""
+    m = PADRAO_TRECHO.search(texto)
+    if not m:
+        return texto
+    ini, fim = max(0, m.start() - janela), min(len(texto), m.end() + janela)
+    trecho = texto[ini:fim]
+    return ("(…) " if ini > 0 else "") + trecho + (" (…)" if fim < len(texto) else "")
+
 def leu_de_verdade(titulo, texto):
     """A página lida é mesmo a matéria? Se o próprio título não aparece no texto, o que veio foi aviso
     de assinatura, página de erro ou lixo, e aí não dá para afirmar que a matéria não cita a universidade."""
@@ -657,9 +694,11 @@ def ler_artigo(link, titulo="", baixar_fn=baixar):
         # Página vazia, bloqueio, muro de assinatura ou lixo compactado: não dá para concluir nada.
         # Com menção achada, a leitura serviu, mesmo que o resto da página tenha vindo capado.
         if len(todo) >= 300 and (n or leu_de_verdade(titulo, todo)):
+            bruto_ini = texto_principal(pag) or texto_do_html(pag, False)
             r = {"final": limpar_url(final), "m": n, "pub": data_do_html(pag),
-                 "ini": limpar_resumo(texto_principal(pag) or texto_do_html(pag, False)), "ok": True,
-                 "margem": bool(not n and cita(todo)), "v": CACHE_VERSAO}
+                 "ini": limpar_resumo(trecho_da_mencao(bruto_ini) if n else bruto_ini), "ok": True,
+                 "margem": bool(not n and cita(todo)), "bio": bool(n and mencao_so_na_bio(corpo)),
+                 "v": CACHE_VERSAO}
     CACHE_TEXTOS[link] = r
     return r
 
@@ -696,8 +735,12 @@ def verificar(it, baixar_fn=baixar):
         # no título ou no resumo que a própria busca já trouxe, é mais seguro descartar (dá para
         # restaurar na página) do que deixar "a classificar" para sempre.
         return "nao", r
-    if r["m"] or n_pista:
+    if n_pista:
         return "sim", r
+    if r["m"]:
+        # Quando a única menção no texto é a credencial de quem assina (ex.: coluna de opinião que
+        # termina com "bacharel pela Unifesspa"), não conta como cobertura da universidade.
+        return ("nao" if r.get("bio") else "sim"), r
     if r.get("margem"):   # aparece só no menu ou no "veja também": não conta, mas não descarta
         return "?", r
     return "nao", r
@@ -706,8 +749,9 @@ def aplicar_verificacao(reg, baixar_fn=baixar):
     """Confere a matéria e aproveita a leitura para guardar o endereço real (no lugar do redirecionamento
     do Google), a data que o site declara e o começo do texto. Descarta quando leu a matéria e a
     universidade não aparece, quando não há como ler e nem o título nem o resumo dão pista de que
-    cite, quando é menção de passagem em lista de locais de votação e agenda, ou quando é link de
-    rede social (Instagram, Facebook, YouTube etc.: não é imprensa)."""
+    cite, quando é menção de passagem em lista de locais de votação e agenda, quando a única menção
+    é a credencial de quem assina o texto, ou quando é link de rede social (Instagram, Facebook,
+    YouTube etc.: não é imprensa)."""
     if reg.pop("motivo", None):  # resultado de uma verificação anterior: refaz do zero
         reg.pop("descartada", None)
     if eh_rede_social(reg.get("link", "")):
@@ -730,13 +774,23 @@ def aplicar_verificacao(reg, baixar_fn=baixar):
     if r.get("pub") and r["pub"] != reg.get("data"):
         reg["data_feed"] = reg.get("data")
         reg["data"] = r["pub"]
-    if r.get("ini") and not reg.get("resumo"):
+    if r.get("ini") and (not reg.get("resumo") or
+                          (r["m"] and not cita(norm(reg["resumo"])))):
+        # Troca o resumo (geralmente a descrição genérica trazida pela busca) pelo trecho lido na
+        # própria matéria quando esse trecho de fato fala da Unifesspa e o resumo anterior não fala:
+        # em boletins e colunas de vários assuntos (ex.: "Em Poucas Linhas"), a busca costuma trazer
+        # a descrição do boletim inteiro, não do parágrafo que interessa.
         reg["resumo"] = r["ini"]
     if situacao == "nao":
         reg["descartada"] = True
-        reg["motivo"] = ("O texto da matéria não cita a Unifesspa." if r["ok"] else
-                          "Não foi possível ler a matéria, e nem o título nem o resumo (o que a busca "
-                          "já trouxe) citam a Unifesspa.")
+        if r.get("bio"):
+            reg["motivo"] = ("A Unifesspa só aparece na credencial de quem assina o texto (formação "
+                              "ou vínculo), não no assunto da matéria.")
+        elif r["ok"]:
+            reg["motivo"] = "O texto da matéria não cita a Unifesspa."
+        else:
+            reg["motivo"] = ("Não foi possível ler a matéria, e nem o título nem o resumo (o que a "
+                              "busca já trouxe) citam a Unifesspa.")
     elif situacao == "sim" and PADRAO_INCIDENTAL.search(norm(reg["titulo"])) \
             and not cita(norm(reg["titulo"])):
         reg["descartada"] = True

@@ -176,12 +176,70 @@ class TestVerificacao(Base):
         self.assertTrue(r["descartada"])
         self.assertIn("incidental", r["motivo"])
 
+    def test_mencao_so_na_bio_do_autor_e_descartada(self):
+        # Coluna de opinião sobre outro assunto, que só cita a Unifesspa na credencial de quem
+        # assina, no fim do texto (como de fato costuma vir, sem nada depois): não é cobertura
+        # da universidade.
+        recheio = "Este texto fala de literatura e não tem nenhuma relação com a universidade. " * 10
+        corpo = (f"<article><h1>Coluna de livros</h1>{recheio}"
+                 "Graduada em Letras pela UFPA; bacharela em Direito pela UNIFESSPA e leitora voraz, "
+                 "por amor e vocação.</article>")
+        self.paginas["v.com/h"] = f"<html><body>{corpo}</body></html>"
+        r = c.aplicar_verificacao(materia("Coluna de livros", "https://v.com/h"), self.baixar)
+        self.assertTrue(r["descartada"])
+        self.assertIn("credencial", r["motivo"])
+
+    def test_professor_da_unifesspa_nao_e_tratado_como_bio(self):
+        # Cobertura de verdade sobre um professor ("o professor Fulano, da Unifesspa, foi premiado")
+        # não pode ser confundida com a bio de quem assina o texto.
+        recheio = "Em poucas linhas: outros assuntos do dia, sem relação com a universidade. " * 10
+        corpo = (f"<article><h1>Coluna de notas</h1>{recheio}"
+                 "O professor Fulano de Tal, da Universidade Federal do Sul e Sudeste do Pará "
+                 f"(Unifesspa), foi reconhecido com um prêmio nacional. {recheio}</article>")
+        self.paginas["v.com/i"] = f"<html><body>{corpo}</body></html>"
+        r = c.aplicar_verificacao(materia("Coluna de notas", "https://v.com/i"), self.baixar)
+        self.assertNotIn("descartada", r)
+
+    def test_mencao_fora_da_bio_alem_da_bio_nao_e_descartada(self):
+        # Quando há menção real em outro trecho, além da bio de quem assina, a matéria fica.
+        self.paginas["v.com/j"] = pagina(
+            "A Unifesspa lançou um edital de bolsas para estudantes. "
+            "Graduada em Letras pela UFPA; bacharela em Direito pela UNIFESSPA e leitora voraz.",
+            titulo="Notícia com bio")
+        r = c.aplicar_verificacao(materia("Notícia com bio", "https://v.com/j"), self.baixar)
+        self.assertNotIn("descartada", r)
+
     def test_restaura_quando_passa_a_citar(self):
         self.paginas["v.com/d"] = pagina("A Unifesspa anunciou o resultado.", titulo="Notícia")
         reg = materia("Notícia", "https://v.com/d")
         reg["descartada"] = True
         reg["motivo"] = "O texto da matéria não cita a Unifesspa."
         self.assertNotIn("descartada", c.aplicar_verificacao(reg, self.baixar))
+
+    def test_resumo_troca_pelo_trecho_da_mencao_em_boletim(self):
+        # Coluna/boletim de vários assuntos: o resumo trazido pela busca descreve a coluna inteira
+        # (o primeiro assunto, sobre outra coisa), mas o texto lido tem, mais adiante, um parágrafo
+        # de verdade sobre a Unifesspa. O resumo deve passar a mostrar esse trecho, não a descrição
+        # genérica da coluna.
+        recheio = "Um assunto qualquer que não tem nada a ver. " * 20
+        corpo = (f"<article><h1>Coluna de hoje</h1>{recheio}"
+                 "Em Poucas Linhas: o professor Abílio, da Unifesspa, foi premiado pela Unicamp. "
+                 f"{recheio}</article>")
+        self.paginas["v.com/f"] = f"<html><body>{corpo}</body></html>"
+        reg = materia("Coluna de hoje", "https://v.com/f")
+        reg["resumo"] = "Mais tradicional coluna do jornalismo paraense, fala de política e economia."
+        c.aplicar_verificacao(reg, self.baixar)
+        self.assertNotIn("descartada", reg)
+        self.assertIn("Unifesspa", reg["resumo"])
+        self.assertIn("Abílio", reg["resumo"])
+
+    def test_resumo_existente_que_ja_cita_e_preservado(self):
+        # Quando o resumo que já veio da busca já fala da Unifesspa, não há por que trocar.
+        self.paginas["v.com/g"] = pagina("A Unifesspa também participou.", titulo="Notícia")
+        reg = materia("Notícia", "https://v.com/g")
+        reg["resumo"] = "A Unifesspa lançou um edital de bolsas para estudantes de graduação."
+        c.aplicar_verificacao(reg, self.baixar)
+        self.assertEqual(reg["resumo"], "A Unifesspa lançou um edital de bolsas para estudantes de graduação.")
 
     def test_nomeia_veiculo_quando_so_havia_o_dominio(self):
         self.paginas["v.com/e"] = pagina("A Unifesspa participou do evento.", titulo="Notícia")
