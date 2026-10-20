@@ -165,6 +165,15 @@ SITEMAPS_NOTICIAS = {
 DOMINIOS_IGNORADOS = ["unifesspa.edu.br"]
 # Exceções: veículos de dentro da universidade que a ASCOM quer acompanhar mesmo assim.
 DOMINIOS_PERMITIDOS = ["rondon-noticias.unifesspa.edu.br"]
+# Redes sociais: não são imprensa (é o Instagram/Facebook/YouTube de qualquer pessoa ou página, não
+# cobertura jornalística), e a maioria nem pode ser lida pela verificação de texto (pede login ou
+# JavaScript) — por isso ficavam "a classificar" para sempre em vez de serem descartadas. Nunca entram
+# no clipping, mesmo quando citam a universidade.
+DOMINIOS_REDES_SOCIAIS = [
+    "instagram.com", "facebook.com", "fb.com", "fb.watch", "m.facebook.com",
+    "youtube.com", "youtu.be", "twitter.com", "x.com", "tiktok.com",
+    "linkedin.com", "threads.net", "pinterest.com", "t.me", "telegram.me", "kwai.com",
+]
 LIMITE_FEED = 100        # o Google devolve no máximo ~100 itens por consulta
 LIMITE_GDELT = 250       # máximo de artigos por consulta do GDELT
 PAUSA = 1.5              # segundos entre consultas, para não sobrecarregar o serviço
@@ -177,10 +186,12 @@ LIMITE_LEITURA_EXTRA = 25  # matérias lidas por consulta de feed/sitemap para d
 LIMITE_CACHE = 6000        # endereços guardados no cache de leitura
 CACHE_VERSAO = 2           # mudou o jeito de ler a página: o que foi lido pela regra antiga é lido de novo
 FONTES = ["google", "bing", "gdelt", "locais", "sites", "feeds", "sitemaps", "alertas"]
-# Verificação do texto: a busca (principalmente a do Google, que aceita variações como "Unifesp") traz
-# matérias que não falam da universidade. Antes de entrar no clipping, o texto da matéria é lido e
-# conferido. O que não cita a Unifesspa fica marcado como "descartada" (não some: dá para ver e restaurar
-# na página, marcando "Mostrar matérias descartadas").
+# Verificação do texto: a busca (principalmente a do Google e a do GDELT, que às vezes devolvem
+# matéria que não fala da universidade mesmo com o termo entre aspas) traz matérias que não falam da
+# universidade. Antes de entrar no clipping, o texto da matéria é lido e conferido; quando não dá para
+# ler, o título e o resumo que a própria busca já trouxe servem de pista. O que não cita a Unifesspa
+# (ou não tem pista alguma de que cite) fica marcado como "descartada" (não some: dá para ver e
+# restaurar na página, marcando "Mostrar matérias descartadas"). Link de rede social nunca entra.
 VERIFICAR_TEXTO = True
 PAUSA_VERIFICACAO = 1.0
 # Aparece no texto da matéria (comparado sem acento e sem maiúsculas).
@@ -672,14 +683,20 @@ def filtrar_mencao(itens, baixar_fn=baixar, limite=LIMITE_LEITURA_EXTRA):
 
 def verificar(it, baixar_fn=baixar):
     """Confere se a matéria cita a Unifesspa. Devolve (situação, leitura):
-    'sim', 'nao' (leu o texto e não achou) ou '?' (não foi possível ler a matéria)."""
-    n_titulo = mencoes(norm(it["titulo"]))
+    'sim', 'nao' (leu o texto e não achou, ou não há como ler e nem o título nem o resumo dão pista
+    de que cite) ou '?' (não foi possível ler a matéria, mas título ou resumo dão algum indício)."""
+    pista = norm(it["titulo"] + " " + it.get("resumo", ""))
+    n_pista = mencoes(pista)
     r = ler_artigo(it["link"], it["titulo"], baixar_fn)
-    if n_titulo and not r["ok"]:
-        return "sim", {"final": "", "m": n_titulo, "pub": "", "ini": "", "ok": False, "v": CACHE_VERSAO}
+    if n_pista and not r["ok"]:
+        return "sim", {"final": "", "m": n_pista, "pub": "", "ini": "", "ok": False, "v": CACHE_VERSAO}
     if not r["ok"]:
-        return "?", r
-    if r["m"] or n_titulo:
+        # A busca (sobretudo Google e GDELT) às vezes devolve matéria que não fala da universidade,
+        # mesmo com o termo entre aspas. Sem conseguir ler o texto para confirmar e sem nenhuma pista
+        # no título ou no resumo que a própria busca já trouxe, é mais seguro descartar (dá para
+        # restaurar na página) do que deixar "a classificar" para sempre.
+        return "nao", r
+    if r["m"] or n_pista:
         return "sim", r
     if r.get("margem"):   # aparece só no menu ou no "veja também": não conta, mas não descarta
         return "?", r
@@ -687,8 +704,19 @@ def verificar(it, baixar_fn=baixar):
 
 def aplicar_verificacao(reg, baixar_fn=baixar):
     """Confere a matéria e aproveita a leitura para guardar o endereço real (no lugar do redirecionamento
-    do Google), a data que o site declara e o começo do texto. Só descarta quando leu a matéria e a
-    universidade não aparece, ou quando é menção de passagem em lista de locais de votação e agenda."""
+    do Google), a data que o site declara e o começo do texto. Descarta quando leu a matéria e a
+    universidade não aparece, quando não há como ler e nem o título nem o resumo dão pista de que
+    cite, quando é menção de passagem em lista de locais de votação e agenda, ou quando é link de
+    rede social (Instagram, Facebook, YouTube etc.: não é imprensa)."""
+    if reg.pop("motivo", None):  # resultado de uma verificação anterior: refaz do zero
+        reg.pop("descartada", None)
+    if eh_rede_social(reg.get("link", "")):
+        reg["verificada"] = True
+        reg["mencoes"] = 0
+        reg["descartada"] = True
+        reg["motivo"] = ("Link de rede social (Instagram, Facebook, YouTube etc.): o clipping "
+                          "acompanha a imprensa, não publicações em redes sociais.")
+        return reg
     situacao, r = verificar(reg, baixar_fn)
     reg["verificada"] = situacao != "?"
     reg["mencoes"] = r["m"]
@@ -704,11 +732,11 @@ def aplicar_verificacao(reg, baixar_fn=baixar):
         reg["data"] = r["pub"]
     if r.get("ini") and not reg.get("resumo"):
         reg["resumo"] = r["ini"]
-    if reg.pop("motivo", None):  # resultado de uma verificação anterior: refaz do zero
-        reg.pop("descartada", None)
     if situacao == "nao":
         reg["descartada"] = True
-        reg["motivo"] = "O texto da matéria não cita a Unifesspa."
+        reg["motivo"] = ("O texto da matéria não cita a Unifesspa." if r["ok"] else
+                          "Não foi possível ler a matéria, e nem o título nem o resumo (o que a busca "
+                          "já trouxe) citam a Unifesspa.")
     elif situacao == "sim" and PADRAO_INCIDENTAL.search(norm(reg["titulo"])) \
             and not cita(norm(reg["titulo"])):
         reg["descartada"] = True
@@ -721,6 +749,12 @@ def eh_proprio(item):
     if any(d in alvo for d in DOMINIOS_PERMITIDOS):
         return False
     return any(d in alvo for d in DOMINIOS_IGNORADOS)
+
+
+def eh_rede_social(link):
+    """Verdadeiro para link do Instagram, Facebook, YouTube e afins: não é imprensa."""
+    dom = dominio_de(link)
+    return any(dom == d or dom.endswith("." + d) for d in DOMINIOS_REDES_SOCIAIS)
 
 
 def lerdata(txt):
@@ -1053,7 +1087,7 @@ def principal(argv=None, baixar_fn=baixar):
             if not (ini.isoformat() <= it["data"] <= fim.isoformat()):
                 continue
             it = padronizar(it, nome)
-            if eh_proprio(it) or not eh_materia(it["link"]):
+            if eh_proprio(it) or not eh_materia(it["link"]) or eh_rede_social(it["link"]):
                 continue
             existente = indice.achar(it)
             if existente:
