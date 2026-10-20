@@ -142,10 +142,32 @@ class TestVerificacao(Base):
         self.assertTrue(r["descartada"])
         self.assertIn("não cita", r["motivo"])
 
-    def test_pagina_inacessivel_e_mantida(self):
+    def test_pagina_inacessivel_sem_pista_e_descartada(self):
+        # Sem conseguir ler a matéria e sem o título ou o resumo (o que a busca já trouxe) darem
+        # nenhuma pista de que fale da universidade, é mais seguro descartar do que deixar
+        # "a classificar" para sempre (dá para restaurar na página).
         r = c.aplicar_verificacao(materia("Qualquer", "https://v.com/sem-resposta"), self.baixar)
+        self.assertTrue(r["descartada"])
+        self.assertIn("não foi possível ler", r["motivo"].lower())
+        self.assertTrue(r["verificada"])
+
+    def test_pagina_inacessivel_mas_resumo_cita_fica(self):
+        # O título não ajuda, mas o resumo que a busca trouxe já cita a universidade: fica, mesmo
+        # sem conseguir ler a matéria.
+        reg = materia("Qualquer", "https://v.com/sem-resposta")
+        reg["resumo"] = "Durante o evento, a Unifesspa recebeu uma homenagem."
+        r = c.aplicar_verificacao(reg, self.baixar)
         self.assertNotIn("descartada", r)
-        self.assertFalse(r["verificada"])
+
+    def test_rede_social_e_sempre_descartada(self):
+        # Instagram, Facebook e YouTube não são imprensa e, mesmo citando a universidade de verdade,
+        # nunca entram no clipping.
+        reg = materia("Foto no Instagram", "https://www.instagram.com/p/abc123/")
+        reg["resumo"] = "Parabenizo, em nome da Unifesspa, a professora homenageada."
+        r = c.aplicar_verificacao(reg, self.baixar)
+        self.assertTrue(r["descartada"])
+        self.assertIn("rede social", r["motivo"])
+        self.assertEqual(self.baixados, [], "não tenta nem ler a página de rede social")
 
     def test_local_de_votacao_e_descartado(self):
         self.paginas["v.com/c"] = pagina("Seção na Universidade Federal do Sul e Sudeste do Pará, 51ª zona.", titulo="Resultado das eleições 2026 em Rondon do Pará")
@@ -435,6 +457,30 @@ class TestRotina(Base):
         numeros = json.loads(c.RESUMO_PATH.read_text(encoding="utf-8"))
         self.assertEqual(numeros["novas"], 2)
         self.assertEqual(numeros["descartadas"], 1)
+
+    def test_coleta_ignora_links_de_rede_social(self):
+        termos = c.TERMOS
+        c.TERMOS = ["Unifesspa"]
+        try:
+            self.paginas["news.google.com/rss/search"] = f"""<rss><channel>
+                <item><title>Unifesspa lança curso - Correio de Carajás</title>
+                  <link>https://correiodecarajas.com.br/novo</link>
+                  <pubDate>{date.today().strftime('%a, %d %b %Y')} 12:00:00 GMT</pubDate>
+                  <source url="https://correiodecarajas.com.br">Correio de Carajás</source></item>
+                <item><title>Foto da Unifesspa - Instagram</title>
+                  <link>https://www.instagram.com/p/xyz987/</link>
+                  <pubDate>{date.today().strftime('%a, %d %b %Y')} 12:00:00 GMT</pubDate>
+                  <source url="https://www.instagram.com">Instagram</source></item>
+                </channel></rss>"""
+            self.paginas["correiodecarajas.com.br/novo"] = pagina("A Unifesspa lançou o curso.", titulo="Unifesspa lança curso")
+            self.assertEqual(c.principal(["--dias", "1", "--fontes", "google"], self.baixar), 0)
+        finally:
+            c.TERMOS = termos
+        salvos = {r["titulo"]: r for r in json.loads(c.JSON_PATH.read_text(encoding="utf-8"))}
+        self.assertIn("Unifesspa lança curso", salvos)
+        self.assertNotIn("Foto da Unifesspa", salvos, "link de rede social nem chega a ser salvo")
+        self.assertFalse(any("instagram.com" in url for url in self.baixados),
+                          "nunca tenta ler a página do Instagram")
 
     def test_falha_quando_quase_tudo_da_erro(self):
         termos = c.TERMOS
