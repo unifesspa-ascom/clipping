@@ -1,6 +1,24 @@
 [
  {
   "data": "2026-10-20",
+  "veiculo": "Zé Dudu",
+  "titulo": "Canaã dos Carajás resgata sua história: vereador Miguel da Saúde propõe homenagem aos dois homens que ajudaram a transformar uma pequena vila de colonos em município",
+  "link": "https://www.zedudu.com.br/canaa-dos-carajas-resgata-sua-historia-vereador-miguel-da-saude-propoe-homenagem-aos-dois-homens-que-ajudaram-a-transformar-uma-pequena-vila-de-colonos-em-municipio",
+  "termos": [
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "resumo": "Proposta do vereador Miguel da Saúde prevê homenagear o ex-governador Carlos Santos e o ex-deputado estadual Joércio Barbalho pela participação no processo de criação de Canaã dos Carajás, com solenidade prevista para 2027, ano em que o...",
+  "dominio": "zedudu.com.br",
+  "fontes": [
+   "Zé Dudu"
+  ],
+  "verificada": true,
+  "mencoes": 0,
+  "descartada": true,
+  "motivo": "O texto da matéria não cita a Unifesspa."
+ },
+ {
+  "data": "2026-10-20",
   "veiculo": "O Liberal",
   "titulo": "R70: 'Não pode passar impune', diz Fred Bruno sobre tiros em balada",
   "link": "https://www.oliberal.com/colunas/reporter70/r70-nao-pode-passar-impune-diz-fred-bruno-sobre-tiros-em-balada-1.1184549",
@@ -14,7 +32,25 @@
    "Google",
    "Bing",
    "O Liberal",
-   "O Liberal (Bing)"
+   "O Liberal (Bing)",
+   "Alerta do Google"
+  ],
+  "verificada": true,
+  "mencoes": 3
+ },
+ {
+  "data": "2026-10-20",
+  "veiculo": "Howl.link",
+  "titulo": "Ex-reitores de universidades públicas divulgam manifesto em apoio à reeleição de Lula - ADURN Sindicato",
+  "link": "https://t.co/kJLsV1tJrB",
+  "termos": [
+   "Francisco Ribeiro da Costa",
+   "\"Francisco Ribeiro\" reitor Unifesspa"
+  ],
+  "resumo": "(…) enezes da Silva — Ex-reitor — UFRR Flávio Antônio dos Santos — Ex-Diretor-Geral — CEFET-MG Francisco César de Sá Barreto — Ex-reitor — UFMG Francisco Ribeiro da Costa — Reitor — UNIFESSPA Geraldo dos Santos Queiroz — Ex-reitor — UFRN...",
+  "dominio": "t.co",
+  "fontes": [
+   "Google"
   ],
   "verificada": true,
   "mencoes": 3

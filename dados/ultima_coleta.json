@@ -1,15 +1,16 @@
 {
- "quando": "2026-10-20T14:28:42",
- "novas": 11,
- "descartadas": 2,
- "total": 582,
+ "quando": "2026-10-21T14:38:47",
+ "novas": 2,
+ "descartadas": 1,
+ "total": 584,
  "consultas": 162,
- "falhas": 5,
+ "falhas": 4,
  "por_fonte": {
-  "Google": 4,
+  "Google": 1,
   "Bing": 0,
+  "GDELT": 0,
   "Zé Dudu": 1,
-  "Correio de Carajás": 2,
+  "Correio de Carajás": 0,
   "Portal Canaã": 0,
   "Portal Pebão": 0,
   "Blog do Hiroshi Bogéa": 0,
@@ -23,7 +24,7 @@
   "Jornal A Notícia (AN10)": 0,
   "Sudeste Paraense": 0,
   "Canaã Notícias": 0,
-  "Gazeta Carajás": 1,
+  "Gazeta Carajás": 0,
   "Gazeta Carajás (Bing)": 0,
   "DOL Carajás": 0,
   "DOL Carajás (Bing)": 0,
@@ -70,18 +71,10 @@
   "Jornal A Notícia (AN10) (feed)": 0,
   "Sudeste Paraense (feed)": 0,
   "Canaã Notícias (feed)": 0,
-  "Alerta do Google": 3,
+  "Alerta do Google": 0,
   "Gazeta Carajás (sitemap)": 0
  },
  "sem_nome": [
-  {
-   "dominio": "instagram.com",
-   "materias": 6,
-   "nomes": [
-    "instagram.com"
-   ],
-   "exemplo": "A implantação de cursos e de um polo da Universidade Federal Rural da Amazônia ("
-  },
   {
    "dominio": "revistaamazonia.com.br",
    "materias": 3,
@@ -92,12 +85,12 @@
    "exemplo": "Operários abriam terreno para uma ferrovia no Maranhão e acharam ossos gigantes:"
   },
   {
-   "dominio": "youtube.com",
+   "dominio": "t.co",
    "materias": 1,
    "nomes": [
-    "youtube.com"
+    "Howl.link"
    ],
-   "exemplo": "Ramo Estudantil IEEE Unifesspa - YouTube"
+   "exemplo": "Ex-reitores de universidades públicas divulgam manifesto em apoio à reeleição de"
   },
   {
    "dominio": "gtercoa.ufc.br",
@@ -146,14 +139,6 @@
     "valorinternational"
    ],
    "exemplo": "Climate crisis leaves Amazon farmers needing wells and cisterns"
-  },
-  {
-   "dominio": "facebook.com",
-   "materias": 1,
-   "nomes": [
-    "facebook.com"
-   ],
-   "exemplo": "cis.unifesspa.edu.br Salve este post e compartilhe com os colegas do seu setor ."
   },
   {
    "dominio": "srinter.ufscar.br",
@@ -212,14 +197,6 @@
    "exemplo": "Educação: Primeira Mostra Científica mobiliza estudantes e professores da EMEF M"
   },
   {
-   "dominio": "msn.com",
-   "materias": 1,
-   "nomes": [
-    "Jetss on MSN"
-   ],
-   "exemplo": "ICS investe R$ 2,5 milhões em cinco universidades para pesquisas sobre economia "
-  },
-  {
    "dominio": "vaticannews.va",
    "materias": 1,
    "nomes": [
@@ -234,14 +211,6 @@
     "Arquidiocese de São Sebastião do Rio de Janeiro"
    ],
    "exemplo": "Departamento de Teologia da PUC-Rio promove XVII Semana da Cultura Religiosa sob"
-  },
-  {
-   "dominio": "gazetadasemana.com.br",
-   "materias": 1,
-   "nomes": [
-    "Gazeta da Semana"
-   ],
-   "exemplo": "Jovem paraense cria holding e projeta faturar R$ 50 milhões, até 2030"
   },
   {
    "dominio": "portaldozacarias.com.br",
@@ -332,14 +301,6 @@
    "exemplo": "CMO analisa crédito de R$ 24,9 milhões para AGU e segurança da Amazônia"
   },
   {
-   "dominio": "bahiajornal.com.br",
-   "materias": 1,
-   "nomes": [
-    ":: Bahia Jornal ::"
-   ],
-   "exemplo": "CMO analisa crédito de R$ 24,9 milhões para AGU e segurança da Amazônia"
-  },
-  {
    "dominio": "seculodiario.com.br",
    "materias": 1,
    "nomes": [
@@ -354,14 +315,6 @@
     "edestaquebrasilia.com.br"
    ],
    "exemplo": "Parceria entre Fapespa e Unifesspa mapeia pela primeira vez renda e hábitos de c"
-  },
-  {
-   "dominio": "nexojornal.com.br",
-   "materias": 1,
-   "nomes": [
-    "Nexo Jornal"
-   ],
-   "exemplo": "Onde a segurança alimentar preocupa mais na Amazônia"
   },
   {
    "dominio": "terra.com.br",
@@ -394,14 +347,6 @@
     "Opinião em Pauta"
    ],
    "exemplo": "Brasília ganha exposição sobre Transamazônica e Cuiabá-Santarém"
-  },
-  {
-   "dominio": "ufrn.br",
-   "materias": 1,
-   "nomes": [
-    "Portal da UFRN"
-   ],
-   "exemplo": "Programa Tô no Clima estreia na Rádio Universitária"
   },
   {
    "dominio": "amazonasatual.com.br",
@@ -626,14 +571,6 @@
     "O GLOBO"
    ],
    "exemplo": "Naufrágio no Amazonas gera alerta sobre segurança fluvial na Região Norte; país "
-  },
-  {
-   "dominio": "tapajosdefato.com.br",
-   "materias": 1,
-   "nomes": [
-    "TAPAJÓS DE FATO"
-   ],
-   "exemplo": "Estudo aponta risco elevado à saúde de ribeirinhos por consumo de peixes contami"
   },
   {
    "dominio": "fiibrasil.com",
