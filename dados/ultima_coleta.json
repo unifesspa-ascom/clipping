@@ -1,21 +1,21 @@
 {
- "quando": "2026-10-21T14:38:47",
- "novas": 2,
+ "quando": "2026-10-22T14:41:48",
+ "novas": 9,
  "descartadas": 1,
- "total": 584,
+ "total": 593,
  "consultas": 162,
- "falhas": 4,
+ "falhas": 3,
  "por_fonte": {
-  "Google": 1,
-  "Bing": 0,
+  "Google": 2,
+  "Bing": 1,
   "GDELT": 0,
-  "Zé Dudu": 1,
+  "Zé Dudu": 0,
   "Correio de Carajás": 0,
   "Portal Canaã": 0,
   "Portal Pebão": 0,
   "Blog do Hiroshi Bogéa": 0,
   "Portal Debate Carajás": 0,
-  "Pebinha de Açúcar": 0,
+  "Pebinha de Açúcar": 1,
   "Fato Regional": 0,
   "Portal Amazônia": 0,
   "Carajás O Jornal": 0,
@@ -71,7 +71,7 @@
   "Jornal A Notícia (AN10) (feed)": 0,
   "Sudeste Paraense (feed)": 0,
   "Canaã Notícias (feed)": 0,
-  "Alerta do Google": 0,
+  "Alerta do Google": 5,
   "Gazeta Carajás (sitemap)": 0
  },
  "sem_nome": [
@@ -83,6 +83,62 @@
     "revistaamazonia.com.br"
    ],
    "exemplo": "Operários abriam terreno para uma ferrovia no Maranhão e acharam ossos gigantes:"
+  },
+  {
+   "dominio": "atlaspublico.com.br",
+   "materias": 1,
+   "nomes": [
+    "atlaspublico"
+   ],
+   "exemplo": "Ibama convoca audiência pública sobre projeto de cobre e ouro da Vale na Flona d"
+  },
+  {
+   "dominio": "superprof.co.mz",
+   "materias": 1,
+   "nomes": [
+    "superprof.co.mz"
+   ],
+   "exemplo": "Wasley - Prof de direito dos negócios - 509 MZN/h"
+  },
+  {
+   "dominio": "periodicos.unespar.edu.br",
+   "materias": 1,
+   "nomes": [
+    "periodicos.unespar.edu.br"
+   ],
+   "exemplo": "Formação continuada de professores especialistas em Educação Especial em uma esc"
+  },
+  {
+   "dominio": "periodicos.ufsm.br",
+   "materias": 1,
+   "nomes": [
+    "periodicos.ufsm.br"
+   ],
+   "exemplo": "NOTICING, MEDIAÇÃO E LETRAMENTO NA ESCRITA EM LÍNGUA INGLESA - Periódicos UFSM"
+  },
+  {
+   "dominio": "portalolavodutra.com.br",
+   "materias": 1,
+   "nomes": [
+    "Coluna Olavo Dutra"
+   ],
+   "exemplo": "Unicamp reconhece professor paraense da Unifesspa como egresso de destaque"
+  },
+  {
+   "dominio": "104moraes.com",
+   "materias": 1,
+   "nomes": [
+    "104moraes.com"
+   ],
+   "exemplo": "Unicamp reconhece professor paraense por contribuição à literatura amazônica."
+  },
+  {
+   "dominio": "nilvanoliveira.com.br",
+   "materias": 1,
+   "nomes": [
+    "nilvanoliveira.com.br"
+   ],
+   "exemplo": "A raiz da violência urbana e a omissão estatal: uma análise a partir da ótica .."
   },
   {
    "dominio": "t.co",
@@ -163,6 +219,14 @@
     "portalpara24horas.com.br"
    ],
    "exemplo": "Ramo estudantil do IEEE na Unifesspa impulsiona inovação e conexões globais em t"
+  },
+  {
+   "dominio": "grafittinews.com.br",
+   "materias": 1,
+   "nomes": [
+    "Grafitti News"
+   ],
+   "exemplo": "Ex-reitores de universidades públicas divulgam manifesto em apoio à reeleição de"
   },
   {
    "dominio": "viva.com.br",

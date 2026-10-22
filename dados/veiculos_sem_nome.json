@@ -9,6 +9,62 @@
   "exemplo": "Operários abriam terreno para uma ferrovia no Maranhão e acharam ossos gigantes:"
  },
  {
+  "dominio": "atlaspublico.com.br",
+  "materias": 1,
+  "nomes": [
+   "atlaspublico"
+  ],
+  "exemplo": "Ibama convoca audiência pública sobre projeto de cobre e ouro da Vale na Flona d"
+ },
+ {
+  "dominio": "superprof.co.mz",
+  "materias": 1,
+  "nomes": [
+   "superprof.co.mz"
+  ],
+  "exemplo": "Wasley - Prof de direito dos negócios - 509 MZN/h"
+ },
+ {
+  "dominio": "periodicos.unespar.edu.br",
+  "materias": 1,
+  "nomes": [
+   "periodicos.unespar.edu.br"
+  ],
+  "exemplo": "Formação continuada de professores especialistas em Educação Especial em uma esc"
+ },
+ {
+  "dominio": "periodicos.ufsm.br",
+  "materias": 1,
+  "nomes": [
+   "periodicos.ufsm.br"
+  ],
+  "exemplo": "NOTICING, MEDIAÇÃO E LETRAMENTO NA ESCRITA EM LÍNGUA INGLESA - Periódicos UFSM"
+ },
+ {
+  "dominio": "portalolavodutra.com.br",
+  "materias": 1,
+  "nomes": [
+   "Coluna Olavo Dutra"
+  ],
+  "exemplo": "Unicamp reconhece professor paraense da Unifesspa como egresso de destaque"
+ },
+ {
+  "dominio": "104moraes.com",
+  "materias": 1,
+  "nomes": [
+   "104moraes.com"
+  ],
+  "exemplo": "Unicamp reconhece professor paraense por contribuição à literatura amazônica."
+ },
+ {
+  "dominio": "nilvanoliveira.com.br",
+  "materias": 1,
+  "nomes": [
+   "nilvanoliveira.com.br"
+  ],
+  "exemplo": "A raiz da violência urbana e a omissão estatal: uma análise a partir da ótica .."
+ },
+ {
   "dominio": "t.co",
   "materias": 1,
   "nomes": [
@@ -87,6 +143,14 @@
    "portalpara24horas.com.br"
   ],
   "exemplo": "Ramo estudantil do IEEE na Unifesspa impulsiona inovação e conexões globais em t"
+ },
+ {
+  "dominio": "grafittinews.com.br",
+  "materias": 1,
+  "nomes": [
+   "Grafitti News"
+  ],
+  "exemplo": "Ex-reitores de universidades públicas divulgam manifesto em apoio à reeleição de"
  },
  {
   "dominio": "viva.com.br",
