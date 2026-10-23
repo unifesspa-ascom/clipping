@@ -1,13 +1,13 @@
 {
- "quando": "2026-10-22T14:41:48",
- "novas": 9,
- "descartadas": 1,
- "total": 593,
+ "quando": "2026-10-23T14:24:16",
+ "novas": 4,
+ "descartadas": 0,
+ "total": 597,
  "consultas": 162,
- "falhas": 3,
+ "falhas": 16,
  "por_fonte": {
-  "Google": 2,
-  "Bing": 1,
+  "Google": 1,
+  "Bing": 2,
   "GDELT": 0,
   "Zé Dudu": 0,
   "Correio de Carajás": 0,
@@ -15,7 +15,7 @@
   "Portal Pebão": 0,
   "Blog do Hiroshi Bogéa": 0,
   "Portal Debate Carajás": 0,
-  "Pebinha de Açúcar": 1,
+  "Pebinha de Açúcar": 0,
   "Fato Regional": 0,
   "Portal Amazônia": 0,
   "Carajás O Jornal": 0,
@@ -29,7 +29,6 @@
   "DOL Carajás": 0,
   "DOL Carajás (Bing)": 0,
   "G1 Pará": 0,
-  "G1 Pará (Bing)": 0,
   "Rondon Notícias": 0,
   "Rondon Notícias (Bing)": 0,
   "Sindtifes-PA": 0,
@@ -71,7 +70,7 @@
   "Jornal A Notícia (AN10) (feed)": 0,
   "Sudeste Paraense (feed)": 0,
   "Canaã Notícias (feed)": 0,
-  "Alerta do Google": 5,
+  "Alerta do Google": 1,
   "Gazeta Carajás (sitemap)": 0
  },
  "sem_nome": [
@@ -85,12 +84,44 @@
    "exemplo": "Operários abriam terreno para uma ferrovia no Maranhão e acharam ossos gigantes:"
   },
   {
+   "dominio": "guiadeguarnicoes.com",
+   "materias": 1,
+   "nomes": [
+    "guiadeguarnicoes.com"
+   ],
+   "exemplo": "Morar em Marabá-PA: guia da guarnição para militares e famílias"
+  },
+  {
    "dominio": "atlaspublico.com.br",
    "materias": 1,
    "nomes": [
     "atlaspublico"
    ],
    "exemplo": "Ibama convoca audiência pública sobre projeto de cobre e ouro da Vale na Flona d"
+  },
+  {
+   "dominio": "plural.jor.br",
+   "materias": 1,
+   "nomes": [
+    "Jornal Plural"
+   ],
+   "exemplo": "UFPR aprova título de Doutora Honoris Causa a Dilma Rousseff"
+  },
+  {
+   "dominio": "gov.br",
+   "materias": 1,
+   "nomes": [
+    "GOV.BR"
+   ],
+   "exemplo": "Projeto IARA-Saúde oferece bolsa de divulgação científica"
+  },
+  {
+   "dominio": "blogderocha.com.br",
+   "materias": 1,
+   "nomes": [
+    "Blog de Rocha"
+   ],
+   "exemplo": "Unifap: inscrições abertas para doutorado em educação na Amazônia"
   },
   {
    "dominio": "superprof.co.mz",

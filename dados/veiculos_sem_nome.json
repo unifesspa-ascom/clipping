@@ -9,12 +9,44 @@
   "exemplo": "Operários abriam terreno para uma ferrovia no Maranhão e acharam ossos gigantes:"
  },
  {
+  "dominio": "guiadeguarnicoes.com",
+  "materias": 1,
+  "nomes": [
+   "guiadeguarnicoes.com"
+  ],
+  "exemplo": "Morar em Marabá-PA: guia da guarnição para militares e famílias"
+ },
+ {
   "dominio": "atlaspublico.com.br",
   "materias": 1,
   "nomes": [
    "atlaspublico"
   ],
   "exemplo": "Ibama convoca audiência pública sobre projeto de cobre e ouro da Vale na Flona d"
+ },
+ {
+  "dominio": "plural.jor.br",
+  "materias": 1,
+  "nomes": [
+   "Jornal Plural"
+  ],
+  "exemplo": "UFPR aprova título de Doutora Honoris Causa a Dilma Rousseff"
+ },
+ {
+  "dominio": "gov.br",
+  "materias": 1,
+  "nomes": [
+   "GOV.BR"
+  ],
+  "exemplo": "Projeto IARA-Saúde oferece bolsa de divulgação científica"
+ },
+ {
+  "dominio": "blogderocha.com.br",
+  "materias": 1,
+  "nomes": [
+   "Blog de Rocha"
+  ],
+  "exemplo": "Unifap: inscrições abertas para doutorado em educação na Amazônia"
  },
  {
   "dominio": "superprof.co.mz",
