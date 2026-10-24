@@ -1,13 +1,13 @@
 {
- "quando": "2026-10-23T14:24:16",
- "novas": 4,
+ "quando": "2026-10-24T13:28:53",
+ "novas": 5,
  "descartadas": 0,
- "total": 597,
+ "total": 602,
  "consultas": 162,
- "falhas": 16,
+ "falhas": 4,
  "por_fonte": {
   "Google": 1,
-  "Bing": 2,
+  "Bing": 0,
   "GDELT": 0,
   "Zé Dudu": 0,
   "Correio de Carajás": 0,
@@ -29,6 +29,7 @@
   "DOL Carajás": 0,
   "DOL Carajás (Bing)": 0,
   "G1 Pará": 0,
+  "G1 Pará (Bing)": 0,
   "Rondon Notícias": 0,
   "Rondon Notícias (Bing)": 0,
   "Sindtifes-PA": 0,
@@ -70,7 +71,7 @@
   "Jornal A Notícia (AN10) (feed)": 0,
   "Sudeste Paraense (feed)": 0,
   "Canaã Notícias (feed)": 0,
-  "Alerta do Google": 1,
+  "Alerta do Google": 4,
   "Gazeta Carajás (sitemap)": 0
  },
  "sem_nome": [
@@ -82,6 +83,30 @@
     "revistaamazonia.com.br"
    ],
    "exemplo": "Operários abriam terreno para uma ferrovia no Maranhão e acharam ossos gigantes:"
+  },
+  {
+   "dominio": "asmecbeneficios.com",
+   "materias": 1,
+   "nomes": [
+    "asmecbeneficios.com"
+   ],
+   "exemplo": "Entidades Vinculadas ao MEC | Quem Pode Participar | ASMEC"
+  },
+  {
+   "dominio": "enemhub.com.br",
+   "materias": 1,
+   "nomes": [
+    "enemhub.com.br"
+   ],
+   "exemplo": "Nota de corte Administração UNIFESSPA (SISU 2026) - EnemHub"
+  },
+  {
+   "dominio": "midianinja.org",
+   "materias": 1,
+   "nomes": [
+    "Mídia NINJA"
+   ],
+   "exemplo": "Prouni abre caminhos para estudantes que enfrentam barreiras para chegar à unive"
   },
   {
    "dominio": "guiadeguarnicoes.com",

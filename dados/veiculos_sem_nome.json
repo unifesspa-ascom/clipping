@@ -9,6 +9,30 @@
   "exemplo": "Operários abriam terreno para uma ferrovia no Maranhão e acharam ossos gigantes:"
  },
  {
+  "dominio": "asmecbeneficios.com",
+  "materias": 1,
+  "nomes": [
+   "asmecbeneficios.com"
+  ],
+  "exemplo": "Entidades Vinculadas ao MEC | Quem Pode Participar | ASMEC"
+ },
+ {
+  "dominio": "enemhub.com.br",
+  "materias": 1,
+  "nomes": [
+   "enemhub.com.br"
+  ],
+  "exemplo": "Nota de corte Administração UNIFESSPA (SISU 2026) - EnemHub"
+ },
+ {
+  "dominio": "midianinja.org",
+  "materias": 1,
+  "nomes": [
+   "Mídia NINJA"
+  ],
+  "exemplo": "Prouni abre caminhos para estudantes que enfrentam barreiras para chegar à unive"
+ },
+ {
   "dominio": "guiadeguarnicoes.com",
   "materias": 1,
   "nomes": [
