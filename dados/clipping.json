@@ -1,5 +1,74 @@
 [
  {
+  "data": "2026-10-25",
+  "veiculo": "Zé Dudu",
+  "titulo": "Visita do Papa Leão XIV à Argentina mobilizará milhares de fiéis e terá cobertura de jornalista canaense",
+  "link": "https://www.zedudu.com.br/visita-do-papa-leao-xiv-a-argentina-mobilizara-milhares-de-fieis-e-tera-cobertura-de-jornalista-canaense",
+  "termos": [
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "resumo": "Credenciado pela Conferência Episcopal Argentina, Carlos Magno acompanhará a histórica visita do Pontífice, de 8 a 11 de novembro. Será sua terceira cobertura jornalística de uma visita papal",
+  "dominio": "zedudu.com.br",
+  "fontes": [
+   "Zé Dudu"
+  ],
+  "verificada": true,
+  "mencoes": 0,
+  "data_feed": "2026-10-24",
+  "descartada": true,
+  "motivo": "O texto da matéria não cita a Unifesspa."
+ },
+ {
+  "data": "2026-10-25",
+  "veiculo": "Portal Infopebas",
+  "titulo": "Eleições no segundo turno revelam estratégias opostas de Flávio e Lula pelo eleitorado",
+  "link": "https://www.infopebas.com/destaque/eleicoes-segundo-turno-estrategias-flavio-lula",
+  "termos": [
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "resumo": "As eleições presidenciais expõem estratégias opostas no segundo turno entre Flávio Bolsonaro e Lula na busca por votos.",
+  "dominio": "infopebas.com",
+  "fontes": [
+   "Portal Infopebas"
+  ],
+  "verificada": true,
+  "mencoes": 0,
+  "descartada": true,
+  "motivo": "O texto da matéria não cita a Unifesspa."
+ },
+ {
+  "data": "2026-10-24",
+  "veiculo": "ojs.revistadcs.com",
+  "titulo": "NARRATIVAS ANCESTRAIS E APAGAMENTO DA MEMÓRIA DE COMUNIDADES TRADICIONAIS",
+  "link": "https://ojs.revistadcs.com/index.php/revista/article/view/7597/6201",
+  "termos": [
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "resumo": "Instituição: Universidade Federal do Sul e Sudeste do Pará (UNIFESSPA).Goiaci Borges de Carvalho CostaPós-graduada em Educação.Instituição ...",
+  "dominio": "ojs.revistadcs.com",
+  "fontes": [
+   "Alerta do Google"
+  ],
+  "verificada": true,
+  "mencoes": 2
+ },
+ {
+  "data": "2026-10-24",
+  "veiculo": "embrapa.br",
+  "titulo": "Anaiane Pereira Souza - Equipe - Portal Embrapa",
+  "link": "https://www.embrapa.br/equipe/-/empregado/364247/anaiane-pereira-souza",
+  "termos": [
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "resumo": "Foi professora adjunta no Instituto de Estudos do Trópico Úmido (IETU) da Universidade Federal do Sul e Sudeste do Pará (Unifesspa), na área de ...",
+  "dominio": "embrapa.br",
+  "fontes": [
+   "Alerta do Google"
+  ],
+  "verificada": true,
+  "mencoes": 4
+ },
+ {
   "data": "2026-10-24",
   "veiculo": "asmecbeneficios.com",
   "titulo": "Entidades Vinculadas ao MEC | Quem Pode Participar | ASMEC",
@@ -9,6 +78,22 @@
   ],
   "resumo": "Universidade Federal do Sul e Sudeste do Pará . UFRA. PA. Universidade Federal Rural da Amazônia. UFPB. PB. Universidade Federal da Paraíba. UFCG. PB.",
   "dominio": "asmecbeneficios.com",
+  "fontes": [
+   "Alerta do Google"
+  ],
+  "verificada": true,
+  "mencoes": 1
+ },
+ {
+  "data": "2026-10-23",
+  "veiculo": "ufpi.br",
+  "titulo": "Conversas entre Meninas e Engenheiras: Construindo Redes - UFPI",
+  "link": "https://ufpi.br/images/editais/23102026%20Errata.pdf",
+  "termos": [
+   "Unifesspa"
+  ],
+  "resumo": "UNIFESSPA . UFRR. EDITAL 01/2026, DE 01 DE OUTUBRO DE 2026. PROCESSO SELETIVO DE BOLSISTAS DE INICIAÇÃO CIENTÍFICA. PARA O PROJETO Conversas entre ...",
+  "dominio": "ufpi.br",
   "fontes": [
    "Alerta do Google"
   ],

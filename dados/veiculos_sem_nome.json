@@ -9,12 +9,36 @@
   "exemplo": "Operários abriam terreno para uma ferrovia no Maranhão e acharam ossos gigantes:"
  },
  {
+  "dominio": "ojs.revistadcs.com",
+  "materias": 1,
+  "nomes": [
+   "ojs.revistadcs.com"
+  ],
+  "exemplo": "NARRATIVAS ANCESTRAIS E APAGAMENTO DA MEMÓRIA DE COMUNIDADES TRADICIONAIS"
+ },
+ {
+  "dominio": "embrapa.br",
+  "materias": 1,
+  "nomes": [
+   "embrapa.br"
+  ],
+  "exemplo": "Anaiane Pereira Souza - Equipe - Portal Embrapa"
+ },
+ {
   "dominio": "asmecbeneficios.com",
   "materias": 1,
   "nomes": [
    "asmecbeneficios.com"
   ],
   "exemplo": "Entidades Vinculadas ao MEC | Quem Pode Participar | ASMEC"
+ },
+ {
+  "dominio": "ufpi.br",
+  "materias": 1,
+  "nomes": [
+   "ufpi.br"
+  ],
+  "exemplo": "Conversas entre Meninas e Engenheiras: Construindo Redes - UFPI"
  },
  {
   "dominio": "enemhub.com.br",
