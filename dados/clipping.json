@@ -1,5 +1,91 @@
 [
  {
+  "data": "2026-10-27",
+  "veiculo": "Portal Terra da Luz",
+  "titulo": "Uece pesquisa criação de cabras e ovelhas frente ao clima",
+  "link": "https://portalterradaluz.com.br/principal/pesquisa-uece-desenvolve-estudo-para-adaptar-criacao-de-cabras-e-ovelhas-ao-clima",
+  "termos": [
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "resumo": "(…) l Superior (Capes), a classificação mais alta da escala utilizada pela instituição. No Brasil, a rede reúne ainda a Universidade Federal do Sul e Sudeste do Pará (Unifesspa), a Universidade Federal do Rio Grande do Sul (UFRGS), a...",
+  "dominio": "portalterradaluz.com.br",
+  "fontes": [
+   "Google"
+  ],
+  "verificada": true,
+  "mencoes": 2
+ },
+ {
+  "data": "2026-10-27",
+  "veiculo": "Correio de Carajás",
+  "titulo": "Um clássico nunca morre: Macabéa,  de a hora da estrela, ganhará os palcos",
+  "link": "https://correiodecarajas.com.br/um-classico-nunca-morre-macabea-de-a-hora-da-estrela-ganhara-os-palcos",
+  "termos": [
+   "Unifesspa",
+   "Feed do veículo"
+  ],
+  "resumo": "(…) a obra de Clarice Lispector. Até a próxima semana, queridos leitores! * A autora é graduada em Letras pela UFPA; bacharela em Direito pela Unifesspa e leitora voraz, por amor e vocação. Observação: As opiniões contidas nesta coluna não...",
+  "dominio": "correiodecarajas.com.br",
+  "fontes": [
+   "Correio de Carajás",
+   "Correio de Carajás (feed)"
+  ],
+  "verificada": true,
+  "mencoes": 1,
+  "descartada": true,
+  "motivo": "A Unifesspa só aparece na credencial de quem assina o texto (formação ou vínculo), não no assunto da matéria."
+ },
+ {
+  "data": "2026-10-27",
+  "veiculo": "Blog do Eliomar",
+  "titulo": "Uece – Pesquisa busca adaptar criação de cabras e ovelhas às mudanças climáticas",
+  "link": "https://blogdoeliomar.com/uece-pesquisa-busca-adaptar-criacao-de-cabras-e-ovelhas-as-mudancas-climaticas",
+  "termos": [
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "resumo": "(…) mais alta da escala de avaliação dos programas de pós-graduação. No Brasil, a rede também reúne instituições como a Universidade Federal do Sul e Sudeste do Pará (Unifesspa), a Universidade Federal do Rio Grande do Sul (UFRGS), a...",
+  "dominio": "blogdoeliomar.com",
+  "fontes": [
+   "Google"
+  ],
+  "verificada": true,
+  "mencoes": 2
+ },
+ {
+  "data": "2026-10-26",
+  "veiculo": "uece.br",
+  "titulo": "Pesquisa da Uece busca adaptar criação de cabras e ovelhas às mudanças climáticas",
+  "link": "https://www.uece.br/noticias/pesquisa-da-uece-busca-adaptar-criacao-de-cabras-e-ovelhas-as-mudancas-climaticas",
+  "termos": [
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "resumo": "No Brasil, a rede também reúne instituições como a Universidade Federal do Sul e Sudeste do Pará (Unifesspa), a Universidade Federal do Rio Grande ...",
+  "dominio": "uece.br",
+  "fontes": [
+   "Alerta do Google"
+  ],
+  "verificada": true,
+  "mencoes": 2
+ },
+ {
+  "data": "2026-10-26",
+  "veiculo": "Universidade do Estado de Santa Catarina (Udesc)",
+  "titulo": "Notícia - Professoras da Udesc são autoras de caderno da política nacional de educação inclusiva",
+  "link": "https://www.udesc.br/esag/noticia/professoras_da_udesc_sao_autoras_de_caderno_da_politica_nacional_de_educacao_inclusiva",
+  "termos": [
+   "Lucélia Cardoso Cavalcante"
+  ],
+  "resumo": "Notícia - Professoras da Udesc são autoras de caderno da política nacional de educação inclusiva GOVERNO DE SANTA CATARINA Ouvidoria Portal da Transparência Destaques: Gabinete da Chefia do Executivo Coordenadoria Estadual da Mulher - CEM...",
+  "dominio": "udesc.br",
+  "fontes": [
+   "Google"
+  ],
+  "verificada": true,
+  "mencoes": 0,
+  "descartada": true,
+  "motivo": "O texto da matéria não cita a Unifesspa."
+ },
+ {
   "data": "2026-10-26",
   "veiculo": "Prefeitura de Marabá",
   "titulo": "Sevop: Pavimentação asfáltica avança no Cidade Jardim e alcança 3 km",
@@ -8,15 +94,53 @@
    "Unifesspa",
    "Universidade Federal do Sul e Sudeste do Pará"
   ],
-  "resumo": "",
+  "resumo": "... ( Unifesspa ). Ao todo, são 21 trechos que receberão o asfalto em todo o bairro, nesse pacote de pavimentação que está em execução. Esse serviço ...",
   "dominio": "maraba.pa.gov.br",
   "fontes": [
-   "Google"
+   "Google",
+   "Alerta do Google"
   ],
   "verificada": true,
   "mencoes": 0,
   "descartada": true,
   "motivo": "Não foi possível ler a matéria, e nem o título nem o resumo (o que a busca já trouxe) citam a Unifesspa."
+ },
+ {
+  "data": "2026-10-26",
+  "veiculo": "Governo do Estado do Ceará",
+  "titulo": "Pesquisa da Uece busca adaptar criação de cabras e ovelhas às mudanças climáticas",
+  "link": "https://www.ce.gov.br/2026/10/26/pesquisa-da-uece-busca-adaptar-criacao-de-cabras-e-ovelhas-as-mudancas-climaticas",
+  "termos": [
+   "Universidade Federal do Sul e Sudeste do Pará",
+   "Unifesspa"
+  ],
+  "resumo": "Pesquisa reúne instituições do Brasil, da Argentina e do Uruguai para desenvolver modelos de produção mais resistentes às mudanças climáticas Pesquisadores da Faculdade de Veterinária (Favet) da Unive ...",
+  "dominio": "ce.gov.br",
+  "fontes": [
+   "Google",
+   "Bing"
+  ],
+  "verificada": true,
+  "mencoes": 0,
+  "descartada": true,
+  "motivo": "Não foi possível ler a matéria, e nem o título nem o resumo (o que a busca já trouxe) citam a Unifesspa."
+ },
+ {
+  "data": "2026-10-26",
+  "veiculo": "GOV.BR",
+  "titulo": "Povo Parakanã lança livro bilíngue de narrativas tradicionais no Pará",
+  "link": "https://www.gov.br/museudoindio/pt-br/povo-parakana-lanca-livro-bilingue-de-narrativas-tradicionais-no-para",
+  "termos": [
+   "Unifesspa",
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "resumo": "(…) nai), por meio da Coordenação Regional Baixo Tocantins (CR-BTO) e do Museu Nacional dos Povos Indígenas (MNPI), e a Universidade Federal do Sul e Sudeste do Pará (Unifesspa) e o Programa Parakanã. O lançamento contou com a presença de...",
+  "dominio": "gov.br",
+  "fontes": [
+   "Bing"
+  ],
+  "verificada": true,
+  "mencoes": 4
  },
  {
   "data": "2026-10-26",
@@ -30,7 +154,10 @@
   "dominio": "g1.globo.com",
   "fontes": [
    "Bing",
-   "G1 Pará (Bing)"
+   "G1 Pará (Bing)",
+   "Google",
+   "G1 Pará",
+   "Alerta do Google"
   ],
   "verificada": true,
   "mencoes": 6
@@ -46,7 +173,27 @@
   "resumo": "(…) redo Almeida Neves EMEI Professor Pardal EMEIF Padre João Luiz Purguy Núcleo Avançado de Estudo Supletivo Dra. Violeta Refkalefsky Loureiro Unifesspa - Universidade Federal do Sul e Sudeste do Para - Xinguara Esta reportagem foi...",
   "dominio": "g1.globo.com",
   "fontes": [
-   "G1 Pará (Bing)"
+   "G1 Pará (Bing)",
+   "Google",
+   "G1 Pará"
+  ],
+  "verificada": true,
+  "mencoes": 2,
+  "descartada": true,
+  "motivo": "Menção apenas incidental (local de votação ou lista de agenda)."
+ },
+ {
+  "data": "2026-10-26",
+  "veiculo": "G1 Pará",
+  "titulo": "51ª zona eleitoral de Rondon do Pará (PA): votos por local de votação no 2º turno | G1",
+  "link": "https://g1.globo.com/pa/para/eleicoes/2026/noticia/2026/10/26/51a-zona-eleitoral-de-rondon-do-para-pa-votos-por-local-de-votacao-no-2o-turno.ghtml",
+  "termos": [
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "resumo": "Unifesspa - Universidade Federal do Sul e Sudeste do Pará . Esta reportagem foi produzida de modo automatizado, com base nos dados do TSE e com o ...",
+  "dominio": "g1.globo.com",
+  "fontes": [
+   "Alerta do Google"
   ],
   "verificada": true,
   "mencoes": 2,
@@ -68,7 +215,8 @@
    "Google",
    "Bing",
    "G1 Pará",
-   "G1 Pará (Bing)"
+   "G1 Pará (Bing)",
+   "Alerta do Google"
   ],
   "verificada": true,
   "mencoes": 6
@@ -1358,6 +1506,23 @@
   "verificada": true,
   "mencoes": 2,
   "resumo": "Às vésperas do Dia das Crianças, em 12 de outubro, a busca de um presente para elas é uma experiência que parte da população gaúcha ainda está vivendo. Segundo levantamento feito pela Fecomércio-RS entre 21 de agosto e 3 de setembro de..."
+ },
+ {
+  "data": "2026-10-09",
+  "veiculo": "plataformaassaad.com.br",
+  "titulo": "Depoimento de Eryson Sampaio: Engenharia Civil na UNIFESSPA - Plataforma Assaad",
+  "link": "https://plataformaassaad.com.br/depoimentos/eryson-sampaio-engenharia-civil-unifesspa",
+  "termos": [
+   "Unifesspa"
+  ],
+  "resumo": "Eryson Sampaio. Engenharia Civil · UNIFESSPA Redação 801 a 900. Não tinha muito tempo para estudar por conta do trabalho, mas ...",
+  "dominio": "plataformaassaad.com.br",
+  "fontes": [
+   "Alerta do Google"
+  ],
+  "verificada": true,
+  "mencoes": 2,
+  "data_feed": "2026-10-25"
  },
  {
   "data": "2026-10-09",

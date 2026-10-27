@@ -1,16 +1,16 @@
 {
- "quando": "2026-10-26T16:18:51",
- "novas": 6,
+ "quando": "2026-10-27T15:30:06",
+ "novas": 9,
  "descartadas": 4,
- "total": 613,
+ "total": 622,
  "consultas": 162,
- "falhas": 10,
+ "falhas": 6,
  "por_fonte": {
-  "Google": 3,
+  "Google": 4,
   "Bing": 1,
   "GDELT": 0,
   "Zé Dudu": 0,
-  "Correio de Carajás": 0,
+  "Correio de Carajás": 1,
   "Portal Canaã": 0,
   "Portal Pebão": 0,
   "Blog do Hiroshi Bogéa": 0,
@@ -18,7 +18,7 @@
   "Pebinha de Açúcar": 0,
   "Fato Regional": 0,
   "Portal Amazônia": 0,
-  "Carajás O Jornal": 1,
+  "Carajás O Jornal": 0,
   "Portal Infopebas": 0,
   "Portal Chocopeba": 0,
   "Jornal A Notícia (AN10)": 0,
@@ -29,7 +29,7 @@
   "DOL Carajás": 0,
   "DOL Carajás (Bing)": 0,
   "G1 Pará": 0,
-  "G1 Pará (Bing)": 1,
+  "G1 Pará (Bing)": 0,
   "Rondon Notícias": 0,
   "Rondon Notícias (Bing)": 0,
   "Sindtifes-PA": 0,
@@ -49,6 +49,7 @@
   "Agência Pará": 0,
   "Agência Pará (Bing)": 0,
   "O Liberal": 0,
+  "O Liberal (Bing)": 0,
   "Estado do Pará Online": 0,
   "Estado do Pará Online (Bing)": 0,
   "Rede Brasil de Televisão": 0,
@@ -70,7 +71,7 @@
   "Jornal A Notícia (AN10) (feed)": 0,
   "Sudeste Paraense (feed)": 0,
   "Canaã Notícias (feed)": 0,
-  "Alerta do Google": 0,
+  "Alerta do Google": 3,
   "Gazeta Carajás (sitemap)": 0
  },
  "sem_nome": [
@@ -82,6 +83,38 @@
     "revistaamazonia.com.br"
    ],
    "exemplo": "Operários abriam terreno para uma ferrovia no Maranhão e acharam ossos gigantes:"
+  },
+  {
+   "dominio": "gov.br",
+   "materias": 2,
+   "nomes": [
+    "GOV.BR"
+   ],
+   "exemplo": "Povo Parakanã lança livro bilíngue de narrativas tradicionais no Pará"
+  },
+  {
+   "dominio": "portalterradaluz.com.br",
+   "materias": 1,
+   "nomes": [
+    "Portal Terra da Luz"
+   ],
+   "exemplo": "Uece pesquisa criação de cabras e ovelhas frente ao clima"
+  },
+  {
+   "dominio": "blogdoeliomar.com",
+   "materias": 1,
+   "nomes": [
+    "Blog do Eliomar"
+   ],
+   "exemplo": "Uece – Pesquisa busca adaptar criação de cabras e ovelhas às mudanças climáticas"
+  },
+  {
+   "dominio": "uece.br",
+   "materias": 1,
+   "nomes": [
+    "uece.br"
+   ],
+   "exemplo": "Pesquisa da Uece busca adaptar criação de cabras e ovelhas às mudanças climática"
   },
   {
    "dominio": "ojs.revistadcs.com",
@@ -154,14 +187,6 @@
     "Jornal Plural"
    ],
    "exemplo": "UFPR aprova título de Doutora Honoris Causa a Dilma Rousseff"
-  },
-  {
-   "dominio": "gov.br",
-   "materias": 1,
-   "nomes": [
-    "GOV.BR"
-   ],
-   "exemplo": "Projeto IARA-Saúde oferece bolsa de divulgação científica"
   },
   {
    "dominio": "blogderocha.com.br",
@@ -306,6 +331,14 @@
     "Grafitti News"
    ],
    "exemplo": "Ex-reitores de universidades públicas divulgam manifesto em apoio à reeleição de"
+  },
+  {
+   "dominio": "plataformaassaad.com.br",
+   "materias": 1,
+   "nomes": [
+    "plataformaassaad.com.br"
+   ],
+   "exemplo": "Depoimento de Eryson Sampaio: Engenharia Civil na UNIFESSPA - Plataforma Assaad"
   },
   {
    "dominio": "viva.com.br",

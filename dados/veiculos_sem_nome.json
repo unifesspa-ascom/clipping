@@ -9,6 +9,38 @@
   "exemplo": "Operários abriam terreno para uma ferrovia no Maranhão e acharam ossos gigantes:"
  },
  {
+  "dominio": "gov.br",
+  "materias": 2,
+  "nomes": [
+   "GOV.BR"
+  ],
+  "exemplo": "Povo Parakanã lança livro bilíngue de narrativas tradicionais no Pará"
+ },
+ {
+  "dominio": "portalterradaluz.com.br",
+  "materias": 1,
+  "nomes": [
+   "Portal Terra da Luz"
+  ],
+  "exemplo": "Uece pesquisa criação de cabras e ovelhas frente ao clima"
+ },
+ {
+  "dominio": "blogdoeliomar.com",
+  "materias": 1,
+  "nomes": [
+   "Blog do Eliomar"
+  ],
+  "exemplo": "Uece – Pesquisa busca adaptar criação de cabras e ovelhas às mudanças climáticas"
+ },
+ {
+  "dominio": "uece.br",
+  "materias": 1,
+  "nomes": [
+   "uece.br"
+  ],
+  "exemplo": "Pesquisa da Uece busca adaptar criação de cabras e ovelhas às mudanças climática"
+ },
+ {
   "dominio": "ojs.revistadcs.com",
   "materias": 1,
   "nomes": [
@@ -79,14 +111,6 @@
    "Jornal Plural"
   ],
   "exemplo": "UFPR aprova título de Doutora Honoris Causa a Dilma Rousseff"
- },
- {
-  "dominio": "gov.br",
-  "materias": 1,
-  "nomes": [
-   "GOV.BR"
-  ],
-  "exemplo": "Projeto IARA-Saúde oferece bolsa de divulgação científica"
  },
  {
   "dominio": "blogderocha.com.br",
@@ -231,6 +255,14 @@
    "Grafitti News"
   ],
   "exemplo": "Ex-reitores de universidades públicas divulgam manifesto em apoio à reeleição de"
+ },
+ {
+  "dominio": "plataformaassaad.com.br",
+  "materias": 1,
+  "nomes": [
+   "plataformaassaad.com.br"
+  ],
+  "exemplo": "Depoimento de Eryson Sampaio: Engenharia Civil na UNIFESSPA - Plataforma Assaad"
  },
  {
   "dominio": "viva.com.br",
