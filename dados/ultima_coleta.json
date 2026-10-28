@@ -1,16 +1,16 @@
 {
- "quando": "2026-10-27T15:30:06",
- "novas": 9,
- "descartadas": 4,
- "total": 622,
+ "quando": "2026-10-28T16:12:24",
+ "novas": 20,
+ "descartadas": 1,
+ "total": 642,
  "consultas": 162,
- "falhas": 6,
+ "falhas": 4,
  "por_fonte": {
   "Google": 4,
-  "Bing": 1,
+  "Bing": 3,
   "GDELT": 0,
   "Zé Dudu": 0,
-  "Correio de Carajás": 1,
+  "Correio de Carajás": 0,
   "Portal Canaã": 0,
   "Portal Pebão": 0,
   "Blog do Hiroshi Bogéa": 0,
@@ -24,7 +24,7 @@
   "Jornal A Notícia (AN10)": 0,
   "Sudeste Paraense": 0,
   "Canaã Notícias": 0,
-  "Gazeta Carajás": 0,
+  "Gazeta Carajás": 1,
   "Gazeta Carajás (Bing)": 0,
   "DOL Carajás": 0,
   "DOL Carajás (Bing)": 0,
@@ -57,7 +57,7 @@
   "Diário do Pará": 0,
   "Diário do Pará (Bing)": 0,
   "Zé Dudu (feed)": 0,
-  "Correio de Carajás (feed)": 0,
+  "Correio de Carajás (feed)": 6,
   "Portal Canaã (feed)": 0,
   "Portal Pebão (feed)": 0,
   "Blog do Hiroshi Bogéa (feed)": 0,
@@ -71,7 +71,7 @@
   "Jornal A Notícia (AN10) (feed)": 0,
   "Sudeste Paraense (feed)": 0,
   "Canaã Notícias (feed)": 0,
-  "Alerta do Google": 3,
+  "Alerta do Google": 6,
   "Gazeta Carajás (sitemap)": 0
  },
  "sem_nome": [
@@ -91,6 +91,55 @@
     "GOV.BR"
    ],
    "exemplo": "Povo Parakanã lança livro bilíngue de narrativas tradicionais no Pará"
+  },
+  {
+   "dominio": "afnoticias.com.br",
+   "materias": 2,
+   "nomes": [
+    "afnoticias.com.br",
+    "AF Notícias"
+   ],
+   "exemplo": "Pesquisador ligado à UFNT ganha prêmio da Unicamp por estudos sobre memória e .."
+  },
+  {
+   "dominio": "avozdesantaquiteria.com.br",
+   "materias": 1,
+   "nomes": [
+    "A Voz de Santa Quitéria"
+   ],
+   "exemplo": "Uece aprova pesquisa para tornar criação de ovinos e caprinos mais resistente às"
+  },
+  {
+   "dominio": "recima21.com.br",
+   "materias": 1,
+   "nomes": [
+    "recima21.com.br"
+   ],
+   "exemplo": "ESTUDO DE CASO EM UMA MINA DE FERRO A CÉU ABERTO NO SUDESTE DO PARÁ"
+  },
+  {
+   "dominio": "gcmais.com.br",
+   "materias": 1,
+   "nomes": [
+    "gcmais.com.br"
+   ],
+   "exemplo": "Estudantes cearenses participam de pesquisa para adaptar criação de cabras e ove"
+  },
+  {
+   "dominio": "corrivus.com.br",
+   "materias": 1,
+   "nomes": [
+    "corrivus.com.br"
+   ],
+   "exemplo": "Projeto da Uece sobre ovinos e caprinos e mudanças climáticas é aprovado - Corri"
+  },
+  {
+   "dominio": "consecti.org.br",
+   "materias": 1,
+   "nomes": [
+    "consecti.org.br"
+   ],
+   "exemplo": "Pesquisa da Uece busca adaptar criação de cabras e ovelhas às mudanças climática"
   },
   {
    "dominio": "portalterradaluz.com.br",
@@ -115,6 +164,14 @@
     "uece.br"
    ],
    "exemplo": "Pesquisa da Uece busca adaptar criação de cabras e ovelhas às mudanças climática"
+  },
+  {
+   "dominio": "portaljijoca.com.br",
+   "materias": 1,
+   "nomes": [
+    "portaljijoca.com.br"
+   ],
+   "exemplo": "Pesquisa da Uece busca adaptar criação de cabras e ovelhas ao clima - Portal Jij"
   },
   {
    "dominio": "ojs.revistadcs.com",

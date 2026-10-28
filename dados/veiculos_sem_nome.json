@@ -17,6 +17,55 @@
   "exemplo": "Povo Parakanã lança livro bilíngue de narrativas tradicionais no Pará"
  },
  {
+  "dominio": "afnoticias.com.br",
+  "materias": 2,
+  "nomes": [
+   "afnoticias.com.br",
+   "AF Notícias"
+  ],
+  "exemplo": "Pesquisador ligado à UFNT ganha prêmio da Unicamp por estudos sobre memória e .."
+ },
+ {
+  "dominio": "avozdesantaquiteria.com.br",
+  "materias": 1,
+  "nomes": [
+   "A Voz de Santa Quitéria"
+  ],
+  "exemplo": "Uece aprova pesquisa para tornar criação de ovinos e caprinos mais resistente às"
+ },
+ {
+  "dominio": "recima21.com.br",
+  "materias": 1,
+  "nomes": [
+   "recima21.com.br"
+  ],
+  "exemplo": "ESTUDO DE CASO EM UMA MINA DE FERRO A CÉU ABERTO NO SUDESTE DO PARÁ"
+ },
+ {
+  "dominio": "gcmais.com.br",
+  "materias": 1,
+  "nomes": [
+   "gcmais.com.br"
+  ],
+  "exemplo": "Estudantes cearenses participam de pesquisa para adaptar criação de cabras e ove"
+ },
+ {
+  "dominio": "corrivus.com.br",
+  "materias": 1,
+  "nomes": [
+   "corrivus.com.br"
+  ],
+  "exemplo": "Projeto da Uece sobre ovinos e caprinos e mudanças climáticas é aprovado - Corri"
+ },
+ {
+  "dominio": "consecti.org.br",
+  "materias": 1,
+  "nomes": [
+   "consecti.org.br"
+  ],
+  "exemplo": "Pesquisa da Uece busca adaptar criação de cabras e ovelhas às mudanças climática"
+ },
+ {
   "dominio": "portalterradaluz.com.br",
   "materias": 1,
   "nomes": [
@@ -39,6 +88,14 @@
    "uece.br"
   ],
   "exemplo": "Pesquisa da Uece busca adaptar criação de cabras e ovelhas às mudanças climática"
+ },
+ {
+  "dominio": "portaljijoca.com.br",
+  "materias": 1,
+  "nomes": [
+   "portaljijoca.com.br"
+  ],
+  "exemplo": "Pesquisa da Uece busca adaptar criação de cabras e ovelhas ao clima - Portal Jij"
  },
  {
   "dominio": "ojs.revistadcs.com",
