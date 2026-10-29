@@ -1,5 +1,14 @@
 [
  {
+  "dominio": "gov.br",
+  "materias": 3,
+  "nomes": [
+   "gov.br",
+   "GOV.BR"
+  ],
+  "exemplo": "Ibama promove audiência pública sobre o Projeto Mina do Alemão, em Parauapebas ("
+ },
+ {
   "dominio": "revistaamazonia.com.br",
   "materias": 3,
   "nomes": [
@@ -9,12 +18,12 @@
   "exemplo": "Operários abriam terreno para uma ferrovia no Maranhão e acharam ossos gigantes:"
  },
  {
-  "dominio": "gov.br",
+  "dominio": "portalpara24horas.com.br",
   "materias": 2,
   "nomes": [
-   "GOV.BR"
+   "portalpara24horas.com.br"
   ],
-  "exemplo": "Povo Parakanã lança livro bilíngue de narrativas tradicionais no Pará"
+  "exemplo": "Canaã dos Carajás recebe seminário sobre letramento racial, identidade e resistê"
  },
  {
   "dominio": "afnoticias.com.br",
@@ -24,6 +33,46 @@
    "AF Notícias"
   ],
   "exemplo": "Pesquisador ligado à UFNT ganha prêmio da Unicamp por estudos sobre memória e .."
+ },
+ {
+  "dominio": "portalf5.com.br",
+  "materias": 1,
+  "nomes": [
+   "portalf5.com.br"
+  ],
+  "exemplo": "Unifesspa promove conferência gratuita sobre decolonialidade em Canaã - Portal F"
+ },
+ {
+  "dominio": "canaadoscarajas.pa.gov.br",
+  "materias": 1,
+  "nomes": [
+   "canaadoscarajas.pa.gov.br"
+  ],
+  "exemplo": "Unifesspa vai realizar conferência sobre linguagem, interculturalidade e decolon"
+ },
+ {
+  "dominio": "portalgildabonfim.com.br",
+  "materias": 1,
+  "nomes": [
+   "portalgildabonfim.com.br"
+  ],
+  "exemplo": "Pesquisador ligado à UFNT ganha prêmio da Unicamp por estudos sobre memória e .."
+ },
+ {
+  "dominio": "periodicorease.pro.br",
+  "materias": 1,
+  "nomes": [
+   "periodicorease.pro.br"
+  ],
+  "exemplo": "uma análise interseccional à luz da história da educação e da legislação brasile"
+ },
+ {
+  "dominio": "comprerural.com",
+  "materias": 1,
+  "nomes": [
+   "comprerural.com"
+  ],
+  "exemplo": "Pesquisa brasileira busca cabras e ovelhas mais resistentes ao clima extremo"
  },
  {
   "dominio": "avozdesantaquiteria.com.br",
@@ -296,14 +345,6 @@
    "reeleito.com.br"
   ],
   "exemplo": "Prefeito em Rondon do Pará (PA) 2020: votos por bairro e local · Reeleito"
- },
- {
-  "dominio": "portalpara24horas.com.br",
-  "materias": 1,
-  "nomes": [
-   "portalpara24horas.com.br"
-  ],
-  "exemplo": "Ramo estudantil do IEEE na Unifesspa impulsiona inovação e conexões globais em t"
  },
  {
   "dominio": "grafittinews.com.br",
