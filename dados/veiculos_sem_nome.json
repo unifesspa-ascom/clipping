@@ -35,12 +35,36 @@
   "exemplo": "Pesquisador ligado à UFNT ganha prêmio da Unicamp por estudos sobre memória e .."
  },
  {
+  "dominio": "revistaedugeo.com.br",
+  "materias": 1,
+  "nomes": [
+   "revistaedugeo.com.br"
+  ],
+  "exemplo": "Visualização de Educação em tempos de Covid-19: - Revista Brasileira de Educação"
+ },
+ {
   "dominio": "portalf5.com.br",
   "materias": 1,
   "nomes": [
    "portalf5.com.br"
   ],
   "exemplo": "Unifesspa promove conferência gratuita sobre decolonialidade em Canaã - Portal F"
+ },
+ {
+  "dominio": "jornalinfoco.com",
+  "materias": 1,
+  "nomes": [
+   "jornalinfoco.com"
+  ],
+  "exemplo": "Unifesspa promove conferência sobre linguagem e educação em Canaã - Jornal In Fo"
+ },
+ {
+  "dominio": "educacaotecnologica.com.br",
+  "materias": 1,
+  "nomes": [
+   "educacaotecnologica.com.br"
+  ],
+  "exemplo": "Gestão na Educação: Integração entre Tecnologia e Inovação"
  },
  {
   "dominio": "canaadoscarajas.pa.gov.br",
@@ -809,6 +833,14 @@
    "unifap.br"
   ],
   "exemplo": "Inscrições abertas para doutorado em educação na Amazônia - UNIFAP"
+ },
+ {
+  "dominio": "dialogosmediterranicos.com.br",
+  "materias": 1,
+  "nomes": [
+   "dialogosmediterranicos.com.br"
+  ],
+  "exemplo": "Memórias e Materialidades do Tempo: Um Estudo Comparativo entre Documentos Textu"
  },
  {
   "dominio": "jaderbarbalho.com.br",

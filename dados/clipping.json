@@ -1,11 +1,29 @@
 [
  {
   "data": "2026-10-29",
+  "veiculo": "revistaedugeo.com.br",
+  "titulo": "Visualização de Educação em tempos de Covid-19: - Revista Brasileira de Educação em Geografia",
+  "link": "https://revistaedugeo.com.br/revistaedugeo/pt/article/view/1039/566",
+  "termos": [
+   "Unifesspa",
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "resumo": "EDUCAÇÃO EM TEMPOS DE COVID-19: a formação docente em Geograﬁa na Universidade Federal do Sul e Sudeste do Pará ( UNIFESSPA ) a partir do PIBID",
+  "dominio": "revistaedugeo.com.br",
+  "fontes": [
+   "Alerta do Google"
+  ],
+  "verificada": true,
+  "mencoes": 2
+ },
+ {
+  "data": "2026-10-29",
   "veiculo": "portalf5.com.br",
   "titulo": "Unifesspa promove conferência gratuita sobre decolonialidade em Canaã - Portal F5",
   "link": "https://portalf5.com.br/unifesspa-conferencia-decolonialidade-canaa",
   "termos": [
-   "Unifesspa"
+   "Unifesspa",
+   "Universidade Federal do Sul e Sudeste do Pará"
   ],
   "resumo": "A Unifesspa promove conferência gratuita em Canaã dos Carajás sobre Linguagem, Interculturalidade e Decolonialidade. Participe do debate com a ...",
   "dominio": "portalf5.com.br",
@@ -17,11 +35,45 @@
  },
  {
   "data": "2026-10-29",
+  "veiculo": "jornalinfoco.com",
+  "titulo": "Unifesspa promove conferência sobre linguagem e educação em Canaã - Jornal In Foco",
+  "link": "https://jornalinfoco.com/noticia/22929/unifesspa-promove-conferencia-sobre-linguagem-e-educacao-em-canaa/amp",
+  "termos": [
+   "Unifesspa",
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "resumo": "A Universidade Federal do Sul e Sudeste do Pará ( Unifesspa ), por meio do Programa de Pós-Graduação em Letras (Poslet), realizará no dia nove de ...",
+  "dominio": "jornalinfoco.com",
+  "fontes": [
+   "Alerta do Google"
+  ],
+  "verificada": true,
+  "mencoes": 3
+ },
+ {
+  "data": "2026-10-29",
+  "veiculo": "educacaotecnologica.com.br",
+  "titulo": "Gestão na Educação: Integração entre Tecnologia e Inovação",
+  "link": "https://educacaotecnologica.com.br/index.php/ojs/article/view/643",
+  "termos": [
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "resumo": "MONIQUE LOPES NAZARÉ DE MORAES. Mestranda em Ensino de Biologia (PROFBIO), Universidade Federal do Sul e Sudeste do Pará (UNIFESSPA). Orcid: https:// ...",
+  "dominio": "educacaotecnologica.com.br",
+  "fontes": [
+   "Alerta do Google"
+  ],
+  "verificada": true,
+  "mencoes": 2
+ },
+ {
+  "data": "2026-10-29",
   "veiculo": "canaadoscarajas.pa.gov.br",
   "titulo": "Unifesspa vai realizar conferência sobre linguagem, interculturalidade e decolonialidade em Canaã",
   "link": "https://www.canaadoscarajas.pa.gov.br/novo/unifesspa-vai-realizar-conferencia-sobre-linguagem-interculturalidade-e-decolonialidade-em-canaa/",
   "termos": [
-   "Unifesspa"
+   "Unifesspa",
+   "Universidade Federal do Sul e Sudeste do Pará"
   ],
   "resumo": "Unifesspa vai realizar conferência sobre linguagem, interculturalidade e decolonialidade em Canaã ... Evento será realizado no dia 9 de novembro, no ...",
   "dominio": "canaadoscarajas.pa.gov.br",
@@ -143,6 +195,22 @@
   ],
   "verificada": true,
   "mencoes": 8
+ },
+ {
+  "data": "2026-10-28",
+  "veiculo": "Plantão Canaã",
+  "titulo": "Canaã dos Carajás cria rede de proteção e garante atendimento em casa para idosos",
+  "link": "https://plantaocanaa.com.br/noticia/5788/canaa-dos-carajas-cria-rede-de-protecao-e-garante-atendimento-em-casa-para-idosos",
+  "termos": [
+   "Unifesspa"
+  ],
+  "resumo": "(…) ntenham palavras ofensivas. Veja também CAPACITAÇÃO Prefeitura de Canaã dos Carajás mapeia interesse do funcionalismo em graduação EDUCAÇÃO Unifesspa vai realizar conferência sobre linguagem, interculturalidade e decolonialidade em...",
+  "dominio": "plantaocanaa.com.br",
+  "fontes": [
+   "Plantão Canaã"
+  ],
+  "verificada": true,
+  "mencoes": 1
  },
  {
   "data": "2026-10-28",
@@ -11086,6 +11154,23 @@
   "verificada": true,
   "mencoes": 2,
   "data_feed": "2026-10-19"
+ },
+ {
+  "data": "2024-04-23",
+  "veiculo": "dialogosmediterranicos.com.br",
+  "titulo": "Memórias e Materialidades do Tempo: Um Estudo Comparativo entre Documentos Textuais ...",
+  "link": "https://www.dialogosmediterranicos.com.br/RevistaDM/de/article/view/455",
+  "termos": [
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "resumo": "Professor do Programa de Mestrado Profissional em Ensino de História da Universidade Federal do Sul e Sudeste do Pará . Professor Colaborador do ...",
+  "dominio": "dialogosmediterranicos.com.br",
+  "fontes": [
+   "Alerta do Google"
+  ],
+  "verificada": true,
+  "mencoes": 4,
+  "data_feed": "2026-10-30"
  },
  {
   "data": "2019-01-23",

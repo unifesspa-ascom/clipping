@@ -1,13 +1,13 @@
 {
- "quando": "2026-10-29T16:17:17",
- "novas": 10,
- "descartadas": 1,
- "total": 652,
+ "quando": "2026-10-30T16:04:29",
+ "novas": 5,
+ "descartadas": 0,
+ "total": 657,
  "consultas": 162,
- "falhas": 3,
+ "falhas": 27,
  "por_fonte": {
   "Google": 0,
-  "Bing": 1,
+  "Bing": 0,
   "GDELT": 0,
   "Zé Dudu": 0,
   "Correio de Carajás": 0,
@@ -25,11 +25,8 @@
   "Sudeste Paraense": 0,
   "Canaã Notícias": 0,
   "Gazeta Carajás": 0,
-  "Gazeta Carajás (Bing)": 0,
   "DOL Carajás": 0,
-  "DOL Carajás (Bing)": 0,
   "G1 Pará": 0,
-  "G1 Pará (Bing)": 0,
   "Rondon Notícias": 0,
   "Rondon Notícias (Bing)": 0,
   "Sindtifes-PA": 0,
@@ -39,10 +36,9 @@
   "Blog do Branco": 0,
   "Blog do Branco (Bing)": 0,
   "Carajás em Foco": 0,
-  "Carajás em Foco (Bing)": 0,
   "Xinguara Ativa": 0,
   "Xinguara Ativa (Bing)": 0,
-  "Plantão Canaã": 0,
+  "Plantão Canaã": 1,
   "Plantão Canaã (Bing)": 0,
   "Roma News": 0,
   "Roma News (Bing)": 0,
@@ -51,7 +47,6 @@
   "O Liberal": 0,
   "O Liberal (Bing)": 0,
   "Estado do Pará Online": 0,
-  "Estado do Pará Online (Bing)": 0,
   "Rede Brasil de Televisão": 0,
   "Rede Brasil de Televisão (Bing)": 0,
   "Diário do Pará": 0,
@@ -71,7 +66,7 @@
   "Jornal A Notícia (AN10) (feed)": 0,
   "Sudeste Paraense (feed)": 0,
   "Canaã Notícias (feed)": 0,
-  "Alerta do Google": 9,
+  "Alerta do Google": 4,
   "Gazeta Carajás (sitemap)": 0
  },
  "sem_nome": [
@@ -111,12 +106,36 @@
    "exemplo": "Pesquisador ligado à UFNT ganha prêmio da Unicamp por estudos sobre memória e .."
   },
   {
+   "dominio": "revistaedugeo.com.br",
+   "materias": 1,
+   "nomes": [
+    "revistaedugeo.com.br"
+   ],
+   "exemplo": "Visualização de Educação em tempos de Covid-19: - Revista Brasileira de Educação"
+  },
+  {
    "dominio": "portalf5.com.br",
    "materias": 1,
    "nomes": [
     "portalf5.com.br"
    ],
    "exemplo": "Unifesspa promove conferência gratuita sobre decolonialidade em Canaã - Portal F"
+  },
+  {
+   "dominio": "jornalinfoco.com",
+   "materias": 1,
+   "nomes": [
+    "jornalinfoco.com"
+   ],
+   "exemplo": "Unifesspa promove conferência sobre linguagem e educação em Canaã - Jornal In Fo"
+  },
+  {
+   "dominio": "educacaotecnologica.com.br",
+   "materias": 1,
+   "nomes": [
+    "educacaotecnologica.com.br"
+   ],
+   "exemplo": "Gestão na Educação: Integração entre Tecnologia e Inovação"
   },
   {
    "dominio": "canaadoscarajas.pa.gov.br",
@@ -885,6 +904,14 @@
     "unifap.br"
    ],
    "exemplo": "Inscrições abertas para doutorado em educação na Amazônia - UNIFAP"
+  },
+  {
+   "dominio": "dialogosmediterranicos.com.br",
+   "materias": 1,
+   "nomes": [
+    "dialogosmediterranicos.com.br"
+   ],
+   "exemplo": "Memórias e Materialidades do Tempo: Um Estudo Comparativo entre Documentos Textu"
   },
   {
    "dominio": "jaderbarbalho.com.br",
