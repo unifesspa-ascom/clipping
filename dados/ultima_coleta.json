@@ -1,16 +1,15 @@
 {
- "quando": "2026-10-30T16:04:29",
- "novas": 5,
- "descartadas": 0,
- "total": 657,
+ "quando": "2026-10-31T15:28:01",
+ "novas": 6,
+ "descartadas": 1,
+ "total": 663,
  "consultas": 162,
- "falhas": 27,
+ "falhas": 15,
  "por_fonte": {
-  "Google": 0,
+  "Google": 4,
   "Bing": 0,
-  "GDELT": 0,
   "Zé Dudu": 0,
-  "Correio de Carajás": 0,
+  "Correio de Carajás": 1,
   "Portal Canaã": 0,
   "Portal Pebão": 0,
   "Blog do Hiroshi Bogéa": 0,
@@ -26,7 +25,9 @@
   "Canaã Notícias": 0,
   "Gazeta Carajás": 0,
   "DOL Carajás": 0,
+  "DOL Carajás (Bing)": 0,
   "G1 Pará": 0,
+  "G1 Pará (Bing)": 0,
   "Rondon Notícias": 0,
   "Rondon Notícias (Bing)": 0,
   "Sindtifes-PA": 0,
@@ -36,9 +37,10 @@
   "Blog do Branco": 0,
   "Blog do Branco (Bing)": 0,
   "Carajás em Foco": 0,
+  "Carajás em Foco (Bing)": 0,
   "Xinguara Ativa": 0,
   "Xinguara Ativa (Bing)": 0,
-  "Plantão Canaã": 1,
+  "Plantão Canaã": 0,
   "Plantão Canaã (Bing)": 0,
   "Roma News": 0,
   "Roma News (Bing)": 0,
@@ -47,6 +49,7 @@
   "O Liberal": 0,
   "O Liberal (Bing)": 0,
   "Estado do Pará Online": 0,
+  "Estado do Pará Online (Bing)": 0,
   "Rede Brasil de Televisão": 0,
   "Rede Brasil de Televisão (Bing)": 0,
   "Diário do Pará": 0,
@@ -66,7 +69,7 @@
   "Jornal A Notícia (AN10) (feed)": 0,
   "Sudeste Paraense (feed)": 0,
   "Canaã Notícias (feed)": 0,
-  "Alerta do Google": 4,
+  "Alerta do Google": 1,
   "Gazeta Carajás (sitemap)": 0
  },
  "sem_nome": [
@@ -104,6 +107,30 @@
     "AF Notícias"
    ],
    "exemplo": "Pesquisador ligado à UFNT ganha prêmio da Unicamp por estudos sobre memória e .."
+  },
+  {
+   "dominio": "opovo.com.br",
+   "materias": 1,
+   "nomes": [
+    "O POVO"
+   ],
+   "exemplo": "Pesquisa da Uece busca adaptar criação de cabras e ovelhas às mudanças climática"
+  },
+  {
+   "dominio": "periodicos.newsciencepubl.com",
+   "materias": 1,
+   "nomes": [
+    "periodicos.newsciencepubl.com"
+   ],
+   "exemplo": "INTENÇÃO EMPREENDEDORA EM UNIVERSITÁRIOS UMA ANÁLISE DESCRITIVA DO ..."
+  },
+  {
+   "dominio": "portalpne.com",
+   "materias": 1,
+   "nomes": [
+    "Portal PNE"
+   ],
+   "exemplo": "Mapa das vagas do Sisu 2027"
   },
   {
    "dominio": "revistaedugeo.com.br",

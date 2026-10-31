@@ -1,5 +1,114 @@
 [
  {
+  "data": "2026-10-31",
+  "veiculo": "O POVO",
+  "titulo": "Pesquisa da Uece busca adaptar criação de cabras e ovelhas às mudanças climáticas",
+  "link": "https://www.opovo.com.br/noticias/ceara/2026/10/31/amp/pesquisa-da-uece-busca-adaptar-criacao-de-cabras-e-ovelhas-as-mudancas-climaticas.html",
+  "termos": [
+   "Universidade Federal do Sul e Sudeste do Pará",
+   "Unifesspa"
+  ],
+  "resumo": "(…) tigação sobre a adaptação dos rebanhos a diferentes condições ambientais. No Brasil, participam instituições como a Universidade Federal do Sul e Sudeste do Pará (Unifesspa), a Universidade Federal do Rio Grande do Sul (UFRGS), a...",
+  "dominio": "opovo.com.br",
+  "fontes": [
+   "Google",
+   "Bing"
+  ],
+  "verificada": true,
+  "mencoes": 2
+ },
+ {
+  "data": "2026-10-30",
+  "veiculo": "periodicos.newsciencepubl.com",
+  "titulo": "INTENÇÃO EMPREENDEDORA EM UNIVERSITÁRIOS UMA ANÁLISE DESCRITIVA DO ...",
+  "link": "https://periodicos.newsciencepubl.com/LEV/pt_BR/article/view/15173",
+  "termos": [
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "resumo": "... Universidade Federal do Sul e Sudeste do Pará , campus Rondon do Pará. Realizou-se pesquisa quantitativa e descritiva, com amostra por conveniência ...",
+  "dominio": "periodicos.newsciencepubl.com",
+  "fontes": [
+   "Alerta do Google"
+  ],
+  "verificada": true,
+  "mencoes": 1
+ },
+ {
+  "data": "2026-10-30",
+  "veiculo": "Prefeitura de Marabá",
+  "titulo": "Meio Ambiente: Semma capacita equipes para fiscalização no período de defeso da Piracema",
+  "link": "https://maraba.pa.gov.br/meio-ambiente-semma-defeso-piracema",
+  "termos": [
+   "Unifesspa",
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "resumo": "A capacitação contou com a participação da Guarda Municipal de Marabá (GMM) e da Universidade Federal do Sul e Sudeste do Pará (Unifesspa) ...",
+  "dominio": "maraba.pa.gov.br",
+  "fontes": [
+   "Google",
+   "Alerta do Google"
+  ],
+  "verificada": true,
+  "mencoes": 0,
+  "descartada": true,
+  "motivo": "Não foi possível ler a matéria, e nem o título nem o resumo (o que a busca já trouxe) citam a Unifesspa."
+ },
+ {
+  "data": "2026-10-30",
+  "veiculo": "Portal PNE",
+  "titulo": "Mapa das vagas do Sisu 2027",
+  "link": "https://portalpne.com/sisu-enem/mapa-das-vagas-do-sisu-2027",
+  "termos": [
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "resumo": "(…) de Federal de Minas Gerais Universidade do Estado de Minas Gerais Pará (PA): Universidade Federal Rural da Amazônia Universidade Federal do Sul e Sudeste do Pará Universidade Federal do Oeste do Pará Instituto Federal do Pará...",
+  "dominio": "portalpne.com",
+  "fontes": [
+   "Google",
+   "Bing"
+  ],
+  "verificada": true,
+  "mencoes": 1
+ },
+ {
+  "data": "2026-10-30",
+  "veiculo": "Correio de Carajás",
+  "titulo": "Sarau da Lua Cheia tem até observação astronômica em Marabá",
+  "link": "https://correiodecarajas.com.br/sarau-da-lua-cheia-tem-ate-observacao-astronomica-em-maraba",
+  "termos": [
+   "Unifesspa",
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "resumo": "(…) ompartilham o mesmo espaço. Na terça-feira, 27 de outubro, a área externa do bloco central do C3, na Unidade III da Universidade Federal do Sul e Sudeste do Pará (Unifesspa), em Marabá, recebeu mais uma edição desse evento...",
+  "dominio": "correiodecarajas.com.br",
+  "fontes": [
+   "Google",
+   "Bing",
+   "Correio de Carajás",
+   "Alerta do Google"
+  ],
+  "verificada": true,
+  "mencoes": 5
+ },
+ {
+  "data": "2026-10-30",
+  "veiculo": "Correio de Carajás",
+  "titulo": "Devfest: Encontro aproximou estudantes e profissionais do mercado de tecnologia",
+  "link": "https://correiodecarajas.com.br/devfest-encontro-aproximou-estudantes-e-profissionais-do-mercado-de-tecnologia",
+  "termos": [
+   "Unifesspa",
+   "Feed do veículo"
+  ],
+  "resumo": "(…) rtunidade de conhecer diferentes perspectivas da profissão. Kennedy Gabriel Silva, aluno do terceiro período de Engenharia da Computação na Unifesspa, destacou a motivação proporcionada pelo contato com profissionais experientes e com...",
+  "dominio": "correiodecarajas.com.br",
+  "fontes": [
+   "Correio de Carajás",
+   "Correio de Carajás (feed)"
+  ],
+  "verificada": true,
+  "mencoes": 2
+ },
+ {
   "data": "2026-10-29",
   "veiculo": "revistaedugeo.com.br",
   "titulo": "Visualização de Educação em tempos de Covid-19: - Revista Brasileira de Educação em Geografia",

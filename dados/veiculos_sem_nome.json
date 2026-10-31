@@ -35,6 +35,30 @@
   "exemplo": "Pesquisador ligado à UFNT ganha prêmio da Unicamp por estudos sobre memória e .."
  },
  {
+  "dominio": "opovo.com.br",
+  "materias": 1,
+  "nomes": [
+   "O POVO"
+  ],
+  "exemplo": "Pesquisa da Uece busca adaptar criação de cabras e ovelhas às mudanças climática"
+ },
+ {
+  "dominio": "periodicos.newsciencepubl.com",
+  "materias": 1,
+  "nomes": [
+   "periodicos.newsciencepubl.com"
+  ],
+  "exemplo": "INTENÇÃO EMPREENDEDORA EM UNIVERSITÁRIOS UMA ANÁLISE DESCRITIVA DO ..."
+ },
+ {
+  "dominio": "portalpne.com",
+  "materias": 1,
+  "nomes": [
+   "Portal PNE"
+  ],
+  "exemplo": "Mapa das vagas do Sisu 2027"
+ },
+ {
   "dominio": "revistaedugeo.com.br",
   "materias": 1,
   "nomes": [
