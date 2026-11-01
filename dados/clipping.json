@@ -1,5 +1,72 @@
 [
  {
+  "data": "2026-11-01",
+  "veiculo": "sisusimulator.com.br",
+  "titulo": "FÍSICA (UNIFESSPA - CAMPUS DE MARABÁ - UNIDADE III) - SiSU Simulator",
+  "link": "https://sisusimulator.com.br/unifesspa/campus-de-maraba-unidade-iii/fisica-licenciatura",
+  "termos": [
+   "Unifesspa",
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "resumo": "Simule e confira as notas de corte, pesos, médias mínimas do curso FÍSICA da UNIFESSPA (CAMPUS DE MARABÁ - UNIDADE III) no SiSU 2024.",
+  "dominio": "sisusimulator.com.br",
+  "fontes": [
+   "Alerta do Google"
+  ],
+  "verificada": true,
+  "mencoes": 3
+ },
+ {
+  "data": "2026-10-31",
+  "veiculo": "www2.mppa.mp.br",
+  "titulo": "Estágio de nível superior | Portal MPPA",
+  "link": "https://www2.mppa.mp.br/estagio-de-nivel-superior.htm",
+  "termos": [
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "resumo": "UNIVERSIDADE FEDERAL DO SUL E SUDESTE DO PARÁ - UNIFESSPA. Navegação Interna. Transparência · Audiências públicas e eventos · Programa MPPA em Foco ...",
+  "dominio": "www2.mppa.mp.br",
+  "fontes": [
+   "Alerta do Google"
+  ],
+  "verificada": true,
+  "mencoes": 2
+ },
+ {
+  "data": "2026-10-31",
+  "veiculo": "jusbrasil.com.br",
+  "titulo": "Petição - TRF1 - Ação Ingresso no Curso Superior - Apelação Cível - contra Universidade ...",
+  "link": "https://www.jusbrasil.com.br/processos/280072362/peca-peticao-trf1-acao-ingresso-no-curso-superior-apelacao-civel-contra-universidade-federal-do-sul-e-sudeste-do-para-unifesspa-7747125045",
+  "termos": [
+   "Unifesspa",
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "resumo": "Impetrado: REITOR DA UNIVERSIDADE FEDERAL DO SUL E SUDESTE DO PARÁ- UNIFESSPA . O MINISTÉRIO PÚBLICO FEDERAL , pelo Procurador da República signatário, ...",
+  "dominio": "jusbrasil.com.br",
+  "fontes": [
+   "Alerta do Google"
+  ],
+  "verificada": true,
+  "mencoes": 2
+ },
+ {
+  "data": "2026-10-31",
+  "veiculo": "jusbrasil.com.br",
+  "titulo": "Contrarrazões - TRF1 - Ação Ingresso no Curso Superior - Apelação Cível - Jusbrasil",
+  "link": "https://www.jusbrasil.com.br/processos/280072362/peca-contrarrazoes-trf1-acao-ingresso-no-curso-superior-apelacao-civel-contra-universidade-federal-do-sul-e-sudeste-do-para-unifesspa-7747125593",
+  "termos": [
+   "Unifesspa",
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "resumo": "UNIVERSIDADE FEDERAL DO SUL E SUDESTE DO PARÁ - UNIFESSPA , pessoa jurídica de direito público, representado (a) pelo membro da Advocacia-Geral da ...",
+  "dominio": "jusbrasil.com.br",
+  "fontes": [
+   "Alerta do Google"
+  ],
+  "verificada": true,
+  "mencoes": 2
+ },
+ {
   "data": "2026-10-31",
   "veiculo": "O POVO",
   "titulo": "Pesquisa da Uece busca adaptar criação de cabras e ovelhas às mudanças climáticas",
@@ -12,7 +79,8 @@
   "dominio": "opovo.com.br",
   "fontes": [
    "Google",
-   "Bing"
+   "Bing",
+   "Alerta do Google"
   ],
   "verificada": true,
   "mencoes": 2
@@ -103,7 +171,8 @@
   "dominio": "correiodecarajas.com.br",
   "fontes": [
    "Correio de Carajás",
-   "Correio de Carajás (feed)"
+   "Correio de Carajás (feed)",
+   "Alerta do Google"
   ],
   "verificada": true,
   "mencoes": 2

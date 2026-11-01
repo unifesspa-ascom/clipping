@@ -1,15 +1,16 @@
 {
- "quando": "2026-10-31T15:28:01",
- "novas": 6,
- "descartadas": 1,
- "total": 663,
+ "quando": "2026-11-01T16:08:57",
+ "novas": 4,
+ "descartadas": 0,
+ "total": 667,
  "consultas": 162,
- "falhas": 15,
+ "falhas": 16,
  "por_fonte": {
-  "Google": 4,
+  "Google": 0,
   "Bing": 0,
+  "GDELT": 0,
   "Zé Dudu": 0,
-  "Correio de Carajás": 1,
+  "Correio de Carajás": 0,
   "Portal Canaã": 0,
   "Portal Pebão": 0,
   "Blog do Hiroshi Bogéa": 0,
@@ -24,12 +25,12 @@
   "Sudeste Paraense": 0,
   "Canaã Notícias": 0,
   "Gazeta Carajás": 0,
+  "Gazeta Carajás (Bing)": 0,
   "DOL Carajás": 0,
   "DOL Carajás (Bing)": 0,
   "G1 Pará": 0,
   "G1 Pará (Bing)": 0,
   "Rondon Notícias": 0,
-  "Rondon Notícias (Bing)": 0,
   "Sindtifes-PA": 0,
   "Sindtifes-PA (Bing)": 0,
   "ADUNIFESSPA": 0,
@@ -39,7 +40,6 @@
   "Carajás em Foco": 0,
   "Carajás em Foco (Bing)": 0,
   "Xinguara Ativa": 0,
-  "Xinguara Ativa (Bing)": 0,
   "Plantão Canaã": 0,
   "Plantão Canaã (Bing)": 0,
   "Roma News": 0,
@@ -69,7 +69,7 @@
   "Jornal A Notícia (AN10) (feed)": 0,
   "Sudeste Paraense (feed)": 0,
   "Canaã Notícias (feed)": 0,
-  "Alerta do Google": 1,
+  "Alerta do Google": 4,
   "Gazeta Carajás (sitemap)": 0
  },
  "sem_nome": [
@@ -92,6 +92,14 @@
    "exemplo": "Operários abriam terreno para uma ferrovia no Maranhão e acharam ossos gigantes:"
   },
   {
+   "dominio": "jusbrasil.com.br",
+   "materias": 2,
+   "nomes": [
+    "jusbrasil.com.br"
+   ],
+   "exemplo": "Petição - TRF1 - Ação Ingresso no Curso Superior - Apelação Cível - contra Unive"
+  },
+  {
    "dominio": "portalpara24horas.com.br",
    "materias": 2,
    "nomes": [
@@ -107,6 +115,22 @@
     "AF Notícias"
    ],
    "exemplo": "Pesquisador ligado à UFNT ganha prêmio da Unicamp por estudos sobre memória e .."
+  },
+  {
+   "dominio": "sisusimulator.com.br",
+   "materias": 1,
+   "nomes": [
+    "sisusimulator.com.br"
+   ],
+   "exemplo": "FÍSICA (UNIFESSPA - CAMPUS DE MARABÁ - UNIDADE III) - SiSU Simulator"
+  },
+  {
+   "dominio": "www2.mppa.mp.br",
+   "materias": 1,
+   "nomes": [
+    "www2.mppa.mp.br"
+   ],
+   "exemplo": "Estágio de nível superior | Portal MPPA"
   },
   {
    "dominio": "opovo.com.br",

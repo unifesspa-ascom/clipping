@@ -18,6 +18,14 @@
   "exemplo": "Operários abriam terreno para uma ferrovia no Maranhão e acharam ossos gigantes:"
  },
  {
+  "dominio": "jusbrasil.com.br",
+  "materias": 2,
+  "nomes": [
+   "jusbrasil.com.br"
+  ],
+  "exemplo": "Petição - TRF1 - Ação Ingresso no Curso Superior - Apelação Cível - contra Unive"
+ },
+ {
   "dominio": "portalpara24horas.com.br",
   "materias": 2,
   "nomes": [
@@ -33,6 +41,22 @@
    "AF Notícias"
   ],
   "exemplo": "Pesquisador ligado à UFNT ganha prêmio da Unicamp por estudos sobre memória e .."
+ },
+ {
+  "dominio": "sisusimulator.com.br",
+  "materias": 1,
+  "nomes": [
+   "sisusimulator.com.br"
+  ],
+  "exemplo": "FÍSICA (UNIFESSPA - CAMPUS DE MARABÁ - UNIDADE III) - SiSU Simulator"
+ },
+ {
+  "dominio": "www2.mppa.mp.br",
+  "materias": 1,
+  "nomes": [
+   "www2.mppa.mp.br"
+  ],
+  "exemplo": "Estágio de nível superior | Portal MPPA"
  },
  {
   "dominio": "opovo.com.br",
