@@ -1,12 +1,12 @@
 {
- "quando": "2026-11-01T16:08:57",
- "novas": 4,
- "descartadas": 0,
- "total": 667,
+ "quando": "2026-11-02T19:41:03",
+ "novas": 3,
+ "descartadas": 2,
+ "total": 670,
  "consultas": 162,
- "falhas": 16,
+ "falhas": 6,
  "por_fonte": {
-  "Google": 0,
+  "Google": 2,
   "Bing": 0,
   "GDELT": 0,
   "Zé Dudu": 0,
@@ -31,6 +31,7 @@
   "G1 Pará": 0,
   "G1 Pará (Bing)": 0,
   "Rondon Notícias": 0,
+  "Rondon Notícias (Bing)": 0,
   "Sindtifes-PA": 0,
   "Sindtifes-PA (Bing)": 0,
   "ADUNIFESSPA": 0,
@@ -40,6 +41,7 @@
   "Carajás em Foco": 0,
   "Carajás em Foco (Bing)": 0,
   "Xinguara Ativa": 0,
+  "Xinguara Ativa (Bing)": 0,
   "Plantão Canaã": 0,
   "Plantão Canaã (Bing)": 0,
   "Roma News": 0,
@@ -69,7 +71,7 @@
   "Jornal A Notícia (AN10) (feed)": 0,
   "Sudeste Paraense (feed)": 0,
   "Canaã Notícias (feed)": 0,
-  "Alerta do Google": 4,
+  "Alerta do Google": 1,
   "Gazeta Carajás (sitemap)": 0
  },
  "sem_nome": [
@@ -115,6 +117,14 @@
     "AF Notícias"
    ],
    "exemplo": "Pesquisador ligado à UFNT ganha prêmio da Unicamp por estudos sobre memória e .."
+  },
+  {
+   "dominio": "expresso222.com.br",
+   "materias": 1,
+   "nomes": [
+    "expresso222.com.br"
+   ],
+   "exemplo": "IT Forum Mulheres: de Eldorado do Carajás ao doutorado, Léia Sousa “hackeou” o s"
   },
   {
    "dominio": "sisusimulator.com.br",

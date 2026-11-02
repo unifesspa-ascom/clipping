@@ -1,5 +1,41 @@
 [
  {
+  "data": "2026-11-02",
+  "veiculo": "expresso222.com.br",
+  "titulo": "IT Forum Mulheres: de Eldorado do Carajás ao doutorado, Léia Sousa “hackeou” o sistema da vida",
+  "link": "https://expresso222.com.br/tecnologia/leia-sousa-hackeou-o-sistema-da-vida",
+  "termos": [
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "resumo": "Hoje, é doutora em Informática, professora da Universidade Federal do Sul e Sudeste do Pará (Unifesspa) e vice-coordenadora do Mestrado ...",
+  "dominio": "expresso222.com.br",
+  "fontes": [
+   "Alerta do Google"
+  ],
+  "verificada": true,
+  "mencoes": 3
+ },
+ {
+  "data": "2026-11-02",
+  "veiculo": "IT Forum",
+  "titulo": "IT Forum Mulheres: de Eldorado do Carajás ao doutorado, Léia Sousa “hackeou” o sistema da vida - IT Forum",
+  "link": "https://itforum.com.br/noticias/leia-sousa-hackeou-o-sistema-da-vida",
+  "termos": [
+   "Unifesspa",
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "resumo": "Hoje, é doutora em Informática, professora da Universidade Federal do Sul e Sudeste do Pará (Unifesspa) e vice-coordenadora do Mestrado Profissional ...",
+  "dominio": "itforum.com.br",
+  "fontes": [
+   "Google",
+   "Alerta do Google"
+  ],
+  "verificada": true,
+  "mencoes": 0,
+  "descartada": true,
+  "motivo": "Não foi possível ler a matéria, e nem o título nem o resumo (o que a busca já trouxe) citam a Unifesspa."
+ },
+ {
   "data": "2026-11-01",
   "veiculo": "sisusimulator.com.br",
   "titulo": "FÍSICA (UNIFESSPA - CAMPUS DE MARABÁ - UNIDADE III) - SiSU Simulator",
@@ -389,6 +425,24 @@
   ],
   "verificada": true,
   "mencoes": 1
+ },
+ {
+  "data": "2026-10-28",
+  "veiculo": "OpiniãoCE",
+  "titulo": "Uece aprova pesquisa para tornar criação de ovinos e caprinos mais resistente às mudanças climáticas",
+  "link": "https://www.opiniaoce.com.br/ceara/2026/10/28/uece-aprova-pesquisa-para-tornar-criacao-de-ovinos-e-caprinos-mais-resistente-as-mudancas-climaticas",
+  "termos": [
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "resumo": "",
+  "dominio": "opiniaoce.com.br",
+  "fontes": [
+   "Google"
+  ],
+  "verificada": true,
+  "mencoes": 0,
+  "descartada": true,
+  "motivo": "Não foi possível ler a matéria, e nem o título nem o resumo (o que a busca já trouxe) citam a Unifesspa."
  },
  {
   "data": "2026-10-28",
