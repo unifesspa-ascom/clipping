@@ -1,12 +1,12 @@
 {
- "quando": "2026-11-02T19:41:03",
- "novas": 3,
- "descartadas": 2,
- "total": 670,
+ "quando": "2026-11-03T17:14:04",
+ "novas": 1,
+ "descartadas": 0,
+ "total": 671,
  "consultas": 162,
- "falhas": 6,
+ "falhas": 4,
  "por_fonte": {
-  "Google": 2,
+  "Google": 0,
   "Bing": 0,
   "GDELT": 0,
   "Zé Dudu": 0,
@@ -117,6 +117,14 @@
     "AF Notícias"
    ],
    "exemplo": "Pesquisador ligado à UFNT ganha prêmio da Unicamp por estudos sobre memória e .."
+  },
+  {
+   "dominio": "gabaritopro.com",
+   "materias": 1,
+   "nomes": [
+    "gabaritopro.com"
+   ],
+   "exemplo": "Nota de Corte do Sisu 2025: Ciências Naturais | GabaritoPRO"
   },
   {
    "dominio": "expresso222.com.br",
