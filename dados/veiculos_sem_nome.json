@@ -18,6 +18,14 @@
   "exemplo": "Operários abriam terreno para uma ferrovia no Maranhão e acharam ossos gigantes:"
  },
  {
+  "dominio": "blogdovestibular.com",
+  "materias": 2,
+  "nomes": [
+   "Blog do Vestibular"
+  ],
+  "exemplo": "Mapa das vagas do Sisu 2027: confira as instituições por estado"
+ },
+ {
   "dominio": "jusbrasil.com.br",
   "materias": 2,
   "nomes": [
@@ -43,12 +51,68 @@
   "exemplo": "Pesquisador ligado à UFNT ganha prêmio da Unicamp por estudos sobre memória e .."
  },
  {
+  "dominio": "studocu.com",
+  "materias": 1,
+  "nomes": [
+   "studocu.com"
+  ],
+  "exemplo": "Resumo da Aula de Patologia Veterinária: Alterações Endócrinas - Studocu"
+ },
+ {
+  "dominio": "periodicos.uem.br",
+  "materias": 1,
+  "nomes": [
+   "periodicos.uem.br"
+  ],
+  "exemplo": "o caso da “edição número 5” do jornal Resistência e a engrenagem autoritária na "
+ },
+ {
+  "dominio": "brasil.mongabay.com",
+  "materias": 1,
+  "nomes": [
+   "brasil.mongabay.com"
+  ],
+  "exemplo": "Mexilhão-dourado avança na Amazônia e ameaça o sustento de pescadores"
+ },
+ {
+  "dominio": "sisu.pro.br",
+  "materias": 1,
+  "nomes": [
+   "sisu.pro.br"
+  ],
+  "exemplo": "Mapa das vagas do Sisu 2027: veja universidades e institutos por região"
+ },
+ {
+  "dominio": "revista.rbc.org.br",
+  "materias": 1,
+  "nomes": [
+   "revista.rbc.org.br"
+  ],
+  "exemplo": "estudo de caso com dados do PRODES e imagens do satélite Sentinel"
+ },
+ {
   "dominio": "gabaritopro.com",
   "materias": 1,
   "nomes": [
    "gabaritopro.com"
   ],
   "exemplo": "Nota de Corte do Sisu 2025: Ciências Naturais | GabaritoPRO"
+ },
+ {
+  "dominio": "fotto.com.br",
+  "materias": 1,
+  "nomes": [
+   "fotto.com.br"
+  ],
+  "exemplo": "Fotos - CORRIDA UNIFESSPA - Fotto"
+ },
+ {
+  "dominio": "concursos.estrategia.com",
+  "materias": 1,
+  "nomes": [
+   "concursos.estrategia.com"
+  ],
+  "exemplo": "Questão No ensaio de resistência à compressão axial de um corpo de prova cilíndr"
  },
  {
   "dominio": "expresso222.com.br",
@@ -537,14 +601,6 @@
    "vestibulandoweb.com.br"
   ],
   "exemplo": "Mestrado gratuito PROFBIO 2027 reúne 572 vagas em universidades públicas do país"
- },
- {
-  "dominio": "blogdovestibular.com",
-  "materias": 1,
-  "nomes": [
-   "Blog do Vestibular"
-  ],
-  "exemplo": "PROFBIO 2027 oferece 572 vagas em mestrado gratuito para professores de Biologia"
  },
  {
   "dominio": "porvir.org",
