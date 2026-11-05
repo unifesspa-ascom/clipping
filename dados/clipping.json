@@ -1,5 +1,112 @@
 [
  {
+  "data": "2026-11-05",
+  "veiculo": "ufnt.edu.br",
+  "titulo": "UFNT inicia tratativas para implantação de polo do Doutorado em Educação da Rede ...",
+  "link": "https://ufnt.edu.br/2026/11/05/ufnt-inicia-tratativas-para-implantacao-de-polo-do-doutorado-em-educacao-da-rede-educanorte-em-tocantinopolis",
+  "termos": [
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "resumo": "... Universidade Federal do Sul e Sudeste do Pará (UNIFESSPA). Sua atuação abrange sete estados da Região Norte: Pará, Amapá, Acre, Amazonas, Rondônia ...",
+  "dominio": "ufnt.edu.br",
+  "fontes": [
+   "Alerta do Google"
+  ],
+  "verificada": true,
+  "mencoes": 2
+ },
+ {
+  "data": "2026-11-05",
+  "veiculo": "tribunapopular.com.br",
+  "titulo": "Vice-reitor do IFRO é eleito para o Conselho de Administração da Fundação Bionorte",
+  "link": "https://tribunapopular.com.br/vice-reitor-do-ifro-e-eleito-para-o-conselho-de-administracao-da-fundacao-bionorte",
+  "termos": [
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "resumo": "(…) do Pará (UEPA), a Universidade Federal Rural da Amazônia (UFRA), a Universidade Federal do Oeste do Pará (UFOPA), a Universidade Federal do Sul e Sudeste do Pará (UNIFESSPA), o Museu Paraense Emílio Goeldi, o Instituto Evandro Chagas,...",
+  "dominio": "tribunapopular.com.br",
+  "fontes": [
+   "Google"
+  ],
+  "verificada": true,
+  "mencoes": 2
+ },
+ {
+  "data": "2026-11-05",
+  "veiculo": "falaseriocarajas.com.br",
+  "titulo": "Fapespa se destaca como agência fomentadora de Ciência, Tecnologia e Inovação na Amazônia",
+  "link": "https://falaseriocarajas.com.br/noticia/30615/fapespa-se-destaca-como-agencia-fomentadora-de-ciencia-tecnologia-e-inovacao-na-amazonia",
+  "termos": [
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "resumo": "(…) deral do Pará (UFPA), Universidade Federal Rural da Amazônia (UFRA), Universidade Federal do Oeste do Pará (UFOPA), Universidade Federal do Sul e Sudeste do Pará (UNIFESSPA), Museu Paraense Emílio Goeldi, Instituto Evandro Chagas e...",
+  "dominio": "falaseriocarajas.com.br",
+  "fontes": [
+   "Bing"
+  ],
+  "verificada": true,
+  "mencoes": 2
+ },
+ {
+  "data": "2026-11-05",
+  "veiculo": "Rede Brasil de Televisão",
+  "titulo": "Fapespa se destaca como agência fomentadora de Ciência, Tecnologia e Inovação na Amazônia",
+  "link": "https://rbtv.com.br/noticia/28430/fapespa-se-destaca-como-agencia-fomentadora-de-ciencia-tecnologia-e-inovacao-na-amazonia/amp",
+  "termos": [
+   "Universidade Federal do Sul e Sudeste do Pará",
+   "Unifesspa"
+  ],
+  "resumo": "(…) deral do Pará (UFPA), Universidade Federal Rural da Amazônia (UFRA), Universidade Federal do Oeste do Pará (UFOPA), Universidade Federal do Sul e Sudeste do Pará (UNIFESSPA), Museu Paraense Emílio Goeldi, Instituto Evandro Chagas e...",
+  "dominio": "rbtv.com.br",
+  "fontes": [
+   "Google",
+   "Rede Brasil de Televisão",
+   "Rede Brasil de Televisão (Bing)"
+  ],
+  "verificada": true,
+  "mencoes": 2
+ },
+ {
+  "data": "2026-11-05",
+  "veiculo": "Correio de Carajás",
+  "titulo": "Feira literária promove valorização da literatura negra em Marabá",
+  "link": "https://correiodecarajas.com.br/feira-literaria-promove-valorizacao-da-literatura-negra-em-maraba",
+  "termos": [
+   "Unifesspa",
+   "Universidade Federal do Sul e Sudeste do Pará",
+   "Feed do veículo"
+  ],
+  "resumo": "Às vésperas do Dia Nacional da Consciência Negra, celebrado em 20 de novembro, Marabá recebe a 1ª Feira Literária Antirracista da Região de Carajás (FLEARC). O evento acontece na sexta-feira (13), no auditório da Unidade I da Universidade...",
+  "dominio": "correiodecarajas.com.br",
+  "fontes": [
+   "Google",
+   "Correio de Carajás",
+   "Correio de Carajás (feed)"
+  ],
+  "verificada": true,
+  "mencoes": 0,
+  "descartada": true,
+  "motivo": "Não foi possível ler a matéria, e nem o título nem o resumo (o que a busca já trouxe) citam a Unifesspa."
+ },
+ {
+  "data": "2026-11-05",
+  "veiculo": "Carajás O Jornal",
+  "titulo": "Hana  Ghassan exonera secretário de fazenda após polemica sobre aumento do ICMS dos combustíveis..",
+  "link": "https://carajasojornal.com.br/hana-ghassan-exonera-secretario-de-fazenda-apos-polemica-sobre-aumento-do-icms-dos-combustiveis",
+  "termos": [
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "resumo": "René Sousa deixa o comando da Fazenda após quase oito anos. Governadora teria considerado quebra de confiança o apoio do secretário ao reajuste tributário sem consulta prévia. Elieth de Fátima Lima Braga é anunciada como substituta, em...",
+  "dominio": "carajasojornal.com.br",
+  "fontes": [
+   "Carajás O Jornal"
+  ],
+  "verificada": true,
+  "mencoes": 0,
+  "descartada": true,
+  "motivo": "O texto da matéria não cita a Unifesspa."
+ },
+ {
   "data": "2026-11-04",
   "veiculo": "studocu.com",
   "titulo": "Resumo da Aula de Patologia Veterinária: Alterações Endócrinas - Studocu",
@@ -14,6 +121,22 @@
   ],
   "verificada": true,
   "mencoes": 1
+ },
+ {
+  "data": "2026-11-04",
+  "veiculo": "seletivo.profei.com.br",
+  "titulo": "PROGRAMA DE PÓS-GRADUAÇÃO EDUCAÇÃO INCLUSIVA - Processo Seletivo PROFEI 2027",
+  "link": "https://seletivo.profei.com.br/admin/publicacao/viewDoc/10",
+  "termos": [
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "resumo": "UNIFESSPA - Universidade Federal do Sul E Sudeste Do Pará . Irineia Alves Pereira. UNIFESSPA - Universidade Federal do Sul E Sudeste Do Pará . Karla ...",
+  "dominio": "seletivo.profei.com.br",
+  "fontes": [
+   "Alerta do Google"
+  ],
+  "verificada": true,
+  "mencoes": 4
  },
  {
   "data": "2026-11-04",
@@ -43,7 +166,9 @@
   "resumo": "(…) penso que o mexilhão-dourado já está muito perto da foz do Amazonas”, diz Cristiane Vieira da Cunha, professora da Universidade Federal do Sul e Sudeste do Pará (Unifesspa). Para ela, uma eventual chegada ao rio Amazonas pode ter...",
   "dominio": "brasil.mongabay.com",
   "fontes": [
-   "Bing"
+   "Bing",
+   "Google",
+   "Alerta do Google"
   ],
   "verificada": true,
   "mencoes": 2
@@ -65,6 +190,23 @@
   ],
   "verificada": true,
   "mencoes": 3
+ },
+ {
+  "data": "2026-11-04",
+  "veiculo": "O Cafezinho",
+  "titulo": "Mexilhão-dourado ameaça pescadores do Lago de Tucuruí",
+  "link": "https://www.ocafezinho.com/2026-11-04/mexilhao-dourado-ameaca-pescadores-do-lago-de-tucurui/amp",
+  "termos": [
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "resumo": "(…) favoráveis ao estabelecimento do mexilhão e risco crescente de invasão. A professora Cristiane Vieira da Cunha, da Universidade Federal do Sul e Sudeste do Pará (Unifesspa), acompanha o avanço do molusco em direção à foz do Amazonas....",
+  "dominio": "ocafezinho.com",
+  "fontes": [
+   "Google",
+   "Alerta do Google"
+  ],
+  "verificada": true,
+  "mencoes": 2
  },
  {
   "data": "2026-11-04",
@@ -169,6 +311,22 @@
  },
  {
   "data": "2026-11-03",
+  "veiculo": "collegematcher.com",
+  "titulo": "Universities in Pará, Brazil — All 76 Institutions | CollegeMatcher",
+  "link": "https://collegematcher.com/br/state/pa",
+  "termos": [
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "resumo": "Universidade Federal do Sul e Sudeste do Pará (UNIFESSPA)University · Federal (public), 5,225 in person. Faculdade dos CarajásFaculty (faculdade) ...",
+  "dominio": "collegematcher.com",
+  "fontes": [
+   "Alerta do Google"
+  ],
+  "verificada": true,
+  "mencoes": 2
+ },
+ {
+  "data": "2026-11-03",
   "veiculo": "Prefeitura de Marabá",
   "titulo": "Transporte Público: Aplicativo “Lá Vem o Ônibus” permite acompanhar coletivos em tempo real",
   "link": "https://maraba.pa.gov.br/transporte-publico-aplicativo-la-vem-o-onibus",
@@ -176,10 +334,11 @@
    "Unifesspa",
    "Universidade Federal do Sul e Sudeste do Pará"
   ],
-  "resumo": "",
+  "resumo": "A acadêmica de Ciências Naturais da Unifesspa , Amanda Araújo, conheceu a ferramenta durante uma visita ao terminal de integração, onde foi realizar a ...",
   "dominio": "maraba.pa.gov.br",
   "fontes": [
-   "Google"
+   "Google",
+   "Alerta do Google"
   ],
   "verificada": true,
   "mencoes": 0,
@@ -201,7 +360,8 @@
   "fontes": [
    "Google",
    "Gazeta Carajás",
-   "Gazeta Carajás (sitemap)"
+   "Gazeta Carajás (sitemap)",
+   "Alerta do Google"
   ],
   "verificada": true,
   "mencoes": 5
@@ -219,7 +379,8 @@
   "dominio": "blogdovestibular.com",
   "fontes": [
    "Google",
-   "Bing"
+   "Bing",
+   "Alerta do Google"
   ],
   "verificada": true,
   "mencoes": 2
@@ -538,6 +699,22 @@
   ],
   "verificada": true,
   "mencoes": 2
+ },
+ {
+  "data": "2026-10-29",
+  "veiculo": "Plantão Canaã",
+  "titulo": "Prefeitura de Canaã dos Carajás mapeia interesse do funcionalismo em graduação",
+  "link": "https://plantaocanaa.com.br/noticia/5797/prefeitura-de-canaa-dos-carajas-mapeia-interesse-do-funcionalismo-em-graduacao",
+  "termos": [
+   "Unifesspa"
+  ],
+  "resumo": "(…) direito de reprovar ou eliminar comentários em desacordo com o propósito do site ou que contenham palavras ofensivas. Veja também EDUCAÇÃO Unifesspa vai realizar conferência sobre linguagem, interculturalidade e decolonialidade em...",
+  "dominio": "plantaocanaa.com.br",
+  "fontes": [
+   "Plantão Canaã"
+  ],
+  "verificada": true,
+  "mencoes": 1
  },
  {
   "data": "2026-10-28",

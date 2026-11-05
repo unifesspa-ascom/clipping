@@ -1,13 +1,14 @@
 {
- "quando": "2026-11-04T17:27:01",
- "novas": 12,
+ "quando": "2026-11-05T17:36:04",
+ "novas": 10,
  "descartadas": 2,
- "total": 683,
+ "total": 693,
  "consultas": 162,
- "falhas": 12,
+ "falhas": 10,
  "por_fonte": {
   "Google": 4,
   "Bing": 1,
+  "GDELT": 0,
   "Zé Dudu": 0,
   "Correio de Carajás": 0,
   "Portal Canaã": 0,
@@ -17,7 +18,7 @@
   "Pebinha de Açúcar": 0,
   "Fato Regional": 0,
   "Portal Amazônia": 0,
-  "Carajás O Jornal": 0,
+  "Carajás O Jornal": 1,
   "Portal Infopebas": 0,
   "Portal Chocopeba": 0,
   "Jornal A Notícia (AN10)": 0,
@@ -37,11 +38,11 @@
   "ADUNIFESSPA (Bing)": 0,
   "Blog do Branco": 0,
   "Blog do Branco (Bing)": 0,
-  "Carajás em Foco": 1,
+  "Carajás em Foco": 0,
   "Carajás em Foco (Bing)": 0,
   "Xinguara Ativa": 0,
   "Xinguara Ativa (Bing)": 0,
-  "Plantão Canaã": 0,
+  "Plantão Canaã": 1,
   "Plantão Canaã (Bing)": 0,
   "Roma News": 0,
   "Roma News (Bing)": 0,
@@ -50,7 +51,6 @@
   "O Liberal": 0,
   "O Liberal (Bing)": 0,
   "Estado do Pará Online": 0,
-  "Estado do Pará Online (Bing)": 0,
   "Rede Brasil de Televisão": 0,
   "Rede Brasil de Televisão (Bing)": 0,
   "Diário do Pará": 0,
@@ -70,7 +70,7 @@
   "Jornal A Notícia (AN10) (feed)": 0,
   "Sudeste Paraense (feed)": 0,
   "Canaã Notícias (feed)": 0,
-  "Alerta do Google": 6,
+  "Alerta do Google": 3,
   "Gazeta Carajás (sitemap)": 0
  },
  "sem_nome": [
@@ -126,12 +126,44 @@
    "exemplo": "Pesquisador ligado à UFNT ganha prêmio da Unicamp por estudos sobre memória e .."
   },
   {
+   "dominio": "ufnt.edu.br",
+   "materias": 1,
+   "nomes": [
+    "ufnt.edu.br"
+   ],
+   "exemplo": "UFNT inicia tratativas para implantação de polo do Doutorado em Educação da Rede"
+  },
+  {
+   "dominio": "tribunapopular.com.br",
+   "materias": 1,
+   "nomes": [
+    "tribunapopular.com.br"
+   ],
+   "exemplo": "Vice-reitor do IFRO é eleito para o Conselho de Administração da Fundação Bionor"
+  },
+  {
+   "dominio": "falaseriocarajas.com.br",
+   "materias": 1,
+   "nomes": [
+    "falaseriocarajas.com.br"
+   ],
+   "exemplo": "Fapespa se destaca como agência fomentadora de Ciência, Tecnologia e Inovação na"
+  },
+  {
    "dominio": "studocu.com",
    "materias": 1,
    "nomes": [
     "studocu.com"
    ],
    "exemplo": "Resumo da Aula de Patologia Veterinária: Alterações Endócrinas - Studocu"
+  },
+  {
+   "dominio": "seletivo.profei.com.br",
+   "materias": 1,
+   "nomes": [
+    "seletivo.profei.com.br"
+   ],
+   "exemplo": "PROGRAMA DE PÓS-GRADUAÇÃO EDUCAÇÃO INCLUSIVA - Processo Seletivo PROFEI 2027"
   },
   {
    "dominio": "periodicos.uem.br",
@@ -148,6 +180,14 @@
     "brasil.mongabay.com"
    ],
    "exemplo": "Mexilhão-dourado avança na Amazônia e ameaça o sustento de pescadores"
+  },
+  {
+   "dominio": "ocafezinho.com",
+   "materias": 1,
+   "nomes": [
+    "O Cafezinho"
+   ],
+   "exemplo": "Mexilhão-dourado ameaça pescadores do Lago de Tucuruí"
   },
   {
    "dominio": "sisu.pro.br",
@@ -188,6 +228,14 @@
     "concursos.estrategia.com"
    ],
    "exemplo": "Questão No ensaio de resistência à compressão axial de um corpo de prova cilíndr"
+  },
+  {
+   "dominio": "collegematcher.com",
+   "materias": 1,
+   "nomes": [
+    "collegematcher.com"
+   ],
+   "exemplo": "Universities in Pará, Brazil — All 76 Institutions | CollegeMatcher"
   },
   {
    "dominio": "expresso222.com.br",

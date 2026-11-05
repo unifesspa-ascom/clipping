@@ -51,12 +51,44 @@
   "exemplo": "Pesquisador ligado à UFNT ganha prêmio da Unicamp por estudos sobre memória e .."
  },
  {
+  "dominio": "ufnt.edu.br",
+  "materias": 1,
+  "nomes": [
+   "ufnt.edu.br"
+  ],
+  "exemplo": "UFNT inicia tratativas para implantação de polo do Doutorado em Educação da Rede"
+ },
+ {
+  "dominio": "tribunapopular.com.br",
+  "materias": 1,
+  "nomes": [
+   "tribunapopular.com.br"
+  ],
+  "exemplo": "Vice-reitor do IFRO é eleito para o Conselho de Administração da Fundação Bionor"
+ },
+ {
+  "dominio": "falaseriocarajas.com.br",
+  "materias": 1,
+  "nomes": [
+   "falaseriocarajas.com.br"
+  ],
+  "exemplo": "Fapespa se destaca como agência fomentadora de Ciência, Tecnologia e Inovação na"
+ },
+ {
   "dominio": "studocu.com",
   "materias": 1,
   "nomes": [
    "studocu.com"
   ],
   "exemplo": "Resumo da Aula de Patologia Veterinária: Alterações Endócrinas - Studocu"
+ },
+ {
+  "dominio": "seletivo.profei.com.br",
+  "materias": 1,
+  "nomes": [
+   "seletivo.profei.com.br"
+  ],
+  "exemplo": "PROGRAMA DE PÓS-GRADUAÇÃO EDUCAÇÃO INCLUSIVA - Processo Seletivo PROFEI 2027"
  },
  {
   "dominio": "periodicos.uem.br",
@@ -73,6 +105,14 @@
    "brasil.mongabay.com"
   ],
   "exemplo": "Mexilhão-dourado avança na Amazônia e ameaça o sustento de pescadores"
+ },
+ {
+  "dominio": "ocafezinho.com",
+  "materias": 1,
+  "nomes": [
+   "O Cafezinho"
+  ],
+  "exemplo": "Mexilhão-dourado ameaça pescadores do Lago de Tucuruí"
  },
  {
   "dominio": "sisu.pro.br",
@@ -113,6 +153,14 @@
    "concursos.estrategia.com"
   ],
   "exemplo": "Questão No ensaio de resistência à compressão axial de um corpo de prova cilíndr"
+ },
+ {
+  "dominio": "collegematcher.com",
+  "materias": 1,
+  "nomes": [
+   "collegematcher.com"
+  ],
+  "exemplo": "Universities in Pará, Brazil — All 76 Institutions | CollegeMatcher"
  },
  {
   "dominio": "expresso222.com.br",
