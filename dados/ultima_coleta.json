@@ -1,24 +1,23 @@
 {
- "quando": "2026-11-05T17:36:04",
- "novas": 10,
- "descartadas": 2,
- "total": 693,
+ "quando": "2026-11-06T16:58:33",
+ "novas": 4,
+ "descartadas": 0,
+ "total": 697,
  "consultas": 162,
- "falhas": 10,
+ "falhas": 7,
  "por_fonte": {
-  "Google": 4,
-  "Bing": 1,
+  "Google": 1,
+  "Bing": 0,
   "GDELT": 0,
   "Zé Dudu": 0,
   "Correio de Carajás": 0,
   "Portal Canaã": 0,
   "Portal Pebão": 0,
   "Blog do Hiroshi Bogéa": 0,
-  "Portal Debate Carajás": 0,
   "Pebinha de Açúcar": 0,
   "Fato Regional": 0,
   "Portal Amazônia": 0,
-  "Carajás O Jornal": 1,
+  "Carajás O Jornal": 0,
   "Portal Infopebas": 0,
   "Portal Chocopeba": 0,
   "Jornal A Notícia (AN10)": 0,
@@ -42,15 +41,16 @@
   "Carajás em Foco (Bing)": 0,
   "Xinguara Ativa": 0,
   "Xinguara Ativa (Bing)": 0,
-  "Plantão Canaã": 1,
+  "Plantão Canaã": 0,
   "Plantão Canaã (Bing)": 0,
   "Roma News": 0,
   "Roma News (Bing)": 0,
-  "Agência Pará": 0,
+  "Agência Pará": 1,
   "Agência Pará (Bing)": 0,
   "O Liberal": 0,
   "O Liberal (Bing)": 0,
   "Estado do Pará Online": 0,
+  "Estado do Pará Online (Bing)": 0,
   "Rede Brasil de Televisão": 0,
   "Rede Brasil de Televisão (Bing)": 0,
   "Diário do Pará": 0,
@@ -70,7 +70,7 @@
   "Jornal A Notícia (AN10) (feed)": 0,
   "Sudeste Paraense (feed)": 0,
   "Canaã Notícias (feed)": 0,
-  "Alerta do Google": 3,
+  "Alerta do Google": 2,
   "Gazeta Carajás (sitemap)": 0
  },
  "sem_nome": [
@@ -142,10 +142,26 @@
    "exemplo": "Vice-reitor do IFRO é eleito para o Conselho de Administração da Fundação Bionor"
   },
   {
+   "dominio": "periodicos.fclar.unesp.br",
+   "materias": 1,
+   "nomes": [
+    "periodicos.fclar.unesp.br"
+   ],
+   "exemplo": "Avaliadores Ad hoc 2019 | Revista on line de Política e Gestão Educacional - Une"
+  },
+  {
    "dominio": "falaseriocarajas.com.br",
    "materias": 1,
    "nomes": [
     "falaseriocarajas.com.br"
+   ],
+   "exemplo": "Fapespa se destaca como agência fomentadora de Ciência, Tecnologia e Inovação na"
+  },
+  {
+   "dominio": "conexaoamazonas.com",
+   "materias": 1,
+   "nomes": [
+    "conexaoamazonas.com"
    ],
    "exemplo": "Fapespa se destaca como agência fomentadora de Ciência, Tecnologia e Inovação na"
   },

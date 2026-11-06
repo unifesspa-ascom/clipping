@@ -67,10 +67,26 @@
   "exemplo": "Vice-reitor do IFRO é eleito para o Conselho de Administração da Fundação Bionor"
  },
  {
+  "dominio": "periodicos.fclar.unesp.br",
+  "materias": 1,
+  "nomes": [
+   "periodicos.fclar.unesp.br"
+  ],
+  "exemplo": "Avaliadores Ad hoc 2019 | Revista on line de Política e Gestão Educacional - Une"
+ },
+ {
   "dominio": "falaseriocarajas.com.br",
   "materias": 1,
   "nomes": [
    "falaseriocarajas.com.br"
+  ],
+  "exemplo": "Fapespa se destaca como agência fomentadora de Ciência, Tecnologia e Inovação na"
+ },
+ {
+  "dominio": "conexaoamazonas.com",
+  "materias": 1,
+  "nomes": [
+   "conexaoamazonas.com"
   ],
   "exemplo": "Fapespa se destaca como agência fomentadora de Ciência, Tecnologia e Inovação na"
  },

@@ -1,5 +1,23 @@
 [
  {
+  "data": "2026-11-06",
+  "veiculo": "Zé Dudu",
+  "titulo": "UFPA terá espaço para acolher filhos de estudantes e trabalhadores",
+  "link": "https://www.zedudu.com.br/ufpa-tera-espaco-para-acolher-filhos-de-estudantes-e-trabalhadores",
+  "termos": [
+   "\"Francisco Ribeiro\" reitor Unifesspa",
+   "Feed do veículo"
+  ],
+  "resumo": "UFPA inaugura novo polo em Goianésia do Pará para expandir ensino superior e técnico no interior Parceria entre a universidade e a prefeitura viabilizou estrutura de dois andares que já atende estudantes de engenharia elétrica e cursos...",
+  "dominio": "zedudu.com.br",
+  "fontes": [
+   "Google",
+   "Zé Dudu (feed)"
+  ],
+  "verificada": true,
+  "mencoes": 4
+ },
+ {
   "data": "2026-11-05",
   "veiculo": "ufnt.edu.br",
   "titulo": "UFNT inicia tratativas para implantação de polo do Doutorado em Educação da Rede ...",
@@ -21,12 +39,30 @@
   "titulo": "Vice-reitor do IFRO é eleito para o Conselho de Administração da Fundação Bionorte",
   "link": "https://tribunapopular.com.br/vice-reitor-do-ifro-e-eleito-para-o-conselho-de-administracao-da-fundacao-bionorte",
   "termos": [
-   "Universidade Federal do Sul e Sudeste do Pará"
+   "Universidade Federal do Sul e Sudeste do Pará",
+   "Unifesspa"
   ],
   "resumo": "(…) do Pará (UEPA), a Universidade Federal Rural da Amazônia (UFRA), a Universidade Federal do Oeste do Pará (UFOPA), a Universidade Federal do Sul e Sudeste do Pará (UNIFESSPA), o Museu Paraense Emílio Goeldi, o Instituto Evandro Chagas,...",
   "dominio": "tribunapopular.com.br",
   "fontes": [
-   "Google"
+   "Google",
+   "Alerta do Google"
+  ],
+  "verificada": true,
+  "mencoes": 2
+ },
+ {
+  "data": "2026-11-05",
+  "veiculo": "periodicos.fclar.unesp.br",
+  "titulo": "Avaliadores Ad hoc 2019 | Revista on line de Política e Gestão Educacional - Unesp",
+  "link": "https://periodicos.fclar.unesp.br/rpge/pt_BR/avaliadores_2019",
+  "termos": [
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "resumo": "Osmar Hélio Alves Araújo, Universidade Federal do Sul e Sudeste do Pará (Unifesspa), Brasil. Reis Friede, UNISUAM, Brasil. Rosebelly Nunes Marques ...",
+  "dominio": "periodicos.fclar.unesp.br",
+  "fontes": [
+   "Alerta do Google"
   ],
   "verificada": true,
   "mencoes": 2
@@ -37,12 +73,29 @@
   "titulo": "Fapespa se destaca como agência fomentadora de Ciência, Tecnologia e Inovação na Amazônia",
   "link": "https://falaseriocarajas.com.br/noticia/30615/fapespa-se-destaca-como-agencia-fomentadora-de-ciencia-tecnologia-e-inovacao-na-amazonia",
   "termos": [
-   "Universidade Federal do Sul e Sudeste do Pará"
+   "Universidade Federal do Sul e Sudeste do Pará",
+   "Unifesspa"
   ],
   "resumo": "(…) deral do Pará (UFPA), Universidade Federal Rural da Amazônia (UFRA), Universidade Federal do Oeste do Pará (UFOPA), Universidade Federal do Sul e Sudeste do Pará (UNIFESSPA), Museu Paraense Emílio Goeldi, Instituto Evandro Chagas e...",
   "dominio": "falaseriocarajas.com.br",
   "fontes": [
    "Bing"
+  ],
+  "verificada": true,
+  "mencoes": 2
+ },
+ {
+  "data": "2026-11-05",
+  "veiculo": "conexaoamazonas.com",
+  "titulo": "Fapespa se destaca como agência fomentadora de Ciência, Tecnologia e Inovação na Amazônia",
+  "link": "https://conexaoamazonas.com/noticia/56876/fapespa-se-destaca-como-agencia-fomentadora-de-ciencia-tecnologia-e-inovacao-na-amazonia/amp",
+  "termos": [
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "resumo": "... Universidade Federal do Sul e Sudeste do Pará (UNIFESSPA), Museu Paraense Emílio Goeldi, Instituto Evandro Chagas e HEMOPA. A Fundação também ...",
+  "dominio": "conexaoamazonas.com",
+  "fontes": [
+   "Alerta do Google"
   ],
   "verificada": true,
   "mencoes": 2
@@ -81,7 +134,8 @@
   "fontes": [
    "Google",
    "Correio de Carajás",
-   "Correio de Carajás (feed)"
+   "Correio de Carajás (feed)",
+   "Alerta do Google"
   ],
   "verificada": true,
   "mencoes": 0,
@@ -105,6 +159,23 @@
   "mencoes": 0,
   "descartada": true,
   "motivo": "O texto da matéria não cita a Unifesspa."
+ },
+ {
+  "data": "2026-11-05",
+  "veiculo": "Agência Pará",
+  "titulo": "Fapespa se destaca como agência fomentadora de Ciência, Tecnologia e Inovação na Amazônia",
+  "link": "https://agenciapara.com.br/noticia/80410/fapespa-se-destaca-como-agencia-fomentadora-de-ciencia-tecnologia-e-inovacao-na-amazonia",
+  "termos": [
+   "Unifesspa",
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "resumo": "(…) deral do Pará (UFPA), Universidade Federal Rural da Amazônia (UFRA), Universidade Federal do Oeste do Pará (UFOPA), Universidade Federal do Sul e Sudeste do Pará (UNIFESSPA), Museu Paraense Emílio Goeldi, Instituto Evandro Chagas e...",
+  "dominio": "agenciapara.com.br",
+  "fontes": [
+   "Agência Pará"
+  ],
+  "verificada": true,
+  "mencoes": 2
  },
  {
   "data": "2026-11-04",
