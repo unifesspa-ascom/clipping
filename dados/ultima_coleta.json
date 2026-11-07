@@ -1,19 +1,20 @@
 {
- "quando": "2026-11-06T16:58:33",
- "novas": 4,
- "descartadas": 0,
- "total": 697,
+ "quando": "2026-11-07T15:50:31",
+ "novas": 12,
+ "descartadas": 1,
+ "total": 709,
  "consultas": 162,
- "falhas": 7,
+ "falhas": 4,
  "por_fonte": {
   "Google": 1,
-  "Bing": 0,
+  "Bing": 1,
   "GDELT": 0,
   "Zé Dudu": 0,
   "Correio de Carajás": 0,
   "Portal Canaã": 0,
   "Portal Pebão": 0,
   "Blog do Hiroshi Bogéa": 0,
+  "Portal Debate Carajás": 1,
   "Pebinha de Açúcar": 0,
   "Fato Regional": 0,
   "Portal Amazônia": 0,
@@ -41,11 +42,11 @@
   "Carajás em Foco (Bing)": 0,
   "Xinguara Ativa": 0,
   "Xinguara Ativa (Bing)": 0,
-  "Plantão Canaã": 0,
+  "Plantão Canaã": 1,
   "Plantão Canaã (Bing)": 0,
   "Roma News": 0,
   "Roma News (Bing)": 0,
-  "Agência Pará": 1,
+  "Agência Pará": 0,
   "Agência Pará (Bing)": 0,
   "O Liberal": 0,
   "O Liberal (Bing)": 0,
@@ -70,7 +71,7 @@
   "Jornal A Notícia (AN10) (feed)": 0,
   "Sudeste Paraense (feed)": 0,
   "Canaã Notícias (feed)": 0,
-  "Alerta do Google": 2,
+  "Alerta do Google": 8,
   "Gazeta Carajás (sitemap)": 0
  },
  "sem_nome": [
@@ -91,6 +92,40 @@
     "revistaamazonia.com.br"
    ],
    "exemplo": "Operários abriam terreno para uma ferrovia no Maranhão e acharam ossos gigantes:"
+  },
+  {
+   "dominio": "afnoticias.com.br",
+   "materias": 3,
+   "nomes": [
+    "afnoticias.com.br",
+    "AF Notícias"
+   ],
+   "exemplo": "Pesquisador ligado à UFNT ganha prêmio da Unicamp por estudos sobre memória e .."
+  },
+  {
+   "dominio": "pciconcursos.com.br",
+   "materias": 2,
+   "nomes": [
+    "pciconcursos.com.br",
+    "PCI Concursos"
+   ],
+   "exemplo": "Concursos com vagas para Professor Substituto - Geografia Regional"
+  },
+  {
+   "dominio": "mondru.com",
+   "materias": 2,
+   "nomes": [
+    "mondru.com"
+   ],
+   "exemplo": "Quanto dura a eternidade - Mondru"
+  },
+  {
+   "dominio": "edestaquebrasilia.com.br",
+   "materias": 2,
+   "nomes": [
+    "edestaquebrasilia.com.br"
+   ],
+   "exemplo": "IV Seminário de Contas Regionais e Bioeconomia da Amazônia reúne em Santarém qua"
   },
   {
    "dominio": "blogdovestibular.com",
@@ -117,13 +152,28 @@
    "exemplo": "Canaã dos Carajás recebe seminário sobre letramento racial, identidade e resistê"
   },
   {
-   "dominio": "afnoticias.com.br",
-   "materias": 2,
+   "dominio": "oeste360.com",
+   "materias": 1,
    "nomes": [
-    "afnoticias.com.br",
-    "AF Notícias"
+    "oeste360.com"
    ],
-   "exemplo": "Pesquisador ligado à UFNT ganha prêmio da Unicamp por estudos sobre memória e .."
+   "exemplo": "IV Seminário de Contas Regionais e Bioeconomia da Amazônia reúne em Santarém qua"
+  },
+  {
+   "dominio": "revistaaposta.com",
+   "materias": 1,
+   "nomes": [
+    "revistaaposta.com"
+   ],
+   "exemplo": "View of GOVERNANÇA PATRIMONIAL MUNICIPAL E ARTICULAÇÃO NORMATIVA NO ..."
+  },
+  {
+   "dominio": "querolicitacao.com.br",
+   "materias": 1,
+   "nomes": [
+    "querolicitacao.com.br"
+   ],
+   "exemplo": "Prestação de serviços continuados… · 45/2026 · Marabá/PA - Quero Licitação"
   },
   {
    "dominio": "ufnt.edu.br",
@@ -790,14 +840,6 @@
    "exemplo": "Conselho da Ufes aprova criação de cotas trans na Ufes a partir do Sisu de 2027"
   },
   {
-   "dominio": "edestaquebrasilia.com.br",
-   "materias": 1,
-   "nomes": [
-    "edestaquebrasilia.com.br"
-   ],
-   "exemplo": "Parceria entre Fapespa e Unifesspa mapeia pela primeira vez renda e hábitos de c"
-  },
-  {
    "dominio": "terra.com.br",
    "materias": 1,
    "nomes": [
@@ -884,14 +926,6 @@
     "Qconcursos Folha Dirigida"
    ],
    "exemplo": "Unifesspa PA abre processo seletivo com 34 vagas para professores"
-  },
-  {
-   "dominio": "pciconcursos.com.br",
-   "materias": 1,
-   "nomes": [
-    "PCI Concursos"
-   ],
-   "exemplo": "Unifesspa - PA abre seleção com vagas para professores substitutos"
   },
   {
    "dominio": "news.google.com",
