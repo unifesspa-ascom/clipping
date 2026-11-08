@@ -1,5 +1,39 @@
 [
  {
+  "data": "2026-11-08",
+  "veiculo": "periodicos.unespar.edu.br",
+  "titulo": "formação continuada de professores especialistas em - Periódicos Unespar",
+  "link": "https://periodicos.unespar.edu.br/incantare/article/download/12049/8022/50720",
+  "termos": [
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "resumo": "Nacional (PROFEI) da Universidade Federal do Sul e Sudeste do Pará (UNIFESSPA). Diretor da. Escola Municipal de Ensino Fundamental Fernando Pessoa ...",
+  "dominio": "periodicos.unespar.edu.br",
+  "fontes": [
+   "Alerta do Google"
+  ],
+  "verificada": true,
+  "mencoes": 2
+ },
+ {
+  "data": "2026-11-08",
+  "veiculo": "Portal Amazônia",
+  "titulo": "Pesquisadores investigam arquivo ambiental dos manguezais paraenses",
+  "link": "https://portalamazonia.com/para/arquivo-ambiental-manguezais-para",
+  "termos": [
+   "Francisco Ribeiro da Costa"
+  ],
+  "resumo": "Pesquisadores do Museu Goeldi, inseridos em estudo socioambiental coordenado pela UFPA, tem como um dos resultados previstos a recuperação de informações sobre as transformações dos manguezais do Pará, ao longo do tempo",
+  "dominio": "portalamazonia.com",
+  "fontes": [
+   "Portal Amazônia"
+  ],
+  "verificada": true,
+  "mencoes": 0,
+  "descartada": true,
+  "motivo": "O texto da matéria não cita a Unifesspa."
+ },
+ {
   "data": "2026-11-07",
   "veiculo": "pciconcursos.com.br",
   "titulo": "Concursos com vagas para Professor Substituto - Geografia Regional",
@@ -14,6 +48,22 @@
   ],
   "verificada": true,
   "mencoes": 6
+ },
+ {
+  "data": "2026-11-07",
+  "veiculo": "paramais.com.br",
+  "titulo": "Seminário em Santarém revela desafios e oportunidades da bioeconomia amazônica - Pará+",
+  "link": "https://paramais.com.br/seminario-em-santarem-revela-desafios-e-oportunidades-da-bioeconomia-amazonica",
+  "termos": [
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "resumo": "... Universidade Federal do Sul e Sudeste do Pará . Para a diretora da Fapespa, Atyliana Dias, o encontro permite compartilhar conhecimentos e ...",
+  "dominio": "paramais.com.br",
+  "fontes": [
+   "Alerta do Google"
+  ],
+  "verificada": true,
+  "mencoes": 1
  },
  {
   "data": "2026-11-07",
@@ -65,6 +115,22 @@
  },
  {
   "data": "2026-11-07",
+  "veiculo": "educacaotecnologica.com.br",
+  "titulo": "Lei nº 15.100/2025 e o Uso de Celulares nas Escolas: Percepções de Professores e ...",
+  "link": "https://educacaotecnologica.com.br/index.php/ojs/article/view/663",
+  "termos": [
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "resumo": "HUGO CLECIO PASSOS DOS SANTOS. Mestrando Profissional em Ensino de Biologia em Rede Nacional (PROFBIO). Universidade Federal do Sul e Sudeste do Pará - ...",
+  "dominio": "educacaotecnologica.com.br",
+  "fontes": [
+   "Alerta do Google"
+  ],
+  "verificada": true,
+  "mencoes": 2
+ },
+ {
+  "data": "2026-11-07",
   "veiculo": "edestaquebrasilia.com.br",
   "titulo": "IV Seminário de Contas Regionais e Bioeconomia da Amazônia reúne em Santarém quatro ...",
   "link": "https://edestaquebrasilia.com.br/noticia/117475/iv-seminario-de-contas-regionais-e-bioeconomia-da-amazonia-reune-em-santarem-quatro-trilhas-de-debate/amp",
@@ -78,6 +144,57 @@
   ],
   "verificada": true,
   "mencoes": 1
+ },
+ {
+  "data": "2026-11-07",
+  "veiculo": "abde.org.br",
+  "titulo": "Prêmio ABDE-BID divulga vencedores da 12ª edição",
+  "link": "https://abde.org.br/noticia-a/premio-abde-bid-divulga-vencedores-da-12a-edicao",
+  "termos": [
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "resumo": "Autor: Alan Monteiro Borges, da Universidade Federal do Sul e Sudeste do Pará . 2º lugar: Fragmentação da vegetação e eventos extremos: associações ...",
+  "dominio": "abde.org.br",
+  "fontes": [
+   "Alerta do Google"
+  ],
+  "verificada": true,
+  "mencoes": 0
+ },
+ {
+  "data": "2026-11-07",
+  "veiculo": "Zé Dudu",
+  "titulo": "Relatório do Mecanismo Nacional contra a Tortura aponta violações graves em presídios do Pará",
+  "link": "https://www.zedudu.com.br/relatorio-do-mecanismo-nacional-contra-a-tortura-aponta-violacoes-graves-em-presidios-do-para",
+  "termos": [
+   "Feed do veículo"
+  ],
+  "resumo": "Justiça Federal acolhe pedidos do MPF e determina medidas para controlar a origem e a circulação do ouro no país Sentença obriga a União, a ANM e o Banco Central a implementarem ações de rastreabilidade, fiscalização e supervisão da cadeia...",
+  "dominio": "zedudu.com.br",
+  "fontes": [
+   "Zé Dudu (feed)"
+  ],
+  "verificada": true,
+  "mencoes": 2
+ },
+ {
+  "data": "2026-11-07",
+  "veiculo": "Surgiu",
+  "titulo": "UFNT inicia articulação para levar doutorado em Educação a Tocantinópolis",
+  "link": "https://surgiu.com.br/2026/11/07/ufnt-inicia-articulacao-para-levar-doutorado-em-educacao-a-tocantinopolis",
+  "termos": [
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "resumo": "... Universidade Federal do Sul e Sudeste do Pará (UNIFESSPA). Dessa forma, a rede articula instituições de sete estados da Região Norte: Pará, Amapá ...",
+  "dominio": "surgiu.com.br",
+  "fontes": [
+   "Google",
+   "Alerta do Google"
+  ],
+  "verificada": true,
+  "mencoes": 0,
+  "descartada": true,
+  "motivo": "Não foi possível ler a matéria, e nem o título nem o resumo (o que a busca já trouxe) citam a Unifesspa."
  },
  {
   "data": "2026-11-07",
@@ -250,6 +367,24 @@
  },
  {
   "data": "2026-11-05",
+  "veiculo": "edestaquebrasilia.com.br",
+  "titulo": "Fapespa se destaca como agência fomentadora de Ciência, Tecnologia e Inovação na Amazônia",
+  "link": "https://edestaquebrasilia.com.br/noticia/117205/fapespa-se-destaca-como-agencia-fomentadora-de-ciencia-tecnologia-e-inovacao-na-amazonia",
+  "termos": [
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "resumo": "",
+  "dominio": "edestaquebrasilia.com.br",
+  "fontes": [
+   "Google"
+  ],
+  "verificada": true,
+  "mencoes": 0,
+  "descartada": true,
+  "motivo": "Não foi possível ler a matéria, e nem o título nem o resumo (o que a busca já trouxe) citam a Unifesspa."
+ },
+ {
+  "data": "2026-11-05",
   "veiculo": "conexaoamazonas.com",
   "titulo": "Fapespa se destaca como agência fomentadora de Ciência, Tecnologia e Inovação na Amazônia",
   "link": "https://conexaoamazonas.com/noticia/56876/fapespa-se-destaca-como-agencia-fomentadora-de-ciencia-tecnologia-e-inovacao-na-amazonia/amp",
@@ -338,7 +473,8 @@
   "fontes": [
    "Bing",
    "Agência Pará",
-   "Agência Pará (Bing)"
+   "Agência Pará (Bing)",
+   "Alerta do Google"
   ],
   "verificada": true,
   "mencoes": 7
@@ -12125,7 +12261,8 @@
   "resumo": "(…) Federal do Tocantins (UFT), Universidade Federal do Oeste do Pará (Ufopa), Universidade Federal de Roraima (UFRR) e Universidade Federal do Sul e Sudeste do Pará (Unifesspa). As instituições estão distribuídas pelos estados do Pará,...",
   "dominio": "afnoticias.com.br",
   "fontes": [
-   "Google"
+   "Google",
+   "Alerta do Google"
   ],
   "verificada": true,
   "mencoes": 2,

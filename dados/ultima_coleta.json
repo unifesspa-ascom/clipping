@@ -1,23 +1,22 @@
 {
- "quando": "2026-11-07T15:50:31",
- "novas": 12,
- "descartadas": 1,
- "total": 709,
+ "quando": "2026-11-08T16:07:29",
+ "novas": 8,
+ "descartadas": 3,
+ "total": 717,
  "consultas": 162,
- "falhas": 4,
+ "falhas": 7,
  "por_fonte": {
-  "Google": 1,
-  "Bing": 1,
-  "GDELT": 0,
+  "Google": 2,
+  "Bing": 0,
   "Zé Dudu": 0,
   "Correio de Carajás": 0,
   "Portal Canaã": 0,
   "Portal Pebão": 0,
   "Blog do Hiroshi Bogéa": 0,
-  "Portal Debate Carajás": 1,
+  "Portal Debate Carajás": 0,
   "Pebinha de Açúcar": 0,
   "Fato Regional": 0,
-  "Portal Amazônia": 0,
+  "Portal Amazônia": 1,
   "Carajás O Jornal": 0,
   "Portal Infopebas": 0,
   "Portal Chocopeba": 0,
@@ -42,7 +41,7 @@
   "Carajás em Foco (Bing)": 0,
   "Xinguara Ativa": 0,
   "Xinguara Ativa (Bing)": 0,
-  "Plantão Canaã": 1,
+  "Plantão Canaã": 0,
   "Plantão Canaã (Bing)": 0,
   "Roma News": 0,
   "Roma News (Bing)": 0,
@@ -56,7 +55,7 @@
   "Rede Brasil de Televisão (Bing)": 0,
   "Diário do Pará": 0,
   "Diário do Pará (Bing)": 0,
-  "Zé Dudu (feed)": 0,
+  "Zé Dudu (feed)": 1,
   "Correio de Carajás (feed)": 0,
   "Portal Canaã (feed)": 0,
   "Portal Pebão (feed)": 0,
@@ -71,7 +70,7 @@
   "Jornal A Notícia (AN10) (feed)": 0,
   "Sudeste Paraense (feed)": 0,
   "Canaã Notícias (feed)": 0,
-  "Alerta do Google": 8,
+  "Alerta do Google": 4,
   "Gazeta Carajás (sitemap)": 0
  },
  "sem_nome": [
@@ -103,6 +102,14 @@
    "exemplo": "Pesquisador ligado à UFNT ganha prêmio da Unicamp por estudos sobre memória e .."
   },
   {
+   "dominio": "periodicos.unespar.edu.br",
+   "materias": 2,
+   "nomes": [
+    "periodicos.unespar.edu.br"
+   ],
+   "exemplo": "formação continuada de professores especialistas em - Periódicos Unespar"
+  },
+  {
    "dominio": "pciconcursos.com.br",
    "materias": 2,
    "nomes": [
@@ -118,6 +125,14 @@
     "mondru.com"
    ],
    "exemplo": "Quanto dura a eternidade - Mondru"
+  },
+  {
+   "dominio": "educacaotecnologica.com.br",
+   "materias": 2,
+   "nomes": [
+    "educacaotecnologica.com.br"
+   ],
+   "exemplo": "Lei nº 15.100/2025 e o Uso de Celulares nas Escolas: Percepções de Professores e"
   },
   {
    "dominio": "edestaquebrasilia.com.br",
@@ -152,12 +167,28 @@
    "exemplo": "Canaã dos Carajás recebe seminário sobre letramento racial, identidade e resistê"
   },
   {
+   "dominio": "paramais.com.br",
+   "materias": 1,
+   "nomes": [
+    "paramais.com.br"
+   ],
+   "exemplo": "Seminário em Santarém revela desafios e oportunidades da bioeconomia amazônica -"
+  },
+  {
    "dominio": "oeste360.com",
    "materias": 1,
    "nomes": [
     "oeste360.com"
    ],
    "exemplo": "IV Seminário de Contas Regionais e Bioeconomia da Amazônia reúne em Santarém qua"
+  },
+  {
+   "dominio": "abde.org.br",
+   "materias": 1,
+   "nomes": [
+    "abde.org.br"
+   ],
+   "exemplo": "Prêmio ABDE-BID divulga vencedores da 12ª edição"
   },
   {
    "dominio": "revistaaposta.com",
@@ -376,14 +407,6 @@
    "exemplo": "Unifesspa promove conferência sobre linguagem e educação em Canaã - Jornal In Fo"
   },
   {
-   "dominio": "educacaotecnologica.com.br",
-   "materias": 1,
-   "nomes": [
-    "educacaotecnologica.com.br"
-   ],
-   "exemplo": "Gestão na Educação: Integração entre Tecnologia e Inovação"
-  },
-  {
    "dominio": "canaadoscarajas.pa.gov.br",
    "materias": 1,
    "nomes": [
@@ -574,14 +597,6 @@
     "superprof.co.mz"
    ],
    "exemplo": "Wasley - Prof de direito dos negócios - 509 MZN/h"
-  },
-  {
-   "dominio": "periodicos.unespar.edu.br",
-   "materias": 1,
-   "nomes": [
-    "periodicos.unespar.edu.br"
-   ],
-   "exemplo": "Formação continuada de professores especialistas em Educação Especial em uma esc"
   },
   {
    "dominio": "periodicos.ufsm.br",

@@ -27,6 +27,14 @@
   "exemplo": "Pesquisador ligado à UFNT ganha prêmio da Unicamp por estudos sobre memória e .."
  },
  {
+  "dominio": "periodicos.unespar.edu.br",
+  "materias": 2,
+  "nomes": [
+   "periodicos.unespar.edu.br"
+  ],
+  "exemplo": "formação continuada de professores especialistas em - Periódicos Unespar"
+ },
+ {
   "dominio": "pciconcursos.com.br",
   "materias": 2,
   "nomes": [
@@ -42,6 +50,14 @@
    "mondru.com"
   ],
   "exemplo": "Quanto dura a eternidade - Mondru"
+ },
+ {
+  "dominio": "educacaotecnologica.com.br",
+  "materias": 2,
+  "nomes": [
+   "educacaotecnologica.com.br"
+  ],
+  "exemplo": "Lei nº 15.100/2025 e o Uso de Celulares nas Escolas: Percepções de Professores e"
  },
  {
   "dominio": "edestaquebrasilia.com.br",
@@ -76,12 +92,28 @@
   "exemplo": "Canaã dos Carajás recebe seminário sobre letramento racial, identidade e resistê"
  },
  {
+  "dominio": "paramais.com.br",
+  "materias": 1,
+  "nomes": [
+   "paramais.com.br"
+  ],
+  "exemplo": "Seminário em Santarém revela desafios e oportunidades da bioeconomia amazônica -"
+ },
+ {
   "dominio": "oeste360.com",
   "materias": 1,
   "nomes": [
    "oeste360.com"
   ],
   "exemplo": "IV Seminário de Contas Regionais e Bioeconomia da Amazônia reúne em Santarém qua"
+ },
+ {
+  "dominio": "abde.org.br",
+  "materias": 1,
+  "nomes": [
+   "abde.org.br"
+  ],
+  "exemplo": "Prêmio ABDE-BID divulga vencedores da 12ª edição"
  },
  {
   "dominio": "revistaaposta.com",
@@ -300,14 +332,6 @@
   "exemplo": "Unifesspa promove conferência sobre linguagem e educação em Canaã - Jornal In Fo"
  },
  {
-  "dominio": "educacaotecnologica.com.br",
-  "materias": 1,
-  "nomes": [
-   "educacaotecnologica.com.br"
-  ],
-  "exemplo": "Gestão na Educação: Integração entre Tecnologia e Inovação"
- },
- {
   "dominio": "canaadoscarajas.pa.gov.br",
   "materias": 1,
   "nomes": [
@@ -498,14 +522,6 @@
    "superprof.co.mz"
   ],
   "exemplo": "Wasley - Prof de direito dos negócios - 509 MZN/h"
- },
- {
-  "dominio": "periodicos.unespar.edu.br",
-  "materias": 1,
-  "nomes": [
-   "periodicos.unespar.edu.br"
-  ],
-  "exemplo": "Formação continuada de professores especialistas em Educação Especial em uma esc"
  },
  {
   "dominio": "periodicos.ufsm.br",
