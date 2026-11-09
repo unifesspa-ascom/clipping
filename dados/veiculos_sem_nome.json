@@ -27,6 +27,14 @@
   "exemplo": "Pesquisador ligado à UFNT ganha prêmio da Unicamp por estudos sobre memória e .."
  },
  {
+  "dominio": "bico24horas.com.br",
+  "materias": 2,
+  "nomes": [
+   "Bico 24 Horas"
+  ],
+  "exemplo": "UFNT inicia tratativas para implantação de polo do Doutorado em Educação da Rede"
+ },
+ {
   "dominio": "periodicos.unespar.edu.br",
   "materias": 2,
   "nomes": [
@@ -90,6 +98,30 @@
    "portalpara24horas.com.br"
   ],
   "exemplo": "Canaã dos Carajás recebe seminário sobre letramento racial, identidade e resistê"
+ },
+ {
+  "dominio": "pubs.acs.org",
+  "materias": 1,
+  "nomes": [
+   "pubs.acs.org"
+  ],
+  "exemplo": "Observation and Analysis of Incoherent Second-Harmonic Generation in Gold Nanocl"
+ },
+ {
+  "dominio": "racismoambiental.net.br",
+  "materias": 1,
+  "nomes": [
+   "Combate Racismo Ambiental"
+  ],
+  "exemplo": "Mexilhão-dourado avança na Amazônia e ameaça o sustento de pescadores"
+ },
+ {
+  "dominio": "wfkadvogados.com",
+  "materias": 1,
+  "nomes": [
+   "wfkadvogados.com"
+  ],
+  "exemplo": "Sócios e Advogados - WFK ADVOGADOS"
  },
  {
   "dominio": "paramais.com.br",
@@ -1012,14 +1044,6 @@
   "exemplo": "Educação do Pará entrega benefício do programa \"Bora Estudar\" em Redenção"
  },
  {
-  "dominio": "bico24horas.com.br",
-  "materias": 1,
-  "nomes": [
-   "Bico 24 Horas"
-  ],
-  "exemplo": "MARABÁ: Visita de ministro da Educação consolida curso de Medicina e expansão da"
- },
- {
   "dominio": "oglobo.globo.com",
   "materias": 1,
   "nomes": [
@@ -1082,5 +1106,13 @@
    "jaderbarbalho.com.br"
   ],
   "exemplo": "NOTÍCIAS - Jader Barbalho"
+ },
+ {
+  "dominio": "questoes.grancursosonline.com.br",
+  "materias": 1,
+  "nomes": [
+   "questoes.grancursosonline.com.br"
+  ],
+  "exemplo": "Prova comentada para UNIFESSPA de Bibliotecário Documentalista - 2014"
  }
 ]
