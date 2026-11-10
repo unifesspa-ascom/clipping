@@ -100,12 +100,36 @@
   "exemplo": "Canaã dos Carajás recebe seminário sobre letramento racial, identidade e resistê"
  },
  {
+  "dominio": "redeintegra.mec.gov.br",
+  "materias": 1,
+  "nomes": [
+   "redeintegra.mec.gov.br"
+  ],
+  "exemplo": "João Batista Pereira Silva - Técnico Adm. - IFMA - Campus Imperatriz - Rede Inte"
+ },
+ {
   "dominio": "pubs.acs.org",
   "materias": 1,
   "nomes": [
    "pubs.acs.org"
   ],
   "exemplo": "Observation and Analysis of Incoherent Second-Harmonic Generation in Gold Nanocl"
+ },
+ {
+  "dominio": "periodicos.ufrn.br",
+  "materias": 1,
+  "nomes": [
+   "periodicos.ufrn.br"
+  ],
+  "exemplo": "contribuições para consultorias em inovação no Judiciário e para elaboração de c"
+ },
+ {
+  "dominio": "hotmart.com",
+  "materias": 1,
+  "nomes": [
+   "hotmart.com"
+  ],
+  "exemplo": "Demétrius Araújo na Hotmart"
  },
  {
   "dominio": "racismoambiental.net.br",

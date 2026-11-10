@@ -1,21 +1,20 @@
 {
- "quando": "2026-11-09T19:59:56",
- "novas": 6,
- "descartadas": 1,
- "total": 723,
+ "quando": "2026-11-10T17:12:32",
+ "novas": 25,
+ "descartadas": 3,
+ "total": 748,
  "consultas": 162,
- "falhas": 4,
+ "falhas": 5,
  "por_fonte": {
   "Google": 2,
   "Bing": 0,
-  "GDELT": 0,
   "Zé Dudu": 0,
-  "Correio de Carajás": 0,
+  "Correio de Carajás": 1,
   "Portal Canaã": 0,
   "Portal Pebão": 0,
   "Blog do Hiroshi Bogéa": 0,
   "Portal Debate Carajás": 0,
-  "Pebinha de Açúcar": 1,
+  "Pebinha de Açúcar": 0,
   "Fato Regional": 0,
   "Portal Amazônia": 0,
   "Carajás O Jornal": 0,
@@ -24,7 +23,7 @@
   "Jornal A Notícia (AN10)": 0,
   "Sudeste Paraense": 0,
   "Canaã Notícias": 0,
-  "Gazeta Carajás": 0,
+  "Gazeta Carajás": 18,
   "Gazeta Carajás (Bing)": 0,
   "DOL Carajás": 0,
   "DOL Carajás (Bing)": 0,
@@ -71,7 +70,7 @@
   "Jornal A Notícia (AN10) (feed)": 0,
   "Sudeste Paraense (feed)": 0,
   "Canaã Notícias (feed)": 0,
-  "Alerta do Google": 3,
+  "Alerta do Google": 4,
   "Gazeta Carajás (sitemap)": 0
  },
  "sem_nome": [
@@ -176,12 +175,36 @@
    "exemplo": "Canaã dos Carajás recebe seminário sobre letramento racial, identidade e resistê"
   },
   {
+   "dominio": "redeintegra.mec.gov.br",
+   "materias": 1,
+   "nomes": [
+    "redeintegra.mec.gov.br"
+   ],
+   "exemplo": "João Batista Pereira Silva - Técnico Adm. - IFMA - Campus Imperatriz - Rede Inte"
+  },
+  {
    "dominio": "pubs.acs.org",
    "materias": 1,
    "nomes": [
     "pubs.acs.org"
    ],
    "exemplo": "Observation and Analysis of Incoherent Second-Harmonic Generation in Gold Nanocl"
+  },
+  {
+   "dominio": "periodicos.ufrn.br",
+   "materias": 1,
+   "nomes": [
+    "periodicos.ufrn.br"
+   ],
+   "exemplo": "contribuições para consultorias em inovação no Judiciário e para elaboração de c"
+  },
+  {
+   "dominio": "hotmart.com",
+   "materias": 1,
+   "nomes": [
+    "hotmart.com"
+   ],
+   "exemplo": "Demétrius Araújo na Hotmart"
   },
   {
    "dominio": "racismoambiental.net.br",

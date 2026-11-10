@@ -1,5 +1,365 @@
 [
  {
+  "data": "2026-11-10",
+  "veiculo": "redeintegra.mec.gov.br",
+  "titulo": "João Batista Pereira Silva - Técnico Adm. - IFMA - Campus Imperatriz - Rede Integra MEC",
+  "link": "https://redeintegra.mec.gov.br/p/IFMA-joao-batista-pereira-silva",
+  "termos": [
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "resumo": "Ocupou o cargo de pedagogo de 2015 a 2019 na Universidade Federal do Sul e Sudeste do Pará - Unifesspa. Foi coordenador pedagógico entre 2020 e ...",
+  "dominio": "redeintegra.mec.gov.br",
+  "fontes": [
+   "Alerta do Google"
+  ],
+  "verificada": true,
+  "mencoes": 2
+ },
+ {
+  "data": "2026-11-10",
+  "veiculo": "maraba.pa.gov.br",
+  "titulo": "Sine: Serviço facilita acesso ao mercado de trabalho e oferece mais de 230 vagas diariamente",
+  "link": "https://maraba.pa.gov.br/sine-facilita-mercado-trabalho-230vagas-diariamente",
+  "termos": [
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "resumo": "Além do cadastro de candidatos e encaminhamento para processos seletivos, o sistema também oferece atendimento relacionado ao seguro-desemprego. De ...",
+  "dominio": "maraba.pa.gov.br",
+  "fontes": [
+   "Alerta do Google"
+  ],
+  "verificada": true,
+  "mencoes": 0,
+  "descartada": true,
+  "motivo": "Não foi possível ler a matéria, e nem o título nem o resumo (o que a busca já trouxe) citam a Unifesspa."
+ },
+ {
+  "data": "2026-11-10",
+  "veiculo": "Portal Debate Carajás",
+  "titulo": "Sine de Marabá oferece mais de 230 vagas de emprego diariamente e facilita acesso ao mercado de trabalho",
+  "link": "https://debatecarajas.com.br/sine-de-maraba-oferece-mais-de-230-vagas-de-emprego-diariamente-e-facilita-acesso-ao-mercado-de-trabalho",
+  "termos": [
+   "Universidade Federal do Sul e Sudeste do Pará",
+   "Unifesspa"
+  ],
+  "resumo": "Mega-Sena sorteia prêmio de R$ 3,5 milhões nesta terça-feira Leia mais",
+  "dominio": "debatecarajas.com.br",
+  "fontes": [
+   "Google",
+   "Portal Debate Carajás"
+  ],
+  "verificada": true,
+  "mencoes": 2
+ },
+ {
+  "data": "2026-11-10",
+  "veiculo": "Gazeta Carajás",
+  "titulo": "Última semana para se inscrever no estágio da Vale Metais Básicos",
+  "link": "https://www.gazetacarajas.com/noticia/ultima-semana-para-se-inscrever-no-estagio-da-vale-metais-basicos",
+  "termos": [
+   "Unifesspa"
+  ],
+  "resumo": "Mineração Por Kleysykennyson Carneiro Em 10/11/2026 12:32 A- A+ IMPRIMIR REPORTAR ERROS /ouça este conteúdo/ 0:00 Estudantes do ensino superior têm até a próxima segunda-feira (16) para se inscrever no Programa de Estágio 2026 da Vale...",
+  "dominio": "gazetacarajas.com",
+  "fontes": [
+   "Gazeta Carajás"
+  ],
+  "verificada": false,
+  "mencoes": 0
+ },
+ {
+  "data": "2026-11-10",
+  "veiculo": "Gazeta Carajás",
+  "titulo": "Por 12 a 1, Domingos do Açaí é reeleito presidente da Câmara de Itupiranga",
+  "link": "https://www.gazetacarajas.com/noticia/por-12-a-1-domingos-do-acai-e-reeleito-presidente-da-camara-de-itupiranga",
+  "termos": [
+   "Unifesspa"
+  ],
+  "resumo": "Itupiranga Por Kleysykennyson Carneiro Em 10/11/2026 10:31 A- A+ IMPRIMIR REPORTAR ERROS /ouça este conteúdo/ 0:00 Domingos do Açaí (PP) foi reeleito presidente da Câmara Municipal de Itupiranga com 12 votos a favor e apenas um contrário....",
+  "dominio": "gazetacarajas.com",
+  "fontes": [
+   "Gazeta Carajás"
+  ],
+  "verificada": false,
+  "mencoes": 0
+ },
+ {
+  "data": "2026-11-10",
+  "veiculo": "Gazeta Carajás",
+  "titulo": "Polícia intercepta van e prende passageiro com cocaína e crack em São Geraldo do Araguaia",
+  "link": "https://www.gazetacarajas.com/noticia/policia-intercepta-van-e-prende-passageiro-com-cocaina-e-crack-em-sao-geraldo-do-araguaia",
+  "termos": [
+   "Unifesspa"
+  ],
+  "resumo": "Polícia Por Kleysykennyson Carneiro Em 10/11/2026 11:25 A- A+ IMPRIMIR REPORTAR ERROS /ouça este conteúdo/ 0:00 Um homem voltava de Marabá numa van quando foi abordado pela Polícia Civil na chegada a São Geraldo do Araguaia. Segundo os...",
+  "dominio": "gazetacarajas.com",
+  "fontes": [
+   "Gazeta Carajás"
+  ],
+  "verificada": false,
+  "mencoes": 0
+ },
+ {
+  "data": "2026-11-10",
+  "veiculo": "Gazeta Carajás",
+  "titulo": "Parauapebas discute estratégias para avançar na avaliação dos indicadores do Selo Unicef",
+  "link": "https://www.gazetacarajas.com/noticia/parauapebas-discute-estrategias-para-avancar-na-avaliacao-dos-indicadores-do-selo-unicef",
+  "termos": [
+   "Unifesspa"
+  ],
+  "resumo": "Parauapebas Por Vitória Ohana Em 10/11/2026 11:05 - Atualizado - Atl. 10/11/2026 12:17 A- A+ IMPRIMIR REPORTAR ERROS /ouça este conteúdo/ 0:00 Representantes do Selo Unicef, o prefeito Aurélio Goiano e secretários municipais participaram,...",
+  "dominio": "gazetacarajas.com",
+  "fontes": [
+   "Gazeta Carajás"
+  ],
+  "verificada": false,
+  "mencoes": 0
+ },
+ {
+  "data": "2026-11-10",
+  "veiculo": "Gazeta Carajás",
+  "titulo": "Pai é preso em Belém suspeito de manter filho de 14 anos em cárcere privado",
+  "link": "https://www.gazetacarajas.com/noticia/pai-e-preso-em-belem-suspeito-de-manter-filho-de-14-anos-em-carcere-privado",
+  "termos": [
+   "Unifesspa"
+  ],
+  "resumo": "Belém Por Vitória Ohana Em 10/11/2026 08:37 A- A+ IMPRIMIR REPORTAR ERROS /ouça este conteúdo/ 0:00 Um homem de 62 anos foi preso em flagrante nesta segunda-feira (9), em Belém , suspeito de manter o próprio filho, de 14 anos, em cárcere...",
+  "dominio": "gazetacarajas.com",
+  "fontes": [
+   "Gazeta Carajás"
+  ],
+  "verificada": false,
+  "mencoes": 0
+ },
+ {
+  "data": "2026-11-10",
+  "veiculo": "Gazeta Carajás",
+  "titulo": "PF resgata 7 mulheres escravizadas em Novo Progresso",
+  "link": "https://www.gazetacarajas.com/noticia/pf-resgata-7-mulheres-escravizadas-em-novo-progresso",
+  "termos": [
+   "Unifesspa"
+  ],
+  "resumo": "Pará Por Vitória Ohana Em 10/11/2026 08:47 A- A+ IMPRIMIR REPORTAR ERROS /ouça este conteúdo/ 0:00 A Polícia Federal (PF), em conjunto com a Polícia Rodoviária Federal (PRF) e o Ministério do Trabalho e Emprego (MTE), resgatou sete...",
+  "dominio": "gazetacarajas.com",
+  "fontes": [
+   "Gazeta Carajás"
+  ],
+  "verificada": false,
+  "mencoes": 0
+ },
+ {
+  "data": "2026-11-10",
+  "veiculo": "Gazeta Carajás",
+  "titulo": "PF apreende quatro toneladas de barbatanas de tubarão em Belém",
+  "link": "https://www.gazetacarajas.com/noticia/pf-apreende-quatro-toneladas-de-barbatanas-de-tubarao-em-belem",
+  "termos": [
+   "Unifesspa"
+  ],
+  "resumo": "Belém Por Vitória Ohana Em 10/11/2026 10:08 A- A+ IMPRIMIR REPORTAR ERROS /ouça este conteúdo/ 0:00 A Polícia Federal (PF) apreendeu cerca de quatro toneladas de barbatanas de tubarão em uma embarcação na orla de Belém , nesta...",
+  "dominio": "gazetacarajas.com",
+  "fontes": [
+   "Gazeta Carajás"
+  ],
+  "verificada": false,
+  "mencoes": 0
+ },
+ {
+  "data": "2026-11-10",
+  "veiculo": "Gazeta Carajás",
+  "titulo": "Motorista foge após causar acidente com três carros em São Luís",
+  "link": "https://www.gazetacarajas.com/noticia/motorista-foge-apos-causar-acidente-com-tres-carros-em-sao-luis",
+  "termos": [
+   "Unifesspa"
+  ],
+  "resumo": "Maranhão Por Vitória Ohana Em 10/11/2026 09:31 A- A+ IMPRIMIR REPORTAR ERROS /ouça este conteúdo/ 0:00 Um acidente envolvendo três carros foi registrado por volta das 5h30 desta terça-feira (10), na Avenida São Marçal , no bairro João...",
+  "dominio": "gazetacarajas.com",
+  "fontes": [
+   "Gazeta Carajás"
+  ],
+  "verificada": false,
+  "mencoes": 0
+ },
+ {
+  "data": "2026-11-10",
+  "veiculo": "Gazeta Carajás",
+  "titulo": "Monstro é preso por estuprar de criança de 13 anos em Ananindeua",
+  "link": "https://www.gazetacarajas.com/noticia/monstro-e-preso-por-estuprar-de-crianca-de-13-anos-em-ananindeua",
+  "termos": [
+   "Unifesspa"
+  ],
+  "resumo": "Polícia Por Kleysykennyson Carneiro Em 10/11/2026 11:27 A- A+ IMPRIMIR REPORTAR ERROS /ouça este conteúdo/ 0:00 Vídeos e áudios gravados por uma adolescente de 13 anos levaram a Polícia Civil a prender o padrasto dela na sexta-feira (6),...",
+  "dominio": "gazetacarajas.com",
+  "fontes": [
+   "Gazeta Carajás"
+  ],
+  "verificada": false,
+  "mencoes": 0
+ },
+ {
+  "data": "2026-11-10",
+  "veiculo": "Gazeta Carajás",
+  "titulo": "Homem é preso após dupla se passar por policiais e agredir vítima em Tailândia",
+  "link": "https://www.gazetacarajas.com/noticia/homem-e-preso-apos-dupla-se-passar-por-policiais-e-agredir-vitima-em-tailandia",
+  "termos": [
+   "Unifesspa"
+  ],
+  "resumo": "Polícia Por Kleysykennyson Carneiro Em 10/11/2026 11:17 A- A+ IMPRIMIR REPORTAR ERROS /ouça este conteúdo/ 0:00 Dois homens teriam se passado por policiais para entrar em uma casa em Tailândia e agredir uma pessoa. Segundo a Polícia Civil,...",
+  "dominio": "gazetacarajas.com",
+  "fontes": [
+   "Gazeta Carajás"
+  ],
+  "verificada": false,
+  "mencoes": 0
+ },
+ {
+  "data": "2026-11-10",
+  "veiculo": "Gazeta Carajás",
+  "titulo": "Homem morre após ser encontrado desacordado em poço no MA",
+  "link": "https://www.gazetacarajas.com/noticia/homem-morre-apos-ser-encontrado-desacordado-em-poco-no-ma",
+  "termos": [
+   "Unifesspa"
+  ],
+  "resumo": "Maranhão Por Vitória Ohana Em 10/11/2026 09:42 A- A+ IMPRIMIR REPORTAR ERROS /ouça este conteúdo/ 0:00 Um homem de 32 anos, identificado como Maciel de Oliveira Nascimento da Luz, morreu após ser encontrado desacordado no fundo de um poço...",
+  "dominio": "gazetacarajas.com",
+  "fontes": [
+   "Gazeta Carajás"
+  ],
+  "verificada": false,
+  "mencoes": 0
+ },
+ {
+  "data": "2026-11-10",
+  "veiculo": "Gazeta Carajás",
+  "titulo": "Governo pede retirada de 348 perfis de influenciadores que divulgam bets ilegais",
+  "link": "https://www.gazetacarajas.com/noticia/governo-pede-retirada-de-348-perfis-de-influenciadores-que-divulgam-bets-ilegais",
+  "termos": [
+   "Unifesspa"
+  ],
+  "resumo": "Geral Por Giovanna Noláscio Em 10/11/2026 09:00 - Atualizado - Atl. 10/11/2026 09:02 A- A+ IMPRIMIR REPORTAR ERROS /ouça este conteúdo/ 0:00 O Ministério da Justiça e Segurança Pública (MJSP) solicitou a retirada do ar de 348 perfis de...",
+  "dominio": "gazetacarajas.com",
+  "fontes": [
+   "Gazeta Carajás"
+  ],
+  "verificada": false,
+  "mencoes": 0
+ },
+ {
+  "data": "2026-11-10",
+  "veiculo": "Gazeta Carajás",
+  "titulo": "Exportações de minérios de metais preciosos disparam 900% e as de ferro caem 27%",
+  "link": "https://www.gazetacarajas.com/noticia/exportacoes-de-minerios-de-metais-preciosos-disparam-900-e-as-de-ferro-caem-27",
+  "termos": [
+   "Unifesspa"
+  ],
+  "resumo": "Mineração Por Kleysykennyson Carneiro Em 10/11/2026 12:24 A- A+ IMPRIMIR REPORTAR ERROS /ouça este conteúdo/ 0:00 O Brasil faturou cerca de dez vezes mais com as exportações de minérios de metais preciosos em outubro de 2026 do que no...",
+  "dominio": "gazetacarajas.com",
+  "fontes": [
+   "Gazeta Carajás"
+  ],
+  "verificada": false,
+  "mencoes": 0
+ },
+ {
+  "data": "2026-11-10",
+  "veiculo": "Gazeta Carajás",
+  "titulo": "Dom Eliseu terá R$ 514 mil para ações de emergência após temporais",
+  "link": "https://www.gazetacarajas.com/noticia/dom-eliseu-tera-r-514-mil-para-acoes-de-emergencia-apos-temporais",
+  "termos": [
+   "Unifesspa"
+  ],
+  "resumo": "Sul e sudeste do Pará Por Kleysykennyson Carneiro Em 10/11/2026 10:54 - Atualizado - Atl. 10/11/2026 10:59 A- A+ IMPRIMIR REPORTAR ERROS /ouça este conteúdo/ 0:00 O governo federal autorizou nesta segunda-feira (9) o repasse de R$...",
+  "dominio": "gazetacarajas.com",
+  "fontes": [
+   "Gazeta Carajás"
+  ],
+  "verificada": false,
+  "mencoes": 0
+ },
+ {
+  "data": "2026-11-10",
+  "veiculo": "Gazeta Carajás",
+  "titulo": "BR-155 entre Marabá e Redenção é o 9º pior trecho rodoviário do Brasil",
+  "link": "https://www.gazetacarajas.com/noticia/br-155-entre-maraba-e-redencao-e-o-9-pior-trecho-rodoviario-do-brasil",
+  "termos": [
+   "Unifesspa"
+  ],
+  "resumo": "Sul e sudeste do Pará Por Kleysykennyson Carneiro Em 10/11/2026 12:39 A- A+ IMPRIMIR REPORTAR ERROS /ouça este conteúdo/ 0:00 Uma das principais ligações rodoviárias entre o Norte e o Centro-Oeste tem, no sudeste do Pará, um dos trechos...",
+  "dominio": "gazetacarajas.com",
+  "fontes": [
+   "Gazeta Carajás"
+  ],
+  "verificada": false,
+  "mencoes": 0
+ },
+ {
+  "data": "2026-11-10",
+  "veiculo": "Gazeta Carajás",
+  "titulo": "Adolescente de 14 anos é resgatado de banheiro trancado e pai é preso em Belém",
+  "link": "https://www.gazetacarajas.com/noticia/adolescente-de-14-anos-e-resgatado-de-banheiro-trancado-e-pai-e-preso-em-belem",
+  "termos": [
+   "Unifesspa"
+  ],
+  "resumo": "Polícia Por Kleysykennyson Carneiro Em 10/11/2026 11:20 A- A+ IMPRIMIR REPORTAR ERROS /ouça este conteúdo/ 0:00 Um adolescente de 14 anos foi encontrado trancado no banheiro de casa na manhã de segunda-feira (9), no bairro da Cidade Velha,...",
+  "dominio": "gazetacarajas.com",
+  "fontes": [
+   "Gazeta Carajás"
+  ],
+  "verificada": false,
+  "mencoes": 0
+ },
+ {
+  "data": "2026-11-10",
+  "veiculo": "Gazeta Carajás",
+  "titulo": "Adolescente de 13 anos morre em acidente de moto em Novo Repartimento",
+  "link": "https://www.gazetacarajas.com/noticia/adolescente-de-13-anos-morre-em-acidente-de-moto-em-novo-repartimento",
+  "termos": [
+   "Unifesspa"
+  ],
+  "resumo": "Geral Por Giovanna Noláscio Em 10/11/2026 09:40 A- A+ IMPRIMIR REPORTAR ERROS /ouça este conteúdo/ 0:00 Um adolescente de 13 anos morreu após um acidente de motocicleta na noite do último sábado (7), na Vila Pista da Ciex, região do Tuerê...",
+  "dominio": "gazetacarajas.com",
+  "fontes": [
+   "Gazeta Carajás"
+  ],
+  "verificada": false,
+  "mencoes": 0
+ },
+ {
+  "data": "2026-11-10",
+  "veiculo": "Gazeta Carajás",
+  "titulo": "Acidente na Bulgária: Engavetamento com 50 veículos deixa 11 mortos",
+  "link": "https://www.gazetacarajas.com/noticia/acidente-na-bulgaria-engavetamento-com-50-veiculos-deixa-11-mortos",
+  "termos": [
+   "Unifesspa"
+  ],
+  "resumo": "Geral Por Vitória Ohana Em 10/11/2026 08:51 - Atualizado - Atl. 10/11/2026 09:18 A- A+ IMPRIMIR REPORTAR ERROS /ouça este conteúdo/ 0:00 Pelo menos 11 pessoas morreram nesta terça-feira (10) após um grave acidente envolvendo cerca de 50...",
+  "dominio": "gazetacarajas.com",
+  "fontes": [
+   "Gazeta Carajás"
+  ],
+  "verificada": false,
+  "mencoes": 0
+ },
+ {
+  "data": "2026-11-10",
+  "veiculo": "Correio de Carajás",
+  "titulo": "A maternidade como preenchimento e  vulnerabilidade na obra As Pequenas Alegrias",
+  "link": "https://correiodecarajas.com.br/a-maternidade-como-preenchimento-e-vulnerabilidade-na-obra-as-pequenas-alegrias",
+  "termos": [
+   "Unifesspa",
+   "Feed do veículo"
+  ],
+  "resumo": "(…) Pequenas Alegrias. Boa leitura e até a próxima semana, querido leitor! * A autora é graduada em Letras pela UFPA; bacharela em Direito pela Unifesspa e leitora voraz, por amor e vocação. Observação: As opiniões contidas nesta coluna...",
+  "dominio": "correiodecarajas.com.br",
+  "fontes": [
+   "Correio de Carajás",
+   "Correio de Carajás (feed)"
+  ],
+  "verificada": true,
+  "mencoes": 1,
+  "descartada": true,
+  "motivo": "A Unifesspa só aparece na credencial de quem assina o texto (formação ou vínculo), não no assunto da matéria."
+ },
+ {
   "data": "2026-11-09",
   "veiculo": "pubs.acs.org",
   "titulo": "Observation and Analysis of Incoherent Second-Harmonic Generation in Gold Nanoclusters ...",
@@ -14,6 +374,56 @@
   ],
   "verificada": true,
   "mencoes": 1
+ },
+ {
+  "data": "2026-11-09",
+  "veiculo": "periodicos.ufrn.br",
+  "titulo": "contribuições para consultorias em inovação no Judiciário e para elaboração de casos de ensino",
+  "link": "https://periodicos.ufrn.br/casoseconsultoria/article/view/42382/22851",
+  "termos": [
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "resumo": "... Universidade Federal do Sul e Sudeste do Pará -UNIFESSPA, BrasilE-mail: adamdreyton@unifesspa.edu.brMarcela Alves de SouzaORCID: https://orcid.org ...",
+  "dominio": "periodicos.ufrn.br",
+  "fontes": [
+   "Alerta do Google"
+  ],
+  "verificada": true,
+  "mencoes": 0
+ },
+ {
+  "data": "2026-11-09",
+  "veiculo": "oprogressonet",
+  "titulo": "Norte do Tocantins poderá ganhar novo polo de doutorado em Educação; UFNT inicia tratativas",
+  "link": "https://oprogressonet.com/noticia/55291/norte-do-tocantins-podera-ganhar-novo-polo-de-doutorado-em-educacao-ufnt-inicia-tratativas",
+  "termos": [
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "resumo": "",
+  "dominio": "oprogressonet.com",
+  "fontes": [
+   "Google"
+  ],
+  "verificada": true,
+  "mencoes": 0,
+  "descartada": true,
+  "motivo": "Não foi possível ler a matéria, e nem o título nem o resumo (o que a busca já trouxe) citam a Unifesspa."
+ },
+ {
+  "data": "2026-11-09",
+  "veiculo": "hotmart.com",
+  "titulo": "Demétrius Araújo na Hotmart",
+  "link": "https://hotmart.com/pt-br/marketplace/especialista/demetrius-sousa-araujo/3EWUUGGEGK",
+  "termos": [
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "resumo": "Demétrius Araújo é Mestre em Literatura pela Universidade Federal do Sul e Sudeste do Pará (Unifesspa) e professor da rede pública de ensino do estado ...",
+  "dominio": "hotmart.com",
+  "fontes": [
+   "Alerta do Google"
+  ],
+  "verificada": true,
+  "mencoes": 2
  },
  {
   "data": "2026-11-09",
@@ -55,12 +465,15 @@
   "titulo": "UFNT inicia tratativas para implantação de polo do Doutorado em Educação da Rede Educanorte em Tocantinópolis",
   "link": "https://bico24horas.com.br/bico-do-papagaio/ufnt-inicia-tratativas-para-implantacao-de-polo-do-doutorado-em-educacao-da-rede-educanorte-em-tocantinopolis",
   "termos": [
-   "Universidade Federal do Sul e Sudeste do Pará"
+   "Universidade Federal do Sul e Sudeste do Pará",
+   "Unifesspa"
   ],
   "resumo": "(…) Federal do Tocantins (UFT), Universidade Federal do Oeste do Pará (UFOPA), Universidade Federal de Roraima (UFRR) e Universidade Federal do Sul e Sudeste do Pará (UNIFESSPA). Sua atuação abrange sete estados da Região Norte: Pará,...",
   "dominio": "bico24horas.com.br",
   "fontes": [
-   "Google"
+   "Google",
+   "Bing",
+   "Alerta do Google"
   ],
   "verificada": true,
   "mencoes": 2
@@ -12356,7 +12769,8 @@
   "titulo": "Prova comentada para UNIFESSPA de Bibliotecário Documentalista - 2014",
   "link": "https://questoes.grancursosonline.com.br/prova/unifesspa-2014-ceps-ufpa-bibliotecario-documentalista-12651",
   "termos": [
-   "Universidade Federal do Sul e Sudeste do Pará"
+   "Universidade Federal do Sul e Sudeste do Pará",
+   "Unifesspa"
   ],
   "resumo": "... Universidade Federal do Sul e Sudeste do Pará . Banca: Centro de Processos Seletivos da Universidade Federal do Pará. Cargo: Bibliotecário ...",
   "dominio": "questoes.grancursosonline.com.br",
