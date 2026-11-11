@@ -1,29 +1,30 @@
 {
- "quando": "2026-11-10T17:12:32",
- "novas": 25,
- "descartadas": 3,
- "total": 748,
+ "quando": "2026-11-11T17:16:14",
+ "novas": 11,
+ "descartadas": 4,
+ "total": 759,
  "consultas": 162,
  "falhas": 5,
  "por_fonte": {
-  "Google": 2,
-  "Bing": 0,
+  "Google": 3,
+  "Bing": 1,
+  "GDELT": 0,
   "Zé Dudu": 0,
-  "Correio de Carajás": 1,
+  "Correio de Carajás": 0,
   "Portal Canaã": 0,
   "Portal Pebão": 0,
   "Blog do Hiroshi Bogéa": 0,
-  "Portal Debate Carajás": 0,
+  "Portal Debate Carajás": 1,
   "Pebinha de Açúcar": 0,
   "Fato Regional": 0,
   "Portal Amazônia": 0,
-  "Carajás O Jornal": 0,
+  "Carajás O Jornal": 1,
   "Portal Infopebas": 0,
   "Portal Chocopeba": 0,
   "Jornal A Notícia (AN10)": 0,
   "Sudeste Paraense": 0,
   "Canaã Notícias": 0,
-  "Gazeta Carajás": 18,
+  "Gazeta Carajás": 0,
   "Gazeta Carajás (Bing)": 0,
   "DOL Carajás": 0,
   "DOL Carajás (Bing)": 0,
@@ -37,7 +38,7 @@
   "ADUNIFESSPA (Bing)": 0,
   "Blog do Branco": 0,
   "Blog do Branco (Bing)": 0,
-  "Carajás em Foco": 0,
+  "Carajás em Foco": 3,
   "Carajás em Foco (Bing)": 0,
   "Xinguara Ativa": 0,
   "Xinguara Ativa (Bing)": 0,
@@ -70,7 +71,7 @@
   "Jornal A Notícia (AN10) (feed)": 0,
   "Sudeste Paraense (feed)": 0,
   "Canaã Notícias (feed)": 0,
-  "Alerta do Google": 4,
+  "Alerta do Google": 2,
   "Gazeta Carajás (sitemap)": 0
  },
  "sem_nome": [
@@ -100,6 +101,14 @@
     "AF Notícias"
    ],
    "exemplo": "Pesquisador ligado à UFNT ganha prêmio da Unicamp por estudos sobre memória e .."
+  },
+  {
+   "dominio": "studocu.com",
+   "materias": 2,
+   "nomes": [
+    "studocu.com"
+   ],
+   "exemplo": "Relatório Técnico de Estágio Supervisionado em Geologia - GEOL 2026 - Studocu"
   },
   {
    "dominio": "bico24horas.com.br",
@@ -181,6 +190,14 @@
     "redeintegra.mec.gov.br"
    ],
    "exemplo": "João Batista Pereira Silva - Técnico Adm. - IFMA - Campus Imperatriz - Rede Inte"
+  },
+  {
+   "dominio": "portal.amelica.org",
+   "materias": 1,
+   "nomes": [
+    "portal.amelica.org"
+   ],
+   "exemplo": "Búsqueda de autores - AmeliCA"
   },
   {
    "dominio": "pubs.acs.org",
@@ -301,14 +318,6 @@
     "conexaoamazonas.com"
    ],
    "exemplo": "Fapespa se destaca como agência fomentadora de Ciência, Tecnologia e Inovação na"
-  },
-  {
-   "dominio": "studocu.com",
-   "materias": 1,
-   "nomes": [
-    "studocu.com"
-   ],
-   "exemplo": "Resumo da Aula de Patologia Veterinária: Alterações Endócrinas - Studocu"
   },
   {
    "dominio": "seletivo.profei.com.br",

@@ -1,5 +1,133 @@
 [
  {
+  "data": "2026-11-11",
+  "veiculo": "atlaspublico",
+  "titulo": "Relatora da CMO vota pela aprovação de crédito especial de R$ 11,5 milhões para quatro ministérios",
+  "link": "https://atlaspublico.com.br/camara/noticias/relatora-da-cmo-vota-pela-aprovacao-de-credito-especial-de-100733",
+  "termos": [
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "resumo": "A deputada Rosangela Gomes apresentou na CMO parecer pela aprovação do PLN 10/2026, que abre crédito especial de R$ 11.528.608,00 para quatro ministérios; o parecer ainda não foi votado.",
+  "dominio": "atlaspublico.com.br",
+  "fontes": [
+   "Bing"
+  ],
+  "verificada": true,
+  "mencoes": 0,
+  "descartada": true,
+  "motivo": "Não foi possível ler a matéria, e nem o título nem o resumo (o que a busca já trouxe) citam a Unifesspa."
+ },
+ {
+  "data": "2026-11-11",
+  "veiculo": "Correio de Carajás",
+  "titulo": "Talentos de Marabá vencem maratona de inovação do TJPA",
+  "link": "https://correiodecarajas.com.br/talentos-de-maraba-vencem-maratona-de-inovacao-do-tjpa",
+  "termos": [
+   "Unifesspa",
+   "Universidade Federal do Sul e Sudeste do Pará",
+   "Feed do veículo"
+  ],
+  "resumo": "📅 Publicado em 11/11/2026 09h28 Uma solução tecnológica desenvolvida por estudantes da Universidade Federal do Sul e Sudeste do Pará (Unifesspa) para tornar o atendimento do Poder Judiciário mais simples, integrado e acessível conquistou o...",
+  "dominio": "correiodecarajas.com.br",
+  "fontes": [
+   "Google",
+   "Correio de Carajás",
+   "Correio de Carajás (feed)",
+   "Alerta do Google"
+  ],
+  "verificada": true,
+  "mencoes": 6
+ },
+ {
+  "data": "2026-11-11",
+  "veiculo": "Correio de Carajás",
+  "titulo": "Ciência de Marabá vence prêmio com solução para desafios climáticos na região de Carajás",
+  "link": "https://correiodecarajas.com.br/ciencia-de-maraba-vence-premio-com-solucao-para-desafios-climaticos-na-regiao-de-carajas",
+  "termos": [
+   "Unifesspa",
+   "Universidade Federal do Sul e Sudeste do Pará",
+   "Feed do veículo"
+  ],
+  "resumo": "📅 Publicado em 11/11/2026 10h04 Uma pesquisa desenvolvida na Universidade Federal do Sul e Sudeste do Pará (Unifesspa) conquistou o primeiro lugar na categoria “Soluções baseadas na natureza para adaptação urbana”, da 12ª edição do Prêmio...",
+  "dominio": "correiodecarajas.com.br",
+  "fontes": [
+   "Google",
+   "Correio de Carajás",
+   "Correio de Carajás (feed)",
+   "Alerta do Google"
+  ],
+  "verificada": true,
+  "mencoes": 3
+ },
+ {
+  "data": "2026-11-11",
+  "veiculo": "Carajás em Foco",
+  "titulo": "Projeto da Unifesspa leva alunos do ensino público para ‘pegar na matemática’ antes do Enem em Marabá",
+  "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQZ3JWOWFtOVJYdlVkMWFYWGR6eHNVcUhXdDBoZmtZZ29sTFZTdTZoSkswQXE4RnBhUWxoLUd1MGlWanF1NXBvN0tkUmJZQlUxQlQzdnhGbzJmMTNoQjdzZTJKaEVscno3NGwzYzFyNUxZTkpUY3h0R0xlTEx1aGZ2NzVudUlScEtHa0xFQVIyRHZhaDYyaEQwVmpEV3VEMkx3enh3MXpkWEV6YzNCOEtYaTFkRFp0eGVueXBmS0JMWjd2Nzl1MWxTT01SSEJubEF5SllnV0llaFdQLUlRVmk5QTJn?oc=5",
+  "termos": [
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "resumo": "",
+  "dominio": "carajasemfoco.com.br",
+  "fontes": [
+   "Carajás em Foco"
+  ],
+  "verificada": true,
+  "mencoes": 1
+ },
+ {
+  "data": "2026-11-11",
+  "veiculo": "Carajás em Foco",
+  "titulo": "Circuito Nelore de Qualidade avalia 600 bovinos e premia lotes em Marabá",
+  "link": "https://carajasemfoco.com.br/noticia/10514/circuito-nelore-de-qualidade-avalia-600-bovinos-e-premia-lotes-em-maraba",
+  "termos": [
+   "Unifesspa"
+  ],
+  "resumo": "",
+  "dominio": "carajasemfoco.com.br",
+  "fontes": [
+   "Carajás em Foco"
+  ],
+  "verificada": true,
+  "mencoes": 0,
+  "descartada": true,
+  "motivo": "Não foi possível ler a matéria, e nem o título nem o resumo (o que a busca já trouxe) citam a Unifesspa."
+ },
+ {
+  "data": "2026-11-11",
+  "veiculo": "Carajás O Jornal",
+  "titulo": "Papa Leão XIV realiza visita épica de quatro dias a Argentina, arrasta multidões e deixa mensagens históricas de fé, justiça social, paz e esperança.",
+  "link": "https://carajasojornal.com.br/papa-leao-xiv-realiza-visita-epica-de-quatro-dias-a-argentina-arrasta-multidoes-e-deixa-mensagens-historicas-de-fe-justica-social-paz-e-esperanca",
+  "termos": [
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "resumo": "Em uma jornada apostólica marcada pela emoção, devoção popular e encontros históricos, Pontífice percorreu Buenos Aires, Córdoba e Luján, reuniu milhões de fiéis, encontrou-se com o presidente Javier Milei, defendeu trabalhadores,...",
+  "dominio": "carajasojornal.com.br",
+  "fontes": [
+   "Carajás O Jornal"
+  ],
+  "verificada": true,
+  "mencoes": 0,
+  "descartada": true,
+  "motivo": "O texto da matéria não cita a Unifesspa."
+ },
+ {
+  "data": "2026-11-10",
+  "veiculo": "studocu.com",
+  "titulo": "Relatório Técnico de Estágio Supervisionado em Geologia - GEOL 2026 - Studocu",
+  "link": "https://www.studocu.com/pt-br/document/universidade-federal-de-sao-paulo/geologia-marinha-costeira/relatorio-de-estagio-kelly-vitoria-alves-da-silva/166153541",
+  "termos": [
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "resumo": "... Universidade Federal do Sul e Sudeste do Pará . O estágio ocorreu em áreas de mineração, focando na pesquisa e exploração mineral, com ênfase em ...",
+  "dominio": "studocu.com",
+  "fontes": [
+   "Alerta do Google"
+  ],
+  "verificada": true,
+  "mencoes": 1
+ },
+ {
   "data": "2026-11-10",
   "veiculo": "redeintegra.mec.gov.br",
   "titulo": "João Batista Pereira Silva - Técnico Adm. - IFMA - Campus Imperatriz - Rede Integra MEC",
@@ -14,6 +142,22 @@
   ],
   "verificada": true,
   "mencoes": 2
+ },
+ {
+  "data": "2026-11-10",
+  "veiculo": "portal.amelica.org",
+  "titulo": "Búsqueda de autores - AmeliCA",
+  "link": "https://portal.amelica.org/busquedaAutores.oa?pal=Ronaldo%20Bernardino%20Colvero",
+  "termos": [
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "resumo": "Universidade Federal do Sul e Sudeste do Pará . Brasil · https://orcid.org/0000-0002-6345-2173. Gabrielle Janaina Barros de Menezes, Ronaldo Barros ...",
+  "dominio": "portal.amelica.org",
+  "fontes": [
+   "Alerta do Google"
+  ],
+  "verificada": true,
+  "mencoes": 1
  },
  {
   "data": "2026-11-10",
@@ -50,6 +194,23 @@
   ],
   "verificada": true,
   "mencoes": 2
+ },
+ {
+  "data": "2026-11-10",
+  "veiculo": "Portal Debate Carajás",
+  "titulo": "Projeto da Unifesspa leva alunos do ensino público para ‘pegar na matemática’ antes do Enem em Marabá",
+  "link": "https://debatecarajas.com.br/projeto-da-unifesspa-leva-alunos-do-ensino-publico-para-pegar-na-matematica-antes-do-enem-em-maraba",
+  "termos": [
+   "Unifesspa",
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "resumo": "Alunos da fanfarra exploram a biodiversidade amazônica em visita ao BioParque de Parauapebas Leia mais",
+  "dominio": "debatecarajas.com.br",
+  "fontes": [
+   "Portal Debate Carajás"
+  ],
+  "verificada": true,
+  "mencoes": 8
  },
  {
   "data": "2026-11-10",
@@ -342,6 +503,27 @@
  {
   "data": "2026-11-10",
   "veiculo": "Correio de Carajás",
+  "titulo": "Unifesspa leva alunos do ensino público para ‘pegar na matemática’ antes do Enem",
+  "link": "https://correiodecarajas.com.br/unifesspa-leva-alunos-do-ensino-publico-para-pegar-na-matematica-antes-do-enem",
+  "termos": [
+   "Unifesspa",
+   "Universidade Federal do Sul e Sudeste do Pará",
+   "Feed do veículo"
+  ],
+  "resumo": "(…) stões de exatas, os alunos da Escola Gaspar Vianna – Anexo I participaram da 3ª edição do Programa de Extensão “A Famat vai às escolas”, da Unifesspa (Universidade Federal do Sul e Sudeste do Pará). A ação ocorreu na noite da última...",
+  "dominio": "correiodecarajas.com.br",
+  "fontes": [
+   "Google",
+   "Correio de Carajás",
+   "Correio de Carajás (feed)",
+   "Alerta do Google"
+  ],
+  "verificada": true,
+  "mencoes": 7
+ },
+ {
+  "data": "2026-11-10",
+  "veiculo": "Correio de Carajás",
   "titulo": "A maternidade como preenchimento e  vulnerabilidade na obra As Pequenas Alegrias",
   "link": "https://correiodecarajas.com.br/a-maternidade-como-preenchimento-e-vulnerabilidade-na-obra-as-pequenas-alegrias",
   "termos": [
@@ -358,6 +540,25 @@
   "mencoes": 1,
   "descartada": true,
   "motivo": "A Unifesspa só aparece na credencial de quem assina o texto (formação ou vínculo), não no assunto da matéria."
+ },
+ {
+  "data": "2026-11-10",
+  "veiculo": "Carajás em Foco",
+  "titulo": "Sine de Marabá oferece mais de 230 vagas de emprego diariamente e facilita acesso ao mercado de trabalho",
+  "link": "https://carajasemfoco.com.br/noticia/10510/sine-de-maraba-oferece-mais-de-230-vagas-de-emprego-diariamente-e-facilita-acesso-ao-mercado-de-trabalho",
+  "termos": [
+   "Unifesspa",
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "resumo": "",
+  "dominio": "carajasemfoco.com.br",
+  "fontes": [
+   "Carajás em Foco"
+  ],
+  "verificada": true,
+  "mencoes": 0,
+  "descartada": true,
+  "motivo": "Não foi possível ler a matéria, e nem o título nem o resumo (o que a busca já trouxe) citam a Unifesspa."
  },
  {
   "data": "2026-11-09",

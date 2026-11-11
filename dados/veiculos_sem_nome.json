@@ -27,6 +27,14 @@
   "exemplo": "Pesquisador ligado à UFNT ganha prêmio da Unicamp por estudos sobre memória e .."
  },
  {
+  "dominio": "studocu.com",
+  "materias": 2,
+  "nomes": [
+   "studocu.com"
+  ],
+  "exemplo": "Relatório Técnico de Estágio Supervisionado em Geologia - GEOL 2026 - Studocu"
+ },
+ {
   "dominio": "bico24horas.com.br",
   "materias": 2,
   "nomes": [
@@ -106,6 +114,14 @@
    "redeintegra.mec.gov.br"
   ],
   "exemplo": "João Batista Pereira Silva - Técnico Adm. - IFMA - Campus Imperatriz - Rede Inte"
+ },
+ {
+  "dominio": "portal.amelica.org",
+  "materias": 1,
+  "nomes": [
+   "portal.amelica.org"
+  ],
+  "exemplo": "Búsqueda de autores - AmeliCA"
  },
  {
   "dominio": "pubs.acs.org",
@@ -226,14 +242,6 @@
    "conexaoamazonas.com"
   ],
   "exemplo": "Fapespa se destaca como agência fomentadora de Ciência, Tecnologia e Inovação na"
- },
- {
-  "dominio": "studocu.com",
-  "materias": 1,
-  "nomes": [
-   "studocu.com"
-  ],
-  "exemplo": "Resumo da Aula de Patologia Veterinária: Alterações Endócrinas - Studocu"
  },
  {
   "dominio": "seletivo.profei.com.br",
