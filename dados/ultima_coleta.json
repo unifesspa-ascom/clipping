@@ -1,12 +1,12 @@
 {
- "quando": "2026-11-11T17:16:14",
- "novas": 11,
- "descartadas": 4,
- "total": 759,
+ "quando": "2026-11-12T17:46:42",
+ "novas": 23,
+ "descartadas": 7,
+ "total": 782,
  "consultas": 162,
- "falhas": 5,
+ "falhas": 3,
  "por_fonte": {
-  "Google": 3,
+  "Google": 6,
   "Bing": 1,
   "GDELT": 0,
   "Zé Dudu": 0,
@@ -14,11 +14,11 @@
   "Portal Canaã": 0,
   "Portal Pebão": 0,
   "Blog do Hiroshi Bogéa": 0,
-  "Portal Debate Carajás": 1,
+  "Portal Debate Carajás": 0,
   "Pebinha de Açúcar": 0,
   "Fato Regional": 0,
   "Portal Amazônia": 0,
-  "Carajás O Jornal": 1,
+  "Carajás O Jornal": 0,
   "Portal Infopebas": 0,
   "Portal Chocopeba": 0,
   "Jornal A Notícia (AN10)": 0,
@@ -26,7 +26,7 @@
   "Canaã Notícias": 0,
   "Gazeta Carajás": 0,
   "Gazeta Carajás (Bing)": 0,
-  "DOL Carajás": 0,
+  "DOL Carajás": 1,
   "DOL Carajás (Bing)": 0,
   "G1 Pará": 0,
   "G1 Pará (Bing)": 0,
@@ -71,10 +71,26 @@
   "Jornal A Notícia (AN10) (feed)": 0,
   "Sudeste Paraense (feed)": 0,
   "Canaã Notícias (feed)": 0,
-  "Alerta do Google": 2,
+  "Alerta do Google": 12,
   "Gazeta Carajás (sitemap)": 0
  },
  "sem_nome": [
+  {
+   "dominio": "portalpara24horas.com.br",
+   "materias": 3,
+   "nomes": [
+    "portalpara24horas.com.br"
+   ],
+   "exemplo": "Mestrado em planejamento urbano na Unifesspa abre 16 vagas para turma de 2027"
+  },
+  {
+   "dominio": "cursosdoportal.com.br",
+   "materias": 3,
+   "nomes": [
+    "cursosdoportal.com.br"
+   ],
+   "exemplo": "Questão 3299650 de Engenharia Mecânica - FADESP 2025 - Portal Concursos"
+  },
   {
    "dominio": "gov.br",
    "materias": 3,
@@ -101,6 +117,31 @@
     "AF Notícias"
    ],
    "exemplo": "Pesquisador ligado à UFNT ganha prêmio da Unicamp por estudos sobre memória e .."
+  },
+  {
+   "dominio": "www12.senado.leg.br",
+   "materias": 2,
+   "nomes": [
+    "Senado",
+    "Senado Federal"
+   ],
+   "exemplo": "Congresso aprova reforço orçamentário para ministérios e Judiciário"
+  },
+  {
+   "dominio": "redeintegra.mec.gov.br",
+   "materias": 2,
+   "nomes": [
+    "redeintegra.mec.gov.br"
+   ],
+   "exemplo": "Leíldes Alves dos Santos Silva - Técnico Adm. - IFPA - Rede Integra MEC"
+  },
+  {
+   "dominio": "portalcanaanoticias.com.br",
+   "materias": 2,
+   "nomes": [
+    "portalcanaanoticias.com.br"
+   ],
+   "exemplo": "Unifesspa usa matemática prática para preparar alunos do Pará para o Enem"
   },
   {
    "dominio": "studocu.com",
@@ -176,20 +217,28 @@
    "exemplo": "Petição - TRF1 - Ação Ingresso no Curso Superior - Apelação Cível - contra Unive"
   },
   {
-   "dominio": "portalpara24horas.com.br",
-   "materias": 2,
-   "nomes": [
-    "portalpara24horas.com.br"
-   ],
-   "exemplo": "Canaã dos Carajás recebe seminário sobre letramento racial, identidade e resistê"
-  },
-  {
-   "dominio": "redeintegra.mec.gov.br",
+   "dominio": "periodicos.ufal.br",
    "materias": 1,
    "nomes": [
-    "redeintegra.mec.gov.br"
+    "periodicos.ufal.br"
    ],
-   "exemplo": "João Batista Pereira Silva - Técnico Adm. - IFMA - Campus Imperatriz - Rede Inte"
+   "exemplo": "Ensino de Educação Moral e Cívica no Brasil: a pesquisa acadêmica sobre livros d"
+  },
+  {
+   "dominio": "hubpolitico.com.br",
+   "materias": 1,
+   "nomes": [
+    "hubpolitico.com.br"
+   ],
+   "exemplo": "PLN 10/2026: Abre ao Orçamento Fiscal da União | Senado"
+  },
+  {
+   "dominio": "researchgate.net",
+   "materias": 1,
+   "nomes": [
+    "researchgate.net"
+   ],
+   "exemplo": "UMA PROPOSTA DE VOCABULÁRIO REGIONAL DO ESCRITOR MARABAENSE ADEMIR BRAZ"
   },
   {
    "dominio": "portal.amelica.org",
@@ -198,6 +247,14 @@
     "portal.amelica.org"
    ],
    "exemplo": "Búsqueda de autores - AmeliCA"
+  },
+  {
+   "dominio": "anpur.org.br",
+   "materias": 1,
+   "nomes": [
+    "anpur.org.br"
+   ],
+   "exemplo": "Seleção para mestrado em Planejamento e Desenvolvimento Regional e Urbano na ..."
   },
   {
    "dominio": "pubs.acs.org",
@@ -902,14 +959,6 @@
     "CartaCapital"
    ],
    "exemplo": "Pela Curva do S"
-  },
-  {
-   "dominio": "www12.senado.leg.br",
-   "materias": 1,
-   "nomes": [
-    "Senado Federal"
-   ],
-   "exemplo": "CMO analisa crédito de R$ 24,9 milhões para AGU e segurança da Amazônia"
   },
   {
    "dominio": "seculodiario.com.br",

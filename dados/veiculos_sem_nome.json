@@ -1,5 +1,21 @@
 [
  {
+  "dominio": "portalpara24horas.com.br",
+  "materias": 3,
+  "nomes": [
+   "portalpara24horas.com.br"
+  ],
+  "exemplo": "Mestrado em planejamento urbano na Unifesspa abre 16 vagas para turma de 2027"
+ },
+ {
+  "dominio": "cursosdoportal.com.br",
+  "materias": 3,
+  "nomes": [
+   "cursosdoportal.com.br"
+  ],
+  "exemplo": "Questão 3299650 de Engenharia Mecânica - FADESP 2025 - Portal Concursos"
+ },
+ {
   "dominio": "gov.br",
   "materias": 3,
   "nomes": [
@@ -25,6 +41,31 @@
    "AF Notícias"
   ],
   "exemplo": "Pesquisador ligado à UFNT ganha prêmio da Unicamp por estudos sobre memória e .."
+ },
+ {
+  "dominio": "www12.senado.leg.br",
+  "materias": 2,
+  "nomes": [
+   "Senado",
+   "Senado Federal"
+  ],
+  "exemplo": "Congresso aprova reforço orçamentário para ministérios e Judiciário"
+ },
+ {
+  "dominio": "redeintegra.mec.gov.br",
+  "materias": 2,
+  "nomes": [
+   "redeintegra.mec.gov.br"
+  ],
+  "exemplo": "Leíldes Alves dos Santos Silva - Técnico Adm. - IFPA - Rede Integra MEC"
+ },
+ {
+  "dominio": "portalcanaanoticias.com.br",
+  "materias": 2,
+  "nomes": [
+   "portalcanaanoticias.com.br"
+  ],
+  "exemplo": "Unifesspa usa matemática prática para preparar alunos do Pará para o Enem"
  },
  {
   "dominio": "studocu.com",
@@ -100,20 +141,28 @@
   "exemplo": "Petição - TRF1 - Ação Ingresso no Curso Superior - Apelação Cível - contra Unive"
  },
  {
-  "dominio": "portalpara24horas.com.br",
-  "materias": 2,
-  "nomes": [
-   "portalpara24horas.com.br"
-  ],
-  "exemplo": "Canaã dos Carajás recebe seminário sobre letramento racial, identidade e resistê"
- },
- {
-  "dominio": "redeintegra.mec.gov.br",
+  "dominio": "periodicos.ufal.br",
   "materias": 1,
   "nomes": [
-   "redeintegra.mec.gov.br"
+   "periodicos.ufal.br"
   ],
-  "exemplo": "João Batista Pereira Silva - Técnico Adm. - IFMA - Campus Imperatriz - Rede Inte"
+  "exemplo": "Ensino de Educação Moral e Cívica no Brasil: a pesquisa acadêmica sobre livros d"
+ },
+ {
+  "dominio": "hubpolitico.com.br",
+  "materias": 1,
+  "nomes": [
+   "hubpolitico.com.br"
+  ],
+  "exemplo": "PLN 10/2026: Abre ao Orçamento Fiscal da União | Senado"
+ },
+ {
+  "dominio": "researchgate.net",
+  "materias": 1,
+  "nomes": [
+   "researchgate.net"
+  ],
+  "exemplo": "UMA PROPOSTA DE VOCABULÁRIO REGIONAL DO ESCRITOR MARABAENSE ADEMIR BRAZ"
  },
  {
   "dominio": "portal.amelica.org",
@@ -122,6 +171,14 @@
    "portal.amelica.org"
   ],
   "exemplo": "Búsqueda de autores - AmeliCA"
+ },
+ {
+  "dominio": "anpur.org.br",
+  "materias": 1,
+  "nomes": [
+   "anpur.org.br"
+  ],
+  "exemplo": "Seleção para mestrado em Planejamento e Desenvolvimento Regional e Urbano na ..."
  },
  {
   "dominio": "pubs.acs.org",
@@ -826,14 +883,6 @@
    "CartaCapital"
   ],
   "exemplo": "Pela Curva do S"
- },
- {
-  "dominio": "www12.senado.leg.br",
-  "materias": 1,
-  "nomes": [
-   "Senado Federal"
-  ],
-  "exemplo": "CMO analisa crédito de R$ 24,9 milhões para AGU e segurança da Amazônia"
  },
  {
   "dominio": "seculodiario.com.br",
