@@ -1,5 +1,24 @@
 [
  {
+  "data": "2026-11-13",
+  "veiculo": "Portal Debate Carajás",
+  "titulo": "Operação Duque prende seis pessoas e investiga atentado contra empresária e assassinato de jovem em Marabá",
+  "link": "https://debatecarajas.com.br/operacao-duque-prende-seis-pessoas-e-investiga-atentado-contra-empresaria-e-assassinato-de-jovem-em-maraba",
+  "termos": [
+   "Unifesspa",
+   "Universidade Federal do Sul e Sudeste do Pará",
+   "Feed do veículo"
+  ],
+  "resumo": "Operação Duque prende seis pessoas e investiga atentado contra empresária e assassinato de jovem em Marabá Leia mais",
+  "dominio": "debatecarajas.com.br",
+  "fontes": [
+   "Portal Debate Carajás",
+   "Portal Debate Carajás (feed)"
+  ],
+  "verificada": true,
+  "mencoes": 2
+ },
+ {
   "data": "2026-11-12",
   "veiculo": "portalpara24horas.com.br",
   "titulo": "Mestrado em planejamento urbano na Unifesspa abre 16 vagas para turma de 2027",
@@ -14,6 +33,22 @@
   ],
   "verificada": true,
   "mencoes": 6
+ },
+ {
+  "data": "2026-11-12",
+  "veiculo": "periodicos.unifesp.br",
+  "titulo": "Equipe Editorial | Revista Internacional de Debates da Administração & Públicas - RIDAP",
+  "link": "https://periodicos.unifesp.br/RIDAP/pt_BR/about/editorialMasthead",
+  "termos": [
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "resumo": "Maria Christina Firmino Cérvera, Universidade Federal do Sul e Sudeste do Pará - UNIFESSPA, Brasil. Niljane Correia Vieira Figueiredo, Secretaria ...",
+  "dominio": "periodicos.unifesp.br",
+  "fontes": [
+   "Alerta do Google"
+  ],
+  "verificada": true,
+  "mencoes": 2
  },
  {
   "data": "2026-11-12",
@@ -49,21 +84,89 @@
  },
  {
   "data": "2026-11-12",
+  "veiculo": "atlaspublico",
+  "titulo": "Congresso aprova crédito especial de R$ 11,5 milhões, com foco no Plano AMAS de segurança pública",
+  "link": "https://atlaspublico.com.br/senado/noticias/congresso-aprova-credito-especial-de-rs-11-5-milhoes-com-101661",
+  "termos": [
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "resumo": "O Congresso aprovou, em votação simbólica em 12 de novembro de 2026, o PLN 10/2026, que abre crédito especial de R$ 11.528.608,00 após modificação feita pelo Executivo. O texto segue à sanção.",
+  "dominio": "atlaspublico.com.br",
+  "fontes": [
+   "Bing"
+  ],
+  "verificada": true,
+  "mencoes": 0,
+  "descartada": true,
+  "motivo": "Não foi possível ler a matéria, e nem o título nem o resumo (o que a busca já trouxe) citam a Unifesspa."
+ },
+ {
+  "data": "2026-11-12",
+  "veiculo": "Ufopa",
+  "titulo": "I Workshop de Mineração da Região Norte começa na segunda-feira, 16",
+  "link": "https://ufopa.edu.br/ufopa/comunica/noticias/i-workshop-de-mineracao-da-regiao-norte-comeca-na-segunda-feira-16",
+  "termos": [
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "resumo": "(…) na articulação do evento estão a Universidade Federal do Pará (UFPA), a Universidade Federal do Amazonas (UFAM), a Universidade Federal do Sul e Sudeste do Pará (Unifesspa) e a Universidade de Brasília (UnB). Integração entre...",
+  "dominio": "ufopa.edu.br",
+  "fontes": [
+   "Google"
+  ],
+  "verificada": true,
+  "mencoes": 2
+ },
+ {
+  "data": "2026-11-12",
   "veiculo": "UOL Notícias",
   "titulo": "Congresso dá aval para créditos suplementares e especiais; veja o que foi aprovado",
   "link": "https://economia.uol.com.br/noticias/estadao-conteudo/2026/11/12/congresso-da-aval-para-creditos-suplementares-e-especiais-veja-o-que-foi-aprovado.htm",
   "termos": [
    "Universidade Federal do Sul e Sudeste do Pará"
   ],
-  "resumo": "",
+  "resumo": "... Universidade Federal do Sul e Sudeste do Pará ;. -PLN 26/2026 - R$ 4,85 milhões: cria dotações para pagamento de indenizações a servidores que atuam ...",
   "dominio": "economia.uol.com.br",
   "fontes": [
-   "Google"
+   "Google",
+   "Alerta do Google"
   ],
   "verificada": true,
   "mencoes": 0,
   "descartada": true,
   "motivo": "Não foi possível ler a matéria, e nem o título nem o resumo (o que a busca já trouxe) citam a Unifesspa."
+ },
+ {
+  "data": "2026-11-12",
+  "veiculo": "Tribuna do Agreste",
+  "titulo": "Aprovação de recursos orçamentários para diversos ministérios",
+  "link": "https://www.tribunadoagreste.com.br/politica/2026/11/12/1020248-aprovacao-de-recursos-orcamentarios-para-diversos-ministerios",
+  "termos": [
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "resumo": "(…) para a construção e reajuste das obras em andamento. No Ministério da Educação (0,09% dos recursos) - no âmbito da Universidade Federal do Sul e Sudeste do Pará, para o pagamento de Contribuição à Associação Grupo de Tordesilhas de...",
+  "dominio": "tribunadoagreste.com.br",
+  "fontes": [
+   "Google",
+   "Bing"
+  ],
+  "verificada": true,
+  "mencoes": 1
+ },
+ {
+  "data": "2026-11-12",
+  "veiculo": "SpaceMoney",
+  "titulo": "Congresso aprova 25 PLNs e R$ 152 bi em créditos suplementares para 2026",
+  "link": "https://www.spacemoney.com.br/politica/congresso-aprova-creditos-suplementares-2026",
+  "termos": [
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "resumo": "O Congresso Nacional aprovou nesta quinta-feira um pacote de 25 projetos de lei que abre espaço para R$ 152 bilhões em créditos suplementares no Orçamento de 2026, além de R$ 401 milhões em créditos especiais. A votação foi simbólica e...",
+  "dominio": "spacemoney.com.br",
+  "fontes": [
+   "Bing"
+  ],
+  "verificada": true,
+  "mencoes": 1
  },
  {
   "data": "2026-11-12",
@@ -76,7 +179,25 @@
   "resumo": "Quer receber notificações do portal Senado Notícias?",
   "dominio": "www12.senado.leg.br",
   "fontes": [
-   "Google"
+   "Google",
+   "Alerta do Google"
+  ],
+  "verificada": true,
+  "mencoes": 1
+ },
+ {
+  "data": "2026-11-12",
+  "veiculo": "Rede Brasil de Televisão",
+  "titulo": "Congresso aprova reforço orçamentário para ministérios e Judiciário",
+  "link": "https://rbtv.com.br/noticia/31249/congresso-aprova-reforco-orcamentario-para-ministerios-e-judiciario",
+  "termos": [
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "resumo": "(…) para a construção e reajuste das obras em andamento. No Ministério da Educação (0,09% dos recursos) - no âmbito da Universidade Federal do Sul e Sudeste do Pará, para o pagamento de Contribuição à Associação Grupo de Tordesilhas de...",
+  "dominio": "rbtv.com.br",
+  "fontes": [
+   "Rede Brasil de Televisão",
+   "Rede Brasil de Televisão (Bing)"
   ],
   "verificada": true,
   "mencoes": 1
@@ -90,10 +211,11 @@
    "Unifesspa",
    "Universidade Federal do Sul e Sudeste do Pará"
   ],
-  "resumo": "",
+  "resumo": "... ( Unifesspa ) e um dos organizadores do congresso. Denilson Costa, pró-reitor da Unifesspa . A gestão municipal apoiou a programação por meio da ...",
   "dominio": "maraba.pa.gov.br",
   "fontes": [
-   "Google"
+   "Google",
+   "Alerta do Google"
   ],
   "verificada": true,
   "mencoes": 0,
@@ -113,7 +235,8 @@
   "dominio": "debatecarajas.com.br",
   "fontes": [
    "Google",
-   "Portal Debate Carajás"
+   "Portal Debate Carajás",
+   "Alerta do Google"
   ],
   "verificada": true,
   "mencoes": 2
@@ -336,7 +459,8 @@
    "Google",
    "Bing",
    "Correio de Carajás",
-   "Correio de Carajás (feed)"
+   "Correio de Carajás (feed)",
+   "Alerta do Google"
   ],
   "verificada": true,
   "mencoes": 2
@@ -401,6 +525,42 @@
   "veiculo": "Carajás em Foco",
   "titulo": "Prefeitura de Marabá intensifica limpeza de grotas e bueiros para evitar alagamentos no inverno amazônico",
   "link": "https://carajasemfoco.com.br/noticia/10516/prefeitura-de-maraba-intensifica-limpeza-de-grotas-e-bueiros-para-evitar-alagamentos-no-inverno-amazonico",
+  "termos": [
+   "Unifesspa"
+  ],
+  "resumo": "",
+  "dominio": "carajasemfoco.com.br",
+  "fontes": [
+   "Carajás em Foco"
+  ],
+  "verificada": true,
+  "mencoes": 0,
+  "descartada": true,
+  "motivo": "Não foi possível ler a matéria, e nem o título nem o resumo (o que a busca já trouxe) citam a Unifesspa."
+ },
+ {
+  "data": "2026-11-11",
+  "veiculo": "Carajás em Foco",
+  "titulo": "Morte do pai de Rony teria sido motivada por suposta dívida de R$ 500",
+  "link": "https://carajasemfoco.com.br/noticia/10515/morte-do-pai-de-rony-teria-sido-motivada-por-suposta-divida-de-r-500",
+  "termos": [
+   "Unifesspa"
+  ],
+  "resumo": "",
+  "dominio": "carajasemfoco.com.br",
+  "fontes": [
+   "Carajás em Foco"
+  ],
+  "verificada": true,
+  "mencoes": 0,
+  "descartada": true,
+  "motivo": "Não foi possível ler a matéria, e nem o título nem o resumo (o que a busca já trouxe) citam a Unifesspa."
+ },
+ {
+  "data": "2026-11-11",
+  "veiculo": "Carajás em Foco",
+  "titulo": "MARABÁ: MULHER É ASSASSINADA A TIROS NA FRENTE DA FILHA, NO NOVO PLANALTO",
+  "link": "https://carajasemfoco.com.br/noticia/10512/maraba-mulher-e-assassinada-a-tiros-na-frente-da-filha-no-novo-planalto",
   "termos": [
    "Unifesspa"
   ],

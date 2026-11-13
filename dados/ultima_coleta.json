@@ -1,32 +1,30 @@
 {
- "quando": "2026-11-12T17:46:42",
- "novas": 23,
- "descartadas": 7,
- "total": 782,
+ "quando": "2026-11-13T17:22:39",
+ "novas": 9,
+ "descartadas": 3,
+ "total": 791,
  "consultas": 162,
- "falhas": 3,
+ "falhas": 9,
  "por_fonte": {
-  "Google": 6,
-  "Bing": 1,
-  "GDELT": 0,
+  "Google": 2,
+  "Bing": 2,
   "Zé Dudu": 0,
   "Correio de Carajás": 0,
   "Portal Canaã": 0,
   "Portal Pebão": 0,
   "Blog do Hiroshi Bogéa": 0,
-  "Portal Debate Carajás": 0,
+  "Portal Debate Carajás": 1,
   "Pebinha de Açúcar": 0,
   "Fato Regional": 0,
   "Portal Amazônia": 0,
   "Carajás O Jornal": 0,
   "Portal Infopebas": 0,
-  "Portal Chocopeba": 0,
   "Jornal A Notícia (AN10)": 0,
   "Sudeste Paraense": 0,
   "Canaã Notícias": 0,
   "Gazeta Carajás": 0,
   "Gazeta Carajás (Bing)": 0,
-  "DOL Carajás": 1,
+  "DOL Carajás": 0,
   "DOL Carajás (Bing)": 0,
   "G1 Pará": 0,
   "G1 Pará (Bing)": 0,
@@ -38,7 +36,7 @@
   "ADUNIFESSPA (Bing)": 0,
   "Blog do Branco": 0,
   "Blog do Branco (Bing)": 0,
-  "Carajás em Foco": 3,
+  "Carajás em Foco": 2,
   "Carajás em Foco (Bing)": 0,
   "Xinguara Ativa": 0,
   "Xinguara Ativa (Bing)": 0,
@@ -52,7 +50,7 @@
   "O Liberal (Bing)": 0,
   "Estado do Pará Online": 0,
   "Estado do Pará Online (Bing)": 0,
-  "Rede Brasil de Televisão": 0,
+  "Rede Brasil de Televisão": 1,
   "Rede Brasil de Televisão (Bing)": 0,
   "Diário do Pará": 0,
   "Diário do Pará (Bing)": 0,
@@ -71,7 +69,7 @@
   "Jornal A Notícia (AN10) (feed)": 0,
   "Sudeste Paraense (feed)": 0,
   "Canaã Notícias (feed)": 0,
-  "Alerta do Google": 12,
+  "Alerta do Google": 1,
   "Gazeta Carajás (sitemap)": 0
  },
  "sem_nome": [
@@ -217,6 +215,14 @@
    "exemplo": "Petição - TRF1 - Ação Ingresso no Curso Superior - Apelação Cível - contra Unive"
   },
   {
+   "dominio": "periodicos.unifesp.br",
+   "materias": 1,
+   "nomes": [
+    "periodicos.unifesp.br"
+   ],
+   "exemplo": "Equipe Editorial | Revista Internacional de Debates da Administração & Públicas "
+  },
+  {
    "dominio": "periodicos.ufal.br",
    "materias": 1,
    "nomes": [
@@ -231,6 +237,22 @@
     "hubpolitico.com.br"
    ],
    "exemplo": "PLN 10/2026: Abre ao Orçamento Fiscal da União | Senado"
+  },
+  {
+   "dominio": "tribunadoagreste.com.br",
+   "materias": 1,
+   "nomes": [
+    "Tribuna do Agreste"
+   ],
+   "exemplo": "Aprovação de recursos orçamentários para diversos ministérios"
+  },
+  {
+   "dominio": "spacemoney.com.br",
+   "materias": 1,
+   "nomes": [
+    "SpaceMoney"
+   ],
+   "exemplo": "Congresso aprova 25 PLNs e R$ 152 bi em créditos suplementares para 2026"
   },
   {
    "dominio": "researchgate.net",
