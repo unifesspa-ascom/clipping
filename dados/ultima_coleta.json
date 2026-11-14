@@ -1,19 +1,20 @@
 {
- "quando": "2026-11-13T17:22:39",
+ "quando": "2026-11-14T15:57:36",
  "novas": 9,
- "descartadas": 3,
- "total": 791,
+ "descartadas": 1,
+ "total": 800,
  "consultas": 162,
- "falhas": 9,
+ "falhas": 8,
  "por_fonte": {
   "Google": 2,
-  "Bing": 2,
+  "Bing": 1,
+  "GDELT": 0,
   "Zé Dudu": 0,
   "Correio de Carajás": 0,
   "Portal Canaã": 0,
   "Portal Pebão": 0,
   "Blog do Hiroshi Bogéa": 0,
-  "Portal Debate Carajás": 1,
+  "Portal Debate Carajás": 0,
   "Pebinha de Açúcar": 0,
   "Fato Regional": 0,
   "Portal Amazônia": 0,
@@ -36,7 +37,7 @@
   "ADUNIFESSPA (Bing)": 0,
   "Blog do Branco": 0,
   "Blog do Branco (Bing)": 0,
-  "Carajás em Foco": 2,
+  "Carajás em Foco": 0,
   "Carajás em Foco (Bing)": 0,
   "Xinguara Ativa": 0,
   "Xinguara Ativa (Bing)": 0,
@@ -50,7 +51,7 @@
   "O Liberal (Bing)": 0,
   "Estado do Pará Online": 0,
   "Estado do Pará Online (Bing)": 0,
-  "Rede Brasil de Televisão": 1,
+  "Rede Brasil de Televisão": 0,
   "Rede Brasil de Televisão (Bing)": 0,
   "Diário do Pará": 0,
   "Diário do Pará (Bing)": 0,
@@ -69,7 +70,7 @@
   "Jornal A Notícia (AN10) (feed)": 0,
   "Sudeste Paraense (feed)": 0,
   "Canaã Notícias (feed)": 0,
-  "Alerta do Google": 1,
+  "Alerta do Google": 6,
   "Gazeta Carajás (sitemap)": 0
  },
  "sem_nome": [
@@ -215,6 +216,46 @@
    "exemplo": "Petição - TRF1 - Ação Ingresso no Curso Superior - Apelação Cível - contra Unive"
   },
   {
+   "dominio": "ubi.pt",
+   "materias": 1,
+   "nomes": [
+    "ubi.pt"
+   ],
+   "exemplo": "Fernando Jesus da Rocha - UBI"
+  },
+  {
+   "dominio": "sindjuf-paap.org.br",
+   "materias": 1,
+   "nomes": [
+    "sindjuf-paap.org.br"
+   ],
+   "exemplo": "Duas servidoras paraenses da Justiça Federal são aprovadas em concurso para juíz"
+  },
+  {
+   "dominio": "pznoticias.com.br",
+   "materias": 1,
+   "nomes": [
+    "pznoticias.com.br"
+   ],
+   "exemplo": "Ex-nora é presa em Marabá suspeita de mandar matar empresária - Portal PZ Notíci"
+  },
+  {
+   "dominio": "propesp.uepa.br",
+   "materias": 1,
+   "nomes": [
+    "propesp.uepa.br"
+   ],
+   "exemplo": "LaQuiProN marca presença em dois importantes congressos científicos nacionais co"
+  },
+  {
+   "dominio": "livrosabertos.abcd.usp.br",
+   "materias": 1,
+   "nomes": [
+    "livrosabertos.abcd.usp.br"
+   ],
+   "exemplo": "A produção da casa e da cidade no Brasil contemporâneo - Portal de Livros Aberto"
+  },
+  {
    "dominio": "periodicos.unifesp.br",
    "materias": 1,
    "nomes": [
@@ -229,6 +270,14 @@
     "periodicos.ufal.br"
    ],
    "exemplo": "Ensino de Educação Moral e Cívica no Brasil: a pesquisa acadêmica sobre livros d"
+  },
+  {
+   "dominio": "infomoney.com.br",
+   "materias": 1,
+   "nomes": [
+    "infomoney.com.br"
+   ],
+   "exemplo": "Congresso dá aval para créditos suplementares e especiais; veja o que foi aprova"
   },
   {
    "dominio": "hubpolitico.com.br",

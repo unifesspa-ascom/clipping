@@ -1,5 +1,107 @@
 [
  {
+  "data": "2026-11-14",
+  "veiculo": "Correio de Carajás",
+  "titulo": "O futuro não trabalha sozinho: como a inteligência artificial está mudando a mineração no Pará",
+  "link": "https://correiodecarajas.com.br/o-futuro-nao-trabalha-sozinho-como-a-inteligencia-artificial-esta-mudando-a-mineracao-no-para",
+  "termos": [
+   "Unifesspa",
+   "Universidade Federal do Sul e Sudeste do Pará",
+   "Feed do veículo"
+  ],
+  "resumo": "(…) rofissionais capazes de desenvolver, operar e aperfeiçoar essas ferramentas. No sudeste do Pará, a parceria entre a Universidade Federal do Sul e Sudeste do Pará (Unifesspa) e o Instituto Tecnológico Vale (ITV), por meio do Programa de...",
+  "dominio": "correiodecarajas.com.br",
+  "fontes": [
+   "Google",
+   "Bing",
+   "Correio de Carajás",
+   "Correio de Carajás (feed)"
+  ],
+  "verificada": true,
+  "mencoes": 3
+ },
+ {
+  "data": "2026-11-13",
+  "veiculo": "ubi.pt",
+  "titulo": "Fernando Jesus da Rocha - UBI",
+  "link": "https://www.ubi.pt/Pessoa/fernando.rocha",
+  "termos": [
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "resumo": "... Universidade Federal do Sul e Sudeste do Pará (UNIFESSPA). Integra ainda os Grupos de Trabalho de Publicidade e de Comunicação Organizacional e ...",
+  "dominio": "ubi.pt",
+  "fontes": [
+   "Alerta do Google"
+  ],
+  "verificada": true,
+  "mencoes": 2
+ },
+ {
+  "data": "2026-11-13",
+  "veiculo": "sindjuf-paap.org.br",
+  "titulo": "Duas servidoras paraenses da Justiça Federal são aprovadas em concurso para juíza ...",
+  "link": "https://sindjuf-paap.org.br/duas-servidoras-paraenses-da-justica-federal-sao-aprovadas-em-concurso-para-juiza-federal-substituta/",
+  "termos": [
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "resumo": "Graduada em Direito pela Universidade Federal do Sul e Sudeste do Pará (Unifesspa), em 2014, também possui pós-graduação em Direito Ambiental.",
+  "dominio": "sindjuf-paap.org.br",
+  "fontes": [
+   "Alerta do Google"
+  ],
+  "verificada": true,
+  "mencoes": 2
+ },
+ {
+  "data": "2026-11-13",
+  "veiculo": "pznoticias.com.br",
+  "titulo": "Ex-nora é presa em Marabá suspeita de mandar matar empresária - Portal PZ Notícias",
+  "link": "https://www.pznoticias.com.br/ex-nora-presa-suspeita-encomendar-morte-empresaria-maraba/amp",
+  "termos": [
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "resumo": "... Universidade Federal do Sul e Sudeste do Pará (Unifesspa), na Folha 17. Investigação policial e balística. De acordo com o delegado Leandro Benício ...",
+  "dominio": "pznoticias.com.br",
+  "fontes": [
+   "Alerta do Google"
+  ],
+  "verificada": true,
+  "mencoes": 2,
+  "data_feed": "2026-11-14"
+ },
+ {
+  "data": "2026-11-13",
+  "veiculo": "propesp.uepa.br",
+  "titulo": "LaQuiProN marca presença em dois importantes congressos científicos nacionais com três ...",
+  "link": "https://propesp.uepa.br/laquipron/2026/11/13/laquipron-marca-presenca-em-dois-importantes-congressos-cientificos-nacionais-com-tres-trabalhos-de-pesquisa",
+  "termos": [
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "resumo": "... Universidade Federal do Sul e Sudeste do Pará (UNIFESSPA), Universidade da Amazônia (UNAMA) e Hospital Universitário João de Barros Barreto.",
+  "dominio": "propesp.uepa.br",
+  "fontes": [
+   "Alerta do Google"
+  ],
+  "verificada": true,
+  "mencoes": 2
+ },
+ {
+  "data": "2026-11-13",
+  "veiculo": "livrosabertos.abcd.usp.br",
+  "titulo": "A produção da casa e da cidade no Brasil contemporâneo - Portal de Livros Abertos da USP",
+  "link": "https://livrosabertos.abcd.usp.br/portaldelivrosUSP/it/catalog/book/1868",
+  "termos": [
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "resumo": "... Universidade Federal do Sul e Sudeste do Pará (Unifesspa). Riferimenti bibliografici. Dowloads. pdf. Pubblicato. maggio 15, 2026. Categorie. Ciências ...",
+  "dominio": "livrosabertos.abcd.usp.br",
+  "fontes": [
+   "Alerta do Google"
+  ],
+  "verificada": true,
+  "mencoes": 2
+ },
+ {
   "data": "2026-11-13",
   "veiculo": "Portal Debate Carajás",
   "titulo": "Operação Duque prende seis pessoas e investiga atentado contra empresária e assassinato de jovem em Marabá",
@@ -13,7 +115,30 @@
   "dominio": "debatecarajas.com.br",
   "fontes": [
    "Portal Debate Carajás",
-   "Portal Debate Carajás (feed)"
+   "Portal Debate Carajás (feed)",
+   "Google",
+   "Alerta do Google"
+  ],
+  "verificada": true,
+  "mencoes": 2
+ },
+ {
+  "data": "2026-11-13",
+  "veiculo": "Correio de Carajás",
+  "titulo": "Ex-nora é presa suspeita de encomendar morte de empresária em Marabá",
+  "link": "https://correiodecarajas.com.br/ex-nora-e-presa-suspeita-de-encomendar-morte-de-empresaria-em-maraba",
+  "termos": [
+   "Unifesspa",
+   "Universidade Federal do Sul e Sudeste do Pará",
+   "Feed do veículo"
+  ],
+  "resumo": "(…) motocicleta, que efetuaram diversos disparos contra o veículo. O ataque aconteceu nas proximidades da Unidade II da Universidade Federal do Sul e Sudeste do Pará (Unifesspa), na Folha 17. Leia mais: + O futuro não trabalha sozinho:...",
+  "dominio": "correiodecarajas.com.br",
+  "fontes": [
+   "Google",
+   "Correio de Carajás",
+   "Correio de Carajás (feed)",
+   "Alerta do Google"
   ],
   "verificada": true,
   "mencoes": 2
@@ -65,6 +190,23 @@
   ],
   "verificada": true,
   "mencoes": 1
+ },
+ {
+  "data": "2026-11-12",
+  "veiculo": "infomoney.com.br",
+  "titulo": "Congresso dá aval para créditos suplementares e especiais; veja o que foi aprovado",
+  "link": "https://www.infomoney.com.br/politica/congresso-da-aval-para-creditos-suplementares-e-especiais-veja-o-que-foi-aprovado",
+  "termos": [
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "resumo": "O restante financia contribuições internacionais do Ministério do Planejamento, do INPI e da Universidade Federal do Sul e Sudeste do Pará ;. –PLN ...",
+  "dominio": "infomoney.com.br",
+  "fontes": [
+   "Alerta do Google"
+  ],
+  "verificada": true,
+  "mencoes": 1,
+  "data_feed": "2026-11-13"
  },
  {
   "data": "2026-11-12",
@@ -240,6 +382,24 @@
   ],
   "verificada": true,
   "mencoes": 2
+ },
+ {
+  "data": "2026-11-12",
+  "veiculo": "Jornal de Uberaba",
+  "titulo": "Congresso aprova reforço orçamentário para ministérios e Judiciário",
+  "link": "https://www.jornaldeuberaba.com.br/noticia/170840/congresso-aprova-reforco-orcamentario-para-ministerios-e-judiciario",
+  "termos": [
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "resumo": "O Congresso Nacional aprovou nesta quinta-feira (12) dez projetos de lei que liberam recursos para ministérios e para as justiças Federal, ...",
+  "dominio": "jornaldeuberaba.com.br",
+  "fontes": [
+   "Bing"
+  ],
+  "verificada": true,
+  "mencoes": 0,
+  "descartada": true,
+  "motivo": "Não foi possível ler a matéria, e nem o título nem o resumo (o que a busca já trouxe) citam a Unifesspa."
  },
  {
   "data": "2026-11-12",
