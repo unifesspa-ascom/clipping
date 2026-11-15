@@ -43,6 +43,14 @@
   "exemplo": "Pesquisador ligado à UFNT ganha prêmio da Unicamp por estudos sobre memória e .."
  },
  {
+  "dominio": "periodicos.uem.br",
+  "materias": 2,
+  "nomes": [
+   "periodicos.uem.br"
+  ],
+  "exemplo": "Vista do Desafios dos egressos da LEdoC/Unifesspa no enfrentamento de desigualda"
+ },
+ {
   "dominio": "www12.senado.leg.br",
   "materias": 2,
   "nomes": [
@@ -139,6 +147,22 @@
    "jusbrasil.com.br"
   ],
   "exemplo": "Petição - TRF1 - Ação Ingresso no Curso Superior - Apelação Cível - contra Unive"
+ },
+ {
+  "dominio": "comperve.ufrn.br",
+  "materias": 1,
+  "nomes": [
+   "comperve.ufrn.br"
+  ],
+  "exemplo": "PROFLETRAS 02.2025 - Resultado da validação PCD - Comperve"
+ },
+ {
+  "dominio": "giromixnews.com.br",
+  "materias": 1,
+  "nomes": [
+   "giromixnews.com.br"
+  ],
+  "exemplo": "Inteligência artificial transforma mineração no Pará com monitoramento de equipa"
  },
  {
   "dominio": "ubi.pt",
@@ -379,14 +403,6 @@
    "seletivo.profei.com.br"
   ],
   "exemplo": "PROGRAMA DE PÓS-GRADUAÇÃO EDUCAÇÃO INCLUSIVA - Processo Seletivo PROFEI 2027"
- },
- {
-  "dominio": "periodicos.uem.br",
-  "materias": 1,
-  "nomes": [
-   "periodicos.uem.br"
-  ],
-  "exemplo": "o caso da “edição número 5” do jornal Resistência e a engrenagem autoritária na "
  },
  {
   "dominio": "brasil.mongabay.com",

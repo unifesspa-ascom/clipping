@@ -1,13 +1,13 @@
 {
- "quando": "2026-11-14T15:57:36",
- "novas": 9,
- "descartadas": 1,
- "total": 800,
+ "quando": "2026-11-15T16:28:18",
+ "novas": 3,
+ "descartadas": 0,
+ "total": 803,
  "consultas": 162,
  "falhas": 8,
  "por_fonte": {
-  "Google": 2,
-  "Bing": 1,
+  "Google": 0,
+  "Bing": 0,
   "GDELT": 0,
   "Zé Dudu": 0,
   "Correio de Carajás": 0,
@@ -70,7 +70,7 @@
   "Jornal A Notícia (AN10) (feed)": 0,
   "Sudeste Paraense (feed)": 0,
   "Canaã Notícias (feed)": 0,
-  "Alerta do Google": 6,
+  "Alerta do Google": 3,
   "Gazeta Carajás (sitemap)": 0
  },
  "sem_nome": [
@@ -116,6 +116,14 @@
     "AF Notícias"
    ],
    "exemplo": "Pesquisador ligado à UFNT ganha prêmio da Unicamp por estudos sobre memória e .."
+  },
+  {
+   "dominio": "periodicos.uem.br",
+   "materias": 2,
+   "nomes": [
+    "periodicos.uem.br"
+   ],
+   "exemplo": "Vista do Desafios dos egressos da LEdoC/Unifesspa no enfrentamento de desigualda"
   },
   {
    "dominio": "www12.senado.leg.br",
@@ -214,6 +222,22 @@
     "jusbrasil.com.br"
    ],
    "exemplo": "Petição - TRF1 - Ação Ingresso no Curso Superior - Apelação Cível - contra Unive"
+  },
+  {
+   "dominio": "comperve.ufrn.br",
+   "materias": 1,
+   "nomes": [
+    "comperve.ufrn.br"
+   ],
+   "exemplo": "PROFLETRAS 02.2025 - Resultado da validação PCD - Comperve"
+  },
+  {
+   "dominio": "giromixnews.com.br",
+   "materias": 1,
+   "nomes": [
+    "giromixnews.com.br"
+   ],
+   "exemplo": "Inteligência artificial transforma mineração no Pará com monitoramento de equipa"
   },
   {
    "dominio": "ubi.pt",
@@ -454,14 +478,6 @@
     "seletivo.profei.com.br"
    ],
    "exemplo": "PROGRAMA DE PÓS-GRADUAÇÃO EDUCAÇÃO INCLUSIVA - Processo Seletivo PROFEI 2027"
-  },
-  {
-   "dominio": "periodicos.uem.br",
-   "materias": 1,
-   "nomes": [
-    "periodicos.uem.br"
-   ],
-   "exemplo": "o caso da “edição número 5” do jornal Resistência e a engrenagem autoritária na "
   },
   {
    "dominio": "brasil.mongabay.com",

@@ -1,5 +1,37 @@
 [
  {
+  "data": "2026-11-15",
+  "veiculo": "comperve.ufrn.br",
+  "titulo": "PROFLETRAS 02.2025 - Resultado da validação PCD - Comperve",
+  "link": "https://comperve.ufrn.br/conteudo/posgraduacao/profletras/202502/documentos/RESULTADO-V-B-Resultado_da_an%C3%A1lise_de_reserva_de_vaga_PCD_(Divulgado_em_20_de_Fevereiro_de_2026).pdf",
+  "termos": [
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "resumo": "304 - Universidade Federal do Sul e Sudeste do Pará . – UNIFESSPA. 150091737. FERNANDA DE SOUSA. ALMEIDA. APTO. 305 - Universidade Federal do Sul e ...",
+  "dominio": "comperve.ufrn.br",
+  "fontes": [
+   "Alerta do Google"
+  ],
+  "verificada": true,
+  "mencoes": 2
+ },
+ {
+  "data": "2026-11-14",
+  "veiculo": "giromixnews.com.br",
+  "titulo": "Inteligência artificial transforma mineração no Pará com monitoramento de equipamentos ...",
+  "link": "https://giromixnews.com.br/noticia/e7520cd3-565c-408b-87b8-287ff383df1b",
+  "termos": [
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "resumo": "No sudeste do Pará, a parceria entre a Universidade Federal do Sul e Sudeste do Pará (Unifesspa) e o Instituto Tecnológico Vale (ITV), por meio do ...",
+  "dominio": "giromixnews.com.br",
+  "fontes": [
+   "Alerta do Google"
+  ],
+  "verificada": true,
+  "mencoes": 3
+ },
+ {
   "data": "2026-11-14",
   "veiculo": "Correio de Carajás",
   "titulo": "O futuro não trabalha sozinho: como a inteligência artificial está mudando a mineração no Pará",
@@ -15,7 +47,8 @@
    "Google",
    "Bing",
    "Correio de Carajás",
-   "Correio de Carajás (feed)"
+   "Correio de Carajás (feed)",
+   "Alerta do Google"
   ],
   "verificada": true,
   "mencoes": 3
@@ -79,6 +112,22 @@
   ],
   "resumo": "... Universidade Federal do Sul e Sudeste do Pará (UNIFESSPA), Universidade da Amazônia (UNAMA) e Hospital Universitário João de Barros Barreto.",
   "dominio": "propesp.uepa.br",
+  "fontes": [
+   "Alerta do Google"
+  ],
+  "verificada": true,
+  "mencoes": 2
+ },
+ {
+  "data": "2026-11-13",
+  "veiculo": "periodicos.uem.br",
+  "titulo": "Vista do Desafios dos egressos da LEdoC/Unifesspa no enfrentamento de desigualdades sociais",
+  "link": "https://www.periodicos.uem.br/ojs/index.php/ActaSciEduc/article/view/81555/751375163814",
+  "termos": [
+   "Unifesspa"
+  ],
+  "resumo": "Voltar aos Detalhes do Artigo Desafios dos egressos da LEdoC/ Unifesspa no enfrentamento de desigualdades sociais: relato de experiencia Baixar ...",
+  "dominio": "periodicos.uem.br",
   "fontes": [
    "Alerta do Google"
   ],
