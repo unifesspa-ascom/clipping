@@ -43,6 +43,22 @@
   "exemplo": "Pesquisador ligado à UFNT ganha prêmio da Unicamp por estudos sobre memória e .."
  },
  {
+  "dominio": "livrosabertos.abcd.usp.br",
+  "materias": 2,
+  "nomes": [
+   "livrosabertos.abcd.usp.br"
+  ],
+  "exemplo": "Por outras regiões, para outras amazônias: cidades, geopolítica da mineração e l"
+ },
+ {
+  "dominio": "docsity.com",
+  "materias": 2,
+  "nomes": [
+   "docsity.com"
+  ],
+  "exemplo": "resumo termico refri | Esquemas Mecânica - Docsity"
+ },
+ {
   "dominio": "periodicos.uem.br",
   "materias": 2,
   "nomes": [
@@ -195,14 +211,6 @@
    "propesp.uepa.br"
   ],
   "exemplo": "LaQuiProN marca presença em dois importantes congressos científicos nacionais co"
- },
- {
-  "dominio": "livrosabertos.abcd.usp.br",
-  "materias": 1,
-  "nomes": [
-   "livrosabertos.abcd.usp.br"
-  ],
-  "exemplo": "A produção da casa e da cidade no Brasil contemporâneo - Portal de Livros Aberto"
  },
  {
   "dominio": "periodicos.unifesp.br",

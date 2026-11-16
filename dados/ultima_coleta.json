@@ -1,12 +1,12 @@
 {
- "quando": "2026-11-15T16:28:18",
- "novas": 3,
+ "quando": "2026-11-16T19:45:13",
+ "novas": 4,
  "descartadas": 0,
- "total": 803,
+ "total": 807,
  "consultas": 162,
- "falhas": 8,
+ "falhas": 18,
  "por_fonte": {
-  "Google": 0,
+  "Google": 1,
   "Bing": 0,
   "GDELT": 0,
   "Zé Dudu": 0,
@@ -31,8 +31,8 @@
   "G1 Pará (Bing)": 0,
   "Rondon Notícias": 0,
   "Rondon Notícias (Bing)": 0,
-  "Sindtifes-PA": 0,
   "Sindtifes-PA (Bing)": 0,
+  "Sindtifes-PA": 0,
   "ADUNIFESSPA": 0,
   "ADUNIFESSPA (Bing)": 0,
   "Blog do Branco": 0,
@@ -47,13 +47,12 @@
   "Roma News (Bing)": 0,
   "Agência Pará": 0,
   "Agência Pará (Bing)": 0,
-  "O Liberal": 0,
   "O Liberal (Bing)": 0,
-  "Estado do Pará Online": 0,
+  "O Liberal": 0,
   "Estado do Pará Online (Bing)": 0,
-  "Rede Brasil de Televisão": 0,
+  "Estado do Pará Online": 0,
   "Rede Brasil de Televisão (Bing)": 0,
-  "Diário do Pará": 0,
+  "Rede Brasil de Televisão": 0,
   "Diário do Pará (Bing)": 0,
   "Zé Dudu (feed)": 0,
   "Correio de Carajás (feed)": 0,
@@ -116,6 +115,22 @@
     "AF Notícias"
    ],
    "exemplo": "Pesquisador ligado à UFNT ganha prêmio da Unicamp por estudos sobre memória e .."
+  },
+  {
+   "dominio": "livrosabertos.abcd.usp.br",
+   "materias": 2,
+   "nomes": [
+    "livrosabertos.abcd.usp.br"
+   ],
+   "exemplo": "Por outras regiões, para outras amazônias: cidades, geopolítica da mineração e l"
+  },
+  {
+   "dominio": "docsity.com",
+   "materias": 2,
+   "nomes": [
+    "docsity.com"
+   ],
+   "exemplo": "resumo termico refri | Esquemas Mecânica - Docsity"
   },
   {
    "dominio": "periodicos.uem.br",
@@ -270,14 +285,6 @@
     "propesp.uepa.br"
    ],
    "exemplo": "LaQuiProN marca presença em dois importantes congressos científicos nacionais co"
-  },
-  {
-   "dominio": "livrosabertos.abcd.usp.br",
-   "materias": 1,
-   "nomes": [
-    "livrosabertos.abcd.usp.br"
-   ],
-   "exemplo": "A produção da casa e da cidade no Brasil contemporâneo - Portal de Livros Aberto"
   },
   {
    "dominio": "periodicos.unifesp.br",
