@@ -1,16 +1,15 @@
 {
- "quando": "2026-11-16T19:45:13",
- "novas": 4,
- "descartadas": 0,
- "total": 807,
+ "quando": "2026-11-17T18:43:33",
+ "novas": 9,
+ "descartadas": 2,
+ "total": 816,
  "consultas": 162,
- "falhas": 18,
+ "falhas": 11,
  "por_fonte": {
-  "Google": 1,
+  "Google": 3,
   "Bing": 0,
-  "GDELT": 0,
-  "Zé Dudu": 0,
-  "Correio de Carajás": 0,
+  "Zé Dudu": 1,
+  "Correio de Carajás": 1,
   "Portal Canaã": 0,
   "Portal Pebão": 0,
   "Blog do Hiroshi Bogéa": 0,
@@ -19,7 +18,7 @@
   "Fato Regional": 0,
   "Portal Amazônia": 0,
   "Carajás O Jornal": 0,
-  "Portal Infopebas": 0,
+  "Portal Infopebas": 1,
   "Jornal A Notícia (AN10)": 0,
   "Sudeste Paraense": 0,
   "Canaã Notícias": 0,
@@ -31,8 +30,8 @@
   "G1 Pará (Bing)": 0,
   "Rondon Notícias": 0,
   "Rondon Notícias (Bing)": 0,
-  "Sindtifes-PA (Bing)": 0,
   "Sindtifes-PA": 0,
+  "Sindtifes-PA (Bing)": 0,
   "ADUNIFESSPA": 0,
   "ADUNIFESSPA (Bing)": 0,
   "Blog do Branco": 0,
@@ -47,12 +46,13 @@
   "Roma News (Bing)": 0,
   "Agência Pará": 0,
   "Agência Pará (Bing)": 0,
-  "O Liberal (Bing)": 0,
   "O Liberal": 0,
-  "Estado do Pará Online (Bing)": 0,
+  "O Liberal (Bing)": 0,
   "Estado do Pará Online": 0,
-  "Rede Brasil de Televisão (Bing)": 0,
+  "Estado do Pará Online (Bing)": 0,
   "Rede Brasil de Televisão": 0,
+  "Rede Brasil de Televisão (Bing)": 0,
+  "Diário do Pará": 0,
   "Diário do Pará (Bing)": 0,
   "Zé Dudu (feed)": 0,
   "Correio de Carajás (feed)": 0,
@@ -74,20 +74,20 @@
  },
  "sem_nome": [
   {
+   "dominio": "cursosdoportal.com.br",
+   "materias": 4,
+   "nomes": [
+    "cursosdoportal.com.br"
+   ],
+   "exemplo": "Questão 2357796 de Veterinária - CEPS UFPA 2018 - Portal Concursos"
+  },
+  {
    "dominio": "portalpara24horas.com.br",
    "materias": 3,
    "nomes": [
     "portalpara24horas.com.br"
    ],
    "exemplo": "Mestrado em planejamento urbano na Unifesspa abre 16 vagas para turma de 2027"
-  },
-  {
-   "dominio": "cursosdoportal.com.br",
-   "materias": 3,
-   "nomes": [
-    "cursosdoportal.com.br"
-   ],
-   "exemplo": "Questão 3299650 de Engenharia Mecânica - FADESP 2025 - Portal Concursos"
   },
   {
    "dominio": "gov.br",
@@ -237,6 +237,22 @@
     "jusbrasil.com.br"
    ],
    "exemplo": "Petição - TRF1 - Ação Ingresso no Curso Superior - Apelação Cível - contra Unive"
+  },
+  {
+   "dominio": "periodicos.ufsc.br",
+   "materias": 1,
+   "nomes": [
+    "periodicos.ufsc.br"
+   ],
+   "exemplo": ". | Ilha do Desterro A Journal of English Language, Literatures in English and C"
+  },
+  {
+   "dominio": "periodicos.ifg.edu.br",
+   "materias": 1,
+   "nomes": [
+    "periodicos.ifg.edu.br"
+   ],
+   "exemplo": "HOMENS DE ARMAS, CORPOS VIGIADOS: masculinidade e sodomia | Convergências"
   },
   {
    "dominio": "comperve.ufrn.br",

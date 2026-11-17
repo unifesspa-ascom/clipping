@@ -1,19 +1,19 @@
 [
  {
+  "dominio": "cursosdoportal.com.br",
+  "materias": 4,
+  "nomes": [
+   "cursosdoportal.com.br"
+  ],
+  "exemplo": "Questão 2357796 de Veterinária - CEPS UFPA 2018 - Portal Concursos"
+ },
+ {
   "dominio": "portalpara24horas.com.br",
   "materias": 3,
   "nomes": [
    "portalpara24horas.com.br"
   ],
   "exemplo": "Mestrado em planejamento urbano na Unifesspa abre 16 vagas para turma de 2027"
- },
- {
-  "dominio": "cursosdoportal.com.br",
-  "materias": 3,
-  "nomes": [
-   "cursosdoportal.com.br"
-  ],
-  "exemplo": "Questão 3299650 de Engenharia Mecânica - FADESP 2025 - Portal Concursos"
  },
  {
   "dominio": "gov.br",
@@ -163,6 +163,22 @@
    "jusbrasil.com.br"
   ],
   "exemplo": "Petição - TRF1 - Ação Ingresso no Curso Superior - Apelação Cível - contra Unive"
+ },
+ {
+  "dominio": "periodicos.ufsc.br",
+  "materias": 1,
+  "nomes": [
+   "periodicos.ufsc.br"
+  ],
+  "exemplo": ". | Ilha do Desterro A Journal of English Language, Literatures in English and C"
+ },
+ {
+  "dominio": "periodicos.ifg.edu.br",
+  "materias": 1,
+  "nomes": [
+   "periodicos.ifg.edu.br"
+  ],
+  "exemplo": "HOMENS DE ARMAS, CORPOS VIGIADOS: masculinidade e sodomia | Convergências"
  },
  {
   "dominio": "comperve.ufrn.br",

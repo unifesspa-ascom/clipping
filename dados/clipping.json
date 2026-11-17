@@ -1,5 +1,114 @@
 [
  {
+  "data": "2026-11-17",
+  "veiculo": "ac24horas",
+  "titulo": "Sem atendimento, pessoas trans recorrem a hormônios veterinários em Marabá",
+  "link": "/",
+  "termos": [
+   "Unifesspa"
+  ],
+  "resumo": "",
+  "dominio": "",
+  "fontes": [
+   "Google"
+  ],
+  "verificada": true,
+  "mencoes": 0,
+  "descartada": true,
+  "motivo": "Não foi possível ler a matéria, e nem o título nem o resumo (o que a busca já trouxe) citam a Unifesspa."
+ },
+ {
+  "data": "2026-11-17",
+  "veiculo": "Portal Infopebas",
+  "titulo": "Eleição na Câmara de Marabá e novos projetos movimentam o cenário político local",
+  "link": "https://www.infopebas.com/policia/eleicao-camara-maraba-e-novos-projetos",
+  "termos": [
+   "Universidade Federal do Sul e Sudeste do Pará",
+   "Feed do veículo"
+  ],
+  "resumo": "(…) riedade, esporte e serviços essenciais A solidariedade marcou a entrega de kits de higiene pessoal arrecadados pela Universidade Federal do Sul e Sudeste do Pará ao CAPS Castanheira III , reforçando a integração entre instituições de...",
+  "dominio": "infopebas.com",
+  "fontes": [
+   "Portal Infopebas",
+   "Portal Infopebas (feed)",
+   "Alerta do Google"
+  ],
+  "verificada": true,
+  "mencoes": 1
+ },
+ {
+  "data": "2026-11-17",
+  "veiculo": "Portal Debate Carajás",
+  "titulo": "Marabá terá unidade de referência para atendimento à população trans",
+  "link": "https://debatecarajas.com.br/maraba-tera-unidade-de-referencia-para-atendimento-a-populacao-trans",
+  "termos": [
+   "Unifesspa",
+   "Universidade Federal do Sul e Sudeste do Pará",
+   "Feed do veículo"
+  ],
+  "resumo": "Prefeitura de Parauapebas cumpre agenda institucional na China e fortalece relações com o país Leia mais",
+  "dominio": "debatecarajas.com.br",
+  "fontes": [
+   "Google",
+   "Portal Debate Carajás",
+   "Portal Debate Carajás (feed)"
+  ],
+  "verificada": true,
+  "mencoes": 4
+ },
+ {
+  "data": "2026-11-17",
+  "veiculo": "Correio de Carajás",
+  "titulo": "O AVESSO DA PELE:  o corpo negro e a violência policial",
+  "link": "https://correiodecarajas.com.br/o-avesso-da-pele-o-corpo-negro-e-a-violencia-policial",
+  "termos": [
+   "Unifesspa",
+   "Feed do veículo"
+  ],
+  "resumo": "(…) pos eram vistos como ameaça. Até a próxima semana, queridos leitores! MARI HIPÓLITO Graduada em Letras pela UFPA; bacharela em Direito pela UNIFESSPA e leitora voraz, por amor e vocação. Observação: As opiniões contidas nesta coluna...",
+  "dominio": "correiodecarajas.com.br",
+  "fontes": [
+   "Correio de Carajás",
+   "Correio de Carajás (feed)"
+  ],
+  "verificada": true,
+  "mencoes": 1,
+  "descartada": true,
+  "motivo": "A Unifesspa só aparece na credencial de quem assina o texto (formação ou vínculo), não no assunto da matéria."
+ },
+ {
+  "data": "2026-11-16",
+  "veiculo": "periodicos.ufsc.br",
+  "titulo": ". | Ilha do Desterro A Journal of English Language, Literatures in English and Cultural Studies",
+  "link": "https://periodicos.ufsc.br/index.php/desterro/article/view/112166",
+  "termos": [
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "resumo": "Luciana Kinoshita, Universidade Federal do Sul e Sudeste do Pará . Professor in the Department of Foreign Languages and Translation at the Federal ...",
+  "dominio": "periodicos.ufsc.br",
+  "fontes": [
+   "Alerta do Google"
+  ],
+  "verificada": true,
+  "mencoes": 3
+ },
+ {
+  "data": "2026-11-16",
+  "veiculo": "periodicos.ifg.edu.br",
+  "titulo": "HOMENS DE ARMAS, CORPOS VIGIADOS: masculinidade e sodomia | Convergências",
+  "link": "https://periodicos.ifg.edu.br/cehd/article/view/3442",
+  "termos": [
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "resumo": "Professor Permanente do Programa de Pós-Graduação do Mestrado Acadêmico em História da Universidade Federal do Sul e Sudeste do Pará . Professor ...",
+  "dominio": "periodicos.ifg.edu.br",
+  "fontes": [
+   "Alerta do Google"
+  ],
+  "verificada": true,
+  "mencoes": 1
+ },
+ {
   "data": "2026-11-16",
   "veiculo": "livrosabertos.abcd.usp.br",
   "titulo": "Por outras regiões, para outras amazônias: cidades, geopolítica da mineração e lutas por território",
@@ -46,6 +155,63 @@
   ],
   "verificada": true,
   "mencoes": 2
+ },
+ {
+  "data": "2026-11-16",
+  "veiculo": "cursosdoportal.com.br",
+  "titulo": "Questão 2357796 de Veterinária - CEPS UFPA 2018 - Portal Concursos",
+  "link": "https://cursosdoportal.com.br/questoes/2357796/veterinaria-ceps-ufpa-centro-de-processos-universidade-federal-do-sul-e-2018",
+  "termos": [
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "resumo": "... Universidade Federal do Sul e Sudeste do Pará . Sobre a Síndrome do “cavalo roncador”, é correto afirmar: Alternativas da questão 2357796. A ...",
+  "dominio": "cursosdoportal.com.br",
+  "fontes": [
+   "Alerta do Google"
+  ],
+  "verificada": true,
+  "mencoes": 1
+ },
+ {
+  "data": "2026-11-16",
+  "veiculo": "Zé Dudu",
+  "titulo": "A pedido do MPF, Marabá se compromete a referenciar unidade de saúde para atender população trans",
+  "link": "https://www.zedudu.com.br/a-pedido-do-mpf-maraba-se-compromete-a-referenciar-unidade-de-saude-para-atender-populacao-trans",
+  "termos": [
+   "Unifesspa",
+   "Universidade Federal do Sul e Sudeste do Pará",
+   "Feed do veículo"
+  ],
+  "resumo": "Hospital Regional de Marabá reforça segurança nas transfusões de sangue Com treinamento Hemocine, profissionais de enfermagem aprendem a identificar sinais de alerta e agir rapidamente para garantir mais segurança aos pacientes",
+  "dominio": "zedudu.com.br",
+  "fontes": [
+   "Zé Dudu",
+   "Zé Dudu (feed)"
+  ],
+  "verificada": true,
+  "mencoes": 5
+ },
+ {
+  "data": "2026-11-16",
+  "veiculo": "Pebinha de Açúcar",
+  "titulo": "A pedido do Ministério Público, Marabá se compromete a referenciar unidade de saúde para atender população trans",
+  "link": "https://pebinhadeacucar.com.br/a-pedido-do-ministerio-publico-maraba-se-compromete-a-referenciar-unidade-de-saude-para-atender-populacao-trans",
+  "termos": [
+   "Unifesspa",
+   "Universidade Federal do Sul e Sudeste do Pará",
+   "Feed do veículo"
+  ],
+  "resumo": "Deve algo? Articulação da base barra convocação do secretário de Saúde para explicar terceirização da UPA e Policlínica",
+  "dominio": "pebinhadeacucar.com.br",
+  "fontes": [
+   "Google",
+   "Bing",
+   "Pebinha de Açúcar",
+   "Pebinha de Açúcar (feed)",
+   "Alerta do Google"
+  ],
+  "verificada": true,
+  "mencoes": 5
  },
  {
   "data": "2026-11-16",
