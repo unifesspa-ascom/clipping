@@ -1,24 +1,24 @@
 {
- "quando": "2026-11-17T18:43:33",
+ "quando": "2026-11-18T18:13:55",
  "novas": 9,
- "descartadas": 2,
- "total": 816,
+ "descartadas": 4,
+ "total": 825,
  "consultas": 162,
- "falhas": 11,
+ "falhas": 12,
  "por_fonte": {
-  "Google": 3,
-  "Bing": 0,
-  "Zé Dudu": 1,
-  "Correio de Carajás": 1,
+  "Google": 4,
+  "Bing": 1,
+  "Zé Dudu": 0,
+  "Correio de Carajás": 0,
   "Portal Canaã": 0,
   "Portal Pebão": 0,
   "Blog do Hiroshi Bogéa": 0,
   "Portal Debate Carajás": 0,
-  "Pebinha de Açúcar": 0,
+  "Pebinha de Açúcar": 2,
   "Fato Regional": 0,
   "Portal Amazônia": 0,
   "Carajás O Jornal": 0,
-  "Portal Infopebas": 1,
+  "Portal Infopebas": 0,
   "Jornal A Notícia (AN10)": 0,
   "Sudeste Paraense": 0,
   "Canaã Notícias": 0,
@@ -69,7 +69,7 @@
   "Jornal A Notícia (AN10) (feed)": 0,
   "Sudeste Paraense (feed)": 0,
   "Canaã Notícias (feed)": 0,
-  "Alerta do Google": 3,
+  "Alerta do Google": 2,
   "Gazeta Carajás (sitemap)": 0
  },
  "sem_nome": [
@@ -115,6 +115,14 @@
     "AF Notícias"
    ],
    "exemplo": "Pesquisador ligado à UFNT ganha prêmio da Unicamp por estudos sobre memória e .."
+  },
+  {
+   "dominio": "tribunadoagreste.com.br",
+   "materias": 2,
+   "nomes": [
+    "Tribuna do Agreste"
+   ],
+   "exemplo": "Tensões entre Argentina e Irã após classificação de forças como terroristas"
   },
   {
    "dominio": "livrosabertos.abcd.usp.br",
@@ -239,6 +247,14 @@
    "exemplo": "Petição - TRF1 - Ação Ingresso no Curso Superior - Apelação Cível - contra Unive"
   },
   {
+   "dominio": "uruatapera.com",
+   "materias": 1,
+   "nomes": [
+    "uruatapera.com"
+   ],
+   "exemplo": "Marabá terá unidade de saúde de referência para pessoas trans em dois meses"
+  },
+  {
    "dominio": "periodicos.ufsc.br",
    "materias": 1,
    "nomes": [
@@ -333,14 +349,6 @@
     "hubpolitico.com.br"
    ],
    "exemplo": "PLN 10/2026: Abre ao Orçamento Fiscal da União | Senado"
-  },
-  {
-   "dominio": "tribunadoagreste.com.br",
-   "materias": 1,
-   "nomes": [
-    "Tribuna do Agreste"
-   ],
-   "exemplo": "Aprovação de recursos orçamentários para diversos ministérios"
   },
   {
    "dominio": "spacemoney.com.br",

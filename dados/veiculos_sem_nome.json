@@ -43,6 +43,14 @@
   "exemplo": "Pesquisador ligado à UFNT ganha prêmio da Unicamp por estudos sobre memória e .."
  },
  {
+  "dominio": "tribunadoagreste.com.br",
+  "materias": 2,
+  "nomes": [
+   "Tribuna do Agreste"
+  ],
+  "exemplo": "Tensões entre Argentina e Irã após classificação de forças como terroristas"
+ },
+ {
   "dominio": "livrosabertos.abcd.usp.br",
   "materias": 2,
   "nomes": [
@@ -165,6 +173,14 @@
   "exemplo": "Petição - TRF1 - Ação Ingresso no Curso Superior - Apelação Cível - contra Unive"
  },
  {
+  "dominio": "uruatapera.com",
+  "materias": 1,
+  "nomes": [
+   "uruatapera.com"
+  ],
+  "exemplo": "Marabá terá unidade de saúde de referência para pessoas trans em dois meses"
+ },
+ {
   "dominio": "periodicos.ufsc.br",
   "materias": 1,
   "nomes": [
@@ -259,14 +275,6 @@
    "hubpolitico.com.br"
   ],
   "exemplo": "PLN 10/2026: Abre ao Orçamento Fiscal da União | Senado"
- },
- {
-  "dominio": "tribunadoagreste.com.br",
-  "materias": 1,
-  "nomes": [
-   "Tribuna do Agreste"
-  ],
-  "exemplo": "Aprovação de recursos orçamentários para diversos ministérios"
  },
  {
   "dominio": "spacemoney.com.br",

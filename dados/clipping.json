@@ -1,8 +1,27 @@
 [
  {
-  "data": "2026-11-17",
-  "veiculo": "ac24horas",
-  "titulo": "Sem atendimento, pessoas trans recorrem a hormônios veterinários em Marabá",
+  "data": "2026-11-18",
+  "veiculo": "iG Esportes",
+  "titulo": "E.C. São Bernardo vai jogar em Mogi das Cruzes no Paulistão A3",
+  "link": "https://esporte.ig.com.br/colunas/luizademar/2026-11-18/ec-sao-bernardo-vai-jogar-em-mogi-das-cruzes-no-paulistao-a3.html",
+  "termos": [
+   "Francisco Ribeiro da Costa"
+  ],
+  "resumo": "EC São Bernardo / Divulgação Depois de ganhar experiência como jogador, auxiliar, treinador e coordenador, o ex-zagueiro preside a SAF do Cachorrão do Grande ABC Em primeiro lugar é preciso explicar para o torcedor que a cidade de São...",
+  "dominio": "esporte.ig.com.br",
+  "fontes": [
+   "Google",
+   "Bing"
+  ],
+  "verificada": true,
+  "mencoes": 0,
+  "descartada": true,
+  "motivo": "O texto da matéria não cita a Unifesspa."
+ },
+ {
+  "data": "2026-11-18",
+  "veiculo": "Tribuna do Sertão",
+  "titulo": "Tensão diplomática entre Argentina e Irã após classificação militar como terrorista",
   "link": "/",
   "termos": [
    "Unifesspa"
@@ -11,6 +30,97 @@
   "dominio": "",
   "fontes": [
    "Google"
+  ],
+  "verificada": true,
+  "mencoes": 0,
+  "descartada": true,
+  "motivo": "Não foi possível ler a matéria, e nem o título nem o resumo (o que a busca já trouxe) citam a Unifesspa."
+ },
+ {
+  "data": "2026-11-18",
+  "veiculo": "Tribuna do Agreste",
+  "titulo": "Tensões entre Argentina e Irã após classificação de forças como terroristas",
+  "link": "https://www.tribunadoagreste.com.br/geral/2026/11/18/1024521-tensoes-entre-argentina-e-ira-apos-classificacao-de-forcas-como-terroristas",
+  "termos": [
+   "Unifesspa"
+  ],
+  "resumo": "(…) ionais dos conflitos no Oriente Médio, conforme explica Marco Antonio Serafim, especialista em história contemporânea e pós-doutorando pela Unifesspa e pela Université Sorbonne Paris Nord (CAPES-COFECUB). \"O governo Milei tem dado...",
+  "dominio": "tribunadoagreste.com.br",
+  "fontes": [
+   "Bing"
+  ],
+  "verificada": true,
+  "mencoes": 1
+ },
+ {
+  "data": "2026-11-18",
+  "veiculo": "Portal Debate Carajás",
+  "titulo": "Comissão da Mulher debate aumento de casos de feminicídio em Marabá",
+  "link": "https://debatecarajas.com.br/comissao-da-mulher-debate-aumento-de-casos-de-feminicidio-em-maraba",
+  "termos": [
+   "Universidade Federal do Sul e Sudeste do Pará",
+   "Unifesspa"
+  ],
+  "resumo": "(…) âmica, buscando sempre atender o maior número de pessoas em toda a região”, afirmou. A professora Vanessa Leite, da Universidade Federal do Sul e Sudeste do Pará (Unifesspa), abordou a violência de gênero como um problema social que...",
+  "dominio": "debatecarajas.com.br",
+  "fontes": [
+   "Google",
+   "Portal Debate Carajás"
+  ],
+  "verificada": true,
+  "mencoes": 2
+ },
+ {
+  "data": "2026-11-18",
+  "veiculo": "Correio de Carajás",
+  "titulo": "Dia do Conselheiro: a missão de quem escolheu proteger a infância",
+  "link": "https://correiodecarajas.com.br/dia-do-conselheiro-a-missao-de-quem-escolheu-proteger-a-infancia",
+  "termos": [
+   "Universidade Federal do Sul e Sudeste do Pará",
+   "Unifesspa",
+   "Feed do veículo"
+  ],
+  "resumo": "(…) ursado do município como professor, formado em Geografia pela Universidade Federal do Pará (UFPA) e em Direito pela Universidade Federal do Sul e Sudeste do Pará (Unifesspa). Casado e pai de três filhos, Antônio é filho de...",
+  "dominio": "correiodecarajas.com.br",
+  "fontes": [
+   "Google",
+   "Bing",
+   "Correio de Carajás",
+   "Correio de Carajás (feed)"
+  ],
+  "verificada": true,
+  "mencoes": 2
+ },
+ {
+  "data": "2026-11-17",
+  "veiculo": "uruatapera.com",
+  "titulo": "Marabá terá unidade de saúde de referência para pessoas trans em dois meses",
+  "link": "https://uruatapera.com/maraba-tera-unidade-de-saude-de-referencia-para-pessoas-trans-em-dois-meses",
+  "termos": [
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "resumo": "O projeto de extensão Cidadania Trans em Movimento, da Universidade Federal do Sul e Sudeste do Pará (Unifesspa), cadastrou 56 e acompanha ...",
+  "dominio": "uruatapera.com",
+  "fontes": [
+   "Alerta do Google"
+  ],
+  "verificada": true,
+  "mencoes": 5
+ },
+ {
+  "data": "2026-11-17",
+  "veiculo": "ac24horas",
+  "titulo": "Sem atendimento, pessoas trans recorrem a hormônios veterinários em Marabá",
+  "link": "/",
+  "termos": [
+   "Unifesspa",
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "resumo": "A proposta prevê atendimento em dias específicos, com participação da Faculdade de Medicina da Universidade Federal do Sul e Sudeste do Pará ( ...",
+  "dominio": "ac24horas.com",
+  "fontes": [
+   "Google",
+   "Alerta do Google"
   ],
   "verificada": true,
   "mencoes": 0,
@@ -51,10 +161,63 @@
   "fontes": [
    "Google",
    "Portal Debate Carajás",
-   "Portal Debate Carajás (feed)"
+   "Portal Debate Carajás (feed)",
+   "Alerta do Google"
   ],
   "verificada": true,
   "mencoes": 4
+ },
+ {
+  "data": "2026-11-17",
+  "veiculo": "Pebinha de Açúcar",
+  "titulo": "Sob críticas pesadas, Câmara aprova licença para Aurélio Goiano viajar à China por 11 votos a 3",
+  "link": "https://pebinhadeacucar.com.br/sob-criticas-pesadas-camara-aprova-licenca-para-aurelio-goiano-viajar-a-china-por-11-votos-a-3",
+  "termos": [
+   "Francisco Ribeiro da Costa"
+  ],
+  "resumo": "Sessão extraordinária desta terça-feira (17) foi marcada por discursos acalorados da oposição. Vereadora chegou a ironizar: “se fosse pra ele ficar definitivamente na China, votaria sim” O Projeto de Decreto Legislativo Nº 160/2026, que...",
+  "dominio": "pebinhadeacucar.com.br",
+  "fontes": [
+   "Pebinha de Açúcar"
+  ],
+  "verificada": true,
+  "mencoes": 0,
+  "descartada": true,
+  "motivo": "O texto da matéria não cita a Unifesspa."
+ },
+ {
+  "data": "2026-11-17",
+  "veiculo": "Pebinha de Açúcar",
+  "titulo": "Com plenário lotado, Câmara barra urgência de projetos que alteram carreiras efetivas, mas aprova pacote com extinção de cargos",
+  "link": "https://pebinhadeacucar.com.br/com-plenario-lotado-camara-barra-urgencia-de-projetos-que-alteram-carreiras-efetivas-mas-aprova-pacote-com-extincao-de-cargos",
+  "termos": [
+   "Francisco Ribeiro da Costa"
+  ],
+  "resumo": "Sob pressão de centenas de servidores públicos, vereadores rejeitaram a tramitação acelerada para efetivos e professores, mas aprovaram a urgência para mudanças em contratos temporários, comissionados e o fim de funções base A manhã desta...",
+  "dominio": "pebinhadeacucar.com.br",
+  "fontes": [
+   "Pebinha de Açúcar"
+  ],
+  "verificada": true,
+  "mencoes": 0,
+  "descartada": true,
+  "motivo": "O texto da matéria não cita a Unifesspa."
+ },
+ {
+  "data": "2026-11-17",
+  "veiculo": "Correio de Carajás",
+  "titulo": "REPÓRTER CORREIO - Correio de Carajás",
+  "link": "https://correiodecarajas.com.br/reporter-correio-734",
+  "termos": [
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "resumo": "Representantes da Universidade Federal do Sul e Sudeste do Pará realizaram a entrega dos kits de higiene pessoal arrecadados durante a II Corrida ...",
+  "dominio": "correiodecarajas.com.br",
+  "fontes": [
+   "Alerta do Google"
+  ],
+  "verificada": true,
+  "mencoes": 2
  },
  {
   "data": "2026-11-17",
