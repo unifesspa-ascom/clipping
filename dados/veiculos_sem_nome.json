@@ -43,6 +43,22 @@
   "exemplo": "Pesquisador ligado à UFNT ganha prêmio da Unicamp por estudos sobre memória e .."
  },
  {
+  "dominio": "querolicitacao.com.br",
+  "materias": 2,
+  "nomes": [
+   "querolicitacao.com.br"
+  ],
+  "exemplo": "Prestação continuada de serviços de… · 85/2026 · Marabá/PA - Quero Licitação"
+ },
+ {
+  "dominio": "periodicos.fclar.unesp.br",
+  "materias": 2,
+  "nomes": [
+   "periodicos.fclar.unesp.br"
+  ],
+  "exemplo": "Avaliadores Ad hoc 2017-2018 | DOXA: Revista Brasileira de Psicologia e Educação"
+ },
+ {
   "dominio": "tribunadoagreste.com.br",
   "materias": 2,
   "nomes": [
@@ -171,6 +187,14 @@
    "jusbrasil.com.br"
   ],
   "exemplo": "Petição - TRF1 - Ação Ingresso no Curso Superior - Apelação Cível - contra Unive"
+ },
+ {
+  "dominio": "bra1.com.br",
+  "materias": 1,
+  "nomes": [
+   "bra1.com.br"
+  ],
+  "exemplo": "Lei 15.535 abre crédito de R$ 11,5 milhões para Educação e Segurança Pública"
  },
  {
   "dominio": "uruatapera.com",
@@ -381,14 +405,6 @@
   "exemplo": "View of GOVERNANÇA PATRIMONIAL MUNICIPAL E ARTICULAÇÃO NORMATIVA NO ..."
  },
  {
-  "dominio": "querolicitacao.com.br",
-  "materias": 1,
-  "nomes": [
-   "querolicitacao.com.br"
-  ],
-  "exemplo": "Prestação de serviços continuados… · 45/2026 · Marabá/PA - Quero Licitação"
- },
- {
   "dominio": "ufnt.edu.br",
   "materias": 1,
   "nomes": [
@@ -403,14 +419,6 @@
    "tribunapopular.com.br"
   ],
   "exemplo": "Vice-reitor do IFRO é eleito para o Conselho de Administração da Fundação Bionor"
- },
- {
-  "dominio": "periodicos.fclar.unesp.br",
-  "materias": 1,
-  "nomes": [
-   "periodicos.fclar.unesp.br"
-  ],
-  "exemplo": "Avaliadores Ad hoc 2019 | Revista on line de Política e Gestão Educacional - Une"
  },
  {
   "dominio": "falaseriocarajas.com.br",

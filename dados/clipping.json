@@ -1,5 +1,110 @@
 [
  {
+  "data": "2026-11-19",
+  "veiculo": "bra1.com.br",
+  "titulo": "Lei 15.535 abre crédito de R$ 11,5 milhões para Educação e Segurança Pública",
+  "link": "https://www.bra1.com.br/justica/id-728811/lei_15.535_abre_credito_de_r__11_5_milhoes_para_educacao_e_seguranca_publica",
+  "termos": [
+   "Unifesspa",
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "resumo": "(…) lhamento do Anexo I mostra como o crédito foi distribuído entre os órgãos. Ao Ministério da Educação, na unidade da Universidade Federal do Sul e Sudeste do Pará (UNIFESSPA), foram destinados R$ 10.400,00 para contribuições regulares a...",
+  "dominio": "bra1.com.br",
+  "fontes": [
+   "Google",
+   "Alerta do Google"
+  ],
+  "verificada": true,
+  "mencoes": 4
+ },
+ {
+  "data": "2026-11-19",
+  "veiculo": "Zé Dudu",
+  "titulo": "Casa da Cultura de Canaã dos Carajás traz exposição de Domingos Nunes a Marabá",
+  "link": "https://www.zedudu.com.br/casa-da-cultura-de-canaa-dos-carajas-traz-exposicao-de-domingos-nunes-a-maraba",
+  "termos": [
+   "Unifesspa",
+   "Feed do veículo"
+  ],
+  "resumo": "Vale na Praça reúne cultura, empreendedorismo, esporte e ações socioambientais em Marabá Evento gratuito será realizado neste sábado (31), na Marabá Pioneira; público também poderá conhecer de perto o projeto das Novas Pontes sobre o Rio...",
+  "dominio": "zedudu.com.br",
+  "fontes": [
+   "Zé Dudu",
+   "Zé Dudu (feed)"
+  ],
+  "verificada": true,
+  "mencoes": 1
+ },
+ {
+  "data": "2026-11-19",
+  "veiculo": "Portal Debate Carajás",
+  "titulo": "Dirceu Ten Caten é cotado para o Ministério da Pesca de Lula",
+  "link": "https://debatecarajas.com.br/dirceu-ten-caten-e-cotado-para-o-ministerio-da-pesca-de-lula",
+  "termos": [
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "resumo": "O deputado estadual Dirceu Ten Caten (PT), uma das principais lideranças da legenda no Pará e escolhido para disputar a Vice-Governadoria na chapa de Hana Ghassan (MDB), entrou no radar das articulações políticas de Brasília como possível...",
+  "dominio": "debatecarajas.com.br",
+  "fontes": [
+   "Portal Debate Carajás"
+  ],
+  "verificada": true,
+  "mencoes": 0,
+  "descartada": true,
+  "motivo": "O texto da matéria não cita a Unifesspa."
+ },
+ {
+  "data": "2026-11-19",
+  "veiculo": "Fato Regional",
+  "titulo": "Mário da Saúde articula mais de R$ 4 milhões em emendas para São Félix do Xingu e garante avanços em projetos para saúde e esporte",
+  "link": "https://fatoregional.com.br/mario-da-saude-emendas-sao-felix-do-xingu-brasilia",
+  "termos": [
+   "Unifesspa",
+   "Universidade Federal do Sul e Sudeste do Pará",
+   "Feed do veículo"
+  ],
+  "resumo": "Aurélio Goiano e Beatriz Ramos anunciam programação de Natal em Parauapebas com chegada do Papai Noel em dezembro 19/11/2026",
+  "dominio": "fatoregional.com.br",
+  "fontes": [
+   "Fato Regional",
+   "Fato Regional (feed)"
+  ],
+  "verificada": true,
+  "mencoes": 2
+ },
+ {
+  "data": "2026-11-18",
+  "veiculo": "querolicitacao.com.br",
+  "titulo": "Prestação continuada de serviços de… · 85/2026 · Marabá/PA - Quero Licitação",
+  "link": "https://querolicitacao.com.br/licitacoes/prestacao-continuada-de-servicos-de-infraestrutura-de-tecnologia-da-informacao-como-servico-infrastr/18657063000180-1-000031/2026",
+  "termos": [
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "resumo": "... Universidade Federal do Sul e Sudeste do Pará (Unifesspa), conforme condições, quantidades e exigências estabelecidas neste Edital e seus anexos ...",
+  "dominio": "querolicitacao.com.br",
+  "fontes": [
+   "Alerta do Google"
+  ],
+  "verificada": true,
+  "mencoes": 7
+ },
+ {
+  "data": "2026-11-18",
+  "veiculo": "periodicos.fclar.unesp.br",
+  "titulo": "Avaliadores Ad hoc 2017-2018 | DOXA: Revista Brasileira de Psicologia e Educação",
+  "link": "https://periodicos.fclar.unesp.br/doxa/pt_BR/user/setLocale/en?source=periodicos.fclar.unesp.br%2Fdoxa%2Fpt_BR%2Favaliadores2017_2018",
+  "termos": [
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "resumo": "Osmar Hélio Alves Araújo, Universidade Federal do Sul e Sudeste do Pará (Unifesspa), Brasil. Rebeca Pizza Pancotte Darius, UNASP – Brasil. Sandra ...",
+  "dominio": "periodicos.fclar.unesp.br",
+  "fontes": [
+   "Alerta do Google"
+  ],
+  "verificada": true,
+  "mencoes": 2
+ },
+ {
   "data": "2026-11-18",
   "veiculo": "iG Esportes",
   "titulo": "E.C. São Bernardo vai jogar em Mogi das Cruzes no Paulistão A3",
@@ -20,16 +125,70 @@
  },
  {
   "data": "2026-11-18",
+  "veiculo": "atlaspublico",
+  "titulo": "LEI Nº 15.535, DE 18 DE NOVEMBRO DE 2026",
+  "link": "https://atlaspublico.com.br/regulacao/dou/lei-n-15-535-de-18-de-novembro-de-2026-931761",
+  "termos": [
+   "Unifesspa",
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "resumo": "LEI Nº 15.535, DE 18 DE NOVEMBRO DE 2026 Abre ao Orçamento Fiscal da União, em favor dos Ministérios da Educação, do Desenvolvimento, Indústria, Comércio ...",
+  "dominio": "atlaspublico.com.br",
+  "fontes": [
+   "Bing"
+  ],
+  "verificada": true,
+  "mencoes": 0,
+  "descartada": true,
+  "motivo": "Não foi possível ler a matéria, e nem o título nem o resumo (o que a busca já trouxe) citam a Unifesspa."
+ },
+ {
+  "data": "2026-11-18",
+  "veiculo": "Zé Dudu",
+  "titulo": "Marabá: Pedrinho Corrêa é eleito pela quarta vez presidente da Câmara Municipal",
+  "link": "https://www.zedudu.com.br/maraba-pedrinho-correa-e-eleito-pela-quarta-vez-presidente-da-camara-municipal",
+  "termos": [
+   "Feed do veículo"
+  ],
+  "resumo": "Precatórios de mais de R$ 200 milhões a professores de Marabá podem ser pagos em fevereiro Valor está bloqueado na Justiça há três décadas. Processo segue para análise do MEC",
+  "dominio": "zedudu.com.br",
+  "fontes": [
+   "Zé Dudu (feed)"
+  ],
+  "verificada": true,
+  "mencoes": 2
+ },
+ {
+  "data": "2026-11-18",
+  "veiculo": "Zé Dudu",
+  "titulo": "CMP aprova licença para ida de Aurélio Goiano à China nesta sexta-feira (20)",
+  "link": "https://www.zedudu.com.br/cmp-aprova-licenca-para-ida-de-aurelio-goiano-a-china-nesta-sexta-feira-20",
+  "termos": [
+   "Francisco Ribeiro da Costa"
+  ],
+  "resumo": "Apesar da aprovação, parlamentares criticaram a viagem internacional e frisaram a importância de trabalhar primeiro dentro do município e da região em que está inserido",
+  "dominio": "zedudu.com.br",
+  "fontes": [
+   "Zé Dudu"
+  ],
+  "verificada": true,
+  "mencoes": 0,
+  "descartada": true,
+  "motivo": "O texto da matéria não cita a Unifesspa."
+ },
+ {
+  "data": "2026-11-18",
   "veiculo": "Tribuna do Sertão",
   "titulo": "Tensão diplomática entre Argentina e Irã após classificação militar como terrorista",
   "link": "/",
   "termos": [
    "Unifesspa"
   ],
-  "resumo": "",
-  "dominio": "",
+  "resumo": "... Unifesspa e pela Université Sorbonne Paris Nord (CAPES-COFECUB). \"O governo Milei tem dado exemplos de submissão declarada: ideológica, política ...",
+  "dominio": "tribunadosertao.com.br",
   "fontes": [
-   "Google"
+   "Google",
+   "Alerta do Google"
   ],
   "verificada": true,
   "mencoes": 0,
@@ -65,7 +224,8 @@
   "dominio": "debatecarajas.com.br",
   "fontes": [
    "Google",
-   "Portal Debate Carajás"
+   "Portal Debate Carajás",
+   "Alerta do Google"
   ],
   "verificada": true,
   "mencoes": 2
@@ -86,10 +246,66 @@
    "Google",
    "Bing",
    "Correio de Carajás",
-   "Correio de Carajás (feed)"
+   "Correio de Carajás (feed)",
+   "Alerta do Google"
   ],
   "verificada": true,
   "mencoes": 2
+ },
+ {
+  "data": "2026-11-18",
+  "veiculo": "Carajás em Foco",
+  "titulo": "Marabá terá unidade de referência para atendimento à população trans",
+  "link": "https://carajasemfoco.com.br/noticia/10540/maraba-tera-unidade-de-referencia-para-atendimento-a-populacao-trans",
+  "termos": [
+   "Unifesspa",
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "resumo": "A proposta é oferecer atendimento em dias específicos, em parceria com a Universidade Federal do Sul e Sudeste do Pará (Unifesspa). A equipe ...",
+  "dominio": "carajasemfoco.com.br",
+  "fontes": [
+   "Carajás em Foco",
+   "Alerta do Google"
+  ],
+  "verificada": true,
+  "mencoes": 0,
+  "descartada": true,
+  "motivo": "Não foi possível ler a matéria, e nem o título nem o resumo (o que a busca já trouxe) citam a Unifesspa."
+ },
+ {
+  "data": "2026-11-18",
+  "veiculo": "Carajás em Foco",
+  "titulo": "Comissão da Mulher debate aumento de casos de feminicídio em Marabá",
+  "link": "https://carajasemfoco.com.br/noticia/10536/comissao-da-mulher-debate-aumento-de-casos-de-feminicidio-em-maraba",
+  "termos": [
+   "Unifesspa",
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "resumo": "",
+  "dominio": "carajasemfoco.com.br",
+  "fontes": [
+   "Carajás em Foco"
+  ],
+  "verificada": true,
+  "mencoes": 0,
+  "descartada": true,
+  "motivo": "Não foi possível ler a matéria, e nem o título nem o resumo (o que a busca já trouxe) citam a Unifesspa."
+ },
+ {
+  "data": "2026-11-18",
+  "veiculo": "CPT Nacional",
+  "titulo": "NOTA DE REPÚDIO E COBRANÇA – Os rios Fresco, Carapanã e Carapanãzinho não podem ser assassinados: queremos justiça, investigação e responsabilização pela recorrente ...",
+  "link": "https://www.cptnacional.org.br/2026/11/18/nota-repudio-morte-peixes-xingu",
+  "termos": [
+   "Unifesspa"
+  ],
+  "resumo": "(…) ssão Pastoral da Terra – Regional Pará Comissão Pastoral da Terra (CPT Alto Xingu) Entidades signatárias: Instituto de Estudo do Xingu (IEX/UNIFESSPA) Instituto Zé Cláudio e Maria (IZM) Associação de Produtores Rurais da P6 e Região...",
+  "dominio": "cptnacional.org.br",
+  "fontes": [
+   "Bing"
+  ],
+  "verificada": true,
+  "mencoes": 1
  },
  {
   "data": "2026-11-17",
@@ -209,12 +425,14 @@
   "titulo": "REPÓRTER CORREIO - Correio de Carajás",
   "link": "https://correiodecarajas.com.br/reporter-correio-734",
   "termos": [
-   "Universidade Federal do Sul e Sudeste do Pará"
+   "Universidade Federal do Sul e Sudeste do Pará",
+   "Unifesspa"
   ],
   "resumo": "Representantes da Universidade Federal do Sul e Sudeste do Pará realizaram a entrega dos kits de higiene pessoal arrecadados durante a II Corrida ...",
   "dominio": "correiodecarajas.com.br",
   "fontes": [
-   "Alerta do Google"
+   "Alerta do Google",
+   "Correio de Carajás"
   ],
   "verificada": true,
   "mencoes": 2
@@ -786,7 +1004,8 @@
   "dominio": "rbtv.com.br",
   "fontes": [
    "Rede Brasil de Televisão",
-   "Rede Brasil de Televisão (Bing)"
+   "Rede Brasil de Televisão (Bing)",
+   "Bing"
   ],
   "verificada": true,
   "mencoes": 1

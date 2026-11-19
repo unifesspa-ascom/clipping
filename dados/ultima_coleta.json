@@ -1,24 +1,23 @@
 {
- "quando": "2026-11-18T18:13:55",
- "novas": 9,
- "descartadas": 4,
- "total": 825,
+ "quando": "2026-11-19T18:23:37",
+ "novas": 12,
+ "descartadas": 5,
+ "total": 837,
  "consultas": 162,
- "falhas": 12,
+ "falhas": 14,
  "por_fonte": {
-  "Google": 4,
-  "Bing": 1,
-  "Zé Dudu": 0,
+  "Google": 1,
+  "Bing": 2,
+  "Zé Dudu": 2,
   "Correio de Carajás": 0,
   "Portal Canaã": 0,
   "Portal Pebão": 0,
   "Blog do Hiroshi Bogéa": 0,
-  "Portal Debate Carajás": 0,
-  "Pebinha de Açúcar": 2,
-  "Fato Regional": 0,
+  "Portal Debate Carajás": 1,
+  "Fato Regional": 1,
   "Portal Amazônia": 0,
   "Carajás O Jornal": 0,
-  "Portal Infopebas": 0,
+  "Portal Chocopeba": 0,
   "Jornal A Notícia (AN10)": 0,
   "Sudeste Paraense": 0,
   "Canaã Notícias": 0,
@@ -36,7 +35,7 @@
   "ADUNIFESSPA (Bing)": 0,
   "Blog do Branco": 0,
   "Blog do Branco (Bing)": 0,
-  "Carajás em Foco": 0,
+  "Carajás em Foco": 2,
   "Carajás em Foco (Bing)": 0,
   "Xinguara Ativa": 0,
   "Xinguara Ativa (Bing)": 0,
@@ -54,7 +53,7 @@
   "Rede Brasil de Televisão (Bing)": 0,
   "Diário do Pará": 0,
   "Diário do Pará (Bing)": 0,
-  "Zé Dudu (feed)": 0,
+  "Zé Dudu (feed)": 1,
   "Correio de Carajás (feed)": 0,
   "Portal Canaã (feed)": 0,
   "Portal Pebão (feed)": 0,
@@ -69,8 +68,7 @@
   "Jornal A Notícia (AN10) (feed)": 0,
   "Sudeste Paraense (feed)": 0,
   "Canaã Notícias (feed)": 0,
-  "Alerta do Google": 2,
-  "Gazeta Carajás (sitemap)": 0
+  "Alerta do Google": 2
  },
  "sem_nome": [
   {
@@ -115,6 +113,22 @@
     "AF Notícias"
    ],
    "exemplo": "Pesquisador ligado à UFNT ganha prêmio da Unicamp por estudos sobre memória e .."
+  },
+  {
+   "dominio": "querolicitacao.com.br",
+   "materias": 2,
+   "nomes": [
+    "querolicitacao.com.br"
+   ],
+   "exemplo": "Prestação continuada de serviços de… · 85/2026 · Marabá/PA - Quero Licitação"
+  },
+  {
+   "dominio": "periodicos.fclar.unesp.br",
+   "materias": 2,
+   "nomes": [
+    "periodicos.fclar.unesp.br"
+   ],
+   "exemplo": "Avaliadores Ad hoc 2017-2018 | DOXA: Revista Brasileira de Psicologia e Educação"
   },
   {
    "dominio": "tribunadoagreste.com.br",
@@ -245,6 +259,14 @@
     "jusbrasil.com.br"
    ],
    "exemplo": "Petição - TRF1 - Ação Ingresso no Curso Superior - Apelação Cível - contra Unive"
+  },
+  {
+   "dominio": "bra1.com.br",
+   "materias": 1,
+   "nomes": [
+    "bra1.com.br"
+   ],
+   "exemplo": "Lei 15.535 abre crédito de R$ 11,5 milhões para Educação e Segurança Pública"
   },
   {
    "dominio": "uruatapera.com",
@@ -455,14 +477,6 @@
    "exemplo": "View of GOVERNANÇA PATRIMONIAL MUNICIPAL E ARTICULAÇÃO NORMATIVA NO ..."
   },
   {
-   "dominio": "querolicitacao.com.br",
-   "materias": 1,
-   "nomes": [
-    "querolicitacao.com.br"
-   ],
-   "exemplo": "Prestação de serviços continuados… · 45/2026 · Marabá/PA - Quero Licitação"
-  },
-  {
    "dominio": "ufnt.edu.br",
    "materias": 1,
    "nomes": [
@@ -477,14 +491,6 @@
     "tribunapopular.com.br"
    ],
    "exemplo": "Vice-reitor do IFRO é eleito para o Conselho de Administração da Fundação Bionor"
-  },
-  {
-   "dominio": "periodicos.fclar.unesp.br",
-   "materias": 1,
-   "nomes": [
-    "periodicos.fclar.unesp.br"
-   ],
-   "exemplo": "Avaliadores Ad hoc 2019 | Revista on line de Política e Gestão Educacional - Une"
   },
   {
    "dominio": "falaseriocarajas.com.br",
