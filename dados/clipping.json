@@ -1,5 +1,167 @@
 [
  {
+  "data": "2026-11-20",
+  "veiculo": "Rede Brasil de Televisão",
+  "titulo": "Obras em presídios e combate ao crime na Amazônia Legal terão mais recursos",
+  "link": "https://rbtv.com.br/noticia/33950/obras-em-presidios-e-combate-ao-crime-na-amazonia-legal-terao-mais-recursos/amp",
+  "termos": [
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "resumo": "(…) Propriedade Industrial (Ibepi). Também é liberada verba ao Ministério da Educação para pagamento de contribuição da Universidade Federal do Sul e Sudeste do Pará à Associação Grupo de Tordesilhas de Universidades. Já a Lei 15.542...",
+  "dominio": "rbtv.com.br",
+  "fontes": [
+   "Rede Brasil de Televisão"
+  ],
+  "verificada": true,
+  "mencoes": 1
+ },
+ {
+  "data": "2026-11-20",
+  "veiculo": "CNA7",
+  "titulo": "Obras em presídios e combate ao crime na Amazônia Legal terão mais recursos",
+  "link": "https://www.cna7.com.br/noticia/62526/obras-em-presidios-e-combate-ao-crime-na-amazonia-legal-terao-mais-recursos/amp",
+  "termos": [
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "resumo": "",
+  "dominio": "cna7.com.br",
+  "fontes": [
+   "Google"
+  ],
+  "verificada": true,
+  "mencoes": 0,
+  "descartada": true,
+  "motivo": "Não foi possível ler a matéria, e nem o título nem o resumo (o que a busca já trouxe) citam a Unifesspa."
+ },
+ {
+  "data": "2026-11-19",
+  "veiculo": "entretextosassessoria.com.br",
+  "titulo": "Tratamento de Resíduos Sólidos da Amazônia Oriental (UNIFESSPA) · Grupos de pesquisa",
+  "link": "https://www.entretextosassessoria.com.br/grupos/807423-tratamento-de-residuos-solidos-da-amazonia-oriental",
+  "termos": [
+   "Unifesspa"
+  ],
+  "resumo": "Grupo de pesquisa cadastrado no DGP/CNPq: Química · Universidade Federal do Sul e Sudeste do Pará - UNIFESSPA ( UNIFESSPA ) · Marabá/PA · liderança ...",
+  "dominio": "entretextosassessoria.com.br",
+  "fontes": [
+   "Alerta do Google"
+  ],
+  "verificada": true,
+  "mencoes": 4
+ },
+ {
+  "data": "2026-11-19",
+  "veiculo": "entretextosassessoria.com.br",
+  "titulo": "Rede de pesquisa em Cartografia, Geotecnologias e Saúde no Sudeste do Pará",
+  "link": "https://www.entretextosassessoria.com.br/grupos/793406-rede-de-pesquisa-em-cartografia-geotecnologias-e-saude-no-sudeste-do",
+  "termos": [
+   "Unifesspa"
+  ],
+  "resumo": "UNIFESSPA · Universidade Federal do Sul e Sudeste do Pará - UNIFESSPA desde 2023 ... UNIFESSPA . O objetivo deste grupo é estabelecer colaborações ...",
+  "dominio": "entretextosassessoria.com.br",
+  "fontes": [
+   "Alerta do Google"
+  ],
+  "verificada": true,
+  "mencoes": 6
+ },
+ {
+  "data": "2026-11-19",
+  "veiculo": "entretextosassessoria.com.br",
+  "titulo": "Núcleo de Estudos Inquisitoriais na Amazônia - NEIAM (UNIFESSPA) · Grupos de pesquisa",
+  "link": "https://www.entretextosassessoria.com.br/grupos/822861-nucleo-de-estudos-inquisitoriais-na-amazonia-neiam",
+  "termos": [
+   "Unifesspa"
+  ],
+  "resumo": "Para o campo institucional, entendemos que este projeto possibilitará que a Unifesspa tenha condições para se consolidar como um importante espaço ...",
+  "dominio": "entretextosassessoria.com.br",
+  "fontes": [
+   "Alerta do Google"
+  ],
+  "verificada": true,
+  "mencoes": 6
+ },
+ {
+  "data": "2026-11-19",
+  "veiculo": "entretextosassessoria.com.br",
+  "titulo": "LEBARA - RELIGIÃO E SOCIEDADE (UNIFESSPA) · Grupos de pesquisa - Entre Textos",
+  "link": "https://www.entretextosassessoria.com.br/grupos/248127-lebara-religiao-e-sociedade",
+  "termos": [
+   "Unifesspa"
+  ],
+  "resumo": "instituição e endereço. Universidade Federal do Sul e Sudeste do Pará - UNIFESSPA ( UNIFESSPA ). Universidade · instituição pública federal. Quadra Sete ...",
+  "dominio": "entretextosassessoria.com.br",
+  "fontes": [
+   "Alerta do Google"
+  ],
+  "verificada": true,
+  "mencoes": 4
+ },
+ {
+  "data": "2026-11-19",
+  "veiculo": "entretextosassessoria.com.br",
+  "titulo": "Grupo de estudos e pesquisa para o ensino de LIBRAS na educação superior",
+  "link": "https://www.entretextosassessoria.com.br/grupos/794847-grupo-de-estudos-e-pesquisa-para-o-ensino-de-libras-na-educacao",
+  "termos": [
+   "Unifesspa"
+  ],
+  "resumo": "instituição e endereço. Universidade Federal do Sul e Sudeste do Pará - UNIFESSPA ( UNIFESSPA ). Universidade · instituição pública federal. S Félix ...",
+  "dominio": "entretextosassessoria.com.br",
+  "fontes": [
+   "Alerta do Google"
+  ],
+  "verificada": true,
+  "mencoes": 4
+ },
+ {
+  "data": "2026-11-19",
+  "veiculo": "entretextosassessoria.com.br",
+  "titulo": "Grupo de Estudos de Línguas Amazônicas (LAmazon) (UNIFESSPA) - Entre Textos",
+  "link": "https://www.entretextosassessoria.com.br/grupos/327829-grupo-de-estudos-de-linguas-amazonicas-lamazon",
+  "termos": [
+   "Unifesspa"
+  ],
+  "resumo": "instituição e endereço. Universidade Federal do Sul e Sudeste do Pará - UNIFESSPA ( UNIFESSPA ). Universidade · instituição pública federal. Quadra ...",
+  "dominio": "entretextosassessoria.com.br",
+  "fontes": [
+   "Alerta do Google"
+  ],
+  "verificada": true,
+  "mencoes": 4
+ },
+ {
+  "data": "2026-11-19",
+  "veiculo": "entretextosassessoria.com.br",
+  "titulo": "GETAM - Grupo de Estudos Territoriais da Amazônia Meridional - Entre Textos",
+  "link": "https://www.entretextosassessoria.com.br/grupos/794107-getam-grupo-de-estudos-territoriais-da-amazonia-meridional",
+  "termos": [
+   "Unifesspa"
+  ],
+  "resumo": "instituição e endereço. Universidade Federal do Sul e Sudeste do Pará - UNIFESSPA ( UNIFESSPA ). Universidade · instituição pública federal. Rua ...",
+  "dominio": "entretextosassessoria.com.br",
+  "fontes": [
+   "Alerta do Google"
+  ],
+  "verificada": true,
+  "mencoes": 4
+ },
+ {
+  "data": "2026-11-19",
+  "veiculo": "deolhonosertao.com.br",
+  "titulo": "Obras em presídios e combate ao crime na Amazônia Legal terão mais recursos",
+  "link": "https://deolhonosertao.com.br/noticia/51106/obras-em-presidios-e-combate-ao-crime-na-amazonia-legal-terao-mais-recursos",
+  "termos": [
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "resumo": "Também é liberada verba ao Ministério da Educação para pagamento de contribuição da Universidade Federal do Sul e Sudeste do Pará à Associação ...",
+  "dominio": "deolhonosertao.com.br",
+  "fontes": [
+   "Alerta do Google"
+  ],
+  "verificada": true,
+  "mencoes": 1
+ },
+ {
   "data": "2026-11-19",
   "veiculo": "bra1.com.br",
   "titulo": "Lei 15.535 abre crédito de R$ 11,5 milhões para Educação e Segurança Pública",
@@ -37,6 +199,23 @@
  },
  {
   "data": "2026-11-19",
+  "veiculo": "Senado",
+  "titulo": "Obras em presídios e combate ao crime na Amazônia terão mais recursos",
+  "link": "https://www12.senado.leg.br/noticias/materias/2026/11/19/obras-em-presidios-e-combate-ao-crime-na-amazonia-legal-terao-mais-recursos",
+  "termos": [
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "resumo": "Quer receber notificações do portal Senado Notícias?",
+  "dominio": "www12.senado.leg.br",
+  "fontes": [
+   "Google",
+   "Alerta do Google"
+  ],
+  "verificada": true,
+  "mencoes": 1
+ },
+ {
+  "data": "2026-11-19",
   "veiculo": "Portal Debate Carajás",
   "titulo": "Dirceu Ten Caten é cotado para o Ministério da Pesca de Lula",
   "link": "https://debatecarajas.com.br/dirceu-ten-caten-e-cotado-para-o-ministerio-da-pesca-de-lula",
@@ -52,6 +231,22 @@
   "mencoes": 0,
   "descartada": true,
   "motivo": "O texto da matéria não cita a Unifesspa."
+ },
+ {
+  "data": "2026-11-19",
+  "veiculo": "Metrô News Jornal",
+  "titulo": "Recursos adicionais para segurança e educação em presídios e na Amazônia",
+  "link": "https://metronews.com.br/recursos-adicionais-para-seguranca-e-educacao-em-presidios-e-na-amazonia",
+  "termos": [
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "resumo": "(…) a Ibero-Americano de Propriedade Industrial. O Ministério da Educação também receberá verbas para a contribuição da Universidade Federal do Sul e Sudeste do Pará à Associação Grupo de Tordesilhas de Universidades. A Lei 15.542, por sua...",
+  "dominio": "metronews.com.br",
+  "fontes": [
+   "Google"
+  ],
+  "verificada": true,
+  "mencoes": 1
  },
  {
   "data": "2026-11-19",

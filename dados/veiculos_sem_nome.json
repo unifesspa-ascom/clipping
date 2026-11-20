@@ -1,11 +1,28 @@
 [
  {
+  "dominio": "entretextosassessoria.com.br",
+  "materias": 7,
+  "nomes": [
+   "entretextosassessoria.com.br"
+  ],
+  "exemplo": "Tratamento de Resíduos Sólidos da Amazônia Oriental (UNIFESSPA) · Grupos de pesq"
+ },
+ {
   "dominio": "cursosdoportal.com.br",
   "materias": 4,
   "nomes": [
    "cursosdoportal.com.br"
   ],
   "exemplo": "Questão 2357796 de Veterinária - CEPS UFPA 2018 - Portal Concursos"
+ },
+ {
+  "dominio": "www12.senado.leg.br",
+  "materias": 3,
+  "nomes": [
+   "Senado",
+   "Senado Federal"
+  ],
+  "exemplo": "Obras em presídios e combate ao crime na Amazônia terão mais recursos"
  },
  {
   "dominio": "portalpara24horas.com.br",
@@ -89,15 +106,6 @@
    "periodicos.uem.br"
   ],
   "exemplo": "Vista do Desafios dos egressos da LEdoC/Unifesspa no enfrentamento de desigualda"
- },
- {
-  "dominio": "www12.senado.leg.br",
-  "materias": 2,
-  "nomes": [
-   "Senado",
-   "Senado Federal"
-  ],
-  "exemplo": "Congresso aprova reforço orçamentário para ministérios e Judiciário"
  },
  {
   "dominio": "redeintegra.mec.gov.br",
@@ -189,12 +197,28 @@
   "exemplo": "Petição - TRF1 - Ação Ingresso no Curso Superior - Apelação Cível - contra Unive"
  },
  {
+  "dominio": "deolhonosertao.com.br",
+  "materias": 1,
+  "nomes": [
+   "deolhonosertao.com.br"
+  ],
+  "exemplo": "Obras em presídios e combate ao crime na Amazônia Legal terão mais recursos"
+ },
+ {
   "dominio": "bra1.com.br",
   "materias": 1,
   "nomes": [
    "bra1.com.br"
   ],
   "exemplo": "Lei 15.535 abre crédito de R$ 11,5 milhões para Educação e Segurança Pública"
+ },
+ {
+  "dominio": "metronews.com.br",
+  "materias": 1,
+  "nomes": [
+   "Metrô News Jornal"
+  ],
+  "exemplo": "Recursos adicionais para segurança e educação em presídios e na Amazônia"
  },
  {
   "dominio": "uruatapera.com",

@@ -1,25 +1,25 @@
 {
- "quando": "2026-11-19T18:23:37",
+ "quando": "2026-11-20T18:19:28",
  "novas": 12,
- "descartadas": 5,
- "total": 837,
+ "descartadas": 1,
+ "total": 849,
  "consultas": 162,
- "falhas": 14,
+ "falhas": 18,
  "por_fonte": {
-  "Google": 1,
-  "Bing": 2,
-  "Zé Dudu": 2,
+  "Google": 3,
+  "Bing": 0,
+  "GDELT": 0,
+  "Zé Dudu": 0,
   "Correio de Carajás": 0,
   "Portal Canaã": 0,
-  "Portal Pebão": 0,
   "Blog do Hiroshi Bogéa": 0,
-  "Portal Debate Carajás": 1,
-  "Fato Regional": 1,
+  "Portal Debate Carajás": 0,
+  "Pebinha de Açúcar": 0,
+  "Fato Regional": 0,
   "Portal Amazônia": 0,
-  "Carajás O Jornal": 0,
+  "Portal Infopebas": 0,
   "Portal Chocopeba": 0,
   "Jornal A Notícia (AN10)": 0,
-  "Sudeste Paraense": 0,
   "Canaã Notícias": 0,
   "Gazeta Carajás": 0,
   "Gazeta Carajás (Bing)": 0,
@@ -35,7 +35,7 @@
   "ADUNIFESSPA (Bing)": 0,
   "Blog do Branco": 0,
   "Blog do Branco (Bing)": 0,
-  "Carajás em Foco": 2,
+  "Carajás em Foco": 0,
   "Carajás em Foco (Bing)": 0,
   "Xinguara Ativa": 0,
   "Xinguara Ativa (Bing)": 0,
@@ -47,13 +47,13 @@
   "Agência Pará (Bing)": 0,
   "O Liberal": 0,
   "O Liberal (Bing)": 0,
-  "Estado do Pará Online": 0,
   "Estado do Pará Online (Bing)": 0,
-  "Rede Brasil de Televisão": 0,
+  "Estado do Pará Online": 0,
+  "Rede Brasil de Televisão": 1,
   "Rede Brasil de Televisão (Bing)": 0,
   "Diário do Pará": 0,
   "Diário do Pará (Bing)": 0,
-  "Zé Dudu (feed)": 1,
+  "Zé Dudu (feed)": 0,
   "Correio de Carajás (feed)": 0,
   "Portal Canaã (feed)": 0,
   "Portal Pebão (feed)": 0,
@@ -68,9 +68,18 @@
   "Jornal A Notícia (AN10) (feed)": 0,
   "Sudeste Paraense (feed)": 0,
   "Canaã Notícias (feed)": 0,
-  "Alerta do Google": 2
+  "Alerta do Google": 8,
+  "Gazeta Carajás (sitemap)": 0
  },
  "sem_nome": [
+  {
+   "dominio": "entretextosassessoria.com.br",
+   "materias": 7,
+   "nomes": [
+    "entretextosassessoria.com.br"
+   ],
+   "exemplo": "Tratamento de Resíduos Sólidos da Amazônia Oriental (UNIFESSPA) · Grupos de pesq"
+  },
   {
    "dominio": "cursosdoportal.com.br",
    "materias": 4,
@@ -78,6 +87,15 @@
     "cursosdoportal.com.br"
    ],
    "exemplo": "Questão 2357796 de Veterinária - CEPS UFPA 2018 - Portal Concursos"
+  },
+  {
+   "dominio": "www12.senado.leg.br",
+   "materias": 3,
+   "nomes": [
+    "Senado",
+    "Senado Federal"
+   ],
+   "exemplo": "Obras em presídios e combate ao crime na Amazônia terão mais recursos"
   },
   {
    "dominio": "portalpara24horas.com.br",
@@ -161,15 +179,6 @@
     "periodicos.uem.br"
    ],
    "exemplo": "Vista do Desafios dos egressos da LEdoC/Unifesspa no enfrentamento de desigualda"
-  },
-  {
-   "dominio": "www12.senado.leg.br",
-   "materias": 2,
-   "nomes": [
-    "Senado",
-    "Senado Federal"
-   ],
-   "exemplo": "Congresso aprova reforço orçamentário para ministérios e Judiciário"
   },
   {
    "dominio": "redeintegra.mec.gov.br",
@@ -261,12 +270,28 @@
    "exemplo": "Petição - TRF1 - Ação Ingresso no Curso Superior - Apelação Cível - contra Unive"
   },
   {
+   "dominio": "deolhonosertao.com.br",
+   "materias": 1,
+   "nomes": [
+    "deolhonosertao.com.br"
+   ],
+   "exemplo": "Obras em presídios e combate ao crime na Amazônia Legal terão mais recursos"
+  },
+  {
    "dominio": "bra1.com.br",
    "materias": 1,
    "nomes": [
     "bra1.com.br"
    ],
    "exemplo": "Lei 15.535 abre crédito de R$ 11,5 milhões para Educação e Segurança Pública"
+  },
+  {
+   "dominio": "metronews.com.br",
+   "materias": 1,
+   "nomes": [
+    "Metrô News Jornal"
+   ],
+   "exemplo": "Recursos adicionais para segurança e educação em presídios e na Amazônia"
   },
   {
    "dominio": "uruatapera.com",
