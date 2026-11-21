@@ -1,25 +1,28 @@
 {
- "quando": "2026-11-20T18:19:28",
- "novas": 12,
+ "quando": "2026-11-21T16:55:26",
+ "novas": 6,
  "descartadas": 1,
- "total": 849,
+ "total": 855,
  "consultas": 162,
- "falhas": 18,
+ "falhas": 4,
  "por_fonte": {
-  "Google": 3,
-  "Bing": 0,
+  "Google": 1,
+  "Bing": 3,
   "GDELT": 0,
   "Zé Dudu": 0,
   "Correio de Carajás": 0,
   "Portal Canaã": 0,
+  "Portal Pebão": 0,
   "Blog do Hiroshi Bogéa": 0,
   "Portal Debate Carajás": 0,
   "Pebinha de Açúcar": 0,
   "Fato Regional": 0,
   "Portal Amazônia": 0,
+  "Carajás O Jornal": 0,
   "Portal Infopebas": 0,
   "Portal Chocopeba": 0,
   "Jornal A Notícia (AN10)": 0,
+  "Sudeste Paraense": 0,
   "Canaã Notícias": 0,
   "Gazeta Carajás": 0,
   "Gazeta Carajás (Bing)": 0,
@@ -47,9 +50,9 @@
   "Agência Pará (Bing)": 0,
   "O Liberal": 0,
   "O Liberal (Bing)": 0,
-  "Estado do Pará Online (Bing)": 0,
   "Estado do Pará Online": 0,
-  "Rede Brasil de Televisão": 1,
+  "Estado do Pará Online (Bing)": 0,
+  "Rede Brasil de Televisão": 0,
   "Rede Brasil de Televisão (Bing)": 0,
   "Diário do Pará": 0,
   "Diário do Pará (Bing)": 0,
@@ -68,7 +71,7 @@
   "Jornal A Notícia (AN10) (feed)": 0,
   "Sudeste Paraense (feed)": 0,
   "Canaã Notícias (feed)": 0,
-  "Alerta do Google": 8,
+  "Alerta do Google": 2,
   "Gazeta Carajás (sitemap)": 0
  },
  "sem_nome": [
@@ -268,6 +271,38 @@
     "jusbrasil.com.br"
    ],
    "exemplo": "Petição - TRF1 - Ação Ingresso no Curso Superior - Apelação Cível - contra Unive"
+  },
+  {
+   "dominio": "brasilemfolhas.com.br",
+   "materias": 1,
+   "nomes": [
+    "brasilemfolhas.com.br"
+   ],
+   "exemplo": "Governo libera verba para presídios e segurança na Amazônia"
+  },
+  {
+   "dominio": "agenciacidades.com.br",
+   "materias": 1,
+   "nomes": [
+    "agenciacidades.com.br"
+   ],
+   "exemplo": "Inteligência artificial pode gerar economia de até 30% nas prefeituras, acredita"
+  },
+  {
+   "dominio": "vouprafaculdade.com.br",
+   "materias": 1,
+   "nomes": [
+    "vouprafaculdade.com.br"
+   ],
+   "exemplo": "Faculdades e Universidades Federais no Brasil"
+  },
+  {
+   "dominio": "sitedoenem.com.br",
+   "materias": 1,
+   "nomes": [
+    "sitedoenem.com.br"
+   ],
+   "exemplo": "Universidades e faculdades em Pará (PA) | Sitedoenem"
   },
   {
    "dominio": "deolhonosertao.com.br",

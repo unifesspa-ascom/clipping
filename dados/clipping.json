@@ -1,5 +1,89 @@
 [
  {
+  "data": "2026-11-21",
+  "veiculo": "brasilemfolhas.com.br",
+  "titulo": "Governo libera verba para presídios e segurança na Amazônia",
+  "link": "https://brasilemfolhas.com.br/2026/11/governo-libera-verba-para-presidios-e-seguranca-na-amazonia",
+  "termos": [
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "resumo": "(…) Caribe de Planejamento Econômico e Social, órgão da ONU. No setor educacional, a Lei 15.535 libera verba para que a Universidade Federal do Sul e Sudeste do Pará pague a contribuição à Associação Grupo de Tordesilhas de Universidades....",
+  "dominio": "brasilemfolhas.com.br",
+  "fontes": [
+   "Bing"
+  ],
+  "verificada": true,
+  "mencoes": 1
+ },
+ {
+  "data": "2026-11-21",
+  "veiculo": "agenciacidades.com.br",
+  "titulo": "Inteligência artificial pode gerar economia de até 30% nas prefeituras, acredita ONU",
+  "link": "https://www.agenciacidades.com.br/reportagens/2026/11/12/inteligencia-artificial-pode-gerar-economia-de-ate-30-nas-prefeituras-acredita-onu.html",
+  "termos": [
+   "Unifesspa"
+  ],
+  "resumo": "(…) tegração de informações pode auxiliar no planejamento de rotas, reduzir deslocamentos e melhorar o uso dos recursos públicos. Estudantes da Unifesspa foram selecionados para realizar a manutenção do aplicativo Conecta Canaã, que...",
+  "dominio": "agenciacidades.com.br",
+  "fontes": [
+   "Bing"
+  ],
+  "verificada": true,
+  "mencoes": 1
+ },
+ {
+  "data": "2026-11-21",
+  "veiculo": "G1",
+  "titulo": "Da bauxita aos cabos elétricos: como o PA é destaque na cadeia do alumínio e lida com a transição energética",
+  "link": "https://g1.globo.com/google/amp/pa/para/noticia/2026/11/21/da-bauxita-aos-cabos-eletricos-como-o-pa-e-destaque-na-cadeia-do-aluminio-e-lida-com-a-transicao-energetica.ghtml",
+  "termos": [
+   "Universidade Federal do Sul e Sudeste do Pará",
+   "Unifesspa"
+  ],
+  "resumo": "(…) lete nos impactos de cada uma das cadeias na economia de exportação, como explica Evaldo Gomes Júnior, professor da Universidade Federal do Sul e Sudeste do Pará (Unifesspa) no Programa de Pós-graduação em Planejamento e...",
+  "dominio": "g1.globo.com",
+  "fontes": [
+   "Google",
+   "Bing",
+   "G1 Pará",
+   "G1 Pará (Bing)"
+  ],
+  "verificada": true,
+  "mencoes": 3
+ },
+ {
+  "data": "2026-11-20",
+  "veiculo": "vouprafaculdade.com.br",
+  "titulo": "Faculdades e Universidades Federais no Brasil",
+  "link": "https://www.vouprafaculdade.com.br/instituicoes/federal?uf=RJ",
+  "termos": [
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "resumo": "UNIVERSIDADE FEDERAL DO SUL E SUDESTE DO PARÁ (UNIFESSPA). Cód MEC: 18440 Ver Cursos →. RIO DE JANEIRO - RJ. CENTRO FEDERAL DE EDUCAÇÃO TECNOLÓGICA ...",
+  "dominio": "vouprafaculdade.com.br",
+  "fontes": [
+   "Alerta do Google"
+  ],
+  "verificada": true,
+  "mencoes": 2
+ },
+ {
+  "data": "2026-11-20",
+  "veiculo": "sitedoenem.com.br",
+  "titulo": "Universidades e faculdades em Pará (PA) | Sitedoenem",
+  "link": "https://sitedoenem.com.br/estados/pa",
+  "termos": [
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "resumo": "Ensino superior em Pará ; UF Universidade Federal do Sul e Sudeste do Pará , UNIFESSPA, Universidade ; Logotipo UFRA Universidade Federal Rural da ...",
+  "dominio": "sitedoenem.com.br",
+  "fontes": [
+   "Alerta do Google"
+  ],
+  "verificada": true,
+  "mencoes": 2
+ },
+ {
   "data": "2026-11-20",
   "veiculo": "Rede Brasil de Televisão",
   "titulo": "Obras em presídios e combate ao crime na Amazônia Legal terão mais recursos",
@@ -247,6 +331,24 @@
   ],
   "verificada": true,
   "mencoes": 1
+ },
+ {
+  "data": "2026-11-19",
+  "veiculo": "Jornal de Uberaba",
+  "titulo": "Obras em presídios e combate ao crime na Amazônia Legal terão mais recursos",
+  "link": "https://www.jornaldeuberaba.com.br/noticia/171678/obras-em-presidios-e-combate-ao-crime-na-amazonia-legal-terao-mais-recursos",
+  "termos": [
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "resumo": "A Presidência da República sancionou nesta quinta-feira (19) três leis que destinam cerca de R$ 141,6 milhões em recursos para as áreas de ...",
+  "dominio": "jornaldeuberaba.com.br",
+  "fontes": [
+   "Bing"
+  ],
+  "verificada": true,
+  "mencoes": 0,
+  "descartada": true,
+  "motivo": "Não foi possível ler a matéria, e nem o título nem o resumo (o que a busca já trouxe) citam a Unifesspa."
  },
  {
   "data": "2026-11-19",
