@@ -1,14 +1,13 @@
 {
- "quando": "2026-11-21T16:55:26",
- "novas": 6,
- "descartadas": 1,
- "total": 855,
+ "quando": "2026-11-22T17:18:34",
+ "novas": 2,
+ "descartadas": 0,
+ "total": 857,
  "consultas": 162,
- "falhas": 4,
+ "falhas": 13,
  "por_fonte": {
-  "Google": 1,
-  "Bing": 3,
-  "GDELT": 0,
+  "Google": 0,
+  "Bing": 0,
   "Zé Dudu": 0,
   "Correio de Carajás": 0,
   "Portal Canaã": 0,
@@ -271,6 +270,22 @@
     "jusbrasil.com.br"
    ],
    "exemplo": "Petição - TRF1 - Ação Ingresso no Curso Superior - Apelação Cível - contra Unive"
+  },
+  {
+   "dominio": "mapadoacerto.com.br",
+   "materias": 1,
+   "nomes": [
+    "mapadoacerto.com.br"
+   ],
+   "exemplo": "Questão de Contabilidade Pública · 2020 · FADESP · Consideram-se as… | Mapa do A"
+  },
+  {
+   "dominio": "latindex.org",
+   "materias": 1,
+   "nomes": [
+    "latindex.org"
+   ],
+   "exemplo": "Sistema regional de información en línea para Revistas científicas de América .."
   },
   {
    "dominio": "brasilemfolhas.com.br",

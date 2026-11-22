@@ -197,6 +197,22 @@
   "exemplo": "Petição - TRF1 - Ação Ingresso no Curso Superior - Apelação Cível - contra Unive"
  },
  {
+  "dominio": "mapadoacerto.com.br",
+  "materias": 1,
+  "nomes": [
+   "mapadoacerto.com.br"
+  ],
+  "exemplo": "Questão de Contabilidade Pública · 2020 · FADESP · Consideram-se as… | Mapa do A"
+ },
+ {
+  "dominio": "latindex.org",
+  "materias": 1,
+  "nomes": [
+   "latindex.org"
+  ],
+  "exemplo": "Sistema regional de información en línea para Revistas científicas de América .."
+ },
+ {
   "dominio": "brasilemfolhas.com.br",
   "materias": 1,
   "nomes": [

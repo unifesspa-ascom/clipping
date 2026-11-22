@@ -1,5 +1,37 @@
 [
  {
+  "data": "2026-11-22",
+  "veiculo": "mapadoacerto.com.br",
+  "titulo": "Questão de Contabilidade Pública · 2020 · FADESP · Consideram-se as… | Mapa do Acerto",
+  "link": "https://mapadoacerto.com.br/questoes/que_01a16e24-cb00-7471-a90e-b004fd5242f7",
+  "termos": [
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "resumo": "FADESPA Universidade Federal do Sul e Sudeste do Pará – Unifesspa – pretende realizar a estimativa do tempo de vida útil de um determinado ativo ...",
+  "dominio": "mapadoacerto.com.br",
+  "fontes": [
+   "Alerta do Google"
+  ],
+  "verificada": true,
+  "mencoes": 2
+ },
+ {
+  "data": "2026-11-21",
+  "veiculo": "latindex.org",
+  "titulo": "Sistema regional de información en línea para Revistas científicas de América ... - Latindex",
+  "link": "https://www.latindex.org/latindex/revistasIndice?id=374&idLtr=D&idMod=0&indiNom=Diadorim&page=11",
+  "termos": [
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "resumo": "Editorial: Universidade Federal do Sul e Sudeste do Pará (UNIFESSPA) e-ISSN: 2674-7758. ISSN: Subtemas: Antropología, Bibliografías, Ciencias de la ...",
+  "dominio": "latindex.org",
+  "fontes": [
+   "Alerta do Google"
+  ],
+  "verificada": true,
+  "mencoes": 4
+ },
+ {
   "data": "2026-11-21",
   "veiculo": "brasilemfolhas.com.br",
   "titulo": "Governo libera verba para presídios e segurança na Amazônia",
@@ -46,7 +78,8 @@
    "Google",
    "Bing",
    "G1 Pará",
-   "G1 Pará (Bing)"
+   "G1 Pará (Bing)",
+   "Alerta do Google"
   ],
   "verificada": true,
   "mencoes": 3
