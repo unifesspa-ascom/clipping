@@ -60,6 +60,14 @@
   "exemplo": "Pesquisador ligado à UFNT ganha prêmio da Unicamp por estudos sobre memória e .."
  },
  {
+  "dominio": "uruatapera.com",
+  "materias": 2,
+  "nomes": [
+   "uruatapera.com"
+  ],
+  "exemplo": "Unifesspa firma acordo na China e entrega título honoris causa a Dilma Rousseff"
+ },
+ {
   "dominio": "querolicitacao.com.br",
   "materias": 2,
   "nomes": [
@@ -197,12 +205,36 @@
   "exemplo": "Petição - TRF1 - Ação Ingresso no Curso Superior - Apelação Cível - contra Unive"
  },
  {
+  "dominio": "empresas.listapa.com.br",
+  "materias": 1,
+  "nomes": [
+   "empresas.listapa.com.br"
+  ],
+  "exemplo": "Unifesspa - Campus de Xinguara em Xinguara-PA - Listapa"
+ },
+ {
+  "dominio": "18horas.com.br",
+  "materias": 1,
+  "nomes": [
+   "18 Horas | Rádio Mix Manaus"
+  ],
+  "exemplo": "Governo federal promete mais recursos para combate ao crime na Amazônia e obras "
+ },
+ {
   "dominio": "mapadoacerto.com.br",
   "materias": 1,
   "nomes": [
    "mapadoacerto.com.br"
   ],
   "exemplo": "Questão de Contabilidade Pública · 2020 · FADESP · Consideram-se as… | Mapa do A"
+ },
+ {
+  "dominio": "conectadoaopoder.com.br",
+  "materias": 1,
+  "nomes": [
+   "conectadoaopoder.com.br"
+  ],
+  "exemplo": "Presidência sanciona três leis que destinam R$ 141,6 milhões a áreas públicas"
  },
  {
   "dominio": "latindex.org",
@@ -267,14 +299,6 @@
    "Metrô News Jornal"
   ],
   "exemplo": "Recursos adicionais para segurança e educação em presídios e na Amazônia"
- },
- {
-  "dominio": "uruatapera.com",
-  "materias": 1,
-  "nomes": [
-   "uruatapera.com"
-  ],
-  "exemplo": "Marabá terá unidade de saúde de referência para pessoas trans em dois meses"
  },
  {
   "dominio": "periodicos.ufsc.br",

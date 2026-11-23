@@ -1,13 +1,14 @@
 {
- "quando": "2026-11-22T17:18:34",
- "novas": 2,
- "descartadas": 0,
- "total": 857,
+ "quando": "2026-11-23T21:37:10",
+ "novas": 100,
+ "descartadas": 94,
+ "total": 957,
  "consultas": 162,
- "falhas": 13,
+ "falhas": 4,
  "por_fonte": {
-  "Google": 0,
+  "Google": 20,
   "Bing": 0,
+  "GDELT": 0,
   "Zé Dudu": 0,
   "Correio de Carajás": 0,
   "Portal Canaã": 0,
@@ -16,7 +17,7 @@
   "Portal Debate Carajás": 0,
   "Pebinha de Açúcar": 0,
   "Fato Regional": 0,
-  "Portal Amazônia": 0,
+  "Portal Amazônia": 1,
   "Carajás O Jornal": 0,
   "Portal Infopebas": 0,
   "Portal Chocopeba": 0,
@@ -53,7 +54,7 @@
   "Estado do Pará Online (Bing)": 0,
   "Rede Brasil de Televisão": 0,
   "Rede Brasil de Televisão (Bing)": 0,
-  "Diário do Pará": 0,
+  "Diário do Pará": 75,
   "Diário do Pará (Bing)": 0,
   "Zé Dudu (feed)": 0,
   "Correio de Carajás (feed)": 0,
@@ -70,7 +71,7 @@
   "Jornal A Notícia (AN10) (feed)": 0,
   "Sudeste Paraense (feed)": 0,
   "Canaã Notícias (feed)": 0,
-  "Alerta do Google": 2,
+  "Alerta do Google": 4,
   "Gazeta Carajás (sitemap)": 0
  },
  "sem_nome": [
@@ -133,6 +134,14 @@
     "AF Notícias"
    ],
    "exemplo": "Pesquisador ligado à UFNT ganha prêmio da Unicamp por estudos sobre memória e .."
+  },
+  {
+   "dominio": "uruatapera.com",
+   "materias": 2,
+   "nomes": [
+    "uruatapera.com"
+   ],
+   "exemplo": "Unifesspa firma acordo na China e entrega título honoris causa a Dilma Rousseff"
   },
   {
    "dominio": "querolicitacao.com.br",
@@ -272,12 +281,36 @@
    "exemplo": "Petição - TRF1 - Ação Ingresso no Curso Superior - Apelação Cível - contra Unive"
   },
   {
+   "dominio": "empresas.listapa.com.br",
+   "materias": 1,
+   "nomes": [
+    "empresas.listapa.com.br"
+   ],
+   "exemplo": "Unifesspa - Campus de Xinguara em Xinguara-PA - Listapa"
+  },
+  {
+   "dominio": "18horas.com.br",
+   "materias": 1,
+   "nomes": [
+    "18 Horas | Rádio Mix Manaus"
+   ],
+   "exemplo": "Governo federal promete mais recursos para combate ao crime na Amazônia e obras "
+  },
+  {
    "dominio": "mapadoacerto.com.br",
    "materias": 1,
    "nomes": [
     "mapadoacerto.com.br"
    ],
    "exemplo": "Questão de Contabilidade Pública · 2020 · FADESP · Consideram-se as… | Mapa do A"
+  },
+  {
+   "dominio": "conectadoaopoder.com.br",
+   "materias": 1,
+   "nomes": [
+    "conectadoaopoder.com.br"
+   ],
+   "exemplo": "Presidência sanciona três leis que destinam R$ 141,6 milhões a áreas públicas"
   },
   {
    "dominio": "latindex.org",
@@ -342,14 +375,6 @@
     "Metrô News Jornal"
    ],
    "exemplo": "Recursos adicionais para segurança e educação em presídios e na Amazônia"
-  },
-  {
-   "dominio": "uruatapera.com",
-   "materias": 1,
-   "nomes": [
-    "uruatapera.com"
-   ],
-   "exemplo": "Marabá terá unidade de saúde de referência para pessoas trans em dois meses"
   },
   {
    "dominio": "periodicos.ufsc.br",
