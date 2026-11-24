@@ -1,25 +1,25 @@
 {
- "quando": "2026-11-23T21:37:10",
- "novas": 100,
- "descartadas": 94,
- "total": 957,
+ "quando": "2026-11-24T20:19:31",
+ "novas": 71,
+ "descartadas": 68,
+ "total": 1028,
  "consultas": 162,
  "falhas": 4,
  "por_fonte": {
-  "Google": 20,
-  "Bing": 0,
+  "Google": 9,
+  "Bing": 2,
   "GDELT": 0,
   "Zé Dudu": 0,
-  "Correio de Carajás": 0,
-  "Portal Canaã": 0,
+  "Correio de Carajás": 1,
+  "Portal Canaã": 1,
   "Portal Pebão": 0,
   "Blog do Hiroshi Bogéa": 0,
   "Portal Debate Carajás": 0,
   "Pebinha de Açúcar": 0,
   "Fato Regional": 0,
-  "Portal Amazônia": 1,
+  "Portal Amazônia": 0,
   "Carajás O Jornal": 0,
-  "Portal Infopebas": 0,
+  "Portal Infopebas": 1,
   "Portal Chocopeba": 0,
   "Jornal A Notícia (AN10)": 0,
   "Sudeste Paraense": 0,
@@ -54,9 +54,9 @@
   "Estado do Pará Online (Bing)": 0,
   "Rede Brasil de Televisão": 0,
   "Rede Brasil de Televisão (Bing)": 0,
-  "Diário do Pará": 75,
+  "Diário do Pará": 55,
   "Diário do Pará (Bing)": 0,
-  "Zé Dudu (feed)": 0,
+  "Zé Dudu (feed)": 1,
   "Correio de Carajás (feed)": 0,
   "Portal Canaã (feed)": 0,
   "Portal Pebão (feed)": 0,
@@ -71,7 +71,7 @@
   "Jornal A Notícia (AN10) (feed)": 0,
   "Sudeste Paraense (feed)": 0,
   "Canaã Notícias (feed)": 0,
-  "Alerta do Google": 4,
+  "Alerta do Google": 1,
   "Gazeta Carajás (sitemap)": 0
  },
  "sem_nome": [
@@ -279,6 +279,14 @@
     "jusbrasil.com.br"
    ],
    "exemplo": "Petição - TRF1 - Ação Ingresso no Curso Superior - Apelação Cível - contra Unive"
+  },
+  {
+   "dominio": "xinguara.pa.gov.br",
+   "materias": 1,
+   "nomes": [
+    "xinguara.pa.gov.br"
+   ],
+   "exemplo": "Campanha Mamas Protegidas oferece atendimento gratuito para cães e gatos em Xing"
   },
   {
    "dominio": "empresas.listapa.com.br",

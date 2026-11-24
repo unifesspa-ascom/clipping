@@ -205,6 +205,14 @@
   "exemplo": "Petição - TRF1 - Ação Ingresso no Curso Superior - Apelação Cível - contra Unive"
  },
  {
+  "dominio": "xinguara.pa.gov.br",
+  "materias": 1,
+  "nomes": [
+   "xinguara.pa.gov.br"
+  ],
+  "exemplo": "Campanha Mamas Protegidas oferece atendimento gratuito para cães e gatos em Xing"
+ },
+ {
   "dominio": "empresas.listapa.com.br",
   "materias": 1,
   "nomes": [

@@ -1,5 +1,298 @@
 [
  {
+  "data": "2026-11-24",
+  "veiculo": "xinguara.pa.gov.br",
+  "titulo": "Campanha Mamas Protegidas oferece atendimento gratuito para cães e gatos em Xinguara",
+  "link": "https://xinguara.pa.gov.br/campanha-mamas-protegidas-oferece-atendimento-gratuito-para-caes-e-gatos-em-xinguara",
+  "termos": [
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "resumo": "Os atendimentos acontecerão no Campus I da Universidade Federal do Sul e Sudeste do Pará (Unifesspa), localizado na Rua Maranhão, no Centro, ao lado ...",
+  "dominio": "xinguara.pa.gov.br",
+  "fontes": [
+   "Alerta do Google"
+  ],
+  "verificada": true,
+  "mencoes": 2
+ },
+ {
+  "data": "2026-11-24",
+  "veiculo": "Zé Dudu",
+  "titulo": "Municípios do Pará recebem circuito cultural com foco em bioeconomia e turismo regenerativo; veja o roteiro",
+  "link": "https://www.zedudu.com.br/municipios-do-para-recebem-circuito-cultural-com-foco-em-bioeconomia-e-turismo-regenerativo-veja-o-roteiro",
+  "termos": [
+   "Feed do veículo"
+  ],
+  "resumo": "(…) sas sobre a bioeconomia no Pará O evento apresenta os primeiros resultados das pesquisas desenvolvidas a partir do convênio firmado entre a Unifesspa e a Fapespa para a criação da Rede Pará de Contas Regionais de Bioeconomia",
+  "dominio": "zedudu.com.br",
+  "fontes": [
+   "Zé Dudu (feed)"
+  ],
+  "verificada": true,
+  "mencoes": 2
+ },
+ {
+  "data": "2026-11-24",
+  "veiculo": "Portal Infopebas",
+  "titulo": "Justiça marca nova audiência sobre o assassinato de médicos por engano no Rio de Janeiro",
+  "link": "https://www.infopebas.com/destaque/justica-marca-audiencia-acusados-matar-medicos-rio",
+  "termos": [
+   "Francisco Ribeiro da Costa"
+  ],
+  "resumo": "Justiça do Rio marca nova audiência de acusados pelo assassinato de médicos mortos por engano na Barra da Tijuca em 2023.",
+  "dominio": "infopebas.com",
+  "fontes": [
+   "Portal Infopebas"
+  ],
+  "verificada": true,
+  "mencoes": 0,
+  "descartada": true,
+  "motivo": "O texto da matéria não cita a Unifesspa."
+ },
+ {
+  "data": "2026-11-24",
+  "veiculo": "Portal Canaã",
+  "titulo": "UFPA oferta mais de 7 mil vagas em processo seletivo 2027; estudantes da região de Carajás podem disputar oportunidades",
+  "link": "https://portalcanaa.com.br/oportunidades/ufpa-oferta-mais-de-7-mil-vagas-em-processo-seletivo-2027-estudantes-da-regiao-de-carajas-podem-disputar-oportunidades",
+  "termos": [
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "resumo": "A Universidade Federal do Pará (UFPA) está ofertando 7.003 vagas em cursos presenciais de graduação para o Processo Seletivo 2027. A seleção utiliza as notas do Exame Nacional do Ensino Médio (Enem 2026) e contempla diferentes municípios...",
+  "dominio": "portalcanaa.com.br",
+  "fontes": [
+   "Portal Canaã"
+  ],
+  "verificada": true,
+  "mencoes": 0,
+  "descartada": true,
+  "motivo": "O texto da matéria não cita a Unifesspa."
+ },
+ {
+  "data": "2026-11-24",
+  "veiculo": "Diário do Pará",
+  "titulo": "Vitória goleia o Internacional por 5 a 2 no Beira-Rio e se aproxima da permanência",
+  "link": "https://diariodopara.com.br/bola/vitoria-goleia-o-internacional-por-5-a-2-e-deixa-rival-a-beira-do-rebaixamento",
+  "termos": [
+   "Unifesspa"
+  ],
+  "resumo": "Mais Diário do Pará no seu Google! Um clique para dar preferência às notícias do Pará Adicionar Mais Diário do Pará no seu Google! Um clique para dar preferência às notícias do Pará Adicionar Vitória goleia o Internacional por 5 a 2 e...",
+  "dominio": "diariodopara.com.br",
+  "fontes": [
+   "Google",
+   "Diário do Pará"
+  ],
+  "verificada": true,
+  "mencoes": 0,
+  "descartada": true,
+  "motivo": "O texto da matéria não cita a Unifesspa."
+ },
+ {
+  "data": "2026-11-24",
+  "veiculo": "Diário do Pará",
+  "titulo": "Vale tem pelo menos 11 vagas de emprego no Pará, com oportunidades para ensino médio e engenharia",
+  "link": "https://diariodopara.com.br/concursos-e-empregos/vale-tem-11-vagas-de-emprego-abertas-no-para-confira-os-requisitos-e-como-se-candidatar",
+  "termos": [
+   "Unifesspa"
+  ],
+  "resumo": "Mais Diário do Pará no seu Google! Um clique para dar preferência às notícias do Pará Adicionar Mais Diário do Pará no seu Google! Um clique para dar preferência às notícias do Pará Adicionar Veja o resumo da notícia Vale reúne pelo menos...",
+  "dominio": "diariodopara.com.br",
+  "fontes": [
+   "Google",
+   "Diário do Pará"
+  ],
+  "verificada": true,
+  "mencoes": 0,
+  "descartada": true,
+  "motivo": "O texto da matéria não cita a Unifesspa."
+ },
+ {
+  "data": "2026-11-24",
+  "veiculo": "Diário do Pará",
+  "titulo": "Terminais hidroviários de Belém podem ter fiscalização mais rígida de documentos de menores",
+  "link": "https://diariodopara.com.br/para/governo-do-para-e-judiciario-discutem-fiscalizacao-de-viagens-de-menores-em-terminais-hidroviarios-de-belem",
+  "termos": [
+   "Unifesspa"
+  ],
+  "resumo": "Mais Diário do Pará no seu Google! Um clique para dar preferência às notícias do Pará Adicionar Mais Diário do Pará no seu Google! Um clique para dar preferência às notícias do Pará Adicionar Veja o resumo da notícia Governo do Pará e...",
+  "dominio": "diariodopara.com.br",
+  "fontes": [
+   "Google",
+   "Diário do Pará"
+  ],
+  "verificada": true,
+  "mencoes": 0,
+  "descartada": true,
+  "motivo": "O texto da matéria não cita a Unifesspa."
+ },
+ {
+  "data": "2026-11-24",
+  "veiculo": "Diário do Pará",
+  "titulo": "Supermercado Líder abre vagas de emprego na escala 5x2",
+  "link": "https://diariodopara.com.br/concursos-e-empregos/supermercado-lider-abre-mais-de-100-vagas-de-emprego-na-escala-5x2-em-belem-ananindeua-barcarena-e-abaetetuba",
+  "termos": [
+   "Unifesspa"
+  ],
+  "resumo": "Mais Diário do Pará no seu Google! Um clique para dar preferência às notícias do Pará Adicionar Mais Diário do Pará no seu Google! Um clique para dar preferência às notícias do Pará Adicionar Supermercado Líder abre mais de 100 vagas de...",
+  "dominio": "diariodopara.com.br",
+  "fontes": [
+   "Google",
+   "Diário do Pará"
+  ],
+  "verificada": true,
+  "mencoes": 0,
+  "descartada": true,
+  "motivo": "O texto da matéria não cita a Unifesspa."
+ },
+ {
+  "data": "2026-11-24",
+  "veiculo": "Diário do Pará",
+  "titulo": "PF prende um suspeito e afasta quatro vereadores de Santana do Araguaia, no Pará",
+  "link": "https://diariodopara.com.br/para/pf-deflagra-operacao-cidade-sitiada-e-afasta-quatro-vereadores-em-santana-do-araguaia",
+  "termos": [
+   "Unifesspa"
+  ],
+  "resumo": "Mais Diário do Pará no seu Google! Um clique para dar preferência às notícias do Pará Adicionar Mais Diário do Pará no seu Google! Um clique para dar preferência às notícias do Pará Adicionar Veja o resumo da notícia Polícia Federal...",
+  "dominio": "diariodopara.com.br",
+  "fontes": [
+   "Google",
+   "Diário do Pará"
+  ],
+  "verificada": true,
+  "mencoes": 0,
+  "descartada": true,
+  "motivo": "O texto da matéria não cita a Unifesspa."
+ },
+ {
+  "data": "2026-11-24",
+  "veiculo": "Diário do Pará",
+  "titulo": "Inter é goleado por 5 a 2 pelo Vitória no Beira-Rio e segue na zona de rebaixamento",
+  "link": "https://diariodopara.com.br/bola/renata-fan-perde-a-paciencia-apos-goleada-do-inter-e-desabafa-fim-de-feira-deprimente",
+  "termos": [
+   "Unifesspa"
+  ],
+  "resumo": "Mais Diário do Pará no seu Google! Um clique para dar preferência às notícias do Pará Adicionar Mais Diário do Pará no seu Google! Um clique para dar preferência às notícias do Pará Adicionar Veja o resumo da notícia Internacional foi...",
+  "dominio": "diariodopara.com.br",
+  "fontes": [
+   "Diário do Pará"
+  ],
+  "verificada": true,
+  "mencoes": 0,
+  "descartada": true,
+  "motivo": "O texto da matéria não cita a Unifesspa."
+ },
+ {
+  "data": "2026-11-24",
+  "veiculo": "Diário do Pará",
+  "titulo": "Dia de Sorte: veja como apostar, quanto custa e quais são as chances de ganhar o prêmio",
+  "link": "https://diariodopara.com.br/noticias/loterias/dia-de-sorte-hoje-resultado-do-concurso-1354-e-numeros-sorteados-desta-segunda-feira-23",
+  "termos": [
+   "Unifesspa"
+  ],
+  "resumo": "Mais Diário do Pará no seu Google! Um clique para dar preferência às notícias do Pará Adicionar Mais Diário do Pará no seu Google! Um clique para dar preferência às notícias do Pará Adicionar Dia de Sorte hoje: resultado do concurso 1354 e...",
+  "dominio": "diariodopara.com.br",
+  "fontes": [
+   "Diário do Pará"
+  ],
+  "verificada": true,
+  "mencoes": 0,
+  "descartada": true,
+  "motivo": "O texto da matéria não cita a Unifesspa."
+ },
+ {
+  "data": "2026-11-24",
+  "veiculo": "Diário do Pará",
+  "titulo": "Artista que interpreta o Grinch em Brasília diz ter sido enforcado por mulher durante evento geek",
+  "link": "https://diariodopara.com.br/noticias/grinch-e-atacado-por-mulher-durante-evento-em-brasilia-e-desabafa-apos-sofrer-tentativa-de-enforcamento-veja-video",
+  "termos": [
+   "Unifesspa"
+  ],
+  "resumo": "Mais Diário do Pará no seu Google! Um clique para dar preferência às notícias do Pará Adicionar Mais Diário do Pará no seu Google! Um clique para dar preferência às notícias do Pará Adicionar Veja o resumo da notícia Artista que interpreta...",
+  "dominio": "diariodopara.com.br",
+  "fontes": [
+   "Google",
+   "Diário do Pará"
+  ],
+  "verificada": true,
+  "mencoes": 0,
+  "descartada": true,
+  "motivo": "O texto da matéria não cita a Unifesspa."
+ },
+ {
+  "data": "2026-11-24",
+  "veiculo": "Correio de Carajás",
+  "titulo": "Projeto da Unifesspa conquista 2º lugar em inovação pública",
+  "link": "https://correiodecarajas.com.br/projeto-da-unifesspa-conquista-2o-lugar-em-inovacao-publica",
+  "termos": [
+   "Unifesspa",
+   "Universidade Federal do Sul e Sudeste do Pará",
+   "Lucélia Cardoso Cavalcante",
+   "Feed do veículo"
+  ],
+  "resumo": "(…) as atendidas pelo projeto Tecer Mulher – InTercâmbio Tecnológico Intergeracional para a Mulher Idosa, iniciativa da Universidade Federal do Sul e Sudeste do Pará (Unifesspa) que promove a inclusão digital em Marabá e Nova Ipixuna. O...",
+  "dominio": "correiodecarajas.com.br",
+  "fontes": [
+   "Google",
+   "Correio de Carajás",
+   "Correio de Carajás (feed)"
+  ],
+  "verificada": true,
+  "mencoes": 7
+ },
+ {
+  "data": "2026-11-24",
+  "veiculo": "Correio de Carajás",
+  "titulo": "O sistema de morada e o corpo feminino na obra TORTO ARADO, de Itamar vieira Junior",
+  "link": "https://correiodecarajas.com.br/o-sistema-de-morada-e-o-corpo-feminino-na-obra-torto-arado-de-itamar-vieira-junior",
+  "termos": [
+   "Unifesspa"
+  ],
+  "resumo": "(…) terra e em diversas outras formas. Até a próxima, queridos leitores! MARI HIPÓLITO Graduada em Letras pela UFPA; bacharela em Direito pela UNIFESSPA e leitora voraz, por amor e vocação. Observação: As opiniões contidas nesta coluna não...",
+  "dominio": "correiodecarajas.com.br",
+  "fontes": [
+   "Correio de Carajás"
+  ],
+  "verificada": true,
+  "mencoes": 1,
+  "descartada": true,
+  "motivo": "A Unifesspa só aparece na credencial de quem assina o texto (formação ou vínculo), não no assunto da matéria."
+ },
+ {
+  "data": "2026-11-24",
+  "veiculo": "Correio de Carajás",
+  "titulo": "Governo do Pará orienta consumidores na hora de aproveitar promoções da Black Friday",
+  "link": "https://correiodecarajas.com.br/governo-do-para-orienta-consumidores-na-hora-de-aproveitar-promocoes-da-black-friday",
+  "termos": [
+   "Unifesspa"
+  ],
+  "resumo": "O aumento do consumo no período de ofertas da Black Friday deve ser acompanhado de cuidados redobrados com possíveis golpes, fraudes, propagandas enganosas e falsas ofertas nesse período. A Diretoria ...",
+  "dominio": "correiodecarajas.com.br",
+  "fontes": [
+   "Bing"
+  ],
+  "verificada": true,
+  "mencoes": 0,
+  "descartada": true,
+  "motivo": "O texto da matéria não cita a Unifesspa."
+ },
+ {
+  "data": "2026-11-24",
+  "veiculo": "Correio de Carajás",
+  "titulo": "Esfaqueada mais de 30 vezes, mulher sobrevive em Canaã dos Carajás",
+  "link": "https://correiodecarajas.com.br/esfaqueada-mais-de-30-vezes-mulher-sobrevive-em-canaa-dos-carajas",
+  "termos": [
+   "Unifesspa"
+  ],
+  "resumo": "Um caso envolvendo violência extrema contra a mulher aconteceu na Vila Planalto, a 17 quilômetros da sede urbana de Canaã dos Carajás. Camila Araújo foi atingida com mais de 30 golpes de canivete. Ape ...",
+  "dominio": "correiodecarajas.com.br",
+  "fontes": [
+   "Bing"
+  ],
+  "verificada": true,
+  "mencoes": 0,
+  "descartada": true,
+  "motivo": "O texto da matéria não cita a Unifesspa."
+ },
+ {
   "data": "2026-11-23",
   "veiculo": "empresas.listapa.com.br",
   "titulo": "Unifesspa - Campus de Xinguara em Xinguara-PA - Listapa",
@@ -27,6 +320,24 @@
   "dominio": "diariodopara.com.br",
   "fontes": [
    "Google",
+   "Diário do Pará"
+  ],
+  "verificada": true,
+  "mencoes": 0,
+  "descartada": true,
+  "motivo": "O texto da matéria não cita a Unifesspa."
+ },
+ {
+  "data": "2026-11-23",
+  "veiculo": "Diário do Pará",
+  "titulo": "Área do antigo CD da Yamada é vendida, mas operação acaba na Justiça",
+  "link": "https://diariodopara.com.br/mauro-bonna/area-do-antigo-cd-da-yamada-e-vendida-mas-operacao-acaba-na-justica",
+  "termos": [
+   "Unifesspa"
+  ],
+  "resumo": "Mais Diário do Pará no seu Google! Um clique para dar preferência às notícias do Pará Adicionar Mais Diário do Pará no seu Google! Um clique para dar preferência às notícias do Pará Adicionar Área do antigo CD da Yamada é vendida, mas...",
+  "dominio": "diariodopara.com.br",
+  "fontes": [
    "Diário do Pará"
   ],
   "verificada": true,
@@ -202,6 +513,24 @@
  {
   "data": "2026-11-23",
   "veiculo": "Diário do Pará",
+  "titulo": "STJ nega nova perícia em vídeos de agressão a mulher em academia e mantém condenação",
+  "link": "https://diariodopara.com.br/noticias/brasil/stj-rejeita-pericia-em-videos-de-homem-que-cuspiu-e-agrediu-mulher-em-academia-a-agressao-e-clarissima-diz-ministro",
+  "termos": [
+   "Unifesspa"
+  ],
+  "resumo": "Mais Diário do Pará no seu Google! Um clique para dar preferência às notícias do Pará Adicionar Mais Diário do Pará no seu Google! Um clique para dar preferência às notícias do Pará Adicionar Veja o resumo da notícia STJ rejeitou, por...",
+  "dominio": "diariodopara.com.br",
+  "fontes": [
+   "Diário do Pará"
+  ],
+  "verificada": true,
+  "mencoes": 0,
+  "descartada": true,
+  "motivo": "O texto da matéria não cita a Unifesspa."
+ },
+ {
+  "data": "2026-11-23",
+  "veiculo": "Diário do Pará",
   "titulo": "Reforma tributária zera imposto de carnes, arroz e café a partir de 2027; veja os 22 itens isentos",
   "link": "https://diariodopara.com.br/seu-bolso/reforma-tributaria-imposto-zero-alimentos-2027",
   "termos": [
@@ -347,6 +676,42 @@
  {
   "data": "2026-11-23",
   "veiculo": "Diário do Pará",
+  "titulo": "Paysandu e Clube do Remo fazem clássico pela semifinal do Paraense Feminino",
+  "link": "https://diariodopara.com.br/bola/paysandu-e-clube-do-remo-fazem-classico-pela-semifinal-do-paraense-feminino",
+  "termos": [
+   "Unifesspa"
+  ],
+  "resumo": "Mais Diário do Pará no seu Google! Um clique para dar preferência às notícias do Pará Adicionar Mais Diário do Pará no seu Google! Um clique para dar preferência às notícias do Pará Adicionar Veja o resumo da notícia Paysandu e Clube do...",
+  "dominio": "diariodopara.com.br",
+  "fontes": [
+   "Diário do Pará"
+  ],
+  "verificada": true,
+  "mencoes": 0,
+  "descartada": true,
+  "motivo": "O texto da matéria não cita a Unifesspa."
+ },
+ {
+  "data": "2026-11-23",
+  "veiculo": "Diário do Pará",
+  "titulo": "Paysandu contrata Ricardo Drubscky, ex-Corinthians, para executivo de futebol",
+  "link": "https://diariodopara.com.br/bola/novo-homem-forte-do-futebol-do-paysandu-chega-a-belem-e-visita-a-curuzu",
+  "termos": [
+   "Unifesspa"
+  ],
+  "resumo": "Mais Diário do Pará no seu Google! Um clique para dar preferência às notícias do Pará Adicionar Mais Diário do Pará no seu Google! Um clique para dar preferência às notícias do Pará Adicionar Veja o resumo da notícia Ricardo Drubscky, novo...",
+  "dominio": "diariodopara.com.br",
+  "fontes": [
+   "Diário do Pará"
+  ],
+  "verificada": true,
+  "mencoes": 0,
+  "descartada": true,
+  "motivo": "O texto da matéria não cita a Unifesspa."
+ },
+ {
+  "data": "2026-11-23",
+  "veiculo": "Diário do Pará",
   "titulo": "Paysandu anuncia Lucas Mila, volante de 23 anos e primeiro reforço para 2027",
   "link": "https://diariodopara.com.br/bola/paysandu-anuncia-o-volante-lucas-mila-primeira-contratacao-para-2027",
   "termos": [
@@ -356,6 +721,96 @@
   "dominio": "diariodopara.com.br",
   "fontes": [
    "Google",
+   "Diário do Pará"
+  ],
+  "verificada": true,
+  "mencoes": 0,
+  "descartada": true,
+  "motivo": "O texto da matéria não cita a Unifesspa."
+ },
+ {
+  "data": "2026-11-23",
+  "veiculo": "Diário do Pará",
+  "titulo": "Pastora toca instrumento feito de chifre e faz orações em frente a hospital onde Bolsonaro está internado",
+  "link": "https://diariodopara.com.br/noticias/brasil/pastora-toca-instrumento-feito-de-chifre-e-faz-oracoes-em-frente-a-hospital-onde-bolsonaro-esta-internado",
+  "termos": [
+   "Unifesspa"
+  ],
+  "resumo": "Mais Diário do Pará no seu Google! Um clique para dar preferência às notícias do Pará Adicionar Mais Diário do Pará no seu Google! Um clique para dar preferência às notícias do Pará Adicionar Veja o resumo da notícia Pastora tocou um...",
+  "dominio": "diariodopara.com.br",
+  "fontes": [
+   "Diário do Pará"
+  ],
+  "verificada": true,
+  "mencoes": 0,
+  "descartada": true,
+  "motivo": "O texto da matéria não cita a Unifesspa."
+ },
+ {
+  "data": "2026-11-23",
+  "veiculo": "Diário do Pará",
+  "titulo": "Pai desaparecido reaparece em Por Você e coloca guarda das crianças em risco; veja o resumo da semana",
+  "link": "https://diariodopara.com.br/entretenimento/por-voce-resumo-23-a-28-novembro-aroldo-reaparece",
+  "termos": [
+   "Unifesspa"
+  ],
+  "resumo": "Mais Diário do Pará no seu Google! Um clique para dar preferência às notícias do Pará Adicionar Mais Diário do Pará no seu Google! Um clique para dar preferência às notícias do Pará Adicionar Por Você: Aroldo reaparece na vida dos filhos e...",
+  "dominio": "diariodopara.com.br",
+  "fontes": [
+   "Diário do Pará"
+  ],
+  "verificada": true,
+  "mencoes": 0,
+  "descartada": true,
+  "motivo": "O texto da matéria não cita a Unifesspa."
+ },
+ {
+  "data": "2026-11-23",
+  "veiculo": "Diário do Pará",
+  "titulo": "PM apreende drogas escondidas em caroços de açaí em Moju; suspeito mordeu policial",
+  "link": "https://diariodopara.com.br/policia/policia-encontra-maconha-escondida-em-meio-a-carocos-de-acai-no-para",
+  "termos": [
+   "Unifesspa"
+  ],
+  "resumo": "Mais Diário do Pará no seu Google! Um clique para dar preferência às notícias do Pará Adicionar Mais Diário do Pará no seu Google! Um clique para dar preferência às notícias do Pará Adicionar Veja o resumo da notícia Polícia Militar...",
+  "dominio": "diariodopara.com.br",
+  "fontes": [
+   "Diário do Pará"
+  ],
+  "verificada": true,
+  "mencoes": 0,
+  "descartada": true,
+  "motivo": "O texto da matéria não cita a Unifesspa."
+ },
+ {
+  "data": "2026-11-23",
+  "veiculo": "Diário do Pará",
+  "titulo": "Nova identidade: primeira vaga é em Marituba; veja datas em Belém e Ananindeua",
+  "link": "https://diariodopara.com.br/para/nova-identidade-primeira-vaga-e-em-marituba-veja-datas-em-belem-e-ananindeua",
+  "termos": [
+   "Unifesspa"
+  ],
+  "resumo": "Mais Diário do Pará no seu Google! Um clique para dar preferência às notícias do Pará Adicionar Mais Diário do Pará no seu Google! Um clique para dar preferência às notícias do Pará Adicionar Veja o resumo da notícia Consulta feita nesta...",
+  "dominio": "diariodopara.com.br",
+  "fontes": [
+   "Diário do Pará"
+  ],
+  "verificada": true,
+  "mencoes": 0,
+  "descartada": true,
+  "motivo": "O texto da matéria não cita a Unifesspa."
+ },
+ {
+  "data": "2026-11-23",
+  "veiculo": "Diário do Pará",
+  "titulo": "No dia do título do Flamengo, Sport faz provocação e oferece experiências",
+  "link": "https://diariodopara.com.br/bola/no-dia-do-titulo-do-flamengo-sport-faz-provocacao-e-oferece-experiencias",
+  "termos": [
+   "Unifesspa"
+  ],
+  "resumo": "Mais Diário do Pará no seu Google! Um clique para dar preferência às notícias do Pará Adicionar Mais Diário do Pará no seu Google! Um clique para dar preferência às notícias do Pará Adicionar No dia do título do Flamengo, Sport faz...",
+  "dominio": "diariodopara.com.br",
+  "fontes": [
    "Diário do Pará"
   ],
   "verificada": true,
@@ -438,12 +893,84 @@
  {
   "data": "2026-11-23",
   "veiculo": "Diário do Pará",
+  "titulo": "Jardim pode deixar o Flamengo após título, apesar do salário milionário",
+  "link": "https://diariodopara.com.br/bola/jardim-pode-deixar-o-flamengo-apos-titulo-apesar-do-salario-milionario",
+  "termos": [
+   "Unifesspa"
+  ],
+  "resumo": "Mais Diário do Pará no seu Google! Um clique para dar preferência às notícias do Pará Adicionar Mais Diário do Pará no seu Google! Um clique para dar preferência às notícias do Pará Adicionar Jardim pode deixar o Flamengo após título,...",
+  "dominio": "diariodopara.com.br",
+  "fontes": [
+   "Diário do Pará"
+  ],
+  "verificada": true,
+  "mencoes": 0,
+  "descartada": true,
+  "motivo": "O texto da matéria não cita a Unifesspa."
+ },
+ {
+  "data": "2026-11-23",
+  "veiculo": "Diário do Pará",
   "titulo": "INSS paga 13º salário até 7 de dezembro a quem passou a receber benefício após maio",
   "link": "https://diariodopara.com.br/seu-bolso/inss-comeca-a-pagar-13o-salario-nesta-terca-feira-24-veja-quem-recebe-e-o-calendario-completo-ate-dezembro",
   "termos": [
    "Unifesspa"
   ],
   "resumo": "Mais Diário do Pará no seu Google! Um clique para dar preferência às notícias do Pará Adicionar Mais Diário do Pará no seu Google! Um clique para dar preferência às notícias do Pará Adicionar Veja o resumo da notícia INSS começa a pagar o...",
+  "dominio": "diariodopara.com.br",
+  "fontes": [
+   "Diário do Pará"
+  ],
+  "verificada": true,
+  "mencoes": 0,
+  "descartada": true,
+  "motivo": "O texto da matéria não cita a Unifesspa."
+ },
+ {
+  "data": "2026-11-23",
+  "veiculo": "Diário do Pará",
+  "titulo": "INMET emite aviso vermelho de grande perigo para tempestades no Sul nesta terça (24)",
+  "link": "https://diariodopara.com.br/clima/inmet-aviso-vermelho-tempestades-sul-terca-feira",
+  "termos": [
+   "Unifesspa"
+  ],
+  "resumo": "Mais Diário do Pará no seu Google! Um clique para dar preferência às notícias do Pará Adicionar Mais Diário do Pará no seu Google! Um clique para dar preferência às notícias do Pará Adicionar Resumo INMET emitiu aviso vermelho, o nível...",
+  "dominio": "diariodopara.com.br",
+  "fontes": [
+   "Diário do Pará"
+  ],
+  "verificada": true,
+  "mencoes": 0,
+  "descartada": true,
+  "motivo": "O texto da matéria não cita a Unifesspa."
+ },
+ {
+  "data": "2026-11-23",
+  "veiculo": "Diário do Pará",
+  "titulo": "Horóscopo de 23/11/2026: o que os astros reservam para os 12 signos nesta segunda",
+  "link": "https://diariodopara.com.br/entretenimento/horoscopo-do-dia-previsao-12-signos-23-11-2026",
+  "termos": [
+   "Unifesspa"
+  ],
+  "resumo": "Mais Diário do Pará no seu Google! Um clique para dar preferência às notícias do Pará Adicionar Mais Diário do Pará no seu Google! Um clique para dar preferência às notícias do Pará Adicionar Resumo Posição planetária nesta segunda...",
+  "dominio": "diariodopara.com.br",
+  "fontes": [
+   "Diário do Pará"
+  ],
+  "verificada": true,
+  "mencoes": 0,
+  "descartada": true,
+  "motivo": "O texto da matéria não cita a Unifesspa."
+ },
+ {
+  "data": "2026-11-23",
+  "veiculo": "Diário do Pará",
+  "titulo": "Honda e Toyota convocam recall de 1,6 milhão de veículos por defeito em airbags da Takata",
+  "link": "https://diariodopara.com.br/cotidiano/honda-e-toyota-convocam-16-milhao-de-veiculos-para-recall-por-risco-de-explosao-de-airbags",
+  "termos": [
+   "Unifesspa"
+  ],
+  "resumo": "Mais Diário do Pará no seu Google! Um clique para dar preferência às notícias do Pará Adicionar Mais Diário do Pará no seu Google! Um clique para dar preferência às notícias do Pará Adicionar Honda e Toyota convocam 1,6 milhão de veículos...",
   "dominio": "diariodopara.com.br",
   "fontes": [
    "Diário do Pará"
@@ -511,6 +1038,42 @@
  {
   "data": "2026-11-23",
   "veiculo": "Diário do Pará",
+  "titulo": "FGTS em 2026: veja quem pode sacar todo o saldo e o que muda para quem aderiu ao saque-aniversário",
+  "link": "https://diariodopara.com.br/seu-bolso/fgts-pode-ser-sacado-integralmente-em-2026-veja-quem-tem-direito-e-como-retirar-todo-o-dinheiro",
+  "termos": [
+   "Unifesspa"
+  ],
+  "resumo": "Mais Diário do Pará no seu Google! Um clique para dar preferência às notícias do Pará Adicionar Mais Diário do Pará no seu Google! Um clique para dar preferência às notícias do Pará Adicionar Veja o resumo da notícia Trabalhadores podem...",
+  "dominio": "diariodopara.com.br",
+  "fontes": [
+   "Diário do Pará"
+  ],
+  "verificada": true,
+  "mencoes": 0,
+  "descartada": true,
+  "motivo": "O texto da matéria não cita a Unifesspa."
+ },
+ {
+  "data": "2026-11-23",
+  "veiculo": "Diário do Pará",
+  "titulo": "Estudante de Psicologia é investigada no Tocantins por vídeo com falas racistas no Dia da Consciência Negra",
+  "link": "https://diariodopara.com.br/cotidiano/estudante-de-psicologia-e-investigada-por-racismo-apos-video-publicado-no-dia-da-consciencia-negra",
+  "termos": [
+   "Unifesspa"
+  ],
+  "resumo": "Mais Diário do Pará no seu Google! Um clique para dar preferência às notícias do Pará Adicionar Mais Diário do Pará no seu Google! Um clique para dar preferência às notícias do Pará Adicionar Estudante de Psicologia é investigada por...",
+  "dominio": "diariodopara.com.br",
+  "fontes": [
+   "Diário do Pará"
+  ],
+  "verificada": true,
+  "mencoes": 0,
+  "descartada": true,
+  "motivo": "O texto da matéria não cita a Unifesspa."
+ },
+ {
+  "data": "2026-11-23",
+  "veiculo": "Diário do Pará",
   "titulo": "Equatorial anuncia desligamentos de energia em Ananindeua, Santa Izabel do Pará e Muaná",
   "link": "https://diariodopara.com.br/para/equatorial-anuncia-falta-de-energia-em-tres-municipios-do-para-a-partir-desta-segunda-23-veja-locais-ruas-e-horarios",
   "termos": [
@@ -531,6 +1094,42 @@
   "veiculo": "Diário do Pará",
   "titulo": "Entretenimento",
   "link": "https://diariodopara.com.br/entretenimento/page/1957",
+  "termos": [
+   "Unifesspa"
+  ],
+  "resumo": "",
+  "dominio": "diariodopara.com.br",
+  "fontes": [
+   "Diário do Pará"
+  ],
+  "verificada": true,
+  "mencoes": 0,
+  "descartada": true,
+  "motivo": "Não foi possível ler a matéria, e nem o título nem o resumo (o que a busca já trouxe) citam a Unifesspa."
+ },
+ {
+  "data": "2026-11-23",
+  "veiculo": "Diário do Pará",
+  "titulo": "Dona Onete, de 87 anos, volta a ser internada em Belém e faz exames no Hospital Beneficente Portuguesa",
+  "link": "https://diariodopara.com.br/entretenimento/dona-onete-e-internada-pela-3a-vez-em-2026-cantora-de-87-anos-ja-passou-por-cirurgia-e-uti",
+  "termos": [
+   "Unifesspa"
+  ],
+  "resumo": "Mais Diário do Pará no seu Google! Um clique para dar preferência às notícias do Pará Adicionar Mais Diário do Pará no seu Google! Um clique para dar preferência às notícias do Pará Adicionar Dona Onete é internada pela 3ª vez em 2026;...",
+  "dominio": "diariodopara.com.br",
+  "fontes": [
+   "Diário do Pará"
+  ],
+  "verificada": true,
+  "mencoes": 0,
+  "descartada": true,
+  "motivo": "O texto da matéria não cita a Unifesspa."
+ },
+ {
+  "data": "2026-11-23",
+  "veiculo": "Diário do Pará",
+  "titulo": "Cotidiano",
+  "link": "https://diariodopara.com.br/cotidiano/page/195",
   "termos": [
    "Unifesspa"
   ],
@@ -717,6 +1316,24 @@
    "Unifesspa"
   ],
   "resumo": "Mais Diário do Pará no seu Google! Um clique para dar preferência às notícias do Pará Adicionar Mais Diário do Pará no seu Google! Um clique para dar preferência às notícias do Pará Adicionar Resumo Miley Cyrus mora em mansão de US$ 7,9...",
+  "dominio": "diariodopara.com.br",
+  "fontes": [
+   "Diário do Pará"
+  ],
+  "verificada": true,
+  "mencoes": 0,
+  "descartada": true,
+  "motivo": "O texto da matéria não cita a Unifesspa."
+ },
+ {
+  "data": "2026-11-23",
+  "veiculo": "Diário do Pará",
+  "titulo": "Anvisa amplia uso do Botox e autoriza tratamento para aumento do músculo da mastigação",
+  "link": "https://diariodopara.com.br/entretenimento/toda/saber-viver/anvisa-libera-botox-para-reduzir-musculo-da-mastigacao-e-afinar-o-rosto-entenda",
+  "termos": [
+   "Unifesspa"
+  ],
+  "resumo": "Mais Diário do Pará no seu Google! Um clique para dar preferência às notícias do Pará Adicionar Mais Diário do Pará no seu Google! Um clique para dar preferência às notícias do Pará Adicionar Veja o resumo da notícia Anvisa autorizou nova...",
   "dominio": "diariodopara.com.br",
   "fontes": [
    "Diário do Pará"
@@ -1102,6 +1719,24 @@
  {
   "data": "2026-11-22",
   "veiculo": "Diário do Pará",
+  "titulo": "Horóscopo de hoje, 22 de novembro: veja o que muda para seu signo com a chegada do Sol a uma nova área",
+  "link": "https://diariodopara.com.br/entretenimento/horoscopo-de-hoje-22-de-novembro-de-2026-previsoes-para-todos-os-signos",
+  "termos": [
+   "Unifesspa"
+  ],
+  "resumo": "Mais Diário do Pará no seu Google! Um clique para dar preferência às notícias do Pará Adicionar Mais Diário do Pará no seu Google! Um clique para dar preferência às notícias do Pará Adicionar Horóscopo de hoje, 22 de novembro de 2026:...",
+  "dominio": "diariodopara.com.br",
+  "fontes": [
+   "Diário do Pará"
+  ],
+  "verificada": true,
+  "mencoes": 0,
+  "descartada": true,
+  "motivo": "O texto da matéria não cita a Unifesspa."
+ },
+ {
+  "data": "2026-11-22",
+  "veiculo": "Diário do Pará",
   "titulo": "Homem é morto a tiros dentro de casa em Salinópolis; polícia investiga suspeita de ligação com facção",
   "link": "https://diariodopara.com.br/policia/um-video-uma-suspeita-e-uma-execucao-o-crime-que-abalou-salinopolis",
   "termos": [
@@ -1281,6 +1916,79 @@
  {
   "data": "2026-11-21",
   "veiculo": "Diário do Pará",
+  "titulo": "Salário-maternidade pode deixar de exigir tempo mínimo de contribuição ao INSS",
+  "link": "https://diariodopara.com.br/concursos-e-empregos/salario-maternidade-pode-deixar-de-exigir-tempo-minimo-de-contribuicao-ao-inss",
+  "termos": [
+   "Unifesspa"
+  ],
+  "resumo": "Mais Diário do Pará no seu Google! Um clique para dar preferência às notícias do Pará Adicionar Mais Diário do Pará no seu Google! Um clique para dar preferência às notícias do Pará Adicionar Salário-maternidade pode deixar de exigir tempo...",
+  "dominio": "diariodopara.com.br",
+  "fontes": [
+   "Diário do Pará"
+  ],
+  "verificada": true,
+  "mencoes": 0,
+  "descartada": true,
+  "motivo": "O texto da matéria não cita a Unifesspa."
+ },
+ {
+  "data": "2026-11-21",
+  "veiculo": "Diário do Pará",
+  "titulo": "STJ mantém condenação de condomínio que liberou acesso sem autorização e teve apartamento furtado",
+  "link": "https://diariodopara.com.br/noticias/falha-na-portaria-e-furto-em-apartamento-o-que-diz-o-stj-e-como-alinhar-a-rotina-no-condominio",
+  "termos": [
+   "Unifesspa"
+  ],
+  "resumo": "Mais Diário do Pará no seu Google! Um clique para dar preferência às notícias do Pará Adicionar Mais Diário do Pará no seu Google! Um clique para dar preferência às notícias do Pará Adicionar Falha na portaria e furto em apartamento: o que...",
+  "dominio": "diariodopara.com.br",
+  "fontes": [
+   "Google",
+   "Diário do Pará"
+  ],
+  "verificada": true,
+  "mencoes": 0,
+  "descartada": true,
+  "motivo": "O texto da matéria não cita a Unifesspa."
+ },
+ {
+  "data": "2026-11-21",
+  "veiculo": "Diário do Pará",
+  "titulo": "Remo não aceita voltar ao avião e busca alternativa para chegar a Curitiba",
+  "link": "https://diariodopara.com.br/bola/remo-nao-aceita-voltar-ao-aviao-e-busca-alternativa-para-chegar-a-curitiba",
+  "termos": [
+   "Unifesspa"
+  ],
+  "resumo": "Mais Diário do Pará no seu Google! Um clique para dar preferência às notícias do Pará Adicionar Mais Diário do Pará no seu Google! Um clique para dar preferência às notícias do Pará Adicionar Remo não aceita voltar ao avião e busca...",
+  "dominio": "diariodopara.com.br",
+  "fontes": [
+   "Diário do Pará"
+  ],
+  "verificada": true,
+  "mencoes": 0,
+  "descartada": true,
+  "motivo": "O texto da matéria não cita a Unifesspa."
+ },
+ {
+  "data": "2026-11-21",
+  "veiculo": "Diário do Pará",
+  "titulo": "Real Madrid recebe o Celta no Bernabéu pela 13ª rodada do Espanhol; veja onde assistir",
+  "link": "https://diariodopara.com.br/bola/real-madrid-x-celta-de-vigo-onde-assistir-escalacoes",
+  "termos": [
+   "Unifesspa"
+  ],
+  "resumo": "Mais Diário do Pará no seu Google! Um clique para dar preferência às notícias do Pará Adicionar Mais Diário do Pará no seu Google! Um clique para dar preferência às notícias do Pará Adicionar Resumo Real Madrid e Celta de Vigo jogam neste...",
+  "dominio": "diariodopara.com.br",
+  "fontes": [
+   "Diário do Pará"
+  ],
+  "verificada": true,
+  "mencoes": 0,
+  "descartada": true,
+  "motivo": "O texto da matéria não cita a Unifesspa."
+ },
+ {
+  "data": "2026-11-21",
+  "veiculo": "Diário do Pará",
   "titulo": "Rafael chegou! Apresentadora Tati Machado anuncia nascimento de filho com Bruno Monteiro",
   "link": "https://diariodopara.com.br/entretenimento/tdb/rafael-chegou-apresentadora-tati-machado-anuncia-nascimento-de-filho-com-bruno-monteiro",
   "termos": [
@@ -1347,6 +2055,132 @@
  {
   "data": "2026-11-20",
   "veiculo": "Diário do Pará",
+  "titulo": "Viúva do pastor Daniel Dantas quebra o silêncio, confirma romance com Tiago Tomé e fala de provas",
+  "link": "https://diariodopara.com.br/entretenimento/tdb/viuva-do-pastor-daniel-dantas-assume-novo-romance-e-revela-ter-achado-provas-de-traicao-no-celular-do-marido",
+  "termos": [
+   "Unifesspa"
+  ],
+  "resumo": "Mais Diário do Pará no seu Google! Um clique para dar preferência às notícias do Pará Adicionar Mais Diário do Pará no seu Google! Um clique para dar preferência às notícias do Pará Adicionar Viúva do pastor Daniel Dantas assume novo...",
+  "dominio": "diariodopara.com.br",
+  "fontes": [
+   "Diário do Pará"
+  ],
+  "verificada": true,
+  "mencoes": 0,
+  "descartada": true,
+  "motivo": "O texto da matéria não cita a Unifesspa."
+ },
+ {
+  "data": "2026-11-20",
+  "veiculo": "Diário do Pará",
+  "titulo": "Três paraenses estão na lista vermelha da Interpol; veja quem são e como denunciar",
+  "link": "https://diariodopara.com.br/policia/tres-paraenses-estao-na-lista-vermelha-da-interpol-veja-quem-sao-e-como-denunciar",
+  "termos": [
+   "Unifesspa"
+  ],
+  "resumo": "Mais Diário do Pará no seu Google! Um clique para dar preferência às notícias do Pará Adicionar Mais Diário do Pará no seu Google! Um clique para dar preferência às notícias do Pará Adicionar Veja o resumo da notícia Três paraenses constam...",
+  "dominio": "diariodopara.com.br",
+  "fontes": [
+   "Diário do Pará"
+  ],
+  "verificada": true,
+  "mencoes": 0,
+  "descartada": true,
+  "motivo": "O texto da matéria não cita a Unifesspa."
+ },
+ {
+  "data": "2026-11-20",
+  "veiculo": "Diário do Pará",
+  "titulo": "Stênio Garcia, de 94 anos, diz ter passado mal após novos desdobramentos de disputa judicial com as filhas",
+  "link": "https://diariodopara.com.br/entretenimento/aos-94-anos-stenio-garcia-faz-desabafo-contra-as-filhas-agora-querem-me-matar",
+  "termos": [
+   "Unifesspa"
+  ],
+  "resumo": "Mais Diário do Pará no seu Google! Um clique para dar preferência às notícias do Pará Adicionar Mais Diário do Pará no seu Google! Um clique para dar preferência às notícias do Pará Adicionar Aos 94 anos, Stênio Garcia faz desabafo contra...",
+  "dominio": "diariodopara.com.br",
+  "fontes": [
+   "Diário do Pará"
+  ],
+  "verificada": true,
+  "mencoes": 0,
+  "descartada": true,
+  "motivo": "O texto da matéria não cita a Unifesspa."
+ },
+ {
+  "data": "2026-11-20",
+  "veiculo": "Diário do Pará",
+  "titulo": "Sobrinha de acionista das Pernambucanas vive há 25 anos na Clínica Maxwell, mostra série",
+  "link": "https://diariodopara.com.br/entretenimento/sobrinha-de-anita-harley-vive-internada-ha-25-anos-em-clinica-e-tem-ligacao-com-as-casas-pernambucanas",
+  "termos": [
+   "Unifesspa"
+  ],
+  "resumo": "Mais Diário do Pará no seu Google! Um clique para dar preferência às notícias do Pará Adicionar Mais Diário do Pará no seu Google! Um clique para dar preferência às notícias do Pará Adicionar Sobrinha de Anita Harley vive internada há 25...",
+  "dominio": "diariodopara.com.br",
+  "fontes": [
+   "Diário do Pará"
+  ],
+  "verificada": true,
+  "mencoes": 0,
+  "descartada": true,
+  "motivo": "O texto da matéria não cita a Unifesspa."
+ },
+ {
+  "data": "2026-11-20",
+  "veiculo": "Diário do Pará",
+  "titulo": "Resultado da Dia de Sorte 1352: os números do sorteio de R$ 1,7 milhões",
+  "link": "https://diariodopara.com.br/noticias/loterias/resultado-da-dia-de-sorte-1352-os-numeros-do-sorteio-de-r-17-milhoes",
+  "termos": [
+   "Unifesspa"
+  ],
+  "resumo": "Mais Diário do Pará no seu Google! Um clique para dar preferência às notícias do Pará Adicionar Mais Diário do Pará no seu Google! Um clique para dar preferência às notícias do Pará Adicionar Resultado da Dia de Sorte 1352: os números do...",
+  "dominio": "diariodopara.com.br",
+  "fontes": [
+   "Diário do Pará"
+  ],
+  "verificada": true,
+  "mencoes": 0,
+  "descartada": true,
+  "motivo": "O texto da matéria não cita a Unifesspa."
+ },
+ {
+  "data": "2026-11-20",
+  "veiculo": "Diário do Pará",
+  "titulo": "Remo prepara complexo milionário com academia, alojamento e três campos",
+  "link": "https://diariodopara.com.br/bola/novo-ct-do-remo-ganha-forma-veja-o-que-o-clube-esta-preparando",
+  "termos": [
+   "Unifesspa"
+  ],
+  "resumo": "Mais Diário do Pará no seu Google! Um clique para dar preferência às notícias do Pará Adicionar Mais Diário do Pará no seu Google! Um clique para dar preferência às notícias do Pará Adicionar Veja o resumo da notícia Centro de Treinamento...",
+  "dominio": "diariodopara.com.br",
+  "fontes": [
+   "Diário do Pará"
+  ],
+  "verificada": true,
+  "mencoes": 0,
+  "descartada": true,
+  "motivo": "O texto da matéria não cita a Unifesspa."
+ },
+ {
+  "data": "2026-11-20",
+  "veiculo": "Diário do Pará",
+  "titulo": "Quem é Miguel Karton? Ele orientava aposentados na TV e acabou preso",
+  "link": "https://diariodopara.com.br/policia/quem-e-miguel-karton-ele-orientava-aposentados-na-tv-e-acabou-preso",
+  "termos": [
+   "Unifesspa"
+  ],
+  "resumo": "Mais Diário do Pará no seu Google! Um clique para dar preferência às notícias do Pará Adicionar Mais Diário do Pará no seu Google! Um clique para dar preferência às notícias do Pará Adicionar Veja o resumo da notícia Advogado e...",
+  "dominio": "diariodopara.com.br",
+  "fontes": [
+   "Diário do Pará"
+  ],
+  "verificada": true,
+  "mencoes": 0,
+  "descartada": true,
+  "motivo": "O texto da matéria não cita a Unifesspa."
+ },
+ {
+  "data": "2026-11-20",
+  "veiculo": "Diário do Pará",
   "titulo": "Paraná Clube e Athletico decidem título da Copa Paraná na Vila Capanema; onde assistir",
   "link": "https://diariodopara.com.br/ao-vivo/parana-clube-e-athletico-decidem-titulo-da-copa-parana-na-vila-capanema-onde-assistir",
   "termos": [
@@ -1365,12 +2199,66 @@
  {
   "data": "2026-11-20",
   "veiculo": "Diário do Pará",
+  "titulo": "Neymar é provocado com música \"Alô Virginia\" em jogo do Santos contra o Coritiba",
+  "link": "https://diariodopara.com.br/entretenimento/neymar-comenta-provocacao-com-musica-de-virginia-antes-de-jogo-do-santos",
+  "termos": [
+   "Unifesspa"
+  ],
+  "resumo": "Mais Diário do Pará no seu Google! Um clique para dar preferência às notícias do Pará Adicionar Mais Diário do Pará no seu Google! Um clique para dar preferência às notícias do Pará Adicionar Neymar comenta provocação com música de...",
+  "dominio": "diariodopara.com.br",
+  "fontes": [
+   "Diário do Pará"
+  ],
+  "verificada": true,
+  "mencoes": 0,
+  "descartada": true,
+  "motivo": "O texto da matéria não cita a Unifesspa."
+ },
+ {
+  "data": "2026-11-20",
+  "veiculo": "Diário do Pará",
+  "titulo": "Motorista flagra homem escondido em ônibus Geladão no Tapanã, em Belém, e evita suposto furto",
+  "link": "https://diariodopara.com.br/belem/meu-heroi-dirige-um-geladao-motorista-surpreende-homem-escondido-em-onibus-e-impede-furto-de-renda-veja",
+  "termos": [
+   "Unifesspa"
+  ],
+  "resumo": "Mais Diário do Pará no seu Google! Um clique para dar preferência às notícias do Pará Adicionar Mais Diário do Pará no seu Google! Um clique para dar preferência às notícias do Pará Adicionar Veja o resumo da notícia Motorista de ônibus de...",
+  "dominio": "diariodopara.com.br",
+  "fontes": [
+   "Diário do Pará"
+  ],
+  "verificada": true,
+  "mencoes": 0,
+  "descartada": true,
+  "motivo": "O texto da matéria não cita a Unifesspa."
+ },
+ {
+  "data": "2026-11-20",
+  "veiculo": "Diário do Pará",
   "titulo": "Matheus Rocha: Quem matou o rapaz? O que acontece agora?",
   "link": "https://diariodopara.com.br/policia/caso-matheus-rocha-quem-matou-o-rapaz-o-que-acontece-agora-quais-os-desdobramentos-familia-cobra-respostas",
   "termos": [
    "Unifesspa"
   ],
   "resumo": "Mais Diário do Pará no seu Google! Um clique para dar preferência às notícias do Pará Adicionar Mais Diário do Pará no seu Google! Um clique para dar preferência às notícias do Pará Adicionar Caso Matheus Rocha: Quem matou o rapaz? O que...",
+  "dominio": "diariodopara.com.br",
+  "fontes": [
+   "Diário do Pará"
+  ],
+  "verificada": true,
+  "mencoes": 0,
+  "descartada": true,
+  "motivo": "O texto da matéria não cita a Unifesspa."
+ },
+ {
+  "data": "2026-11-20",
+  "veiculo": "Diário do Pará",
+  "titulo": "Gaby Amarantos vai interpretar Alcione jovem em cinebiografia da cantora",
+  "link": "https://diariodopara.com.br/entretenimento/gaby-amarantos-dara-vida-a-alcione-nos-cinemas-e-anuncia-novidade-sobre-cinebiografia-da-cantora",
+  "termos": [
+   "Unifesspa"
+  ],
+  "resumo": "Mais Diário do Pará no seu Google! Um clique para dar preferência às notícias do Pará Adicionar Mais Diário do Pará no seu Google! Um clique para dar preferência às notícias do Pará Adicionar Gaby Amarantos dará vida a Alcione nos cinemas...",
   "dominio": "diariodopara.com.br",
   "fontes": [
    "Diário do Pará"
@@ -1443,6 +2331,25 @@
    "Unifesspa"
   ],
   "resumo": "Mais Diário do Pará no seu Google! Um clique para dar preferência às notícias do Pará Adicionar Mais Diário do Pará no seu Google! Um clique para dar preferência às notícias do Pará Adicionar Mansão que pertenceu a Silvio Santos está à...",
+  "dominio": "diariodopara.com.br",
+  "fontes": [
+   "Google",
+   "Diário do Pará"
+  ],
+  "verificada": true,
+  "mencoes": 0,
+  "descartada": true,
+  "motivo": "O texto da matéria não cita a Unifesspa."
+ },
+ {
+  "data": "2026-11-20",
+  "veiculo": "Diário do Pará",
+  "titulo": "Al-Ahli x Al-Nassr ao vivo e com imagens: Cristiano Ronaldo mira o milésimo gol da carreira em Jidá",
+  "link": "https://diariodopara.com.br/ao-vivo/al-ahli-al-nassr-cr7-milesimo-gol-onde-assistir",
+  "termos": [
+   "Unifesspa"
+  ],
+  "resumo": "Mais Diário do Pará no seu Google! Um clique para dar preferência às notícias do Pará Adicionar Mais Diário do Pará no seu Google! Um clique para dar preferência às notícias do Pará Adicionar Resumo Al-Ahli enfrenta o Al-Nassr nesta...",
   "dominio": "diariodopara.com.br",
   "fontes": [
    "Google",
@@ -1744,6 +2651,24 @@
  {
   "data": "2026-11-19",
   "veiculo": "Diário do Pará",
+  "titulo": "Árvore centenária é cortada em Algodoal e moradores questionam obra em área de preservação",
+  "link": "https://diariodopara.com.br/para/arvore-centenaria-e-cortada-em-algodoal-e-moradores-questionam-obra-em-area-de-preservacao",
+  "termos": [
+   "Unifesspa"
+  ],
+  "resumo": "Mais Diário do Pará no seu Google! Um clique para dar preferência às notícias do Pará Adicionar Mais Diário do Pará no seu Google! Um clique para dar preferência às notícias do Pará Adicionar Veja o resumo da notícia Corte de árvore...",
+  "dominio": "diariodopara.com.br",
+  "fontes": [
+   "Diário do Pará"
+  ],
+  "verificada": true,
+  "mencoes": 0,
+  "descartada": true,
+  "motivo": "O texto da matéria não cita a Unifesspa."
+ },
+ {
+  "data": "2026-11-19",
+  "veiculo": "Diário do Pará",
   "titulo": "Vulnerabilidade: SUS libera acesso simplificado a consultas psicológicas gratuitas pela internet; veja como solicitar",
   "link": "https://diariodopara.com.br/noticias/vulnerabilidade-sus-libera-acesso-simplificado-a-consultas-psicologicas-gratuitas-pela-internet-veja-como-solicitar",
   "termos": [
@@ -1762,12 +2687,48 @@
  {
   "data": "2026-11-19",
   "veiculo": "Diário do Pará",
+  "titulo": "Vereador Zezinho Lima publica retratação por ordem da Justiça e vídeo gera reações nas redes",
+  "link": "https://diariodopara.com.br/belem/tem-que-ler-pra-nao-falar-besteira-internautas-reagem-a-retratacao-de-vereador",
+  "termos": [
+   "Unifesspa"
+  ],
+  "resumo": "Mais Diário do Pará no seu Google! Um clique para dar preferência às notícias do Pará Adicionar Mais Diário do Pará no seu Google! Um clique para dar preferência às notícias do Pará Adicionar Veja o resumo da notícia Vereador de Belém...",
+  "dominio": "diariodopara.com.br",
+  "fontes": [
+   "Diário do Pará"
+  ],
+  "verificada": true,
+  "mencoes": 0,
+  "descartada": true,
+  "motivo": "O texto da matéria não cita a Unifesspa."
+ },
+ {
+  "data": "2026-11-19",
+  "veiculo": "Diário do Pará",
   "titulo": "Vale-gás deixa de ser dinheiro e passa a garantir recarga gratuita do botijão em 2026",
   "link": "https://diariodopara.com.br/seu-bolso/vale-gas-em-2026-veja-o-que-mudou-quem-tem-direito-e-como-conseguir-a-recarga-gratuita",
   "termos": [
    "Unifesspa"
   ],
   "resumo": "Mais Diário do Pará no seu Google! Um clique para dar preferência às notícias do Pará Adicionar Mais Diário do Pará no seu Google! Um clique para dar preferência às notícias do Pará Adicionar Veja o resumo da notícia Vale-gás passou a...",
+  "dominio": "diariodopara.com.br",
+  "fontes": [
+   "Diário do Pará"
+  ],
+  "verificada": true,
+  "mencoes": 0,
+  "descartada": true,
+  "motivo": "O texto da matéria não cita a Unifesspa."
+ },
+ {
+  "data": "2026-11-19",
+  "veiculo": "Diário do Pará",
+  "titulo": "Polícia contesta relato de agressão antes da morte do ator Alexander Haskin em Santa Monica",
+  "link": "https://diariodopara.com.br/entretenimento/ator-de-you-morre-aos-38-anos-apos-cair-no-mar-policia-desmente-relato-de-agressao-contra-mulher",
+  "termos": [
+   "Unifesspa"
+  ],
+  "resumo": "Mais Diário do Pará no seu Google! Um clique para dar preferência às notícias do Pará Adicionar Mais Diário do Pará no seu Google! Um clique para dar preferência às notícias do Pará Adicionar Veja o resumo da notícia Ator Alexander Haskin,...",
   "dominio": "diariodopara.com.br",
   "fontes": [
    "Diário do Pará"
@@ -1816,12 +2777,66 @@
  {
   "data": "2026-11-19",
   "veiculo": "Diário do Pará",
+  "titulo": "Megyn Kelly não poupa Leonardo DiCaprio: “Gordo, inchado e nojento”",
+  "link": "https://diariodopara.com.br/entretenimento/leonardo-dicaprio-e-chamado-de-gordo-inchado-desleixado-e-nojento-por-jornalista",
+  "termos": [
+   "Unifesspa"
+  ],
+  "resumo": "Mais Diário do Pará no seu Google! Um clique para dar preferência às notícias do Pará Adicionar Mais Diário do Pará no seu Google! Um clique para dar preferência às notícias do Pará Adicionar Leonardo DiCaprio é chamado de “gordo, inchado,...",
+  "dominio": "diariodopara.com.br",
+  "fontes": [
+   "Diário do Pará"
+  ],
+  "verificada": true,
+  "mencoes": 0,
+  "descartada": true,
+  "motivo": "O texto da matéria não cita a Unifesspa."
+ },
+ {
+  "data": "2026-11-19",
+  "veiculo": "Diário do Pará",
   "titulo": "Homem simula o próprio sequestro para pedir R$ 7 mil à esposa e é preso em Duque de Caxias",
   "link": "https://diariodopara.com.br/policia/homem-simula-proprio-sequestro-exige-r-7-mil-da-esposa-e-acaba-preso-apos-extorsao",
   "termos": [
    "Unifesspa"
   ],
   "resumo": "Mais Diário do Pará no seu Google! Um clique para dar preferência às notícias do Pará Adicionar Mais Diário do Pará no seu Google! Um clique para dar preferência às notícias do Pará Adicionar Veja o resumo da notícia Homem foi preso em...",
+  "dominio": "diariodopara.com.br",
+  "fontes": [
+   "Diário do Pará"
+  ],
+  "verificada": true,
+  "mencoes": 0,
+  "descartada": true,
+  "motivo": "O texto da matéria não cita a Unifesspa."
+ },
+ {
+  "data": "2026-11-19",
+  "veiculo": "Diário do Pará",
+  "titulo": "Desembargadora chora ao condenar ataques contra Júlia Zanatta em Ibiza: \"Indigno\"",
+  "link": "https://diariodopara.com.br/noticias/brasil/desembargadora-chora-ao-condenar-ataques-contra-julia-zanatta-em-ibiza-indigno",
+  "termos": [
+   "Unifesspa"
+  ],
+  "resumo": "Mais Diário do Pará no seu Google! Um clique para dar preferência às notícias do Pará Adicionar Mais Diário do Pará no seu Google! Um clique para dar preferência às notícias do Pará Adicionar Veja o resumo da notícia Desembargadora Luiza...",
+  "dominio": "diariodopara.com.br",
+  "fontes": [
+   "Diário do Pará"
+  ],
+  "verificada": true,
+  "mencoes": 0,
+  "descartada": true,
+  "motivo": "O texto da matéria não cita a Unifesspa."
+ },
+ {
+  "data": "2026-11-19",
+  "veiculo": "Diário do Pará",
+  "titulo": "Canetas antiobesidade podem ajudar quem recuperou peso após cirurgia bariátrica? Veja quem pode usar",
+  "link": "https://diariodopara.com.br/noticias/brasil/canetas-antiobesidade-complementar-tratamento-apos-bariatrica",
+  "termos": [
+   "Unifesspa"
+  ],
+  "resumo": "Mais Diário do Pará no seu Google! Um clique para dar preferência às notícias do Pará Adicionar Mais Diário do Pará no seu Google! Um clique para dar preferência às notícias do Pará Adicionar Resumo Entre 20% e 30% dos pacientes...",
   "dominio": "diariodopara.com.br",
   "fontes": [
    "Diário do Pará"
@@ -1858,6 +2873,24 @@
    "Unifesspa"
   ],
   "resumo": "Mais Diário do Pará no seu Google! Um clique para dar preferência às notícias do Pará Adicionar Mais Diário do Pará no seu Google! Um clique para dar preferência às notícias do Pará Adicionar Bruno Mars anuncia morte do pai e faz homenagem...",
+  "dominio": "diariodopara.com.br",
+  "fontes": [
+   "Diário do Pará"
+  ],
+  "verificada": true,
+  "mencoes": 0,
+  "descartada": true,
+  "motivo": "O texto da matéria não cita a Unifesspa."
+ },
+ {
+  "data": "2026-11-19",
+  "veiculo": "Diário do Pará",
+  "titulo": "Banco do Brasil confirma que terceiros acessaram dados de clientes e orienta como evitar golpes",
+  "link": "https://diariodopara.com.br/noticias/brasil/banco-do-brasil-confirma-vazamento-saiba-se-seus-dados-podem-estar-expostos",
+  "termos": [
+   "Unifesspa"
+  ],
+  "resumo": "Mais Diário do Pará no seu Google! Um clique para dar preferência às notícias do Pará Adicionar Mais Diário do Pará no seu Google! Um clique para dar preferência às notícias do Pará Adicionar Veja o resumo da notícia Banco do Brasil...",
   "dominio": "diariodopara.com.br",
   "fontes": [
    "Diário do Pará"
@@ -2047,12 +3080,84 @@
  {
   "data": "2026-11-18",
   "veiculo": "Diário do Pará",
+  "titulo": "Thelma Assis completa 42 anos e vive em casa com piscina aquecida, lareira e academia",
+  "link": "https://diariodopara.com.br/entretenimento/aos-42-anos-thelma-assis-vive-em-casa-com-piscina-aquecida-lareira-e-jardim-de-inverno",
+  "termos": [
+   "Unifesspa"
+  ],
+  "resumo": "Mais Diário do Pará no seu Google! Um clique para dar preferência às notícias do Pará Adicionar Mais Diário do Pará no seu Google! Um clique para dar preferência às notícias do Pará Adicionar Aos 42 anos, Thelma Assis vive em casa com...",
+  "dominio": "diariodopara.com.br",
+  "fontes": [
+   "Diário do Pará"
+  ],
+  "verificada": true,
+  "mencoes": 0,
+  "descartada": true,
+  "motivo": "O texto da matéria não cita a Unifesspa."
+ },
+ {
+  "data": "2026-11-18",
+  "veiculo": "Diário do Pará",
+  "titulo": "Tem conta no Nubank? Banco Central aprova mudança e veja o que acontece agora",
+  "link": "https://diariodopara.com.br/seu-bolso/nubank-vai-virar-banco-de-verdade-no-brasil-apos-decisao-do-banco-central",
+  "termos": [
+   "Unifesspa"
+  ],
+  "resumo": "Mais Diário do Pará no seu Google! Um clique para dar preferência às notícias do Pará Adicionar Mais Diário do Pará no seu Google! Um clique para dar preferência às notícias do Pará Adicionar Veja o resumo da notícia Nubank recebe...",
+  "dominio": "diariodopara.com.br",
+  "fontes": [
+   "Diário do Pará"
+  ],
+  "verificada": true,
+  "mencoes": 0,
+  "descartada": true,
+  "motivo": "O texto da matéria não cita a Unifesspa."
+ },
+ {
+  "data": "2026-11-18",
+  "veiculo": "Diário do Pará",
   "titulo": "Rede de supermercados abre seleção em Belém para 17 funções, entre caixa, açougueiro e repositor",
   "link": "https://diariodopara.com.br/concursos-e-empregos/preco-baixo-abre-selecao-para-17-funcoes-em-belem-veja-cargos-e-como-se-candidatar",
   "termos": [
    "Unifesspa"
   ],
   "resumo": "Mais Diário do Pará no seu Google! Um clique para dar preferência às notícias do Pará Adicionar Mais Diário do Pará no seu Google! Um clique para dar preferência às notícias do Pará Adicionar Veja o resumo da notícia Rede Preço Baixo...",
+  "dominio": "diariodopara.com.br",
+  "fontes": [
+   "Diário do Pará"
+  ],
+  "verificada": true,
+  "mencoes": 0,
+  "descartada": true,
+  "motivo": "O texto da matéria não cita a Unifesspa."
+ },
+ {
+  "data": "2026-11-18",
+  "veiculo": "Diário do Pará",
+  "titulo": "R$ 60 milhões em jogo! Quina Friday terá regra diferente dos sorteios comuns",
+  "link": "https://diariodopara.com.br/noticias/loterias/quina-friday-sorteio-especial-60-milhoes-quando-vai-ser",
+  "termos": [
+   "Unifesspa"
+  ],
+  "resumo": "Mais Diário do Pará no seu Google! Um clique para dar preferência às notícias do Pará Adicionar Mais Diário do Pará no seu Google! Um clique para dar preferência às notícias do Pará Adicionar Resumo Concurso 7173 da Quina Friday terá...",
+  "dominio": "diariodopara.com.br",
+  "fontes": [
+   "Diário do Pará"
+  ],
+  "verificada": true,
+  "mencoes": 0,
+  "descartada": true,
+  "motivo": "O texto da matéria não cita a Unifesspa."
+ },
+ {
+  "data": "2026-11-18",
+  "veiculo": "Diário do Pará",
+  "titulo": "Pará: prefeitura oferece oportunidades com salários de R$ 1,6 mil a R$ 4,2 mil",
+  "link": "https://diariodopara.com.br/concursos-e-empregos/trairao-abre-processos-seletivos-com-salarios-de-ate-r-42-mil-veja-como-participar",
+  "termos": [
+   "Unifesspa"
+  ],
+  "resumo": "Mais Diário do Pará no seu Google! Um clique para dar preferência às notícias do Pará Adicionar Mais Diário do Pará no seu Google! Um clique para dar preferência às notícias do Pará Adicionar Veja o resumo da notícia Prefeitura de Trairão...",
   "dominio": "diariodopara.com.br",
   "fontes": [
    "Diário do Pará"
@@ -2101,12 +3206,120 @@
  {
   "data": "2026-11-18",
   "veiculo": "Diário do Pará",
+  "titulo": "Lembra do cantor de “Feelings”? Morris Albert vive longe dos holofotes na Itália aos 75 anos",
+  "link": "https://diariodopara.com.br/noticias/lembra-de-morris-albert-cantor-de-feelings-vive-discretamente-na-italia-aos-75-anos",
+  "termos": [
+   "Unifesspa"
+  ],
+  "resumo": "Mais Diário do Pará no seu Google! Um clique para dar preferência às notícias do Pará Adicionar Mais Diário do Pará no seu Google! Um clique para dar preferência às notícias do Pará Adicionar Lembra de Morris Albert? Cantor de “Feelings”...",
+  "dominio": "diariodopara.com.br",
+  "fontes": [
+   "Diário do Pará"
+  ],
+  "verificada": true,
+  "mencoes": 0,
+  "descartada": true,
+  "motivo": "O texto da matéria não cita a Unifesspa."
+ },
+ {
+  "data": "2026-11-18",
+  "veiculo": "Diário do Pará",
   "titulo": "Hossam Hassan é demitido da seleção do Egito após polêmicas e Ali Maher assume o cargo",
   "link": "https://diariodopara.com.br/bola/tecnico-do-egito-e-demitido-apos-escandalo-envolvendo-briga-entre-suas-duas-esposas-entenda-o-caso",
   "termos": [
    "Unifesspa"
   ],
   "resumo": "Mais Diário do Pará no seu Google! Um clique para dar preferência às notícias do Pará Adicionar Mais Diário do Pará no seu Google! Um clique para dar preferência às notícias do Pará Adicionar Veja o resumo da notícia Hossam Hassan é...",
+  "dominio": "diariodopara.com.br",
+  "fontes": [
+   "Diário do Pará"
+  ],
+  "verificada": true,
+  "mencoes": 0,
+  "descartada": true,
+  "motivo": "O texto da matéria não cita a Unifesspa."
+ },
+ {
+  "data": "2026-11-18",
+  "veiculo": "Diário do Pará",
+  "titulo": "Ex-jogadora da Seleção Gabi Morais é presa em Fortaleza em operação contra facção criminosa",
+  "link": "https://diariodopara.com.br/noticias/brasil/ex-jogadora-da-selecao-gabi-morais-e-presa-em-operacao-contra-o-comando-vermelho",
+  "termos": [
+   "Unifesspa"
+  ],
+  "resumo": "Mais Diário do Pará no seu Google! Um clique para dar preferência às notícias do Pará Adicionar Mais Diário do Pará no seu Google! Um clique para dar preferência às notícias do Pará Adicionar Veja o resumo da notícia Ex-jogadora da Seleção...",
+  "dominio": "diariodopara.com.br",
+  "fontes": [
+   "Diário do Pará"
+  ],
+  "verificada": true,
+  "mencoes": 0,
+  "descartada": true,
+  "motivo": "O texto da matéria não cita a Unifesspa."
+ },
+ {
+  "data": "2026-11-18",
+  "veiculo": "Diário do Pará",
+  "titulo": "Ex-funcionária de hotel alerta sobre copos, cafeteiras e colchas em vídeo que passou de 6 milhões de views",
+  "link": "https://diariodopara.com.br/noticias/mundo/xixi-na-cafeteira-vomito-no-cooler-e-coco-no-chuveiro-ex-funcionaria-de-hotel-revela-habitos-nojentos-de-hospedes-e-faz-alerta",
+  "termos": [
+   "Unifesspa"
+  ],
+  "resumo": "Mais Diário do Pará no seu Google! Um clique para dar preferência às notícias do Pará Adicionar Mais Diário do Pará no seu Google! Um clique para dar preferência às notícias do Pará Adicionar Veja o resumo da notícia Ex-funcionária de...",
+  "dominio": "diariodopara.com.br",
+  "fontes": [
+   "Diário do Pará"
+  ],
+  "verificada": true,
+  "mencoes": 0,
+  "descartada": true,
+  "motivo": "O texto da matéria não cita a Unifesspa."
+ },
+ {
+  "data": "2026-11-18",
+  "veiculo": "Diário do Pará",
+  "titulo": "Edir Macedo aporta R$ 1,714 bilhão no Digimais, banco com prejuízo de R$ 581,4 milhões e alvo da PF",
+  "link": "https://diariodopara.com.br/noticias/edir-macedo-injeta-r-17-bi-para-tentar-salvar-banco-apos-prejuizo-de-r-581-mi-pf-investiga-fraude",
+  "termos": [
+   "Unifesspa"
+  ],
+  "resumo": "Mais Diário do Pará no seu Google! Um clique para dar preferência às notícias do Pará Adicionar Mais Diário do Pará no seu Google! Um clique para dar preferência às notícias do Pará Adicionar Veja o resumo da notícia Edir Macedo destinou...",
+  "dominio": "diariodopara.com.br",
+  "fontes": [
+   "Diário do Pará"
+  ],
+  "verificada": true,
+  "mencoes": 0,
+  "descartada": true,
+  "motivo": "O texto da matéria não cita a Unifesspa."
+ },
+ {
+  "data": "2026-11-18",
+  "veiculo": "Diário do Pará",
+  "titulo": "Crise na Timbalada: Ex-cantores detonam bastidores e climão entre atuais vocalistas vem à tona",
+  "link": "https://diariodopara.com.br/entretenimento/crise-na-timbalada-ex-cantores-detonam-bastidores-e-climao-entre-atuais-vocalistas-vem-a-tona",
+  "termos": [
+   "Unifesspa"
+  ],
+  "resumo": "Mais Diário do Pará no seu Google! Um clique para dar preferência às notícias do Pará Adicionar Mais Diário do Pará no seu Google! Um clique para dar preferência às notícias do Pará Adicionar Crise na Timbalada: Ex-cantores detonam...",
+  "dominio": "diariodopara.com.br",
+  "fontes": [
+   "Diário do Pará"
+  ],
+  "verificada": true,
+  "mencoes": 0,
+  "descartada": true,
+  "motivo": "O texto da matéria não cita a Unifesspa."
+ },
+ {
+  "data": "2026-11-18",
+  "veiculo": "Diário do Pará",
+  "titulo": "Corinthians e Botafogo duelam na Neo Química Arena pela sobrevivência no Brasileirão",
+  "link": "https://diariodopara.com.br/ao-vivo/corinthians-x-botafogo-onde-assistir-brasileirao",
+  "termos": [
+   "Unifesspa"
+  ],
+  "resumo": "Mais Diário do Pará no seu Google! Um clique para dar preferência às notícias do Pará Adicionar Mais Diário do Pará no seu Google! Um clique para dar preferência às notícias do Pará Adicionar Resumo Corinthians e Botafogo se enfrentam...",
   "dominio": "diariodopara.com.br",
   "fontes": [
    "Diário do Pará"
@@ -2435,12 +3648,84 @@
  {
   "data": "2026-11-17",
   "veiculo": "Diário do Pará",
+  "titulo": "Senado aprova pena de seis a dez anos para motorista que mata sob efeito de álcool, drogas ou remédios",
+  "link": "https://diariodopara.com.br/noticias/ccj-do-senado-aprova-pena-de-ate-10-anos-para-motorista-que-mata-sob-efeito-de-alcool",
+  "termos": [
+   "Unifesspa"
+  ],
+  "resumo": "Mais Diário do Pará no seu Google! Um clique para dar preferência às notícias do Pará Adicionar Mais Diário do Pará no seu Google! Um clique para dar preferência às notícias do Pará Adicionar Veja o resumo da notícia CCJ do Senado aprova...",
+  "dominio": "diariodopara.com.br",
+  "fontes": [
+   "Diário do Pará"
+  ],
+  "verificada": true,
+  "mencoes": 0,
+  "descartada": true,
+  "motivo": "O texto da matéria não cita a Unifesspa."
+ },
+ {
+  "data": "2026-11-17",
+  "veiculo": "Diário do Pará",
+  "titulo": "Mega-Sena de R$ 34 milhões compra 2 mil anos de Mounjaro, 309 BYD e 7 mil geladeiras",
+  "link": "https://diariodopara.com.br/noticias/loterias/mega-sena-de-r-34-milhoes-compra-2-mil-anos-de-mounjaro-309-byd-e-7-mil-geladeiras",
+  "termos": [
+   "Unifesspa"
+  ],
+  "resumo": "Mais Diário do Pará no seu Google! Um clique para dar preferência às notícias do Pará Adicionar Mais Diário do Pará no seu Google! Um clique para dar preferência às notícias do Pará Adicionar Mega-Sena de R$ 34 milhões compra 2 mil anos de...",
+  "dominio": "diariodopara.com.br",
+  "fontes": [
+   "Diário do Pará"
+  ],
+  "verificada": true,
+  "mencoes": 0,
+  "descartada": true,
+  "motivo": "O texto da matéria não cita a Unifesspa."
+ },
+ {
+  "data": "2026-11-17",
+  "veiculo": "Diário do Pará",
+  "titulo": "Inscrições para o concurso da Câmara terminam nesta terça (17), às 18h, com salário de R$ 32 mil",
+  "link": "https://diariodopara.com.br/concursos-e-empregos/inscricoes-para-concurso-da-camara-dos-deputados-terminam-nesta-terca-feira",
+  "termos": [
+   "Unifesspa"
+  ],
+  "resumo": "Mais Diário do Pará no seu Google! Um clique para dar preferência às notícias do Pará Adicionar Mais Diário do Pará no seu Google! Um clique para dar preferência às notícias do Pará Adicionar Veja o resumo da notícia Inscrições para o...",
+  "dominio": "diariodopara.com.br",
+  "fontes": [
+   "Diário do Pará"
+  ],
+  "verificada": true,
+  "mencoes": 0,
+  "descartada": true,
+  "motivo": "O texto da matéria não cita a Unifesspa."
+ },
+ {
+  "data": "2026-11-17",
+  "veiculo": "Diário do Pará",
   "titulo": "Gêmeos do Vou Zuar são presos em flagrante em MG suspeitos de estuprar mulher após show",
   "link": "https://diariodopara.com.br/noticias/brasil/quem-sao-os-gemeos-pagodeiros-presos-suspeitos-de-estuprar-mulher-em-hotel-apos-show-2",
   "termos": [
    "Unifesspa"
   ],
   "resumo": "Mais Diário do Pará no seu Google! Um clique para dar preferência às notícias do Pará Adicionar Mais Diário do Pará no seu Google! Um clique para dar preferência às notícias do Pará Adicionar Veja o resumo da notícia Irmãos gêmeos do grupo...",
+  "dominio": "diariodopara.com.br",
+  "fontes": [
+   "Diário do Pará"
+  ],
+  "verificada": true,
+  "mencoes": 0,
+  "descartada": true,
+  "motivo": "O texto da matéria não cita a Unifesspa."
+ },
+ {
+  "data": "2026-11-17",
+  "veiculo": "Diário do Pará",
+  "titulo": "Carrefour abre mais de 90 hipermercados por 90 horas seguidas e reúne 5 mil produtos em promoção",
+  "link": "https://diariodopara.com.br/seu-bolso/black-friday-carrefour-e-atacadao-anunciam-mais-de-5-mil-ofertas-e-lojas-abertas-por-90-horas-seguidas-confira-as-oportunidades",
+  "termos": [
+   "Unifesspa"
+  ],
+  "resumo": "Mais Diário do Pará no seu Google! Um clique para dar preferência às notícias do Pará Adicionar Mais Diário do Pará no seu Google! Um clique para dar preferência às notícias do Pará Adicionar Veja o resumo da notícia Carrefour fará...",
   "dominio": "diariodopara.com.br",
   "fontes": [
    "Diário do Pará"
