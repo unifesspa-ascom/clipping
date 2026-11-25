@@ -1,5 +1,40 @@
 [
  {
+  "data": "2026-11-25",
+  "veiculo": "seeklogo.com",
+  "titulo": "Universidade Federal do Sul e Sudeste do Pará Logo PNG Vector - Seeklogo",
+  "link": "https://seeklogo.com/vector-logo/386428/universidade-federal-do-sul-e-sudeste-do-para",
+  "termos": [
+   "Unifesspa",
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "resumo": "Information:do Pará UNIFESSPA ; Website: unifesspa .edu.br. Share. Post. Save. Type:Brand; PNG:2000x646px; Vector:AI. 102 Times Downloaded. Download Logo.",
+  "dominio": "seeklogo.com",
+  "fontes": [
+   "Alerta do Google"
+  ],
+  "verificada": true,
+  "mencoes": 6
+ },
+ {
+  "data": "2026-11-25",
+  "veiculo": "Portal Amazônia",
+  "titulo": "Parceria cria rede de pesquisa inédita para mapear saúde de 8 mil trabalhadores na Amazônia",
+  "link": "https://portalamazonia.com/educacao/rede-pesquisa-saude-amazonia",
+  "termos": [
+   "Unifesspa",
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "resumo": "(…) . Por Redação 25 de novembro de 2026 Facebook Twitter Linkedin WhatsApp O email Foto: Gleilson Miranda/Secom Acre A Universidade Federal do Sul e Sudeste do Pará (Unifesspa) selou uma parceria estratégica de pesquisa e de impacto...",
+  "dominio": "portalamazonia.com",
+  "fontes": [
+   "Google",
+   "Portal Amazônia"
+  ],
+  "verificada": true,
+  "mencoes": 8
+ },
+ {
   "data": "2026-11-24",
   "veiculo": "xinguara.pa.gov.br",
   "titulo": "Campanha Mamas Protegidas oferece atendimento gratuito para cães e gatos em Xinguara",
@@ -98,6 +133,24 @@
   "dominio": "diariodopara.com.br",
   "fontes": [
    "Google",
+   "Diário do Pará"
+  ],
+  "verificada": true,
+  "mencoes": 0,
+  "descartada": true,
+  "motivo": "O texto da matéria não cita a Unifesspa."
+ },
+ {
+  "data": "2026-11-24",
+  "veiculo": "Diário do Pará",
+  "titulo": "Tudo sobre Concursos & Empregos",
+  "link": "https://diariodopara.com.br/concursos-e-empregos/page/456",
+  "termos": [
+   "Unifesspa"
+  ],
+  "resumo": "23/08/22 Concursos & Empregos Vai fazer o concurso da PGE? Local de prova já disponível Com um salário de R$ 10 mil, o concurso público para a Procuradoria-Geral do Estado do Pará (PGE-PA) tornou-se um dos mais aguardados pelos...",
+  "dominio": "diariodopara.com.br",
+  "fontes": [
    "Diário do Pará"
   ],
   "verificada": true,
@@ -220,6 +273,24 @@
  {
   "data": "2026-11-24",
   "veiculo": "Correio de Carajás",
+  "titulo": "Violência doméstica matou cinco mulheres por hora em 2025, afirma ONU",
+  "link": "https://correiodecarajas.com.br/violencia-domestica-matou-cinco-mulheres-por-hora-em-2025-afirma-onu",
+  "termos": [
+   "Unifesspa"
+  ],
+  "resumo": "Mais de 47 mil mulheres e meninas foram assassinadas por parceiros íntimos ou familiares em todo o mundo em 2025. Isso significa que, em média, uma mulher ou menina foi morta a cada 11 minutos, quase ...",
+  "dominio": "correiodecarajas.com.br",
+  "fontes": [
+   "Bing"
+  ],
+  "verificada": true,
+  "mencoes": 0,
+  "descartada": true,
+  "motivo": "O texto da matéria não cita a Unifesspa."
+ },
+ {
+  "data": "2026-11-24",
+  "veiculo": "Correio de Carajás",
   "titulo": "Projeto da Unifesspa conquista 2º lugar em inovação pública",
   "link": "https://correiodecarajas.com.br/projeto-da-unifesspa-conquista-2o-lugar-em-inovacao-publica",
   "termos": [
@@ -233,7 +304,8 @@
   "fontes": [
    "Google",
    "Correio de Carajás",
-   "Correio de Carajás (feed)"
+   "Correio de Carajás (feed)",
+   "Alerta do Google"
   ],
   "verificada": true,
   "mencoes": 7
@@ -283,6 +355,24 @@
    "Unifesspa"
   ],
   "resumo": "Um caso envolvendo violência extrema contra a mulher aconteceu na Vila Planalto, a 17 quilômetros da sede urbana de Canaã dos Carajás. Camila Araújo foi atingida com mais de 30 golpes de canivete. Ape ...",
+  "dominio": "correiodecarajas.com.br",
+  "fontes": [
+   "Bing"
+  ],
+  "verificada": true,
+  "mencoes": 0,
+  "descartada": true,
+  "motivo": "O texto da matéria não cita a Unifesspa."
+ },
+ {
+  "data": "2026-11-24",
+  "veiculo": "Correio de Carajás",
+  "titulo": "Corpo de homem é encontrado no Rio Itacaiunas, em Marabá",
+  "link": "https://correiodecarajas.com.br/corpo-de-homem-e-encontrado-no-rio-itacaiunas-em-maraba",
+  "termos": [
+   "Unifesspa"
+  ],
+  "resumo": "O corpo de um homem ainda não identificado foi resgatado no fim da tarde desta segunda-feira (23), no Rio Itacaiunas, nas proximidades da orla do bairro Amapá, Núcleo Cidade Nova. O cadáver estava par ...",
   "dominio": "correiodecarajas.com.br",
   "fontes": [
    "Bing"

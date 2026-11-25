@@ -1,17 +1,17 @@
 {
- "quando": "2026-11-24T20:19:31",
- "novas": 71,
- "descartadas": 68,
- "total": 1028,
+ "quando": "2026-11-25T19:27:56",
+ "novas": 5,
+ "descartadas": 3,
+ "total": 1033,
  "consultas": 162,
- "falhas": 4,
+ "falhas": 11,
  "por_fonte": {
-  "Google": 9,
+  "Google": 1,
   "Bing": 2,
   "GDELT": 0,
   "Zé Dudu": 0,
-  "Correio de Carajás": 1,
-  "Portal Canaã": 1,
+  "Correio de Carajás": 0,
+  "Portal Canaã": 0,
   "Portal Pebão": 0,
   "Blog do Hiroshi Bogéa": 0,
   "Portal Debate Carajás": 0,
@@ -19,9 +19,8 @@
   "Fato Regional": 0,
   "Portal Amazônia": 0,
   "Carajás O Jornal": 0,
-  "Portal Infopebas": 1,
+  "Portal Infopebas": 0,
   "Portal Chocopeba": 0,
-  "Jornal A Notícia (AN10)": 0,
   "Sudeste Paraense": 0,
   "Canaã Notícias": 0,
   "Gazeta Carajás": 0,
@@ -54,9 +53,9 @@
   "Estado do Pará Online (Bing)": 0,
   "Rede Brasil de Televisão": 0,
   "Rede Brasil de Televisão (Bing)": 0,
-  "Diário do Pará": 55,
+  "Diário do Pará": 1,
   "Diário do Pará (Bing)": 0,
-  "Zé Dudu (feed)": 1,
+  "Zé Dudu (feed)": 0,
   "Correio de Carajás (feed)": 0,
   "Portal Canaã (feed)": 0,
   "Portal Pebão (feed)": 0,
@@ -279,6 +278,14 @@
     "jusbrasil.com.br"
    ],
    "exemplo": "Petição - TRF1 - Ação Ingresso no Curso Superior - Apelação Cível - contra Unive"
+  },
+  {
+   "dominio": "seeklogo.com",
+   "materias": 1,
+   "nomes": [
+    "seeklogo.com"
+   ],
+   "exemplo": "Universidade Federal do Sul e Sudeste do Pará Logo PNG Vector - Seeklogo"
   },
   {
    "dominio": "xinguara.pa.gov.br",
