@@ -1,13 +1,13 @@
 {
- "quando": "2026-11-25T19:27:56",
- "novas": 5,
- "descartadas": 3,
- "total": 1033,
+ "quando": "2026-11-26T19:10:47",
+ "novas": 14,
+ "descartadas": 2,
+ "total": 1047,
  "consultas": 162,
- "falhas": 11,
+ "falhas": 24,
  "por_fonte": {
-  "Google": 1,
-  "Bing": 2,
+  "Google": 5,
+  "Bing": 4,
   "GDELT": 0,
   "Zé Dudu": 0,
   "Correio de Carajás": 0,
@@ -15,11 +15,9 @@
   "Portal Pebão": 0,
   "Blog do Hiroshi Bogéa": 0,
   "Portal Debate Carajás": 0,
-  "Pebinha de Açúcar": 0,
   "Fato Regional": 0,
   "Portal Amazônia": 0,
   "Carajás O Jornal": 0,
-  "Portal Infopebas": 0,
   "Portal Chocopeba": 0,
   "Sudeste Paraense": 0,
   "Canaã Notícias": 0,
@@ -35,8 +33,8 @@
   "Sindtifes-PA (Bing)": 0,
   "ADUNIFESSPA": 0,
   "ADUNIFESSPA (Bing)": 0,
-  "Blog do Branco": 0,
   "Blog do Branco (Bing)": 0,
+  "Blog do Branco": 0,
   "Carajás em Foco": 0,
   "Carajás em Foco (Bing)": 0,
   "Xinguara Ativa": 0,
@@ -53,7 +51,7 @@
   "Estado do Pará Online (Bing)": 0,
   "Rede Brasil de Televisão": 0,
   "Rede Brasil de Televisão (Bing)": 0,
-  "Diário do Pará": 1,
+  "Diário do Pará": 0,
   "Diário do Pará (Bing)": 0,
   "Zé Dudu (feed)": 0,
   "Correio de Carajás (feed)": 0,
@@ -70,8 +68,7 @@
   "Jornal A Notícia (AN10) (feed)": 0,
   "Sudeste Paraense (feed)": 0,
   "Canaã Notícias (feed)": 0,
-  "Alerta do Google": 1,
-  "Gazeta Carajás (sitemap)": 0
+  "Alerta do Google": 5
  },
  "sem_nome": [
   {
@@ -91,6 +88,14 @@
    "exemplo": "Questão 2357796 de Veterinária - CEPS UFPA 2018 - Portal Concursos"
   },
   {
+   "dominio": "querolicitacao.com.br",
+   "materias": 3,
+   "nomes": [
+    "querolicitacao.com.br"
+   ],
+   "exemplo": "Registro de preços para a… · Pregão 8/2026 · Marabá/PA - Quero Licitação"
+  },
+  {
    "dominio": "www12.senado.leg.br",
    "materias": 3,
    "nomes": [
@@ -106,6 +111,14 @@
     "portalpara24horas.com.br"
    ],
    "exemplo": "Mestrado em planejamento urbano na Unifesspa abre 16 vagas para turma de 2027"
+  },
+  {
+   "dominio": "proceedings.science",
+   "materias": 3,
+   "nomes": [
+    "proceedings.science"
+   ],
+   "exemplo": "Paiá News e as discussões da COP30 no Pará: práticas de um jornalismo audiovisua"
   },
   {
    "dominio": "gov.br",
@@ -135,20 +148,20 @@
    "exemplo": "Pesquisador ligado à UFNT ganha prêmio da Unicamp por estudos sobre memória e .."
   },
   {
+   "dominio": "atlaspublico.com.br",
+   "materias": 2,
+   "nomes": [
+    "atlaspublico"
+   ],
+   "exemplo": "Universidade Federal do Sul e Sudeste do para - Unifesspa"
+  },
+  {
    "dominio": "uruatapera.com",
    "materias": 2,
    "nomes": [
     "uruatapera.com"
    ],
    "exemplo": "Unifesspa firma acordo na China e entrega título honoris causa a Dilma Rousseff"
-  },
-  {
-   "dominio": "querolicitacao.com.br",
-   "materias": 2,
-   "nomes": [
-    "querolicitacao.com.br"
-   ],
-   "exemplo": "Prestação continuada de serviços de… · 85/2026 · Marabá/PA - Quero Licitação"
   },
   {
    "dominio": "periodicos.fclar.unesp.br",
@@ -280,12 +293,28 @@
    "exemplo": "Petição - TRF1 - Ação Ingresso no Curso Superior - Apelação Cível - contra Unive"
   },
   {
+   "dominio": "site.cff.org.br",
+   "materias": 1,
+   "nomes": [
+    "Conselho Federal de Farmácia"
+   ],
+   "exemplo": "Controle da venda de antibióticos avançou, mas uso inadequado ainda desafia o Br"
+  },
+  {
    "dominio": "seeklogo.com",
    "materias": 1,
    "nomes": [
     "seeklogo.com"
    ],
    "exemplo": "Universidade Federal do Sul e Sudeste do Pará Logo PNG Vector - Seeklogo"
+  },
+  {
+   "dominio": "ojs.veredasjournal.com",
+   "materias": 1,
+   "nomes": [
+    "ojs.veredasjournal.com"
+   ],
+   "exemplo": "challenges and opportunities for the ethical, critical, and responsible use of g"
   },
   {
    "dominio": "xinguara.pa.gov.br",
@@ -926,14 +955,6 @@
     "guiadeguarnicoes.com"
    ],
    "exemplo": "Morar em Marabá-PA: guia da guarnição para militares e famílias"
-  },
-  {
-   "dominio": "atlaspublico.com.br",
-   "materias": 1,
-   "nomes": [
-    "atlaspublico"
-   ],
-   "exemplo": "Ibama convoca audiência pública sobre projeto de cobre e ouro da Vale na Flona d"
   },
   {
    "dominio": "plural.jor.br",

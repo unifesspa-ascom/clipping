@@ -1,5 +1,124 @@
 [
  {
+  "data": "2026-11-26",
+  "veiculo": "Zé Dudu",
+  "titulo": "Prefeita de Canaã dos Carajás sanciona lei que cria a cidade universitária multicampi",
+  "link": "https://www.zedudu.com.br/prefeita-de-canaa-dos-carajas-sanciona-lei-que-cria-a-cidade-universitaria-multicampi",
+  "termos": [
+   "Universidade Federal do Sul e Sudeste do Pará",
+   "Unifesspa",
+   "Feed do veículo"
+  ],
+  "resumo": "NEI Luiza Pereira Lima amplia o atendimento à primeira infância em Canaã dos Carajás A nova unidade é a sexta a ser inaugurada e reforça a oferta de vagas na educação infantil. Outras escolas estão em fase de obras nos bairros Cidade Nova,...",
+  "dominio": "zedudu.com.br",
+  "fontes": [
+   "Google",
+   "Zé Dudu",
+   "Zé Dudu (feed)"
+  ],
+  "verificada": true,
+  "mencoes": 4
+ },
+ {
+  "data": "2026-11-26",
+  "veiculo": "Portal Debate Carajás",
+  "titulo": "Veterinário de 25 anos morre após carro colidir contra poste na BR-222, em Marabá",
+  "link": "https://debatecarajas.com.br/veterinario-de-25-anos-morre-apos-carro-colidir-contra-poste-na-br-222-em-maraba",
+  "termos": [
+   "Universidade Federal do Sul e Sudeste do Pará",
+   "Unifesspa",
+   "Feed do veículo"
+  ],
+  "resumo": "Veterinário de 25 anos morre após carro colidir contra poste na BR-222, em Marabá Leia mais",
+  "dominio": "debatecarajas.com.br",
+  "fontes": [
+   "Google",
+   "Portal Debate Carajás",
+   "Portal Debate Carajás (feed)"
+  ],
+  "verificada": true,
+  "mencoes": 2
+ },
+ {
+  "data": "2026-11-26",
+  "veiculo": "Correio de Carajás",
+  "titulo": "Unifesspa vai mapear saúde de 8 mil trabalhadores na Amazônia",
+  "link": "https://correiodecarajas.com.br/unifesspa-vai-mapear-saude-de-8-mil-trabalhadores-na-amazonia",
+  "termos": [
+   "Unifesspa",
+   "Universidade Federal do Sul e Sudeste do Pará",
+   "Feed do veículo"
+  ],
+  "resumo": "📅 Publicado em 26/11/2026 08h23 ✏️ Atualizado em 26/11/2026 15h06 A Universidade Federal do Sul e Sudeste do Pará (Unifesspa) sela uma parceria estratégica e de grande impacto regional ao integrar o projeto IARA-SAÚDE (Investigação Ampla...",
+  "dominio": "correiodecarajas.com.br",
+  "fontes": [
+   "Google",
+   "Correio de Carajás",
+   "Correio de Carajás (feed)",
+   "Alerta do Google"
+  ],
+  "verificada": true,
+  "mencoes": 7
+ },
+ {
+  "data": "2026-11-26",
+  "veiculo": "Correio de Carajás",
+  "titulo": "PF cumpre 18 mandados e bloqueia R$ 28,5 milhões por fraudes na educação de Xinguara",
+  "link": "https://correiodecarajas.com.br/pf-cumpre-18-mandados-e-bloqueia-r-285-milhoes-por-fraudes-na-educacao-de-xinguara",
+  "termos": [
+   "Unifesspa"
+  ],
+  "resumo": "A Polícia Federal deflagrou, nesta quinta-feira (26), a Operação Conversão, em Xinguara, no sul do Pará, para investigar suspeitas de fraude em licitações do transporte escolar, desvio de recursos do ...",
+  "dominio": "correiodecarajas.com.br",
+  "fontes": [
+   "Bing"
+  ],
+  "verificada": true,
+  "mencoes": 0,
+  "descartada": true,
+  "motivo": "O texto da matéria não cita a Unifesspa."
+ },
+ {
+  "data": "2026-11-26",
+  "veiculo": "Correio de Carajás",
+  "titulo": "Médico veterinário de 25 anos morre em acidente na Nova Marabá",
+  "link": "https://correiodecarajas.com.br/medico-veterinario-de-25-anos-morre-em-acidente-na-nova-maraba",
+  "termos": [
+   "Universidade Federal do Sul e Sudeste do Pará",
+   "Unifesspa",
+   "Feed do veículo"
+  ],
+  "resumo": "(…) s, mas é menor que Salobo Formado em Medicina Veterinária pelo Instituto de Estudos em Saúde e Biológicas (IETU) da Universidade Federal do Sul e Sudeste do Pará (Unifesspa), Gabriel teve a trajetória marcada pela participação ativa na...",
+  "dominio": "correiodecarajas.com.br",
+  "fontes": [
+   "Google",
+   "Bing",
+   "Correio de Carajás",
+   "Correio de Carajás (feed)"
+  ],
+  "verificada": true,
+  "mencoes": 2
+ },
+ {
+  "data": "2026-11-26",
+  "veiculo": "Conselho Federal de Farmácia",
+  "titulo": "Controle da venda de antibióticos avançou, mas uso inadequado ainda desafia o Brasil",
+  "link": "https://site.cff.org.br/noticia/Noticias-gerais/26/11/2026/controle-da-venda-de-antibioticos-avancou-mas-uso-inadequado-ainda-desafia-o-brasil",
+  "termos": [
+   "Unifesspa",
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "resumo": "(…) niversidade de Gurupi (UnirG), e reúne pesquisadores de instituições como a Universidade Federal do Pará (UFPA) e a Universidade Federal do Sul e Sudeste do Pará (Unifesspa). Os autores analisaram estudos publicados entre 2010 e 2025 e...",
+  "dominio": "site.cff.org.br",
+  "fontes": [
+   "Google",
+   "Bing",
+   "Alerta do Google"
+  ],
+  "verificada": true,
+  "mencoes": 2
+ },
+ {
   "data": "2026-11-25",
   "veiculo": "seeklogo.com",
   "titulo": "Universidade Federal do Sul e Sudeste do Pará Logo PNG Vector - Seeklogo",
@@ -18,6 +137,74 @@
  },
  {
   "data": "2026-11-25",
+  "veiculo": "querolicitacao.com.br",
+  "titulo": "Registro de preços para a… · Pregão 8/2026 · Marabá/PA - Quero Licitação",
+  "link": "https://querolicitacao.com.br/licitacoes/registro-de-precos-para-a-eventual-aquisicao-de-equipamentos-de-tecnologia-da-informacao-e-comunicac/18657063000180-1-000033/2026",
+  "termos": [
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "resumo": "... Universidade Federal do Sul e Sudeste do Pará , conforme condições, quantidades e exigências estabelecidas neste Edital e seus anexos. Classificação ...",
+  "dominio": "querolicitacao.com.br",
+  "fontes": [
+   "Alerta do Google"
+  ],
+  "verificada": true,
+  "mencoes": 6
+ },
+ {
+  "data": "2026-11-25",
+  "veiculo": "ojs.veredasjournal.com",
+  "titulo": "challenges and opportunities for the ethical, critical, and responsible use of generative artificial",
+  "link": "https://ojs.veredasjournal.com/index.php/veredas/article/download/8157/29286/45427",
+  "termos": [
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "resumo": "* Universidade Federal do Sul e Sudeste do Pará , Marabá, Pará, Brasil. Orcid: https://orcid.org/0009-0001-9181-1145 · ronaldopaivasantos2018@gmail.com.",
+  "dominio": "ojs.veredasjournal.com",
+  "fontes": [
+   "Alerta do Google"
+  ],
+  "verificada": true,
+  "mencoes": 1
+ },
+ {
+  "data": "2026-11-25",
+  "veiculo": "atlaspublico",
+  "titulo": "Universidade Federal do Sul e Sudeste do para - Unifesspa",
+  "link": "https://atlaspublico.com.br/empresa/18657063000180",
+  "termos": [
+   "Unifesspa"
+  ],
+  "resumo": "Ativa, aberta em 2013 em Maraba/PA, CNPJ 18657063000180. Telefone, e-mail, endereço e o que consta em sanções, contratos públicos, processos e dívida ativa.",
+  "dominio": "atlaspublico.com.br",
+  "fontes": [
+   "Bing"
+  ],
+  "verificada": true,
+  "mencoes": 2
+ },
+ {
+  "data": "2026-11-25",
+  "veiculo": "Roma News",
+  "titulo": "Do caminhão sem motorista ao drone que semeia floresta: o uso de inteligência artificial na nova mineração do Pará",
+  "link": "https://www.romanews.com.br/sustentabilidade/do-caminhao-sem-motorista-ao-drone-que-semeia-floresta-o-uso-de-inteligencia-artificial-na-nova-mineracao-do-para-1126",
+  "termos": [
+   "Unifesspa",
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "resumo": "(…) ervas nem uma previsão de produção comercial. Formação científica e desenvolvimento industrial no Pará Em Marabá, a Universidade Federal do Sul e Sudeste do Pará (Unifesspa) e o Instituto Tecnológico Vale (ITV) mantêm um mestrado...",
+  "dominio": "romanews.com.br",
+  "fontes": [
+   "Bing",
+   "Roma News",
+   "Roma News (Bing)",
+   "Alerta do Google"
+  ],
+  "verificada": true,
+  "mencoes": 2
+ },
+ {
+  "data": "2026-11-25",
   "veiculo": "Portal Amazônia",
   "titulo": "Parceria cria rede de pesquisa inédita para mapear saúde de 8 mil trabalhadores na Amazônia",
   "link": "https://portalamazonia.com/educacao/rede-pesquisa-saude-amazonia",
@@ -29,7 +216,9 @@
   "dominio": "portalamazonia.com",
   "fontes": [
    "Google",
-   "Portal Amazônia"
+   "Portal Amazônia",
+   "Bing",
+   "Alerta do Google"
   ],
   "verificada": true,
   "mencoes": 8
@@ -397,6 +586,24 @@
   ],
   "verificada": true,
   "mencoes": 4
+ },
+ {
+  "data": "2026-11-23",
+  "veiculo": "GOV.BR",
+  "titulo": "Cursos de formação continuada dos CERFOCS: editais publicados",
+  "link": "https://www.gov.br/mec/pt-br/area-de-testes/documentos-teste",
+  "termos": [
+   "Unifesspa"
+  ],
+  "resumo": "As inscrições são feitas diretamente na instituição ofertante. A seguir estão os cursos de cada estado, com o número de vagas, o período de inscrição e o link do edital. O público, os requisitos e o ...",
+  "dominio": "gov.br",
+  "fontes": [
+   "Bing"
+  ],
+  "verificada": true,
+  "mencoes": 0,
+  "descartada": true,
+  "motivo": "Não foi possível ler a matéria, e nem o título nem o resumo (o que a busca já trouxe) citam a Unifesspa."
  },
  {
   "data": "2026-11-23",
@@ -991,7 +1198,8 @@
   "resumo": "Mais Diário do Pará no seu Google! Um clique para dar preferência às notícias do Pará Adicionar Mais Diário do Pará no seu Google! Um clique para dar preferência às notícias do Pará Adicionar Jardim pode deixar o Flamengo após título,...",
   "dominio": "diariodopara.com.br",
   "fontes": [
-   "Diário do Pará"
+   "Diário do Pará",
+   "Google"
   ],
   "verificada": true,
   "mencoes": 0,
@@ -6114,6 +6322,23 @@
   ],
   "verificada": true,
   "mencoes": 4
+ },
+ {
+  "data": "2026-11-04",
+  "veiculo": "proceedings.science",
+  "titulo": "Paiá News e as discussões da COP30 no Pará: práticas de um jornalismo audiovisual ...",
+  "link": "https://proceedings.science/proceedings/sbpjor-2026/paper/233915?lang=pt-br",
+  "termos": [
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "resumo": "1 Universidade Federal do Sul e Sudeste do Pará . Área de Avaliação. TELEJOR - Coberturas especiais: experiência e inovação em Telejornalismo.",
+  "dominio": "proceedings.science",
+  "fontes": [
+   "Alerta do Google"
+  ],
+  "verificada": true,
+  "mencoes": 1,
+  "data_feed": "2026-11-25"
  },
  {
   "data": "2026-11-04",
@@ -17787,6 +18012,23 @@
   "data_feed": "2026-10-30"
  },
  {
+  "data": "2023-10-30",
+  "veiculo": "proceedings.science",
+  "titulo": "A ATUAÇÃO DO GRADUANDO EM SAÚDE COLETIVA NO APOIO DA GERÊNCIA DE ...",
+  "link": "https://proceedings.science/proceedings/cshs-2023/paper/181086?lang=pt-br",
+  "termos": [
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "resumo": "... Universidade Federal do Sul e Sudeste do Pará . Resultados Inicialmente, produziu-se um levantamento de dados das micro-áreas trabalhadas pelos ...",
+  "dominio": "proceedings.science",
+  "fontes": [
+   "Alerta do Google"
+  ],
+  "verificada": true,
+  "mencoes": 1,
+  "data_feed": "2026-11-25"
+ },
+ {
   "data": "2019-01-23",
   "veiculo": "jaderbarbalho.com.br",
   "titulo": "NOTÍCIAS - Jader Barbalho",
@@ -17802,6 +18044,23 @@
   "verificada": true,
   "mencoes": 3,
   "data_feed": "2026-10-17"
+ },
+ {
+  "data": "2019-01-07",
+  "veiculo": "proceedings.science",
+  "titulo": "BALANÇO DE NITROGÊNIO DE NOVILHAS LEITEIRAS SUPLEMENTADAS COM ÁCIDO ...",
+  "link": "https://proceedings.science/proceedings/zootec-2019/paper/105391?lang=pt-br",
+  "termos": [
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "resumo": "Universidade Federal do Sul e Sudeste do Pará ; 2 Universidade Federal da Grande Dourados. Eixo Temático. 2. Nutrição animal. Palavras-chave. Cardol.",
+  "dominio": "proceedings.science",
+  "fontes": [
+   "Alerta do Google"
+  ],
+  "verificada": true,
+  "mencoes": 1,
+  "data_feed": "2026-11-25"
  },
  {
   "data": "2018-07-11",

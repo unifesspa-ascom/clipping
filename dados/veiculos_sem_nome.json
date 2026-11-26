@@ -16,6 +16,14 @@
   "exemplo": "Questão 2357796 de Veterinária - CEPS UFPA 2018 - Portal Concursos"
  },
  {
+  "dominio": "querolicitacao.com.br",
+  "materias": 3,
+  "nomes": [
+   "querolicitacao.com.br"
+  ],
+  "exemplo": "Registro de preços para a… · Pregão 8/2026 · Marabá/PA - Quero Licitação"
+ },
+ {
   "dominio": "www12.senado.leg.br",
   "materias": 3,
   "nomes": [
@@ -31,6 +39,14 @@
    "portalpara24horas.com.br"
   ],
   "exemplo": "Mestrado em planejamento urbano na Unifesspa abre 16 vagas para turma de 2027"
+ },
+ {
+  "dominio": "proceedings.science",
+  "materias": 3,
+  "nomes": [
+   "proceedings.science"
+  ],
+  "exemplo": "Paiá News e as discussões da COP30 no Pará: práticas de um jornalismo audiovisua"
  },
  {
   "dominio": "gov.br",
@@ -60,20 +76,20 @@
   "exemplo": "Pesquisador ligado à UFNT ganha prêmio da Unicamp por estudos sobre memória e .."
  },
  {
+  "dominio": "atlaspublico.com.br",
+  "materias": 2,
+  "nomes": [
+   "atlaspublico"
+  ],
+  "exemplo": "Universidade Federal do Sul e Sudeste do para - Unifesspa"
+ },
+ {
   "dominio": "uruatapera.com",
   "materias": 2,
   "nomes": [
    "uruatapera.com"
   ],
   "exemplo": "Unifesspa firma acordo na China e entrega título honoris causa a Dilma Rousseff"
- },
- {
-  "dominio": "querolicitacao.com.br",
-  "materias": 2,
-  "nomes": [
-   "querolicitacao.com.br"
-  ],
-  "exemplo": "Prestação continuada de serviços de… · 85/2026 · Marabá/PA - Quero Licitação"
  },
  {
   "dominio": "periodicos.fclar.unesp.br",
@@ -205,12 +221,28 @@
   "exemplo": "Petição - TRF1 - Ação Ingresso no Curso Superior - Apelação Cível - contra Unive"
  },
  {
+  "dominio": "site.cff.org.br",
+  "materias": 1,
+  "nomes": [
+   "Conselho Federal de Farmácia"
+  ],
+  "exemplo": "Controle da venda de antibióticos avançou, mas uso inadequado ainda desafia o Br"
+ },
+ {
   "dominio": "seeklogo.com",
   "materias": 1,
   "nomes": [
    "seeklogo.com"
   ],
   "exemplo": "Universidade Federal do Sul e Sudeste do Pará Logo PNG Vector - Seeklogo"
+ },
+ {
+  "dominio": "ojs.veredasjournal.com",
+  "materias": 1,
+  "nomes": [
+   "ojs.veredasjournal.com"
+  ],
+  "exemplo": "challenges and opportunities for the ethical, critical, and responsible use of g"
  },
  {
   "dominio": "xinguara.pa.gov.br",
@@ -851,14 +883,6 @@
    "guiadeguarnicoes.com"
   ],
   "exemplo": "Morar em Marabá-PA: guia da guarnição para militares e famílias"
- },
- {
-  "dominio": "atlaspublico.com.br",
-  "materias": 1,
-  "nomes": [
-   "atlaspublico"
-  ],
-  "exemplo": "Ibama convoca audiência pública sobre projeto de cobre e ouro da Vale na Flona d"
  },
  {
   "dominio": "plural.jor.br",
