@@ -1,5 +1,194 @@
 [
  {
+  "data": "2026-11-27",
+  "veiculo": "mapacultural.pa.gov.br",
+  "titulo": "WORKSHOP de Literatura de Cordel - Mapa cultural do Pará",
+  "link": "https://mapacultural.pa.gov.br/espaco/3297/",
+  "termos": [
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "resumo": "WORKSHOP de Literatura de Cordel ministrado na: Universidade Federal do Sul e Sudeste do Pará . (UNIFESSPA) Unidade III TURMA: Letras com ...",
+  "dominio": "mapacultural.pa.gov.br",
+  "fontes": [
+   "Alerta do Google"
+  ],
+  "verificada": true,
+  "mencoes": 2
+ },
+ {
+  "data": "2026-11-27",
+  "veiculo": "giromixnews.com.br",
+  "titulo": "Unifesspa entrega título de Doutora Honoris Causa a Dilma Rousseff na China",
+  "link": "https://giromixnews.com.br/noticia/a642b47e-0bb0-481b-82e8-03d0c3937c12",
+  "termos": [
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "resumo": "A Universidade Federal do Sul e Sudeste do Pará (Unifesspa) realizou a entrega do título de Doutora Honoris Causa à ex-presidenta da República ...",
+  "dominio": "giromixnews.com.br",
+  "fontes": [
+   "Alerta do Google"
+  ],
+  "verificada": true,
+  "mencoes": 11
+ },
+ {
+  "data": "2026-11-27",
+  "veiculo": "giromixnews.com.br",
+  "titulo": "Livro sobre presença feminina na política de Marabá será lançado nesta sexta-feira",
+  "link": "https://giromixnews.com.br/noticia/29f5be47-f4bb-48be-9b16-8e79d395b197",
+  "termos": [
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "resumo": "... Universidade Federal do Sul e Sudeste do Pará (Unifesspa), na Folha 31, núcleo Nova Marabá. O lançamento é aberto ao público e contará com uma ...",
+  "dominio": "giromixnews.com.br",
+  "fontes": [
+   "Alerta do Google"
+  ],
+  "verificada": true,
+  "mencoes": 4
+ },
+ {
+  "data": "2026-11-27",
+  "veiculo": "Ufopa",
+  "titulo": "Estudantes da Ufopa compartilham saberes da língua Wai Wai e da Libras",
+  "link": "https://ufopa.edu.br/ufopa/comunica/noticias/estudantes-da-ufopa-compartilham-saberes-da-lingua-wai-wai-e-da-libras",
+  "termos": [
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "resumo": "... Universidade Federal do Sul e Sudeste do Pará (Unifesspa), em Marabá. Em correalização com o 16º Festival da Consciência Negra de Marabá, o ...",
+  "dominio": "ufopa.edu.br",
+  "fontes": [
+   "Google",
+   "Alerta do Google"
+  ],
+  "verificada": true,
+  "mencoes": 0,
+  "descartada": true,
+  "motivo": "Não foi possível ler a matéria, e nem o título nem o resumo (o que a busca já trouxe) citam a Unifesspa."
+ },
+ {
+  "data": "2026-11-27",
+  "veiculo": "Gazeta Carajás",
+  "titulo": "Veterinário de 25 anos morre após carro bater contra poste em Marabá",
+  "link": "https://www.gazetacarajas.com/noticia/veterinario-de-25-anos-morre-apos-carro-bater-contra-poste-em-maraba",
+  "termos": [
+   "Unifesspa",
+   "Universidade Federal do Sul e Sudeste do Pará",
+   "Sitemap de notícias"
+  ],
+  "resumo": "(…) no hospital. Gabriel era formado em Medicina Veterinária pelo Instituto de Estudos em Saúde e Biológicas (IETU), da Universidade Federal do Sul e Sudeste do Pará (Unifesspa). A morte precoce do profissional causou comoção entre...",
+  "dominio": "gazetacarajas.com",
+  "fontes": [
+   "Google",
+   "Gazeta Carajás",
+   "Alerta do Google",
+   "Gazeta Carajás (sitemap)"
+  ],
+  "verificada": true,
+  "mencoes": 2
+ },
+ {
+  "data": "2026-11-27",
+  "veiculo": "Diário do Pará",
+  "titulo": "Veterinário de 25 anos morre em acidente na BR-222, em Marabá; veja o que aconteceu",
+  "link": "https://diariodopara.com.br/para/veterinario-de-25-anos-morre-em-acidente-na-br-222-em-maraba-veja-o-que-aconteceu",
+  "termos": [
+   "Unifesspa",
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "resumo": "(…) a, segundo informações preliminares. Socorristas levaram o jovem a um hospital da região, mas ele não resistiu aos ferimentos. Formado pela Unifesspa, ele atuou na proteção da fauna silvestre e em resgates de animais. A prefeitura e o...",
+  "dominio": "diariodopara.com.br",
+  "fontes": [
+   "Google",
+   "Bing",
+   "Diário do Pará (Bing)",
+   "Diário do Pará",
+   "Alerta do Google"
+  ],
+  "verificada": true,
+  "mencoes": 4
+ },
+ {
+  "data": "2026-11-27",
+  "veiculo": "Correio de Carajás",
+  "titulo": "Super El Niño é o primeiro de uma série, alerta climatologista",
+  "link": "https://correiodecarajas.com.br/super-el-nino-e-o-primeiro-de-uma-serie-alerta-climatologista",
+  "termos": [
+   "Unifesspa"
+  ],
+  "resumo": "O Super El Niño, versão mais intensa do fenômeno climático que atinge o planeta e deve se estender pelo verão, é apenas o primeiro de uma série que atingirá os países nos próximos anos. A afirmação ...",
+  "dominio": "correiodecarajas.com.br",
+  "fontes": [
+   "Bing"
+  ],
+  "verificada": true,
+  "mencoes": 0,
+  "descartada": true,
+  "motivo": "O texto da matéria não cita a Unifesspa."
+ },
+ {
+  "data": "2026-11-27",
+  "veiculo": "Correio de Carajás",
+  "titulo": "Livro sobre presença feminina na política será lançado hoje",
+  "link": "https://correiodecarajas.com.br/livro-sobre-presenca-feminina-na-politica-sera-lancado-hoje",
+  "termos": [
+   "Unifesspa",
+   "Universidade Federal do Sul e Sudeste do Pará",
+   "Feed do veículo"
+  ],
+  "resumo": "(…) a. A obra será lançada nesta sexta-feira (27), às 18 horas, em uma noite de autógrafos no auditório da Unidade 1 da Universidade Federal do Sul e Sudeste do Pará (Unifesspa), na Folha 31, núcleo Nova Marabá. O livro é resultado da...",
+  "dominio": "correiodecarajas.com.br",
+  "fontes": [
+   "Google",
+   "Bing",
+   "Correio de Carajás",
+   "Correio de Carajás (feed)",
+   "Alerta do Google"
+  ],
+  "verificada": true,
+  "mencoes": 3
+ },
+ {
+  "data": "2026-11-27",
+  "veiculo": "Correio de Carajás",
+  "titulo": "Dilma recebe título de Doutora Honoris Causa da Unifesspa na China",
+  "link": "https://correiodecarajas.com.br/dilma-recebe-titulo-de-doutora-honoris-causa-da-unifesspa-na-china",
+  "termos": [
+   "Unifesspa",
+   "Universidade Federal do Sul e Sudeste do Pará",
+   "Francisco Ribeiro da Costa",
+   "\"Francisco Ribeiro\" reitor Unifesspa",
+   "Feed do veículo"
+  ],
+  "resumo": "📅 Publicado em 27/11/2026 09h01 A história da Universidade Federal do Sul e Sudeste do Pará (Unifesspa) e a expansão do ensino superior público no Brasil estiveram no centro de um encontro realizado em Xangai, na China, no dia 20 d (…)",
+  "dominio": "correiodecarajas.com.br",
+  "fontes": [
+   "Google",
+   "Bing",
+   "Correio de Carajás",
+   "Correio de Carajás (feed)",
+   "Alerta do Google"
+  ],
+  "verificada": true,
+  "mencoes": 12
+ },
+ {
+  "data": "2026-11-26",
+  "veiculo": "news.folhadoprogresso",
+  "titulo": "Veterinário de 25 anos morre após carro colidir contra poste na BR-222, em Marabá",
+  "link": "https://news.folhadoprogresso.com.br/veterinario-de-25-anos-morre-apos-carro-colidir-contra-poste-na-br-222-em-maraba",
+  "termos": [
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "resumo": "(…) aúde. Gabriel era egresso do curso de Medicina Veterinária do Instituto de Estudos em Saúde e Biológicas (IETU), da Universidade Federal do Sul e Sudeste do Pará (Unifesspa). A notícia de sua morte precoce provocou comoção entre...",
+  "dominio": "news.folhadoprogresso.com.br",
+  "fontes": [
+   "Bing"
+  ],
+  "verificada": true,
+  "mencoes": 2
+ },
+ {
   "data": "2026-11-26",
   "veiculo": "Zé Dudu",
   "titulo": "Prefeita de Canaã dos Carajás sanciona lei que cria a cidade universitária multicampi",
@@ -14,10 +203,52 @@
   "fontes": [
    "Google",
    "Zé Dudu",
-   "Zé Dudu (feed)"
+   "Zé Dudu (feed)",
+   "Alerta do Google"
   ],
   "verificada": true,
   "mencoes": 4
+ },
+ {
+  "data": "2026-11-26",
+  "veiculo": "Roma News",
+  "titulo": "Veterinário morre após sofrer acidente na BR-222 em Marabá, no Pará",
+  "link": "https://www.romanews.com.br/cidades/veterinario-morre-apos-sofrer-acidente-na-br-222-em-maraba-no-para-1126",
+  "termos": [
+   "Universidade Federal do Sul e Sudeste do Pará",
+   "Unifesspa"
+  ],
+  "resumo": "(…) u à gravidade dos ferimentos e morreu após dar entrada na unidade. Gabriel era formado em Medicina Veterinária pela Universidade Federal do Sul e Sudeste do Pará (UNIFESSPA). A morte do médico causou comoção entre familiares e amigos...",
+  "dominio": "romanews.com.br",
+  "fontes": [
+   "Google",
+   "Bing",
+   "Roma News",
+   "Roma News (Bing)",
+   "Alerta do Google"
+  ],
+  "verificada": true,
+  "mencoes": 2
+ },
+ {
+  "data": "2026-11-26",
+  "veiculo": "Prefeitura de Marabá",
+  "titulo": "Educação: Seminário Unificado de Práticas Exitosas valoriza experiências e integra escolas do campo e da cidade",
+  "link": "https://maraba.pa.gov.br/educacao-seminario-unificado-campo-cidade",
+  "termos": [
+   "\"Lucélia Cavalcante\" Unifesspa",
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "resumo": "A abertura contou também com a participação da vice-reitora da Universidade Federal do Sul e Sudeste do Pará (Unifesspa), Lucélia Cavalcante, que ...",
+  "dominio": "maraba.pa.gov.br",
+  "fontes": [
+   "Google",
+   "Alerta do Google"
+  ],
+  "verificada": true,
+  "mencoes": 0,
+  "descartada": true,
+  "motivo": "Não foi possível ler a matéria, e nem o título nem o resumo (o que a busca já trouxe) citam a Unifesspa."
  },
  {
   "data": "2026-11-26",
@@ -34,7 +265,122 @@
   "fontes": [
    "Google",
    "Portal Debate Carajás",
-   "Portal Debate Carajás (feed)"
+   "Portal Debate Carajás (feed)",
+   "Alerta do Google"
+  ],
+  "verificada": true,
+  "mencoes": 2
+ },
+ {
+  "data": "2026-11-26",
+  "veiculo": "Portal & TV Gurupi",
+  "titulo": "Jovem Veterinário Morre Em Trágico Acidente Na BR-222 Em Marabá",
+  "link": "https://portalgurupi.com.br/veterinario-morre-acidente-br222-maraba",
+  "termos": [
+   "Universidade Federal do Sul e Sudeste do Pará",
+   "Unifesspa"
+  ],
+  "resumo": "Últimas Notícias há 1 minutos Nome de Luiz Carlos Trabuco para Ministério da Fazenda é bem recebido no BC e no governo Lula",
+  "dominio": "portalgurupi.com.br",
+  "fontes": [
+   "Google",
+   "Alerta do Google"
+  ],
+  "verificada": true,
+  "mencoes": 3
+ },
+ {
+  "data": "2026-11-26",
+  "veiculo": "O Liberal",
+  "titulo": "Unifesspa - O Liberal",
+  "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBkWFAtcjhLNlFha1FGOFh4ZHVSc2hBQy1tTF8yMXk0TlFTRTdBT1ZueFh3TGkwNUw5QWgxOU9oclJoM0JrM1JFc251V1JYNDdzdnIweWR3?oc=5",
+  "termos": [
+   "Unifesspa"
+  ],
+  "resumo": "",
+  "dominio": "oliberal.com",
+  "fontes": [
+   "O Liberal"
+  ],
+  "verificada": true,
+  "mencoes": 1
+ },
+ {
+  "data": "2026-11-26",
+  "veiculo": "O Liberal",
+  "titulo": "Número de vagas no ensino superior cresce 75% em dez anos no Pará",
+  "link": "https://www.oliberal.com/para/numero-de-vagas-no-ensino-superior-cresce-75-em-dez-anos-no-para-1.1198745",
+  "termos": [
+   "Universidade Federal do Sul e Sudeste do Pará",
+   "Unifesspa"
+  ],
+  "resumo": "(…) , Educação e Tecnologia do Pará (IFPA), Universidade Federal do Pará (UFPA), Universidade do Estado do Pará (UEPA), Universidade Federal do Sul e Sudeste do Pará (Unifesspa), Universidade do Oeste do Pará (Ufopa) e Universidade Federal...",
+  "dominio": "oliberal.com",
+  "fontes": [
+   "Google",
+   "Bing",
+   "O Liberal",
+   "O Liberal (Bing)",
+   "Alerta do Google"
+  ],
+  "verificada": true,
+  "mencoes": 2
+ },
+ {
+  "data": "2026-11-26",
+  "veiculo": "O Liberal",
+  "titulo": "Médico veterinário morre em acidente de trânsito registrado em Marabá",
+  "link": "https://www.oliberal.com/policia/medico-veterinario-morre-em-acidente-de-transito-registrado-em-maraba-1.1198688",
+  "termos": [
+   "Universidade Federal do Sul e Sudeste do Pará",
+   "Unifesspa"
+  ],
+  "resumo": "(…) rada na unidade de saúde. Formado em Medicina Veterinária pelo Instituto de Estudos em Saúde e Biológicas (IETU) da Universidade Federal do Sul e Sudeste do Pará ( Unifesspa ) , Gabriel teve a trajetória marcada pela participação ativa...",
+  "dominio": "oliberal.com",
+  "fontes": [
+   "Google",
+   "Bing",
+   "O Liberal",
+   "O Liberal (Bing)",
+   "Alerta do Google"
+  ],
+  "verificada": true,
+  "mencoes": 2
+ },
+ {
+  "data": "2026-11-26",
+  "veiculo": "GOV.BR",
+  "titulo": "Chamada de Apoio a Eventos de Empreendedorismo e Inovação apoiará 11 ações no 1º semestre de 2027; veja o resultado final",
+  "link": "https://www.gov.br/cnpq/pt-br/assuntos/noticias/cnpq-em-acao/chamada-de-promocao-do-empreendedorismo-e-da-inovacao-apoiara-11-eventos-no-primeiro-semestre-de-2027-confira-o-resultado-final",
+  "termos": [
+   "Unifesspa"
+  ],
+  "resumo": "Foram aprovados 11 projetos, sendo 8 propostas de eventos nacionais e 3 propostas de eventos internacionais, com realização entre 01/01 e 30/06/2027. Confira os eventos aprovados.",
+  "dominio": "gov.br",
+  "fontes": [
+   "Bing"
+  ],
+  "verificada": true,
+  "mencoes": 0,
+  "descartada": true,
+  "motivo": "Não foi possível ler a matéria, e nem o título nem o resumo (o que a busca já trouxe) citam a Unifesspa."
+ },
+ {
+  "data": "2026-11-26",
+  "veiculo": "DOL Carajás",
+  "titulo": "Jovem veterinário de 25 anos morre em acidente na BR-222, em Marabá",
+  "link": "https://dol.com.br/noticias/para/969494/jovem-veterinario-de-25-anos-morre-em-acidente-na-br-222-em-maraba",
+  "termos": [
+   "Universidade Federal do Sul e Sudeste do Pará",
+   "Unifesspa"
+  ],
+  "resumo": "(…) no hospital. Gabriel era formado em Medicina Veterinária pelo Instituto de Estudos em Saúde e Biológicas (IETU), da Universidade Federal do Sul e Sudeste do Pará (Unifesspa). A morte do jovem causou tristeza entre familiares, amigos e...",
+  "dominio": "dol.com.br",
+  "fontes": [
+   "Google",
+   "Bing",
+   "DOL Carajás",
+   "Alerta do Google"
   ],
   "verificada": true,
   "mencoes": 2
@@ -94,7 +440,8 @@
    "Google",
    "Bing",
    "Correio de Carajás",
-   "Correio de Carajás (feed)"
+   "Correio de Carajás (feed)",
+   "Alerta do Google"
   ],
   "verificada": true,
   "mencoes": 2
@@ -114,6 +461,25 @@
    "Google",
    "Bing",
    "Alerta do Google"
+  ],
+  "verificada": true,
+  "mencoes": 2
+ },
+ {
+  "data": "2026-11-26",
+  "veiculo": "Carajás O Jornal",
+  "titulo": "Canaã dos Carajás escreve novo capitulo na história do ensino superior do Pará: Prefeita Josemira Gadelha sanciona lei que cria a cidade universitária Multicampi.",
+  "link": "https://carajasojornal.com.br/canaa-dos-carajas-escreve-novo-capitulo-na-historia-do-ensino-superior-do-para-prefeita-josemira-gadelha-sanciona-lei-que-cria-a-cidade-universitaria-multicampi",
+  "termos": [
+   "Unifesspa",
+   "Universidade Federal do Sul e Sudeste do Pará",
+   "Feed do veículo"
+  ],
+  "resumo": "Anderson Moratorio cobra implantação da Política de Economia Solidária e regularização da Universidade Aberta do Brasil em Parauapebas Leia mais »",
+  "dominio": "carajasojornal.com.br",
+  "fontes": [
+   "Carajás O Jornal",
+   "Carajás O Jornal (feed)"
   ],
   "verificada": true,
   "mencoes": 2
@@ -981,7 +1347,8 @@
   "resumo": "Mais Diário do Pará no seu Google! Um clique para dar preferência às notícias do Pará Adicionar Mais Diário do Pará no seu Google! Um clique para dar preferência às notícias do Pará Adicionar Veja o resumo da notícia Paysandu e Clube do...",
   "dominio": "diariodopara.com.br",
   "fontes": [
-   "Diário do Pará"
+   "Diário do Pará",
+   "Google"
   ],
   "verificada": true,
   "mencoes": 0,
@@ -2189,6 +2556,24 @@
   ],
   "verificada": true,
   "mencoes": 1
+ },
+ {
+  "data": "2026-11-21",
+  "veiculo": "G1 Pará",
+  "titulo": "Da bauxita aos cabos elétricos: como o PA é destaque na cadeia do alumínio e lida com os desafios para a transição energética",
+  "link": "https://g1.globo.com/pa/para/noticia/2026/11/21/da-bauxita-aos-cabos-eletricos-como-o-pa-e-destaque-na-cadeia-do-aluminio-e-lida-com-a-transicao-energetica.ghtml",
+  "termos": [
+   "Unifesspa",
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "resumo": "(…) ecificidades da região amazônica exigem parâmetros e diagnósticos mais rigorosos e abrangentes, segundo o professor Evaldo Gomes Júnior, da Unifesspa. Isso passa pela diversidade ecológica da região, presença de territórios rurais,...",
+  "dominio": "g1.globo.com",
+  "fontes": [
+   "G1 Pará",
+   "G1 Pará (Bing)"
+  ],
+  "verificada": true,
+  "mencoes": 4
  },
  {
   "data": "2026-11-21",
@@ -18133,5 +18518,22 @@
   "verificada": true,
   "mencoes": 5,
   "data_feed": "2026-11-09"
+ },
+ {
+  "data": "2014-01-01",
+  "veiculo": "proceedings.science",
+  "titulo": "AVALIAÇÃO DOS ALUNOS PÚBLICO-ALVO DA EDUCAÇÃO ESPECIAL - Proceedings.Science",
+  "link": "https://proceedings.science/proceedings/cbee6/paper/31130?lang=pt-br",
+  "termos": [
+   "Universidade Federal do Sul e Sudeste do Pará"
+  ],
+  "resumo": "1 Universidade Federal do Sul e Sudeste do Pará /UNIFESSPA; Núcleo de Acessibilidade e Inclusão Acadêmica/NAIA ;. 2 Universidade Federal de São ...",
+  "dominio": "proceedings.science",
+  "fontes": [
+   "Alerta do Google"
+  ],
+  "verificada": true,
+  "mencoes": 4,
+  "data_feed": "2026-11-27"
  }
 ]

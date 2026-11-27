@@ -16,6 +16,22 @@
   "exemplo": "Questão 2357796 de Veterinária - CEPS UFPA 2018 - Portal Concursos"
  },
  {
+  "dominio": "proceedings.science",
+  "materias": 4,
+  "nomes": [
+   "proceedings.science"
+  ],
+  "exemplo": "Paiá News e as discussões da COP30 no Pará: práticas de um jornalismo audiovisua"
+ },
+ {
+  "dominio": "giromixnews.com.br",
+  "materias": 3,
+  "nomes": [
+   "giromixnews.com.br"
+  ],
+  "exemplo": "Unifesspa entrega título de Doutora Honoris Causa a Dilma Rousseff na China"
+ },
+ {
   "dominio": "querolicitacao.com.br",
   "materias": 3,
   "nomes": [
@@ -39,14 +55,6 @@
    "portalpara24horas.com.br"
   ],
   "exemplo": "Mestrado em planejamento urbano na Unifesspa abre 16 vagas para turma de 2027"
- },
- {
-  "dominio": "proceedings.science",
-  "materias": 3,
-  "nomes": [
-   "proceedings.science"
-  ],
-  "exemplo": "Paiá News e as discussões da COP30 no Pará: práticas de um jornalismo audiovisua"
  },
  {
   "dominio": "gov.br",
@@ -74,6 +82,23 @@
    "AF Notícias"
   ],
   "exemplo": "Pesquisador ligado à UFNT ganha prêmio da Unicamp por estudos sobre memória e .."
+ },
+ {
+  "dominio": "news.folhadoprogresso.com.br",
+  "materias": 2,
+  "nomes": [
+   "news.folhadoprogresso",
+   "Jornal Folha do Progresso"
+  ],
+  "exemplo": "Veterinário de 25 anos morre após carro colidir contra poste na BR-222, em Marab"
+ },
+ {
+  "dominio": "portalgurupi.com.br",
+  "materias": 2,
+  "nomes": [
+   "Portal & TV Gurupi"
+  ],
+  "exemplo": "Jovem Veterinário Morre Em Trágico Acidente Na BR-222 Em Marabá"
  },
  {
   "dominio": "atlaspublico.com.br",
@@ -219,6 +244,14 @@
    "jusbrasil.com.br"
   ],
   "exemplo": "Petição - TRF1 - Ação Ingresso no Curso Superior - Apelação Cível - contra Unive"
+ },
+ {
+  "dominio": "mapacultural.pa.gov.br",
+  "materias": 1,
+  "nomes": [
+   "mapacultural.pa.gov.br"
+  ],
+  "exemplo": "WORKSHOP de Literatura de Cordel - Mapa cultural do Pará"
  },
  {
   "dominio": "site.cff.org.br",
@@ -371,14 +404,6 @@
    "comperve.ufrn.br"
   ],
   "exemplo": "PROFLETRAS 02.2025 - Resultado da validação PCD - Comperve"
- },
- {
-  "dominio": "giromixnews.com.br",
-  "materias": 1,
-  "nomes": [
-   "giromixnews.com.br"
-  ],
-  "exemplo": "Inteligência artificial transforma mineração no Pará com monitoramento de equipa"
  },
  {
   "dominio": "ubi.pt",
@@ -955,22 +980,6 @@
    "gtercoa.ufc.br"
   ],
   "exemplo": "G-TERCOA/UFC DESTACA PARTICIPAÇÃO DE PESQUISADORES NO 7º ENCONTRO ..."
- },
- {
-  "dominio": "news.folhadoprogresso.com.br",
-  "materias": 1,
-  "nomes": [
-   "Jornal Folha do Progresso"
-  ],
-  "exemplo": "Unicamp reconhece professor paraense como egresso de destaque"
- },
- {
-  "dominio": "portalgurupi.com.br",
-  "materias": 1,
-  "nomes": [
-   "Portal & TV Gurupi"
-  ],
-  "exemplo": "Flávio Bolsonaro Realiza Carreata Em Marabá Antes Do 2º Turno Das Eleições"
  },
  {
   "dominio": "resmedica.com.br",
