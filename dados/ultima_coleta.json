@@ -1,13 +1,14 @@
 {
- "quando": "2026-11-27T19:09:03",
- "novas": 21,
- "descartadas": 4,
- "total": 1068,
+ "quando": "2026-11-28T17:40:17",
+ "novas": 7,
+ "descartadas": 1,
+ "total": 1075,
  "consultas": 162,
- "falhas": 15,
+ "falhas": 6,
  "por_fonte": {
-  "Google": 11,
-  "Bing": 3,
+  "Google": 0,
+  "Bing": 1,
+  "GDELT": 0,
   "Zé Dudu": 0,
   "Correio de Carajás": 0,
   "Portal Canaã": 0,
@@ -17,7 +18,7 @@
   "Pebinha de Açúcar": 0,
   "Fato Regional": 0,
   "Portal Amazônia": 0,
-  "Carajás O Jornal": 1,
+  "Carajás O Jornal": 0,
   "Portal Infopebas": 0,
   "Portal Chocopeba": 0,
   "Jornal A Notícia (AN10)": 0,
@@ -27,18 +28,19 @@
   "Gazeta Carajás (Bing)": 0,
   "DOL Carajás": 0,
   "DOL Carajás (Bing)": 0,
-  "G1 Pará": 1,
+  "G1 Pará": 0,
   "G1 Pará (Bing)": 0,
   "Rondon Notícias": 0,
   "Rondon Notícias (Bing)": 0,
   "Sindtifes-PA": 0,
   "Sindtifes-PA (Bing)": 0,
-  "ADUNIFESSPA (Bing)": 0,
   "ADUNIFESSPA": 0,
+  "ADUNIFESSPA (Bing)": 0,
   "Blog do Branco": 0,
   "Blog do Branco (Bing)": 0,
   "Carajás em Foco": 0,
   "Carajás em Foco (Bing)": 0,
+  "Xinguara Ativa": 0,
   "Xinguara Ativa (Bing)": 0,
   "Plantão Canaã": 0,
   "Plantão Canaã (Bing)": 0,
@@ -46,15 +48,15 @@
   "Roma News (Bing)": 0,
   "Agência Pará": 0,
   "Agência Pará (Bing)": 0,
-  "O Liberal": 1,
+  "O Liberal": 0,
   "O Liberal (Bing)": 0,
-  "Estado do Pará Online (Bing)": 0,
   "Estado do Pará Online": 0,
+  "Estado do Pará Online (Bing)": 0,
   "Rede Brasil de Televisão": 0,
   "Rede Brasil de Televisão (Bing)": 0,
-  "Diário do Pará (Bing)": 0,
   "Diário do Pará": 0,
-  "Zé Dudu (feed)": 0,
+  "Diário do Pará (Bing)": 0,
+  "Zé Dudu (feed)": 1,
   "Correio de Carajás (feed)": 0,
   "Portal Canaã (feed)": 0,
   "Portal Pebão (feed)": 0,
@@ -69,7 +71,7 @@
   "Jornal A Notícia (AN10) (feed)": 0,
   "Sudeste Paraense (feed)": 0,
   "Canaã Notícias (feed)": 0,
-  "Alerta do Google": 4,
+  "Alerta do Google": 5,
   "Gazeta Carajás (sitemap)": 0
  },
  "sem_nome": [
@@ -80,6 +82,14 @@
     "entretextosassessoria.com.br"
    ],
    "exemplo": "Tratamento de Resíduos Sólidos da Amazônia Oriental (UNIFESSPA) · Grupos de pesq"
+  },
+  {
+   "dominio": "portalpara24horas.com.br",
+   "materias": 4,
+   "nomes": [
+    "portalpara24horas.com.br"
+   ],
+   "exemplo": "Livro resgata memória da atuação feminina na política de Marabá"
   },
   {
    "dominio": "cursosdoportal.com.br",
@@ -96,6 +106,15 @@
     "proceedings.science"
    ],
    "exemplo": "Paiá News e as discussões da COP30 no Pará: práticas de um jornalismo audiovisua"
+  },
+  {
+   "dominio": "pciconcursos.com.br",
+   "materias": 3,
+   "nomes": [
+    "pciconcursos.com.br",
+    "PCI Concursos"
+   ],
+   "exemplo": "Concursos com vagas para Professor Substituto - Vigilância em Saúde"
   },
   {
    "dominio": "giromixnews.com.br",
@@ -121,14 +140,6 @@
     "Senado Federal"
    ],
    "exemplo": "Obras em presídios e combate ao crime na Amazônia terão mais recursos"
-  },
-  {
-   "dominio": "portalpara24horas.com.br",
-   "materias": 3,
-   "nomes": [
-    "portalpara24horas.com.br"
-   ],
-   "exemplo": "Mestrado em planejamento urbano na Unifesspa abre 16 vagas para turma de 2027"
   },
   {
    "dominio": "gov.br",
@@ -271,15 +282,6 @@
    "exemplo": "formação continuada de professores especialistas em - Periódicos Unespar"
   },
   {
-   "dominio": "pciconcursos.com.br",
-   "materias": 2,
-   "nomes": [
-    "pciconcursos.com.br",
-    "PCI Concursos"
-   ],
-   "exemplo": "Concursos com vagas para Professor Substituto - Geografia Regional"
-  },
-  {
    "dominio": "mondru.com",
    "materias": 2,
    "nomes": [
@@ -318,6 +320,30 @@
     "jusbrasil.com.br"
    ],
    "exemplo": "Petição - TRF1 - Ação Ingresso no Curso Superior - Apelação Cível - contra Unive"
+  },
+  {
+   "dominio": "zecanews.com.br",
+   "materias": 1,
+   "nomes": [
+    "zecanews.com.br"
+   ],
+   "exemplo": "Marabá recebe o 16º Referendo Microfone Braille com programação voltada à inclus"
+  },
+  {
+   "dominio": "thiagopublicidade.com.br",
+   "materias": 1,
+   "nomes": [
+    "thiagopublicidade.com.br"
+   ],
+   "exemplo": "Canaã dos Carajás cria por lei a Cidade Universitária Multicampi - Thiago Public"
+  },
+  {
+   "dominio": "preprints.scielo.org",
+   "materias": 1,
+   "nomes": [
+    "preprints.scielo.org"
+   ],
+   "exemplo": "A CRIAÇÃO DA UNIVERSIDADE FEDERAL DO MARAJÓ OCIDENTAL - SciELO Preprints"
   },
   {
    "dominio": "mapacultural.pa.gov.br",

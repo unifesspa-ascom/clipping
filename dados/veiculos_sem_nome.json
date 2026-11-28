@@ -8,6 +8,14 @@
   "exemplo": "Tratamento de Resíduos Sólidos da Amazônia Oriental (UNIFESSPA) · Grupos de pesq"
  },
  {
+  "dominio": "portalpara24horas.com.br",
+  "materias": 4,
+  "nomes": [
+   "portalpara24horas.com.br"
+  ],
+  "exemplo": "Livro resgata memória da atuação feminina na política de Marabá"
+ },
+ {
   "dominio": "cursosdoportal.com.br",
   "materias": 4,
   "nomes": [
@@ -22,6 +30,15 @@
    "proceedings.science"
   ],
   "exemplo": "Paiá News e as discussões da COP30 no Pará: práticas de um jornalismo audiovisua"
+ },
+ {
+  "dominio": "pciconcursos.com.br",
+  "materias": 3,
+  "nomes": [
+   "pciconcursos.com.br",
+   "PCI Concursos"
+  ],
+  "exemplo": "Concursos com vagas para Professor Substituto - Vigilância em Saúde"
  },
  {
   "dominio": "giromixnews.com.br",
@@ -47,14 +64,6 @@
    "Senado Federal"
   ],
   "exemplo": "Obras em presídios e combate ao crime na Amazônia terão mais recursos"
- },
- {
-  "dominio": "portalpara24horas.com.br",
-  "materias": 3,
-  "nomes": [
-   "portalpara24horas.com.br"
-  ],
-  "exemplo": "Mestrado em planejamento urbano na Unifesspa abre 16 vagas para turma de 2027"
  },
  {
   "dominio": "gov.br",
@@ -197,15 +206,6 @@
   "exemplo": "formação continuada de professores especialistas em - Periódicos Unespar"
  },
  {
-  "dominio": "pciconcursos.com.br",
-  "materias": 2,
-  "nomes": [
-   "pciconcursos.com.br",
-   "PCI Concursos"
-  ],
-  "exemplo": "Concursos com vagas para Professor Substituto - Geografia Regional"
- },
- {
   "dominio": "mondru.com",
   "materias": 2,
   "nomes": [
@@ -244,6 +244,30 @@
    "jusbrasil.com.br"
   ],
   "exemplo": "Petição - TRF1 - Ação Ingresso no Curso Superior - Apelação Cível - contra Unive"
+ },
+ {
+  "dominio": "zecanews.com.br",
+  "materias": 1,
+  "nomes": [
+   "zecanews.com.br"
+  ],
+  "exemplo": "Marabá recebe o 16º Referendo Microfone Braille com programação voltada à inclus"
+ },
+ {
+  "dominio": "thiagopublicidade.com.br",
+  "materias": 1,
+  "nomes": [
+   "thiagopublicidade.com.br"
+  ],
+  "exemplo": "Canaã dos Carajás cria por lei a Cidade Universitária Multicampi - Thiago Public"
+ },
+ {
+  "dominio": "preprints.scielo.org",
+  "materias": 1,
+  "nomes": [
+   "preprints.scielo.org"
+  ],
+  "exemplo": "A CRIAÇÃO DA UNIVERSIDADE FEDERAL DO MARAJÓ OCIDENTAL - SciELO Preprints"
  },
  {
   "dominio": "mapacultural.pa.gov.br",
